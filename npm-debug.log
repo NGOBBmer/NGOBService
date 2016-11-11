@@ -9,7 +9,7 @@
 6 silly lifecycle mock-api@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle mock-api@0.0.0~start: mock-api@0.0.0
 8 verbose lifecycle mock-api@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle mock-api@0.0.0~start: PATH: /home/eder/.nvm/versions/node/v4.2.6/lib/node_modules/npm/bin/node-gyp-bin:/home/eder/Projects/mock-api/node_modules/.bin:/home/eder/bin:/home/eder/.nvm/versions/node/v4.2.6/bin:/home/eder/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle mock-api@0.0.0~start: PATH: /home/eder/.nvm/versions/node/v4.2.6/lib/node_modules/npm/bin/node-gyp-bin:/home/eder/Projects/mock-api/node_modules/.bin:/usr/local/heroku/bin:/home/eder/bin:/home/eder/.nvm/versions/node/v4.2.6/bin:/home/eder/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 10 verbose lifecycle mock-api@0.0.0~start: CWD: /home/eder/Projects/mock-api
 11 silly lifecycle mock-api@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle mock-api@0.0.0~start: Returned: code: 1  signal: null
