@@ -9,7 +9,7 @@ router.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-router.get('/expanded-card', function(req, res, next) {
+router.get('/list', function(req, res, next) {
   res.json({
   "data":[
     {
