@@ -9,7 +9,7 @@ router.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-router.get('/list', function(req, res, next) {
+router.get('/V00/cards', function(req, res, next) {
   res.json({
     cards: [
       {
