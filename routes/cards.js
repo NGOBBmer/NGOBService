@@ -365,6 +365,7 @@ router.get('/V00/cards', function(req, res, next) {
 });
 router.get('/V00/promotions', function(req, res, next) {
   res.json({
+    "data":{
       cols: [
         {
           key: 'date',
@@ -646,11 +647,13 @@ router.get('/V00/promotions', function(req, res, next) {
         },
 
       ]
-    });
+    }
+  });
 });
 
 router.get('/V00/efectivoInmediato', function(req, res, next) {
   res.json({
+    "data":{
       cols: [
         {
           key: 'date',
@@ -932,11 +935,13 @@ router.get('/V00/efectivoInmediato', function(req, res, next) {
         },
 
       ]
-    });
+    }
+  });
 });
 
 router.get('/V00/planPagosFijos', function(req, res, next) {
   res.json({
+    "data":{
       cols: [
         {
           key: 'date',
@@ -1098,7 +1103,8 @@ router.get('/V00/planPagosFijos', function(req, res, next) {
         },
 
       ]
-    });
+    }
+});
 });
 
 module.exports = router;
