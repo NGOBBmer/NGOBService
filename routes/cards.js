@@ -651,7 +651,7 @@ router.get('/V00/promotions', function(req, res, next) {
   });
 });
 
-router.get('/V00/efectivoInmediato', function(req, res, next) {
+router.get('/V00/instantMoney', function(req, res, next) {
   res.json({
     "data":{
       cols: [
@@ -939,7 +939,7 @@ router.get('/V00/efectivoInmediato', function(req, res, next) {
   });
 });
 
-router.get('/V00/planPagosFijos', function(req, res, next) {
+router.get('/V00/fixedPaymentsPlan', function(req, res, next) {
   res.json({
     "data":{
       cols: [
