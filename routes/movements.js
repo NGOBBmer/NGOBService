@@ -9,7 +9,14 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-router.get('/list', function(req, res, next) {
+router.get('/movements:id', function(req, res, next) {
+  var cardId = req.param('cardId');
+  var period = req.param('period');
+  var initialDate = req.param('initialDate');
+  var finalDate = req.param('finalDate');
+  var paginationKey = req.param('paginationKey');
+  var numMovements = req.param('numMovements');
+  var additionalCardId = req.param('additionalCardId');
   res.json({
       "data": [{
           "listMovements": [{

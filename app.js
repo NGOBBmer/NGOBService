@@ -28,14 +28,13 @@ app.use('/', routes);
 app.use('/cards', cards);
 app.use('/expanded-card', expandedCard);
 app.use('/auth', auth);
-app.use('/cards/movements', movements);
+app.use('/cards', movements);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
-
 // error handlers
 
 // development error handler
