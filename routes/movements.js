@@ -11,8 +11,202 @@ router.use(function(req, res, next) {
 });
 router.get('/movements/:id', function(req, res, next) {
     if (req.query.additionalCardId == '4162945006') {
-        res.json({
-            "data": [{
+        if(req.query.paginationKey){
+            return res.json({
+                "data": [{
+                    "listMovements": [
+                    {
+                    "operationDate": "05/02/2016",
+                    "reference": "74931616069981002667651",
+                    "concept": "BEST BUY",
+                    "amount": {
+                        "amount": "130",
+                        "currency": "MXN"
+                    },
+                    "postedBalance": {
+                        "amount": "130",
+                        "currency": "MXN"
+                    },
+                    "card": {
+                        "idSubCard": "TJ0000",
+                        "card": "****1924",
+                        "participant": "TIT."
+                    },
+                    "category": "G",
+                    "type": "Cargo",
+                    "rewardsGenerated": "",
+                    "rewardsconsumed": "",
+                    "deferred": false,
+                    "movementPending": true
+                }, {
+                    "operationDate": "10/03/2016",
+                    "reference": "74931616070981002668011",
+                    "concept": "SAT REFERENCIADO",
+                    "amount": {
+                        "amount": "116",
+                        "currency": "MXN"
+                    },
+                    "postedBalance": {
+                        "amount": "116",
+                        "currency": "MXN"
+                    },
+                    "card": {
+                        "idSubCard": "TJ0000",
+                        "card": "****1924",
+                        "participant": "TIT."
+                    },
+                    "category": "G",
+                    "type": "Cargo",
+                    "rewardsGenerated": "",
+                    "rewardsconsumed": "",
+                    "deferred": false,
+                    "movementPending": false
+                }, {
+                    "operationDate": "11/05/2016",
+                    "reference": "74931616071981002668408",
+                    "concept": "OXXO",
+                    "amount": {
+                        "amount": "48",
+                        "currency": "MXN"
+                    },
+                    "postedBalance": {
+                        "amount": "48",
+                        "currency": "MXN"
+                    },
+                    "card": {
+                        "idSubCard": "TJ0000",
+                        "card": "****1924",
+                        "participant": "TIT."
+                    },
+                    "category": "G",
+                    "type": "Cargo",
+                    "rewardsGenerated": "",
+                    "rewardsconsumed": "",
+                    "deferred": false,
+                    "movementPending": false
+                }, {
+                    "operationDate": "1/02/2016",
+                    "reference": "05933901071936502668504",
+                    "concept": "STARBUCKS",
+                    "amount": {
+                        "amount": "59",
+                        "currency": "MXN"
+                    },
+                    "postedBalance": {
+                        "amount": "59",
+                        "currency": "MXN"
+                    },
+                    "card": {
+                        "idSubCard": "TJ0000",
+                        "card": "****1924",
+                        "participant": "TIT."
+                    },
+                    "category": "G",
+                    "type": "Cargo",
+                    "rewardsGenerated": "",
+                    "rewardsconsumed": "",
+                    "deferred": false,
+                    "movementPending": false
+                },
+                    {
+                        "operationDate": "05/02/2016",
+                        "reference": "74931616069981002667651",
+                        "concept": "PAGINATION KEY",
+                        "amount": {
+                            "amount": "130",
+                            "currency": "MXN"
+                        },
+                        "postedBalance": {
+                            "amount": "130",
+                            "currency": "MXN"
+                        },
+                        "card": {
+                            "idSubCard": "TJ0000",
+                            "card": "****1924",
+                            "participant": "TIT."
+                        },
+                        "category": "G",
+                        "type": "Cargo",
+                        "rewardsGenerated": "",
+                        "rewardsconsumed": "",
+                        "deferred": false,
+                        "movementPending": true
+                    }, {
+                        "operationDate": "10/03/2016",
+                        "reference": "74931616070981002668011",
+                        "concept": "SAT REFERENCIADO",
+                        "amount": {
+                            "amount": "116",
+                            "currency": "MXN"
+                        },
+                        "postedBalance": {
+                            "amount": "116",
+                            "currency": "MXN"
+                        },
+                        "card": {
+                            "idSubCard": "TJ0000",
+                            "card": "****1924",
+                            "participant": "TIT."
+                        },
+                        "category": "G",
+                        "type": "Cargo",
+                        "rewardsGenerated": "",
+                        "rewardsconsumed": "",
+                        "deferred": false,
+                        "movementPending": false
+                    }, {
+                        "operationDate": "11/05/2016",
+                        "reference": "74931616071981002668408",
+                        "concept": "OXXO",
+                        "amount": {
+                            "amount": "48",
+                            "currency": "MXN"
+                        },
+                        "postedBalance": {
+                            "amount": "48",
+                            "currency": "MXN"
+                        },
+                        "card": {
+                            "idSubCard": "TJ0000",
+                            "card": "****1924",
+                            "participant": "TIT."
+                        },
+                        "category": "G",
+                        "type": "Cargo",
+                        "rewardsGenerated": "",
+                        "rewardsconsumed": "",
+                        "deferred": false,
+                        "movementPending": false
+                    }, {
+                        "operationDate": "1/02/2016",
+                        "reference": "05933901071936502668504",
+                        "concept": "STARBUCKS",
+                        "amount": {
+                            "amount": "59",
+                            "currency": "MXN"
+                        },
+                        "postedBalance": {
+                            "amount": "59",
+                            "currency": "MXN"
+                        },
+                        "card": {
+                            "idSubCard": "TJ0000",
+                            "card": "****1924",
+                            "participant": "TIT."
+                        },
+                        "category": "G",
+                        "type": "Cargo",
+                        "rewardsGenerated": "",
+                        "rewardsconsumed": "",
+                        "deferred": false,
+                        "movementPending": false
+                    }],
+                    "paginationKey": ""
+                }]
+            });
+        } else{
+            return res.json({
+                "data": [{
                 "listMovements": [{
                     "operationDate": "05/02/2016",
                     "reference": "74931616069981002667651",
@@ -106,11 +300,11 @@ router.get('/movements/:id', function(req, res, next) {
                     "deferred": false,
                     "movementPending": false
                 }],
-                "paginationKey": "76WUI4K5N3KL"
-            }]
-        });
+                "paginationKey": "76WUI4K5N3KL"}]
+            });
+        }
     } else if (req.query.additionalCardId == '1107368912') {
-        res.json({
+        return res.json({
             "data": [{
                 "listMovements": [{
                     "operationDate": "01/03/2016",
@@ -324,7 +518,7 @@ router.get('/movements/:id', function(req, res, next) {
             }]
         });
     } else if (req.query.additionalCardId == '0222636591') {
-        res.json({
+        return res.json({
             "data": [{
                 "listMovements": [{
                     "operationDate": "01/03/2016",
@@ -492,7 +686,7 @@ router.get('/movements/:id', function(req, res, next) {
             }]
         });
     } else {
-        res.json({
+        return res.json({
             "data": [{
                 "listMovements": [{
                     "operationDate": "05/02/2016",
@@ -588,106 +782,6 @@ router.get('/movements/:id', function(req, res, next) {
                     "movementPending": false
                 }],
                 "paginationKey": "76WUI4K5N3KL"
-            }]
-        });
-    }
-    if(req.query.paginationKey){
-        res.json({
-            "data": [{
-                "listMovements": [{
-                    "operationDate": "05/02/2016",
-                    "reference": "74931616069981002667651",
-                    "concept": "BEST BUY",
-                    "amount": {
-                        "amount": "130",
-                        "currency": "MXN"
-                    },
-                    "postedBalance": {
-                        "amount": "130",
-                        "currency": "MXN"
-                    },
-                    "card": {
-                        "idSubCard": "TJ0000",
-                        "card": "****1924",
-                        "participant": "TIT."
-                    },
-                    "category": "G",
-                    "type": "Cargo",
-                    "rewardsGenerated": "",
-                    "rewardsconsumed": "",
-                    "deferred": false,
-                    "movementPending": true
-                }, {
-                    "operationDate": "10/03/2016",
-                    "reference": "74931616070981002668011",
-                    "concept": "SAT REFERENCIADO",
-                    "amount": {
-                        "amount": "116",
-                        "currency": "MXN"
-                    },
-                    "postedBalance": {
-                        "amount": "116",
-                        "currency": "MXN"
-                    },
-                    "card": {
-                        "idSubCard": "TJ0000",
-                        "card": "****1924",
-                        "participant": "TIT."
-                    },
-                    "category": "G",
-                    "type": "Cargo",
-                    "rewardsGenerated": "",
-                    "rewardsconsumed": "",
-                    "deferred": false,
-                    "movementPending": false
-                }, {
-                    "operationDate": "11/05/2016",
-                    "reference": "74931616071981002668408",
-                    "concept": "OXXO",
-                    "amount": {
-                        "amount": "48",
-                        "currency": "MXN"
-                    },
-                    "postedBalance": {
-                        "amount": "48",
-                        "currency": "MXN"
-                    },
-                    "card": {
-                        "idSubCard": "TJ0000",
-                        "card": "****1924",
-                        "participant": "TIT."
-                    },
-                    "category": "G",
-                    "type": "Cargo",
-                    "rewardsGenerated": "",
-                    "rewardsconsumed": "",
-                    "deferred": false,
-                    "movementPending": false
-                }, {
-                    "operationDate": "1/02/2016",
-                    "reference": "05933901071936502668504",
-                    "concept": "STARBUCKS",
-                    "amount": {
-                        "amount": "59",
-                        "currency": "MXN"
-                    },
-                    "postedBalance": {
-                        "amount": "59",
-                        "currency": "MXN"
-                    },
-                    "card": {
-                        "idSubCard": "TJ0000",
-                        "card": "****1924",
-                        "participant": "TIT."
-                    },
-                    "category": "G",
-                    "type": "Cargo",
-                    "rewardsGenerated": "",
-                    "rewardsconsumed": "",
-                    "deferred": false,
-                    "movementPending": false
-                }],
-                "paginationKey": ""
             }]
         });
     }
