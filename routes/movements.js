@@ -9,7 +9,7 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-router.get('/movements', function(req, res, next) {
+router.get('/movements/:id', function(req, res, next) {
   var cardId = req.param('cardId');
   var period = req.param('period');
   var initialDate = req.param('initialDate');
