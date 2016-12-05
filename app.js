@@ -9,6 +9,7 @@ var routes = require('./routes/index');
 var cards = require('./routes/cards');
 var expandedCard = require('./routes/expanded-card');
 var movements = require('./routes/movements');
+var relatedCards = require('./routes/related-cards');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -26,9 +27,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/cards', cards);
+app.use('/cards', movements);
+app.use('/cards', relatedCards);
 app.use('/expanded-card', expandedCard);
 app.use('/auth', auth);
-app.use('/cards', movements);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

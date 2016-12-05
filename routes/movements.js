@@ -13,7 +13,7 @@ router.get('/movements/:id', function(req, res, next) {
     if (req.query.additionalCardId == '4162945006') {
         if (req.query.paginationKey) {
             return res.json({
-                "data": [{
+                "data": {
                     "listMovements": [{
                         "operationDate": "05/02/2016",
                         "reference": "74931616069981002667651",
@@ -176,11 +176,11 @@ router.get('/movements/:id', function(req, res, next) {
                         "deferred": false,
                         "movementPending": false
                     }],
-                }]
+                }
             });
         } else {
             return res.json({
-                "data": [{
+                "data": {
                     "listMovements": [{
                         "operationDate": "05/02/2016",
                         "reference": "74931616069981002667651",
@@ -275,12 +275,12 @@ router.get('/movements/:id', function(req, res, next) {
                         "movementPending": false
                     }],
                     "paginationKey": "76WUI4K5N3KL"
-                }]
+                }
             });
         }
     } else if (req.query.additionalCardId == '1107368912') {
         return res.json({
-            "data": [{
+            "data": {
                 "listMovements": [{
                     "operationDate": "01/03/2016",
                     "reference": "74931616061981002663415",
@@ -490,11 +490,11 @@ router.get('/movements/:id', function(req, res, next) {
                     "movementPending": false
                 }],
                 "paginationKey": ""
-            }]
+            }
         });
     } else if (req.query.additionalCardId == '0222636591') {
         return res.json({
-            "data": [{
+            "data": {
                 "listMovements": [{
                     "operationDate": "01/03/2016",
                     "reference": "74931616061981002663415",
@@ -658,11 +658,11 @@ router.get('/movements/:id', function(req, res, next) {
                     "movementPending": true
                 }],
                 "paginationKey": ""
-            }]
+            }
         });
     } else {
         return res.json({
-            "data": [{
+            "data": {
                 "listMovements": [{
                     "operationDate": "05/02/2016",
                     "reference": "74931616069981002667651",
@@ -757,7 +757,7 @@ router.get('/movements/:id', function(req, res, next) {
                     "movementPending": false
                 }],
                 "paginationKey": "76WUI4K5N3KL"
-            }]
+            }
         });
     }
 });
