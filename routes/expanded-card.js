@@ -9,78 +9,179 @@ router.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-router.get('/list', function(req, res, next) {
-  res.json({
-  "data":[
-    {
-      "cardId":"AM5CA7WQ6RD4Q7WG1JRXRSSH3PF3SV018ZKPTVTV85WG00TVMTGG",
-      "number":"5420150000014815",
-      "numberType":{
-        "id":"PAN",
-        "name":"Primary Account Number"
-      },
-      "alias":"ALIAS TARJETA",
-      "brandAssociation":{
-        "id":"MASTER_CARD",
-        "name":"Master Card"
-      },
-      "availableBalance":{
-        "currentBalances":[
-          {
-            "amount":0,
-            "currency":"MXP"
+router.get('/V00/cards/:id', function(req, res, next) {
+  if (req.query.id == 'TCMXP0000001') {
+    return res.json({
+      "data": {
+        "alias": null,
+        "amountDispute": "0",
+        "availableBalance": {
+          "currentBalances": {
+            "amount": 38815.89,
+            "currency": "MXP"
+          },
+          "pendingBalances": null,
+          "postedBalances": null
+        },
+        "cardId": "TCMXP0000001",
+        "cardType": {
+          "id": "TP",
+          "name": "TARJETA PLATINUM"
+        },
+        "cargosTransito": null,
+        "comisiones": "",
+        "cutOffDate": "2016-02-22",
+        "deferredPayment": "",
+        "disposedBalance": {
+          "currentBalances": {
+            "amount": 46184.21,
+            "currency": "MXP"
+          },
+          "pendingBalances": {
+            "amount": 0,
+            "currency": "MXP"
+          },
+          "postedBalances": {
+            "amount": 46184.21,
+            "currency": "MXP"
           }
-        ]
-      },
-      "disposedBalance":{
-        "currentBalances":[
-          {
-            "amount":0,
-            "currency":"MXP"
-          }
-        ]
-      },
-      "currentBalance":{
-        "saldoAnterior":{
-          "amount":10303.57,
-          "currency":"MXP"
         },
-        "saldoTransito":{
-          "amount":1988.00,
-          "currency":"MXP"
+        "disposicionEfectivo": {
+          "amount": "0"
         },
-        "nvoCargo":{
-          "amount":5828.00,
-          "currency":"MXP"
+        "grantedCredits": {
+          "amount": "85000.1"
         },
-        "montoDisponible":{
-          "amount":4068.94,
-          "currency":"MXP"
+        "images": {
+          "id": "IMG01",
+          "name": null,
+          "url": ""
         },
-        "nvoPago":{
-          "amount":1300.00,
-          "currency":"MXP"
-        }
-      },
-      "postedBalance":{
-        "limiteCredito":{
-          "amount":25000.00,
-          "currency":"MXP"
+        "nuevosAbonos": {
+          "amount": 0.0
         },
-        "montoUtilizado":{
-          "amount":15931.06,
-          "currency":"MXP"
-        }
+        "nuevosCargos": {
+          "amount": 0.0
+        },
+        "number": "*1924",
+        "overDraft": null,
+        "pagosTransito": null,
+        "paymentMethod": {
+          "endDate": "2016-03-14",
+          "monetaryPayments": null,
+          "paymentAmounts": [
+            {
+              "id": "PM",
+              "name": "pagoMinimo",
+              "values": {
+                "amount": "2603.19"
+              }
+            },
+            {
+              "id": "PNI",
+              "name": "PagoNoIntereses",
+              "values": {
+                "amount": "40049.17"
+              }
+            }
+          ]
+        },
+        "totalPoints": "0"
       }
-    }
-  ]
-
-
-
-
-
-
-  });
-  });
+    });
+  }
+  if (req.query.id == 'TCMXP0000002') {
+    return res.json({
+      "error": {
+        "code": "MCE0004",
+        "descripcion": "Se ha producido un error al consultar el servicio",
+        "httpStatus": "400",
+        "message": "SIN MOVIMIENTOS EN EL PERIODO",
+        "severity": "FATAL",
+        "version": "1"
+      }
+    });
+  }
+  if (req.query.id == 'TCMXP0000003') {
+    return res.json({
+      "data": {
+        "alias": null,
+        "amountDispute": "0",
+        "availableBalance": {
+          "currentBalances": {
+            "amount": 13701.1,
+            "currency": "MXP"
+          },
+          "pendingBalances": null,
+          "postedBalances": null
+        },
+        "cardId": "TCMXP0000003",
+        "cardType": {
+          "id": "VI",
+          "name": "VISA INTERNACIONAL"
+        },
+        "cargosTransito": null,
+        "comisiones": "",
+        "cutOffDate": "2013-09-09",
+        "deferredPayment": "",
+        "disposedBalance": {
+          "currentBalances": {
+            "amount": 199,
+            "currency": "MXP"
+          },
+          "pendingBalances": {
+            "amount": 0,
+            "currency": "MXP"
+          },
+          "postedBalances": {
+            "amount": 199,
+            "currency": "MXP"
+          }
+        },
+        "disposicionEfectivo": {
+          "amount": "0"
+        },
+        "grantedCredits": {
+          "amount": "13900"
+        },
+        "images": {
+          "id": "IMG01",
+          "name": null,
+          "url": ""
+        },
+        "nuevosAbonos": {
+          "amount": 0.0
+        },
+        "nuevosCargos": {
+          "amount": 0.0
+        },
+        "number": "*1763",
+        "overDraft": null,
+        "pagosTransito": null,
+        "paymentMethod": {
+          "endDate": "2013-09-27",
+          "monetaryPayments": null,
+          "paymentAmounts": [
+            {
+              "id": "PM",
+              "name": "pagoMinimo",
+              "values": {
+                "amount": "882.67"
+              }
+            },
+            {
+              "id": "PNI",
+              "name": "PagoNoIntereses",
+              "values": {
+                "amount": "7015.27"
+              }
+            }
+          ]
+        },
+        "totalPoints": "0"
+      }
+    });
+  }
+});
 
 module.exports = router;
