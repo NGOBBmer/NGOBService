@@ -10,7 +10,8 @@ router.use(function (req, res, next) {
     next();
 });
 router.get('/V00/cards/:id', function(req, res, next) {
-  if (req.query.id == 'TCMXP0000001') {
+
+  if (req.params.id == 'TCMXP0000001') {
     return res.json({
       "data": {
         "alias": null,
@@ -90,7 +91,7 @@ router.get('/V00/cards/:id', function(req, res, next) {
       }
     });
   }
-  if (req.query.id == 'TCMXP0000002') {
+  if (req.params.id == 'TCMXP0000002') {
     return res.json({
       "error": {
         "code": "MCE0004",
@@ -102,7 +103,7 @@ router.get('/V00/cards/:id', function(req, res, next) {
       }
     });
   }
-  if (req.query.id == 'TCMXP0000003') {
+  if (req.params.id == 'TCMXP0000003') {
     return res.json({
       "data": {
         "alias": null,
@@ -182,6 +183,9 @@ router.get('/V00/cards/:id', function(req, res, next) {
       }
     });
   }
+  return res.json({
+      "data": {"error":"no data"}
+    });
 });
 
 module.exports = router;
