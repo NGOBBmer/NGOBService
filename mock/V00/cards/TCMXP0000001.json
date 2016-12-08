@@ -1,0 +1,78 @@
+{
+        "data": {
+          "alias": null,
+          "amountDispute": "0",
+          "availableBalance": {
+            "currentBalances": {
+              "amount": 38815.89,
+              "currency": "MXP"
+            },
+            "pendingBalances": null,
+            "postedBalances": null
+          },
+          "cardId": "TCMXP0000001",
+          "cardType": {
+            "id": "TP",
+            "name": "TARJETA PLATINUM"
+          },
+          "cargosTransito": null,
+          "comisiones": "",
+          "cutOffDate": "2016-02-22",
+          "deferredPayment": "",
+          "disposedBalance": {
+            "currentBalances": {
+              "amount": 46184.21,
+              "currency": "MXP"
+            },
+            "pendingBalances": {
+              "amount": 0,
+              "currency": "MXP"
+            },
+            "postedBalances": {
+              "amount": 46184.21,
+              "currency": "MXP"
+            }
+          },
+          "disposicionEfectivo": {
+            "amount": "0"
+          },
+          "grantedCredits": {
+            "amount": "85000.1"
+          },
+          "images": {
+            "id": "IMG01",
+            "name": null,
+            "url": ""
+          },
+          "nuevosAbonos": {
+            "amount": 0.0
+          },
+          "nuevosCargos": {
+            "amount": 0.0
+          },
+          "number": "*1924",
+          "overDraft": null,
+          "pagosTransito": null,
+          "paymentMethod": {
+            "endDate": "2016-03-14",
+            "monetaryPayments": null,
+            "paymentAmounts": [
+              {
+                "id": "PM",
+                "name": "pagoMinimo",
+                "values": {
+                  "amount": "2603.19"
+                }
+              },
+              {
+                "id": "PNI",
+                "name": "PagoNoIntereses",
+                "values": {
+                  "amount": "40049.17"
+                }
+              }
+            ]
+          },
+          "totalPoints": "0"
+        }
+      }
