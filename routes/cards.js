@@ -12,6 +12,7 @@ router.use(function(req, res, next) {
 
 
 router.get('/V00/cards', function(req, res, next) {
+       console.log("no tengo params id ni query")
     res.json({
       "data": [{
         "alias": "",
