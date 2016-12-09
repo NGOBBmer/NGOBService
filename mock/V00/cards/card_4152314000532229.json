@@ -1,9 +1,9 @@
 {
   "error": {
-    "code": "MCE0004",
+    "code": "ERR_LC_001",
     "descripcion": "Se ha producido un error al consultar el servicio",
     "httpStatus": "400",
-    "message": "SIN MOVIMIENTOS EN EL PERIODO",
+    "message": "Cliente no cuenta con CREDIT_CARD asociada",
     "severity": "FATAL",
     "version": "1"
   }

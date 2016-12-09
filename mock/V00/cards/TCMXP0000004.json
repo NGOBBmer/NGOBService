@@ -4,13 +4,13 @@
     "amountDispute": "0",
     "availableBalance": {
       "currentBalances": {
-        "amount": 12800.1,
+        "amount": 200.1,
         "currency": "MXP"
       },
       "pendingBalances": null,
       "postedBalances": null
     },
-    "cardId": "TCMXP0000002",
+    "cardId": "TCMXP0000004",
     "cardType": {
       "id": "I",
       "name": "IPN"
@@ -20,11 +20,11 @@
       "amount": 0.0
     },
     "comisiones": "",
-    "cutOffDate": "2016-10-12",
+    "cutOffDate": "2016-10-14",
     "deferredPayment": "",
     "disposedBalance": {
       "currentBalances": {
-        "amount": -1000,
+        "amount": 13000,
         "currency": "MXP"
       },
       "pendingBalances": {
@@ -32,7 +32,7 @@
         "currency": "MXP"
       },
       "postedBalances": {
-        "amount": -1000,
+        "amount": 13000,
         "currency": "MXP"
       }
     },
@@ -40,20 +40,20 @@
       "amount": "0"
     },
     "grantedCredits": {
-      "amount": "11800"
+      "amount": "13200"
     },
     "images": {
       "id": "IMG01",
       "name": null,
       "url": "data:image/png;base64"
     },
-    "number": "*2620",
+    "number": "*0869",
     "overDraft": {
       "amount": 0.0
     },
     "pagosTransito": null,
     "paymentMethod": {
-      "endDate": "2016-11-01",
+      "endDate": "2016-11-03",
       "monetaryPayments": null,
       "paymentAmounts": [
         {
@@ -67,16 +67,16 @@
           "id": "PNI",
           "name": "notInterestPayment",
           "values": {
-            "amount": "300.93"
+            "amount": "994.93"
           }
         }
       ]
     },
     "payments": {
-      "amount": -301.0
+      "amount": -994.93
     },
     "positiveBalance": {
-      "amount": 1000.0
+      "amount": 0.0
     },
     "totalPoints": "0"
   }

@@ -1,78 +1,83 @@
 {
-        "data": {
-          "alias": null,
-          "amountDispute": "0",
-          "availableBalance": {
-            "currentBalances": {
-              "amount": 38815.89,
-              "currency": "MXP"
-            },
-            "pendingBalances": null,
-            "postedBalances": null
-          },
-          "cardId": "TCMXP0000001",
-          "cardType": {
-            "id": "TP",
-            "name": "TARJETA PLATINUM"
-          },
-          "cargosTransito": null,
-          "comisiones": "",
-          "cutOffDate": "2016-02-22",
-          "deferredPayment": "",
-          "disposedBalance": {
-            "currentBalances": {
-              "amount": 46184.21,
-              "currency": "MXP"
-            },
-            "pendingBalances": {
-              "amount": 0,
-              "currency": "MXP"
-            },
-            "postedBalances": {
-              "amount": 46184.21,
-              "currency": "MXP"
-            }
-          },
-          "disposicionEfectivo": {
-            "amount": "0"
-          },
-          "grantedCredits": {
-            "amount": "85000.1"
-          },
-          "images": {
-            "id": "IMG01",
-            "name": null,
-            "url": ""
-          },
-          "nuevosAbonos": {
-            "amount": 0.0
-          },
-          "nuevosCargos": {
-            "amount": 0.0
-          },
-          "number": "*1924",
-          "overDraft": null,
-          "pagosTransito": null,
-          "paymentMethod": {
-            "endDate": "2016-03-14",
-            "monetaryPayments": null,
-            "paymentAmounts": [
-              {
-                "id": "PM",
-                "name": "pagoMinimo",
-                "values": {
-                  "amount": "2603.19"
-                }
-              },
-              {
-                "id": "PNI",
-                "name": "PagoNoIntereses",
-                "values": {
-                  "amount": "40049.17"
-                }
-              }
-            ]
-          },
-          "totalPoints": "0"
-        }
+  "data": {
+    "alias": null,
+    "amountDispute": "0",
+    "availableBalance": {
+      "currentBalances": {
+        "amount": 12600.1,
+        "currency": "MXP"
+      },
+      "pendingBalances": null,
+      "postedBalances": null
+    },
+    "cardId": "TCMXP0000001",
+    "cardType": {
+      "id": "I",
+      "name": "IPN"
+    },
+    "cargosTransito": null,
+    "charges": {
+      "amount": 8175.98
+    },
+    "comisiones": "",
+    "cutOffDate": "2016-10-14",
+    "deferredPayment": "",
+    "disposedBalance": {
+      "currentBalances": {
+        "amount": 0,
+        "currency": "MXP"
+      },
+      "pendingBalances": {
+        "amount": 0,
+        "currency": "MXP"
+      },
+      "postedBalances": {
+        "amount": 0,
+        "currency": "MXP"
       }
+    },
+    "disposicionEfectivo": {
+      "amount": "0"
+    },
+    "grantedCredits": {
+      "amount": "12600"
+    },
+    "images": {
+      "id": "IMG01",
+      "name": null,
+      "url": "data:image/png;base64"
+    },
+    "number": "*6776",
+    "overDraft": {
+      "amount": 0.0
+    },
+    "pagosTransito": null,
+    "paymentMethod": {
+      "endDate": "2016-11-03",
+      "monetaryPayments": null,
+      "paymentAmounts": [
+        {
+          "id": "PM",
+          "name": "minimumPayment",
+          "values": {
+            "amount": "250"
+          }
+        },
+        {
+          "id": "PNI",
+          "name": "notInterestPayment",
+          "values": {
+            "amount": "1352.83"
+          }
+        }
+      ]
+    },
+    "payments": {
+      "amount": -1370.0
+    },
+    "positiveBalance": {
+      "amount": 0.0
+    },
+    "totalPoints": "2,771"
+  }
+}
