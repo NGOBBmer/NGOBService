@@ -10,6 +10,7 @@ var cards = require('./routes/cards');
 var expandedCard = require('./routes/expanded-card');
 var movements = require('./routes/movements');
 var relatedCards = require('./routes/related-cards');
+var promotions = require('./routes/promotions');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -26,6 +27,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
+app.use('/cards', promotions);
 app.use('/cards', expandedCard);
 app.use('/cards', cards);
 app.use('/cards', movements);

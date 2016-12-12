@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-var TCMXP0000001 = require('../mock/V00/cards/TCMXP0000001.json');
-var TCMXP0000002 = require('../mock/V00/cards/TCMXP0000002.json');
-var TCMXP0000003 = require('../mock/V00/cards/TCMXP0000003.json');
-var CARD_DETAIL_NO_DATA = require('../mock/V00/cards/card_detail_no_data.json');
-var CARD_DETAIL_SERVICE_ERROR = require('../mock/V00/cards/card_detail_service_error.json');
+var TCMXP0000001 = require('../mock/V00/cards/cardDetail/TCMXP0000001.json');
+var TCMXP0000002 = require('../mock/V00/cards/cardDetail/TCMXP0000002.json');
+var TCMXP0000003 = require('../mock/V00/cards/cardDetail/TCMXP0000003.json');
+var CARD_DETAIL_NO_DATA = require('../mock/V00/cards/cardDetail/card_detail_no_data.json');
+var CARD_DETAIL_SERVICE_ERROR = require('../mock/V00/cardDetail/cards/card_detail_service_error.json');
 
 
 /* GET users listing. */

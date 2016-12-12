@@ -1,6 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
+
+var related_cards = require('../mock/V00/cards/aditionals/aditionals.json');
+
+
 /* GET users listing. */
 router.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -10,22 +14,6 @@ router.use(function(req, res, next) {
   next();
 });
 router.get('/relatedCards/:id', function(req, res, next) {
-  return res.json({
-    "data": {
-      "relatedCards": [{
-        "idSubCard": "TJ0000",
-        "card": "****1924",
-        "participant": "TIT."
-      }, {
-        "idSubCard": "TJ0001",
-        "card": "****8846",
-        "participant": "ADC."
-      }, {
-        "idSubCard": "TJ0002",
-        "card": "****9586",
-        "participant": "ADC."
-      }]
-    }
-  });
+  return res.json(related_cards);
 });
 module.exports = router;
