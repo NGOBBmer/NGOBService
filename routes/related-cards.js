@@ -13,7 +13,7 @@ router.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Credentials', true);
   next();
 });
-router.get('/relatedCards/:id', function(req, res, next) {
+router.get('/V00/cards/relatedCards/:id', function(req, res, next) {
   return res.json(related_cards);
 });
 module.exports = router;

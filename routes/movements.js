@@ -18,7 +18,7 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-router.get('/movements/:id', function(req, res, next) {
+router.get('/V00/cards/movements/:id', function(req, res, next) {
     if (req.query.additionalCardId == '4162945006') {
         if (req.query.paginationKey) {
             return res.json(movements_4162945006);
