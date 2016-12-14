@@ -11,6 +11,7 @@ var expandedCard = require('./routes/expanded-card');
 var movements = require('./routes/movements');
 var relatedCards = require('./routes/related-cards');
 var promotions = require('./routes/promotions');
+var accountStatement = require('./routes/accountStatement');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -32,6 +33,7 @@ app.use('/cards', expandedCard);
 app.use('/cards', cards);
 app.use('/cards', movements);
 app.use('/cards', relatedCards);
+app.use('/cards', accountStatement);
 app.use('/auth', auth);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -63,7 +65,7 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+app.listen(8082, function () {
+  console.log('Example app listening on port 8082!')
 })
 module.exports = app;
