@@ -20,25 +20,51 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-// handler for /V00/cards/movements/TCMXP0000001?additionalCardId=TJ0001&paginationKey=&initialDate=&finalDate=&period=&numMovements
+// handler for /V00/cards/movements/TCMXP0000001?additionalCardId=TJ0001&paginationKey=&initialDate=&finalDate=&period=&numMovements&period=
 router.get('/V00/cards/movements/:id', function(req, res, next) {
-    if (req.query.additionalCardId == 'TJ0001') {
-        if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
-            return res.json(movements_TJ0001_dates_next);
-        } else if (req.query.initialDate && req.query.finalDate) {
-            return res.json(movements_TJ0001_dates);
-        }else if (req.query.paginationKey) {
-            return res.json(movements_TJ0001_next);
-        } else{
-            return res.json(movements_TJ0001);
+    if (req.query.additionalCardId){
+        if (req.query.additionalCardId == 'TJ0001') {
+            if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates_next);
+            } else if (req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates);
+            }else if (req.query.paginationKey) {
+                return res.json(movements_TJ0001_next);
+            } else{
+                return res.json(movements_TJ0001);
+            }
+        } else if (req.query.additionalCardId == 'TJ0000') {
+            return res.json(movements_1107368912);
+        } else if (req.query.additionalCardId == 'TJ0002') {
+            return res.json(movements_1107368912_next);
+        } else {
+            return res.json(movements_default);
         }
-    } else if (req.query.additionalCardId == 'TJ0000') {
-        return res.json(movements_1107368912);
-    } else if (req.query.additionalCardId == 'TJ0002') {
-        return res.json(movements_1107368912_next);
-    } else {
-        return res.json(movements_default);
+    }else{
+        if (req.params.id == 'TCMXP0000001'){
+             if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates_next);
+            } else if (req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates);
+            }else if (req.query.paginationKey) {
+                return res.json(movements_TJ0001_next);
+            } else{
+                return res.json(movements_TJ0001);
+            }
+        }
+        if (req.params.id == 'TCMXP0000002'){
+             if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates_next);
+            } else if (req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates);
+            }else if (req.query.paginationKey) {
+                return res.json(movements_TJ0001_next);
+            } else{
+                return res.json(movements_TJ0001);
+            }
+        }
     }
+    
 });
 
 module.exports = router;

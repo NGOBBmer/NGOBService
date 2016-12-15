@@ -38,6 +38,20 @@
         "amount": "500.0",
         "currency": "MXP"
       }
+    },
+    "totalAllPromotions": {
+      "currentBalance": {
+        "amount": "3200.0",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "1200.0",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "0",
+        "currency": "MXP"
+      }
     }
   }
 }

@@ -1,10 +1,93 @@
 {
-  "error": {
-    "code": "",
-    "descripcion": "Se ha producido un error al consultar el servicio",
-    "httpStatus": "400",
-    "message": "Servicio no disponible.4 >= 4",
-    "severity": "FATAL",
-    "version": "1"
+  "data": {
+    "alias": "",
+    "amountDispute": "0",
+    "availableBalance": {
+      "currentBalances": {
+        "amount": 223647.25,
+        "currency": "MXP"
+      },
+      "pendingBalances": null,
+      "postedBalances": null
+    },
+    "cardId": "TCMXP0000001",
+    "cardType": {
+      "id": "",
+      "name": ""
+    },
+    "cashWithdraw": {
+      "amount": "0",
+      "currency": "MXP"
+    },
+    "charges": {
+      "amount": 0.0
+    },
+    "comisiones": "",
+    "cutOffDate": "",
+    "deferredPayment": "",
+    "disposedBalance": {
+      "currentBalances": {
+        "amount": 276332.85,
+        "currency": "MXP"
+      },
+      "pendingBalances": {
+        "amount": 20,
+        "currency": "MXP"
+      },
+      "postedBalances": {
+        "amount": 276352.85,
+        "currency": "MXP"
+      }
+    },
+    "grantedCredits": {
+      "amount": "0",
+      "currency": "MXP"
+    },
+    "images": {
+      "id": "IMG01",
+      "name": null,
+      "url": "data:image/png;base64"
+    },
+    "number": "*6497",
+    "overDraft": {
+      "amount": 276332.85,
+      "currency": "MXP"
+    },
+    "paymentMethod": {
+      "endDate": "",
+      "monetaryPayments": null,
+      "paymentAmounts": [
+        {
+          "id": "PM",
+          "name": "minimumPayment",
+          "values": {
+            "amount": "0"
+          }
+        },
+        {
+          "id": "PNI",
+          "name": "notInterestPayment",
+          "values": {
+            "amount": "0"
+          }
+        }
+      ]
+    },
+    "payments": {
+      "amount": 145.0
+    },
+    "positiveBalance": {
+      "amount": 0.0,
+      "currency": null
+    },
+    "totalPoints": "277,626",
+    "transitCharges": {
+      "amount": 0.0,
+      "currency": "MXP"
+    },
+    "transitPayments": {
+      "amount": 0.0,
+      "currency": "MXP"
+    }
   }
 }
