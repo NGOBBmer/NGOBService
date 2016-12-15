@@ -1,0 +1,43 @@
+{
+  "data":{
+    "paginationKey":"",
+    "promotionsList": [
+      {
+        "operationDate": "15/09/2016",
+        "description": "Efectivo Inmmediato",
+        "purchasePrice":{
+          "amount":500,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":100,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":5,
+          "proportion": 40.0,
+          "current":2
+        },
+        "interestRate":"8%",
+        "currentBalance":{
+          "amount":300,
+          "currency": "MXP"
+        }
+      }
+    ],
+    "totals": {
+      "currentBalance": {
+        "amount": "300.0",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "100.13",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "500.0",
+        "currency": "MXP"
+      }
+    }
+  }
+}
