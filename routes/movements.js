@@ -64,6 +64,39 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
                 return res.json(movements_TJ0001);
             }
         }
+         if (req.params.id == 'TCMXP0000003'){
+             if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates_next);
+            } else if (req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates);
+            }else if (req.query.paginationKey) {
+                return res.json(movements_TJ0001_next);
+            } else{
+                return res.json(movements_TJ0001);
+            }
+        }
+        if (req.params.id == 'TCMXP0000004'){
+             if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates_next);
+            } else if (req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates);
+            }else if (req.query.paginationKey) {
+                return res.json(movements_TJ0001_next);
+            } else{
+                return res.json(movements_TJ0001);
+            }
+        }
+        if (req.params.id == 'TCMXP0000005'){
+             if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates_next);
+            } else if (req.query.initialDate && req.query.finalDate) {
+                return res.json(movements_TJ0001_dates);
+            }else if (req.query.paginationKey) {
+                return res.json(movements_TJ0001_next);
+            } else{
+                return res.json(movements_TJ0001);
+            }
+        }
     }
     
 });
