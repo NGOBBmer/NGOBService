@@ -64,6 +64,12 @@ if(req.params && req.params.id ){
   if (req.params && req.params.id == 'TCMXP0000003'){
     return res.json(TCMXP0000003);
   }
+  if (req.params && req.params.id == 'TCMXP0000004'){
+    return res.json(TCMXP0000004);
+  }
+  if (req.params && req.params.id == 'TCMXP0000005'){
+    return res.json(TCMXP0000005);
+  }
   if (req.params && req.params.id == 'SERVICE_ERROR'){
     return res.json(CARD_DETAIL_SERVICE_ERROR);
   }
