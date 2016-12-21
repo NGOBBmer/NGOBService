@@ -13,7 +13,7 @@ var CARD_DETAIL_SERVICE_ERROR = require('../mock/V00/cards/cardDetail/card_detai
 /* GET users listing. */
 router.use(function (req, res, next) {
     var host = req.get('origin');
-    res.setHeader('Access-Control-Allow-Origin', host);
+    res.setHeader('Access-Control-Allow-Origin', host||"*");
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec');
     res.setHeader('Access-Control-Allow-Credentials', true);
@@ -63,6 +63,12 @@ if(req.params && req.params.id ){
   }
   if (req.params && req.params.id == 'TCMXP0000003'){
     return res.json(TCMXP0000003);
+  }
+  if (req.params && req.params.id == 'TCMXP0000004'){
+    return res.json(TCMXP0000004);
+  }
+  if (req.params && req.params.id == 'TCMXP0000005'){
+    return res.json(TCMXP0000005);
   }
   if (req.params && req.params.id == 'SERVICE_ERROR'){
     return res.json(CARD_DETAIL_SERVICE_ERROR);
