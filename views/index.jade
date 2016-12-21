@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1= title Sayayin OP eZ pZ Heroku API
+  p Welcome to #{title} alv
+  ul
+    li
+      a(href="http://cards-service-mock.herokuapp.com/cards/V00/cards/TCMXP0000001/accountStatements?paginationKey=") Movements 
+      span http://cards-service-mock.herokuapp.com/cards/V00/cards/TCMXP0000001/accountStatements?paginationKey=
+    li
+      a(href="http://cards-service-mock.herokuapp.com/cards/V00/cards?cardType=CREDIT_CARD") Cards
+      span http://cards-service-mock.herokuapp.com/cards/V00/cards?cardType=CREDIT_CARD
+    li
+      a(href="http://cards-service-mock.herokuapp.com/cards/V00/cards?id=TCMXP0000001") Expanded-card
+      span http://cards-service-mock.herokuapp.com/cards/V00/cards?id=TCMXP0000001
+    li
+      a(href="https://cards-service-mock.herokuapp.com/cards/V00/cards/TCMXP0000001/promotions?type=CPS&paginationKey=") Promotions
+      span https://cards-service-mock.herokuapp.com/cards/V00/cards/TCMXP0000001/promotions?type=CPS&paginationKey=
+    li
+      a(href="https://cards-service-mock.herokuapp.com/cards/V00/cards/relatedCards/TCMXP0000001") Related Cards
+      span https://cards-service-mock.herokuapp.com/cards/V00/cards/relatedCards/TCMXP0000002
+
