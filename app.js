@@ -12,6 +12,7 @@ var movements = require('./routes/movements');
 var relatedCards = require('./routes/related-cards');
 var promotions = require('./routes/promotions');
 var accountStatement = require('./routes/accountStatement');
+var sendAccountStatement = require('./routes/sendAccountStatement');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -34,6 +35,7 @@ app.use('/cards', cards);
 app.use('/cards', movements);
 app.use('/cards', relatedCards);
 app.use('/cards', accountStatement);
+app.use('/cards', sendAccountStatement);
 app.use('/auth', auth);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

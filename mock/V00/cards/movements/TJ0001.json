@@ -3,7 +3,7 @@
                     "listMovements": [{
                         "operationDate": "05/02/2016",
                         "reference": "74931616069981002667651",
-                        "concept": "BEST BUY LOL",
+                        "concept": "WALMART",
                         "amount": {
                             "amount": "130",
                             "currency": "MXN"
@@ -26,7 +26,7 @@
                     }, {
                         "operationDate": "10/03/2016",
                         "reference": "74931616070981002668011",
-                        "concept": "SAT REFERENCIADO",
+                        "concept": "REFERENCIADO",
                         "amount": {
                             "amount": "116",
                             "currency": "MXN"

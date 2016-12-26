@@ -11,6 +11,14 @@ var movements_1107368912_next= require('../mock/V00/cards/movements/1107368912_n
 
 var movements_default = require('../mock/V00/cards/movements/default.json');
 
+var movements_TJ0002 = require('../mock/V00/cards/movements/TJ0002.json');
+var movements_TJ0002_next = require('../mock/V00/cards/movements/TJ0002_next.json');
+var movements_TJ0003 = require('../mock/V00/cards/movements/TJ0003.json');
+var movements_TJ0003_next = require('../mock/V00/cards/movements/TJ0003_next.json');
+var movements_TJ0004 = require('../mock/V00/cards/movements/TJ0004.json');
+var movements_TJ0004_next = require('../mock/V00/cards/movements/TJ0004_next.json');
+var movements_TJ0005 = require('../mock/V00/cards/movements/TJ0005.json');
+var movements_TJ0005_next = require('../mock/V00/cards/movements/TJ0005_next.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -46,7 +54,7 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
              if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
                 return res.json(movements_TJ0001_dates_next);
             } else if (req.query.initialDate && req.query.finalDate) {
-                return res.json(movements_TJ0001_dates);
+                return res.json(movements_TJ0001_next);
             }else if (req.query.paginationKey) {
                 return res.json(movements_TJ0001_next);
             } else{
@@ -57,48 +65,49 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
              if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
                 return res.json(movements_TJ0001_dates_next);
             } else if (req.query.initialDate && req.query.finalDate) {
-                return res.json(movements_TJ0001_dates);
+                return res.json(movements_TJ0002_next);
             }else if (req.query.paginationKey) {
-                return res.json(movements_TJ0001_next);
+                return res.json(movements_TJ0002_next);
             } else{
-                return res.json(movements_TJ0001);
+                return res.json(movements_TJ0002);
             }
         }
          if (req.params.id == 'TCMXP0000003'){
              if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
                 return res.json(movements_TJ0001_dates_next);
             } else if (req.query.initialDate && req.query.finalDate) {
-                return res.json(movements_TJ0001_dates);
+                return res.json(movements_TJ0003_next);
             }else if (req.query.paginationKey) {
-                return res.json(movements_TJ0001_next);
+                return res.json(movements_TJ0003_next);
             } else{
-                return res.json(movements_TJ0001);
+                return res.json(movements_TJ0003);
             }
         }
         if (req.params.id == 'TCMXP0000004'){
              if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
                 return res.json(movements_TJ0001_dates_next);
             } else if (req.query.initialDate && req.query.finalDate) {
-                return res.json(movements_TJ0001_dates);
+                return res.json(movements_TJ0004_next);
             }else if (req.query.paginationKey) {
-                return res.json(movements_TJ0001_next);
+                return res.json(movements_TJ0004_next);
             } else{
-                return res.json(movements_TJ0001);
+                return res.json(movements_TJ0004);
             }
         }
         if (req.params.id == 'TCMXP0000005'){
              if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
                 return res.json(movements_TJ0001_dates_next);
             } else if (req.query.initialDate && req.query.finalDate) {
-                return res.json(movements_TJ0001_dates);
+                return res.json(movements_TJ0005_next);
             }else if (req.query.paginationKey) {
-                return res.json(movements_TJ0001_next);
+                return res.json(movements_TJ0005_next);
             } else{
-                return res.json(movements_TJ0001);
+                return res.json(movements_TJ0005);
             }
         }
+         return res.json(movements_default);
     }
-    
+     return res.json(movements_default);
 });
 
 module.exports = router;
