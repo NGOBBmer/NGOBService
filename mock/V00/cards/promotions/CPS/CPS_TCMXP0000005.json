@@ -1,0 +1,34 @@
+{
+  "data":{
+    "paginationKey":"",
+    "promotionsList": [],
+    "totals": {
+      "currentBalance": {
+        "amount": "0",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "0",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "0",
+        "currency": "MXP"
+      }
+    },
+    "totalAllPromotions": {
+      "currentBalance": {
+        "amount": "0",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "0",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "0",
+        "currency": "MXP"
+      }
+    }
+  }
+}
