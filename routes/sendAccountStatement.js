@@ -18,6 +18,12 @@ router.use(function(req, res, next) {
 });
 
 // handler for query http://localhost:3000/cards/V00/cards/TCMXP0000001/sendAccountStatement?periodId=PERIOD0001
+/* Object json in method post
+  {
+    "email": "userEmail@server.com",
+    "pass": "userPass4Edc"
+  }
+*/
 router.get('/V00/cards/:id/sendAccountStatement', function(req, res, next) {
 	if(req.params && req.params.id){
 	    if (req.params && req.params.id == 'TCMXP0000001')  {
