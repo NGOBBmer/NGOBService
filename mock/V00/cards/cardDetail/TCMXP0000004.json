@@ -20,7 +20,7 @@
       "amount": 0.0
     },
     "comisiones": "",
-    "cutOffDate": "2016-10-12",
+    "cutOffDate": "2017-01-12",
     "deferredPayment": "",
     "disposedBalance": {
       "currentBalances": {
@@ -53,7 +53,7 @@
     },
     "pagosTransito": null,
     "paymentMethod": {
-      "endDate": "2016-11-01",
+      "endDate": "2017-01-08",
       "monetaryPayments": null,
       "paymentAmounts": [
         {
