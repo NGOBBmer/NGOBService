@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var TCMXP0000001 = require('../mock/V00/cards/accountstatement/TCMXP0000001.json');
 var TCMXP0000001_next = require('../mock/V00/cards/accountstatement/TCMXP0000001_next.json');
+var TCMXP0000001_next2 = require('../mock/V00/cards/accountstatement/TCMXP0000001_next2.json');
 var TCMXP0000002 = require('../mock/V00/cards/accountstatement/TCMXP0000002.json');
 var TCMXP0000002_next = require('../mock/V00/cards/accountstatement/TCMXP0000002_next.json');
 var AS_NO_DATA = require('../mock/V00/cards/accountstatement/accountstatement_error_sinperiodos.json');
@@ -24,8 +25,11 @@ router.get('/V00/cards/:id/accountStatements/', function(req, res, next) {
 	      return res.json(AS_ERROR_ID);
 	    }
 	    if (req.params && req.params.id == 'TCMXP0000001')  {
-        if (req.query.paginationKey){
+        if (req.query.paginationKey == '09999990'){
           return res.json(TCMXP0000001_next);
+        }
+        if (req.query.paginationKey == '0123456789aeiou'){
+          return res.json(TCMXP0000001_next2);
         }else {
           return res.json(TCMXP0000001);
         }  
