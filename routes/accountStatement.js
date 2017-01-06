@@ -18,26 +18,21 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:3000/cards/V00/cards/TCMXP0000001/accountStatements?paginationKey=
+// handler for query http://localhost:3000/cards/V00/cards/TCMXP0000001/accountStatements?type=historic
+//type=historic is for obtain the historic periods 
 router.get('/V00/cards/:id/accountStatements/', function(req, res, next) {
 	if(req.params && req.params.id){
-	    if (req.params && req.params.id == 'TCMXP0000000')  {
-	      return res.json(AS_ERROR_ID);
-	    }
 	    if (req.params && req.params.id == 'TCMXP0000001')  {
-        if (req.query.paginationKey == '09999990'){
+        if (req.query.type == 'historic'){
           return res.json(TCMXP0000001_next);
-        }
-        if (req.query.paginationKey == '0123456789aeiou'){
-          return res.json(TCMXP0000001_next2);
-        }else {
+        }else{
           return res.json(TCMXP0000001);
-        }  
+        }
 	    }
       if (req.params && req.params.id == 'TCMXP0000002')  {
-        if (req.query.paginationKey){
+        if (req.query.type == 'historic'){
           return res.json(TCMXP0000002_next);
-        }else {
+        }else{
           return res.json(TCMXP0000002);
         }
       }
