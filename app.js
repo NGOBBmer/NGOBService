@@ -39,12 +39,14 @@ app.use('/cards', accountStatement);
 app.use('/cards', sendAccountStatement);
 app.use('/users', userInfo);
 app.use('/auth', auth);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
+
 // error handlers
 
 // development error handler
@@ -69,7 +71,7 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(8092, function () {
+app.listen(4000, function() {
   console.log('Example app listening on port 8092!');
 });
 module.exports = app;

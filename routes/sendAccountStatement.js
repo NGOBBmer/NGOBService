@@ -9,12 +9,12 @@ var AS_ERROR_ID = require('../mock/V00/cards/sendAccountStatement/error_id.json'
 
 /* GET users listing. */
 router.use(function(req, res, next) {
-    var host = req.get('origin');
-    res.setHeader('Access-Control-Allow-Origin', host||"*");
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec');
-    res.setHeader('Access-Control-Allow-Credentials', true);
-    next();
+  var host = req.get('origin');
+  res.setHeader('Access-Control-Allow-Origin', host || '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST');
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  next();
 });
 
 // handler for query http://localhost:3000/cards/V00/cards/TCMXP0000001/sendAccountStatement
@@ -25,27 +25,27 @@ router.use(function(req, res, next) {
     "periodId": "PERIOD0001"
   }
 */
-router.get('/V00/cards/:id/sendAccountStatement', function(req, res, next) {
-	if(req.params && req.params.id){
+router.post('/V00/cards/:id/sendAccountStatement', function(req, res, next) {
+  if (req.params && req.params.id) {
 	    if (req.params && req.params.id == 'TCMXP0000001')  {
 	      return res.json(PERIOD0001);
 	    }
-      if (req.params && req.params.id == 'TCMXP0000002')  {
-        return res.json(PERIOD0002);
-      }
-      if (req.params && req.params.id == 'TCMXP0000003')  {
-        return res.json(PERIOD0003);
-      }
-      if (req.params && req.params.id == 'TCMXP0000004')  {
-        return res.json(PERIOD0004);
-      }
-      if (req.params && req.params.id == 'TCMXP0000005')  {
-        return res.json(AS_NO_DATA);
-      }
-      return res.json(AS_ERROR_ID);
+    if (req.params && req.params.id == 'TCMXP0000002')  {
+      return res.json(PERIOD0002);
+    }
+    if (req.params && req.params.id == 'TCMXP0000003')  {
+      return res.json(PERIOD0003);
+    }
+    if (req.params && req.params.id == 'TCMXP0000004')  {
+      return res.json(PERIOD0004);
+    }
+    if (req.params && req.params.id == 'TCMXP0000005')  {
+      return res.json(AS_NO_DATA);
+    }
+    return res.json(AS_ERROR_ID);
   	}
-    next();
-  });
+  next();
+});
 
 
 module.exports = router;
