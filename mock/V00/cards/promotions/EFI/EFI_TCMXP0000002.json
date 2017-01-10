@@ -3,7 +3,7 @@
     "paginationKey":"3413541135ASDVCCEDASSDA",
     "promotionsList": [
       {
-        "operationDate": "18/02/2016",
+        "operationDate": "2016-02-18",
         "description": "Efectivo Inmediato",
         "purchasePrice":{
           "amount":500,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "operationDate": "20/04/2016",
+        "operationDate": "2016-04-20",
         "description": "Efectivo Inmmediato",
         "purchasePrice":{
           "amount":200,

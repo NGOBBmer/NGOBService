@@ -3,7 +3,7 @@
     "paginationKey":"3413541135ASDVCCEDASSDA",
     "promotionsList": [
       {
-        "operationDate": "15/04/2016",
+        "operationDate": "2016-10-20",
         "description": "Plan de pagos fijos1",
         "purchasePrice":{
           "amount":1000,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "operationDate": "02/04/2016",
+        "operationDate": "2016-04-02",
         "description": "Plan de pagos fijos2",
         "purchasePrice":{
           "amount":600,

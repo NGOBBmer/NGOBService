@@ -3,7 +3,7 @@
     "paginationKey":"3413541135ASDVCCEDASSDA",
     "promotionsList": [
       {
-        "operationDate": "30/06/2016",
+        "operationDate": "2016-04-30",
         "description": "Portal",
         "purchasePrice":{
           "amount":3000,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "operationDate": "15/03/2016",
+        "operationDate": "2016-03-15",
         "description": "Telmex",
         "purchasePrice":{
           "amount":2000,
@@ -47,7 +47,7 @@
         }
       },
       {
-        "operationDate": "22/12/2016",
+        "operationDate": "2016-06-23",
         "description": "Muebles Ixxa",
         "purchasePrice":{
           "amount":6000,
@@ -69,7 +69,7 @@
         }
       },
       {
-        "operationDate": "21/05/2016",
+        "operationDate": "2016-05-21",
         "description": "Avance efectivo",
         "purchasePrice":{
           "amount":4400,

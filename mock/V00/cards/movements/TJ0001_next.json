@@ -1,7 +1,7 @@
 {
     "data": {
         "listMovements": [{
-            "operationDate": "05/02/2016",
+            "operationDate": "2016-10-01",
             "reference": "74931616069981002667651",
             "concept": "BEST BUY",
             "amount": {
@@ -24,7 +24,7 @@
             "deferred": false,
             "movementPending": true
         }, {
-            "operationDate": "10/03/2016",
+            "operationDate": "2016-10-01",
             "reference": "74931616070981002668011",
             "concept": "SAT REFERENCIADO",
             "amount": {
@@ -47,7 +47,7 @@
             "deferred": false,
             "movementPending": false
         }, {
-            "operationDate": "11/05/2016",
+            "operationDate": "2016-10-02",
             "reference": "74931616071981002668408",
             "concept": "OXXO",
             "amount": {
@@ -70,7 +70,7 @@
             "deferred": false,
             "movementPending": false
         }, {
-            "operationDate": "1/02/2016",
+            "operationDate": "2016-10-02",
             "reference": "05933901071936502668504",
             "concept": "STARBUCKS",
             "amount": {
@@ -93,7 +93,7 @@
             "deferred": false,
             "movementPending": false
         }, {
-            "operationDate": "1/02/2016",
+            "operationDate": "2016-10-03",
             "reference": "05933901071936502668504",
             "concept": "BURGER KING",
             "amount": {
@@ -116,7 +116,7 @@
             "deferred": false,
             "movementPending": false
         }, {
-            "operationDate": "1/02/2016",
+            "operationDate": "2016-10-03",
             "reference": "05933901071936502668504",
             "concept": "PIZZA AMORE",
             "amount": {
@@ -139,7 +139,7 @@
             "deferred": false,
             "movementPending": false
         }, {
-            "operationDate": "1/02/2016",
+            "operationDate": "2016-10-04",
             "reference": "05933901071936502668504",
             "concept": "OXXO",
             "amount": {

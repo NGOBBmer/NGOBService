@@ -1,7 +1,7 @@
 {
     "data": {
         "listMovements": [{
-            "operationDate": "1/02/2016",
+            "operationDate": "2016-10-07",
             "reference": "059339010719365026DATES",
             "concept": "DOMINOS PIZZA",
             "amount": {
@@ -24,7 +24,7 @@
             "deferred": false,
             "movementPending": false
         }, {
-            "operationDate": "1/02/2016",
+            "operationDate": "2016-10-07",
             "reference": "05933901071936502668504",
             "concept": "TIENDA ONLINE",
             "amount": {

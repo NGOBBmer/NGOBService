@@ -3,7 +3,7 @@
     "paginationKey":"3413541135ASDVCCEDASSDA",
     "promotionsList": [
       {
-        "operationDate": "15/04/2016",
+        "operationDate": "2016-04-18",
         "description": "Efectivo Inmediato01",
         "purchasePrice":{
           "amount":500,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "operationDate": "28/07/2016",
+        "operationDate": "2016-07-28",
         "description": "Efectivo Inmediato02",
         "purchasePrice":{
           "amount":200,
@@ -47,7 +47,7 @@
         }
       },
       {
-        "operationDate": "22/12/2016",
+        "operationDate": "2016-11-12",
         "description": "Efectivo Inmediato03",
         "purchasePrice":{
           "amount":7000,
@@ -69,7 +69,7 @@
         }
       },
       {
-        "operationDate": "01/01/2016",
+        "operationDate": "2016-01-02",
         "description": "Efectivo Inmediato04",
         "purchasePrice":{
           "amount":400,

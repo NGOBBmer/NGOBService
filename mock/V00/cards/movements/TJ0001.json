@@ -1,7 +1,7 @@
 {
                 "data": {
                     "listMovements": [{
-                        "operationDate": "05/02/2016",
+                        "operationDate": "2016-12-07",
                         "reference": "74931616069981002667651",
                         "concept": "WALMART",
                         "amount": {
@@ -24,7 +24,7 @@
                         "deferred": false,
                         "movementPending": true
                     }, {
-                        "operationDate": "10/03/2016",
+                        "operationDate": "2016-12-08",
                         "reference": "74931616070981002668011",
                         "concept": "REFERENCIADO",
                         "amount": {
@@ -47,7 +47,7 @@
                         "deferred": false,
                         "movementPending": false
                     }, {
-                        "operationDate": "11/05/2016",
+                        "operationDate": "2016-12-08",
                         "reference": "74931616071981002668408",
                         "concept": "OXXO",
                         "amount": {
@@ -70,7 +70,7 @@
                         "deferred": false,
                         "movementPending": false
                     }, {
-                        "operationDate": "1/02/2016",
+                        "operationDate": "2016-12-09",
                         "reference": "05933901071936502668504",
                         "concept": "STARBUCKS",
                         "amount": {

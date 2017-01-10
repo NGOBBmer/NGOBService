@@ -3,7 +3,7 @@
     "paginationKey":"",
     "promotionsList": [
       {
-        "operationDate": "30/08/2016",
+        "operationDate": "2016-08-30",
         "description": "Liverpool",
         "purchasePrice":{
           "amount":3000,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "operationDate": "21/10/2016",
+        "operationDate": "2016-10-21",
         "description": "Avance efectivo",
         "purchasePrice":{
           "amount":4400,
