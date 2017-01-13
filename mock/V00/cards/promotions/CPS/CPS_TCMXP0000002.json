@@ -4,6 +4,28 @@
     "promotionsList": [
       {
         "operationDate": "2016-04-30",
+        "description": "PRUEBA",
+        "purchasePrice":{
+          "amount":1111111111111111111111111111111111111111111111111111111111,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":10,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":1,
+          "proportion": 20.0,
+          "current":1
+        },
+        "interestRate":"12%",
+        "currentBalance":{
+          "amount":3,
+          "currency": "MXP"
+        }
+      },
+      {
+        "operationDate": "2016-04-30",
         "description": "Portal",
         "purchasePrice":{
           "amount":3000,
