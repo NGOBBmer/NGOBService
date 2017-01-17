@@ -10,7 +10,7 @@ var AS_ERROR_ID = require('../mock/V00/cards/sendAccountStatement/error_id.json'
 /* GET users listing. */
 router.use(function(req, res, next) {
   var host = req.get('origin');
-  res.setHeader('Access-Control-Allow-Origin', host);
+  res.setHeader('Access-Control-Allow-Origin', 'https://ngob-11ca1.firebaseapp.com');
   res.setHeader('Access-Control-Allow-Methods', 'POST');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec');
   res.setHeader('Access-Control-Allow-Credentials', true);
