@@ -35,7 +35,6 @@ function getJson(){
       "timeZone": "-06:00"
     }
   }
-
   return obj;
 }
 
