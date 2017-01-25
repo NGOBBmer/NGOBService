@@ -1,35 +1,38 @@
 {
-  "data": [
-    {
-      "bytesPdf": null,
-      "bytesXml": null,
-      "cutType": "C1",
-      "downloadPdf": "S",
-      "downloadXml": "S",
-      "idPeriodo": "PERIOD0009",
-      "periodDate": "2016-08-08",
-      "postedBalance": 0.0,
-      "sendPdf": "N",
-      "sendXml": "N",
-      "historic": true,
-      "urlPdf": "",
-      "urlXml": ""
-    },
-    {
-      "bytesPdf": null,
-      "bytesXml": null,
-      "cutType": "C1",
-      "downloadPdf": "S",
-      "downloadXml": "S",
-      "idPeriodo": "PERIOD0010",
-      "periodDate": "2016-09-08",
-      "postedBalance": 0.0,
-      "sendPdf": "N",
-      "sendXml": "N",
-      "historic": true,
-      "urlPdf": "",
-      "urlXml": ""
-    }
-  ],
-  "paginationKey": null
+  "data": {
+    "historicPeriods": [
+      {
+        "bytesPdf": null,
+        "bytesXml": null,
+        "cutType": "C1",
+        "downloadPdf": "S",
+        "downloadXml": "S",
+        "historic": true,
+        "idPeriodo": "PERIOD0009",
+        "periodDate": "2016-08-08",
+        "postedBalance": 0.0,
+        "sendPdf": "N",
+        "sendXml": "N",
+        "urlPdf": "",
+        "urlXml": ""
+      },
+      {
+        "bytesPdf": null,
+        "bytesXml": null,
+        "cutType": "C1",
+        "downloadPdf": "S",
+        "downloadXml": "S",
+        "historic": true,
+        "idPeriodo": "PERIOD0010",
+        "periodDate": "2016-09-08",
+        "postedBalance": 0.0,
+        "sendPdf": "N",
+        "sendXml": "N",
+        "urlPdf": "",
+        "urlXml": ""
+      }
+    ],
+    "periods": []
+  },
+  "paginationKey": ""
 }
