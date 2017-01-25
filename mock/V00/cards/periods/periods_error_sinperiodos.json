@@ -3,7 +3,7 @@
     "code": "ERR_AS_001",
     "descripcion": "Se ha producido un error al consultar el servicio",
     "httpStatus": "400",
-    "message": "Error al intentar obtener el estado de cuenta del periodo...",
+    "message": "NO EXISTEN PERIODOS DISPONIBLES PARA LA CUENTA SOLICITADA...",
     "severity": "FATAL",
     "version": "1"
   }
