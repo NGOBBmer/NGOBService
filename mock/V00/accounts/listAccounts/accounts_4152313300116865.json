@@ -1,0 +1,285 @@
+{
+  "cards": [
+    {
+      "cardBase": {
+        "blocking": {
+          "date": "2017-02-01 15:18:57:600000",
+          "reason": {},
+          "status": {}
+        },
+        "cardType": "C",
+        "expirationDate": "12/2017",
+        "name": "BELEN GARCES GARCIA",
+        "productCode": "T AZUL BCMR"
+      },
+      "cardLimits": {
+        "cashLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "contractLimit": {},
+        "currentLimit": {},
+        "officeLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "overage": {},
+        "productLimit": {},
+        "requestedLimit": {},
+        "tradesLimites": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "transferLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        }
+      },
+      "cardNumber": "4931610416391763",
+      "creditCardIndicator": {
+        "indicatorPeriod": {}
+      },
+      "endDate": "2017-02-01 15:18:57:626000",
+      "finalAvailableBalance": {},
+      "finalCreditLine": {},
+      "minimumPayment": {},
+      "outstandingDebt": {},
+      "paymentData": {
+        "type": {}
+      },
+      "paymentDate": "2017-02-01 15:18:57:630000",
+      "paymentWithoutInterest": {},
+      "productBase": {
+        "balance": {
+          "availableBalance": {},
+          "averageBalance": {},
+          "balance": {},
+          "balanceDue": {},
+          "overdueBalance": {},
+          "pendingBalance": {},
+          "previousBalance": {}
+        },
+        "errorInfo": {},
+        "parentContract": {
+          "branch": {},
+          "card": {},
+          "participants": {}
+        },
+        "totalBalance": {}
+      },
+      "totalPayment": {}
+    },
+    {
+      "cardBase": {
+        "blocking": {
+          "date": "2017-02-01 15:18:57:642000",
+          "reason": {},
+          "status": {}
+        },
+        "cardType": "C",
+        "expirationDate": "07/2019",
+        "name": "BELEN GARCES GARCIA",
+        "productCode": "T BCMR PLATINUM"
+      },
+      "cardLimits": {
+        "cashLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "contractLimit": {},
+        "currentLimit": {},
+        "officeLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "overage": {},
+        "productLimit": {},
+        "requestedLimit": {},
+        "tradesLimites": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "transferLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        }
+      },
+      "cardNumber": "4101810434091924",
+      "creditCardIndicator": {
+        "indicatorPeriod": {}
+      },
+      "endDate": "2017-02-01 15:18:57:659000",
+      "finalAvailableBalance": {},
+      "finalCreditLine": {},
+      "minimumPayment": {},
+      "outstandingDebt": {},
+      "paymentData": {
+        "type": {}
+      },
+      "paymentDate": "2017-02-01 15:18:57:662000",
+      "paymentWithoutInterest": {},
+      "productBase": {
+        "balance": {
+          "availableBalance": {},
+          "averageBalance": {},
+          "balance": {},
+          "balanceDue": {},
+          "overdueBalance": {},
+          "pendingBalance": {},
+          "previousBalance": {}
+        },
+        "errorInfo": {},
+        "parentContract": {
+          "branch": {},
+          "card": {},
+          "participants": {}
+        },
+        "totalBalance": {}
+      },
+      "totalPayment": {}
+    },
+    {
+      "cardBase": {
+        "blocking": {
+          "date": "2017-02-01 15:18:57:669000",
+          "reason": {},
+          "status": {}
+        },
+        "cardType": "D",
+        "expirationDate": "08/2021",
+        "name": "BELEN GARCES GARCIA",
+        "productCode": "VISA DEBITO"
+      },
+      "cardLimits": {
+        "cashLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "contractLimit": {},
+        "currentLimit": {},
+        "officeLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "overage": {},
+        "productLimit": {},
+        "requestedLimit": {},
+        "tradesLimites": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        },
+        "transferLimits": {
+          "daily": {},
+          "dailyAvailable": {},
+          "maximumDaily": {},
+          "maximumMonthly": {},
+          "minimumDaily": {},
+          "minimumMonthly": {},
+          "monthly": {},
+          "monthlyAvailable": {}
+        }
+      },
+      "cardNumber": "4152313300116865",
+      "creditCardIndicator": {
+        "indicatorPeriod": {}
+      },
+      "endDate": "2017-02-01 15:18:57:685000",
+      "finalAvailableBalance": {},
+      "finalCreditLine": {},
+      "minimumPayment": {},
+      "outstandingDebt": {},
+      "paymentData": {
+        "type": {}
+      },
+      "paymentDate": "2017-02-01 15:18:57:688000",
+      "paymentWithoutInterest": {},
+      "productBase": {
+        "balance": {
+          "availableBalance": {},
+          "averageBalance": {},
+          "balance": {},
+          "balanceDue": {},
+          "overdueBalance": {},
+          "pendingBalance": {},
+          "previousBalance": {}
+        },
+        "errorInfo": {},
+        "parentContract": {
+          "branch": {},
+          "card": {},
+          "participants": {}
+        },
+        "totalBalance": {}
+      },
+      "totalPayment": {}
+    }
+  ],
+  "hasMoreData": "N",
+  "totalRecordsNumber": 3
+}
