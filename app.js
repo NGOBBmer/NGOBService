@@ -17,6 +17,7 @@ var sendAccountStatement = require('./routes/sendAccountStatement');
 var userInfo = require('./routes/userInfo');
 var systemDate = require('./routes/systemDate');
 var accounts = require('./routes/accounts');
+var accountsMovs = require('./routes/accountsMovs');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -44,6 +45,7 @@ app.use('/cards', sendAccountStatement);
 app.use('/users', userInfo);
 app.use('/users', systemDate);
 app.use('/accounts', accounts);
+app.use('/accounts', accountsMovs);
 app.use('/auth', auth);
 
 // catch 404 and forward to error handler
