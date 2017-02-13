@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
+var cheques = require('./routes/cheques');
 var cards = require('./routes/cards');
 var expandedCard = require('./routes/expanded-card');
 var movements = require('./routes/movements');
@@ -34,6 +35,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
+app.use('/cheques', cheques);
 app.use('/cards', promotions);
 app.use('/cards', expandedCard);
 app.use('/cards', cards);
