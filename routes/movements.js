@@ -29,7 +29,7 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-// handler for /V00/cards/movements/TCMXP0000001?additionalCardId=TJ0001&paginationKey=&initialDate=&finalDate=&period=&numMovements&period=
+// handler for /V00/cards/movements/TCMXP0000001?additionalCardId=TJ0001&paginationKey=&initialDate=&finalDate=&numMovements&period=
 router.get('/V00/cards/movements/:id', function(req, res, next) {
     if (req.query.additionalCardId){
         if (req.query.additionalCardId == 'TJ0001') {

@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var accounts_4152313300116865 = require('../mock/V00/accounts/listAccounts/accounts_4152313300116865.json');
+var accounts_4152313300116865 = require('../../mock/V00/accounts/listAccounts/accounts_4152313300116865.json');
 // var accounts_4152313300116865 = require('../mock/V00/accounts/listAccounts/accounts_4152313300116865.json');
-var accounts_sinAccountType = require('../mock/V00/accounts/listAccounts/accounts_sinAccountType.json');
+var accounts_sinAccountType = require('../../mock/V00/accounts/listAccounts/accounts_sinAccountType.json');
 // var accounts_sinAccounts = require('../mock/V00/accounts/listAccounts/accounts_sinAccounts.json');
 
 /* GET users listing. */

@@ -1,16 +1,16 @@
 var express = require('express');
 var router = express.Router();
 
-var movements_AH01 = require('../mock/V00/accounts/movements/AHMXP0000001.json');
-var movements_AH01_next= require('../mock/V00/accounts/movements/AHMXP0000001_next.json');
-var movements_AH01_filter= require('../mock/V00/accounts/movements/AHMXP0000001_filter.json');
-var movements_CH01 = require('../mock/V00/accounts/movements/CHUSD0000001.json');
-var movements_CH01_next= require('../mock/V00/accounts/movements/CHUSD0000001_next.json');
-var movements_CH01_filter= require('../mock/V00/accounts/movements/CHUSD0000001_filter.json');
-var movements_CH02 = require('../mock/V00/accounts/movements/CHEUR0000001.json');
-var movements_CH02_next= require('../mock/V00/accounts/movements/CHEUR0000001_next.json');
-var movements_CH02_filter= require('../mock/V00/accounts/movements/CHEUR0000001_filter.json');
-var movements_default= require('../mock/V00/accounts/movements/default.json');
+var movements_AH01 = require('../../mock/V00/accounts/movements/AHMXP0000001.json');
+var movements_AH01_next= require('../../mock/V00/accounts/movements/AHMXP0000001_next.json');
+var movements_AH01_filter= require('../../mock/V00/accounts/movements/AHMXP0000001_filter.json');
+var movements_CH01 = require('../../mock/V00/accounts/movements/CHUSD0000001.json');
+var movements_CH01_next= require('../../mock/V00/accounts/movements/CHUSD0000001_next.json');
+var movements_CH01_filter= require('../../mock/V00/accounts/movements/CHUSD0000001_filter.json');
+var movements_CH02 = require('../../mock/V00/accounts/movements/CHEUR0000001.json');
+var movements_CH02_next= require('../../mock/V00/accounts/movements/CHEUR0000001_next.json');
+var movements_CH02_filter= require('../../mock/V00/accounts/movements/CHEUR0000001_filter.json');
+var movements_default= require('../../mock/V00/accounts/movements/default.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -21,7 +21,7 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-// handler for /V00/cards/movements/AHMXP0000001?paginationKey=&initialDate=&finalDate=&period=&numMovements&period=&amountMin=&amountMax
+// handler for /V00/accounts/movements/AHMXP0000001?paginationKey=&initialDate=&finalDate=&period=&numMovements&period=&amountMin=&amountMax
 router.get('/V00/accounts/movements/:id', function(req, res, next) {
         if (req.params.id == 'AHMXP0000001'){
             if (req.query.paginationKey) {
