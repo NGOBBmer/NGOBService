@@ -41,8 +41,10 @@ router.post('/V00/cards/:id/sendAccountStatement', function(req, res, next) {
     }
     if (req.params && req.params.id == 'TCMXP0000005')  {
       return res.json(AS_NO_DATA);
+      res.sendStatus(400);
     }
     return res.json(AS_ERROR_ID);
+    res.sendStatus(500);
   	}
   next();
 });

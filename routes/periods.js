@@ -40,8 +40,10 @@ router.get('/V00/cards/:id/periods/', function(req, res, next) {
       }
       if (req.params && req.params.id == 'TCMXP0000004')  {
         return res.json(AS_NO_DATA);
+        es.sendStatus(400);
       }
       return res.json(AS_ERROR_ID);
+      es.sendStatus(500);
   	}
     next();
   });

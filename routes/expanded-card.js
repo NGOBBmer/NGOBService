@@ -75,8 +75,10 @@ if(req.params && req.params.id ){
   }
   if (req.params && req.params.id == 'NO_DATA'){
     return res.json(CARD_DETAIL_NO_DATA);
+    res.sendStatus(400);
   }
   return res.json(CARD_DETAIL_NO_DATA);
+  res.sendStatus(500);
 }
   
   next();
