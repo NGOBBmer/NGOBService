@@ -33,10 +33,9 @@ router.get('/V00/cards/:id/accountStatement/', function(req, res, next) {
         return res.json(PERIOD0004);
       }
       if (req.params && req.params.id == 'PERIOD0005')  {
-        res.sendStatus(400);
-        return res.json(AS_NO_DATA);
+        return res.status(400).json(AS_NO_DATA);
       }
-      return res.json(AS_ERROR_ID);
+      return res.status(500).json(AS_ERROR_ID);
   	}
     next();
   });

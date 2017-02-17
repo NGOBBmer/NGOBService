@@ -40,11 +40,9 @@ router.post('/V00/cards/:id/sendAccountStatement', function(req, res, next) {
       return res.json(PERIOD0004);
     }
     if (req.params && req.params.id == 'TCMXP0000005')  {
-      return res.json(AS_NO_DATA);
-      res.sendStatus(400);
+      return res.status(400).json(AS_NO_DATA);
     }
-    return res.json(AS_ERROR_ID);
-    res.sendStatus(500);
+    return res.status(500).json(AS_ERROR_ID);
   	}
   next();
 });
