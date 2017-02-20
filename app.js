@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var cheques = require('./routes/cheques');
 var cards = require('./routes/cards');
+var dashboard = require('./routes/dashboard');
 var expandedCard = require('./routes/expanded-card');
 var movements = require('./routes/movements');
 var relatedCards = require('./routes/related-cards');
@@ -22,6 +23,7 @@ var accountsMovs = require('./routes/accounts/accountsMovs');
 var periodsAc = require('./routes/accounts/periodsAc');
 var accountStatementAc = require('./routes/accounts/accountStatementAc');
 var sendAccountStatementAc = require('./routes/accounts/sendAccountStatementAc');
+var tsec = require('./routes/dashboard/tsec');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -39,6 +41,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/cheques', cheques);
+app.use('/dashboard', dashboard);
 app.use('/cards', promotions);
 app.use('/cards', expandedCard);
 app.use('/cards', cards);
@@ -54,6 +57,7 @@ app.use('/accounts', accountsMovs);
 app.use('/accounts', periodsAc);
 app.use('/accounts', accountStatementAc);
 app.use('/accounts', sendAccountStatementAc);
+app.use('/dashboard', tsec);
 app.use('/auth', auth);
 
 // catch 404 and forward to error handler
