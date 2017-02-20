@@ -85,13 +85,13 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
         }
         if (req.params.id == 'TCMXP0000004'){
              if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
-                return res.json(movements_TJ0001_dates_next);
+                return res.status(400).json(movements_default);
             } else if (req.query.initialDate && req.query.finalDate) {
-                return res.json(movements_TJ0004_next);
+                return res.status(400).json(movements_default);
             }else if (req.query.paginationKey) {
-                return res.json(movements_TJ0004_next);
+                return res.status(400).json(movements_default);
             } else{
-                return res.json(movements_TJ0004);
+                return res.status(400).json(movements_default);
             }
         }
         if (req.params.id == 'TCMXP0000005'){
