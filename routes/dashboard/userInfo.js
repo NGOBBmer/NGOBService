@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var userInfo_user01 = require('../mock/V00/users/userInfo/userInfo_user01.json');
-var userInfo_user02 = require('../mock/V00/users/userInfo/userInfo_user02.json');
-var userInfo_error = require('../mock/V00/users/userInfo/userInfo_error.json');
+var userInfo_user01 = require('../../mock/V00/dashboard/userInfo/userInfo_user01.json');
+var userInfo_user02 = require('../../mock/V00/dashboard/userInfo/userInfo_user02.json');
+var userInfo_error = require('../../mock/V00/dashboard/userInfo/userInfo_error.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -17,8 +17,8 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:3000/users/V00/userInfo?filter=email
-router.get('/V00/getInfo', function(req, res, next) {
+// handler for query http://localhost:3000/dashboard/V00/userInfo?filter=email
+router.get('/V00/userInfo', function(req, res, next) {
 	if(req.query){
     return res.json(userInfo_user01);
 	}

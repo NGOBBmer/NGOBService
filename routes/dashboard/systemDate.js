@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var dates01 = require('../mock/V00/users/systemDate/date01.json');
+var dates01 = require('../../mock/V00/dashboard/systemDate/date01.json');
 
 function getDate(now) {
    var yyyy = now.getFullYear();

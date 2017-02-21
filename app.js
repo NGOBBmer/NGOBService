@@ -16,14 +16,15 @@ var promotions = require('./routes/promotions');
 var periods = require('./routes/periods');
 var accountStatement = require('./routes/accountStatement');
 var sendAccountStatement = require('./routes/sendAccountStatement');
-var userInfo = require('./routes/userInfo');
-var systemDate = require('./routes/systemDate');
 var accounts = require('./routes/accounts/listAccounts');
 var accountsMovs = require('./routes/accounts/accountsMovs');
 var periodsAc = require('./routes/accounts/periodsAc');
 var accountStatementAc = require('./routes/accounts/accountStatementAc');
 var sendAccountStatementAc = require('./routes/accounts/sendAccountStatementAc');
 var tsec = require('./routes/dashboard/tsec');
+var userInfo = require('./routes/dashboard/userInfo');
+var systemDate = require('./routes/dashboard/systemDate');
+var logs = require('./routes/dashboard/logs');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -50,14 +51,15 @@ app.use('/cards', relatedCards);
 app.use('/cards', periods);
 app.use('/cards', accountStatement);
 app.use('/cards', sendAccountStatement);
-app.use('/users', userInfo);
-app.use('/users', systemDate);
 app.use('/accounts', accounts);
 app.use('/accounts', accountsMovs);
 app.use('/accounts', periodsAc);
 app.use('/accounts', accountStatementAc);
 app.use('/accounts', sendAccountStatementAc);
 app.use('/dashboard', tsec);
+app.use('/dashboard', userInfo);
+app.use('/dashboard', systemDate);
+app.use('/dashboard', logs);
 app.use('/auth', auth);
 
 // catch 404 and forward to error handler
