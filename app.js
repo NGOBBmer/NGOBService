@@ -25,6 +25,7 @@ var tsec = require('./routes/dashboard/tsec');
 var userInfo = require('./routes/dashboard/userInfo');
 var systemDate = require('./routes/dashboard/systemDate');
 var logs = require('./routes/dashboard/logs');
+var campaigns = require('./routes/dashboard/campaigns');
 var auth = require('./routes/auth');
 
 var app = express();
@@ -59,6 +60,7 @@ app.use('/accounts', sendAccountStatementAc);
 app.use('/dashboard', tsec);
 app.use('/dashboard', userInfo);
 app.use('/dashboard', systemDate);
+app.use('/dashboard', campaigns);
 app.use('/dashboard', logs);
 app.use('/auth', auth);
 

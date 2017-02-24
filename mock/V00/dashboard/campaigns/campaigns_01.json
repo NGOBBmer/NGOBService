@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "amountOffer": {
+        "amount": 18049.0,
+        "currency": "MXP"
+      },
+      "campaignId": "0130CAM1702020001",
+      "campaignName": "INCREMENTO LINEA DE CREDITO TDC BANCARIA",
+      "contractProduct": {
+        "code": "",
+        "description": "",
+        "id": ""
+      },
+      "promotionType": "0130",
+      "type": "1C"
+    },
+    {
+      "amountOffer": {
+        "amount": 30000.0,
+        "currency": "MXP"
+      },
+      "campaignId": "0296CAM1702020001",
+      "campaignName": "PREAPROBADO TDC",
+      "contractProduct": {
+        "code": "",
+        "description": "",
+        "id": ""
+      },
+      "promotionType": "0296",
+      "type": "1C"
+    },
+    {
+      "amountOffer": {
+        "amount": 3080.0,
+        "currency": "MXP"
+      },
+      "campaignId": "0060CAM2994370001",
+      "campaignName": "PRE APROBADOS CONSUMO",
+      "contractProduct": {
+        "code": "",
+        "description": "",
+        "id": "PBCCMPPI01"
+      },
+      "promotionType": "0060",
+      "type": "1C"
+    }
+  ]
+}
