@@ -9,7 +9,7 @@
                         "currency": "MXN"
                     },
                     "postedBalance": {
-                        "amount": "130",
+                        "amount": "",
                         "currency": "MXN"
                     },
                     "card": {
@@ -22,7 +22,7 @@
                     "rewardsGenerated": "",
                     "rewardsconsumed": "",
                     "deferred": false,
-                    "movementPending": false
+                    "movementPending": true
                 }, {
                     "operationDate": "01/03/2016",
                     "reference": "74931616061981002663431",

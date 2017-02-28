@@ -9,7 +9,7 @@
                 "currency": "MXN"
             },
             "postedBalance": {
-                "amount": "130",
+                "amount": "",
                 "currency": "MXN"
             },
             "card": {
@@ -32,7 +32,7 @@
                 "currency": "MXN"
             },
             "postedBalance": {
-                "amount": "116",
+                "amount": "",
                 "currency": "MXN"
             },
             "card": {
@@ -45,7 +45,7 @@
             "rewardsGenerated": "",
             "rewardsconsumed": "",
             "deferred": false,
-            "movementPending": false
+            "movementPending": true
         }, {
             "operationDate": "2016-02-22",
             "reference": "74931616071981002668408",
@@ -55,7 +55,7 @@
                 "currency": "MXN"
             },
             "postedBalance": {
-                "amount": "48",
+                "amount": "",
                 "currency": "MXN"
             },
             "card": {
@@ -68,7 +68,7 @@
             "rewardsGenerated": "",
             "rewardsconsumed": "",
             "deferred": false,
-            "movementPending": false
+            "movementPending": true
         }, {
             "operationDate": "2016-02-23",
             "reference": "05933901071936502668504",
