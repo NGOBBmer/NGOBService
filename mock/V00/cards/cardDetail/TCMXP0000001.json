@@ -13,7 +13,8 @@
     "cardId": "TCMXP0000001",
     "cardType": {
       "id": "I",
-      "name": "IPN"
+      "name": "IPN",
+      "test":"testss"
     },
     "cargosTransito": null,
     "charges": {
