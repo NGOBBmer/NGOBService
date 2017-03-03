@@ -12,7 +12,8 @@
       },
       "brandAssociation": {
         "id": "VISA",
-        "name": "Visa"
+        "name": "Visa",
+        "test":"test"
       },
       "cardId": "AHMXP0000001",
       "cardType": {
