@@ -26,6 +26,7 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/tsec
 router.post('/V00/tsec', function(req, res, next) {
   res.header('Access-Control-Expose-Headers', 'tsec');
+  return {};
   next();
 });
 
