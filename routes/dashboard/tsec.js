@@ -15,8 +15,7 @@ router.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,tsec,Accept-Language');
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Tsec', '654321');
-  res.setHeader('Access-Control-Expose-Headers', 'Tsec');
-
+  res.seHeader('Access-Control-Expose-Headers', 'Tsec');
   next();
 });
 
@@ -27,7 +26,7 @@ router.use(function(req, res, next) {
 */
 // handler for query http://localhost:4000/dashboard/V00/tsec
 router.post('/V00/tsec', function(req, res, next) {
-  return res.json {};
+  return res.json({});
   next();
 });
 
