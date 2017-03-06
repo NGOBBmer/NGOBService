@@ -15,7 +15,7 @@ router.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,tsec,Accept-Language');
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Tsec', '654321');
-  res.seHeader('Access-Control-Expose-Headers', 'Tsec');
+  res.header('Access-Control-Expose-Headers', 'Tsec');
   next();
 });
 
