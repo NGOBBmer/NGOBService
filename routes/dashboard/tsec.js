@@ -13,10 +13,10 @@ router.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,tsec,Accept-Language');
   res.setHeader('Access-Control-Allow-Credentials', true);
-  res.setHeader('Content-Type', '*');
-  res.setHeader('Accept', '*');
-  res.setHeader('Accept-Language', '*');
-  res.setHeader('Accept', '*');
+  res.setHeader('Content-Type', 'application/json;charset=UTF-8');
+  res.setHeader('Accept', 'application/json;charset=UTF-8');
+  res.setHeader('Accept-Language', 'es-419,es;q=0.8');
+  res.setHeader('Accept', 'es-419,es;q=0.8');
   res.setHeader('Tsec', '654321');
   res.header('Access-Control-Expose-Headers', 'Tsec');
   next();
