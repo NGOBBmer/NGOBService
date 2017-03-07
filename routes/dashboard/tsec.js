@@ -8,9 +8,9 @@ var TSEC = require('../../mock/V00/dashboard/tsec/tsec_01.json');
 app.use(bodyParser.json());*/
 
 router.use(function(req, res, next) {
-  req.body = {
+  req.body = JSON.stringify({
     'parse': 'parse'
-  };
+  });
   var host = req.get('origin');
   res.setHeader('Access-Control-Allow-Origin', host || '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
