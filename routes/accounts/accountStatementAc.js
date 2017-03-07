@@ -17,9 +17,9 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:3000/accounts/V00/accounts/AHMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf
+// handler for query http://localhost:3000/accounts/V00/accounts/AHMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf&otp=
 router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
-	if(req.params && req.params.id){
+	if(req.params && req.params.id && req.query.otp){
 	    if (req.params && req.query.periodId == 'PERIOD0001')  {
         return res.json(PERIOD0001);
 	    }
