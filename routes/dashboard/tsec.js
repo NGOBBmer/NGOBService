@@ -4,8 +4,8 @@ var router = express.Router();
 var TSEC = require('../../mock/V00/dashboard/tsec/tsec_01.json');
 
 /* GET users listing. */
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+/*app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());*/
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
