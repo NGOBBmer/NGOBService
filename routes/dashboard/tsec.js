@@ -9,6 +9,7 @@ app.use(bodyParser.json());*/
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
+  req.accepts('html, json') === 'json';
   res.setHeader('Access-Control-Allow-Origin', host || '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,tsec,Accept-Language');
@@ -25,7 +26,6 @@ router.use(function(req, res, next) {
 */
 // handler for query http://localhost:4000/dashboard/V00/tsec
 router.post('/V00/tsec', function(req, res, next) {
-  req.accepts('html, json') === 'json';
   return res.json({});
   next();
 });
