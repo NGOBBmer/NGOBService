@@ -10,8 +10,8 @@ router.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec,Accept-Language');
   res.setHeader('Content-Type', 'application/json;charset=UTF-8');
   res.setHeader('Accept', 'application/json;charset=UTF-8');
-  res.setHeader('Accept-Language', 'es-419,es;q=0.8');
-  res.setHeader('Accept', 'es-419,es;q=0.8');
+  res.setHeader('Accept-Language', 'application/json;charset=UTF-8');
+  res.setHeader('Accept', 'application/json;charset=UTF-8');
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('tsec', '654321');
   next();
