@@ -29,7 +29,7 @@
       "disposedBalance": {
         "currentBalances": [
           {
-            "amount": 0.0,
+            "amount": 160.0,
             "currency": "MXP"
           }
         ]
@@ -73,7 +73,7 @@
       "disposedBalance": {
         "currentBalances": [
           {
-            "amount": 0.0,
+            "amount": 2500.0,
             "currency": "USD"
           }
         ]
