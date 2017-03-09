@@ -18,7 +18,7 @@
           "proportion": 40.0,
           "current":2
         },
-        "interestRate":"8%",
+        "interestRate":"8",
         "currentBalance":{
           "amount":300,
           "currency": "MXP"

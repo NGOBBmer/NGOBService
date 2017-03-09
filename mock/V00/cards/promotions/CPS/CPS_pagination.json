@@ -18,7 +18,7 @@
           "proportion": 20.0,
           "current":2
         },
-        "interestRate":"10%",
+        "interestRate":"10",
         "currentBalance":{
           "amount":3400,
           "currency": "MXP"
@@ -40,7 +40,7 @@
           "proportion": 25.0,
           "current":5
         },
-        "interestRate":"0%",
+        "interestRate":"0",
         "currentBalance":{
           "amount":2750,
           "currency": "MXP"
