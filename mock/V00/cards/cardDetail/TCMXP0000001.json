@@ -20,7 +20,7 @@
       "amount": 8175.98
     },
     "comisiones": "",
-    "cutOffDate": "2017-12-14",
+    "cutOffDate": "2017-04-08",
     "deferredPayment": "",
     "disposedBalance": {
       "currentBalances": {
@@ -53,14 +53,14 @@
     },
     "pagosTransito": null,
     "paymentMethod": {
-      "endDate": "2016-11-03",
+      "endDate": "2017-03-30",
       "monetaryPayments": null,
       "paymentAmounts": [
         {
           "id": "PM",
           "name": "minimumPayment",
           "values": {
-            "amount": "0"
+            "amount": "176.89"
           }
         },
         {
