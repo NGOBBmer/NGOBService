@@ -74,7 +74,7 @@ if(req.params && req.params.id ){
   if (req.params && req.params.id == 'TCMXP0000005'){
     return res.json(TCMXP0000005);
   }
-  if (req.query && req.query.id == 'TCMXP0000006') {
+  if (req.params && req.params.id == 'TCMXP0000006') {
     return res.json(TCMXP0000006);
   }
   if (req.params && req.params.id == 'SERVICE_ERROR'){
