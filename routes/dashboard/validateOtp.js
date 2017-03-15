@@ -20,7 +20,6 @@ router.use(function(req, res, next) {
 }
 */
 router.post('/V00/validateOtp', function(req, res, next) {
-  console.log(req.body);
   if (req.body.otp && req.body.otp=="12345678"){
     return res.json(OK);
   }
@@ -29,7 +28,6 @@ router.post('/V00/validateOtp', function(req, res, next) {
 });
 // handler for query http://localhost:4000/dashboard/V00/validateOtp?otp=12345678
 router.get('/V00/validateOtp', function(req, res, next) {
-  console.log(req.params.otp);
   if (req.query.otp && req.query.otp=="12345678"){
     return res.json(OK);
   }
