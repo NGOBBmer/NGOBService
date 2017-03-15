@@ -1,12 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var PERIOD0001 = require('../../mock/V00/accounts/accountstatement/PERIOD0001.json');
-var PERIOD0002 = require('../../mock/V00/accounts/accountstatement/PERIOD0002.json');
-var PERIOD0003 = require('../../mock/V00/accounts/accountstatement/PERIOD0003.json');
-var PERIOD0004 = require('../../mock/V00/accounts/accountstatement/PERIOD0004.json');
-var AS_NO_DATA = require('../../mock/V00/accounts/accountstatement/accountstatement_error_sinperiodos.json');
-var AS_ERROR_ID = require('../../mock/V00/accounts/accountstatement/accountstatement_error_id.json');
-var NOK = require('../../mock/V00/dashboard/validateOtp/otp_error.json');
+var DATA_01 = require('../../mock/V00/dashboard/banners/banners_01.json');
+var NO_DATA = require('../../mock/V00/dashboard/banners/banners_error.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -18,33 +13,14 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:3000/accounts/V00/accounts/AHMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf&otp=
-router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
-	if(req.params && req.params.id){
-    if (req.query.otp == "12345678"){
-	    if (req.params && req.query.periodId == 'PERIOD0001')  {
-        return res.json(PERIOD0001);
-	    }
-      if (req.params && req.query.periodId == 'PERIOD0002')  {
-        return res.json(PERIOD0002);
-      }
-      if (req.params && req.query.periodId == 'PERIOD0003')  {
-        return res.json(PERIOD0003);
-      }
-      if (req.params && req.query.periodId == 'PERIOD0004')  {
-        return res.json(PERIOD0004);
-      }
-      if (req.params && req.params.id == 'PERIOD0005')  {
-        return res.status(400).json(AS_NO_DATA);
-      }
-      return res.status(500).json(AS_ERROR_ID);
-  	}else{
-      return res.status(400).json(NOK);
-    }
+// handler for query http://localhost:4000/dashboard/V00/banners
+router.get('/V00/banners/', function(req, res, next) {
+	if(req.query){
+     return res.json(DATA_01);
+  }else{
+     return res.status(400).json(NO_DATA);
   }
-    return res.status(500).json(AS_ERROR_ID);
-    next();
+  next();
   });
-
 
 module.exports = router;
