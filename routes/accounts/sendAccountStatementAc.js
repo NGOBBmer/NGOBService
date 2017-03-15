@@ -22,11 +22,11 @@ router.use(function(req, res, next) {
     "email": "userEmail@server.com",
     "password": "userPass4Edc",
     "periodId": "PERIOD0001",
-    "otp": ""
+    "otp": "12345678"
   }
 */
 router.post('/V00/accounts/:id/sendAccountStatement', function(req, res, next) {
-  if (req.params && req.params.id && req.body.otp == "12345678" && req.body.email && req.body.password && req.body.periodID) {
+  if (req.params && req.params.id && req.body.email && req.body.password && req.body.periodId && req.body.otp == "12345678") {
     if (req.params && req.params.id == 'AHMXP0000001')  {
       return res.json(PERIOD0001);
     }
