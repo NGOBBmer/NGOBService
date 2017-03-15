@@ -6,6 +6,7 @@ var PERIOD0003 = require('../../mock/V00/accounts/accountstatement/PERIOD0003.js
 var PERIOD0004 = require('../../mock/V00/accounts/accountstatement/PERIOD0004.json');
 var AS_NO_DATA = require('../../mock/V00/accounts/accountstatement/accountstatement_error_sinperiodos.json');
 var AS_ERROR_ID = require('../../mock/V00/accounts/accountstatement/accountstatement_error_id.json');
+var NOK = require('../../mock/V00/dashboard/validateOtp/otp_error.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -19,7 +20,8 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:3000/accounts/V00/accounts/AHMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf&otp=
 router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
-	if(req.params && req.params.id && req.query.otp == "12345678"){
+	if(req.params && req.params.id){
+    if (req.query.otp == "12345678"){
 	    if (req.params && req.query.periodId == 'PERIOD0001')  {
         return res.json(PERIOD0001);
 	    }
@@ -36,7 +38,11 @@ router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
         return res.json(AS_NO_DATA);
       }
       return res.json(AS_ERROR_ID);
-  	}
+  	}else{
+      return res.status(400).json(NOK);
+    }
+  }
+    return res.json(AS_ERROR_ID);
     next();
   });
 
