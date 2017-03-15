@@ -20,13 +20,13 @@ router.use(function(req, res, next) {
 /* Object json in method post
   {
     "email": "userEmail@server.com",
-    "pass": "userPass4Edc",
+    "password": "userPass4Edc",
     "periodId": "PERIOD0001",
     "otp": ""
   }
 */
 router.post('/V00/accounts/:id/sendAccountStatement', function(req, res, next) {
-  if (req.params && req.params.id && req.body.otp == "12345678") {
+  if (req.params && req.params.id && req.body.otp == "12345678" && && req.body.email && req.body.password && req.body.periodID) {
     if (req.params && req.params.id == 'AHMXP0000001')  {
       return res.json(PERIOD0001);
     }
