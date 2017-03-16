@@ -31,7 +31,7 @@ router.use(function(req, res, next) {
 });
 // handler for /V00/cards/movements/TCMXP0000001?additionalCardId=TJ0001&paginationKey=&initialDate=&finalDate=&numMovements&period=
 router.get('/V00/cards/movements/:id', function(req, res, next) {
-   setTimeout(function() {
+   // setTimeout(function() {
         if (req.query.additionalCardId){
             if (req.query.additionalCardId == 'TJ0001') {
                 if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
@@ -121,7 +121,7 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
         }
         return res.json(movements_default);
         next();
-    }, 21000); // 21 segundos 
+    // }, 21000); // 21 segundos 
 });
 
 module.exports = router;
