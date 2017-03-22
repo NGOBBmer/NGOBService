@@ -1,16 +1,16 @@
 {
   "data": {
-    "alias": "",
+    "alias": "ElSebas",
     "amountDispute": "0",
     "availableBalance": {
       "currentBalances": {
-        "amount": 12000.1,
+        "amount": 18000,
         "currency": "MXP"
       },
       "pendingBalances": null,
       "postedBalances": null
     },
-    "cardId": "TCMXP0000004",
+    "cardId": "TCMXP0000006",
     "cardType": {
       "id": "I",
       "name": "IPN"
@@ -20,7 +20,7 @@
       "amount": 0.0
     },
     "comisiones": "",
-    "cutOffDate": "2017-04-01",
+    "cutOffDate": "2017-03-15",
     "deferredPayment": "",
     "disposedBalance": {
       "currentBalances": {
@@ -53,27 +53,27 @@
     },
     "pagosTransito": null,
     "paymentMethod": {
-      "endDate": "2017-03-14",
+      "endDate": "2017-03-08",
       "monetaryPayments": null,
       "paymentAmounts": [
         {
           "id": "PM",
           "name": "minimumPayment",
           "values": {
-            "amount": "0.0"
+            "amount": "1.0"
           }
         },
         {
           "id": "PNI",
           "name": "notInterestPayment",
           "values": {
-            "amount": "0.0"
+            "amount": "1314.67"
           }
         }
       ]
     },
     "payments": {
-      "amount": -301.0
+      "amount": -3001.0
     },
     "positiveBalance": {
       "amount": 1000.0

@@ -23,7 +23,7 @@
       "amount": 0.0
     },
     "comisiones": "",
-    "cutOffDate": "",
+    "cutOffDate": "2017-03-15",
     "deferredPayment": "",
     "disposedBalance": {
       "currentBalances": {
@@ -54,21 +54,21 @@
       "currency": "MXP"
     },
     "paymentMethod": {
-      "endDate": "",
+      "endDate": "2017-03-08",
       "monetaryPayments": null,
       "paymentAmounts": [
         {
           "id": "PM",
           "name": "minimumPayment",
           "values": {
-            "amount": "0"
+            "amount": "0.0"
           }
         },
         {
           "id": "PNI",
           "name": "notInterestPayment",
           "values": {
-            "amount": "0"
+            "amount": "0.0"
           }
         }
       ]

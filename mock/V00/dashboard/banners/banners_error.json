@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "DME0065",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "CLIENTE SIN OFERTAS",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

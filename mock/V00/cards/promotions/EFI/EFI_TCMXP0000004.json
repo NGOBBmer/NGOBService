@@ -18,7 +18,7 @@
           "proportion": 40.0,
           "current":2
         },
-        "interestRate":"8%",
+        "interestRate":"8",
         "currentBalance":{
           "amount":300,
           "currency": "MXP"
@@ -40,7 +40,7 @@
           "proportion": 10.0,
           "current":2
         },
-        "interestRate":"14%",
+        "interestRate":"14",
         "currentBalance":{
           "amount":180,
           "currency": "MXP"
@@ -62,7 +62,7 @@
           "proportion": 91.0,
           "current":6
         },
-        "interestRate":"18%",
+        "interestRate":"18",
         "currentBalance":{
           "amount":1000,
           "currency": "MXP"
@@ -84,7 +84,7 @@
           "proportion": 0.0,
           "current":0
         },
-        "interestRate":"10%",
+        "interestRate":"10",
         "currentBalance":{
           "amount":400,
           "currency": "MXP"

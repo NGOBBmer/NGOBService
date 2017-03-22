@@ -20,15 +20,16 @@ router.use(function(req, res, next) {
 /* Object json in method post
   {
     "email": "userEmail@server.com",
-    "pass": "userPass4Edc",
-    "periodId": "PERIOD0001"
+    "password": "userPass4Edc",
+    "periodId": "PERIOD0001",
+    "otp": "12345678"
   }
 */
 router.post('/V00/accounts/:id/sendAccountStatement', function(req, res, next) {
-  if (req.params && req.params.id) {
-	    if (req.params && req.params.id == 'AHMXP0000001')  {
-	      return res.json(PERIOD0001);
-	    }
+  if (req.params && req.params.id && req.body.email && req.body.password && req.body.periodId && req.body.otp == "12345678") {
+    if (req.params && req.params.id == 'AHMXP0000001')  {
+      return res.json(PERIOD0001);
+    }
     if (req.params && req.params.id == 'CHUSD0000001')  {
       return res.json(PERIOD0002);
     }
@@ -38,8 +39,9 @@ router.post('/V00/accounts/:id/sendAccountStatement', function(req, res, next) {
     if (req.params && req.params.id == 'CHMXP0000001')  {
       return res.json(AS_NO_DATA);
     }
+    
     return res.json(AS_ERROR_ID);
-  	}
+  }
   next();
 });
 

@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "campaignId": "0430bnm1702150001",
+      "event": "invasivasalir",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "http://localhost:8081/Andrea/img/promocionpersonalizada/240815CS53ZOOM.png"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "http://localhost:8081/Andrea/img/promocionpersonalizada/240815CS53.png"
+      }
+    },
+    {
+      "campaignId": "0430bnm1702280001",
+      "event": "click",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "http://localhost:8081/Andrea/img/promocionpersonalizada/251015CI73ZOOM.png"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "http://localhost:8081/Andrea/img/promocionpersonalizada/251015CI73.png"
+      }
+    }
+  ]
+}

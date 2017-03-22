@@ -26,6 +26,9 @@ var userInfo = require('./routes/dashboard/userInfo');
 var systemDate = require('./routes/dashboard/systemDate');
 var logs = require('./routes/dashboard/logs');
 var campaigns = require('./routes/dashboard/campaigns');
+var validateOtp = require('./routes/dashboard/validateOtp');
+var banners = require('./routes/dashboard/banners');
+var paola = require('./routes/paola/paola')
 var auth = require('./routes/auth');
 
 var app = express();
@@ -62,6 +65,9 @@ app.use('/dashboard', userInfo);
 app.use('/dashboard', systemDate);
 app.use('/dashboard', campaigns);
 app.use('/dashboard', logs);
+app.use('/dashboard', validateOtp);
+app.use('/dashboard', banners);
+app.use('/paola', paola);
 app.use('/auth', auth);
 
 // catch 404 and forward to error handler

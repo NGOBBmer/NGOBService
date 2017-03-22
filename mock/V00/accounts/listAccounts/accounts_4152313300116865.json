@@ -12,7 +12,8 @@
       },
       "brandAssociation": {
         "id": "VISA",
-        "name": "Visa"
+        "name": "Visa",
+        "test":"test"
       },
       "cardId": "AHMXP0000001",
       "cardType": {
@@ -28,7 +29,7 @@
       "disposedBalance": {
         "currentBalances": [
           {
-            "amount": 0.0,
+            "amount": 160.0,
             "currency": "MXP"
           }
         ]
@@ -72,7 +73,7 @@
       "disposedBalance": {
         "currentBalances": [
           {
-            "amount": 0.0,
+            "amount": 2500.0,
             "currency": "USD"
           }
         ]

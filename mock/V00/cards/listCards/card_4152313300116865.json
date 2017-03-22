@@ -220,6 +220,50 @@
       "id": "PAN",
       "name": "Primary Account Number"
     }
+  },
+  {
+    "alias": "ElSebas",
+    "availableBalance": {
+      "currentBalances": [
+        {
+          "amount": 4356.27,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "brandAssociation": {
+      "id": "VISA",
+      "name": "Visa"
+    },
+    "cardId": "TCMXP0000006",
+    "cardType": {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card"
+    },
+    "currencies": [
+      {
+        "currency": "MXP",
+        "isMajor": true
+      }
+    ],
+    "disposedBalance": {
+      "currentBalances": [
+        {     
+          "amount": 1000.0,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "images": {
+      "id": "IMG1",
+      "name": "",
+      "url": ""
+    },
+    "number": "4931610434234234",
+    "numberType": {
+      "id": "PAN",
+      "name": "Primary Account Number"
+    }
   }
   ],
   "paginationKey": 0
