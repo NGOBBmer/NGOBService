@@ -28,6 +28,7 @@ var logs = require('./routes/dashboard/logs');
 var campaigns = require('./routes/dashboard/campaigns');
 var validateOtp = require('./routes/dashboard/validateOtp');
 var banners = require('./routes/dashboard/banners');
+var dashboard = require('./routes/dashboard/dashboard');
 var paola = require('./routes/paola/paola')
 var auth = require('./routes/auth');
 
@@ -60,6 +61,7 @@ app.use('/accounts', accountsMovs);
 app.use('/accounts', periodsAc);
 app.use('/accounts', accountStatementAc);
 app.use('/accounts', sendAccountStatementAc);
+app.use('/dashboard', dashboard);
 app.use('/dashboard', tsec);
 app.use('/dashboard', userInfo);
 app.use('/dashboard', systemDate);
