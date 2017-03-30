@@ -1,17 +1,19 @@
 {
   "data": {
-    "birthDate": "1981-11-13",
-    "cellphone": "",
-    "clientNumber": "9LtQJIojjyzqFGTpOKbA/g==",
-    "companyCell": "",
-    "dateLastAccess": "2016-12-31",
-    "deviceType": "T6",
-    "email": "franciscoguerrero1025@gmail.com",
-    "hourLastAccess": "17:31 PM",
-    "indEmployee": false,
-    "ivTicket": "",
-    "loginUser": "ADMINF",
+    "email": "giovanni.nicolas.contractor@bbva.com",
     "name": "IXTAPA MERCANTE RODRIGO",
-    "profile": "IF02"
+    "profile": "IF02",
+    "loginUser": "ADMINF",
+    "cellphone": "",
+    "companyCell": "",
+    "indEmployee": false,
+    "birthDate": "1981-11-13",
+    "clientNumberEnc": "9LtQJIojjyzqFGTpOKbA/g==",
+    "deviceType": "T6",
+    "hourLastAccess": "11:50 AM",
+    "dateLastAccess": "2017-03-30",
+    "rfc": "IAMR811113",
+    "accessCard": "4152313301213208",
+    "indNominated": ""
   }
 }

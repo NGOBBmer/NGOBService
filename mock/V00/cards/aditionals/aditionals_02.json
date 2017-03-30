@@ -1,0 +1,21 @@
+{
+  "data": {
+    "relatedCards": [{
+      "idSubCard": "TJ0000",
+      "card": "·3789",
+      "participant": "TIT."
+    }, {
+      "idSubCard": "TJ0001",
+      "card": "·2912",
+      "participant": "ADC."
+    }, {
+      "idSubCard": "TJ0002",
+      "card": "·9827",
+      "participant": "ADC."
+    }, {
+      "idSubCard": "TJ0003",
+      "card": "·1234",
+      "participant": "ADC."
+    }]
+  }
+}
