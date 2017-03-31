@@ -543,6 +543,34 @@
         "innerJoinAccount": "no",
         "status": "0"
       }
+    ],
+    "digitalAccount": [
+      {
+        "productId": "CMMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 3471.79,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0.0,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "5543102520",
+          "originalAccountNumber": "5543102520",
+          "alias": "5543102520",
+          "type": "Cuenta digital",
+          "typeId": "CM",
+          "accountType": "cuentaChequera",
+          "comboType": "Digital"
+        }
+      }
     ]
   }
 }

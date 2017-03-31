@@ -38,7 +38,7 @@
       "name": "IMAGEN",
       "url": ""
     },
-    "number": "·1924",
+    "number": "*1924",
     "numberType": {
       "id": "PAN",
       "name": "Primary Account Number"
@@ -83,7 +83,7 @@
       "url": ""
  
     },
-    "number": "·3321",
+    "number": "*3321",
     "numberType": {
       "id": "PAN",
       "name": "Primary Account Number"
@@ -127,7 +127,7 @@
       "name": "IMAGEN",
       "url": ""
     },
-    "number": "·1111",
+    "number": "*1111",
     "numberType": {
       "id": "PAN",
       "name": "Primary Account Number"
@@ -171,7 +171,7 @@
       "name": "",
       "url": ""
     },
-    "number": "·2222",
+    "number": "*2222",
     "numberType": {
       "id": "PAN",
       "name": "Primary Account Number"
@@ -215,7 +215,7 @@
       "name": "",
       "url": ""
     },
-    "number": "·2222",
+    "number": "*2222",
     "numberType": {
       "id": "PAN",
       "name": "Primary Account Number"
@@ -259,7 +259,7 @@
       "name": "",
       "url": ""
     },
-    "number": "·4234",
+    "number": "*4234",
     "numberType": {
       "id": "PAN",
       "name": "Primary Account Number"

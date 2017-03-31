@@ -2,11 +2,11 @@
   "data": {
     "relatedCards": [{
       "idSubCard": "TJ0000",
-      "card": "·1134",
+      "card": "*1134",
       "participant": "TIT."
     }, {
       "idSubCard": "TJ0001",
-      "card": "·5643",
+      "card": "*5643",
       "participant": "ADC."
     }]
   }
