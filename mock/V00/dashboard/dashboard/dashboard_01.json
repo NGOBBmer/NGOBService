@@ -466,6 +466,25 @@
         },
         "isAdittional": "no",
         "innerJoinAccount": "no"
+      },
+      {
+        "balance": {
+          "availableBalance": {
+            "amount": 100000,
+            "currency": ""
+          }
+        },
+        "branch": {
+          "accountType": "inversionesMxp",
+          "number": "8000751443",
+          "originalAccountNumber": "00740001008000751443"
+        },
+        "innerJoinAccount": "no",
+        "isAdittional": "no",
+        "productId": "CAUSD0000001",
+        "region": {
+          "name": "HOUSTON"
+        }
       }
     ],
     "otherCredits": [
@@ -570,6 +589,46 @@
           "accountType": "cuentaChequera",
           "comboType": "Digital"
         }
+      }
+    ],
+      "mortgages": [
+      {
+        "balance": {
+          "grantedBalance": {
+            "amount": 97160.16,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "nationalMoney": {
+            "amount": "148548.52",
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "accountType": "hipotecarios",
+          "number": "00740002059655151937"
+        },
+        "productId": "00740002059655151937"
+      },
+      {
+        "balance": {
+          "grantedBalance": {
+            "amount": 210407.42,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "nationalMoney": {
+            "amount": "77.21",
+            "currency": "",
+            "currencyId": "VSM"
+          }
+        },
+        "branch": {
+          "accountType": "hipotecarios",
+          "number": "00740002089694219015"
+        },
+        "productId": "00740002089694219015"
       }
     ]
   }
