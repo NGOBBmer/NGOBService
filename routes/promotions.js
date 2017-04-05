@@ -93,7 +93,7 @@ if(req.params && req.params.id ){
     return res.json(PPF_pagination);
   }
   if (req.params.id=='TCMXP0000006'){
-    return res.json(PR_ERROR);
+    return res.status(400).json(PR_ERROR);
   }
   return res.json(PR_NO_DATA);
 }
