@@ -20,7 +20,7 @@ var PPF_TCMXP0000004 = require('../mock/V00/cards/promotions/PPF/PPF_TCMXP000000
 var PPF_TCMXP0000005 = require('../mock/V00/cards/promotions/PPF/PPF_TCMXP0000005.json');
 var PPF_pagination = require('../mock/V00/cards/promotions/PPF/PPF_pagination.json');
 var PR_NO_DATA = require('../mock/V00/cards/promotions/vacio.json');
-
+var PR_ERROR = require('../mock/V00/cards/promotions/promotions_error.json');
 
 /* GET users listing. */
 router.use(function (req, res, next) {
@@ -91,6 +91,9 @@ if(req.params && req.params.id ){
   }
   if (req.query && req.query.type== 'PPF' && req.query.paginationKey=='3413541135ASDVCCEDASSDA')  {
     return res.json(PPF_pagination);
+  }
+  if (req.params.id=='TCMXP0000006'){
+    return res.json(PR_ERROR);
   }
   return res.json(PR_NO_DATA);
 }
