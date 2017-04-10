@@ -28,7 +28,7 @@
             "reference": "05933901071936502668504",
             "concept": "OXXO",
             "amount": {
-                "amount": "59",
+                "amount": "-59",
                 "currency": "MXN"
             },
             "postedBalance": {

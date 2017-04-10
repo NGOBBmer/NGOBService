@@ -5,7 +5,7 @@
             "reference": "74931616069981002667651",
             "concept": "BEST BUY",
             "amount": {
-                "amount": "130",
+                "amount": "-130",
                 "currency": "MXN"
             },
             "postedBalance": {
@@ -28,7 +28,7 @@
             "reference": "74931616070981002668011",
             "concept": "SAT REFERENCIADO",
             "amount": {
-                "amount": "116",
+                "amount": "-116",
                 "currency": "MXN"
             },
             "postedBalance": {
