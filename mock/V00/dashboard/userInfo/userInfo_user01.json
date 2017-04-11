@@ -6,7 +6,7 @@
     "loginUser": "ADMINF",
     "cellphone": "",
     "companyCell": "",
-    "indEmployee": false,
+    "indEmployee": true,
     "birthDate": "1981-11-13",
     "clientNumberEnc": "9LtQJIojjyzqFGTpOKbA/g==",
     "deviceType": "T6",
