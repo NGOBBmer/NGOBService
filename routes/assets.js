@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/iconos/:id', function(req, res, next) {
-  res.sendFile('../img/iconos/check_green.svg');
+  res.sendFile(__dirname + '/img/iconos/check_green.svg');
 });
 
 module.exports = router;
