@@ -1,17 +1,20 @@
 {
   "data": {
-    "birthDate": "1981-11-13",
-    "cellphone": "",
-    "clientNumber": "9LtQJIojjyzqFGTpOKbA/g==",
-    "companyCell": "",
-    "dateLastAccess": "27/Dic/2016",
-    "deviceType": "T6",
-    "email": "franciscoguerrero1025@gmail.com",
-    "hourLastAccess": "17:31 PM",
-    "indEmployee": false,
-    "ivTicket": "",
+    "email": "lic.giovanni.nicolas@gmail.com",
+    "name": "GARCES GARCIA BELEN",
+    "profile": "IF02",
     "loginUser": "ADMINF",
-    "name": "IXTAPA MERCANTE RODRIGO",
-    "profile": "IF02"
+    "cellphone": "",
+    "companyCell": "",
+    "indEmployee": true,
+    "birthDate": "1986-08-01",
+    "clientNumberEnc": "gLxl4vDrUInIVnQsw4qlLw==",
+    "deviceType": "S1",
+    "hourLastAccess": "11:55 AM",
+    "dateLastAccess": "2017-04-19",
+    "rfc": "GAGB860801",
+    "accessCard": "4152313300116865",
+    "indNominated": "",
+    "profilePercentage": 80
   }
 }

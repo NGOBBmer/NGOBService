@@ -1,19 +1,20 @@
 {
   "data": {
-    "email": "giovanni.nicolas.contractor@bbva.com",
-    "name": "IXTAPA MERCANTE RODRIGO",
+    "email": "lic.giovanni.nicolas@gmail.com",
+    "name": "GARCES GARCIA BELEN",
     "profile": "IF02",
     "loginUser": "ADMINF",
     "cellphone": "",
     "companyCell": "",
     "indEmployee": true,
-    "birthDate": "1981-11-13",
-    "clientNumberEnc": "9LtQJIojjyzqFGTpOKbA/g==",
-    "deviceType": "T6",
-    "hourLastAccess": "11:50 AM",
-    "dateLastAccess": "2017-03-30",
-    "rfc": "IAMR811113",
-    "accessCard": "4152313301213208",
-    "indNominated": ""
+    "birthDate": "1986-08-01",
+    "clientNumberEnc": "gLxl4vDrUInIVnQsw4qlLw==",
+    "deviceType": "S1",
+    "hourLastAccess": "11:55 AM",
+    "dateLastAccess": "2017-04-19",
+    "rfc": "GAGB860801",
+    "accessCard": "4152313300116865",
+    "indNominated": "",
+    "profilePercentage": 50
   }
 }

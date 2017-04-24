@@ -60,7 +60,7 @@
           "id": "PM",
           "name": "minimumPayment",
           "values": {
-            "amount": "0"
+            "amount": "25.00"
           }
         },
         {
