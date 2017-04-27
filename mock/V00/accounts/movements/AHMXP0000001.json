@@ -1,89 +1,487 @@
-{ 
-	"data": {
-	  "listMovements": [
-	    {
-	      "amount": {
-	        "amount": "-12.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "RECARGA TELEFONICA BMOV/ ******3056 26/ABR 09:04 AUT:841013",
-	      "movementPending": false,
-	      "operationDate": "2017-02-06",
-	      "postedBalance": {
-	        "amount": "981988.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ ******3056 26/ABR 09:04 AUT:841013",
-	      "type": "Cargo"
-	    },
-	    {
-	      "amount": {
-	        "amount": "-125.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "TELEFONOS DE MEXICO,/ GUIA:3253811 REF:00000000097171381178 CIE:0035241",
-	      "movementPending": false,
-	      "operationDate": "2017-02-04",
-	      "postedBalance": {
-	        "amount": "981980.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ GUIA:3253811 REF:00000000097171381178 CIE:0035241",
-	      "type": "Cargo"
-	    },
-	    {
-	      "amount": {
-	        "amount": "34.00",
-	        "currency": "MXP"
-	      },
-	      "category": "C",
-	      "concept": "RETIRO SIN TARJETA/ ******5643",
-	      "movementPending": false,
-	      "operationDate": "2017-02-03",
-	      "postedBalance": {
-	        "amount": "981800.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ ******5643",
-	      "type": "Abono"
-	    },
-	    {
-	      "amount": {
-	        "amount": "100.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "SPEI RECIBIDOBANXICO/ 0006552583 001 0110014HACIENDA TE DEVUELVE",
-	      "movementPending": false,
-	      "operationDate": "2017-02-03",
-	      "postedBalance": {
-	        "amount": "981750.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ 0006552583 001 0110014HACIENDA TE DEVUELVE",
-	      "type": "Abono"
-	    },
-	    {
-	      "amount": {
-	        "amount": "-58.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "SPEI ENVIADO SANTANDER/ 0003051751 014 0170424JUAN",
-	      "movementPending": false,
-	      "operationDate": "2017-02-02",
-	      "postedBalance": {
-	        "amount": "981600.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ 0003051751 014 0170424JUAN",
-	      "type": "Cargo"
-	    }
-	  ],
-	  "paginationKey": "0123456789"
-	}
+{
+  "data": {
+    "listMovements": [
+      {
+        "operationDate": "2017-04-27",
+        "reference": "962359",
+        "concept": "UBER BV",
+        "amount": {
+          "amount": "141.1",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "",
+          "currency": ""
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "TIT."
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": true
+      },
+      {
+        "operationDate": "2017-04-26",
+        "reference": "392236",
+        "concept": "UBER BV",
+        "amount": {
+          "amount": "186.38",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "",
+          "currency": ""
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "TIT."
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": true
+      },
+      {
+        "operationDate": "2017-04-22",
+        "reference": "74796317112389505521388",
+        "concept": "UBER MX APR22 PU25I HELP.",
+        "amount": {
+          "amount": "147.27",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "8136.5299999999997453414835035800933837890625",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "/BXa48binKsRlPsX+y4/HA==",
+          "card": "*5118",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-21",
+        "reference": "74518997111688873769611",
+        "concept": "PAGOCON*SINDELANTALMX",
+        "amount": {
+          "amount": "185.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "7989.260000000000218278728425502777099609375",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "/BXa48binKsRlPsX+y4/HA==",
+          "card": "*5118",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-16",
+        "reference": "74082347106256475680395",
+        "concept": "CONEKTA*SINDELANTAL",
+        "amount": {
+          "amount": "188.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "7804.260000000000218278728425502777099609375",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "/BXa48binKsRlPsX+y4/HA==",
+          "card": "*5118",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-15",
+        "reference": "74555467106947904818374",
+        "concept": "HOT MISION QUERETARO",
+        "amount": {
+          "amount": "1817.5",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "7616.260000000000218278728425502777099609375",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-15",
+        "reference": "74555467106940997083816",
+        "concept": "IDMX PREPAGO APP CR232",
+        "amount": {
+          "amount": "300.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "5798.760000000000218278728425502777099609375",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-13",
+        "reference": "74555467104940997089559",
+        "concept": "IDMX PREPAGO APP CR232",
+        "amount": {
+          "amount": "300.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "5498.760000000000218278728425502777099609375",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-13",
+        "reference": "74931617107970172744013",
+        "concept": "0035806011BMOVIL.PAGO TDC",
+        "amount": {
+          "amount": "-500.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "5198.760000000000218278728425502777099609375",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-12",
+        "reference": "74082347102307075680394",
+        "concept": "CONEKTA*SINDELANTAL",
+        "amount": {
+          "amount": "148.05",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "5698.760000000000218278728425502777099609375",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "/BXa48binKsRlPsX+y4/HA==",
+          "card": "*5118",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-12",
+        "reference": "74049387103510165551774",
+        "concept": "BEST BUY 2042 UNIVERS",
+        "amount": {
+          "amount": "899.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "5550.7100000000000363797880709171295166015625",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-12",
+        "reference": "74931617102970172283909",
+        "concept": "0045090006BMOVIL.PAGO TDC",
+        "amount": {
+          "amount": "-1000.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "1640.30999999999994543031789362430572509765625",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-11",
+        "reference": "74555467102947904816992",
+        "concept": "HOT MISION QUERETARO",
+        "amount": {
+          "amount": "3011.4",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "4651.7100000000000363797880709171295166015625",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-11",
+        "reference": "74931617101970172341623",
+        "concept": "0028224022INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-400.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "496.3799999999999954525264911353588104248046875",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-10",
+        "reference": "74555467101940438626624",
+        "concept": "DESPEGAR MU",
+        "amount": {
+          "amount": "882.92",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "2640.30999999999994543031789362430572509765625",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-10",
+        "reference": "74524227100602045927475",
+        "concept": "IZZI TELECOM CR",
+        "amount": {
+          "amount": "605.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "1757.390000000000100044417195022106170654296875",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-10",
+        "reference": "74555467101918616733404",
+        "concept": "WAL MART TLALPAN",
+        "amount": {
+          "amount": "341.06",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "1152.390000000000100044417195022106170654296875",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-10",
+        "reference": "74555467101918616730103",
+        "concept": "WAL MART TLALPAN",
+        "amount": {
+          "amount": "190.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "811.3300000000000409272615797817707061767578125",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "zx1iF3HWjDmf4vvQ2d3kpA==",
+          "card": "*9053",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-10",
+        "reference": "74082347100265775680399",
+        "concept": "CONEKTA*SINDELANTAL",
+        "amount": {
+          "amount": "124.95",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "621.3300000000000409272615797817707061767578125",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "/BXa48binKsRlPsX+y4/HA==",
+          "card": "*5118",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      },
+      {
+        "operationDate": "2017-04-09",
+        "reference": "74082347099269975680392",
+        "concept": "CONEKTA*SINDELANTAL",
+        "amount": {
+          "amount": "192.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "896.3799999999999954525264911353588104248046875",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "/BXa48binKsRlPsX+y4/HA==",
+          "card": "*5118",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": false
+      }
+    ],
+    "paginationKey": "20"
+  }
 }
-
-	  
