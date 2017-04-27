@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_AS_002",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "Error al intentar obtener el estado de cuenta del periodo",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

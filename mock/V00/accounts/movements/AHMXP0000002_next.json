@@ -1,0 +1,57 @@
+{ 
+	"data": {
+	  "listMovements": [
+	    {
+	      "amount": {
+	        "amount": "56.00",
+	        "currency": "MXP"
+	      },
+	      "category": "D",
+	      "concept": "PAGO TARJETA DE CREDITO",
+	      "movementPending": false,
+	      "operationDate": "2017-02-06",
+	      "postedBalance": {
+	        "amount": "981988.00",
+	        "currency": "MXP"
+	      },
+	      "reference": "0040025010",
+	      "type": "Cargo"
+	    },
+	    {
+	      "amount": {
+	        "amount": "50.00",
+	        "currency": "MXP"
+	      },
+	      "category": "D",
+	      "concept": "AURRERA",
+	      "movementPending": false,
+	      "operationDate": "2017-02-04",
+	      "postedBalance": {
+	        "amount": "981988.00",
+	        "currency": "MXP"
+	      },
+	      "reference": "0040025009",
+	      "type": "Cargo"
+	    },
+	    {
+	      "amount": {
+	        "amount": "10156.00",
+	        "currency": "MXP"
+	      },
+	      "category": "D",
+	      "concept": "PAGO NOMINA",
+	      "movementPending": false,
+	      "operationDate": "2017-02-04",
+	      "postedBalance": {
+	        "amount": "981988.00",
+	        "currency": "MXP"
+	      },
+	      "reference": "0040025009",
+	      "type": "Abono"
+	    }
+	  ],
+	  "paginationKey": ""
+	}
+}
+
+	  

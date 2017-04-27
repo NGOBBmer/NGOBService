@@ -1,0 +1,79 @@
+{
+  "data":{
+    "paginationKey":"",
+    "promotionsList": [
+      {
+        "operationDate": "2016-08-30",
+        "description": "Liverpool",
+        "purchasePrice":{
+          "amount":3000,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":300,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":10,
+          "proportion": 20.0,
+          "current":2
+        },
+        "interestRate":"10",
+        "currentBalance":{
+          "amount":3400,
+          "currency": "MXP"
+        }
+      },
+      {
+        "operationDate": "2016-10-21",
+        "description": "Avance efectivo",
+        "purchasePrice":{
+          "amount":4400,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":91.97,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":20,
+          "proportion": 25.0,
+          "current":5
+        },
+        "interestRate":"0",
+        "currentBalance":{
+          "amount":2750,
+          "currency": "MXP"
+        }
+      }
+    ],
+    "totals": {
+      "currentBalance": {
+        "amount": "2345.0",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "234.13",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "2500.0",
+        "currency": "MXP"
+      }
+    },
+    "totalAllPromotions": {
+      "currentBalance": {
+        "amount": "5000.0",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "1000.0",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "0",
+        "currency": "MXP"
+      }
+    }
+  }
+}

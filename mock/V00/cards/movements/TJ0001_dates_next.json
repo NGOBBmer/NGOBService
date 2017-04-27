@@ -1,0 +1,28 @@
+{
+    "data": {
+        "listMovements": [{
+            "operationDate": "2016-07-07",
+            "reference": "7493161606998DATESNEXT",
+            "concept": "BEST BUY",
+            "amount": {
+                "amount": "-130",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "130",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": true
+        }]
+    }
+}

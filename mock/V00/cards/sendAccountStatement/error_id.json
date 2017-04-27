@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_AS_003",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "El id proporcionado es incorrecto",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

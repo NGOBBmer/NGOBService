@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1 Express Heroku API
+  p Welcome to Express
+  a(href="/") ir a TDC
+  a(href="./cheques") ir a cheques
+  h2 PosicionGlobal (dashboard)
+  ul
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/dashboard") dashboard
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/dashboard
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/tsec") getTsec (POST)
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/tsec
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/campaigns") campaigns
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/campaigns
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/userInfo") UserInfo
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/userInfo
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/systemDate") systemDate
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/systemDate
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/logs") logs (POST)
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/logs
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/validateOtp?otp=12345678") validateOtp
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/validateOtp?otp=12345678
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/validateOtp") validateOtp (POST)
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/validateOtp
+    li
+      a(href="https://cards-service-mock.herokuapp.com/dashboard/V00/banners") banners (campañas informativas)
+      span https://cards-service-mock.herokuapp.com/dashboard/V00/banners

@@ -1,0 +1,166 @@
+{
+    "data": {
+        "listMovements": [{
+            "operationDate": "2016-02-20",
+            "reference": "74931616069981002667651",
+            "concept": "COMONO PIZZA",
+            "amount": {
+                "amount": "130",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": true
+        }, {
+            "operationDate": "2016-02-21",
+            "reference": "74931616070981002668011",
+            "concept": "SAT REFERENCIADO",
+            "amount": {
+                "amount": "116",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": true
+        }, {
+            "operationDate": "2016-02-22",
+            "reference": "74931616071981002668408",
+            "concept": "OXXO",
+            "amount": {
+                "amount": "48",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": true
+        }, {
+            "operationDate": "2016-02-23",
+            "reference": "05933901071936502668504",
+            "concept": "STARBUCKS",
+            "amount": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": false
+        }, {
+            "operationDate": "2016-02-24",
+            "reference": "05933901071936502668504",
+            "concept": "BURGER KING",
+            "amount": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": false
+        }, {
+            "operationDate": "2016-02-25",
+            "reference": "05933901071936502668504",
+            "concept": "PIZZA AMORE",
+            "amount": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": false
+        }, {
+            "operationDate": "2016-02-26",
+            "reference": "05933901071936502668504",
+            "concept": "OXXO",
+            "amount": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": false
+        }]
+    }
+}

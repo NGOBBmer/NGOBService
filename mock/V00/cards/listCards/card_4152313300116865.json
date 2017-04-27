@@ -1,0 +1,270 @@
+{
+  "data": [
+  {
+    "alias": "",
+    "availableBalance": {
+      "currentBalances": [
+        {
+          "amount": 48379.17,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "brandAssociation": {
+      "id": "VISA",
+      "name": "Visa"
+    },
+    "cardId": "TCMXP0000001",
+    "cardType": {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card"
+    },
+    "currencies": [
+      {
+        "currency": "MXP",
+        "isMajor": true
+      }
+    ],
+    "disposedBalance": {
+      "currentBalances": [
+        {
+          "amount": 46184.21,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "images": {
+      "id": "IMG1",
+      "name": "IMAGEN",
+      "url": ""
+    },
+    "number": "*1924",
+    "numberType": {
+      "id": "PAN",
+      "name": "Primary Account Number"
+    }
+  },
+  {
+    "alias": "",
+    "availableBalance": {
+      "currentBalances": [
+        {
+          "amount": 0.0,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "brandAssociation": {
+      "id": "VISA",
+      "name": "Visa"
+    },
+    "cardId": "TCMXP0000002",
+    "cardType": {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card"
+    },
+    "currencies": [
+      {
+        "currency": "MXP",
+        "isMajor": true
+      }
+    ],
+    "disposedBalance": {
+      "currentBalances": [
+        {
+          "amount": 338506.34,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "images": {
+      "id": "IMG1",
+      "name": "IMAGEN",
+      "url": ""
+ 
+    },
+    "number": "*3321",
+    "numberType": {
+      "id": "PAN",
+      "name": "Primary Account Number"
+    }
+  },
+  {
+    "alias": "",
+    "availableBalance": {
+      "currentBalances": [
+        {
+          "amount": 7314.27,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "brandAssociation": {
+      "id": "VISA",
+      "name": "Visa"
+    },
+    "cardId": "TCMXP0000003",
+    "cardType": {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card"
+    },
+    "currencies": [
+      {
+        "currency": "MXP",
+        "isMajor": true
+      }
+    ],
+    "disposedBalance": {
+      "currentBalances": [
+        {
+          "amount": 199.0,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "images": {
+      "id": "IMG1",
+      "name": "IMAGEN",
+      "url": ""
+    },
+    "number": "*1111",
+    "numberType": {
+      "id": "PAN",
+      "name": "Primary Account Number"
+    }
+  },
+  {
+    "alias": "",
+    "availableBalance": {
+      "currentBalances": [
+        {
+          "amount": 7314.27,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "brandAssociation": {
+      "id": "VISA",
+      "name": "Visa"
+    },
+    "cardId": "TCMXP0000004",
+    "cardType": {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card"
+    },
+    "currencies": [
+      {
+        "currency": "MXP",
+        "isMajor": true
+      }
+    ],
+    "disposedBalance": {
+      "currentBalances": [
+        {
+          "amount": 1909.0,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "images": {
+      "id": "IMG1",
+      "name": "",
+      "url": ""
+    },
+    "number": "*2222",
+    "numberType": {
+      "id": "PAN",
+      "name": "Primary Account Number"
+    }
+  },
+  {
+    "alias": "",
+    "availableBalance": {
+      "currentBalances": [
+        {
+          "amount": 7314.27,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "brandAssociation": {
+      "id": "VISA",
+      "name": "Visa"
+    },
+    "cardId": "TCMXP0000005",
+    "cardType": {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card"
+    },
+    "currencies": [
+      {
+        "currency": "MXP",
+        "isMajor": true
+      }
+    ],
+    "disposedBalance": {
+      "currentBalances": [
+        {     
+          "amount": 1909.0,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "images": {
+      "id": "IMG1",
+      "name": "",
+      "url": ""
+    },
+    "number": "*2222",
+    "numberType": {
+      "id": "PAN",
+      "name": "Primary Account Number"
+    }
+  },
+  {
+    "alias": "ElSebas",
+    "availableBalance": {
+      "currentBalances": [
+        {
+          "amount": 4356.27,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "brandAssociation": {
+      "id": "VISA",
+      "name": "Visa"
+    },
+    "cardId": "TCMXP0000006",
+    "cardType": {
+      "id": "CREDIT_CARD",
+      "name": "Credit Card"
+    },
+    "currencies": [
+      {
+        "currency": "MXP",
+        "isMajor": true
+      }
+    ],
+    "disposedBalance": {
+      "currentBalances": [
+        {     
+          "amount": 1000.0,
+          "currency": "MXP"
+        }
+      ]
+    },
+    "images": {
+      "id": "IMG1",
+      "name": "",
+      "url": ""
+    },
+    "number": "*4234",
+    "numberType": {
+      "id": "PAN",
+      "name": "Primary Account Number"
+    }
+  }
+  ],
+  "paginationKey": 0
+}

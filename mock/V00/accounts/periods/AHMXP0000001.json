@@ -1,0 +1,33 @@
+{
+  "data": {
+    "historicPeriods": [
+      {
+        "periodId": "PERIOD0006",
+        "periodDate": "2015-06-07"
+      }
+    ],
+    "periods": [
+      {
+        "periodId": "PERIOD0001",
+        "periodDate": "2016-01-08"
+      },
+      {
+        "periodId": "PERIOD0002",
+        "periodDate": "2016-02-07"
+      },
+      {
+        "periodId": "PERIOD0003",
+        "periodDate": "2016-03-08"
+      },
+      {
+        "periodId": "PERIOD0004",
+        "periodDate": "2016-04-07"
+      },
+      {
+        "periodId": "PERIOD0005",
+        "periodDate": "2016-05-08"
+      }
+    ]
+  },
+  "paginationKey": "1234567890"
+}

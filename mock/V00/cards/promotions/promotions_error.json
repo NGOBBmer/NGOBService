@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_PROMOS",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "CLIENTE NO CUENTA CON PROMOCIONES DISPONIBLES",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "data": {
+        "listMovements": [{
+            "operationDate": "2016-06-07",
+            "reference": "059339010719365026DATES",
+            "concept": "LIVERPOOL",
+            "amount": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": false
+        }, {
+            "operationDate": "2016-06-08",
+            "reference": "05933901071936502668504",
+            "concept": "CHEDRAUI LOL",
+            "amount": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "postedBalance": {
+                "amount": "59",
+                "currency": "MXN"
+            },
+            "card": {
+                "idSubCard": "TJ0000",
+                "card": "****1924",
+                "participant": "TIT."
+            },
+            "category": "G",
+            "type": "Cargo",
+            "rewardsGenerated": "",
+            "rewardsconsumed": "",
+            "deferred": false,
+            "movementPending": false
+        }],
+        "paginationKey": "NOSEMEOCURREOTROID"
+    }
+}

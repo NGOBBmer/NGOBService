@@ -1,0 +1,167 @@
+{
+  "data":{
+    "paginationKey":"3413541135ASDVCCEDASSDA",
+    "promotionsList": [
+      {
+        "operationDate": "2016-04-30",
+        "description": "PRUEBA 2!!!",
+        "purchasePrice":{
+          "amount":11111,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":10,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":1,
+          "proportion": 20.0,
+          "current":1
+        },
+        "interestRate":"12",
+        "currentBalance":{
+          "amount":3,
+          "currency": "MXP"
+        }
+      },
+      {
+        "operationDate": "2016-04-30",
+        "description": "PRUEBA",
+        "purchasePrice":{
+          "amount":11111,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":10,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":1,
+          "proportion": 20.0,
+          "current":1
+        },
+        "interestRate":"12",
+        "currentBalance":{
+          "amount":3,
+          "currency": "MXP"
+        }
+      },
+      {
+        "operationDate": "2016-04-30",
+        "description": "Portal",
+        "purchasePrice":{
+          "amount":3000,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":300,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":10,
+          "proportion": 20.0,
+          "current":2
+        },
+        "interestRate":"12",
+        "currentBalance":{
+          "amount":3400,
+          "currency": "MXP"
+        }
+      },
+      {
+        "operationDate": "2016-03-15",
+        "description": "Telmex",
+        "purchasePrice":{
+          "amount":2000,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":200,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":10,
+          "proportion": 70.0,
+          "current":7
+        },
+        "interestRate":"0",
+        "currentBalance":{
+          "amount":3400,
+          "currency": "MXP"
+        }
+      },
+      {
+        "operationDate": "2016-06-23",
+        "description": "Muebles Ixxa",
+        "purchasePrice":{
+          "amount":6000,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":250,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":24,
+          "proportion": 33.3,
+          "current":8
+        },
+        "interestRate":"0",
+        "currentBalance":{
+          "amount":3400,
+          "currency": "MXP"
+        }
+      },
+      {
+        "operationDate": "2016-05-21",
+        "description": "Avance efectivo",
+        "purchasePrice":{
+          "amount":4400,
+          "currency": "MXP"
+        },
+        "monthlyPayment":{
+          "amount":91.97,
+          "currency": "MXP"
+        },
+        "realizedPayments":{
+          "total":48,
+          "proportion": 70.0,
+          "current":30
+        },
+        "interestRate":"0",
+        "currentBalance":{
+          "amount":2750,
+          "currency": "MXP"
+        }
+      }
+    ],
+    "totals": {
+      "currentBalance": {
+        "amount": "4841.86",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "233.13",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "5000.0",
+        "currency": "MXP"
+      }
+    },
+    "totalAllPromotions": {
+      "currentBalance": {
+        "amount": "3500.0",
+        "currency": "MXP"
+      },
+      "monthlyPayment": {
+        "amount": "2750.0",
+        "currency": "MXP"
+      },
+      "purchasePrice": {
+        "amount": "0",
+        "currency": "MXP"
+      }
+    }
+  }
+}
