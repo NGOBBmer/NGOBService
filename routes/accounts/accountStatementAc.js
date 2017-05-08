@@ -18,10 +18,12 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:3000/accounts/V00/accounts/AHMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf&otp=
+// handler for query http://localhost:3000/accounts/V00/accounts/AHMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf
 router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
+  var otp = req.headers['otp'];
 	if(req.params && req.params.id){
-    if (req.query.otp == "12345678"){
+    console.log();
+    if (otp == "12345678"){
 	    if (req.params && req.query.periodId == 'PERIOD0001')  {
         return res.json(PERIOD0001);
 	    }
