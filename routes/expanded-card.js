@@ -64,7 +64,7 @@ router.get('/V00/cards/:id', function(req, res, next) {
       return res.json(json);
     }else{
       flag = false;
-      return res.json(CARD_2ETAIL_NO_DATA);
+      return res.json(CARD_DETAIL_NO_DATA);
     }
     return res.json(CARD_DETAIL_SERVICE_ERROR);
   }
