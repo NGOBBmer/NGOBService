@@ -516,9 +516,9 @@
             "amount": 13285.65,
             "currency": "",
             "currencyId": "MXP"
-          },
+          }
+        },
         "description": "Préstamo Personal"
-        }
       }
     ],
     "prepaidCard": [
