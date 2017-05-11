@@ -26,7 +26,12 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "description": "Cuenta en Pesos"
       }
     ],
     "checkAccount": [
@@ -55,7 +60,12 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "assigned": {
+          "isNominated": true,
+          "hasPocket": false
+        },
+        "description": "Cuenta en Pesos"
       },
       {
         "productId": "CHMXP0000003",
@@ -82,7 +92,12 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": true
+        },
+        "description": "Cuenta en Pesos"
       },
       {
         "productId": "CHUSD0000001",
@@ -112,7 +127,8 @@
         "innerJoinAccount": "no",
         "region": {
           "name": "MEXICO"
-        }
+        },
+        "description": "Cuenta en Dólares"
       },
       {
         "productId": "CHEUR0000001",
@@ -143,7 +159,8 @@
         "innerJoinAccount": "no",
         "region": {
           "name": "MEXICO"
-        }
+        },
+        "description": "Cuenta en Euros"
       }
     ],
     "libretonAccount": [
@@ -172,7 +189,12 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "assigned": {
+          "isNominated": true,
+          "hasPocket": true
+        },
+        "description": "Cuenta en Pesos"
       }
     ],
     "creditCard": [
@@ -203,7 +225,8 @@
         },
         "isAdittional": "no",
         "innerJoinAccount": "no",
-        "minimumPayment": 0
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito"
       },
       {
         "productId": "TCMXP0000002",
@@ -232,7 +255,8 @@
         },
         "isAdittional": "no",
         "innerJoinAccount": "no",
-        "minimumPayment": 9684.81
+        "minimumPayment": 9684.81,
+        "description": "Tarjeta de Crédito"
       },
       {
         "productId": "TCMXP0000003",
@@ -261,35 +285,8 @@
         },
         "isAdittional": "no",
         "innerJoinAccount": "no",
-        "minimumPayment": 0
-      }
-    ],
-    "prepaidCard": [
-      {
-        "productId": "TPMXP0000001",
-        "branch": {
-          "number": "·9173",
-          "originalAccountNumber": "4413130036249173",
-          "type": "Tarjetas prepagadas",
-          "typeId": "TP",
-          "accountType": "tarjetasPrepagadas",
-          "comboType": "TPP",
-          "comboNumber": "·49173"
-        },
-        "balance": {
-          "availableBalance": {
-            "amount": 99998949,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito"
       }
     ],
     "investmentsFund": [
@@ -317,7 +314,8 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "description": "Fondo de Inversión"
       },
       {
         "productId": "SIMXP0000002",
@@ -343,7 +341,8 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "description": "Fondo de Inversión"
       },
       {
         "productId": "SIMXP0000003",
@@ -369,7 +368,8 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "description": "Fondo de Inversión"
       }
     ],
     "agencyAccount": [
@@ -400,7 +400,8 @@
         "innerJoinAccount": "no",
         "region": {
           "name": "HOUSTON"
-        }
+        },
+        "description": "Cuenta en Dólares"
       },
       {
         "productId": "CAUSD0000002",
@@ -429,7 +430,8 @@
         "innerJoinAccount": "no",
         "region": {
           "name": "HOUSTON"
-        }
+        },
+        "description": "Cuenta en Dólares"
       }
     ],
     "investments": [
@@ -448,7 +450,8 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "description": "Inversión en Pesos"
       },
       {
         "productId": "INMXP0000002",
@@ -465,7 +468,8 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "description": "Inversión en Pesos"
       },
       {
         "balance": {
@@ -484,7 +488,8 @@
         "productId": "CAUSD0000001",
         "region": {
           "name": "HOUSTON"
-        }
+        },
+        "description": "Inversión en Dólares"
       }
     ],
     "otherCredits": [
@@ -511,7 +516,8 @@
             "amount": 13285.65,
             "currency": "",
             "currencyId": "MXP"
-          }
+          },
+        "description": "Préstamo Personal"
         }
       }
     ],
@@ -540,7 +546,8 @@
           }
         },
         "isAdittional": "no",
-        "innerJoinAccount": "no"
+        "innerJoinAccount": "no",
+        "description": "Tarjeta Prepagada"
       }
     ],
     "heritage": [
@@ -560,7 +567,8 @@
         },
         "isAdittional": "no",
         "innerJoinAccount": "no",
-        "status": "0"
+        "status": "0",
+        "description": "Patrimonial"
       }
     ],
     "digitalAccount": [
@@ -588,7 +596,8 @@
           "typeId": "CM",
           "accountType": "cuentaChequera",
           "comboType": "Digital"
-        }
+        },
+        "description": "Cuenta Digital"
       }
     ],
       "mortgages": [
@@ -609,7 +618,8 @@
           "accountType": "hipotecarios",
           "number": "00740002059655151937"
         },
-        "productId": "00740002059655151937"
+        "productId": "00740002059655151937",
+        "description": "Hipoteca"
       },
       {
         "balance": {
@@ -628,7 +638,8 @@
           "accountType": "hipotecarios",
           "number": "00740002089694219015"
         },
-        "productId": "00740002089694219015"
+        "productId": "00740002089694219015",
+        "description": "Hipoteca"
       }
     ]
   }
