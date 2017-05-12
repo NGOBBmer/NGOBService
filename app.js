@@ -32,6 +32,7 @@ var dashboard = require('./routes/dashboard/dashboard');
 var paola = require('./routes/paola/paola');
 var assets = require('./routes/assets');
 var auth = require('./routes/auth');
+var iWantMenu = require('./routes/dashboard/iWantMenu');
 
 var app = express();
 
@@ -73,6 +74,7 @@ app.use('/dashboard', banners);
 app.use('/paola', paola);
 app.use('/auth', auth);
 app.use('/img', assets);
+app.use('/dashboard', iWantMenu);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
