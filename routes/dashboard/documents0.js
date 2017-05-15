@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
-var PDF = require('../../mock/V00/dashboard/documents/pdf.json');
-var HTML = require('../../mock/V00/dashboard/documents/html.json');
-var XLS = require('../../mock/V00/dashboard/documents/xls.json');
-var NOK = require('../../mock/V00/dashboard/documents/error.json');
+var PDF = require('../../mock/V00/dashboard/documents0/pdf.json');
+var HTML = require('../../mock/V00/dashboard/documents0/html.json');
+var XLS = require('../../mock/V00/dashboard/documents0/xls.json');
+var NOK = require('../../mock/V00/dashboard/documents0/error.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -39,6 +39,5 @@ router.post('/V00/getPDFDocuments', function(req, res, next) {
   return res.status(400).json(NOK);
   next();
 });
-
 
 module.exports = router;
