@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var DATA_01 = require('../../mock/V00/dashboard/iWantMenu/iWantMenu.json');
-var ERROR = require('../../mock/V00/dashboard/iWantMenu/iWantMenuError.json');
+var DATA_01 = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenu.json');
+var ERROR = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenuError.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -13,8 +13,8 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:4000/dashboard/V00/iWantMenu?typeAccount&page=page
-router.get('/V00/iWantMenu/', function(req, res, next) {
+// handler for query http://localhost:4000/dashboard/V00/dropDownMenu?typeAccount&page=page
+router.get('/V00/dropDownMenu/', function(req, res, next) {
 	if(req.query){
      return res.json(DATA_01);
   }else{
