@@ -1,0 +1,638 @@
+[{
+    "id": "AHMXP0000001",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequera"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar servicios",
+        "link": "serviciosMenuQuiero",
+        "params": [{
+            "name": "tipo",
+            "value": "todos"
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "AHMXP0000002",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequera"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar servicios",
+        "link": "serviciosMenuQuiero",
+        "params": [{
+            "name": "tipo",
+            "value": "todos"
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "CHMXP0000003",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequera"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "CHEUR0000001",
+    "typeProduct": "euros",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequeraEuro"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "fondoInversiones"
+        }, {
+            "name": "idcuenta",
+            "value": "getNum_contrato"
+        }]
+    }, {
+        "nombre": "Comprar",
+        "link": "fondoInversionCompraVenta",
+        "params": [{
+            "name": "tipoOperacion",
+            "value": "compra"
+        }, {
+            "name": "NumContrato",
+            "value": "getNum_contrato"
+        }, {
+            "name": "Fondo",
+            "value": "getDescripcion_fondo"
+        }, {
+            "name": "Serie",
+            "value": "getSerie"
+        }]
+    }, {
+        "nombre": "Vender",
+        "link": "fondoInversionCompraVenta",
+        "params": [{
+            "name": "tipoOperacion",
+            "value": "venta"
+        }, {
+            "name": "NumContrato",
+            "value": "getNum_contrato"
+        }, {
+            "name": "Fondo",
+            "value": "getDescripcion_fondo"
+        }, {
+            "name": "Serie",
+            "value": "getSerie"
+        }, {
+            "name": "Titulos",
+            "value": "getTotal_titulos"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000001",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Disponer efectivo",
+        "link": "disposicionTDC",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000002",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Disponer efectivo",
+        "link": "disposicionTDC",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000003",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Disponer efectivo",
+        "link": "disposicionTDC",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000004",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Disponer efectivo",
+        "link": "disposicionTDC",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000005",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Disponer efectivo",
+        "link": "disposicionTDC",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000006",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Disponer efectivo",
+        "link": "disposicionTDC",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000007",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "TCMXP0000008",
+    "typeProduct": "tarjetasCredito",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleTarjetaCredito",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "tarjetasCredito"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "pagoTarjetaDeCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Disponer efectivo",
+        "link": "disposicionTDC",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }]
+}, {
+    "id": "0",
+    "typeProduct": "otrosCreditos",
+    "menu": [{
+        "nombre": "Saldo",
+        "link": "consultaSaldoCrediton",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "id",
+            "value": "getIndiceCred"
+        }, {
+            "name": "entrada",
+            "value": "PG"
+        }]
+    }, {
+        "nombre": "Pagar",
+        "link": "creditonPagoCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getIndiceCred"
+        }, {
+            "name": "numCredito",
+            "value": "getNumCredito"
+        }]
+    }, {
+        "nombre": "Estado de cuenta",
+        "link": "edoCuentaCredito",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getIndiceCred"
+        }]
+    }]
+}]
