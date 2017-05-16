@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var DATA_01 = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenu.json');
+var DATA_02 = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenuPesos.json');
 var ERROR = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenuError.json');
 
 /* GET users listing. */
@@ -15,10 +16,14 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:4000/dashboard/V00/dropDownMenu?typeProduct&page=page
 router.get('/V00/dropDownMenu/', function(req, res, next) {
-	if(req.query){
-     return res.json(DATA_01);
+	if(req.query.typeProduct=='pesos'){
+     return res.json(DATA_02);
   }else{
+    if(req.query.typeProduct==""){
+      return res.json(DATA_01);
+    }else {
      return res.status(400).json(ERROR);
+    }
   }
   next();
   });
