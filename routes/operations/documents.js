@@ -1,12 +1,12 @@
 var express = require('express');
 var router = express.Router();
-var PDF = require('../../mock/V00/dashboard/documents0/pdf.json');
-var HTML = require('../../mock/V00/dashboard/documents0/html.json');
-var HTML_TC = require('../../mock/V00/dashboard/documents0/html_tc.json');
-var HTML_NOMOVS = require('../../mock/V00/dashboard/documents0/html_nomovs.json');
-var HTML_PRINT = require('../../mock/V00/dashboard/documents0/html_print.json');
-var XLS = require('../../mock/V00/dashboard/documents0/xls.json');
-var NOK = require('../../mock/V00/dashboard/documents0/error.json');
+var PDF = require('../../mock/V00/operations/documents/pdf.json');
+var HTML = require('../../mock/V00/operations/documents/html.json');
+var HTML_TC = require('../../mock/V00/operations/documents/html_tc.json');
+var HTML_NOMOVS = require('../../mock/V00/operations/documents/html_nomovs.json');
+var HTML_PRINT = require('../../mock/V00/operations/documents/html_print.json');
+var XLS = require('../../mock/V00/operations/documents/xls.json');
+var NOK = require('../../mock/V00/operations/documents/error.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -18,7 +18,7 @@ router.use(function(req, res, next) {
 });
 
 
-// handler for query http://localhost:4000/dashboard/V00/getPDFDocuments
+// handler for query http://localhost:4000/operations/V00/getPDFDocuments
 /*se espera
 
 {
