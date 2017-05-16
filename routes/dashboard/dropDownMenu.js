@@ -13,7 +13,7 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:4000/dashboard/V00/dropDownMenu?typeAccount&page=page
+// handler for query http://localhost:4000/dashboard/V00/dropDownMenu?typeProduct&page=page
 router.get('/V00/dropDownMenu/', function(req, res, next) {
 	if(req.query){
      return res.json(DATA_01);
