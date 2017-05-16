@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var PDF = require('../../mock/V00/dashboard/documents0/pdf.json');
 var HTML = require('../../mock/V00/dashboard/documents0/html.json');
+var HTML_TC = require('../../mock/V00/dashboard/documents0/html_tc.json');
 var HTML_PRINT = require('../../mock/V00/dashboard/documents0/html_print.json');
 var XLS = require('../../mock/V00/dashboard/documents0/xls.json');
 var NOK = require('../../mock/V00/dashboard/documents0/error.json');
@@ -22,7 +23,7 @@ router.use(function(req, res, next) {
 {
   "productId": "CHMXP0000001",
   "businessFlow": "MOVEMENTS",
-  "operationType": "PRINT",
+  "operationType": "",
   "type": "pdf","html","xls"
 }
 
@@ -32,8 +33,8 @@ router.post('/V00/getPDFDocuments', function(req, res, next) {
     return res.json(PDF);
   }
   else if (req.body.type=="html"){
-    if (req.body.operationType=="PRINT")
-      return res.json(HTML_PRINT);
+    if (req.body.productId=="TCMXP0000001")
+      return res.json(HTML_TC);
     else
       return res.json(HTML);
   }
