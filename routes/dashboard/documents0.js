@@ -3,6 +3,7 @@ var router = express.Router();
 var PDF = require('../../mock/V00/dashboard/documents0/pdf.json');
 var HTML = require('../../mock/V00/dashboard/documents0/html.json');
 var HTML_TC = require('../../mock/V00/dashboard/documents0/html_tc.json');
+var HTML_NOMOVS = require('../../mock/V00/dashboard/documents0/html_nomovs.json');
 var HTML_PRINT = require('../../mock/V00/dashboard/documents0/html_print.json');
 var XLS = require('../../mock/V00/dashboard/documents0/xls.json');
 var NOK = require('../../mock/V00/dashboard/documents0/error.json');
@@ -35,8 +36,10 @@ router.post('/V00/getPDFDocuments', function(req, res, next) {
   else if (req.body.type=="html"){
     if (req.body.productId=="TCMXP0000001")
       return res.json(HTML_TC);
-    else
+    else if (req.body.productId=="CHMXP0000001")
       return res.json(HTML);
+    else
+      return res.json(HTML_NOMOVS);
   }
   else if (req.body.type=="xls"){
     return res.json(XLS);
