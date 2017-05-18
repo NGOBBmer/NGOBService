@@ -3,6 +3,86 @@
     "historicPeriods": [
       {
         "periodId": "PERIOD0006",
+        "periodDate": "2015-01-01"
+      },
+      {
+        "periodId": "PERIOD0007",
+        "periodDate": "2015-02-07"
+      },
+      {
+        "periodId": "PERIOD0008",
+        "periodDate": "2015-03-07"
+      },
+      {
+        "periodId": "PERIOD0009",
+        "periodDate": "2015-04-07"
+      },
+      {
+        "periodId": "PERIOD0010",
+        "periodDate": "2015-05-07"
+      },
+      {
+        "periodId": "PERIOD0011",
+        "periodDate": "2015-06-07"
+      },
+      {
+        "periodId": "PERIOD0012",
+        "periodDate": "2015-07-07"
+      },
+      {
+        "periodId": "PERIOD0013",
+        "periodDate": "2015-08-07"
+      },
+      {
+        "periodId": "PERIOD0014",
+        "periodDate": "2015-09-07"
+      },
+      {
+        "periodId": "PERIOD0015",
+        "periodDate": "2015-10-07"
+      },
+      {
+        "periodId": "PERIOD0016",
+        "periodDate": "2015-11-07"
+      },
+      {
+        "periodId": "PERIOD0017",
+        "periodDate": "2015-12-07"
+      },
+      {
+        "periodId": "PERIOD0018",
+        "periodDate": "2014-01-07"
+      },
+      {
+        "periodId": "PERIOD0019",
+        "periodDate": "2014-02-07"
+      },
+      {
+        "periodId": "PERIOD0020",
+        "periodDate": "2014-03-07"
+      },
+      {
+        "periodId": "PERIOD0021",
+        "periodDate": "2014-04-07"
+      },
+      {
+        "periodId": "PERIOD0022",
+        "periodDate": "2014-05-07"
+      },
+      {
+        "periodId": "PERIOD0023",
+        "periodDate": "2014-06-07"
+      },
+      {
+        "periodId": "PERIOD0024",
+        "periodDate": "2014-07-07"
+      },
+      {
+        "periodId": "PERIOD0025",
+        "periodDate": "2014-08-07"
+      },
+      {
+        "periodId": "PERIOD0026",
         "periodDate": "2015-06-07"
       }
     ],
