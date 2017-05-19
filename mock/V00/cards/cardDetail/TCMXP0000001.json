@@ -1,95 +1,95 @@
 {
   "data": {
-    "alias": "*****84910",
-    "amountDispute": "0.0",
-    "availableBalance": {
-      "currentBalances": {
-        "amount": 938.64,
-        "currency": "MXN"
-      },
-      "pendingBalances": null,
-      "postedBalances": null
-    },
-    "cardId": "TCMXP0000001",
-    "cardType": {
-      "id": "TARJETA INTERNACIONALTI",
-      "name": "TARJETA INTERNACIONAL"
-    },
-    "cashWithdraw": {
-      "amount": "0.0",
-      "currency": "MXN"
-    },
-    "charges": {
-      "amount": 742.16,
-      "currency": "MXP"
-    },
-    "comisiones": "",
-    "cutOffDate": "2017-04-08",
-    "deferredPayment": "",
-    "disposedBalance": {
-      "currentBalances": {
-        "amount": 45661.36,
-        "currency": "MXN"
-      },
-      "pendingBalances": {
-        "amount": 16.5,
-        "currency": "MXP"
-      },
-      "postedBalances": {
-        "amount": 45697.82,
-        "currency": "MXN"
-      }
-    },
-    "grantedCredits": {
-      "amount": "46600.0",
-      "currency": "MXN"
-    },
-    "images": {
-      "id": "IMG01",
-      "name": "IMAGEN",
-      "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477213&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-    },
+    "alias": "Mi Tarjeta",
     "number": "*4910",
-    "overDraft": {
-      "amount": 0.0,
-      "currency": "MXN"
-    },
+    "cardId": "TCMXP0000001",
+    "cutOffDate": "2017-05-08",
     "paymentMethod": {
-      "endDate": "2017-04-28 00:00:00:000000",
+      "endDate": "2017-05-29 00:00:00:000000",
       "monetaryPayments": null,
       "paymentAmounts": [
         {
           "id": "PM",
           "name": "minimumPayment",
           "values": {
-            "amount": "1076.22"
+            "amount": "123.4"
           }
         },
         {
           "id": "PNI",
           "name": "notInterestPayment",
           "values": {
-            "amount": "10151.71"
+            "amount": "3201.89"
           }
         }
       ]
     },
+    "availableBalance": {
+      "currentBalances": {
+        "amount": 2498.41,
+        "currency": "MXN"
+      },
+      "postedBalances": null,
+      "pendingBalances": null
+    },
+    "disposedBalance": {
+      "currentBalances": {
+        "amount": 44101.59,
+        "currency": "MXN"
+      },
+      "postedBalances": {
+        "amount": 45052.93,
+        "currency": "MXN"
+      },
+      "pendingBalances": {
+        "amount": 136.6,
+        "currency": "MXP"
+      }
+    },
+    "transitPayments": {
+      "amount": 0.0,
+      "currency": "MXP"
+    },
+    "transitCharges": {
+      "amount": 0.0,
+      "currency": "MXP"
+    },
+    "cashWithdraw": {
+      "amount": "7901.0",
+      "currency": "MXN"
+    },
     "payments": {
-      "amount": -778.62,
+      "amount": -1109.34,
+      "currency": "MXP"
+    },
+    "charges": {
+      "amount": 158.0,
       "currency": "MXP"
     },
     "positiveBalance": {
       "amount": 0.0,
       "currency": null
     },
-    "totalPoints": "471",
-    "transitCharges": {
-      "amount": 0.0,
-      "currency": "MXP"
+    "images": {
+      "id": "IMG01",
+      "name": "IMAGEN",
+      "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477213&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
     },
-    "transitPayments": {
+    "overDraft": {
       "amount": 0.0,
-      "currency": "MXP"
-    }
+      "currency": "MXN"
+    },
+    "deferredPayment": "",
+    "amountDispute": "0.0",
+    "totalPoints": "54",
+    "grantedCredits": {
+      "amount": "46600.0",
+      "currency": "MXN"
+    },
+    "cardType": {
+      "id": "TARJETA INTERNACIONALTI",
+      "name": "TARJETA INTERNACIONAL"
+    },
+    "comisiones": ""
   }
 }
