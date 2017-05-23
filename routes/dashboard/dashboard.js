@@ -27,6 +27,5 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_01);
   next();
 });
-4152313000466834
 
 module.exports = router;
