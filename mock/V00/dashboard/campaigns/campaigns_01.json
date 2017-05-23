@@ -7,13 +7,22 @@
       },
       "campaignId": "0130CAM1702020001",
       "campaignName": "INCREMENTO LINEA DE CREDITO TDC BANCARIA",
-      "contractProduct": {
+      "subProduct": {
         "code": "",
         "description": "",
         "id": ""
       },
       "promotionType": "0130",
-      "type": "1C"
+      "type": "1C",
+      "information":{
+        "title": "",
+        "description": "",
+        "url": ""
+      },
+      "image":{
+        "url": "",
+        "base64": ""
+      }
     },
     {
       "amountOffer": {
@@ -22,13 +31,22 @@
       },
       "campaignId": "0296CAM1702020001",
       "campaignName": "PREAPROBADO TDC",
-      "contractProduct": {
+      "subProduct": {
         "code": "",
         "description": "",
         "id": ""
       },
       "promotionType": "0296",
-      "type": "1C"
+      "type": "1C",
+      "information":{
+        "title": "",
+        "description": "",
+        "url": ""
+      },
+      "image":{
+        "url": "",
+        "base64": ""
+      }
     },
     {
       "amountOffer": {
@@ -37,13 +55,70 @@
       },
       "campaignId": "0060CAM2994370001",
       "campaignName": "PRE APROBADOS CONSUMO",
-      "contractProduct": {
+      "subProduct": {
         "code": "",
         "description": "",
         "id": "PBCCMPPI01"
       },
       "promotionType": "0060",
-      "type": "1C"
+      "type": "1C",
+      "information":{
+        "title": "",
+        "description": "",
+        "url": ""
+      },
+      "image":{
+        "url": "",
+        "base64": ""
+      }
+    },
+    {
+      "amountOffer": {
+        "amount": 2141.24,
+        "currency": "MXP"
+      },
+      "campaignId": "0622CAM3073710001",
+      "campaignName": "SCRUM SEGUROS",
+      "subProduct": {
+        "code": "0011",
+        "description": "AUTO SEGURO 01",
+        "id": "PBSEGATS01"
+      },
+      "promotionType": "0622",
+      "type": "1C",
+      "information":{
+        "title": "",
+        "description": "",
+        "url": ""
+      },
+      "image":{
+        "url": "",
+        "base64": ""
+      }
+    },
+    {
+      "amountOffer": {
+        "amount": 135.0,
+        "currency": "MXP"
+      },
+      "campaignId": "0133CAM3081570001",
+      "campaignName": "SEGURO DE GASTOS FUNERARIOS",
+      "subProduct": {
+        "code": "0001",
+        "description": "GASTOS FUNERARIOS",
+        "id": "PBSEGGFU02"
+      },
+      "promotionType": "0133",
+      "type": "1C",
+      "information":{
+        "title": "",
+        "description": "",
+        "url": ""
+      },
+      "image":{
+        "url": "",
+        "base64": ""
+      }
     }
   ]
 }

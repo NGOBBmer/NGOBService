@@ -1,0 +1,550 @@
+{
+  "product": {
+    "savingAccount": [
+      {
+        "productId": "AHMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 3278.17,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "1500001929",
+          "originalAccountNumber": "00740010001500001929",
+          "numberWithoutAlias": "1500001929",
+          "alias": "",
+          "type": "Cuentas sin chequera",
+          "typeId": "AH",
+          "accountType": "cuentaChequera",
+          "comboType": "Sin/cheq"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "AHMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 898613175.54,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "1500007838",
+          "originalAccountNumber": "00740010001500007838",
+          "numberWithoutAlias": "1500007838",
+          "alias": "",
+          "type": "Cuentas sin chequera",
+          "typeId": "AH",
+          "accountType": "cuentaChequera",
+          "comboType": "Sin/cheq"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "AHMXP0000003",
+        "balance": {
+          "availableBalance": {
+            "amount": 899888,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "1500021393",
+          "originalAccountNumber": "00740010001500021393",
+          "numberWithoutAlias": "1500021393",
+          "alias": "",
+          "type": "Cuentas sin chequera",
+          "typeId": "AH",
+          "accountType": "cuentaChequera",
+          "comboType": "Sin/cheq"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }
+    ],
+    "checkAccount": [
+      {
+        "productId": "CHUSD0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 904.51,
+            "currency": "",
+            "currencyId": "USD"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currencyId": "USD"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "0178512663",
+          "originalAccountNumber": "00740600000178512663",
+          "numberWithoutAlias": "0178512663",
+          "alias": "",
+          "type": "CH",
+          "typeId": "CH",
+          "accountType": "cuentaChequeraDolares",
+          "comboType": "Con/cheq"
+        },
+        "region": {
+          "name": "MEXICO"
+        },
+        "description": "Cuenta en Dólares",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "CHEUR0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 18.3,
+            "currency": "",
+            "currencyId": "EUR"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currency": "",
+            "currencyId": "EUR"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "0178530718",
+          "originalAccountNumber": "00743616000178530718",
+          "numberWithoutAlias": "0178530718",
+          "alias": "0178530718",
+          "type": "CH",
+          "typeId": "CH",
+          "accountType": "cuentaChequeraEuro",
+          "comboType": "Con/cheq",
+          "comboNumber": "0178530718"
+        },
+        "region": {
+          "name": "MEXICO"
+        },
+        "description": "Cuenta en Euros",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ],
+    "creditCard": [
+      {
+        "productId": "TCMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 276332.85,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": -764819.56,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "LOREMIPSUM",
+          "originalAccountNumber": "4555043000086497",
+          "numberWithoutAlias": "*****86497",
+          "alias": "LOREMIPSUM",
+          "type": "Tarjeta de crédito",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito",
+          "comboType": "TDC",
+          "comboNumber": "LOREMIPSUM"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "TCMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 150858.13,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 150858.13,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "*2215",
+          "originalAccountNumber": "4772142702142215",
+          "numberWithoutAlias": "*****42215",
+          "alias": "",
+          "type": "Tarjeta de crédito",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito",
+          "comboType": "TDC",
+          "comboNumber": "*****42215"
+        },
+        "minimumPayment": 9684.81,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "TCMXP0000003",
+        "balance": {
+          "availableBalance": {
+            "amount": -57609.15,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 16977.41,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "*9049",
+          "originalAccountNumber": "4772913028619049",
+          "numberWithoutAlias": "*****19049",
+          "alias": "",
+          "type": "Tarjeta de crédito",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito",
+          "comboType": "TDC",
+          "comboNumber": "*****19049"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "TCMXP0000004",
+        "balance": {
+          "availableBalance": {
+            "amount": -1530.22,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 0,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "*0291",
+          "originalAccountNumber": "4772923009000291",
+          "numberWithoutAlias": "*****00291",
+          "alias": "",
+          "type": "Tarjeta de crédito",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito",
+          "comboType": "TDC",
+          "comboNumber": "*****00291"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "TCMXP0000005",
+        "balance": {
+          "availableBalance": {
+            "amount": 4409.79,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 4311.79,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "*3155",
+          "originalAccountNumber": "4931612090303155",
+          "numberWithoutAlias": "*****03155",
+          "alias": "",
+          "type": "Tarjeta de crédito",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito",
+          "comboType": "TDC",
+          "comboNumber": "*****03155"
+        },
+        "minimumPayment": 4311.79,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "TCMXP0000006",
+        "balance": {
+          "availableBalance": {
+            "amount": 7113.83,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 0,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "*9233",
+          "originalAccountNumber": "5358750200059233",
+          "numberWithoutAlias": "*****59233",
+          "alias": "",
+          "type": "Tarjeta de crédito",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito",
+          "comboType": "TDC",
+          "comboNumber": "*****59233"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "TCMXP0000007",
+        "balance": {
+          "availableBalance": {
+            "amount": -3062,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 0,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "*****14815",
+          "originalAccountNumber": "5420150000014815",
+          "numberWithoutAlias": "*****14815",
+          "alias": "*****14815",
+          "type": "Tarjeta de crédito",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito",
+          "comboType": "TDC",
+          "comboNumber": "*****14815"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }
+    ],
+    "heritage": [
+      {
+        "productId": "PTMXP0000001",
+        "balance": {
+          "totalBalance": {
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "status": "0",
+        "branch": {
+          "number": "00740680002106857531",
+          "alias": "PT00740680002106857531",
+          "typeId": "PT",
+          "accountType": "patrimoniales"
+        },
+        "description": "Patrimonial",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ],
+    "otherCredits": [
+      {
+        "productId": "0",
+        "balance": {
+          "availableBalance": {
+            "amount": 13991.69,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "grantedBalance": {
+            "amount": 12561.0,
+            "currency": "",
+            "currencyId": "MXP"
+          },
+          "totalBalance": {
+            "amount": 13991.69,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "9855151406",
+          "originalAccountNumber": "00742162179855151406",
+          "type": "Prestamo personal",
+          "accountType": "otrosCreditos"
+        },
+        "description": "Préstamo Personal",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ],
+    "investmentsFund": [
+      {
+        "productId": "SIMXP0000001",
+        "balance": {
+          "totalTitles": {
+            "amount": 0.0,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 88.636651,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 0,
+            "currency": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "2092377152",
+          "originalAccountNumber": "00743616562092377152",
+          "accountType": "fondoInversiones",
+          "fundDescription": "BMERIND",
+          "serie": "MB"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      },
+      {
+        "productId": "SIMXP0000002",
+        "balance": {
+          "totalTitles": {
+            "amount": 0.0,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 1.449246,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 0,
+            "currency": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "2092377152",
+          "originalAccountNumber": "00743616002092377152",
+          "accountType": "fondoInversiones",
+          "fundDescription": "BBVAE50",
+          "serie": "B"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      },
+      {
+        "productId": "SIMXP0000003",
+        "balance": {
+          "totalTitles": {
+            "amount": 0.0,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 0,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 0,
+            "currency": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "branch": {
+          "number": "2092377160",
+          "originalAccountNumber": "00743616002092377160",
+          "accountType": "fondoInversiones",
+          "fundDescription": "",
+          "serie": ""
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  }
+}
