@@ -1,5 +1,5 @@
 [{
-    "id": "",
+    "id": "AHMXP0000001",
     "typeProduct": "pesos",
     "menu": [{
         "nombre": "Movimientos",
@@ -32,6 +32,16 @@
             "value": "getId"
         }]
     }, {
+        "nombre": "Compra/Venta de Dólares",
+        "link": "compraVentaDolares",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
         "nombre": "Pagar Impuestos",
         "link": "impuestos",
         "params": [{
@@ -41,5 +51,125 @@
             "name": "cuenta",
             "value": "getId"
         }]
+    }, {
+        "nombre": "Definir alias",
+        "link": "changeAlias",
+        "params": null
+    }]
+}, {
+    "id": "AHMXP0000002",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequera"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar servicios",
+        "link": "serviciosMenuQuiero",
+        "params": [{
+            "name": "tipo",
+            "value": "todos"
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "link": "compraVentaDolares",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Definir alias",
+        "link": "changeAlias",
+        "params": null
+    }]
+}, {
+    "id": "AHMXP0000003",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequera"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar servicios",
+        "link": "serviciosMenuQuiero",
+        "params": [{
+            "name": "tipo",
+            "value": "todos"
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "link": "compraVentaDolares",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Definir alias",
+        "link": "changeAlias",
+        "params": null
     }]
 }]
