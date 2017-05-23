@@ -20,7 +20,7 @@ function getTime(now){
   mm < 10 ? mm = '0' + mm : mm = mm;
   ss < 10 ? ss = '0' + ss : ss = ss;
 
-  return hh + ":" +  mm + ":" + ss + "." +  ms;
+  return hh + ":" +  mm + ":" + ss;
 }
 
 function getJson(){
@@ -31,8 +31,7 @@ function getJson(){
     "data": 
     { 
       "date":  newDate,
-      "time": getTime(now),
-      "timeZone": "-06:00"
+      "time": getTime(now)
     }
   }
   return obj;
