@@ -456,6 +456,7 @@
     ],
     "investmentsFund": [
       {
+        "productId": "SIMXP0000001",
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
@@ -470,6 +471,7 @@
         }
       },
       {
+        "productId": "SIMXP0000002",
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
@@ -484,6 +486,7 @@
         }
       },
       {
+        "productId": "SIMXP0000003",
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
