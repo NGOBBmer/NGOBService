@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "CNE00001",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "La información proporcionada es incorrecta",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}
