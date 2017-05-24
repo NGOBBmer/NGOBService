@@ -5,7 +5,7 @@
         "productId": "AHMXP0000001",
         "balance": {
           "availableBalance": {
-            "amount": 3278.17,
+            "amount": 3277.17,
             "currency": "Pesos",
             "currencyId": "MXP"
           },
@@ -427,7 +427,7 @@
         "productId": "0",
         "balance": {
           "availableBalance": {
-            "amount": 13991.69,
+            "amount": 14004.53,
             "currency": "",
             "currencyId": "MXP"
           },
@@ -437,7 +437,7 @@
             "currencyId": "MXP"
           },
           "totalBalance": {
-            "amount": 13991.69,
+            "amount": 14004.53,
             "currency": "",
             "currencyId": "MXP"
           }
@@ -456,29 +456,13 @@
     ],
     "investmentsFund": [
       {
-        "productId": "SIMXP0000001",
-        "balance": {
-          "totalTitles": {
-            "amount": 0.0,
-            "currency": "MXP"
-          },
-          "agreedPrice": {
-            "amount": 88.636652,
-            "currency": "MXP"
-          },
-          "financialValue": {
-            "amount": 0,
-            "currency": "MXP"
-          }
-        },
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616562092377152",
           "accountType": "fondoInversiones",
-          "fundDescription": "BMERIND",
-          "serie": "MB"
+          "fundDescription": "BMERIND"
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -486,29 +470,13 @@
         }
       },
       {
-        "productId": "SIMXP0000002",
-        "balance": {
-          "totalTitles": {
-            "amount": 0.0,
-            "currency": "MXP"
-          },
-          "agreedPrice": {
-            "amount": 1.449246,
-            "currency": "MXP"
-          },
-          "financialValue": {
-            "amount": 0,
-            "currency": "MXP"
-          }
-        },
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616002092377152",
           "accountType": "fondoInversiones",
-          "fundDescription": "BBVAE50",
-          "serie": "B"
+          "fundDescription": "BBVAE50"
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -516,29 +484,13 @@
         }
       },
       {
-        "productId": "SIMXP0000003",
-        "balance": {
-          "totalTitles": {
-            "amount": 0.0,
-            "currency": "MXP"
-          },
-          "agreedPrice": {
-            "amount": 0,
-            "currency": "MXP"
-          },
-          "financialValue": {
-            "amount": 0,
-            "currency": "MXP"
-          }
-        },
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
           "number": "2092377160",
           "originalAccountNumber": "00743616002092377160",
           "accountType": "fondoInversiones",
-          "fundDescription": "",
-          "serie": ""
+          "fundDescription": ""
         },
         "description": "Fondo de Inversión",
         "navigation": {
