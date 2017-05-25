@@ -5,7 +5,7 @@
         "productId": "AHMXP0000001",
         "balance": {
           "availableBalance": {
-            "amount": 3277.17,
+            "amount": 103477.17,
             "currency": "Pesos",
             "currencyId": "MXP"
           },
@@ -36,7 +36,7 @@
         "productId": "AHMXP0000002",
         "balance": {
           "availableBalance": {
-            "amount": 898613175.54,
+            "amount": 898509475.54,
             "currency": "Pesos",
             "currencyId": "MXP"
           },
@@ -100,7 +100,7 @@
         "productId": "CHUSD0000001",
         "balance": {
           "availableBalance": {
-            "amount": 904.51,
+            "amount": 1553.21,
             "currency": "",
             "currencyId": "USD"
           },
@@ -126,14 +126,14 @@
         },
         "description": "Cuenta en Dólares",
         "navigation": {
-          "cellsNavigation": true
+          "cellsNavigation": false
         }
       },
       {
         "productId": "CHEUR0000001",
         "balance": {
           "availableBalance": {
-            "amount": 18.3,
+            "amount": 650.86,
             "currency": "",
             "currencyId": "EUR"
           },
@@ -368,7 +368,7 @@
         "productId": "TCMXP0000007",
         "balance": {
           "availableBalance": {
-            "amount": -3062,
+            "amount": -4262,
             "currency": "",
             "currencyId": "MXP"
           },
@@ -427,7 +427,7 @@
         "productId": "0",
         "balance": {
           "availableBalance": {
-            "amount": 14004.53,
+            "amount": 14017.37,
             "currency": "",
             "currencyId": "MXP"
           },
@@ -437,7 +437,7 @@
             "currencyId": "MXP"
           },
           "totalBalance": {
-            "amount": 14004.53,
+            "amount": 14017.37,
             "currency": "",
             "currencyId": "MXP"
           }
@@ -501,5 +501,32 @@
         }
       }
     ]
+  },
+  "totalBalanceMxn": {
+    "balance": {
+      "amount": 899512840.71,
+      "currency": "MXP"
+    },
+    "description": "Cuenta en Pesos"
+  },
+  "totalBalanceUsd": {
+    "balance": {
+      "amount": 1553.21,
+      "currency": "USD"
+    },
+    "description": "Cuenta en Dólares"
+  },
+  "totalBalanceEur": {
+    "balance": {
+      "amount": 650.86,
+      "currency": "EUR"
+    },
+    "description": "Cuenta en Euros"
+  },
+  "totalBalanceCreditos": {
+    "balance": {
+      "amount": 14017.37
+    },
+    "description": "Otros Créditos"
   }
 }

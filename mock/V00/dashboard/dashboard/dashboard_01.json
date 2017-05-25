@@ -711,5 +711,19 @@
         }
       }
     ]
+  },
+  "totalBalanceMxn": {
+    "balance": {
+      "amount": 104848484.71,
+      "currency": "MXP"
+    },
+    "description": "Cuenta en Pesos"
+  },
+  "totalBalanceUsd": {
+    "balance": {
+      "amount": 155553.21,
+      "currency": "USD"
+    },
+    "description": "Cuenta en Dólares"
   }
 }
