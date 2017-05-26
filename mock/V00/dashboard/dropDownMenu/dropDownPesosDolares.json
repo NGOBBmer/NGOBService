@@ -1,0 +1,203 @@
+[{
+    "id": "CHMXP0000001",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true
+        },
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequera"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar servicios",
+        "link": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": "tipo",
+            "value": "todos"
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "link": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Definir alias",
+        "link": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": null
+    }]
+}, {
+    "id": "CHMXP0000002",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true
+        },
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequera"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar servicios",
+        "link": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": "tipo",
+            "value": "todos"
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "link": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Pagar Impuestos",
+        "link": "impuestos",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Definir alias",
+        "link": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": null
+    }]
+}, {
+    "id": "CHUSD0000001",
+    "typeProduct": "dolares",
+    "menu": [{
+        "nombre": "Movimientos",
+        "link": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": "tipoCuenta",
+            "value": "cuentaChequeraDolares"
+        }, {
+            "name": "idcuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Transferir",
+        "link": "traspasos",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "link": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": [{
+            "name": null,
+            "value": null
+        }, {
+            "name": "cuenta",
+            "value": "getId"
+        }]
+    }, {
+        "nombre": "Definir alias",
+        "link": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        },
+        "params": null
+    }]
+}]
