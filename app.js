@@ -31,6 +31,7 @@ var banners = require('./routes/dashboard/banners');
 var dashboard = require('./routes/dashboard/dashboard');
 var modifyAlias = require('./routes/dashboard/modifyAlias');
 var documents = require('./routes/operations/documents');
+var qr_cronto = require('./routes/security/qr');
 var paola = require('./routes/paola/paola');
 var assets = require('./routes/assets');
 var auth = require('./routes/auth');
@@ -79,6 +80,7 @@ app.use('/paola', paola);
 app.use('/auth', auth);
 app.use('/img', assets);
 app.use('/dashboard', dropDownMenu);
+app.use('/security', qr_cronto);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
