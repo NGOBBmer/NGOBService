@@ -20,7 +20,6 @@ router.use(function(req, res, next) {
 {
   "type":"OPERATION"
 }
-
 */
 router.post('/V00/getQR', function(req, res, next) {
   console.log(req.body);

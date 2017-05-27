@@ -5,6 +5,6 @@
 		"descripcion": "Se ha producido un error al consultar el servicio getQR",
 		"version": "1",
 		"severity": "FATAL",
-		"httpStatus": "400"
+		"httpStatus": "500"
 	}
 }
