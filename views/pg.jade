@@ -49,3 +49,9 @@ block content
     li
       a(href="https://cards-service-mock.herokuapp.com/security/V00/getQR") getQR (POST)
       span https://cards-service-mock.herokuapp.com/security/V00/getQR
+    li
+      a(href="https://cards-service-mock.herokuapp.com/operations/V00/agileOperations?$filter=(businessFlow==ALL)") agileOperations - List
+      span https://cards-service-mock.herokuapp.com/operations/V00/agileOperations?$filter=(businessFlow==ALL)
+      p $filter=(businessFlow==ALL) devuelve r&aacute;pidas y peri&oacute;dicas
+      p $filter=(businessFlow==FAST) devuelve solo r&aacute;pidas
+      p $filter=(businessFlow==RECURRING) devuelve solo peri&oacute;dicas
