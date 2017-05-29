@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "campaignName": "PREAPROBADO TDC",
+      "campaignId": "0296CAM1701030001",
+      "amountOffer": {
+        "amount": 30000.0,
+        "currency": "MXP"
+      },
+      "type": "1C",
+      "promotionType": "0296",
+      "information": {
+        "title": "Tarjeta de crédito de",
+        "subtitle": "",
+        "navigation": {
+          "pathUrl": "promocionCTDC",
+          "params": [
+            {
+              "name": "origen",
+              "value": "oneClic"
+            },
+            {
+              "name": "idPromocion"
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/img/iconos/ico-TDC.png",
+        "base64": ""
+      },
+      "isModal": false
+    }
+  ]
+}

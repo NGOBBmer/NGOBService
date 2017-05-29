@@ -1,0 +1,116 @@
+{
+  "fastOperations": [
+    {
+      "id": "PR000001",
+      "sequence": "1",
+      "chargeAccountType": "CH",
+      "chargeAccount": "00740010000178963983",
+      "paymentAccountType": "CH",
+      "paymentAccount": "2800160237",
+      "paymentAmount": {
+        "amount": 0.02,
+        "currency": "MXN"
+      },
+      "operationType": "03",
+      "reference": "",
+      "iconImage": {
+        "type": "",
+        "url": "/img/iconos/icon_or_azul.gif",
+        "base64": ""
+      },
+      "channel": "BNET",
+      "nickname": "Rapida3",
+      "isOperable": "true",
+      "companyName": "",
+      "beneficiary": {
+        "adress": "",
+        "city": "",
+        "country": "",
+        "name": "GIOVANNI NICOLAS MARIN"
+      },
+      "concept": "",
+      "bank": {
+        "name": "",
+        "code": "",
+        "adress": "",
+        "country": ""
+      },
+      "paymentDayIndicator": ""
+    },
+    {
+      "id": "PR000002",
+      "sequence": "2",
+      "chargeAccountType": "CH",
+      "chargeAccount": "00740010000178963983",
+      "paymentAccountType": "CE",
+      "paymentAccount": "5554332222",
+      "paymentAmount": {
+        "amount": 11.0,
+        "currency": "MXN"
+      },
+      "operationType": "09",
+      "reference": "10",
+      "iconImage": {
+        "type": "K",
+        "url": "/img/iconos/operacionesRapidas/TransferenciasTerceros_40x40-05.png",
+        "base64": ""
+      },
+      "channel": "BNET",
+      "nickname": "PruebaRap",
+      "isOperable": "true",
+      "companyName": "",
+      "beneficiary": {
+        "adress": "",
+        "city": "",
+        "country": "",
+        "name": "prueba"
+      },
+      "concept": "",
+      "bank": {
+        "name": "ACTINVER (ACTINVER BANCO)",
+        "code": "0133",
+        "adress": "",
+        "country": ""
+      },
+      "paymentDayIndicator": ""
+    }
+  ],
+  "periodicsOperations": [
+    {
+      "paymentName": "Prueba",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "5523074747",
+      "folioOperation": "2020024030",
+      "paymentFrequency": "FORTNIGHT",
+      "operationDate": "2017-05-30",
+      "paymentDayIndicator": "2",
+      "startDateProgramming": "2017-05-30",
+      "endDateProgramming": "2017-10-12",
+      "totalPayments": 10,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "R",
+      "bank": {
+        "code": "BANAMEX"
+      },
+      "paymentTypeIndicator": "M",
+      "beneficiary": {
+        "name": "PRUEBA11"
+      },
+      "concept": "PRUEBA T2",
+      "reference": "250517",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-05-30",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      }
+    }
+  ]
+}

@@ -1,124 +1,191 @@
 {
   "data": [
     {
+      "campaignName": "CAMBIO TOKEN",
+      "campaignId": "0498CAM2508150001",
       "amountOffer": {
-        "amount": 18049.0,
+        "amount": 0.0,
         "currency": "MXP"
       },
-      "campaignId": "0130CAM1702020001",
-      "campaignName": "INCREMENTO LINEA DE CREDITO TDC BANCARIA",
-      "subProduct": {
-        "code": "",
-        "description": "",
-        "id": ""
-      },
-      "promotionType": "0130",
       "type": "1C",
-      "information":{
-        "title": "",
-        "description": "",
-        "url": ""
+      "promotionType": "0498",
+      "information": {
+        "title": "Actualiza tu token ahora",
+        "subtitle": "",
+        "navigation": {
+          "pathUrl": ""
+        }
       },
-      "image":{
-        "url": "",
+      "image": {
+        "url": "/img/iconos/ico-migraToken.png",
         "base64": ""
-      }
+      },
+      "isModal": true
     },
     {
-      "amountOffer": {
-        "amount": 30100.0,
-        "currency": "MXP"
-      },
-      "campaignId": "0296CAM1702020001",
       "campaignName": "PREAPROBADO TDC",
-      "subProduct": {
-        "code": "",
-        "description": "",
-        "id": ""
+      "campaignId": "0296CAM1701030001",
+      "amountOffer": {
+        "amount": 30000.0,
+        "currency": "MXP"
       },
+      "type": "1C",
       "promotionType": "0296",
-      "type": "1C",
-      "information":{
-        "title": "",
-        "description": "",
-        "url": ""
+      "information": {
+        "title": "Tarjeta de crédito de",
+        "subtitle": "",
+        "navigation": {
+          "pathUrl": "promocionCTDC",
+          "params": [
+            {
+              "name": "origen",
+              "value": "oneClic"
+            },
+            {
+              "name": "idPromocion"
+            }
+          ]
+        }
       },
-      "image":{
-        "url": "",
+      "image": {
+        "url": "/img/iconos/ico-TDC.png",
         "base64": ""
-      }
+      },
+      "isModal": false
     },
     {
+      "campaignName": "EFECTIVO INMEDIATO",
+      "campaignId": "0377CAM3052050001",
       "amountOffer": {
-        "amount": 3080.0,
+        "amount": 27900.0,
         "currency": "MXP"
       },
-      "campaignId": "0060CAM2994370001",
+      "type": "1C",
+      "promotionType": "0377",
+      "information": {
+        "title": "Disposición Efectivo Inmediato hasta",
+        "subtitle": "",
+        "navigation": {
+          "pathUrl": "promocionEFI",
+          "params": [
+            {
+              "name": "idPromocion"
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/img/iconos/ico-efi.png",
+        "base64": ""
+      },
+      "isModal": false
+    },
+    {
       "campaignName": "PRE APROBADOS CONSUMO",
-      "subProduct": {
-        "code": "",
-        "description": "",
-        "id": "PBCCMPPI01"
-      },
-      "promotionType": "0060",
-      "type": "1C",
-      "information":{
-        "title": "",
-        "description": "",
-        "url": ""
-      },
-      "image":{
-        "url": "",
-        "base64": ""
-      }
-    },
-    {
+      "campaignId": "0060CAM9805240001",
       "amountOffer": {
-        "amount": 2141.24,
+        "amount": 25777.0,
         "currency": "MXP"
       },
-      "campaignId": "0622CAM3073710001",
+      "type": "1C",
+      "promotionType": "0060",
+      "information": {
+        "title": "Préstamo por",
+        "subtitle": "",
+        "navigation": {
+          "pathUrl": "promocionPrestamoPersonal",
+          "params": [
+            {
+              "name": "origen",
+              "value": "oneClic"
+            },
+            {
+              "name": "idPromocion"
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/img/iconos/ico-loan.png",
+        "base64": ""
+      },
+      "isModal": false
+    },
+    {
       "campaignName": "SCRUM SEGUROS",
+      "campaignId": "0622CAM3089260001",
+      "amountOffer": {
+        "amount": 2070.06,
+        "currency": "MXP"
+      },
       "subProduct": {
         "code": "0011",
-        "description": "AUTO SEGURO 01",
+        "description": "",
         "id": "PBSEGATS01"
       },
-      "promotionType": "0622",
       "type": "1C",
-      "information":{
-        "title": "",
-        "description": "",
-        "url": ""
+      "promotionType": "0622",
+      "information": {
+        "title": "Seguro de Auto por",
+        "subtitle": "",
+        "navigation": {
+          "pathUrl": "ofertasOneClick",
+          "params": [
+            {
+              "name": "idPromocion"
+            },
+            {
+              "name": "codProducto"
+            }
+          ]
+        }
       },
-      "image":{
-        "url": "",
+      "image": {
+        "url": "/img/iconos/ico-AutoSeguro.png",
         "base64": ""
-      }
+      },
+      "isModal": false
     },
     {
+      "campaignName": "SEGURO DE GASTOS FUNERARIOS",
+      "campaignId": "0133CAM3081570001",
       "amountOffer": {
         "amount": 135.0,
         "currency": "MXP"
       },
-      "campaignId": "0133CAM3081570001",
-      "campaignName": "SEGURO DE GASTOS FUNERARIOS",
       "subProduct": {
         "code": "0001",
-        "description": "GASTOS FUNERARIOS",
+        "description": "",
         "id": "PBSEGGFU02"
       },
-      "promotionType": "0133",
       "type": "1C",
-      "information":{
-        "title": "",
-        "description": "",
-        "url": ""
+      "promotionType": "0133",
+      "information": {
+        "title": "VIDA NÓMINA por sólo",
+        "subtitle": "al mes",
+        "navigation": {
+          "pathUrl": "promocionSGF",
+          "params": [
+            {
+              "name": "idPromocion"
+            },
+            {
+              "name": "idProducto"
+            },
+            {
+              "name": "codProducto"
+            },
+            {
+              "name": "desProducto"
+            }
+          ]
+        }
       },
-      "image":{
-        "url": "",
+      "image": {
+        "url": "/img/iconos/promocionSGF.png",
         "base64": ""
-      }
+      },
+      "isModal": false
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "periodicsOperations": [
+    {
+      "paymentName": "Prueba",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "5523074747",
+      "folioOperation": "2020024030",
+      "paymentFrequency": "FORTNIGHT",
+      "operationDate": "2017-05-30",
+      "paymentDayIndicator": "2",
+      "startDateProgramming": "2017-05-30",
+      "endDateProgramming": "2017-10-12",
+      "totalPayments": 10,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "R",
+      "bank": {
+        "code": "BANAMEX"
+      },
+      "paymentTypeIndicator": "M",
+      "beneficiary": {
+        "name": "PRUEBA11"
+      },
+      "concept": "PRUEBA T2",
+      "reference": "250517",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-05-30",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      }
+    }
+  ]
+}
