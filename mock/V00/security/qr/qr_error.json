@@ -1,10 +1,10 @@
 {
-	"error": {
-		"code": "ERR_QR_002",
-		"message": "La informacion proporcionada es incorrecta",
-		"descripcion": "Se ha producido un error al consultar el servicio getQR",
-		"version": "1",
-		"severity": "FATAL",
-		"httpStatus": "500"
-	}
+  "error": {
+    "code": "ERR_QR_002",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "La informacion proporcionada es incorrecta",
+    "severity": "FATAL",
+    "version": "1"
+  }
 }

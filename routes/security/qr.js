@@ -22,7 +22,6 @@ router.use(function(req, res, next) {
 }
 */
 router.post('/V00/getQR', function(req, res, next) {
-  console.log(req.body);
 
   if (req.body.type=="OPERATION"){
     return res.json(QR_IMAGE);
