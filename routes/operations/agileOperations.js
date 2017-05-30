@@ -16,14 +16,13 @@ router.use(function(req, res, next) {
 });
 
 
-// handler for query http://localhost:4000/operations/V00/agileOperations?$filter=(businessFlow==ALL)
+// handler for query http://localhost:4000/operations/V00/agileOperations?agileOperationType=
 router.get('/V00/agileOperations', function(req, res, next) {
-	console.log(req.query.$filter);
-  if (req.query.$filter === '(businessFlow==ALL)')
+  if (req.query.agileOperationType === 'ALL')
   	return res.json(LISTA_ALL);
-  else if (req.query.$filter === '(businessFlow==RECURRING)')
+  else if (req.query.agileOperationType === 'RECURRING')
   	return res.json(LISTA_PR);
-  else if (req.query.$filter === '(businessFlow==FAST)')
+  else if (req.query.agileOperationType === 'FAST')
   	return res.json(LISTA_RP);
 
   return res.json(ERROR);
