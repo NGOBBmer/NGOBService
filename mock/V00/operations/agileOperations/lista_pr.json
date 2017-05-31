@@ -1,7 +1,7 @@
 {
   "periodicsOperations": [
     {
-      "paymentName": "Prueba",
+      "shortname": "Prueba",
       "chargeAccount": "0178963983",
       "paymentAccount": "5523074747",
       "folioOperation": "2020024030",
@@ -11,9 +11,9 @@
       "startDateProgramming": "2017-05-30",
       "endDateProgramming": "2017-10-12",
       "totalPayments": 10,
-      "registerStatus": "Pendiente de aplicar",
-      "lastStateRecord": "",
-      "lastOperationDate": "",
+      "registerStatus": "Rechazado",
+      "lastStateRecord": "PE",
+      "lastOperationDate": "30/05/2017",
       "operationType": "R",
       "bank": {
         "code": "BANAMEX"
@@ -24,8 +24,9 @@
       },
       "concept": "PRUEBA T2",
       "reference": "250517",
-      "status": "Pendiente de aplicar",
+      "status": "Rechazado",
       "nextApplicationDate": "2017-05-30",
+      "paymentsToApply": "true",
       "DestinationCurrency": "MXP",
       "destinationAmount": {
         "amount": 1.0,
@@ -33,6 +34,114 @@
       },
       "chargeAmount": {
         "amount": 1.0,
+        "currency": "MXP"
+      }
+    },
+    {
+      "shortname": "Prueba_TA",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "5520721628",
+      "folioOperation": "44013",
+      "paymentFrequency": "WEEKLY",
+      "operationDate": "2017-06-02",
+      "paymentDayIndicator": "5",
+      "startDateProgramming": "2017-06-02",
+      "endDateProgramming": "2017-06-30",
+      "totalPayments": 5,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "T",
+      "bank": {
+        "code": ""
+      },
+      "paymentTypeIndicator": "",
+      "beneficiary": {
+        "name": ""
+      },
+      "concept": "",
+      "reference": "",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-06-02",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 100.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 100.0,
+        "currency": "MXP"
+      }
+    },
+    {
+      "shortname": "Prueba_TT",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "2800160237",
+      "folioOperation": "60036022",
+      "paymentFrequency": "WEEKLY",
+      "operationDate": "2017-06-02",
+      "paymentDayIndicator": "5",
+      "startDateProgramming": "2017-06-02",
+      "endDateProgramming": "2017-08-11",
+      "totalPayments": 11,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "T",
+      "bank": {
+        "code": ""
+      },
+      "paymentTypeIndicator": "S",
+      "beneficiary": {
+        "name": ""
+      },
+      "concept": "PRUEBA",
+      "reference": "",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-06-02",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      }
+    },
+    {
+      "shortname": "Prueba",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "5520721628",
+      "folioOperation": "60177011",
+      "paymentFrequency": "MONTHLY",
+      "operationDate": "2017-06-02",
+      "paymentDayIndicator": "5",
+      "startDateProgramming": "2017-06-02",
+      "endDateProgramming": "2018-01-02",
+      "totalPayments": 8,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "T",
+      "bank": {
+        "code": ""
+      },
+      "paymentTypeIndicator": "",
+      "beneficiary": {
+        "name": ""
+      },
+      "concept": "",
+      "reference": "",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-06-02",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 100.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 100.0,
         "currency": "MXP"
       }
     }

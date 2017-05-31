@@ -692,7 +692,30 @@
           "grantedBalance": {
             "amount": 210407.42,
             "currency": "",
+            "currencyId": "VSM"
+          },
+          "nationalMoney": {
+            "amount": "77.22",
+            "currency": "",
             "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "accountType": "hipotecarios",
+          "number": "00740002089694219015"
+        },
+        "productId": "00740002089694219015",
+        "description": "Hipoteca",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      },
+      {
+        "balance": {
+          "grantedBalance": {
+            "amount": 210407.42,
+            "currency": "",
+            "currencyId": "UDIS"
           },
           "nationalMoney": {
             "amount": "77.22",

@@ -28,6 +28,18 @@
         },
         "description": "Fondo de Inversión",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": false
         }
       }

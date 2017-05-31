@@ -5,7 +5,7 @@
         "productId": "AHMXP0000001",
         "balance": {
           "availableBalance": {
-            "amount": 103477.17,
+            "amount": 5239.38,
             "currency": "Pesos",
             "currencyId": "MXP"
           },
@@ -18,17 +18,30 @@
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
-          "number": "1500001929",
+          "number": "Giovanni",
           "originalAccountNumber": "00740010001500001929",
           "numberWithoutAlias": "1500001929",
-          "alias": "",
+          "alias": "Giovanni",
           "type": "Cuentas sin chequera",
           "typeId": "AH",
           "accountType": "cuentaChequera",
-          "comboType": "Sin/cheq"
+          "comboType": "Sin/cheq",
+          "comboNumber": "Giovanni"
         },
         "description": "Cuenta en Pesos",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -36,7 +49,7 @@
         "productId": "AHMXP0000002",
         "balance": {
           "availableBalance": {
-            "amount": 898509475.54,
+            "amount": 898589123.55,
             "currency": "Pesos",
             "currencyId": "MXP"
           },
@@ -60,6 +73,18 @@
         },
         "description": "Cuenta en Pesos",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -67,7 +92,7 @@
         "productId": "AHMXP0000003",
         "balance": {
           "availableBalance": {
-            "amount": 899888,
+            "amount": 899806,
             "currency": "Pesos",
             "currencyId": "MXP"
           },
@@ -91,6 +116,18 @@
         },
         "description": "Cuenta en Pesos",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       }
@@ -100,7 +137,7 @@
         "productId": "CHUSD0000001",
         "balance": {
           "availableBalance": {
-            "amount": 1553.21,
+            "amount": 1522.14,
             "currency": "",
             "currencyId": "USD"
           },
@@ -126,6 +163,18 @@
         },
         "description": "Cuenta en Dólares",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequeraDolares"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": false
         }
       },
@@ -133,7 +182,7 @@
         "productId": "CHEUR0000001",
         "balance": {
           "availableBalance": {
-            "amount": 650.86,
+            "amount": 875.86,
             "currency": "",
             "currencyId": "EUR"
           },
@@ -161,6 +210,18 @@
         },
         "description": "Cuenta en Euros",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequeraEuro"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": false
         }
       }
@@ -196,6 +257,18 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -229,6 +302,18 @@
         "minimumPayment": 9684.81,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -249,19 +334,31 @@
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "branch": {
-          "number": "*9049",
+          "number": "GIOVANNI",
           "originalAccountNumber": "4772913028619049",
           "numberWithoutAlias": "*****19049",
-          "alias": "",
+          "alias": "GIOVANNI",
           "type": "Tarjeta de crédito",
           "typeId": "TC",
           "accountType": "tarjetasCredito",
           "comboType": "TDC",
-          "comboNumber": "*****19049"
+          "comboNumber": "GIOVANNI"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -295,6 +392,18 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -328,6 +437,18 @@
         "minimumPayment": 4311.79,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -361,6 +482,18 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       },
@@ -394,6 +527,18 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+              },
+              {
+                "name": "idcuenta"
+              }
+            ]
+          },
           "cellsNavigation": true
         }
       }
@@ -427,7 +572,7 @@
         "productId": "0",
         "balance": {
           "availableBalance": {
-            "amount": 14017.37,
+            "amount": 14094.41,
             "currency": "",
             "currencyId": "MXP"
           },
@@ -437,7 +582,7 @@
             "currencyId": "MXP"
           },
           "totalBalance": {
-            "amount": 14017.37,
+            "amount": 14094.41,
             "currency": "",
             "currencyId": "MXP"
           }
@@ -450,6 +595,14 @@
         },
         "description": "Préstamo Personal",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "consultaSaldoCreditonPG",
+            "params": [
+              {
+                "name": "id"
+              }
+            ]
+          },
           "cellsNavigation": false
         }
       }
@@ -504,28 +657,28 @@
   },
   "totalBalanceMxn": {
     "balance": {
-      "amount": 899512840.71,
+      "amount": 899494168.93,
       "currency": "MXP"
     },
     "description": "Cuenta en Pesos"
   },
   "totalBalanceUsd": {
     "balance": {
-      "amount": 1553.21,
+      "amount": 1522.14,
       "currency": "USD"
     },
     "description": "Cuenta en Dólares"
   },
   "totalBalanceEur": {
     "balance": {
-      "amount": 650.86,
+      "amount": 875.86,
       "currency": "EUR"
     },
     "description": "Cuenta en Euros"
   },
   "totalBalanceCreditos": {
     "balance": {
-      "amount": 14017.37
+      "amount": 14094.41
     },
     "description": "Otros Créditos"
   }

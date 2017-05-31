@@ -19,7 +19,7 @@
         "base64": ""
       },
       "channel": "BNET",
-      "nickname": "Rapida3",
+      "shortname": "Rapida3",
       "isOperable": "true",
       "companyName": "",
       "beneficiary": {
@@ -35,7 +35,15 @@
         "adress": "",
         "country": ""
       },
-      "paymentDayIndicator": ""
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarTT",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
     },
     {
       "id": "PR000002",
@@ -56,7 +64,7 @@
         "base64": ""
       },
       "channel": "BNET",
-      "nickname": "PruebaRap",
+      "shortname": "PruebaRap",
       "isOperable": "true",
       "companyName": "",
       "beneficiary": {
@@ -72,12 +80,110 @@
         "adress": "",
         "country": ""
       },
-      "paymentDayIndicator": ""
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarOB",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR000003",
+      "sequence": "3",
+      "chargeAccountType": "CH",
+      "chargeAccount": "00740010000178963983",
+      "paymentAccountType": "CH",
+      "paymentAccount": "2800160237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "operationType": "03",
+      "reference": "",
+      "iconImage": {
+        "type": "",
+        "url": "/img/iconos/icon_or_azul.gif",
+        "base64": ""
+      },
+      "channel": "BNET",
+      "shortname": "Prueba_TT",
+      "isOperable": "true",
+      "companyName": "",
+      "beneficiary": {
+        "adress": "",
+        "city": "",
+        "country": "",
+        "name": "GIOVANNI NICOLAS MARIN"
+      },
+      "concept": "",
+      "bank": {
+        "name": "",
+        "code": "",
+        "adress": "",
+        "country": ""
+      },
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarTT",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR000004",
+      "sequence": "4",
+      "chargeAccountType": "CH",
+      "chargeAccount": "00740010000178963983",
+      "paymentAccountType": "",
+      "paymentAccount": "",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "operationType": "06",
+      "reference": "5520721628",
+      "iconImage": {
+        "type": "",
+        "url": "/img/iconos/icon_or_azul.gif",
+        "base64": ""
+      },
+      "channel": "BNET",
+      "shortname": "PruebaTA",
+      "isOperable": "true",
+      "companyName": "PEGA",
+      "beneficiary": {
+        "adress": "",
+        "city": "",
+        "country": "",
+        "name": ""
+      },
+      "concept": "",
+      "bank": {
+        "name": "",
+        "code": "",
+        "adress": "",
+        "country": ""
+      },
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarCTA",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
     }
   ],
   "periodicsOperations": [
     {
-      "paymentName": "Prueba",
+      "shortname": "Prueba",
       "chargeAccount": "0178963983",
       "paymentAccount": "5523074747",
       "folioOperation": "2020024030",
@@ -87,9 +193,9 @@
       "startDateProgramming": "2017-05-30",
       "endDateProgramming": "2017-10-12",
       "totalPayments": 10,
-      "registerStatus": "Pendiente de aplicar",
-      "lastStateRecord": "",
-      "lastOperationDate": "",
+      "registerStatus": "Rechazado",
+      "lastStateRecord": "PE",
+      "lastOperationDate": "30/05/2017",
       "operationType": "R",
       "bank": {
         "code": "BANAMEX"
@@ -100,8 +206,9 @@
       },
       "concept": "PRUEBA T2",
       "reference": "250517",
-      "status": "Pendiente de aplicar",
+      "status": "Rechazado",
       "nextApplicationDate": "2017-05-30",
+      "paymentsToApply": "true",
       "DestinationCurrency": "MXP",
       "destinationAmount": {
         "amount": 1.0,
@@ -109,6 +216,114 @@
       },
       "chargeAmount": {
         "amount": 1.0,
+        "currency": "MXP"
+      }
+    },
+    {
+      "shortname": "Prueba_TA",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "5520721628",
+      "folioOperation": "44013",
+      "paymentFrequency": "WEEKLY",
+      "operationDate": "2017-06-02",
+      "paymentDayIndicator": "5",
+      "startDateProgramming": "2017-06-02",
+      "endDateProgramming": "2017-06-30",
+      "totalPayments": 5,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "T",
+      "bank": {
+        "code": ""
+      },
+      "paymentTypeIndicator": "",
+      "beneficiary": {
+        "name": ""
+      },
+      "concept": "",
+      "reference": "",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-06-02",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 100.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 100.0,
+        "currency": "MXP"
+      }
+    },
+    {
+      "shortname": "Prueba_TT",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "2800160237",
+      "folioOperation": "60036022",
+      "paymentFrequency": "WEEKLY",
+      "operationDate": "2017-06-02",
+      "paymentDayIndicator": "5",
+      "startDateProgramming": "2017-06-02",
+      "endDateProgramming": "2017-08-11",
+      "totalPayments": 11,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "T",
+      "bank": {
+        "code": ""
+      },
+      "paymentTypeIndicator": "S",
+      "beneficiary": {
+        "name": ""
+      },
+      "concept": "PRUEBA",
+      "reference": "",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-06-02",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 1.0,
+        "currency": "MXP"
+      }
+    },
+    {
+      "shortname": "Prueba",
+      "chargeAccount": "0178963983",
+      "paymentAccount": "5520721628",
+      "folioOperation": "60177011",
+      "paymentFrequency": "MONTHLY",
+      "operationDate": "2017-06-02",
+      "paymentDayIndicator": "5",
+      "startDateProgramming": "2017-06-02",
+      "endDateProgramming": "2018-01-02",
+      "totalPayments": 8,
+      "registerStatus": "Pendiente de aplicar",
+      "lastStateRecord": "",
+      "lastOperationDate": "",
+      "operationType": "T",
+      "bank": {
+        "code": ""
+      },
+      "paymentTypeIndicator": "",
+      "beneficiary": {
+        "name": ""
+      },
+      "concept": "",
+      "reference": "",
+      "status": "Pendiente de aplicar",
+      "nextApplicationDate": "2017-06-02",
+      "DestinationCurrency": "MXP",
+      "destinationAmount": {
+        "amount": 100.0,
+        "currency": "MXP"
+      },
+      "chargeAmount": {
+        "amount": 100.0,
         "currency": "MXP"
       }
     }

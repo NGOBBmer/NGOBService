@@ -19,7 +19,7 @@
         "base64": ""
       },
       "channel": "BNET",
-      "nickname": "Rapida3",
+      "shortname": "Rapida3",
       "isOperable": "true",
       "companyName": "",
       "beneficiary": {
@@ -35,7 +35,15 @@
         "adress": "",
         "country": ""
       },
-      "paymentDayIndicator": ""
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarTT",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
     },
     {
       "id": "PR000002",
@@ -56,7 +64,7 @@
         "base64": ""
       },
       "channel": "BNET",
-      "nickname": "PruebaRap",
+      "shortname": "PruebaRap",
       "isOperable": "true",
       "companyName": "",
       "beneficiary": {
@@ -72,7 +80,105 @@
         "adress": "",
         "country": ""
       },
-      "paymentDayIndicator": ""
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarOB",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR000003",
+      "sequence": "3",
+      "chargeAccountType": "CH",
+      "chargeAccount": "00740010000178963983",
+      "paymentAccountType": "CH",
+      "paymentAccount": "2800160237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "operationType": "03",
+      "reference": "",
+      "iconImage": {
+        "type": "",
+        "url": "/img/iconos/icon_or_azul.gif",
+        "base64": ""
+      },
+      "channel": "BNET",
+      "shortname": "Prueba_TT",
+      "isOperable": "true",
+      "companyName": "",
+      "beneficiary": {
+        "adress": "",
+        "city": "",
+        "country": "",
+        "name": "GIOVANNI NICOLAS MARIN"
+      },
+      "concept": "",
+      "bank": {
+        "name": "",
+        "code": "",
+        "adress": "",
+        "country": ""
+      },
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarTT",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PR000004",
+      "sequence": "4",
+      "chargeAccountType": "CH",
+      "chargeAccount": "00740010000178963983",
+      "paymentAccountType": "",
+      "paymentAccount": "",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "operationType": "06",
+      "reference": "5520721628",
+      "iconImage": {
+        "type": "",
+        "url": "/img/iconos/icon_or_azul.gif",
+        "base64": ""
+      },
+      "channel": "BNET",
+      "shortname": "PruebaTA",
+      "isOperable": "true",
+      "companyName": "PEGA",
+      "beneficiary": {
+        "adress": "",
+        "city": "",
+        "country": "",
+        "name": ""
+      },
+      "concept": "",
+      "bank": {
+        "name": "",
+        "code": "",
+        "adress": "",
+        "country": ""
+      },
+      "paymentDayIndicator": "",
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarCTA",
+        "params": [
+          {
+            "name": "id"
+          }
+        ]
+      }
     }
   ]
 }
