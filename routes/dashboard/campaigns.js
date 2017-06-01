@@ -19,7 +19,8 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/campaigns
 router.get('/V00/campaigns', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec === '123456')
+    console.log(tsec);
+    if (tsec == null || tsec == undefined )
 		return res.json(CAMPANIA01);
 	else if (tsec === '654321')
         return res.json(CAMPANIA02);
