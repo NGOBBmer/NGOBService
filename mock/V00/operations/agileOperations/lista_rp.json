@@ -8,7 +8,7 @@
       "paymentAccountType": "CH",
       "paymentAccount": "2800160237",
       "paymentAmount": {
-        "amount": 0.02,
+        "amount": 0.03,
         "currency": "MXN"
       },
       "operationType": "03",
