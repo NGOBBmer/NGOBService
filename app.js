@@ -37,6 +37,8 @@ var qrcronto = require('./routes/security/qr');
 var assets = require('./routes/assets');
 var auth = require('./routes/auth');
 var dropDownMenu = require('./routes/dashboard/dropDownMenu');
+var mobileTransfers = require('./routes/dashboard/mobileTransfers');
+
 
 var app = express();
 
@@ -83,6 +85,7 @@ app.use('/auth', auth);
 app.use('/img', assets);
 app.use('/dashboard', dropDownMenu);
 app.use('/security', qrcronto);
+app.use('/dashboard', mobileTransfers);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
