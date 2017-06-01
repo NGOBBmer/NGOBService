@@ -22,12 +22,11 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:5000/dashboard/V00/dashboard?$filter=productType==TT
 router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    console.log(req.query.$filter);
-    if ((tsec == null || tsec != undefined || tsec == '') && req.query.$filter === 'productType==TT' )
+    if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==TT' )
 	   return res.json(dashboard_02);
-    else if ((tsec == null || tsec != undefined || tsec == '') && req.query.$filter === 'productType==TT,contract==00743616562092377152')
+    else if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==TT,contract==00743616562092377152')
         return res.json(dashboard_02_si);
-    else if ((tsec != null || tsec != undefined || tsec != '') && req.query.$filter === 'productType==TT')
+    else if ((tsec != 'null' || tsec != undefined || tsec != '') && req.query.$filter === 'productType==TT')
         return res.json(dashboard_01);
 
     return res.status(400).json(dashboard_error);
