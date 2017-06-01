@@ -25,9 +25,9 @@ router.use(function(req, res, next) {
     "shortName": "AliasPr001" <- solo 10 caracteres
 }
 */
-router.put('/V00/modifyAlias/:id', function(req, res, next) {
+router.patch('/V00/modifyAlias/:id', function(req, res, next) {
     var alias = req.body.shortName;
-    if (alias!= null && alias != '' && req.params.id == 'AHMXP0000001'){
+    if (alias!= null && alias != '' && (req.params.id == 'AHMXP0000001' || req.params.id == 'TCMXP0000001'){
         var filePath = path.join(__dirname, dashboard_roor);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         json.product.savingAccount[0].branch.alias=alias;
