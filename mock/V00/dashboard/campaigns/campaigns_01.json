@@ -17,7 +17,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/ico-migraToken.png",
+        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/Token.png",
         "base64": ""
       },
       "isModal": true
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/ico-TDC.png",
+        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/TDC.png",
         "base64": ""
       },
       "isModal": false
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/ico-efi.png",
+        "url": "/img/iconos/oneclic/EFI.png",
         "base64": ""
       },
       "isModal": false
@@ -106,7 +106,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/ico-loan.png",
+        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/PPI.png",
         "base64": ""
       },
       "isModal": false
@@ -141,7 +141,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/ico-AutoSeguro.png",
+        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/Insurance.png",
         "base64": ""
       },
       "isModal": false
@@ -182,7 +182,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/promocionSGF.png",
+        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/Insurance.png",
         "base64": ""
       },
       "isModal": false
