@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "otherStart": "node ./bin/www"
   },
   "dependencies": {
@@ -16,7 +16,6 @@
     "jade": "~1.11.0",
     "moment": "^2.18.1",
     "morgan": "~1.7.0",
-    "nodemon": "^1.11.0",
     "serve-favicon": "~2.3.0"
   }
 }
