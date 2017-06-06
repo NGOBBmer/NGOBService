@@ -38,9 +38,9 @@ router.get('/oneclic/:id', function(req, res, next) {
 	}else if(req.params.id == "Portability.png"){
 		res.sendFile(__dirname + '/img/oneclic/ Portability.png');
 	}else if(req.params.id == "Trader.png"){
-		res.sendFile(__dirname + '/img/oneclic/ Trader.png');
+		res.sendFile(__dirname + '/img/oneclic/Trader.png');
 	}
-	
+
 });
 
 module.exports = router;
