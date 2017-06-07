@@ -14,7 +14,7 @@ router.use(function(req, res, next) {
 });
 
 // handler for query http://localhost:4000/dashboard/V00/mobileTransfers
-router.post('/V00/mobileTransfers/', function(req, res, next) {
+router.post('/V00/dashboard/mobileTransfers/', function(req, res, next) {
 	if(req.body.amount!=null && req.body.concept!= "" && req.body.idAccount !=""){
      return res.json(DATA_01);
   }else{
@@ -24,7 +24,7 @@ router.post('/V00/mobileTransfers/', function(req, res, next) {
   });
 
 // handler for query http://localhost:4000/dashboard/V00/mobileTransfers?amount=100&concept=concept&idAccount=AHMXP0000002
-router.get('/V00/mobileTransfers', function(req, res, next) {
+router.get('/V00/dashboard/mobileTransfers', function(req, res, next) {
   if(req.query.amount!=null && req.query.concept!= "" && req.query.idAccount !=""){
     return res.json(DATA_01);
   }
