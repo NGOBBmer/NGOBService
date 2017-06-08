@@ -17,8 +17,8 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:4000/dashboard/V00/dropDownMenu?typeProduct&page=page
-router.get('/V00/dropDownMenu/', function(req, res, next) {
+// handler for query http://localhost:4000/dashboard/V00/dashboard/dropDownMenu?typeProduct&page=page
+router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
 	if(req.query.typeProduct=='tarjetasCredito'){
      return res.json(DATA_04);
     }else{    

@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "CTE0020",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "CLIENTE INVÁLIDO",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

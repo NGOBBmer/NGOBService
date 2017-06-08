@@ -1,0 +1,25 @@
+[{
+    "id": "AHMXP0000001",
+    "number": "Giovanni",
+    "type": "AH",
+    "idForeignExchange": "MXP",
+    "availableBalance": 30009.03,
+    "alias": "Giovanni",
+    "numberWithoutAlias": "00740010001500001929"
+}, {
+    "id": "AHMXP0000002",
+    "number": "1500007838",
+    "type": "AH",
+    "idForeignExchange": "MXP",
+    "availableBalance": 899373226.65,
+    "alias": "",
+    "numberWithoutAlias": "00740010001500007838"
+}, {
+    "id": "AHMXP0000003",
+    "number": "1500021393",
+    "type": "AH",
+    "idForeignExchange": "MXP",
+    "availableBalance": 99635.09,
+    "alias": "",
+    "numberWithoutAlias": "00740010001500021393"
+}]

@@ -26,7 +26,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/ico-TDC.png",
+        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/TDC.png",
         "base64": ""
       },
       "isModal": false
