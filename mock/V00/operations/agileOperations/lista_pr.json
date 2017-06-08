@@ -35,6 +35,15 @@
       "chargeAmount": {
         "amount": 1.0,
         "currency": "MXP"
+      },
+      "navigation": {
+        "pathUrl": "operacionesPeriodicasConsultaDetalle",
+        "params": [
+          {
+            "name": "idDetalle",
+            "value": "0"
+          }
+        ]
       }
     },
     {
@@ -107,6 +116,15 @@
       "chargeAmount": {
         "amount": 1.0,
         "currency": "MXP"
+      },
+      "navigation": {
+        "pathUrl": "operacionesPeriodicasConsultaDetalle",
+        "params": [
+          {
+            "name": "idDetalle",
+            "value": "1"
+          }
+        ]
       }
     },
     {
@@ -143,6 +161,15 @@
       "chargeAmount": {
         "amount": 100.0,
         "currency": "MXP"
+      },
+      "navigation": {
+        "pathUrl": "operacionesPeriodicasConsultaDetalle",
+        "params": [
+          {
+            "name": "idDetalle",
+            "value": "2"
+          }
+        ]
       }
     }
   ]

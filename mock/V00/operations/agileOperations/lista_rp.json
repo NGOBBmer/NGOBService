@@ -40,7 +40,8 @@
         "pathUrl": "operacionesRapidasRealizarTT",
         "params": [
           {
-            "name": "id"
+            "name": "id",
+            "value": "0"
           }
         ]
       }
@@ -85,7 +86,8 @@
         "pathUrl": "operacionesRapidasRealizarOB",
         "params": [
           {
-            "name": "id"
+            "name": "id",
+            "value": "1"
           }
         ]
       }
@@ -130,7 +132,8 @@
         "pathUrl": "operacionesRapidasRealizarTT",
         "params": [
           {
-            "name": "id"
+            "name": "id",
+            "value": "2"
           }
         ]
       }
@@ -175,7 +178,8 @@
         "pathUrl": "operacionesRapidasRealizarCTA",
         "params": [
           {
-            "name": "id"
+            "name": "id",
+            "value": "3"
           }
         ]
       }

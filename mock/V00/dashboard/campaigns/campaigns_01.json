@@ -42,7 +42,8 @@
               "value": "oneClic"
             },
             {
-              "name": "idPromocion"
+              "name": "idPromocion",
+              "value": "0498CAM2508150001"
             }
           ]
         }
@@ -69,7 +70,8 @@
           "pathUrl": "promocionEFI",
           "params": [
             {
-              "name": "idPromocion"
+              "name": "idPromocion",
+              "value": "0377CAM3052050001"
             }
           ]
         }
@@ -100,7 +102,8 @@
               "value": "oneClic"
             },
             {
-              "name": "idPromocion"
+              "name": "idPromocion",
+              "value": "0060CAM9805240001"
             }
           ]
         }
@@ -132,10 +135,12 @@
           "pathUrl": "ofertasOneClick",
           "params": [
             {
-              "name": "idPromocion"
+              "name": "idPromocion",
+              "value": "0622CAM3089260001"
             },
             {
-              "name": "codProducto"
+              "name": "codProducto",
+              "value": "0011"
             }
           ]
         }
@@ -167,16 +172,20 @@
           "pathUrl": "promocionSGF",
           "params": [
             {
-              "name": "idPromocion"
+              "name": "idPromocion",
+              "value": "0133CAM3081570001"
             },
             {
-              "name": "idProducto"
+              "name": "idProducto",
+              "value": "PBSEGGFU02"
             },
             {
-              "name": "codProducto"
+              "name": "codProducto",
+              "value": "0001"
             },
             {
-              "name": "desProducto"
+              "name": "desProducto",
+              "value": ""
             }
           ]
         }
