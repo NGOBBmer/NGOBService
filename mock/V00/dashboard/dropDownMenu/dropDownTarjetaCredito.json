@@ -3,518 +3,188 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "link": "detalleTarjetaCredito",
+        "pathUrl": "detalleTarjetaCredito",
         "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "tarjetasCredito"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+            }, {
+                "name": "idcuenta",
+                "value": "TCMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Transferir",
-        "link": "traspasos",
+        "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Pagar",
-        "link": "pagoTarjetaDeCredito",
+        "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Disponer efectivo",
-        "link": "disposicionTDC",
+        "pathUrl": "disposicionTDC",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Pagar Impuestos",
-        "link": "impuestos",
+        "pathUrl": "impuestos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Definir alias",
-        "link": "changeAlias",
+        "pathUrl": "changeAlias",
         "navigation": {
             "cellsNavigation": false
-        },
-        "params": null
+        }
     }]
 }, {
     "id": "TCMXP0000002",
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "link": "detalleTarjetaCredito",
+        "pathUrl": "detalleTarjetaCredito",
         "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "tarjetasCredito"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+            }, {
+                "name": "idcuenta",
+                "value": "TCMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Transferir",
-        "link": "traspasos",
+        "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Pagar",
-        "link": "pagoTarjetaDeCredito",
+        "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Disponer efectivo",
-        "link": "disposicionTDC",
+        "pathUrl": "disposicionTDC",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Pagar Impuestos",
-        "link": "impuestos",
+        "pathUrl": "impuestos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Definir alias",
-        "link": "changeAlias",
+        "pathUrl": "changeAlias",
         "navigation": {
             "cellsNavigation": false
-        },
-        "params": null
+        }
     }]
 }, {
     "id": "TCMXP0000003",
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "link": "detalleTarjetaCredito",
+        "pathUrl": "detalleTarjetaCredito",
         "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "tarjetasCredito"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "tarjetasCredito"
+            }, {
+                "name": "idcuenta",
+                "value": "TCMXP0000003"
+            }]
+        }
     }, {
         "nombre": "Transferir",
-        "link": "traspasos",
+        "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000003"
+            }]
+        }
     }, {
         "nombre": "Pagar",
-        "link": "pagoTarjetaDeCredito",
+        "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000003"
+            }]
+        }
     }, {
         "nombre": "Disponer efectivo",
-        "link": "disposicionTDC",
+        "pathUrl": "disposicionTDC",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000003"
+            }]
+        }
     }, {
         "nombre": "Pagar Impuestos",
-        "link": "impuestos",
+        "pathUrl": "impuestos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "TCMXP0000003"
+            }]
+        }
     }, {
         "nombre": "Definir alias",
-        "link": "changeAlias",
+        "pathUrl": "changeAlias",
         "navigation": {
             "cellsNavigation": false
-        },
-        "params": null
-    }]
-}, {
-    "id": "TCMXP0000004",
-    "typeProduct": "tarjetasCredito",
-    "menu": [{
-        "nombre": "Movimientos",
-        "link": "detalleTarjetaCredito",
-        "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "tarjetasCredito"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Transferir",
-        "link": "traspasos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar",
-        "link": "pagoTarjetaDeCredito",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Disponer efectivo",
-        "link": "disposicionTDC",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar Impuestos",
-        "link": "impuestos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Definir alias",
-        "link": "changeAlias",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": null
-    }]
-}, {
-    "id": "TCMXP0000005",
-    "typeProduct": "tarjetasCredito",
-    "menu": [{
-        "nombre": "Movimientos",
-        "link": "detalleTarjetaCredito",
-        "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "tarjetasCredito"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Transferir",
-        "link": "traspasos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar",
-        "link": "pagoTarjetaDeCredito",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Disponer efectivo",
-        "link": "disposicionTDC",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar Impuestos",
-        "link": "impuestos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Definir alias",
-        "link": "changeAlias",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": null
-    }]
-}, {
-    "id": "TCMXP0000006",
-    "typeProduct": "tarjetasCredito",
-    "menu": [{
-        "nombre": "Movimientos",
-        "link": "detalleTarjetaCredito",
-        "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "tarjetasCredito"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Transferir",
-        "link": "traspasos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar",
-        "link": "pagoTarjetaDeCredito",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar Impuestos",
-        "link": "impuestos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Definir alias",
-        "link": "changeAlias",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": null
-    }]
-}, {
-    "id": "TCMXP0000007",
-    "typeProduct": "tarjetasCredito",
-    "menu": [{
-        "nombre": "Movimientos",
-        "link": "detalleTarjetaCredito",
-        "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "tarjetasCredito"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Transferir",
-        "link": "traspasos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar",
-        "link": "pagoTarjetaDeCredito",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Disponer efectivo",
-        "link": "disposicionTDC",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Pagar Impuestos",
-        "link": "impuestos",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
-    }, {
-        "nombre": "Definir alias",
-        "link": "changeAlias",
-        "navigation": {
-            "cellsNavigation": false
-        },
-        "params": null
+        }
     }]
 }]

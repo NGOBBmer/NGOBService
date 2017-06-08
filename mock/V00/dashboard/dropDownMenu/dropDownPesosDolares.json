@@ -3,201 +3,174 @@
     "typeProduct": "pesos",
     "menu": [{
         "nombre": "Movimientos",
-        "link": "detalleCuenta",
+        "pathUrl": "detalleCuenta",
         "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "cuentaChequera"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Transferir",
-        "link": "traspasos",
+        "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Pagar servicios",
-        "link": "serviciosMenuQuiero",
+        "pathUrl": "serviciosMenuQuiero",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": "tipo",
-            "value": "todos"
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Compra/Venta de Dólares",
-        "link": "compraVentaDolares",
+        "pathUrl": "compraVentaDolares",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Pagar Impuestos",
-        "link": "impuestos",
+        "pathUrl": "impuestos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
     }, {
         "nombre": "Definir alias",
-        "link": "changeAlias",
+        "pathUrl": "changeAlias",
         "navigation": {
             "cellsNavigation": false
-        },
-        "params": null
+        }
     }]
 }, {
     "id": "CHMXP0000002",
     "typeProduct": "pesos",
     "menu": [{
         "nombre": "Movimientos",
-        "link": "detalleCuenta",
+        "pathUrl": "detalleCuenta",
         "navigation": {
-            "cellsNavigation": true
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "cuentaChequera"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Transferir",
-        "link": "traspasos",
+        "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Pagar servicios",
-        "link": "serviciosMenuQuiero",
+        "pathUrl": "serviciosMenuQuiero",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": "tipo",
-            "value": "todos"
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Compra/Venta de Dólares",
-        "link": "compraVentaDolares",
+        "pathUrl": "compraVentaDolares",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Pagar Impuestos",
-        "link": "impuestos",
+        "pathUrl": "impuestos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
     }, {
         "nombre": "Definir alias",
-        "link": "changeAlias",
+        "pathUrl": "changeAlias",
         "navigation": {
             "cellsNavigation": false
-        },
-        "params": null
+        }
     }]
 }, {
     "id": "CHUSD0000001",
     "typeProduct": "dolares",
     "menu": [{
         "nombre": "Movimientos",
-        "link": "detalleCuenta",
+        "pathUrl": "detalleCuenta",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": "tipoCuenta",
-            "value": "cuentaChequeraDolares"
-        }, {
-            "name": "idcuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequeraDolares"
+            }, {
+                "name": "idcuenta",
+                "value": "CHUSD0000001"
+            }]
+        }
     }, {
         "nombre": "Transferir",
-        "link": "traspasos",
+        "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHUSD0000001"
+            }]
+        }
     }, {
         "nombre": "Compra/Venta de Dólares",
-        "link": "compraVentaDolares",
+        "pathUrl": "compraVentaDolares",
         "navigation": {
-            "cellsNavigation": false
-        },
-        "params": [{
-            "name": null,
-            "value": null
-        }, {
-            "name": "cuenta",
-            "value": "getId"
-        }]
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHUSD0000001"
+            }]
+        }
     }, {
         "nombre": "Definir alias",
-        "link": "changeAlias",
+        "pathUrl": "changeAlias",
         "navigation": {
             "cellsNavigation": false
-        },
-        "params": null
+        }
     }]
 }]
