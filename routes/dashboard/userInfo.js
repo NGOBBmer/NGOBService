@@ -19,9 +19,12 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:3000/dashboard/V00/userInfo?filter=email
 router.get('/V00/userInfo', function(req, res, next) {
-	if(req.query){
+  var tsec = req.headers['tsec'];
+  if (tsec=='123456')
     return res.json(userInfo_user01);
-	}
+	else
+    return res.json(userInfo_user02);
+
   return res.json(userInfo_error);
 
     
