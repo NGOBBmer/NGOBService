@@ -20,11 +20,11 @@ router.get('/iconos/:id', function(req, res, next) {
 });
 
 router.get('/ngob/instrumento/cronto/:id', function(req, res, next) {
-  if(req.params.id == "Scan_QR.png"){
+  if(req.params.id === "Scan_QR.png"){
     res.sendFile(__dirname + '/img/ngob/instrumento/cronto/Scan_QR.png');
-  }else if(req.params.id == "Search_QR.png"){
+  }else if(req.params.id === "Search_QR.png"){
     res.sendFile(__dirname + '/img/ngob/instrumento/cronto/Search_QR.png');
-  }else if(req.params.id == "Token_ON.png"){
+  }else if(req.params.id === "Token_ON.png"){
     res.sendFile(__dirname + '/img/ngob/instrumento/cronto/Token_ON.png');
   }
   res.sendFile(__dirname + '/img/ngob/instrumento/cronto/Scan_QR.png');
