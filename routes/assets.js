@@ -41,7 +41,6 @@ router.get('/rapidas/:id', function(req, res, next) {
 	  res.sendFile(__dirname + '/img/rapidas/rapida_ta_40_x_40.png');
 	}
   res.sendFile(__dirname + '/img/iconos/check_green.svg');
-
 });
 
 

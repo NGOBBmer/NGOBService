@@ -171,7 +171,7 @@
         "name": ""
       },
       "iconImage": {
-        "type": "",
+        "type": "N",
         "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
         "base64": ""
       },
