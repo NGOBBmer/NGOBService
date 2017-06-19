@@ -38,7 +38,6 @@ var assets = require('./routes/assets');
 var auth = require('./routes/auth');
 var dropDownMenu = require('./routes/dashboard/dropDownMenu');
 var mobileTransfers = require('./routes/dashboard/mobileTransfers');
-var oneclic = require('./routes/oneclic');
 var headlinesAccounts = require('./routes/dashboard/headlinesAccounts');
 
 
@@ -85,7 +84,6 @@ app.use('/operations', agileOperations);
 app.use('/operations', delAgileOperations);
 app.use('/auth', auth);
 app.use('/img', assets);
-app.use('/img', oneclic);
 app.use('/dashboard', dropDownMenu);
 app.use('/security', qrcronto);
 app.use('/dashboard', mobileTransfers);
