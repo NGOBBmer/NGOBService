@@ -2,132 +2,86 @@
   "fastOperations": [
     {
       "id": "PR000001",
-      "sequence": "1",
-      "chargeAccountType": "CH",
-      "chargeAccount": "00740010000178963983",
-      "paymentAccountType": "CH",
-      "paymentAccount": "2800160237",
+      "shortname": "PruebaPaol",
+      "paymentAccount": "74747",
       "paymentAmount": {
-        "amount": 0.03,
+        "amount": 1.0,
         "currency": "MXN"
       },
-      "operationType": "03",
-      "reference": "",
+      "bank": {
+        "name": "BANAMEX"
+      },
+      "isOperable": true,
+      "beneficiary": {
+        "name": "PRUEBA11"
+      },
       "iconImage": {
         "type": "",
-        "url": "/img/iconos/icon_or_azul.gif",
+        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_ob_40_x_40.png",
         "base64": ""
       },
-      "channel": "BNET",
-      "shortname": "Rapida3",
-      "isOperable": "true",
-      "companyName": "",
-      "beneficiary": {
-        "adress": "",
-        "city": "",
-        "country": "",
-        "name": "GIOVANNI NICOLAS MARIN"
-      },
-      "concept": "",
-      "bank": {
-        "name": "",
-        "code": "",
-        "adress": "",
-        "country": ""
-      },
-      "paymentDayIndicator": "",
       "navigation": {
-        "pathUrl": "operacionesRapidasRealizarTT",
+        "pathUrl": "operacionesRapidasRealizarOB",
         "params": [
           {
             "name": "id",
             "value": "0"
           }
         ]
-      }
+      },
+      "operationType": "OB"
     },
     {
       "id": "PR000002",
-      "sequence": "2",
-      "chargeAccountType": "CH",
-      "chargeAccount": "00740010000178963983",
-      "paymentAccountType": "CE",
-      "paymentAccount": "5554332222",
+      "shortname": "PruebaTA",
+      "paymentAccount": "",
       "paymentAmount": {
-        "amount": 11.0,
+        "amount": 50.0,
         "currency": "MXN"
       },
-      "operationType": "09",
-      "reference": "10",
+      "bank": {
+        "name": ""
+      },
+      "isOperable": true,
+      "beneficiary": {
+        "name": ""
+      },
       "iconImage": {
-        "type": "K",
-        "url": "/img/iconos/operacionesRapidas/TransferenciasTerceros_40x40-05.png",
+        "type": "E",
+        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
         "base64": ""
       },
-      "channel": "BNET",
-      "shortname": "PruebaRap",
-      "isOperable": "true",
-      "companyName": "",
-      "beneficiary": {
-        "adress": "",
-        "city": "",
-        "country": "",
-        "name": "prueba"
-      },
-      "concept": "",
-      "bank": {
-        "name": "ACTINVER (ACTINVER BANCO)",
-        "code": "0133",
-        "adress": "",
-        "country": ""
-      },
-      "paymentDayIndicator": "",
       "navigation": {
-        "pathUrl": "operacionesRapidasRealizarOB",
+        "pathUrl": "operacionesRapidasRealizarCTA",
         "params": [
           {
             "name": "id",
             "value": "1"
           }
         ]
-      }
+      },
+      "operationType": "TA"
     },
     {
       "id": "PR000003",
-      "sequence": "3",
-      "chargeAccountType": "CH",
-      "chargeAccount": "00740010000178963983",
-      "paymentAccountType": "CH",
-      "paymentAccount": "2800160237",
+      "shortname": "Express",
+      "paymentAccount": "40156",
       "paymentAmount": {
         "amount": 1.0,
         "currency": "MXN"
       },
-      "operationType": "03",
-      "reference": "",
-      "iconImage": {
-        "type": "",
-        "url": "/img/iconos/icon_or_azul.gif",
-        "base64": ""
+      "bank": {
+        "name": ""
       },
-      "channel": "BNET",
-      "shortname": "Prueba_TT",
-      "isOperable": "true",
-      "companyName": "",
+      "isOperable": true,
       "beneficiary": {
-        "adress": "",
-        "city": "",
-        "country": "",
         "name": "GIOVANNI NICOLAS MARIN"
       },
-      "concept": "",
-      "bank": {
-        "name": "",
-        "code": "",
-        "adress": "",
-        "country": ""
+      "iconImage": {
+        "type": "",
+        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
+        "base64": ""
       },
-      "paymentDayIndicator": "",
       "navigation": {
         "pathUrl": "operacionesRapidasRealizarTT",
         "params": [
@@ -136,53 +90,101 @@
             "value": "2"
           }
         ]
-      }
+      },
+      "operationType": "TT"
     },
     {
       "id": "PR000004",
-      "sequence": "4",
-      "chargeAccountType": "CH",
-      "chargeAccount": "00740010000178963983",
-      "paymentAccountType": "",
-      "paymentAccount": "",
+      "shortname": "PruebaTDC",
+      "paymentAccount": "04684",
       "paymentAmount": {
-        "amount": 100.0,
+        "amount": 12.0,
         "currency": "MXN"
       },
-      "operationType": "06",
-      "reference": "5520721628",
-      "iconImage": {
-        "type": "",
-        "url": "/img/iconos/icon_or_azul.gif",
-        "base64": ""
-      },
-      "channel": "BNET",
-      "shortname": "PruebaTA",
-      "isOperable": "true",
-      "companyName": "PEGA",
-      "beneficiary": {
-        "adress": "",
-        "city": "",
-        "country": "",
+      "bank": {
         "name": ""
       },
-      "concept": "",
-      "bank": {
-        "name": "",
-        "code": "",
-        "adress": "",
-        "country": ""
+      "isOperable": true,
+      "beneficiary": {
+        "name": "PETRA PRADO PAVEL"
       },
-      "paymentDayIndicator": "",
+      "iconImage": {
+        "type": "L",
+        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
+        "base64": ""
+      },
       "navigation": {
-        "pathUrl": "operacionesRapidasRealizarCTA",
+        "pathUrl": "operacionesRapidasRealizarTT",
         "params": [
           {
             "name": "id",
             "value": "3"
           }
         ]
-      }
+      },
+      "operationType": "TT"
+    },
+    {
+      "id": "PR000005",
+      "shortname": "PbaEmmaTT",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "bank": {
+        "name": ""
+      },
+      "isOperable": true,
+      "beneficiary": {
+        "name": "GIOVANNI NICOLAS MARIN"
+      },
+      "iconImage": {
+        "type": "",
+        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
+        "base64": ""
+      },
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarTT",
+        "params": [
+          {
+            "name": "id",
+            "value": "4"
+          }
+        ]
+      },
+      "operationType": "TT"
+    },
+    {
+      "id": "PR000006",
+      "shortname": "Celular",
+      "paymentAccount": "",
+      "paymentAmount": {
+        "amount": 500.0,
+        "currency": "MXN"
+      },
+      "bank": {
+        "name": ""
+      },
+      "isOperable": true,
+      "beneficiary": {
+        "name": ""
+      },
+      "iconImage": {
+        "type": "",
+        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
+        "base64": ""
+      },
+      "navigation": {
+        "pathUrl": "operacionesRapidasRealizarCTA",
+        "params": [
+          {
+            "name": "id",
+            "value": "5"
+          }
+        ]
+      },
+      "operationType": "TA"
     }
   ]
 }

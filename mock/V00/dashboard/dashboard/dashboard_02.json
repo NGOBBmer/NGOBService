@@ -258,7 +258,7 @@
         "description": "Tarjeta de Crédito",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "detalleTarjetaCredito",
             "params": [
               {
                 "name": "tipoCuenta",
@@ -303,7 +303,7 @@
         "description": "Tarjeta de Crédito",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "detalleTarjetaCredito",
             "params": [
               {
                 "name": "tipoCuenta",
@@ -348,7 +348,7 @@
         "description": "Tarjeta de Crédito",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "detalleTarjetaCredito",
             "params": [
               {
                 "name": "tipoCuenta",
@@ -393,7 +393,7 @@
         "description": "Tarjeta de Crédito",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "detalleTarjetaCredito",
             "params": [
               {
                 "name": "tipoCuenta",
@@ -438,7 +438,7 @@
         "description": "Tarjeta de Crédito",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "detalleTarjetaCredito",
             "params": [
               {
                 "name": "tipoCuenta",
@@ -483,7 +483,7 @@
         "description": "Tarjeta de Crédito",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "detalleTarjetaCredito",
             "params": [
               {
                 "name": "tipoCuenta",
@@ -528,7 +528,7 @@
         "description": "Tarjeta de Crédito",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "detalleTarjetaCredito",
             "params": [
               {
                 "name": "tipoCuenta",
