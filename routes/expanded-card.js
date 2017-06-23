@@ -56,10 +56,12 @@ router.get('/V00/cards/:id', function(req, res, next) {
       }
     }
     if (flag){
+      var currentDate = moment().format('YYYY-MM-DD');
       var filePath = path.join(__dirname, urlJson + req.params.id + ".json");
       var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
       json.data.cutOffDate = cutOffDate;
       json.data.paymentMethod.endDate = paymentDate;
+      json.data.currentDate=currentDate;
       flag = false;
       return res.json(json);
     }else{

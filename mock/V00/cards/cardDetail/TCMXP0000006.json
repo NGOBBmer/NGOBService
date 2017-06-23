@@ -78,6 +78,10 @@
     "positiveBalance": {
       "amount": 1000.0
     },
-    "totalPoints": "0"
+    "totalPoints": "0",
+    "currentDate": "",
+    "status": {
+      "id": "BLOCKED"
+    }
   }
 }

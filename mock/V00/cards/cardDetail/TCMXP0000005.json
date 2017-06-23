@@ -88,6 +88,10 @@
     "transitPayments": {
       "amount": 0.0,
       "currency": "MXP"
+    },
+    "currentDate": "",
+    "status": {
+      "id": "OPERATIVE"
     }
   }
 }

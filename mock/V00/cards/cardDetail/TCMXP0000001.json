@@ -90,6 +90,10 @@
       "id": "TARJETA INTERNACIONALTI",
       "name": "TARJETA INTERNACIONAL"
     },
-    "comisiones": ""
+    "comisiones": "",
+    "currentDate": "",
+    "status": {
+      "id": "BLOCKED"
+    }
   }
 }

@@ -78,6 +78,10 @@
     "positiveBalance": {
       "amount": 0.0
     },
-    "totalPoints": "138"
+    "totalPoints": "138",
+    "currentDate": "",
+    "status": {
+      "id": "OPERATIVE"
+    }
   }
 }
