@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1 Express Heroku API
+  p Welcome to Express
+  a(href="/") ir a TDC
+  a(href="./cheques") ir a cheques
+  a(href="./dashboard") ir a dashboard
+  h2 PosicionGlobal (dashboard)
+  ul
+    li
+      a(href="https://cards-service-mock.herokuapp.com/security/V00/getQR") getQR (POST)
+      span https://cards-service-mock.herokuapp.com/security/V00/getQR
+    li
+      a(href="https://cards-service-mock.herokuapp.com/operations/V00/agileOperations?agileOperationType=ALL") agileOperations - List
+      span https://cards-service-mock.herokuapp.com/operations/V00/agileOperations?agileOperationType=ALL
+      p agileOperationType=ALL devuelve r&aacute;pidas y peri&oacute;dicas
+      p agileOperationType=FAST devuelve solo r&aacute;pidas
+      p agileOperationType=RECURRING&weekId=&date= devuelve solo peri&oacute;dicas
+    li
+      a(href="https://cards-service-mock.herokuapp.com/operations/V00/deleteAgileOperations/0001/?agileOperationType=RECURRING") deleteAgileOperations (DELETE)
+      span /operations/V00/deleteAgileOperations/0001/?agileOperationType=RECURRING
+    li
+      a(href="https://cards-service-mock.herokuapp.com/operations/V00/deleteAgileOperations/PR000001/?agileOperationType=FAST") deleteAgileOperations (DELETE)
+      span /operations/V00/deleteAgileOperations/0001/?agileOperationType=FAST

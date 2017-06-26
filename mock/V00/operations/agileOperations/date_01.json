@@ -1,6 +1,7 @@
 {
   "periodicsOperations": [
     {
+      "id": "0001",
       "shortname": "PbaEmmaTT",
       "paymentAccount": "60237",
       "paymentAmount": {
@@ -11,19 +12,27 @@
       "beneficiary": {
         "name": ""
       },
-      "navigation": {
-        "pathUrl": "operacionesPeriodicasConsultaDetalle",
-        "params": [
-          {
-            "name": "idDetalle",
-            "value": "0"
-          }
-        ]
-      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": [
+            {
+              "name": "idDetalle",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "id": "Eliminar",
+          "cellsNavigation": true
+        }
+      ],
       "operationDate": "2017-06-27",
       "description": "Traspaso"
     },
     {
+      "id": "0001",
       "shortname": "PbaGio01",
       "paymentAccount": "11456",
       "paymentAmount": {
@@ -34,19 +43,36 @@
       "beneficiary": {
         "name": ""
       },
-      "navigation": {
-        "pathUrl": "operacionesPeriodicasConsultaDetalle",
-        "params": [
-          {
-            "name": "idDetalle",
-            "value": "0"
-          }
-        ]
-      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": [
+            {
+              "name": "idDetalle",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "id": "Eliminar",
+          "cellsNavigation": true
+        }
+      ],
       "operationDate": "2017-06-27",
       "description": "Traspaso"
     }
   ],
   "nextDate": "2017-06-26",
-  "previousDate": "2017-06-26"
+  "previousDate": "2017-06-26",
+  "navigation": [
+    {
+      "pathUrl": "operacionesPeriodicasAlta",
+      "id": "ADD"
+    },
+    {
+      "pathUrl": "operacionesPeriodicasConsultaYBaja",
+      "id": "ALL"
+    }
+  ]
 }

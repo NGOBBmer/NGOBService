@@ -1,6 +1,7 @@
 {
   "periodicsOperations": [
     {
+      "id": "0001",
       "shortname": "Prueba_TT",
       "paymentAccount": "60237",
       "paymentAmount": {

@@ -1,6 +1,7 @@
 {
   "periodicsOperations": [
     {
+      "id": "0001",
       "shortname": "Prueba",
       "paymentAccount": "74747",
       "paymentAmount": {
@@ -15,6 +16,7 @@
       "description": "Traspaso Interbancario"
     },
     {
+      "id": "0001",
       "shortname": "PbaEmmaTT",
       "paymentAccount": "60237",
       "paymentAmount": {
@@ -29,6 +31,7 @@
       "description": "Traspaso"
     },
     {
+      "id": "0001",
       "shortname": "Prueba_TT",
       "paymentAccount": "60237",
       "paymentAmount": {

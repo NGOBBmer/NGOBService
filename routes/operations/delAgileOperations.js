@@ -1,10 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-var LISTA_ALL = require('../../mock/V00/operations/agileOperations/lista_all.json');
-var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json');
-var LISTA_RP = require('../../mock/V00/operations/agileOperations/lista_rp.json');
-var ERROR = require('../../mock/V00/operations/agileOperations/error.json');
+var OK = require('../../mock/V00/operations/deleteAgileOps/delete_01.json');
+var ERROR = require('../../mock/V00/operations/deleteAgileOps/delete_err.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -16,16 +14,14 @@ router.use(function(req, res, next) {
 });
 
 
-// handler for query http://localhost:4000/operations/V00/removeAgileOperations?$filter=(businessFlow==ALL)
-router.get('/V00/removeAgileOperations', function(req, res, next) {
-  if (req.query.$filter === '(businessFlow==ALL)')
-  	return res.json(LISTA_ALL);
-  else if (req.query.$filter === '(businessFlow==RECURRING)')
-  	return res.json(LISTA_PR);
-  else if (req.query.$filter === '(businessFlow==FAST)')
-  	return res.json(LISTA_RP);
+// handler for query http://localhost:4000/operations/V00/deleteAgileOperations/PR0001?agileOperationType=RECURRING
+router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
+  if (req.query.agileOperationType === 'RECURRING')
+  	return res.json(OK);
+  else if (req.query.agileOperationType === 'FAST')
+  	return res.json(OK);
 
-  return res.json(ERROR);
+  return res.status(409).json(ERROR);
   next();
 });
 

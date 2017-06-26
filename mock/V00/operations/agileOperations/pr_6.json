@@ -1,6 +1,7 @@
 {
   "periodicsOperations": [
     {
+      "id": "0001",
       "shortname": "PbaEmmaTT",
       "paymentAccount": "60237",
       "paymentAmount": {

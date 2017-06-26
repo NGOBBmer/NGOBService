@@ -2,7 +2,7 @@
   "error": {
     "code": "ERR_AO_000",
     "message": "La fecha proporcionada no existe",
-    "descripcion": "Se ha producido un error al consultar el servicio /Andrea/dashboard/V00/campaigns",
+    "descripcion": "Se ha producido un error al consultar el servicio /Andrea/dashboard/V00/agileOperations",
     "version": "1",
     "severity": "FATAL",
     "httpStatus": "400"
