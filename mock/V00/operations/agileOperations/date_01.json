@@ -1,0 +1,52 @@
+{
+  "periodicsOperations": [
+    {
+      "shortname": "PbaEmmaTT",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "navigation": {
+        "pathUrl": "operacionesPeriodicasConsultaDetalle",
+        "params": [
+          {
+            "name": "idDetalle",
+            "value": "0"
+          }
+        ]
+      },
+      "operationDate": "2017-06-27",
+      "description": "Traspaso"
+    },
+    {
+      "shortname": "PbaGio01",
+      "paymentAccount": "11456",
+      "paymentAmount": {
+        "amount": 12.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "navigation": {
+        "pathUrl": "operacionesPeriodicasConsultaDetalle",
+        "params": [
+          {
+            "name": "idDetalle",
+            "value": "0"
+          }
+        ]
+      },
+      "operationDate": "2017-06-27",
+      "description": "Traspaso"
+    }
+  ],
+  "nextDate": "2017-06-26",
+  "previousDate": "2017-06-26"
+}

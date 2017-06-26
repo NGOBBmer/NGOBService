@@ -1,0 +1,30 @@
+{
+  "periodicsOperations": [
+    {
+      "shortname": "Prueba",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-08-02",
+      "description": "Traspaso"
+    }
+  ],
+  "nextWeekId": "6",
+  "previousWeekId": "4",
+  "navigation": [
+    {
+      "pathUrl": "operacionesPeriodicasAlta",
+      "option": "ADD"
+    },
+    {
+      "pathUrl": "operacionesPeriodicasConsultaYBaja",
+      "option": "ALL"
+    }
+  ]
+}

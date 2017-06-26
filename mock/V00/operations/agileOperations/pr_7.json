@@ -1,0 +1,13 @@
+{
+  "previousWeekId": "6",
+  "navigation": [
+    {
+      "pathUrl": "operacionesPeriodicasAlta",
+      "option": "ADD"
+    },
+    {
+      "pathUrl": "operacionesPeriodicasConsultaYBaja",
+      "option": "ALL"
+    }
+  ]
+}

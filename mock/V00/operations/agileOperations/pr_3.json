@@ -1,0 +1,30 @@
+{
+  "periodicsOperations": [
+    {
+      "shortname": "Prueba_TT",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-07-21",
+      "description": "Traspaso"
+    }
+  ],
+  "nextWeekId": "4",
+  "previousWeekId": "2",
+  "navigation": [
+    {
+      "pathUrl": "operacionesPeriodicasAlta",
+      "option": "ADD"
+    },
+    {
+      "pathUrl": "operacionesPeriodicasConsultaYBaja",
+      "option": "ALL"
+    }
+  ]
+}
