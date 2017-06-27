@@ -27,12 +27,14 @@ router.get('/V00/cards/:id', function(req, res, next) {
       if (req.params && req.params.id == 'TCMXP0000001') {
         flag = true;
         cutOffDate = moment().add(20,'days').format('YYYY-MM-DD');
-        paymentDate = moment().add(12,'days').format('YYYY-MM-DD');
+        // paymentDate = moment().add(12,'days').format('YYYY-MM-DD');
+        paymentDate = moment();
       }
       else if (req.params && req.params.id == 'TCMXP0000002') {
         flag = true;
         cutOffDate = moment().add(14,'days').format('YYYY-MM-DD');
-        paymentDate = moment().add(6,'days').format('YYYY-MM-DD');
+        paymentDate = moment().subtract(4,'days').format('YYYY-MM-DD');
+        // paymentDate = moment().add(6,'days').format('YYYY-MM-DD');
       }
       else if (req.params && req.params.id == 'TCMXP0000003') {
         flag = true;
