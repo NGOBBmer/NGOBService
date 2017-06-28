@@ -57,5 +57,12 @@
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
       "option": "ALL"
     }
-  ]
+  ],
+  "total":{
+    "description": "Total para esta semana",
+    "amount":{
+    "currency": "MXN",
+    "amount": 100.0
+    }
+  }
 }

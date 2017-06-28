@@ -74,5 +74,12 @@
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
       "id": "ALL"
     }
-  ]
+  ],
+  "total":{
+    "description": "Total de movimientos para este día",
+    "amount":{
+    "currency": "MXN",
+    "amount": 100.0
+    }
+  }
 }
