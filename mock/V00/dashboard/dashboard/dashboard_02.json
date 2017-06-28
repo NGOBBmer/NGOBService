@@ -557,7 +557,7 @@
         "status": "0",
         "branch": {
           "number": "00740680002106857531",
-          "alias": "PT00740680002106857531",
+          "alias": "",
           "typeId": "PT",
           "accountType": "patrimoniales"
         },
@@ -616,7 +616,8 @@
           "number": "2092377152",
           "originalAccountNumber": "00743616562092377152",
           "accountType": "fondoInversiones",
-          "fundDescription": "BMERIND"
+          "fundDescription": "BMERIND",
+          "typeId": "SI"
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -631,7 +632,8 @@
           "number": "2092377152",
           "originalAccountNumber": "00743616002092377152",
           "accountType": "fondoInversiones",
-          "fundDescription": "BBVAE50"
+          "fundDescription": "BBVAE50",
+          "typeId": "SI"
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -646,7 +648,8 @@
           "number": "2092377160",
           "originalAccountNumber": "00743616002092377160",
           "accountType": "fondoInversiones",
-          "fundDescription": ""
+          "fundDescription": "",
+          "typeId": "SI"
         },
         "description": "Fondo de Inversión",
         "navigation": {

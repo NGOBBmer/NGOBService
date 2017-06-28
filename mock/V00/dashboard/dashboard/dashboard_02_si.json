@@ -24,7 +24,8 @@
           "originalAccountNumber": "00743616562092377152",
           "accountType": "fondoInversiones",
           "fundDescription": "BMERIND",
-          "serie": "MB"
+          "serie": "MB",
+          "typeId": "SI"
         },
         "description": "Fondo de Inversión",
         "navigation": {
