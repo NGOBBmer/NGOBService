@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 var dashboard_01 = require('../../mock/V00/dashboard/dashboard/dashboard_01.json');
 var dashboard_02 = require('../../mock/V00/dashboard/dashboard/dashboard_02.json');
-var dashboard_02_SI = require('../../mock/V00/dashboard/dashboard/dashboard_02_si.json');
-var dashboard_03_IN = require('../../mock/V00/dashboard/dashboard/dashboard_03_in.json');
+var dashboard_02_SI = require('../../mock/V00/dashboard/dashboard/dashboard_02.SI.json');
+var dashboard_03_IN = require('../../mock/V00/dashboard/dashboard/dashboard_03.IN.json');
 var dashboard_error = require('../../mock/V00/dashboard/dashboard/dashboard_error.json');
 
 /* GET users listing. */
