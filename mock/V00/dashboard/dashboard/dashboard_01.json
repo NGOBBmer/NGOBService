@@ -5,13 +5,8 @@
         "productId": "AHMXP0000001",
         "branch": {
           "number": "1500007838",
-          "originalAccountNumber": "00740010001500007838",
-          "numberWithoutAlias": "1500007838",
-          "alias": "aaa",
-          "type": "Cuentas sin chequera",
+          "alias": "Giovanni",
           "typeId": "AH",
-          "accountType": "cuentaChequera",
-          "comboType": "Sin/cheq"
         },
         "balance": {
           "availableBalance": {
@@ -25,8 +20,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "assigned": {
           "isNominated": false,
           "hasPocket": false
@@ -42,13 +35,8 @@
         "productId": "CHMXP0000002",
         "branch": {
           "number": "0178749841",
-          "originalAccountNumber": "00740010000178749841",
-          "numberWithoutAlias": "0178749841",
           "alias": "",
-          "type": "Cuentas con chequera",
-          "typeId": "CH",
-          "accountType": "cuentaChequera",
-          "comboType": "Con/cheq"
+          "typeId": "CH"
         },
         "balance": {
           "availableBalance": {
@@ -62,8 +50,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "assigned": {
           "isNominated": true,
           "hasPocket": false
@@ -77,13 +63,8 @@
         "productId": "CHMXP0000003",
         "branch": {
           "number": "0178404372",
-          "originalAccountNumber": "00743616000178404372",
-          "numberWithoutAlias": "0178404372",
           "alias": "",
-          "type": "Cuentas con chequera",
-          "typeId": "CH",
-          "accountType": "cuentaChequera",
-          "comboType": "Con/cheq"
+          "typeId": "CH"
         },
         "balance": {
           "availableBalance": {
@@ -97,8 +78,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "assigned": {
           "isNominated": false,
           "hasPocket": true
@@ -112,14 +91,8 @@
         "productId": "CHUSD0000001",
         "branch": {
           "number": "0178512663",
-          "originalAccountNumber": "00740600000178512663",
-          "numberWithoutAlias": "0178512663",
           "alias": "0178512663",
-          "type": "CH",
-          "typeId": "CH",
-          "accountType": "cuentaChequeraDolares",
-          "comboType": "Con/cheq",
-          "comboNumber": "0178512663"
+          "typeId": "CH"
         },
         "balance": {
           "availableBalance": {
@@ -146,14 +119,8 @@
         "productId": "CHEUR0000001",
         "branch": {
           "number": "0178530718",
-          "originalAccountNumber": "00743616000178530718",
-          "numberWithoutAlias": "0178530718",
           "alias": "0178530718",
-          "type": "CH",
-          "typeId": "CH",
-          "accountType": "cuentaChequeraEuro",
-          "comboType": "Con/cheq",
-          "comboNumber": "0178530718"
+          "typeId": "CH"
         },
         "balance": {
           "availableBalance": {
@@ -167,8 +134,6 @@
             "currencyId": "EUR"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "region": {
           "name": "MEXICO"
         },
@@ -183,13 +148,8 @@
         "productId": "LIMXP0000004",
         "branch": {
           "number": "1136164080",
-          "originalAccountNumber": "00740010001136164080",
-          "numberWithoutAlias": "1136164080",
           "alias": "",
-          "type": "Cuentas sin chequera",
-          "typeId": "LI",
-          "accountType": "cuentaChequera",
-          "comboType": "Sin/cheq"
+          "typeId": "LI"
         },
         "balance": {
           "availableBalance": {
@@ -203,8 +163,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "assigned": {
           "isNominated": true,
           "hasPocket": true
@@ -220,14 +178,8 @@
         "productId": "TCMXP0000001",
         "branch": {
           "number": "·86497",
-          "originalAccountNumber": "4555043000086497",
-          "numberWithoutAlias": "·86497",
           "alias": "·86497",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "·86497"
+          "typeId": "TC"
         },
         "balance": {
           "availableBalance": {
@@ -241,8 +193,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
@@ -252,15 +202,9 @@
       {
         "productId": "TCMXP0000002",
         "branch": {
-          "number": "·2215",
-          "originalAccountNumber": "4772142702142215",
-          "numberWithoutAlias": "·42215",
+          "number": "·42215",
           "alias": "",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "·42215"
+          "typeId": "TC"
         },
         "balance": {
           "availableBalance": {
@@ -274,8 +218,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "minimumPayment": 9684.81,
         "description": "Tarjeta de Crédito",
         "navigation": {
@@ -286,14 +228,8 @@
         "productId": "TCMXP0000003",
         "branch": {
           "number": "·85544",
-          "originalAccountNumber": "4772922170585544",
-          "numberWithoutAlias": "·85544",
           "alias": "·85544",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "·85544"
+          "typeId": "TC"
         },
         "balance": {
           "availableBalance": {
@@ -307,8 +243,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
@@ -322,9 +256,6 @@
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616562092377152",
-          "accountType": "fondoInversiones",
-          "fundDescription": "BMERIND",
-          "serie": "MB",
           "typeId": "SI"
         },
         "balance": {
@@ -341,8 +272,6 @@
             "currency": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": false
@@ -353,9 +282,6 @@
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616002092377152",
-          "accountType": "fondoInversiones",
-          "fundDescription": "BBVAE50",
-          "serie": "B",
           "typeId": "SI"
         },
         "balance": {
@@ -372,8 +298,6 @@
             "currency": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": false
@@ -384,9 +308,6 @@
         "branch": {
           "number": "2092377160",
           "originalAccountNumber": "00743616002092377160",
-          "accountType": "fondoInversiones",
-          "fundDescription": "",
-          "serie": "",
           "typeId": "SI"
         },
         "balance": {
@@ -403,8 +324,6 @@
             "currency": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": false
@@ -417,12 +336,8 @@
         "branch": {
           "number": "8000751312",
           "originalAccountNumber": "00740001008000751312",
-          "numberWithoutAlias": "8000751312",
           "alias": "",
-          "type": "CA",
-          "typeId": "CA",
-          "accountType": "cuentaChequeraDolares",
-          "comboType": "HOUSTON"
+          "typeId": "CA"
         },
         "balance": {
           "availableBalance": {
@@ -435,8 +350,6 @@
             "currencyId": "USD"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "region": {
           "name": "HOUSTON"
         },
@@ -449,13 +362,8 @@
         "productId": "CAUSD0000002",
         "branch": {
           "number": "8000751316",
-          "originalAccountNumber": "00740001008000751316",
-          "numberWithoutAlias": "8000751316",
           "alias": "",
-          "type": "CA",
-          "typeId": "CA",
-          "accountType": "cuentaChequeraDolares",
-          "comboType": "HOUSTON"
+          "typeId": "CA"
         },
         "balance": {
           "availableBalance": {
@@ -468,8 +376,6 @@
             "currencyId": "USD"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "region": {
           "name": "HOUSTON"
         },
@@ -485,8 +391,7 @@
         "branch": {
           "number": "1368067104",
           "originalAccountNumber": "00740010001368067104",
-          "accountType": "inversionesMxp",
-          "typeId": "SI"
+          "typeId": "IN"
         },
         "balance": {
           "availableBalance": {
@@ -507,7 +412,6 @@
         "branch": {
           "number": "1368072280",
           "originalAccountNumber": "00740010001368072280",
-          "accountType": "inversionesMxp",
           "typeId": "IN"
         },
         "balance": {
@@ -555,8 +459,7 @@
         "branch": {
           "number": "9855151406",
           "originalAccountNumber": "00742162179855151406",
-          "type": "Prestamo personal",
-          "accountType": "otrosCreditos"
+          "typeId": ""
         },
         "balance": {
           "availableBalance": {
@@ -585,13 +488,8 @@
       {
         "productId": "TPMXP0000001",
         "branch": {
-          "number": "·9173",
-          "originalAccountNumber": "4413130036249173",
-          "type": "Tarjetas prepagadas",
-          "typeId": "TP",
-          "accountType": "tarjetasPrepagadas",
-          "comboType": "TPP",
-          "comboNumber": "·49173"
+          "number": "·98173",
+          "typeId": "TP"
         },
         "balance": {
           "availableBalance": {
@@ -605,8 +503,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "description": "Tarjeta Prepagada",
         "navigation": {
           "cellsNavigation": false
@@ -617,10 +513,9 @@
       {
         "productId": "PTMXP0000001",
         "branch": {
-          "number": "00740680002106857531",
+          "number": "2106857531",
           "alias": "PT00740680002106857531",
           "typeId": "PT",
-          "accountType": "patrimoniales"
         },
         "balance": {
           "totalBalance": {
@@ -628,8 +523,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "status": "0",
         "description": "Patrimonial",
         "navigation": {
@@ -652,16 +545,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
           "number": "5543102520",
-          "originalAccountNumber": "5543102520",
           "alias": "5543102520",
-          "type": "Cuenta digital",
-          "typeId": "CM",
-          "accountType": "cuentaChequera",
-          "comboType": "Digital"
+          "typeId": "CM"
         },
         "description": "Cuenta Digital",
         "navigation": {
@@ -684,7 +571,6 @@
           }
         },
         "branch": {
-          "accountType": "hipotecarios",
           "number": "00740002059655151937"
         },
         "productId": "00740002059655151937",
@@ -707,7 +593,6 @@
           }
         },
         "branch": {
-          "accountType": "hipotecarios",
           "number": "00740002089694219015"
         },
         "productId": "00740002089694219015",
@@ -730,7 +615,6 @@
           }
         },
         "branch": {
-          "accountType": "hipotecarios",
           "number": "00740002089694219015"
         },
         "productId": "00740002089694219015",

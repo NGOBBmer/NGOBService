@@ -15,18 +15,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "Giovanni",
-          "originalAccountNumber": "00740010001500001929",
-          "numberWithoutAlias": "1500001929",
+          "number": "1500001929",
           "alias": "Giovanni",
-          "type": "Cuentas sin chequera",
-          "typeId": "AH",
-          "accountType": "cuentaChequera",
-          "comboType": "Sin/cheq",
-          "comboNumber": "Giovanni"
+          "typeId": "AH"
         },
         "description": "Cuenta en Pesos",
         "navigation": {
@@ -38,7 +30,8 @@
                 "value": "cuentaChequera"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "AHMXP0000001"
               }
             ]
           },
@@ -63,13 +56,8 @@
         "innerJoinAccount": "no",
         "branch": {
           "number": "1500007838",
-          "originalAccountNumber": "00740010001500007838",
-          "numberWithoutAlias": "1500007838",
           "alias": "",
-          "type": "Cuentas sin chequera",
-          "typeId": "AH",
-          "accountType": "cuentaChequera",
-          "comboType": "Sin/cheq"
+          "typeId": "AH"
         },
         "description": "Cuenta en Pesos",
         "navigation": {
@@ -81,7 +69,8 @@
                 "value": "cuentaChequera"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "AHMXP0000002"
               }
             ]
           },
@@ -102,17 +91,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
           "number": "1500021393",
-          "originalAccountNumber": "00740010001500021393",
-          "numberWithoutAlias": "1500021393",
           "alias": "",
-          "type": "Cuentas sin chequera",
-          "typeId": "AH",
-          "accountType": "cuentaChequera",
-          "comboType": "Sin/cheq"
+          "typeId": "AH"
         },
         "description": "Cuenta en Pesos",
         "navigation": {
@@ -124,7 +106,8 @@
                 "value": "cuentaChequera"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "AHMXP0000003"
               }
             ]
           },
@@ -146,17 +129,10 @@
             "currencyId": "USD"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
           "number": "0178512663",
-          "originalAccountNumber": "00740600000178512663",
-          "numberWithoutAlias": "0178512663",
           "alias": "",
-          "type": "CH",
-          "typeId": "CH",
-          "accountType": "cuentaChequeraDolares",
-          "comboType": "Con/cheq"
+          "typeId": "CH"
         },
         "region": {
           "name": "MEXICO"
@@ -171,7 +147,8 @@
                 "value": "cuentaChequeraDolares"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "CHUSD0000001"
               }
             ]
           },
@@ -196,14 +173,8 @@
         "innerJoinAccount": "no",
         "branch": {
           "number": "0178530718",
-          "originalAccountNumber": "00743616000178530718",
-          "numberWithoutAlias": "0178530718",
           "alias": "0178530718",
-          "type": "CH",
           "typeId": "CH",
-          "accountType": "cuentaChequeraEuro",
-          "comboType": "Con/cheq",
-          "comboNumber": "0178530718"
         },
         "region": {
           "name": "MEXICO"
@@ -218,7 +189,8 @@
                 "value": "cuentaChequeraEuro"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "CHEUR0000001"
               }
             ]
           },
@@ -241,18 +213,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "LOREMIPSUM",
-          "originalAccountNumber": "4555043000086497",
-          "numberWithoutAlias": "*****86497",
+          "number": "·86497",
           "alias": "LOREMIPSUM",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "LOREMIPSUM"
+          "typeId": "TC"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
@@ -265,7 +229,8 @@
                 "value": "tarjetasCredito"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "TCMXP0000001"
               }
             ]
           },
@@ -286,18 +251,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "*2215",
-          "originalAccountNumber": "4772142702142215",
-          "numberWithoutAlias": "*****42215",
+          "number": "·42215",
           "alias": "",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "*****42215"
+          "typeId": "TC"
         },
         "minimumPayment": 9684.81,
         "description": "Tarjeta de Crédito",
@@ -310,7 +267,8 @@
                 "value": "tarjetasCredito"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "TCMXP0000002"
               }
             ]
           },
@@ -331,18 +289,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "GIOVANNI",
-          "originalAccountNumber": "4772913028619049",
-          "numberWithoutAlias": "*****19049",
+          "number": "·19049",
           "alias": "GIOVANNI",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "GIOVANNI"
+          "typeId": "TC"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
@@ -355,7 +305,8 @@
                 "value": "tarjetasCredito"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "TCMXP0000003"
               }
             ]
           },
@@ -376,18 +327,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "*0291",
-          "originalAccountNumber": "4772923009000291",
-          "numberWithoutAlias": "*****00291",
+          "number": "·00291",
           "alias": "",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "*****00291"
+          "typeId": "TC"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
@@ -400,7 +343,8 @@
                 "value": "tarjetasCredito"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "TCMXP0000004"
               }
             ]
           },
@@ -421,18 +365,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "*3155",
-          "originalAccountNumber": "4931612090303155",
-          "numberWithoutAlias": "*****03155",
+          "number": "·03155",
           "alias": "",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "*****03155"
+          "typeId": "TC"
         },
         "minimumPayment": 4311.79,
         "description": "Tarjeta de Crédito",
@@ -445,7 +381,8 @@
                 "value": "tarjetasCredito"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "TCMXP0000005"
               }
             ]
           },
@@ -466,18 +403,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "*9233",
-          "originalAccountNumber": "5358750200059233",
-          "numberWithoutAlias": "*****59233",
+          "number": "·59233",
           "alias": "",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "*****59233"
+          "typeId": "TC"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
@@ -490,7 +419,8 @@
                 "value": "tarjetasCredito"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "TCMXP0000006"
               }
             ]
           },
@@ -511,18 +441,10 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
-          "number": "*****14815",
-          "originalAccountNumber": "5420150000014815",
-          "numberWithoutAlias": "*****14815",
+          "number": "·14815",
           "alias": "*****14815",
-          "type": "Tarjeta de crédito",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito",
-          "comboType": "TDC",
-          "comboNumber": "*****14815"
+          "typeId": "TC"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
@@ -535,7 +457,8 @@
                 "value": "tarjetasCredito"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "TCMXP0000007"
               }
             ]
           },
@@ -552,14 +475,11 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "status": "0",
         "branch": {
           "number": "00740680002106857531",
           "alias": "",
           "typeId": "PT",
-          "accountType": "patrimoniales"
         },
         "description": "Patrimonial",
         "navigation": {
@@ -590,8 +510,7 @@
         "branch": {
           "number": "9855151406",
           "originalAccountNumber": "00742162179855151406",
-          "type": "Prestamo personal",
-          "accountType": "otrosCreditos"
+          "typeID": ""
         },
         "description": "Préstamo Personal",
         "navigation": {
@@ -599,7 +518,8 @@
             "pathUrl": "consultaSaldoCreditonPG",
             "params": [
               {
-                "name": "id"
+                "name": "id",
+                "value": "0"
               }
             ]
           },
@@ -610,13 +530,9 @@
     "investmentsFund": [
       {
         "productId": "SIMXP0000001",
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616562092377152",
-          "accountType": "fondoInversiones",
-          "fundDescription": "BMERIND",
           "typeId": "SI"
         },
         "description": "Fondo de Inversión",
@@ -631,8 +547,6 @@
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616002092377152",
-          "accountType": "fondoInversiones",
-          "fundDescription": "BBVAE50",
           "typeId": "SI"
         },
         "description": "Fondo de Inversión",
@@ -647,8 +561,6 @@
         "branch": {
           "number": "2092377160",
           "originalAccountNumber": "00743616002092377160",
-          "accountType": "fondoInversiones",
-          "fundDescription": "",
           "typeId": "SI"
         },
         "description": "Fondo de Inversión",

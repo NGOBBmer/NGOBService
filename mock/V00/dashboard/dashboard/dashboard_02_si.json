@@ -17,8 +17,6 @@
             "currency": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616562092377152",
@@ -37,7 +35,8 @@
                 "value": "fondoInversiones"
               },
               {
-                "name": "idcuenta"
+                "name": "idcuenta",
+                "value": "SIMXP0000001"
               }
             ]
           },
