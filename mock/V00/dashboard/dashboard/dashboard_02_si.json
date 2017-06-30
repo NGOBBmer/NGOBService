@@ -5,7 +5,7 @@
         "productId": "SIMXP0000001",
         "balance": {
           "totalTitles": {
-            "amount": 0.0,
+            "amount": 1.0,
             "currency": "MXP"
           },
           "agreedPrice": {
