@@ -174,7 +174,7 @@
         "branch": {
           "number": "0178530718",
           "alias": "0178530718",
-          "typeId": "CH",
+          "typeId": "CH"
         },
         "region": {
           "name": "MEXICO"
@@ -479,7 +479,7 @@
         "branch": {
           "number": "00740680002106857531",
           "alias": "",
-          "typeId": "PT",
+          "typeId": "PT"
         },
         "description": "Patrimonial",
         "navigation": {
@@ -510,7 +510,7 @@
         "branch": {
           "number": "9855151406",
           "originalAccountNumber": "00742162179855151406",
-          "typeID": ""
+          "typeId": ""
         },
         "description": "Préstamo Personal",
         "navigation": {

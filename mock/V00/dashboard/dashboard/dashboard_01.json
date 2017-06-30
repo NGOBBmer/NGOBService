@@ -6,7 +6,7 @@
         "branch": {
           "number": "1500007838",
           "alias": "Giovanni",
-          "typeId": "AH",
+          "typeId": "AH"
         },
         "balance": {
           "availableBalance": {
@@ -515,7 +515,7 @@
         "branch": {
           "number": "2106857531",
           "alias": "PT00740680002106857531",
-          "typeId": "PT",
+          "typeId": "PT"
         },
         "balance": {
           "totalBalance": {
