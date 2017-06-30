@@ -6,6 +6,7 @@
         "branch": {
           "number": "1500007838",
           "alias": "Giovanni",
+          "accountType": "cuentaChequera",
           "typeId": "AH"
         },
         "balance": {
@@ -36,6 +37,7 @@
         "branch": {
           "number": "0178749842",
           "alias": "",
+          "accountType": "cuentaChequera",
           "typeId": "CH"
         },
         "balance": {
@@ -64,6 +66,7 @@
         "branch": {
           "number": "0178404372",
           "alias": "",
+          "accountType": "cuentaChequera",
           "typeId": "CH"
         },
         "balance": {
@@ -92,6 +95,7 @@
         "branch": {
           "number": "0178512663",
           "alias": "0178512663",
+          "accountType": "cuentaChequeraDolares",
           "typeId": "CH"
         },
         "balance": {
@@ -105,8 +109,6 @@
             "currencyId": "USD"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "region": {
           "name": "MEXICO"
         },
@@ -120,6 +122,7 @@
         "branch": {
           "number": "0178530718",
           "alias": "0178530718",
+          "accountType": "cuentaChequeraEuro",
           "typeId": "CH"
         },
         "balance": {
@@ -149,6 +152,7 @@
         "branch": {
           "number": "1136164080",
           "alias": "",
+          "accountType": "cuentaChequera",
           "typeId": "LI"
         },
         "balance": {
@@ -179,6 +183,7 @@
         "branch": {
           "number": "·86497",
           "alias": "·86497",
+          "accountType": "tarjetasCredito",
           "typeId": "TC"
         },
         "balance": {
@@ -204,6 +209,7 @@
         "branch": {
           "number": "·42215",
           "alias": "",
+          "accountType": "tarjetasCredito",
           "typeId": "TC"
         },
         "balance": {
@@ -229,6 +235,7 @@
         "branch": {
           "number": "·85544",
           "alias": "·85544",
+          "accountType": "tarjetasCredito",
           "typeId": "TC"
         },
         "balance": {
@@ -256,6 +263,7 @@
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616562092377152",
+          "accountType": "fondoInversiones",
           "typeId": "SI"
         },
         "balance": {
@@ -282,6 +290,7 @@
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616002092377152",
+          "accountType": "fondoInversiones",
           "typeId": "SI"
         },
         "balance": {
@@ -308,6 +317,7 @@
         "branch": {
           "number": "2092377160",
           "originalAccountNumber": "00743616002092377160",
+          "accountType": "fondoInversiones",
           "typeId": "SI"
         },
         "balance": {
@@ -337,6 +347,7 @@
           "number": "8000751312",
           "originalAccountNumber": "00740001008000751312",
           "alias": "",
+          "accountType": "cuentaChequeraDolares",
           "typeId": "CA"
         },
         "balance": {
@@ -363,6 +374,7 @@
         "branch": {
           "number": "8000751316",
           "alias": "",
+          "accountType": "cuentaChequeraDolares",
           "typeId": "CA"
         },
         "balance": {
@@ -391,6 +403,7 @@
         "branch": {
           "number": "1368067104",
           "originalAccountNumber": "00740010001368067104",
+          "accountType": "inversionesMxp",
           "typeId": "IN"
         },
         "balance": {
@@ -400,8 +413,6 @@
             "currencyId": "Pesos"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "description": "Inversión en Pesos",
         "navigation": {
           "cellsNavigation": false
@@ -412,6 +423,7 @@
         "branch": {
           "number": "1368072280",
           "originalAccountNumber": "00740010001368072280",
+          "accountType": "inversionesMxp",
           "typeId": "IN"
         },
         "balance": {
@@ -421,8 +433,6 @@
             "currencyId": "MXP"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
         "description": "Inversión en Pesos",
         "navigation": {
           "cellsNavigation": false
@@ -432,17 +442,15 @@
         "balance": {
           "availableBalance": {
             "amount": 100000,
-            "currency": ""
+            "currency": "USD"
           }
         },
         "branch": {
-          "accountType": "inversionesMxp",
+          "accountType": "inversionesUsd",
           "number": "8000751443",
           "originalAccountNumber": "00740001008000751443",
           "typeId": "IN"
         },
-        "innerJoinAccount": "no",
-        "isAdittional": "no",
         "productId": "CAUSD0000001",
         "region": {
           "name": "HOUSTON"
@@ -459,7 +467,8 @@
         "branch": {
           "number": "9855151406",
           "originalAccountNumber": "00742162179855151406",
-          "typeId": ""
+          "typeId": "",
+          "accountType": "otrosCreditos"
         },
         "balance": {
           "availableBalance": {
@@ -489,6 +498,8 @@
         "productId": "TPMXP0000001",
         "branch": {
           "number": "·98173",
+          "alias": "",
+          "accountType": "tarjetasPrepagadas",
           "typeId": "TP"
         },
         "balance": {
@@ -515,7 +526,8 @@
         "branch": {
           "number": "2106857531",
           "alias": "PT00740680002106857531",
-          "typeId": "PT"
+          "typeId": "PT",
+          "accountType": "patrimoniales"
         },
         "balance": {
           "totalBalance": {
@@ -548,7 +560,8 @@
         "branch": {
           "number": "5543102520",
           "alias": "5543102520",
-          "typeId": "CM"
+          "typeId": "CM",
+          "accountType": "cuentaChequera"
         },
         "description": "Cuenta Digital",
         "navigation": {
@@ -593,7 +606,8 @@
           }
         },
         "branch": {
-          "number": "00740002089694219015"
+          "number": "00740002089694219015",
+          "accountType": "hipotecarios"
         },
         "productId": "00740002089694219015",
         "description": "Hipoteca",
@@ -615,7 +629,8 @@
           }
         },
         "branch": {
-          "number": "00740002089694219015"
+          "number": "00740002089694219015",
+          "accountType": "hipotecarios"
         },
         "productId": "00740002089694219015",
         "description": "Hipoteca",
