@@ -1,19 +1,19 @@
 {
   "data": {
     "email": "lic.giovanni.nicolas@gmail.com",
-    "name": "NICOLAS MARIN GIOVANNI",
+    "name": "GIOVANNI NICOLAS MARIN",
     "nickname": "GIOVANNI",
     "profile": "IF02",
     "loginUser": "ADMINF",
-    "cellphone": "",
-    "companyCell": "",
+    "cellphone": "5520721628",
+    "companyCell": "TELCEL",
     "indEmployee": true,
-    "birthDate": "1986-08-01",
+    "birthDate": "1968-08-01",
     "clientNumberEnc": "gLxl4vDrUInIVnQsw4qlLw==",
-    "deviceType": "S1",
+    "deviceType": "T7",
     "hourLastAccess": "11:55 AM",
     "dateLastAccess": "2017-04-19",
     "indNominated": "",
-    "profilePercentage": 80
+    "profilePercentage": 50
   }
 }
