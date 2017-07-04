@@ -37,12 +37,12 @@
           "isNominated": true,
           "hasPocket": false
         },
-        "navigationNomina": {
+         "navigationNomina": {
           "pathNavigation": {
             "pathUrl": "zonaNomina"
           },
           "cellsNavigation": true
-        },
+        }
       },
       {
         "productId": "AHMXP0000002",
