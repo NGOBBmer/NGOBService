@@ -41,7 +41,7 @@
           "pathNavigation": {
             "pathUrl": "zonaNomina"
           },
-          "cellsNavigation": true
+          "cellsNavigation": false
         }
       },
       {
