@@ -5,21 +5,16 @@
         "productId": "AHMXP0000001",
         "balance": {
           "availableBalance": {
-            "amount": 5239.39,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
+            "amount": 5710.03,
             "currency": "Pesos",
             "currencyId": "MXP"
           }
         },
         "branch": {
           "number": "1500001929",
-          "alias": "Giovanni",
-          "accountType": "cuentaChequera",
-          "typeId": "AH"
+          "alias": "Cuenta 312",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
         },
         "description": "Cuenta en Pesos",
         "navigation": {
@@ -37,27 +32,32 @@
             ]
           },
           "cellsNavigation": true
-        }
+        },
+        "assigned": {
+          "isNominated": true,
+          "hasPocket": false
+        },
+        "navigationNomina": {
+          "pathNavigation": {
+            "pathUrl": "zonaNomina"
+          },
+          "cellsNavigation": true
+        },
       },
       {
         "productId": "AHMXP0000002",
         "balance": {
           "availableBalance": {
-            "amount": 898589123.55,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
+            "amount": 898422958.65,
             "currency": "Pesos",
             "currencyId": "MXP"
           }
         },
         "branch": {
           "number": "1500007838",
-          "alias": "",
-          "accountType": "cuentaChequera",
-          "typeId": "AH"
+          "alias": "Cuenta 783",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
         },
         "description": "Cuenta en Pesos",
         "navigation": {
@@ -75,27 +75,28 @@
             ]
           },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
-      },
+      }
+    ],
+    "checkAccount": [
       {
-        "productId": "AHMXP0000003",
+        "productId": "CHMXP0000003",
         "balance": {
           "availableBalance": {
-            "amount": 899806,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
+            "amount": 2461291.31,
             "currency": "Pesos",
             "currencyId": "MXP"
           }
         },
         "branch": {
-          "number": "1500021393",
+          "number": "0178200831",
           "alias": "",
-          "accountType": "cuentaChequera",
-          "typeId": "AH"
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
         },
         "description": "Cuenta en Pesos",
         "navigation": {
@@ -108,20 +109,244 @@
               },
               {
                 "name": "idcuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
               }
             ]
           },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
-      }
-    ],
-    "checkAccount": [
+      },
+      {
+        "productId": "CHMXP0000004",
+        "balance": {
+          "availableBalance": {
+            "amount": 6029.78,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "0109395466",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHMXP0000004"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "CHMXP0000005",
+        "balance": {
+          "availableBalance": {
+            "amount": 409824,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "0434710355",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHMXP0000005"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "CHMXP0000006",
+        "balance": {
+          "availableBalance": {
+            "amount": 4994251.17,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "0434710363",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHMXP0000006"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "CHMXP0000007",
+        "balance": {
+          "availableBalance": {
+            "amount": 1003774946.85,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "0178087725",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHMXP0000007"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "CHMXP0000008",
+        "balance": {
+          "availableBalance": {
+            "amount": 99618595.5,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "0178053081",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHMXP0000008"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "CHMXP0000009",
+        "balance": {
+          "availableBalance": {
+            "amount": 7899.73,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "0100052671",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHMXP0000009"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
       {
         "productId": "CHUSD0000001",
         "balance": {
           "availableBalance": {
-            "amount": 1522.14,
+            "amount": 99999999586.62,
             "currency": "",
             "currencyId": "USD"
           },
@@ -133,8 +358,8 @@
         "branch": {
           "number": "0178512663",
           "alias": "",
-          "accountType": "cuentaChequeraDolares",
-          "typeId": "CH"
+          "typeId": "CH",
+          "accountType": "cuentaChequeraDolares"
         },
         "region": {
           "name": "MEXICO"
@@ -155,14 +380,62 @@
             ]
           },
           "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "CHUSD0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 7.37,
+            "currency": "",
+            "currencyId": "USD"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currencyId": "USD"
+          }
+        },
+        "branch": {
+          "number": "0149494014",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequeraDolares"
+        },
+        "region": {
+          "name": "MEXICO"
+        },
+        "description": "Cuenta en Dólares",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequeraDolares"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHUSD0000002"
+              }
+            ]
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
         "productId": "CHEUR0000001",
         "balance": {
           "availableBalance": {
-            "amount": 875.86,
-            "currency": "",
+            "amount": 127.5,
+            "currency": "Euros",
             "currencyId": "EUR"
           },
           "pendingBalance": {
@@ -174,28 +447,16 @@
         "branch": {
           "number": "0178530718",
           "alias": "0178530718",
-          "accountType": "cuentaChequeraEuro",
-          "typeId": "CH"
-        },
-        "region": {
-          "name": "MEXICO"
+          "typeId": "CH",
+          "accountType": "cuentaChequeraEuro"
         },
         "description": "Cuenta en Euros",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "cuentaChequeraEuro"
-              },
-              {
-                "name": "idcuenta",
-                "value": "CHEUR0000001"
-              }
-            ]
-          },
           "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       }
     ],
@@ -204,8 +465,8 @@
         "productId": "TCMXP0000001",
         "balance": {
           "availableBalance": {
-            "amount": 276332.85,
-            "currency": "",
+            "amount": 282856.85,
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "cuttingBalance": {
@@ -217,26 +478,17 @@
         "branch": {
           "number": "·86497",
           "alias": "LOREMIPSUM",
-          "accountType": "tarjetasCredito",
-          "typeId": "TC"
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleTarjetaCredito",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "tarjetasCredito"
-              },
-              {
-                "name": "idcuenta",
-                "value": "TCMXP0000001"
-              }
-            ]
-          },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
@@ -244,7 +496,7 @@
         "balance": {
           "availableBalance": {
             "amount": 150858.13,
-            "currency": "",
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "cuttingBalance": {
@@ -256,26 +508,17 @@
         "branch": {
           "number": "·42215",
           "alias": "",
-          "accountType": "tarjetasCredito",
-          "typeId": "TC"
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
         },
         "minimumPayment": 9684.81,
         "description": "Tarjeta de Crédito",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleTarjetaCredito",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "tarjetasCredito"
-              },
-              {
-                "name": "idcuenta",
-                "value": "TCMXP0000002"
-              }
-            ]
-          },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
@@ -283,7 +526,7 @@
         "balance": {
           "availableBalance": {
             "amount": -57609.15,
-            "currency": "",
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "cuttingBalance": {
@@ -295,34 +538,25 @@
         "branch": {
           "number": "·19049",
           "alias": "GIOVANNI",
-          "accountType": "tarjetasCredito",
-          "typeId": "TC"
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleTarjetaCredito",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "tarjetasCredito"
-              },
-              {
-                "name": "idcuenta",
-                "value": "TCMXP0000003"
-              }
-            ]
-          },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
         "productId": "TCMXP0000004",
         "balance": {
           "availableBalance": {
-            "amount": -1530.22,
-            "currency": "",
+            "amount": -3030.22,
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "cuttingBalance": {
@@ -334,26 +568,17 @@
         "branch": {
           "number": "·00291",
           "alias": "",
-          "accountType": "tarjetasCredito",
-          "typeId": "TC"
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleTarjetaCredito",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "tarjetasCredito"
-              },
-              {
-                "name": "idcuenta",
-                "value": "TCMXP0000004"
-              }
-            ]
-          },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
@@ -361,7 +586,7 @@
         "balance": {
           "availableBalance": {
             "amount": 4409.79,
-            "currency": "",
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "cuttingBalance": {
@@ -373,34 +598,25 @@
         "branch": {
           "number": "·03155",
           "alias": "",
-          "accountType": "tarjetasCredito",
-          "typeId": "TC"
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
         },
         "minimumPayment": 4311.79,
         "description": "Tarjeta de Crédito",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleTarjetaCredito",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "tarjetasCredito"
-              },
-              {
-                "name": "idcuenta",
-                "value": "TCMXP0000005"
-              }
-            ]
-          },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
         "productId": "TCMXP0000006",
         "balance": {
           "availableBalance": {
-            "amount": 7113.83,
-            "currency": "",
+            "amount": 6813.83,
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "cuttingBalance": {
@@ -412,34 +628,25 @@
         "branch": {
           "number": "·59233",
           "alias": "",
-          "accountType": "tarjetasCredito",
-          "typeId": "TC"
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleTarjetaCredito",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "tarjetasCredito"
-              },
-              {
-                "name": "idcuenta",
-                "value": "TCMXP0000006"
-              }
-            ]
-          },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
         "productId": "TCMXP0000007",
         "balance": {
           "availableBalance": {
-            "amount": -4262,
-            "currency": "",
+            "amount": -4011,
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "cuttingBalance": {
@@ -451,26 +658,17 @@
         "branch": {
           "number": "·14815",
           "alias": "*****14815",
-          "accountType": "tarjetasCredito",
-          "typeId": "TC"
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleTarjetaCredito",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "tarjetasCredito"
-              },
-              {
-                "name": "idcuenta",
-                "value": "TCMXP0000007"
-              }
-            ]
-          },
           "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       }
     ],
@@ -483,16 +681,28 @@
             "currencyId": "MXP"
           }
         },
-        "status": "0",
         "branch": {
-          "number": "00740680002106857531",
-          "alias": "",
-          "accountType": "patrimoniales",
-          "typeId": "PT"
+          "number": "2106857531",
+          "alias": "PT00740680002106857531",
+          "typeId": "PT",
+          "accountType": "patrimoniales"
         },
         "description": "Patrimonial",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "portafolioPatrimonialChart",
+            "params": [
+              {
+                "name": "idContrato",
+                "value": "idC"
+              }
+            ]
+          },
           "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       }
     ],
@@ -501,39 +711,33 @@
         "productId": "0",
         "balance": {
           "availableBalance": {
-            "amount": 14094.41,
-            "currency": "",
+            "amount": 14530.87,
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "grantedBalance": {
             "amount": 12561.0,
-            "currency": "",
+            "currency": "Pesos",
             "currencyId": "MXP"
           },
           "totalBalance": {
-            "amount": 14094.41,
-            "currency": "",
+            "amount": 14530.87,
+            "currency": "Pesos",
             "currencyId": "MXP"
           }
         },
         "branch": {
-          "number": "9855151406",
-          "originalAccountNumber": "00742162179855151406",
-          "typeId": "",
+          "number": "00742162179855151406",
+          "originalAccountNumber": "9855151406",
           "accountType": "otrosCreditos"
         },
         "description": "Préstamo Personal",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "consultaSaldoCreditonPG",
-            "params": [
-              {
-                "name": "id",
-                "value": "0"
-              }
-            ]
-          },
           "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       }
     ],
@@ -543,12 +747,16 @@
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616562092377152",
-          "accountType": "fondoInversiones",
-          "typeId": "SI"
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
         },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
@@ -556,11 +764,16 @@
         "branch": {
           "number": "2092377152",
           "originalAccountNumber": "00743616002092377152",
-          "typeId": "SI"
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
         },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       },
       {
@@ -568,40 +781,44 @@
         "branch": {
           "number": "2092377160",
           "originalAccountNumber": "00743616002092377160",
-          "accountType": "fondoInversiones",
-          "typeId": "SI"
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
         },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       }
     ]
   },
   "totalBalanceMxn": {
     "balance": {
-      "amount": 899494168.93,
+      "amount": 2009701507.02,
       "currency": "MXP"
     },
     "description": "Cuenta en Pesos"
   },
   "totalBalanceUsd": {
     "balance": {
-      "amount": 1522.14,
+      "amount": 99999999593.99,
       "currency": "USD"
     },
     "description": "Cuenta en Dólares"
   },
   "totalBalanceEur": {
     "balance": {
-      "amount": 875.86,
+      "amount": 127.5,
       "currency": "EUR"
     },
     "description": "Cuenta en Euros"
   },
   "totalBalanceCreditos": {
     "balance": {
-      "amount": 14094.41
+      "amount": 14530.87
     },
     "description": "Otros Créditos"
   }
