@@ -25,9 +25,9 @@ router.get('/V00/dashboard', function(req, res, next) {
     console.log(tsec);
     if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==TT' )
 	   return res.json(dashboard_02);
-    else if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==SI,contract==00743616562092377152')
+    else if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==SI,contract==SIMXP0000001')
         return res.json(dashboard_02_SI);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,contract==00740010001368067104,currency==MXP')
+    else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,contract==INMXP0000001,currency==MXP')
         return res.json(dashboard_03_IN);
     else if ((tsec != 'null' || tsec != undefined || tsec != '') && req.query.$filter === 'productType==TT')
         return res.json(dashboard_01);
