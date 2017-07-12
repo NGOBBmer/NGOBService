@@ -31,7 +31,7 @@ router.use(function(req, res, next) {
 router.get('/V00/agileOperations', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if (tsec == '123456'){
-     return res.json(ERROR);
+     return res.status(500).json(ERROR);
   }else{
     if (req.query.agileOperationType === 'ALL')
       return res.json(LISTA_ALL);
