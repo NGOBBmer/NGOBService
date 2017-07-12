@@ -29,7 +29,10 @@ router.get('/V00/dashboard', function(req, res, next) {
     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,contract==INMXP0000001,currency==MXP')
         return res.json(dashboard_03_IN);
     else if ((tsec != 'null' || tsec != undefined || tsec != '') && req.query.$filter === 'productType==TT')
-        return res.json(dashboard_01);
+        if (tsec == '123456')
+            return res.json(dashboard_02);
+        else 
+            return res.json(dashboard_01);
 
     return res.status(400).json(dashboard_error);
   next();
