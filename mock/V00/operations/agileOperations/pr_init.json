@@ -12,7 +12,7 @@
       "beneficiary": {
         "name": "PRUEBA11"
       },
-      "operationDate": "2017-06-29",
+      "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario"
     },
     {
@@ -27,8 +27,53 @@
       "beneficiary": {
         "name": ""
       },
-      "operationDate": "2017-06-27",
+      "operationDate": "2017-07-06",
       "description": "Traspaso"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba 02",
+      "paymentAccount": "74747",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": "PRUEBA"
+      },
+      "operationDate": "2017-07-06",
+      "description": "Traspaso Interbancario"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba Calendario",
+      "paymentAccount": "74747",
+      "paymentAmount": {
+        "amount": 300.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": "PRUEBAAA"
+      },
+      "operationDate": "2017-07-06",
+      "description": "Traspaso Interbancario"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba Calendario1",
+      "paymentAccount": "74747",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": "PRUEBACALENDARIO"
+      },
+      "operationDate": "2017-07-06",
+      "description": "Traspaso Interbancario"
     },
     {
       "id": "0001",
@@ -42,7 +87,37 @@
       "beneficiary": {
         "adress": "Movistar"
       },
-      "operationDate": "2017-06-30",
+      "operationDate": "2017-07-08",
+      "description": "Traspaso"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba_TA01",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "adress": "TELCEL"
+      },
+      "operationDate": "2017-07-08",
+      "description": "Traspaso"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba_TA02",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 200.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "adress": "Movistar"
+      },
+      "operationDate": "2017-07-08",
       "description": "Traspaso"
     },
     {
@@ -57,7 +132,22 @@
       "beneficiary": {
         "name": ""
       },
-      "operationDate": "2017-06-30",
+      "operationDate": "2017-07-09",
+      "description": "Traspaso"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba_Prueba",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-07-09",
       "description": "Traspaso"
     },
     {
@@ -72,7 +162,7 @@
       "beneficiary": {
         "name": ""
       },
-      "operationDate": "2017-07-02",
+      "operationDate": "2017-07-10",
       "description": "Traspaso"
     }
   ],

@@ -1,48 +1,65 @@
 {
   "product": {
-    "investmentsFund": [
-      {
-        "productId": "SIMXP0000001",
+    "investmentsFund": [{
+        "productId": "SIMXP0000002",
         "balance": {
           "totalTitles": {
-            "amount": 1.0,
+            "amount": 186,
             "currency": "MXP"
           },
           "agreedPrice": {
-            "amount": 88.636767,
+            "amount": 10.663815,
             "currency": "MXP"
           },
           "financialValue": {
-            "amount": 0,
+            "amount": 1983.46,
             "currency": "MXP"
           }
         },
         "branch": {
-          "number": "2092377152",
-          "originalAccountNumber": "00743616562092377152",
+          "number": "2034680103",
           "accountType": "fondoInversiones",
-          "fundDescription": "BMERIND",
-          "serie": "MB",
-          "typeId": "SI"
+          "fundDescription": "F+LIQ",
+          "serie": "B1"
         },
         "description": "Fondo de Inversión",
         "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "fondoInversiones"
-              },
-              {
-                "name": "idcuenta",
-                "value": "SIMXP0000001"
-              }
-            ]
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "SIMXP0000003",
+        "balance": {
+          "totalTitles": {
+            "amount": 183,
+            "currency": "MXP"
           },
-          "cellsNavigation": false
+          "agreedPrice": {
+            "amount": 10.836043,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 1982.99,
+            "currency": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034680103",
+          "accountType": "fondoInversiones",
+          "fundDescription": "DCP+",
+          "serie": "B2"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
         }
       }
-    ]
+    ],
+    "totalBalance": {
+      "balance": {
+        "amount": 3966.45,
+        "currency": "MXP"
+      }
+    }
   }
 }

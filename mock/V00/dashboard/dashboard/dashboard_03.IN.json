@@ -1,45 +1,45 @@
 {
   "product": {
-     "investments": [
-      {
-        "productId": "INMXP0000001",
-        "branch": {
-          "number": "1368067104",
-          "originalAccountNumber": "00740010001368067104",
-          "accountType": "inversionesMxp"
-        },
-        "balance": {
-          "availableBalance": {
-            "amount": 1001.00,
-            "currency": "",
-            "currencyId": "Pesos"
-          }
-        },
-        "description": "Inversión en Pesos",
-        "navigation": {
-          "cellsNavigation": false
+    "investments": [{
+      "productId": "INMXP0000002",
+      "balance": {
+        "availableBalance": {
+          "amount": 17500,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         }
       },
-      {
-        "productId": "INMXP0000002",
-        "branch": {
-          "originalAccountNumber": "00740010001368067104",
-          "number": "1368067104",
-          "accountType": "inversionesMxp",
-          "typeId": "IN"
-        },
-        "balance": {
-          "availableBalance": {
-            "amount": 0,
-            "currency": "",
-            "currencyId": "Pesos"
-          }
-        },
-        "description": "Inversión en Pesos",
-        "navigation": {
-          "cellsNavigation": false
-        }
+      "branch": {
+        "number": "1334686489",
+        "accountType": "inversionesMxp"
+      },
+      "description": "Inversión en Pesos",
+      "navigation": {
+        "cellsNavigation": true
       }
-    ]
+    },{
+      "productId": "INMXP0000003",
+      "balance": {
+        "availableBalance": {
+          "amount": 19000,
+          "currency": "Pesos",
+          "currencyId": "MXP"
+        }
+      },
+      "branch": {
+        "number": "1334686489",
+        "accountType": "inversionesMxp"
+      },
+      "description": "Inversión en Pesos",
+      "navigation": {
+        "cellsNavigation": true
+      }
+    }],
+    "totalBalance": {
+      "balance": {
+        "amount": 36500,
+        "currency": "MXP"
+      }
+    }
   }
 }

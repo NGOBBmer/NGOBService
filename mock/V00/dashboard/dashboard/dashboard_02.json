@@ -484,6 +484,9 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
           "cellsNavigation": true
         },
         "assigned": {
@@ -514,6 +517,9 @@
         "minimumPayment": 9684.81,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
           "cellsNavigation": true
         },
         "assigned": {
@@ -544,6 +550,9 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
           "cellsNavigation": true
         },
         "assigned": {
@@ -574,6 +583,9 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
           "cellsNavigation": true
         },
         "assigned": {
@@ -604,6 +616,9 @@
         "minimumPayment": 4311.79,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
           "cellsNavigation": true
         },
         "assigned": {
@@ -634,6 +649,9 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
           "cellsNavigation": true
         },
         "assigned": {
@@ -664,6 +682,9 @@
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
         "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
           "cellsNavigation": true
         },
         "assigned": {
