@@ -1,0 +1,37 @@
+{
+  "product": {
+    "investmentsFund": [{
+        "productId": "CAUSD0000001",
+        "balance": {
+          "totalTitles": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "agreedPrice": {
+            "amount": 10.663815,
+            "currency": "USD"
+          },
+          "financialValue": {
+            "amount": 1983.46,
+            "currency": "USD"
+          }
+        },
+        "branch": {
+          "number": "2034680103",
+          "accountType": "fondoInversiones",
+          "fundDescription": "F+LIQ",
+          "serie": "B1"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }],
+    "totalBalance": {
+      "balance": {
+        "amount": 1983.46,
+        "currency": "USD"
+      }
+    }
+  }
+}
