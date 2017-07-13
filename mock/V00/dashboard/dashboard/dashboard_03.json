@@ -1,0 +1,56 @@
+{
+  "product": {
+    "savingAccount": [
+      {
+        "productId": "AHMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 6000.00,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1136164080",
+          "alias": "",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "AHMXP0000001"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": true,
+          "hasPocket": false
+        },
+         "navigationNomina": {
+          "pathNavigation": {
+            "pathUrl": "zonaNomina"
+          },
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  "totalBalanceMxn": {
+    "balance": {
+      "amount": 6000.00,
+      "currency": "MXP"
+    },
+    "description": "Cuenta en Pesos"
+  }
+}

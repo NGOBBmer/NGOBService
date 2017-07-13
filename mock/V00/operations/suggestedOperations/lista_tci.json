@@ -1,0 +1,16 @@
+{
+  "suggestedOperations": [{
+    "id": "26769",
+    "shortname": "Pago a Tarjeta de CrÃ©dito otros Bancos",
+    "paymentAccount": "4913660004355169",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "operationType": "TCI",
+    "bank": {
+      
+    }
+  }]
+}

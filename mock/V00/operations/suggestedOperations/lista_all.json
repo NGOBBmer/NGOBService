@@ -1,0 +1,141 @@
+{
+  "suggestedOperations": [{
+    "id": "26761",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26762",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26763",
+    "shortname": "Transferencia a Cuentas Propias",
+    "paymentAccount": "1500007838",
+    "paymentAmount": {
+      "amount": "10.55"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "operationType": "TP",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26764",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0178851808",
+    "paymentAmount": {
+      "amount": "10.23"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26765",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0177930047",
+    "paymentAmount": {
+      "amount": "10.90"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26766",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0177930047",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": false,
+    "chargeAccount": "1500001929",
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26767",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0178851808",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": false,
+    "chargeAccount": "1500001929",
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26768",
+    "shortname": "Transferencia a Otros Bancos",
+    "paymentAccount": "002180700256551903",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "operationType": "TI",
+    "bank": {
+      "name": "BANAMEX",
+      "code": "0002"
+    }
+  },
+  {
+    "id": "26769",
+    "shortname": "Pago a Tarjeta de CrÃ©dito otros Bancos",
+    "paymentAccount": "4913660004355169",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "operationType": "TCI",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26770",
+    "shortname": "Pago a Tarjeta de CrÃ©dito Cuenta Propia",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": true,
+    "operationType": "TCP",
+    "bank": {
+      
+    }
+  }]
+}
