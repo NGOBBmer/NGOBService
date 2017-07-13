@@ -1,0 +1,30 @@
+{
+  "suggestedOperations": [{
+    "id": "26761",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26762",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  }]
+}
