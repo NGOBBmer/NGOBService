@@ -1,90 +1,43 @@
 {
   "product": {
-    "investmentsFund": [{
-        "productId": "SIMXP0000001",
-        "balance": { 
-          "totalTitles": {
-            "amount": 100,
-            "currency": "MXP"
-          },
-          "agreedPrice": {
-            "amount": 10.663815,
-            "currency": "MXP"
-          },
-          "financialValue": {
-            "amount": 1983.46,
-            "currency": "MXP"
-          }
-        },
-        "branch": {
-          "number": "2034680103",
-          "accountType": "fondoInversiones",
-          "fundDescription": "F+LIQ",
-          "serie": "B1"
-        },
-        "description": "Fondo de Inversión",
-        "navigation": {
-          "cellsNavigation": true
+    "investments": [{
+      "productId": "INMXP0000002",
+      "balance": {
+        "availableBalance": {
+          "amount": 17500,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         }
       },
-      {
-        "productId": "SIMXP0000002",
-        "balance": {
-          "totalTitles": {
-            "amount": 186,
-            "currency": "MXP"
-          },
-          "agreedPrice": {
-            "amount": 10.663815,
-            "currency": "MXP"
-          },
-          "financialValue": {
-            "amount": 1983.46,
-            "currency": "MXP"
-          }
-        },
-        "branch": {
-          "number": "2034680103",
-          "accountType": "fondoInversiones",
-          "fundDescription": "F+LIQ",
-          "serie": "B1"
-        },
-        "description": "Fondo de Inversión",
-        "navigation": {
-          "cellsNavigation": true
-        }
+      "branch": {
+        "number": "1334686489",
+        "accountType": "inversionesMxp"
       },
-      {
-        "productId": "SIMXP0000005",
-        "balance": {
-          "totalTitles": {
-            "amount": 183,
-            "currency": "MXP"
-          },
-          "agreedPrice": {
-            "amount": 10.836043,
-            "currency": "MXP"
-          },
-          "financialValue": {
-            "amount": 1982.99,
-            "currency": "MXP"
-          }
-        },
-        "branch": {
-          "number": "2034680103",
-          "accountType": "fondoInversiones",
-          "fundDescription": "DCP+",
-          "serie": "B2"
-        },
-        "description": "Fondo de Inversión",
-        "navigation": {
-          "cellsNavigation": true
-        }
+      "description": "Inversión en Pesos",
+      "navigation": {
+        "cellsNavigation": true
       }
-    ],
+    },{
+      "productId": "INMXP0000003",
+      "balance": {
+        "availableBalance": {
+          "amount": 19000,
+          "currency": "Pesos",
+          "currencyId": "MXP"
+        }
+      },
+      "branch": {
+        "number": "1334686489",
+        "accountType": "inversionesMxp"
+      },
+      "description": "Inversión en Pesos",
+      "navigation": {
+        "cellsNavigation": true
+      }
+    }],
     "totalBalance": {
       "balance": {
-        "amount": 4066.45,
+        "amount": 36500,
         "currency": "MXP"
       }
     }
