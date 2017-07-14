@@ -1,0 +1,128 @@
+{
+  "product": {
+    "savingAccount": [
+      {
+        "productId": "AHMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 5710.03,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1500001929",
+          "alias": "Cuenta 312",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "AHMXP0000001"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": true,
+          "hasPocket": false
+        },
+         "navigationNomina": {
+          "pathNavigation": {
+            "pathUrl": "zonaNomina"
+          },
+          "cellsNavigation": false
+        }
+      },
+      {
+        "productId": "AHMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 898422958.65,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1500007838",
+          "alias": "Cuenta 783",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "AHMXP0000002"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ],
+    "creditCard": [
+      {
+        "productId": "TCMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 282856.85,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": -764819.56,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·86497",
+          "alias": "LOREMIPSUM",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+  	]
+  },
+  "totalBalanceMxn": {
+    "balance": {
+      "amount": 10000.02,
+      "currency": "MXP"
+    },
+    "description": "Cuenta en Pesos"
+  }
+}
