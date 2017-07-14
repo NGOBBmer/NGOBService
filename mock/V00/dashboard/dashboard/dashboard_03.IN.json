@@ -29,7 +29,9 @@
           },
           "balance": {
             "availableBalance": {
-              "amount": 9999
+              "amount": 9999,
+              "currency": "Pesos",
+              "currencyId": "MXP"
             }
           }
         },
@@ -42,7 +44,9 @@
           },
           "balance": {
             "availableBalance": {
-              "amount": 2000
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
             }
           }
         },
@@ -55,7 +59,9 @@
           },
           "balance": {
             "availableBalance": {
-              "amount": 20000
+              "amount": 20000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
             }
           }
         },
@@ -68,7 +74,9 @@
           },
           "balance": {
             "availableBalance": {
-              "amount": 10000
+              "amount": 10000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
             }
           }
         }
