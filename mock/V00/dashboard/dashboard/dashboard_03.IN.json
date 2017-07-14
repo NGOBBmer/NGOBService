@@ -22,7 +22,7 @@
       },
       "investmentDetail": [{
           "expirationDate": "11/01/2018",
-          "plazo": "182",
+          "term": "182",
           "branch": {
             "rate": "0.96",
             "gat": "0.96%"
@@ -37,7 +37,7 @@
         },
         {
           "expirationDate": "29/06/2017",
-          "plazo": "14",
+          "term": "14",
           "branch": {
             "rate": "0.96",
             "gat": "0.96%"
@@ -52,7 +52,7 @@
         },
         {
           "expirationDate": "23/05/2017",
-          "plazo": "14",
+          "term": "14",
           "branch": {
             "rate": "0.9",
             "gat": "0.90%"
@@ -67,7 +67,7 @@
         },
         {
           "expirationDate": "01/11/2016",
-          "plazo": "21",
+          "term": "21",
           "branch": {
             "rate": "0.75",
             "gat": "0.75%"

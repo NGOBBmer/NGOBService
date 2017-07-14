@@ -1,45 +1,236 @@
 {
   "product": {
     "investments": [{
-      "productId": "INMXP0000002",
+      "productId": "INMXP0000012",
       "balance": {
         "availableBalance": {
-          "amount": 17500,
+          "amount": 390678,
           "currency": "Pesos",
           "currencyId": "MXP"
         }
       },
       "branch": {
-        "number": "1334686489",
+        "number": "1368061599",
         "accountType": "inversionesMxp"
       },
       "description": "Inversión en Pesos",
       "navigation": {
+        "pathNavigation": {
+          "pathUrl": "detalleCuenta"
+        },
         "cellsNavigation": true
-      }
-    },{
-      "productId": "INMXP0000003",
-      "balance": {
-        "availableBalance": {
-          "amount": 19000,
-          "currency": "Pesos",
-          "currencyId": "MXP"
+      },
+      "investmentDetail": [{
+          "expirationDate": "11/08/2017",
+          "term": "182",
+          "branch": {
+            "rate": "2.81",
+            "gat": "2.83%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 345678,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "29/06/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.96",
+            "gat": "0.96%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 3000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "26/06/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.96",
+            "gat": "0.96%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "14/06/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.96",
+            "gat": "0.96%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "12/06/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.96",
+            "gat": "0.96%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "26/05/2017",
+          "term": "14",
+          "branch": {
+            "rate": "0.9",
+            "gat": "0.90%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "18/05/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.75",
+            "gat": "0.75%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "18/05/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.75",
+            "gat": "0.75%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "18/05/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.75",
+            "gat": "0.75%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "16/05/2017",
+          "term": "1",
+          "branch": {
+            "rate": "0.75",
+            "gat": "0.75%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "21/03/2017",
+          "term": "21",
+          "branch": {
+            "rate": "0.75",
+            "gat": "0.75%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "20/01/2017",
+          "term": "1",
+          "branch": {
+            "rate": "1.839",
+            "gat": "1.86%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "14/12/2016",
+          "term": "28",
+          "branch": {
+            "rate": "0.75",
+            "gat": "0.75%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 20000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
+        },
+        {
+          "expirationDate": "05/08/2016",
+          "term": "1",
+          "branch": {
+            "rate": "1.374",
+            "gat": "1.38%"
+          },
+          "balance": {
+            "availableBalance": {
+              "amount": 2000,
+              "currency": "Pesos",
+              "currencyId": "MXP"
+            }
+          }
         }
-      },
-      "branch": {
-        "number": "1334686489",
-        "accountType": "inversionesMxp"
-      },
-      "description": "Inversión en Pesos",
-      "navigation": {
-        "cellsNavigation": true
-      }
-    }],
-    "totalBalance": {
-      "balance": {
-        "amount": 36500,
-        "currency": "MXP"
-      }
-    }
+      ]
+    }]
   }
 }
