@@ -19,7 +19,11 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:4000/dashboard/V00/dashboard/dropDownMenu?typeProduct&page=page
 router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
-	if(req.query.typeProduct=='tarjetasCredito'){
+  var tsec = req.headers['tsec'];
+  if (tsec === '1234567890'){
+    return res.status(400).json(ERROR);
+  }else{
+    if(req.query.typeProduct=='tarjetasCredito'){
      return res.json(DATA_04);
     }else{    
       if(req.query.typeProduct==""&& req.query.page==""){
@@ -39,6 +43,8 @@ router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
         }
       }
     }
+  }
+	
   next();
   });
 
