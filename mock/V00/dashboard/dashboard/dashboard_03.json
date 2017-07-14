@@ -5,7 +5,7 @@
         "productId": "AHMXP0000001",
         "balance": {
           "availableBalance": {
-            "amount": 6000.00,
+            "amount": 6000.01,
             "currency": "Pesos",
             "currencyId": "MXP"
           }
