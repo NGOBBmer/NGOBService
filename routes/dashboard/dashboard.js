@@ -27,6 +27,8 @@ router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if ((tsec == 'null' || tsec == '') && req.query.$filter === 'productType==TT' )
 	   return res.json(dashboard_02);
+    else if (req.query.$filter === 'productType==SI,idContract==SIMXP0000001')
+        return res.json(dashboard_02_SI);
     else if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==SI,idContract==SIMXP0000001')
         return res.json(dashboard_02_SI);
     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,currency==MXP')
@@ -43,8 +45,6 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_04_IN);
     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,currency==USD')
         return res.json(dashboard_05_IN);
-     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==SIMXP0000001')
-        return res.json(dashboard_02_SI);
 
 
     return res.status(400).json(dashboard_error);
