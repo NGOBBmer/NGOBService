@@ -32,7 +32,7 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_02_SI);
     else if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==SI,idContract==SIMXP0000001')
         return res.json(dashboard_02_SI);
-    else if ((tsec == 'null' || tsec != undefined || tsec == '') && req.query.$filter === 'productType==SI,idContract==SIMXP0000002')
+    else if (req.query.$filter === 'productType==SI,idContract==SIMXP0000002')
         return res.json(dashboard_03_SI);
     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,currency==MXP')
         return res.json(dashboard_03_IN);
