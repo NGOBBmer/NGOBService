@@ -5,6 +5,7 @@ var dashboard_02 = require('../../mock/V00/dashboard/dashboard/dashboard_02.json
 var dashboard_03 = require('../../mock/V00/dashboard/dashboard/dashboard_03.json');
 var dashboard_02_SI = require('../../mock/V00/dashboard/dashboard/dashboard_02.SI.json');
 var dashboard_03_SI = require('../../mock/V00/dashboard/dashboard/dashboard_03.SI.json');
+var dashboard_04_SI = require('../../mock/V00/dashboard/dashboard/dashboard_04.SI.json');
 var dashboard_03_IN = require('../../mock/V00/dashboard/dashboard/dashboard_03.IN.json');
 var dashboard_04_IN = require('../../mock/V00/dashboard/dashboard/dashboard_04.IN.json');
 var dashboard_05_IN = require('../../mock/V00/dashboard/dashboard/dashboard_05.IN.json');
@@ -34,6 +35,8 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_02_SI);
     else if (req.query.$filter === 'productType==SI,idContract==SIMXP0000002')
         return res.json(dashboard_03_SI);
+    else if (req.query.$filter === 'productType==SI,idContract==SIMXP0000011')
+        return res.json(dashboard_04_SI);
     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,currency==MXP')
         return res.json(dashboard_03_IN);
     else if (tsec === '123456' && req.query.$filter === 'productType==TT')
