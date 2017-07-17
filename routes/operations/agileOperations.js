@@ -83,8 +83,36 @@ router.get('/V00/agileOperations', function(req, res, next) {
         var filePath = path.join(__dirname, urlJson2 + weekId + ".json");
         try {
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          if (weekId != '7'){
+            var len = json.periodicsOperations.length;
+            var currentDate = moment().format('YYYY-MM-DD'); 
+            if (weekId=='1')
+              currentDate = moment().add(7,'days').format('YYYY-MM-DD');
+            else if (weekId=='2')
+              currentDate = moment().add(14,'days').format('YYYY-MM-DD');
+            else if (weekId=='3')
+               currentDate = moment().add(21,'days').format('YYYY-MM-DD');
+            else if (weekId=='4')
+               currentDate = moment().add(28,'days').format('YYYY-MM-DD');
+            else if (weekId=='5')
+              currentDate = moment().add(35,'days').format('YYYY-MM-DD');
+            else if (weekId=='6')
+              currentDate = moment().add(42,'days').format('YYYY-MM-DD');
+            else if (weekId=='7')
+              currentDate = moment().add(49,'days').format('YYYY-MM-DD');
+            for(i = 0; i < len; i++){
+              if (i==0){
+                json.periodicsOperations[i].operationDate = moment(currentDate).format('YYYY-MM-DD');
+              }else if (i%2==0){
+                json.periodicsOperations[i].operationDate = moment(currentDate).add(2,'days').format('YYYY-MM-DD');
+              }else{
+                json.periodicsOperations[i].operationDate = moment(currentDate).add(3,'days').format('YYYY-MM-DD');
+              }
+              
+            }
+          }
         } catch(ex){
-           return res.status(500).json(ERR_WEEK01);
+          return res.status(500).json(ERR_WEEK01);
         }
         return res.json(json);
       }
