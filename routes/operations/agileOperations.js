@@ -46,6 +46,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
        
         // cDate = moment().add(1,'days').format('YYYY-MM-DD');
         var cDate = moment(date);
+        var rn = Math.floor((Math.random() * 7) + 1);;
         if (!isNaN(cDate)) {
           var filePath = path.join(__dirname, urlJson);
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -60,12 +61,14 @@ router.get('/V00/agileOperations', function(req, res, next) {
             // json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
             json.nextDate = nextDate;
             json.total.amount.amount=0;
+            json.currentWeek='init';
             delete json.previousDate;
           }else if (date === endDate){
             var previousDate = moment(date).subtract(1,'days').format('YYYY-MM-DD');
             json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
             json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
             json.previousDate = previousDate;
+            json.currentWeek=rn;
             delete json.nextDate;
             delete json.image;
           }else{
@@ -76,6 +79,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
             json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
             json.nextDate = nextDate;
             json.previousDate = previousDate;
+            json.currentWeek=rn;
             delete json.image;
           }
           return res.json(json);
