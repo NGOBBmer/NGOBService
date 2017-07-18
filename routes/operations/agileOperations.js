@@ -55,9 +55,11 @@ router.get('/V00/agileOperations', function(req, res, next) {
             return res.status(500).json(ERR_DATE02);
           }else if (date === currentDate){
             var nextDate = moment(date).add(1,'days').format('YYYY-MM-DD');
-            json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
-            json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
+            delete json.periodicsOperations;
+            // json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
+            // json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
             json.nextDate = nextDate;
+            json.total.amount.amount=0;
             delete json.previousDate;
           }else if (date === endDate){
             var previousDate = moment(date).subtract(1,'days').format('YYYY-MM-DD');
@@ -65,6 +67,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
             json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
             json.previousDate = previousDate;
             delete json.nextDate;
+            delete json.image;
           }else{
             // var cDate = moment(date);
             var nextDate = moment(date).add(1,'days').format('YYYY-MM-DD');
@@ -73,6 +76,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
             json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
             json.nextDate = nextDate;
             json.previousDate = previousDate;
+            delete json.image;
           }
           return res.json(json);
         }else{
