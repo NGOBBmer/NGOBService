@@ -32,10 +32,10 @@ router.get('/V00/dashboard/mobileTransfers', function(req, res, next) {
       if(req.query.amount!=null && req.query.concept!= "" && req.query.idAccount !=""){
       return res.json(DATA_01);
     }else{
-      return res.status(400).json(ERROR1);
+      return res.status(400).json(ERROR);
     }
   }
-  return res.status(400).json(ERROR);
+  return res.status(400).json(ERROR1);
   next();
 });
 
