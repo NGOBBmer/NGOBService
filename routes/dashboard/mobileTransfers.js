@@ -35,7 +35,7 @@ router.get('/V00/dashboard/mobileTransfers', function(req, res, next) {
       return res.status(400).json(ERROR);
     }
   }
-  return res.status(400).json(ERROR11);
+  return res.status(400).json(ERROR1);
   next();
 });
 
