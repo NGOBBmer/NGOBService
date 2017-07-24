@@ -49,7 +49,7 @@
         },
         "assigned": {
           "isNominated": false,
-          "hasPocket": false
+          "hasPocket": true
         }
       },
       {
@@ -64,7 +64,7 @@
           "cellsNavigation": true
         },
         "assigned": {
-          "isNominated": false,
+          "isNominated": true,
           "hasPocket": false
         }
       },
