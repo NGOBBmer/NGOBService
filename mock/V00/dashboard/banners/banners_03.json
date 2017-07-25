@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "campaignId": "0430bnm1702150001",
+      "event": "invasivasalir",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "/img/promocionpersonalizada/240815CS53ZOOM.png"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "/img/promocionpersonalizada/240815CS53.png"
+      }
+    },
+    {
+      "campaignId": "0430bnm1702280002",
+      "event": "click",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "/img/promocionpersonalizada/251015CI73ZOOM.png"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "/img/promocionpersonalizada/251015CI73.png"
+      }
+    },
+    {
+      "campaignId": "0430bnm1702280003",
+      "event": "click",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "/img/promocionpersonalizada/251015CI73ZOOM.png"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "/img/promocionpersonalizada/251015CI73.png"
+      }
+    },
+    {
+      "campaignId": "0430bnm1702280004",
+      "event": "click",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "/img/promocionpersonalizada/251015CI73ZOOM.png"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "/img/promocionpersonalizada/251015CI73.png"
+      }
+    }
+  ]
+}

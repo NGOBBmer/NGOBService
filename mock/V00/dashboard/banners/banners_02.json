@@ -12,6 +12,19 @@
         "type": "sliderImage",
         "url": "/img/promocionpersonalizada/240815CS53.png"
       }
+    },
+    {
+      "campaignId": "0430bnm1702280002",
+      "event": "click",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "/img/promocionpersonalizada/251015CI73ZOOM.png"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "/img/promocionpersonalizada/251015CI73.png"
+      }
     }
   ]
 }
