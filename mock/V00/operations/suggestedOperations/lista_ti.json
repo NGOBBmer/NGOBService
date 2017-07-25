@@ -8,6 +8,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TI"
+      },
+      {
+        "name": "id",
+        "value": "26768"
+      }]
+    },
     "operationType": "TI",
     "bank": {
       "name": "BANAMEX",

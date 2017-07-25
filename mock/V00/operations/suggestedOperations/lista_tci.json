@@ -8,6 +8,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TCI"
+      },
+      {
+        "name": "id",
+        "value": "26769"
+      }]
+    },
     "operationType": "TCI",
     "bank": {
       

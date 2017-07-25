@@ -8,6 +8,17 @@
     },
     "isOperable": true,
     "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26761"
+      }]
+    },
     "operationType": "PDS",
     "bank": {
       
@@ -22,6 +33,17 @@
     },
     "isOperable": true,
     "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26762"
+      }]
+    },
     "operationType": "PDS",
     "bank": {
       

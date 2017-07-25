@@ -8,6 +8,17 @@
     },
     "isOperable": true,
     "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26761"
+      }]
+    },
     "operationType": "PDS",
     "bank": {
       
@@ -22,6 +33,17 @@
     },
     "isOperable": true,
     "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26762"
+      }]
+    },
     "operationType": "PDS",
     "bank": {
       
@@ -36,6 +58,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TP"
+      },
+      {
+        "name": "id",
+        "value": "26763"
+      }]
+    },
     "operationType": "TP",
     "bank": {
       "name": "BBVA"
@@ -50,6 +83,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26764"
+      }]
+    },
     "operationType": "TT",
     "bank": {
       "name": "BBVA"
@@ -64,6 +108,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26765"
+      }]
+    },
     "operationType": "TT",
     "bank": {
       "name": "BBVA"
@@ -78,6 +133,17 @@
     },
     "isOperable": false,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26766"
+      }]
+    },
     "operationType": "TT",
     "bank": {
       "name": "BBVA"
@@ -92,6 +158,17 @@
     },
     "isOperable": false,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26767"
+      }]
+    },
     "operationType": "TT",
     "bank": {
       "name": "BBVA"
@@ -106,6 +183,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TI"
+      },
+      {
+        "name": "id",
+        "value": "26768"
+      }]
+    },
     "operationType": "TI",
     "bank": {
       "name": "BANAMEX",
@@ -121,6 +209,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TCI"
+      },
+      {
+        "name": "id",
+        "value": "26769"
+      }]
+    },
     "operationType": "TCI",
     "bank": {
       
@@ -133,6 +232,17 @@
       "amount": "10.00"
     },
     "isOperable": true,
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TCP"
+      },
+      {
+        "name": "id",
+        "value": "26770"
+      }]
+    },
     "operationType": "TCP",
     "bank": {
       

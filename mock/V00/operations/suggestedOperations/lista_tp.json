@@ -8,6 +8,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TP"
+      },
+      {
+        "name": "id",
+        "value": "26763"
+      }]
+    },
     "operationType": "TP",
     "bank": {
       "name": "BBVA"

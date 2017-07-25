@@ -1,12 +1,22 @@
 {
-  "suggestedOperations": [
-  {
+  "suggestedOperations": [{
     "id": "26770",
     "shortname": "Pago a Tarjeta de CrÃ©dito Cuenta Propia",
     "paymentAmount": {
       "amount": "10.00"
     },
     "isOperable": true,
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TCP"
+      },
+      {
+        "name": "id",
+        "value": "26770"
+      }]
+    },
     "operationType": "TCP",
     "bank": {
       

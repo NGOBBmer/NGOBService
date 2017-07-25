@@ -8,6 +8,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26764"
+      }]
+    },
     "operationType": "TT",
     "bank": {
       "name": "BBVA"
@@ -22,34 +33,17 @@
     },
     "isOperable": true,
     "chargeAccount": "1500001929",
-    "operationType": "TT",
-    "bank": {
-      "name": "BBVA"
-    }
-  },
-  {
-    "id": "26766",
-    "shortname": "Transferencia a Cuentas de Terceros",
-    "paymentAccount": "0177930047",
-    "paymentAmount": {
-      "amount": "10.00"
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26765"
+      }]
     },
-    "isOperable": false,
-    "chargeAccount": "1500001929",
-    "operationType": "TT",
-    "bank": {
-      "name": "BBVA"
-    }
-  },
-  {
-    "id": "26767",
-    "shortname": "Transferencia a Cuentas de Terceros",
-    "paymentAccount": "0178851808",
-    "paymentAmount": {
-      "amount": "10.00"
-    },
-    "isOperable": false,
-    "chargeAccount": "1500001929",
     "operationType": "TT",
     "bank": {
       "name": "BBVA"

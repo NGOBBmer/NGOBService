@@ -1,0 +1,27 @@
+{
+	"actionalAdvice": [{
+		"id": "26770",
+		"shortname": "Pago a Tarjeta de Crédito Cuenta Propia",
+		"paymentAccount": "4772142702142215",
+		"paymentAmount": {
+			"amount": "10.00"
+		},
+		"isOperable": true,
+		"chargeAccount": "1500001929",
+		"navigation": {
+			"pathUrl": "realizarOperacionFrecuente",
+			"params": [{
+				"name": "operationType",
+				"value": "TCP"
+			},
+			{
+				"name": "id",
+				"value": "26770"
+			}]
+		},
+		"operationType": "TCP",
+		"bank": {
+			
+		}
+	}]
+}
