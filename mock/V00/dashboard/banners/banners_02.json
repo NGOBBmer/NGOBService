@@ -5,12 +5,12 @@
       "event": "invasivasalir",
       "modalImage": {
         "type": "modalImage",
-        "url": "/img/banners/240815CS53ZOOM.jsp"
+        "url": "/img/banners/240815CS53ZOOM.jpg"
       },
       "notify": false,
       "sliderImage": {
         "type": "sliderImage",
-        "url": "/img/banners/240815CS53.jsp"
+        "url": "/img/banners/240815CS53.jpg"
       }
     },
     {
@@ -18,12 +18,12 @@
       "event": "click",
       "modalImage": {
         "type": "modalImage",
-        "url": "/img/banners/251015CI73ZOOM.jsp"
+        "url": "/img/banners/251015CI73ZOOM.jpg"
       },
       "notify": false,
       "sliderImage": {
         "type": "sliderImage",
-        "url": "/img/banners/240815CS53.jsp"
+        "url": "/img/banners/240815CS53.jpg"
       }
     }
   ]
