@@ -5,12 +5,12 @@
       "event": "invasivasalir",
       "modalImage": {
         "type": "modalImage",
-        "url": "/img/promocionpersonalizada/240815CS53ZOOM.png"
+        "url": "/img/banners/240815CS53ZOOM.jpg"
       },
       "notify": false,
       "sliderImage": {
         "type": "sliderImage",
-        "url": "/img/promocionpersonalizada/240815CS53.png"
+        "url": "/img/banners/240815CS53.jsp"
       }
     }
   ]

@@ -5,12 +5,12 @@
       "event": "invasivasalir",
       "modalImage": {
         "type": "modalImage",
-        "url": "/img/promocionpersonalizada/240815CS53ZOOM.png"
+        "url": "/img/banners/240815CS53ZOOM.jsp"
       },
       "notify": false,
       "sliderImage": {
         "type": "sliderImage",
-        "url": "/img/promocionpersonalizada/240815CS53.png"
+        "url": "/img/banners/240815CS53.jsp"
       }
     },
     {
@@ -18,12 +18,12 @@
       "event": "click",
       "modalImage": {
         "type": "modalImage",
-        "url": "/img/promocionpersonalizada/251015CI73ZOOM.png"
+        "url": "/img/banners/251015CI73ZOOM.jsp"
       },
       "notify": false,
       "sliderImage": {
         "type": "sliderImage",
-        "url": "/img/promocionpersonalizada/251015CI73.png"
+        "url": "/img/banners/251015CI73.jsp"
       }
     },
     {
@@ -31,12 +31,12 @@
       "event": "click",
       "modalImage": {
         "type": "modalImage",
-        "url": "/img/promocionpersonalizada/251015CI73ZOOM.png"
+        "url": "/img/banners/251015CI73ZOOM.jsp"
       },
       "notify": false,
       "sliderImage": {
         "type": "sliderImage",
-        "url": "/img/promocionpersonalizada/251015CI73.png"
+        "url": "/img/banners/251015CI73.jsp"
       }
     },
     {
@@ -44,12 +44,12 @@
       "event": "click",
       "modalImage": {
         "type": "modalImage",
-        "url": "/img/promocionpersonalizada/251015CI73ZOOM.png"
+        "url": "/img/banners/251015CI73ZOOM.jsp"
       },
       "notify": false,
       "sliderImage": {
         "type": "sliderImage",
-        "url": "/img/promocionpersonalizada/251015CI73.png"
+        "url": "/img/banners/251015CI73.jsp"
       }
     }
   ]
