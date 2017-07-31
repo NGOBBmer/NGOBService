@@ -3,9 +3,10 @@
     "typeProduct": "pesos",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleCuenta",
+        "pathUrl": "cellsDetalleCuenta",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequera"
@@ -19,6 +20,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000001"
@@ -29,6 +31,7 @@
         "pathUrl": "serviciosMenuQuiero",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipo",
                 "value": "todos"
@@ -42,6 +45,7 @@
         "pathUrl": "compraVentaDolares",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000001"
@@ -52,6 +56,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000001"
@@ -69,9 +74,10 @@
     "typeProduct": "pesos",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleCuenta",
+        "pathUrl": "cellsDetalleCuenta",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequera"
@@ -85,6 +91,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000002"
@@ -95,6 +102,7 @@
         "pathUrl": "serviciosMenuQuiero",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipo",
                 "value": "todos"
@@ -108,6 +116,7 @@
         "pathUrl": "compraVentaDolares",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000002"
@@ -118,6 +127,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000002"
@@ -131,19 +141,20 @@
         }
     }]
 }, {
-    "id": "AHMXP0000003",
+    "id": "CHMXP0000003",
     "typeProduct": "pesos",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleCuenta",
+        "pathUrl": "cellsDetalleCuenta",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "CH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequera"
             }, {
                 "name": "idcuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -151,9 +162,10 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -161,12 +173,13 @@
         "pathUrl": "serviciosMenuQuiero",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "tipo",
                 "value": "todos"
             }, {
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -174,9 +187,10 @@
         "pathUrl": "compraVentaDolares",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -184,9 +198,436 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000004",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000005",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000006",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000007",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000008",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000009",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000009"
             }]
         }
     }, {
@@ -201,9 +642,10 @@
     "typeProduct": "dolares",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleCuenta",
+        "pathUrl": "cellsDetalleCuenta",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequeraDolares"
@@ -217,6 +659,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
                 "value": "CHUSD0000001"
@@ -227,9 +670,56 @@
         "pathUrl": "compraVentaDolares",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
                 "value": "CHUSD0000001"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHUSD0000002",
+    "typeProduct": "dolares",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequeraDolares"
+            }, {
+                "name": "idcuenta",
+                "value": "CHUSD0000002"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHUSD0000002"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHUSD0000002"
             }]
         }
     }, {
@@ -244,9 +734,10 @@
     "typeProduct": "euros",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleCuenta",
+        "pathUrl": "cellsDetalleCuenta",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequeraEuro"
@@ -260,6 +751,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
                 "value": "CHEUR0000001"
@@ -279,7 +771,8 @@
         "nombre": "Movimientos",
         "pathUrl": "detalleCuenta",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
+            "typeProductId": "SI",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "fondoInversiones"
@@ -293,6 +786,7 @@
         "pathUrl": "fondoInversionCompraVenta",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "SI",
             "params": [{
                 "name": "tipoOperacion",
                 "value": "compra"
@@ -315,7 +809,8 @@
         "nombre": "Movimientos",
         "pathUrl": "detalleCuenta",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
+            "typeProductId": "SI",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "fondoInversiones"
@@ -329,6 +824,7 @@
         "pathUrl": "fondoInversionCompraVenta",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "SI",
             "params": [{
                 "name": "tipoOperacion",
                 "value": "compra"
@@ -351,7 +847,8 @@
         "nombre": "Movimientos",
         "pathUrl": "detalleCuenta",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
+            "typeProductId": "SI",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "fondoInversiones"
@@ -365,6 +862,7 @@
         "pathUrl": "fondoInversionCompraVenta",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "SI",
             "params": [{
                 "name": "tipoOperacion",
                 "value": "compra"
@@ -385,9 +883,10 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleTarjetaCredito",
+        "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "TC",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "tarjetasCredito"
@@ -401,6 +900,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000001"
@@ -411,6 +911,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000001"
@@ -421,6 +922,7 @@
         "pathUrl": "disposicionTDC",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000001"
@@ -431,6 +933,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000001"
@@ -448,9 +951,10 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleTarjetaCredito",
+        "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "TC",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "tarjetasCredito"
@@ -464,6 +968,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000002"
@@ -474,6 +979,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000002"
@@ -484,6 +990,7 @@
         "pathUrl": "disposicionTDC",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000002"
@@ -494,6 +1001,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000002"
@@ -511,9 +1019,10 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleTarjetaCredito",
+        "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "TC",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "tarjetasCredito"
@@ -527,6 +1036,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000003"
@@ -537,6 +1047,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000003"
@@ -547,6 +1058,7 @@
         "pathUrl": "disposicionTDC",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000003"
@@ -557,6 +1069,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000003"
@@ -574,9 +1087,10 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleTarjetaCredito",
+        "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "TC",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "tarjetasCredito"
@@ -590,6 +1104,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000004"
@@ -600,6 +1115,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000004"
@@ -610,6 +1126,7 @@
         "pathUrl": "disposicionTDC",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000004"
@@ -620,6 +1137,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000004"
@@ -637,9 +1155,10 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleTarjetaCredito",
+        "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "TC",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "tarjetasCredito"
@@ -653,6 +1172,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000005"
@@ -663,6 +1183,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000005"
@@ -673,6 +1194,7 @@
         "pathUrl": "disposicionTDC",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000005"
@@ -683,6 +1205,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000005"
@@ -700,9 +1223,10 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleTarjetaCredito",
+        "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "TC",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "tarjetasCredito"
@@ -716,6 +1240,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000006"
@@ -726,6 +1251,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000006"
@@ -736,6 +1262,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000006"
@@ -753,9 +1280,10 @@
     "typeProduct": "tarjetasCredito",
     "menu": [{
         "nombre": "Movimientos",
-        "pathUrl": "detalleTarjetaCredito",
+        "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "TC",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "tarjetasCredito"
@@ -769,6 +1297,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000007"
@@ -779,6 +1308,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000007"
@@ -789,6 +1319,7 @@
         "pathUrl": "disposicionTDC",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000007"
@@ -799,6 +1330,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",
                 "value": "TCMXP0000007"
@@ -819,6 +1351,7 @@
         "pathUrl": "consultaSaldoCrediton",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "PR",
             "params": [{
                 "name": "id",
                 "value": "0"
@@ -832,6 +1365,7 @@
         "pathUrl": "creditonPagoCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "PR",
             "params": [{
                 "name": "cuenta",
                 "value": "0"
@@ -845,6 +1379,7 @@
         "pathUrl": "edoCuentaCredito",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "PR",
             "params": [{
                 "name": "cuenta",
                 "value": "0"

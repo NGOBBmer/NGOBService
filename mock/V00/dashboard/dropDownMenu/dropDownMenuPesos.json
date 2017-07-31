@@ -6,6 +6,7 @@
         "pathUrl": "detalleCuenta",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequera"
@@ -19,6 +20,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000001"
@@ -29,6 +31,7 @@
         "pathUrl": "serviciosMenuQuiero",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipo",
                 "value": "todos"
@@ -42,6 +45,7 @@
         "pathUrl": "compraVentaDolares",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000001"
@@ -52,6 +56,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000001"
@@ -72,6 +77,7 @@
         "pathUrl": "detalleCuenta",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequera"
@@ -85,6 +91,7 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000002"
@@ -95,6 +102,7 @@
         "pathUrl": "serviciosMenuQuiero",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "tipo",
                 "value": "todos"
@@ -108,6 +116,7 @@
         "pathUrl": "compraVentaDolares",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000002"
@@ -118,6 +127,7 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
                 "value": "AHMXP0000002"
@@ -131,19 +141,20 @@
         }
     }]
 }, {
-    "id": "AHMXP0000003",
+    "id": "CHMXP0000003",
     "typeProduct": "pesos",
     "menu": [{
         "nombre": "Movimientos",
         "pathUrl": "detalleCuenta",
         "navigation": {
             "cellsNavigation": true,
+            "typeProductId": "CH",
             "params": [{
                 "name": "tipoCuenta",
                 "value": "cuentaChequera"
             }, {
                 "name": "idcuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -151,9 +162,10 @@
         "pathUrl": "traspasos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -161,12 +173,13 @@
         "pathUrl": "serviciosMenuQuiero",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "tipo",
                 "value": "todos"
             }, {
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -174,9 +187,10 @@
         "pathUrl": "compraVentaDolares",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
             }]
         }
     }, {
@@ -184,9 +198,436 @@
         "pathUrl": "impuestos",
         "navigation": {
             "cellsNavigation": false,
+            "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
-                "value": "AHMXP0000003"
+                "value": "CHMXP0000003"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000004",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000005",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000006",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000007",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000008",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000009",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "typeProductId": "CH",
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000009"
             }]
         }
     }, {
