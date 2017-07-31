@@ -16,5 +16,7 @@
     "currency": "MXN",
     "amount": 0
     }
-  }
+  },
+  "initialDate": "2017-07-31",
+  "finalDate": "2017-08-06"
 }
