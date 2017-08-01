@@ -18,7 +18,7 @@
         "pathNavigation": {
           "pathUrl": "detalleCuenta"
         },
-        "cellsNavigation": false
+        "cellsNavigation": true
       },
       "investmentDetail": [{
           "expirationDate": "11/01/2018",
