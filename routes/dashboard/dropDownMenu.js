@@ -26,7 +26,7 @@ router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
     if(req.query.typeProduct=='tarjetasCredito'){
      return res.json(DATA_04);
     }else{    
-      if(req.query.typeProduct==""&& req.query.page==""){
+      if(req.query.typeProduct==""&& req.query.page=="posicionGlobal"){
         return res.json(DATA_03);
       }else {
         if(req.query.typeProduct=='pesos'){
@@ -35,8 +35,8 @@ router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
           if(req.query.typeProduct==""){
             return res.json(DATA_01);
           }else {
-            }if(req.query.typeProduct==""&& req.query.page=="posicionGlobal"){
-              return res.json(DATA_05);
+            }if(req.query.typeProduct==""&& req.query.page==""){
+              return res.json(DATA_03);
           }else{
             return res.status(400).json(ERROR);
           }
