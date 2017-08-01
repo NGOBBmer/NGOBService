@@ -1,7 +1,9 @@
 {
-	"actionalAdvice": [{
+	"actionalAdvice": {
 		"id": "26770",
-		"shortname": "Pago a Tarjeta de Crédito Cuenta Propia",
+		"title": "Mantén tus beneficios",
+		"description": "NOMBRE, hemos visto que esta cerca la fecha de pago de tu TDC terminación *****2215 . Evita intereses pagando a tiempo.",
+		"action":"Pagar Ahora",
 		"paymentAccount": "4772142702142215",
 		"paymentAmount": {
 			"amount": "10.00"
@@ -20,8 +22,10 @@
 			}]
 		},
 		"operationType": "TCP",
+		"adviceType": "I",
 		"bank": {
-			
+
 		}
-	}]
+	},
+	"comment": " Informativo o alerta // 'I' a A //  action"
 }
