@@ -24,13 +24,8 @@
 		"operationType": "TCP",
 		"adviceType": "I",
 		"bank": {
-			
+
 		}
-	}
+	},
+	"comment": " Informativo o alerta // 'I' a A //  action"
 }
-
-Informativo o alerta
-
-"I" a A
-
-action
