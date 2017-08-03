@@ -61,11 +61,11 @@
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
-      "id": "ADD"
+      "option": "ADD"
     },
     {
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
-      "id": "ALL"
+      "option": "ALL"
     }
   ],
   "image": {
