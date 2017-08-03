@@ -11,7 +11,7 @@
     }
   ],
   "total":{
-    "description": "Total para esta semana",
+    "description": "Total de movimientos",
     "amount":{
     "currency": "MXN",
     "amount": 0

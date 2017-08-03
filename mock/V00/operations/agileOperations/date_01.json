@@ -80,7 +80,7 @@
     "url": "/img/rapidas/widget_cloud.png"
   },
   "total":{
-    "description": "Total de movimientos para este día",
+    "description": "Total de movimientos",
     "amount":{
     "currency": "MXN",
     "amount": 100.0
