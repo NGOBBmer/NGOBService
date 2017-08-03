@@ -16,16 +16,12 @@
         {
           "pathUrl": "operacionesPeriodicasConsultaDetalle",
           "id": "Detalle",
-          "params": [
-            {
-              "name": "idDetalle",
-              "value": "0"
-            }
-          ]
+          "params": {
+            "idDetalle": "0"
+          }
         },
         {
-          "id": "Eliminar",
-          "cellsNavigation": true
+          "id": "Eliminar"
         }
       ],
       "operationDate": "2017-06-27",
@@ -47,16 +43,12 @@
         {
           "pathUrl": "operacionesPeriodicasConsultaDetalle",
           "id": "Detalle",
-          "params": [
-            {
-              "name": "idDetalle",
-              "value": "0"
-            }
-          ]
+          "params": {
+            "idDetalle": "1"
+          }
         },
         {
-          "id": "Eliminar",
-          "cellsNavigation": true
+          "id": "Eliminar"
         }
       ],
       "operationDate": "2017-06-27",

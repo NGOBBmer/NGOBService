@@ -35,7 +35,8 @@
         },
         "assigned": {
           "isNominated": true,
-          "hasPocket": false
+          "hasPocket": false,
+          "pathUrl": "zonaNomina"
         },
          "navigationNomina": {
           "pathNavigation": {

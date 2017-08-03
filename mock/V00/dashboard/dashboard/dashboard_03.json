@@ -20,28 +20,17 @@
         "navigation": {
           "pathNavigation": {
             "pathUrl": "detalleCuenta",
-            "params": [
-              {
-                "name": "tipoCuenta",
-                "value": "cuentaChequera"
-              },
-              {
-                "name": "idcuenta",
-                "value": "AHMXP0000001"
-              }
-            ]
+            "params": {
+              "tipoCuenta": "cuentaChequera",
+              "idcuenta": "AHMXP0000001"
+            }
           },
           "cellsNavigation": true
         },
         "assigned": {
           "isNominated": true,
-          "hasPocket": false
-        },
-         "navigationNomina": {
-          "pathNavigation": {
-            "pathUrl": "zonaNomina"
-          },
-          "cellsNavigation": false
+          "hasPocket": false,
+          "pathUrl": "zonaNomina"
         }
       }
     ]
