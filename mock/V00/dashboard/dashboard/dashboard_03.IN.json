@@ -1,86 +1,32 @@
 {
   "product": {
-    "investments": [{
-      "productId": "INMXP0000001",
-      "balance": {
-        "availableBalance": {
-          "amount": 31999,
-          "currency": "Pesos",
-          "currencyId": "MXP"
-        }
-      },
-      "branch": {
-        "number": "1368067104",
-        "accountType": "inversionesMxp"
-      },
-      "description": "Inversión en Pesos",
-      "navigation": {
-        "pathNavigation": {
-          "pathUrl": "detalleCuenta"
-        },
-        "cellsNavigation": true
-      },
-      "investmentDetail": [{
-          "expirationDate": "11/01/2018",
-          "term": "182",
-          "branch": {
-            "rate": "0.96",
-            "gat": "0.96%"
-          },
-          "balance": {
-            "availableBalance": {
-              "amount": 9999,
-              "currency": "Pesos",
-              "currencyId": "MXP"
-            }
+    "investments": [
+      {
+        "productId": "INMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
           }
         },
-        {
-          "expirationDate": "29/06/2017",
-          "term": "14",
-          "branch": {
-            "rate": "0.96",
-            "gat": "0.96%"
-          },
-          "balance": {
-            "availableBalance": {
-              "amount": 2000,
-              "currency": "Pesos",
-              "currencyId": "MXP"
-            }
-          }
+        "branch": {
+          "number": "1366847544",
+          "accountType": "inversionesMxp"
         },
-        {
-          "expirationDate": "23/05/2017",
-          "term": "14",
-          "branch": {
-            "rate": "0.9",
-            "gat": "0.90%"
-          },
-          "balance": {
-            "availableBalance": {
-              "amount": 20000,
-              "currency": "Pesos",
-              "currencyId": "MXP"
+        "description": "Inversión en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000001",
+              "tipoCuenta": "inversionesMxp"
             }
-          }
+          },
+          "cellsNavigation": true
         },
-        {
-          "expirationDate": "01/11/2016",
-          "term": "21",
-          "branch": {
-            "rate": "0.75",
-            "gat": "0.75%"
-          },
-          "balance": {
-            "availableBalance": {
-              "amount": 10000,
-              "currency": "Pesos",
-              "currencyId": "MXP"
-            }
-          }
-        }
-      ]
-    }]
+        "investmentDetail": []
+      }
+    ]
   }
 }
