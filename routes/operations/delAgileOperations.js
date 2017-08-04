@@ -13,7 +13,6 @@ router.use(function(req, res, next) {
   next();
 });
 
-
 // handler for query http://localhost:4000/operations/V00/deleteAgileOperations/PR0001?agileOperationType=RECURRING
 router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
   if (req.query.agileOperationType === 'RECURRING')

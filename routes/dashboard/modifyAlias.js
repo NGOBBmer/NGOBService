@@ -18,7 +18,6 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
-
 // handler for query http://localhost:5000/dashboard/V00/modifyAlias/CHMXP0000001
 /*
 {
