@@ -1,0 +1,24 @@
+{
+	"listOtherAccountsFrequent": [{
+		"id": "FRTT000000",
+		"shortName": "Prueba_TT",
+		"agileOperationType": "FREQUENT_OPERATION",
+		"operation": {
+			"agileOperationTransfer": {
+				"receiver": {
+					"contract": {
+						"product": {
+							"checkAccount": {
+								"accountNumber": "2800160237"
+							}
+						}
+					},
+					"name": "GIOVANNI NICOLAS MARIN"
+				}
+			}
+		}
+	}],
+	"paginationKey": {
+		"nextPaginationKey": ""
+	}
+}

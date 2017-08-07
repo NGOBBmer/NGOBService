@@ -1,0 +1,435 @@
+{
+	"listOtherAccountsFrequent": [{
+			"id": "FRTT000000",
+			"shortName": "CHQS",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "1480628875"
+								}
+							}
+						},
+						"name": "MARGRETT ALGUIRE CIRIONI"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTT000001",
+			"shortName": "SUSAN",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "0178851808"
+								}
+							}
+						},
+						"name": "SUSAN DIAZ LOW"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTT000002",
+			"shortName": "TDCBBVA",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "4555406269802930"
+								}
+							}
+						},
+						"name": "URI DOINO CRANE"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTT000003",
+			"shortName": "ESPOMEGA",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "4772133011610042"
+								}
+							}
+						},
+						"name": "ESPOMEGA, S DE RL DE CV"
+					}
+				}
+			}
+		}
+	],
+	"listInterbankFrequent": [{
+			"id": "FRTI000000",
+			"shortName": "EXTINEESI",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180435001413613"
+								}
+							}
+						},
+						"name": "JOSE LUIS MIRANDA PACHECO"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000001",
+			"shortName": "AFASI",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180032642233765"
+								}
+							}
+						},
+						"name": "AFASI"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000002",
+			"shortName": "banamex",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002021009412595217"
+								}
+							}
+						},
+						"name": "BANAMEX"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000003",
+			"shortName": "LG SEGURID",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180021809439627"
+								}
+							}
+						},
+						"name": "LG SEGURIDAD"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000004",
+			"shortName": "SOBMEX",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180094861640740"
+								}
+							}
+						},
+						"name": "SOTO BARRANCO MEXICANA"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000005",
+			"shortName": "MET DIAZ",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180019409095266"
+								}
+							}
+						},
+						"name": "METALES DIAZ"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000006",
+			"shortName": "HILL SAFE",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "HSBC"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "021580040569639031"
+								}
+							}
+						},
+						"name": "HILL HS SAFE"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000007",
+			"shortName": "ISRAEL",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANORTE/ IXE"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "4913660004355169"
+								}
+							}
+						},
+						"name": "ISRAEL LUGO GARCIA"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000008",
+			"shortName": "BLINDAJES",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "SANTANDER"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "014180655039143529"
+								}
+							}
+						},
+						"name": "BLINDAJES BULL SAFE"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000009",
+			"shortName": "DIKEN",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANORTE/ IXE"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "072078005853194186"
+								}
+							}
+						},
+						"name": "PROVEEDORA INDUSTRIAL DIKEN S.A. DE C.V"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000010",
+			"shortName": "ALMEIDA",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180050257276597"
+								}
+							}
+						},
+						"name": "ALMEIDA SAENZ DIANA"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000011",
+			"shortName": "BNMXCLABE",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180700256551903"
+								}
+							}
+						},
+						"name": "JASON DERULO"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000012",
+			"shortName": "TRAPO IND",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "SANTANDER"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "014180655031212636"
+								}
+							}
+						},
+						"name": "INDUSTRIALIZADORA DE TRAPO"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000013",
+			"shortName": "GUILTOR",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "HSBC"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "021180040430305276"
+								}
+							}
+						},
+						"name": "GUILTOR EQUIPOS DE SEGURIDAD"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000014",
+			"shortName": "HETSA",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANORTE/ IXE"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "072180008314244570"
+								}
+							}
+						},
+						"name": "HERRAMIENTAS TECNICAS"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000015",
+			"shortName": "VELAVI",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANORTE/ IXE"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "072580005327081190"
+								}
+							}
+						},
+						"name": "VELAVI"
+					}
+				}
+			}
+		}
+	],
+	"paginationKey": {
+		"nextPaginationKey": "16"
+	}
+}

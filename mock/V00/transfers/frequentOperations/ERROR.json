@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_FR_001",
+    "message": "Error al listar operaciones frecuentes",
+    "descripcion": "Se ha producido un error al consultar el servicio /Andrea/transfers/V00/frequentOperations",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

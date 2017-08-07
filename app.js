@@ -10,6 +10,7 @@ var cheques = require('./routes/cheques');
 var cards = require('./routes/cards');
 var pg = require('./routes/pg');
 var operations = require('./routes/operations');
+var transfers = require('./routes/transfers');
 var expandedCard = require('./routes/expanded-card');
 var movements = require('./routes/movements');
 var relatedCards = require('./routes/related-cards');
@@ -42,6 +43,7 @@ var auth = require('./routes/auth');
 var dropDownMenu = require('./routes/dashboard/dropDownMenu');
 var mobileTransfers = require('./routes/dashboard/mobileTransfers');
 var headlinesAccounts = require('./routes/dashboard/headlinesAccounts');
+var frequentOperations = require('./routes/transfers/frequentOperations');
 
 
 var app = express();
@@ -94,6 +96,8 @@ app.use('/dashboard', dropDownMenu);
 app.use('/security', qrcronto);
 app.use('/dashboard', mobileTransfers);
 app.use('/dashboard', headlinesAccounts);
+app.use('/transfers', transfers)
+app.use('/transfers', frequentOperations);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

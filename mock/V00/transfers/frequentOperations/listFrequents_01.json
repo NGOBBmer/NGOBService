@@ -1,0 +1,215 @@
+{
+	"listOtherAccountsFrequent": [{
+			"id": "FRTT000000",
+			"shortName": "CHQS",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "1480628875"
+								}
+							}
+						},
+						"name": "MARGRETT ALGUIRE CIRIONI"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTT000001",
+			"shortName": "SUSAN",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "0178851808"
+								}
+							}
+						},
+						"name": "SUSAN DIAZ LOW"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTT000002",
+			"shortName": "TDCBBVA",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "4555406269802930"
+								}
+							}
+						},
+						"name": "URI DOINO CRANE"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTT000003",
+			"shortName": "ESPOMEGA",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"contract": {
+							"product": {
+								"checkAccount": {
+									"accountNumber": "4772133011610042"
+								}
+							}
+						},
+						"name": "ESPOMEGA, S DE RL DE CV"
+					}
+				}
+			}
+		}
+	],
+	"listInterbankFrequent": [{
+			"id": "FRTI000000",
+			"shortName": "EXTINEESI",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180435001413613"
+								}
+							}
+						},
+						"name": "JOSE LUIS MIRANDA PACHECO"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000001",
+			"shortName": "AFASI",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180032642233765"
+								}
+							}
+						},
+						"name": "AFASI"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000002",
+			"shortName": "banamex",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002021009412595217"
+								}
+							}
+						},
+						"name": "BANAMEX"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000003",
+			"shortName": "LG SEGURID",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180021809439627"
+								}
+							}
+						},
+						"name": "LG SEGURIDAD"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000004",
+			"shortName": "SOBMEX",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180094861640740"
+								}
+							}
+						},
+						"name": "SOTO BARRANCO MEXICANA"
+					}
+				}
+			}
+		},
+		{
+			"id": "FRTI000005",
+			"shortName": "MET DIAZ",
+			"agileOperationType": "FREQUENT_OPERATION",
+			"operation": {
+				"agileOperationTransfer": {
+					"receiver": {
+						"bank": {
+							"name": "BANAMEX"
+						},
+						"contract": {
+							"product": {
+								"expressAccount": {
+									"accountNumber": "002180019409095266"
+								}
+							}
+						},
+						"name": "METALES DIAZ"
+					}
+				}
+			}
+		}
+	],
+	"paginationKey": {
+		"nextPaginationKey": "6"
+	}
+}
