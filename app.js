@@ -44,6 +44,7 @@ var dropDownMenu = require('./routes/dashboard/dropDownMenu');
 var mobileTransfers = require('./routes/dashboard/mobileTransfers');
 var headlinesAccounts = require('./routes/dashboard/headlinesAccounts');
 var frequentOperations = require('./routes/transfers/frequentOperations');
+var creditCardPayment = require('./routes/transfers/creditCardPayment');
 
 
 var app = express();
@@ -98,6 +99,7 @@ app.use('/dashboard', mobileTransfers);
 app.use('/dashboard', headlinesAccounts);
 app.use('/transfers', transfers)
 app.use('/transfers', frequentOperations);
+app.use('/transfers', creditCardPayment);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
