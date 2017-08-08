@@ -1,1 +1,10 @@
-{}
+{
+  "error": {
+    "code": "ERR_AO_000",
+    "message": "Ocurrió un problema al intentar eliminar la operación",
+    "descripcion": "Se ha producido un error al consultar el servicio /Andrea/dashboard/V00/deleteAgileOperations",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}
