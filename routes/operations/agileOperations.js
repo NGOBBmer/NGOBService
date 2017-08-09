@@ -30,7 +30,7 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/operations/V00/agileOperations?agileOperationType=
 router.get('/V00/agileOperations', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if (tsec == '123456'){
+  if (tsec == '1234567890'){
      return res.status(500).json(ERROR);
   }else{
     if (req.query.agileOperationType === 'ALL')
@@ -137,8 +137,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
         return res.json(json);
       }
       // return res.json(LISTA_PR);
-    }
-    else if (req.query.agileOperationType === 'FAST')
+    }else if (req.query.agileOperationType === 'FAST')
       return res.json(LISTA_RP);
     }
   return res.json(ERROR);
