@@ -186,5 +186,8 @@
       },
       "operationType": "TA"
     }
-  ]
+  ],
+  "image": {
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
+  }
 }
