@@ -28,14 +28,15 @@ router.post('/V00/dashboard/mobileTransfers/', function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/dashboard/mobileTransfers?amount=100&concept=concept&idAccount=AHMXP0000002
 router.get('/V00/dashboard/mobileTransfers', function(req, res, next) {
   var otp = req.headers['otp'];
+  var amou= req.query.amount%100
     if(otp == '12345678'){
-      if(req.query.amount!=null && req.query.concept!= "" && req.query.idAccount !=""){
-      return res.json(DATA_01);
-    }else{
-      return res.status(400).json(ERROR);
-    }
-  }
-  return res.status(400).json(ERROR1);
+      if(req.query.amount!=null && req.query.concept!= "" && req.query.idAccount !="" &&  amou== 0){
+        return res.json(DATA_01);
+      }else{
+          return res.status(400).json(ERROR);
+      }
+    }else
+      return res.status(400).json(ERROR1);
   next();
 });
 
