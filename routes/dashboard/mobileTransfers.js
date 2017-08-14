@@ -17,11 +17,16 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/dashboard/mobileTransfers
 router.post('/V00/dashboard/mobileTransfers/', function(req, res, next) {
   console.log(req.body);
-	if(req.body.amount!=null && req.body.concept!= "" && req.body.idAccount !=""){
-     return res.json(DATA_01);
-  }else{
-    return res.status(400).json(ERROR);
-  }
+	var otp = req.headers['otp'];
+  var amou= req.body.amount%100
+    if(otp == '12345678'){
+      if(req.body.amount!=null && req.body.concept!= "" && req.body.idAccount !="" &&  amou== 0){
+        return res.json(DATA_01);
+      }else{
+          return res.status(400).json(ERROR);
+      }
+    }else
+      return res.status(400).json(ERROR1);
   next();
   });
 
