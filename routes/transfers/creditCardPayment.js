@@ -30,7 +30,7 @@ router.put('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
 
     if (cardId!= '' && chargeAccount != '' && amount !=''  && aplicationDate != ''){
         
-        if (isPeriodic == 'true'){
+        if (isPeriodic == 'TRUE'){
              if (endDate != '' && concept != '' && repetitions !='' && period != ''){
                 return res.json(OK);
              }else{
