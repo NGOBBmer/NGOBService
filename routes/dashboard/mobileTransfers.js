@@ -18,11 +18,13 @@ router.use(function(req, res, next) {
 router.post('/V00/dashboard/mobileTransfers/', function(req, res, next) {
   console.log(req.body);
 	var otp = req.headers['otp'];
+  var tsec = req.headers['tsec'];
   var amou= req.body.amount%100
-    if(otp == '12345678'){
+  
+    if(otp == '12345678' && tsec != '' && tsec != null){
       if(req.body.amount!=null && req.body.concept!= "" && req.body.idAccount !="" &&  amou== 0){
         return res.json(DATA_01);
-      }else{
+      }else{ 
           return res.status(400).json(ERROR);
       }
     }else
