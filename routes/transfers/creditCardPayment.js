@@ -24,7 +24,7 @@ router.put('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
     var aplicationDate =req.body.aplicationDate;
     var endDate =req.body.endDate;
     //var reference =req.body.reference;
-    var amount =req.body.paymentAmount.amount;
+    var amount =req.body.amount;
     var repetitions =req.body.repetitions;
     var period =req.body.period;
 
