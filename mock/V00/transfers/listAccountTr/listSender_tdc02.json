@@ -1,0 +1,16 @@
+{
+  "data": {
+    "listValidAccounts": [
+      {
+        "id": "CHMXP0000001",
+        "number": "0178963983",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 1388698.84,
+          "currency": "MXP"
+        }
+      }
+    ]
+  }
+}

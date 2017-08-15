@@ -3,6 +3,7 @@ extends layout
 block content
   h1 Express Heroku API
   p Welcome to Express
+  a(href="/") ir a TDC
   a(href="./cheques") ir a cheques
   a(href="./dashboard") ir a dashboard
   a(href="./operations") ir a operations
@@ -23,3 +24,35 @@ block content
         li LINEA { "chargeAccount": "CHMXP0000001",  "concept": "TEST NGOB",  "isPerdiodic": "FALSE",  "aplicationDate": "14/08/2017",  "amount":"100"}
         li PROGRAMADA { "chargeAccount": "CHMXP0000001",  "concept": "PROGRAM",  "isPerdiodic": "TRUE",  "aplicationDate": "31/08/2017",  "amount":"100" }
         li PERIODICA { "chargeAccount": "CHMXP0000001",  "concept": "PERIODICA",  "isPerdiodic": "TRUE",  "aplicationDate": "31/08/2017",  "amount":"100",  "repetitions":"2",  "period":"Semanal" }
+    li
+      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts") listSenderAccountsALL (GET)
+      span https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts
+      ul
+        li https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts 
+          b Muestra todas las cuentas de retiro v&aacute;lidas 
+        li https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD 
+          b Muestra las cuentas de retiro v&aacute;lidas para TDC 
+          i (puede ir el id informado en accountId o no)
+        li https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
+          br
+          br
+          Si tsec es 1234567890 devuelve error, sin cuentas v&aacute;lidas para operar
+          br
+          Si tsec es 123456 devuelve solo 1 cuenta v&aacute;lida
+          br
+          Sin tsec devuelve 2 cuentas v&aacute;lidas
+    li
+      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts") listReceiverAccounts (GET)
+      span https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts
+      ul
+        li https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts?operationType=PAY_CREDITCARD&accountId=TCMXP0000001 
+          b Muestra las cuentas de deposito v&aacute;lidas para TDC 
+          i (puede ir el id informado en accountId o no)
+        li https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts?operationType=PAY_CREDITCARD&accountId=TCMXP0000001 
+          br
+          br
+          Si tsec es 1234567890 devuelve error, sin cuentas deposito para operar
+          br
+          Si tsec es 123456 devuelve solo 1 cuenta de deposito
+          br
+          Sin tsec devuelve 2 cuentas de deposito
