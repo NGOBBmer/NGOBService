@@ -7,8 +7,13 @@
         "alias": "",
         "accountType": "CH",
         "currentBalance": {
-          "balance": 1388698.84,
+          "balance": 1388464.02,
           "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -19,6 +24,11 @@
         "currentBalance": {
           "balance": 775149615.08,
           "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       }
     ]

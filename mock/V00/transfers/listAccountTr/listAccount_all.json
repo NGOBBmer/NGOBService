@@ -7,8 +7,13 @@
         "alias": "",
         "accountType": "CH",
         "currentBalance": {
-          "balance": 1388588.84,
+          "balance": 1388464.02,
           "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -19,6 +24,11 @@
         "currentBalance": {
           "balance": 775149615.08,
           "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -27,9 +37,13 @@
         "alias": "*****91924",
         "accountType": "TC",
         "currentBalance": {
-          "balance": 5312.51,
-
+          "balance": 5412.51,
           "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=410181&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -40,6 +54,11 @@
         "currentBalance": {
           "balance": -46971.72,
           "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       }
     ]
