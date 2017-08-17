@@ -251,12 +251,10 @@
         "navigation": {
           "pathNavigation": {
             "pathUrl": "portafolioPatrimonialChart",
-            "params": [
-              {
+            "params": {
                 "name": "idContrato",
                 "value": "PTMXP0000001"
               }
-            ]
           },
           "cellsNavigation": false
         }
