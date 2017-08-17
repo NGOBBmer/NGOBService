@@ -7,6 +7,11 @@ var listReceiver_tdc01 = require('../../mock/V00/transfers/listAccountTr/listRec
 var listReceiver_tdc02 = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdc02.json');
 var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccount_err.json');
 
+//CardInformation
+var cardInformation_01 = require('../../mock/V00/transfers/cardInfo/cardInformation_01.json');
+var cardInformation_def = require('../../mock/V00/transfers/cardInfo/cardInformation_00.json');
+var cardInformation_err = require('../../mock/V00/transfers/cardInfo/cardInformation_err.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -47,6 +52,18 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
     else 
         return res.json(listAccount_all);
     return res.status(400).json(listAccount_err);
+  next();
+});
+
+// handler for query http://localhost:5000/transfers/V00/cardInformation/TCMXP0000001
+router.get('/V00/cardInformation/:id', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if (req.params.id == 'TCMXP0000001')
+        return res.json(cardInformation_01);
+    else if (tsec == '123456')
+        return res.json(cardInformation_def);
+
+    return res.status(400).json(cardInformation_err);
   next();
 });
 
