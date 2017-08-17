@@ -27,7 +27,7 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:5000/dashboard/V00/dashboard?$filter=productType==TT
 router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == '') && req.query.$filter === 'productType==TT' )
+    if ((tsec == 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==TT' )
 	   return res.json(dashboard_02);
     else if (req.query.$filter === 'productType==SI,idContract==SIMXP0000001')
         return res.json(dashboard_02_SI);

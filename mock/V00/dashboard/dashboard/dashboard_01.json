@@ -102,7 +102,8 @@
         }
       }
     ],
-    "investments": [{
+    "investments": [
+      {
         "productId": "INMXP0000001",
         "balance": {
           "availableBalance": {
@@ -225,6 +226,39 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        }
+      }
+    ],
+    "heritage": [
+      {
+        "productId": "PTMXP0000001",
+        "branch": {
+          "number": "00740680002106857531",
+          "alias": "PT00740680002106857531",
+          "typeId": "PT",
+          "accountType": "patrimoniales"
+        },
+        "balance": {
+          "totalBalance": {
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "status": "0",
+        "description": "Patrimonial",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "portafolioPatrimonialChart",
+            "params": [
+              {
+                "name": "idContrato",
+                "value": "PTMXP0000001"
+              }
+            ]
+          },
+          "cellsNavigation": false
         }
       }
     ]
