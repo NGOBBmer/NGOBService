@@ -18,12 +18,33 @@ block content
         li https://cards-service-mock.herokuapp.com/transfers/V00/frequentOperations?typeOpFrequent=interbank&paginationKey=&numMovsFreq=10
         li https://cards-service-mock.herokuapp.com/transfers/V00/frequentOperations?typeOpFrequent=third_party&paginationKey=&numMovsFreq=10
     li
-      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001") creditCardPayment/{idCreditCard}
+      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001") creditCardPayment/{idCreditCard}  -  creditCardId. TDC a pagar (URL param)
       span href="https://cards-service-mock.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001
       ul
-        li LINEA { "chargeAccount": "CHMXP0000001",  "concept": "TEST NGOB",  "isPerdiodic": "FALSE",  "aplicationDate": "14/08/2017",  "amount":"100"}
-        li PROGRAMADA { "chargeAccount": "CHMXP0000001",  "concept": "PROGRAM",  "isPerdiodic": "TRUE",  "aplicationDate": "31/08/2017",  "amount":"100" }
-        li PERIODICA { "chargeAccount": "CHMXP0000001",  "concept": "PERIODICA",  "isPerdiodic": "TRUE",  "aplicationDate": "31/08/2017",  "amount":"100",  "repetitions":"2",  "period":"Semanal" }
+        li aplicationDate Dia Actual{"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPerdiodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+        ul
+          li chargeAccount. ID Cuenta Cargo
+          li concept. Si no aplica enviar vacio
+          li isPerdiodic. FALSE
+          li aplicationDate. Fecha del dia actual
+          li amount. cantidad a pagar
+        li PROGRAMADA {"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPerdiodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+        ul
+          li chargeAccount. ID Cuenta Cargo
+          li concept. Si no aplica enviar vacio
+          li isPerdiodic. FALSE
+          li aplicationDate. Fecha en que se aplicara el traspaso
+          li amount. cantidad a pagar
+        li PERIODICA {"senderAccountId":"CHMXP0000002","concept":"PAGO SEMANAL","isPerdiodic":"TRUE","aplicationDate":"17/08/2017","endDate":"17/09/2017","period":"WEEKLY","amount":"10"}
+        ul
+          li chargeAccount. ID Cuenta Cargo
+          li concept. Sera el nombre de la periodica
+          li isPerdiodic. TRUE para periodicas, FALSE en otro caso
+          li aplicationDate. Fecha de inicio
+          li endDate. fecha Fin...
+          li period. WEEKLY, FORTNIGHT, MONTHLY o BIMONTHLY
+          li amount. cantidad a pagar
+       
     li
       a(href="https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts") listSenderAccountsALL (GET)
       span https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts
@@ -56,3 +77,34 @@ block content
           Si tsec es 123456 devuelve solo 1 cuenta de deposito
           br
           Sin tsec devuelve 2 cuentas de deposito
+    li
+        a(href="https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer") myAccountsTransfer
+        span href="https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer"
+        ul
+          li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPerdiodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+          ul
+            li receiverAccountId. Cuenta Abono
+            li senderAccountId. Cuenta Cargo
+            li concept. Si no aplica enviar vacio
+            li isPerdiodic. FALSE
+            li aplicationDate. Fecha del dia actual
+            li amount. cantidad a transferir
+          li PROGRAMADA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPerdiodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+          ul
+            li receiverAccountId. Cuenta Abono
+            li senderAccountId. Cuenta Cargo
+            li concept. Si no aplica enviar vacio
+            li isPerdiodic. FALSE
+            li aplicationDate. Fecha en que se aplicara el traspaso
+            li amount. cantidad a transferir
+          li PERIODICA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"AHORRO","isPerdiodic":"TRUE","aplicationDate":"17/08/2017","endDate":"17/09/2017","period":"WEEKLY","amount":"10"}
+          ul
+            li receiverAccountId. Cuenta Abono
+            li senderAccountId. Cuenta Cargo
+            li concept. Sera el nombre de la periodica
+            li isPerdiodic. TRUE para periodicas, FALSE en otro casoli aplicationDate. Fecha de inicio
+            li endDate. fecha Fin...
+            li period. WEEKLY, FORTNIGHT, MONTHLY o BIMONTHLY
+            li amount. cantidad a transferir
+
+
