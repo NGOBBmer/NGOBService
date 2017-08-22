@@ -1,0 +1,10 @@
+{
+	"error": {
+		"code": "TPE0813",
+		"message": "SIN MOVIMIENTOS",
+		"descripcion": "Se ha producido un error al consultar el servicio /Andrea/dashboard/V00/dashboardMovements",
+		"version": "1",
+		"severity": "FATAL",
+		"httpStatus": "400"
+	}
+}
