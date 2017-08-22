@@ -4,6 +4,7 @@ var userInfo_user01 = require('../../mock/V00/dashboard/userInfo/userInfo_user01
 var userInfo_user02 = require('../../mock/V00/dashboard/userInfo/userInfo_user02.json');
 var userInfo_user03 = require('../../mock/V00/dashboard/userInfo/userInfo_user03.json');
 var userInfo_error = require('../../mock/V00/dashboard/userInfo/userInfo_error.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
