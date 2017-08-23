@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var dashMov_01 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01.json');
+var dashMov_02 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_02.json');
+var dashMov_03 = require('../../mock/V00/dashboard/dashboardMovements/INmovements_01.json');
 var NO_MOVS = require('../../mock/V00/dashboard/dashboardMovements/SI_noMovs.json');
 var ERROR = require('../../mock/V00/dashboard/dashboardMovements/error.json');
 
@@ -24,7 +26,18 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
        return res.json(dashMov_01);
     } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000009,period==0'){
         return res.status(400).json(NO_MOVS);
-    }else{
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==0'){
+       return res.json(dashMov_02);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==1'){
+       return res.json(NO_MOVS);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==2'){
+       return res.json(dashMov_02);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==0'){
+       return res.json(dashMov_03);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==1'){
+       return res.json(NO_MOVS);
+    }
+    else{
         return res.status(400).json(ERROR);
     }
   next();
