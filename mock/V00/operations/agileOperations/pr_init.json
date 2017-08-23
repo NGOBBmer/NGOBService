@@ -13,7 +13,8 @@
         "name": "PRUEBA11"
       },
       "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario"
+      "description": "Traspaso Interbancario",
+      "operationType": "OB"
     },
     {
       "id": "0001",
@@ -28,7 +29,8 @@
         "name": ""
       },
       "operationDate": "2017-07-06",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "TB"
     },
     {
       "id": "0001",
@@ -43,7 +45,8 @@
         "name": "PRUEBA"
       },
       "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario"
+      "description": "Traspaso Interbancario",
+      "operationType": "OB"
     },
     {
       "id": "0001",
@@ -58,7 +61,8 @@
         "name": "PRUEBAAA"
       },
       "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario"
+      "description": "Traspaso Interbancario",
+      "operationType": "OB"
     },
     {
       "id": "0001",
@@ -73,7 +77,8 @@
         "name": "PRUEBACALENDARIO"
       },
       "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario"
+      "description": "Traspaso Interbancario",
+      "operationType": "OB"
     },
     {
       "id": "0001",
@@ -88,7 +93,8 @@
         "adress": "Movistar"
       },
       "operationDate": "2017-07-08",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "TB"
     },
     {
       "id": "0001",
@@ -103,7 +109,8 @@
         "adress": "TELCEL"
       },
       "operationDate": "2017-07-08",
-      "description": "Traspaso"
+      "description": "Compra tiempo aire",
+      "operationType": "TA"
     },
     {
       "id": "0001",
@@ -118,7 +125,8 @@
         "adress": "Movistar"
       },
       "operationDate": "2017-07-08",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "OB"
     },
     {
       "id": "0001",
@@ -133,7 +141,8 @@
         "name": ""
       },
       "operationDate": "2017-07-09",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "TB"
     },
     {
       "id": "0001",
@@ -148,7 +157,8 @@
         "name": ""
       },
       "operationDate": "2017-07-09",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "OB"
     },
     {
       "id": "0001",
@@ -163,7 +173,8 @@
         "name": ""
       },
       "operationDate": "2017-07-10",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "FI"
     }
   ],
   "nextWeekId": "1",

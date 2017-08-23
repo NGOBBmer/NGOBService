@@ -13,7 +13,8 @@
         "name": ""
       },
       "operationDate": "2017-07-07",
-      "description": "Traspaso"
+      "description": "Traspaso Bancomer",
+      "operationType": "TB"
     }
   ],
   "nextWeekId": "2",

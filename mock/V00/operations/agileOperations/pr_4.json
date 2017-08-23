@@ -13,7 +13,8 @@
         "name": ""
       },
       "operationDate": "2017-07-25",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "TB"
     },
     {
       "id": "0001",
@@ -28,7 +29,8 @@
         "name": ""
       },
       "operationDate": "2017-07-28",
-      "description": "Traspaso"
+      "description": "Traspaso",
+      "operationType": "TB"
     }
   ],
   "nextWeekId": "5",

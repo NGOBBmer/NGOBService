@@ -13,7 +13,8 @@
         "name": ""
       },
       "operationDate": "2017-07-21",
-      "description": "Traspaso"
+      "description": "Compra tiempo aire",
+      "operationType": "TA"
     }
   ],
   "nextWeekId": "4",
