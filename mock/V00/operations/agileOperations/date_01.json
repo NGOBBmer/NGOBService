@@ -26,7 +26,7 @@
       ],
       "operationDate": "2017-06-27",
       "description": "Traspaso Bancomer",
-      "operationType": "TB"
+      "operationType": "T"
     },
     {
       "id": "0001",
@@ -54,7 +54,7 @@
       ],
       "operationDate": "2017-06-27",
       "description": "Traspaso a otro banco",
-      "operationType": "OB"
+      "operationType": "R"
     }
   ],
   "currentWeek": "lol",

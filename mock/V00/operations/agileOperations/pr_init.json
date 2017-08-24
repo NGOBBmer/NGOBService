@@ -14,7 +14,7 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "OB"
+      "operationType": "R"
     },
     {
       "id": "0001",
@@ -30,7 +30,7 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso",
-      "operationType": "TB"
+      "operationType": "R"
     },
     {
       "id": "0001",
@@ -46,7 +46,7 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "OB"
+      "operationType": "I"
     },
     {
       "id": "0001",
@@ -62,7 +62,7 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "OB"
+      "operationType": "R"
     },
     {
       "id": "0001",
@@ -78,7 +78,7 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "OB"
+      "operationType": "R"
     },
     {
       "id": "0001",
@@ -93,8 +93,8 @@
         "adress": "Movistar"
       },
       "operationDate": "2017-07-08",
-      "description": "Traspaso",
-      "operationType": "TB"
+      "description": "Compra tiempo aire",
+      "operationType": "TA"
     },
     {
       "id": "0001",
@@ -126,7 +126,7 @@
       },
       "operationDate": "2017-07-08",
       "description": "Traspaso",
-      "operationType": "OB"
+      "operationType": "R"
     },
     {
       "id": "0001",
@@ -142,7 +142,7 @@
       },
       "operationDate": "2017-07-09",
       "description": "Traspaso",
-      "operationType": "TB"
+      "operationType": "T"
     },
     {
       "id": "0001",
@@ -158,7 +158,7 @@
       },
       "operationDate": "2017-07-09",
       "description": "Traspaso",
-      "operationType": "OB"
+      "operationType": "R"
     },
     {
       "id": "0001",
@@ -174,7 +174,7 @@
       },
       "operationDate": "2017-07-10",
       "description": "Traspaso",
-      "operationType": "FI"
+      "operationType": "F"
     }
   ],
   "nextWeekId": "1",
