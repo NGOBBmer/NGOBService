@@ -21,7 +21,8 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/accounts/V00/accounts/AHMXP0000001/periods?paginationKey=
 router.get('/V00/accounts/:id/periods/', function(req, res, next) {
   if(req.params && req.params.id){
-      if (req.params && req.params.id == 'AHMXP0000001')  {
+    var id = req.params.id;
+      if (req.params && (id.startsWith('AH') || id.startsWith('IN') || id.startsWith('CA'))) {
         if (req.query.paginationKey != "" && req.query.paginationKey != null){
           return res.json(AHMXP0000001_next);
         }else{
