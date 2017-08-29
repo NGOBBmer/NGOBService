@@ -22,7 +22,7 @@ router.use(function(req, res, next) {
 router.get('/V00/accounts/:id/periods/', function(req, res, next) {
   if(req.params && req.params.id){
     var id = req.params.id;
-      if (req.params && (id.startsWith('AH') || id.startsWith('IN') || id.startsWith('CA'))) {
+      if (req.params && (id.startsWith('AH') || id.startsWith('IN') || id.startsWith('CA') || id.startsWith('SI') )) {
         if (req.query.paginationKey != "" && req.query.paginationKey != null){
           return res.json(AHMXP0000001_next);
         }else{

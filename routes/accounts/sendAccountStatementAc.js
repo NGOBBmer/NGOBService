@@ -28,7 +28,7 @@ router.post('/V00/accounts/:id/sendAccountStatement', function(req, res, next) {
   var otp = req.headers['otp'];
   var id = req.params.id;
   if (req.params && req.params.id && req.body.email && req.body.password && req.body.periodId && otp == "12345678") {
-    if (req.params && (id.startsWith('AH') || id.startsWith('IN') || id.startsWith('CA')))  {
+    if (req.params && (id.startsWith('AH') || id.startsWith('IN') || id.startsWith('CA') || id.startsWith('SI')))  {
       return res.json(PERIOD0001);
     }
     if (req.params && req.params.id == 'CHUSD0000001')  {
