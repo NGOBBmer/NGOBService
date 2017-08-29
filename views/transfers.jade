@@ -21,7 +21,7 @@ block content
       a(href="https://cards-service-mock.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001") creditCardPayment/{idCreditCard}  -  creditCardId. TDC a pagar (URL param)
       span https://cards-service-mock.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001
       ul
-        li aplicationDate Dia Actual{"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+        li aplicationDate Dia Actual{"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"2017-08-29","amount":"10"}
           br
           br
           span -senderAccountId. ID Cuenta Cargo
@@ -33,7 +33,7 @@ block content
           span -aplicationDate. Fecha del dia actual
           br 
           span -amount. cantidad a pagar
-        li PROGRAMADA {"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+        li PROGRAMADA {"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"2017-09-29","amount":"10"}
           br
           br
           span -senderAccountId. ID Cuenta Cargo
@@ -45,10 +45,10 @@ block content
           span -aplicationDate. Fecha en que se aplicara el traspaso
           br 
           span -amount. cantidad a pagar
-        li PERIODICA {"senderAccountId":"CHMXP0000002","concept":"PAGO SEMANAL","isPeriodic":"TRUE","aplicationDate":"17/08/2017","endDate":"17/09/2017","period":"WEEKLY","amount":"10"}
+        li PERIODICA {"senderAccountId":"CHMXP0000002","concept":"PAGO SEMANAL","isPeriodic":"TRUE","aplicationDate":"2017-08-29","endDate":"2017-09-30","period":"WEEKLY","amount":"10"}
           br
           br
-          span -chargeAccount. ID Cuenta Cargo
+          span -senderAccountId. ID Cuenta Cargo
           br 
           span -concept. Sera el nombre de la periodica
           br 
@@ -98,7 +98,7 @@ block content
         a(href="https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer") myAccountsTransfer
         span https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer
         ul
-          li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+          li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"2017-08-29","amount":"10"}
             br
             br
             span -receiverAccountId. Cuenta Abono
@@ -112,7 +112,7 @@ block content
             span -aplicationDate. Fecha del dia actual
             br 
             span -amount. cantidad a transferir
-          li PROGRAMADA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"18/08/2017","amount":"10"}
+          li PROGRAMADA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":"FALSE","aplicationDate":"2017-09-29","amount":"10"}
             br
             br
             span -receiverAccountId. Cuenta Abono
@@ -126,7 +126,7 @@ block content
             span -aplicationDate. Fecha en que se aplicara el traspaso
             br 
             span -amount. cantidad a transferir
-          li PERIODICA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"AHORRO","isPeriodic":"TRUE","aplicationDate":"17/08/2017","endDate":"17/09/2017","period":"WEEKLY","amount":"10"}
+          li PERIODICA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"AHORRO","isPeriodic":"TRUE","aplicationDate":"2017-08-29","endDate":"2017-09-29","period":"WEEKLY","amount":"10"}
             br
             br
             span -receiverAccountId. Cuenta Abono
