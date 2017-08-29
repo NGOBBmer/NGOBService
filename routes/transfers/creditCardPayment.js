@@ -17,7 +17,7 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:5000/transfers/V00/creditCardPayment/TCMXP0000001
 
-router.put('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
+router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
     var cardId = req.params.creditCardId;
    var  senderAccountId = req.params.senderAccountId;
     var concept = req.body.concept;
