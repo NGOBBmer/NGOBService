@@ -9,6 +9,9 @@ var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccoun
 
 //CardInformation
 var cardInformation_01 = require('../../mock/V00/transfers/cardInfo/cardInformation_01.json');
+var cardInformation_02 = require('../../mock/V00/transfers/cardInfo/cardInformation_02.json');
+var cardInformation_03 = require('../../mock/V00/transfers/cardInfo/cardInformation_03.json');
+var cardInformation_04 = require('../../mock/V00/transfers/cardInfo/cardInformation_04.json');
 var cardInformation_def = require('../../mock/V00/transfers/cardInfo/cardInformation_00.json');
 var cardInformation_err = require('../../mock/V00/transfers/cardInfo/cardInformation_err.json');
 
@@ -60,6 +63,12 @@ router.get('/V00/cardInformation/:id', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (req.params.id == 'TCMXP0000001')
         return res.json(cardInformation_01);
+    else if (req.params.id == 'TCMXP0000002')
+        return res.json(cardInformation_02);
+    else if (req.params.id == 'TCMXP0000003')
+        return res.json(cardInformation_03);
+    else if (req.params.id == 'TCMXP0000004')
+        return res.json(cardInformation_04);
     else if (tsec == '123456')
         return res.json(cardInformation_def);
 

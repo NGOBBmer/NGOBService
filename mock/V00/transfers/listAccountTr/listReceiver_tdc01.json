@@ -20,6 +20,36 @@
           "balance": -46971.72,
           "currency": "MXP"
         }
+      },
+      {
+        "id": "TCMXP0000003",
+        "number": "·1234",
+        "alias": "",
+        "accountType": "TC",
+        "currentBalance": {
+          "balance": 234.12,
+          "currency": "MXP"
+        }
+      },
+      {
+        "id": "TCMXP0000004",
+        "number": "4578",
+        "alias": "",
+        "accountType": "TC",
+        "currentBalance": {
+          "balance": 2450.72,
+          "currency": "MXP"
+        }
+      },
+      {
+        "id": "TCMXP0000005",
+        "number": "·9823",
+        "alias": "",
+        "accountType": "TC",
+        "currentBalance": {
+          "balance": 0.0,
+          "currency": "MXP"
+        }
       }
     ]
   }
