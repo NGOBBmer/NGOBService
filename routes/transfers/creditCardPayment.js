@@ -19,7 +19,7 @@ router.use(function(req, res, next) {
 
 router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
     var cardId = req.params.creditCardId;
-   var  senderAccountId = req.params.senderAccountId;
+   var  senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
     var isPeriodic =req.body.isPeriodic;
     var aplicationDate =req.body.aplicationDate;
@@ -28,10 +28,10 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if (cardId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != ''){
+    if (cardId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && cardId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
         
         if (isPeriodic == 'TRUE'){
-             if (endDate != '' && concept != '' &&  period != ''){
+             if (endDate != '' && concept != '' &&  period != '' && endDate != null && concept != null &&  period != null){
                 return res.json(OK_period);
              }else{
                 return res.json(ERROR); 
