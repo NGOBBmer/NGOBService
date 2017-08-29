@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var OK = require('../../mock/V00/transfers/creditCardPayment/response_ok.json'); 
+var OK_period = require('../../mock/V00/transfers/creditCardPayment/response_ok_period.json'); 
 var ERROR = require('../../mock/V00/transfers/creditCardPayment/response_err.json');
 
 
@@ -18,21 +19,20 @@ router.use(function(req, res, next) {
 
 router.put('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
     var cardId = req.params.creditCardId;
-   var  chargeAccount = req.params.chargeAccount;
+   var  senderAccountId = req.params.senderAccountId;
     var concept = req.body.concept;
     var isPeriodic =req.body.isPeriodic;
     var aplicationDate =req.body.aplicationDate;
     var endDate =req.body.endDate;
     //var reference =req.body.reference;
     var amount =req.body.amount;
-    var repetitions =req.body.repetitions;
     var period =req.body.period;
 
-    if (cardId!= '' && chargeAccount != '' && amount !=''  && aplicationDate != ''){
+    if (cardId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != ''){
         
         if (isPeriodic == 'TRUE'){
-             if (endDate != '' && concept != '' && repetitions !='' && period != ''){
-                return res.json(OK);
+             if (endDate != '' && concept != '' &&  period != ''){
+                return res.json(OK_period);
              }else{
                 return res.json(ERROR); 
              }
