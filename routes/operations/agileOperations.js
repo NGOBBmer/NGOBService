@@ -41,10 +41,10 @@ router.get('/V00/agileOperations', function(req, res, next) {
       
       if (date != undefined && date != ''){
         var currentDate = moment().format('YYYY-MM-DD');
-        var endDate = moment().add(8,'weeks');
-        endDate = endDate.subtract(1,'days').format('YYYY-MM-DD');
+        var endDate = moment().add(9,'weeks');
+        endDate = moment(endDate).subtract(4,'days').format('YYYY-MM-DD');
         var cDate = moment(date);
-        var rn = Math.floor((Math.random() * 7) + 1);;
+        var rn = Math.floor((Math.random() * 8) + 1);;
         if (!isNaN(cDate)) {
           var filePath = path.join(__dirname, urlJson);
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -90,7 +90,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
         var filePath = path.join(__dirname, urlJson2 + weekId + ".json");
         try {
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-          if (weekId == 'init' || Number(weekId) <= 7){
+          if (weekId == 'init' || Number(weekId) <= 8){
             var len = 0;
             try {
               len = json.periodicsOperations.length;
@@ -118,6 +118,9 @@ router.get('/V00/agileOperations', function(req, res, next) {
             }else if (weekId=='7'){
               currentDate = moment().add(49,'days').format('YYYY-MM-DD');
               nextDate = moment().add(55,'days').format('YYYY-MM-DD');
+            }else if (weekId=='8'){
+              currentDate = moment().add(56,'days').format('YYYY-MM-DD');
+              nextDate = moment().add(59,'days').format('YYYY-MM-DD');
             }
             for(i = 0; i < len; i++){
               if (i==0){

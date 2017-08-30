@@ -1,0 +1,41 @@
+{
+  "periodicsOperations": [
+    {
+      "id": "000134",
+      "shortname": "PbaGioOB",
+      "paymentAccount": "12345",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-08-08",
+      "description": "Traspaso interbancario",
+      "operationType": "R"
+    }
+  ],
+  "nextWeekId": "7",
+  "previousWeekId": "5",
+  "navigation": [
+    {
+      "pathUrl": "operacionesPeriodicasAlta",
+      "option": "ADD"
+    },
+    {
+      "pathUrl": "operacionesPeriodicasConsultaYBaja",
+      "option": "ALL"
+    }
+  ],
+  "total":{
+    "description": "Total de movimientos",
+    "amount":{
+    "currency": "MXN",
+    "amount": 1.0
+    }
+  },
+  "initialDate": "2017-07-31",
+  "finalDate": "2017-08-06"
+}
