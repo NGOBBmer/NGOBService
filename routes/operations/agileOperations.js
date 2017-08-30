@@ -5,11 +5,13 @@ var path = require('path');
 var router = express.Router();
 
 var LISTA_ALL = require('../../mock/V00/operations/agileOperations/lista_all.json');
-var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json');
+var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json')
 //var PR_EMPTY = require('../../mock/V00/operations/agileOperations/pr_empty.json');
 var LISTA_RP = require('../../mock/V00/operations/agileOperations/lista_rp.json');
+var LISTA_RP0 = require('../../mock/V00/operations/agileOperations/lista_rp_0.json');
 var DATE = require('../../mock/V00/operations/agileOperations/lista_rp.json');
 var ERROR = require('../../mock/V00/operations/agileOperations/error.json');
+var ERROR_RP = require('../../mock/V00/operations/agileOperations/error_rp.json');
 var ERR_DATE01 = require('../../mock/V00/operations/agileOperations/err_date01.json');
 var ERR_DATE02 = require('../../mock/V00/operations/agileOperations/err_date02.json');
 var ERR_DATE03 = require('../../mock/V00/operations/agileOperations/err_date03.json');
@@ -141,7 +143,12 @@ router.get('/V00/agileOperations', function(req, res, next) {
       }
       // return res.json(LISTA_PR);
     }else if (req.query.agileOperationType === 'FAST')
-      return res.json(LISTA_RP);
+      if (tsec == '123456')
+        return res.json(LISTA_RP);
+      else if (tsec = '12345678')
+        return res.json(LISTA_RP0);
+      else
+        return res.status(400).json(ERROR_RP);
     }
   return res.json(ERROR);
   next();
