@@ -1,32 +1,9 @@
 {
-  "product": {
-    "investments": [
-      {
-        "productId": "INMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 0,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "1366847544",
-          "accountType": "inversionesMxp"
-        },
-        "description": "Inversión en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "INMXP0000001",
-              "tipoCuenta": "inversionesMxp"
+    "product": {
+        "totalBalance": {
+            "balance": {
+                "amount": 0
             }
-          },
-          "cellsNavigation": true
-        },
-        "investmentDetail": []
-      }
-    ]
-  }
+        }
+    }
 }
