@@ -18,7 +18,7 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/dashboard/headlinesAccounts
 router.get('/V00/dashboard/headlinesAccounts', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if(tsec != '123456' && req.query){
+  if(tsec == '123456' && req.query){
     return res.json(DATA_02);
   }else if(req.query){
     return res.json(DATA_01);

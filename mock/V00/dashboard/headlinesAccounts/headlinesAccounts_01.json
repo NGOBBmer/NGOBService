@@ -11,7 +11,7 @@
     "number": "1500007838",
     "type": "AH",
     "idForeignExchange": "MXP",
-    "availableBalance": 70000.00,
+    "availableBalance": 7000.00,
     "alias": "1500007838",
     "numberWithoutAlias": "00740010001500007838"
 }, {
@@ -19,7 +19,15 @@
     "number": "1500021393",
     "type": "AH",
     "idForeignExchange": "MXP",
-    "availableBalance": 99635.09,
+    "availableBalance": 500.09,
+    "alias": "1500021393",
+    "numberWithoutAlias": "00740010001500021393"
+}, {
+    "id": "AHMXP0000004",
+    "number": "1500021393",
+    "type": "AH",
+    "idForeignExchange": "MXP",
+    "availableBalance": 50.09,
     "alias": "1500021393",
     "numberWithoutAlias": "00740010001500021393"
 }]
