@@ -28,8 +28,9 @@
           "cellsNavigation": true
         },
         "assigned": {
-          "isNominated": false,
-          "hasPocket": false
+          "isNominated": true,
+          "hasPocket": false,
+          "pathUrl": "zonaNomina"
         }
       },
       {
