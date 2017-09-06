@@ -672,6 +672,7 @@
         "branch": {
           "number": "1368067104",
           "originalAccountNumber": "00740010001368067104",
+          "typeId": "IN",
           "accountType": "inversionesMxp"
         },
         "balance": {
@@ -689,32 +690,128 @@
         }
       }
     ],
-    "spendingPockets": [
+    "loans": [
       {
-        "productId": "PKMXP0000001",
+        "productId": "0",
         "balance": {
           "availableBalance": {
-            "amount": 800.12,
+            "amount": 8683.97,
+            "currency": "Pesos",
             "currencyId": "MXP"
           }
         },
         "branch": {
-          "number": "PK34567890",
-          "typeId": "PK",
-          "accountType": "apartados",
-          "relatedAccount": "0178800936"
+          "number": "9600038429",
+          "originalAccountNumber": "00740004799600038429",
+          "typeId": "PR",
+          "accountType": "otrosCreditos"
         },
-        "description": "Apartado",
+        "description": "Crediton nomina",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "spendingPockets"
+            "pathUrl": "consultaSaldoCreditonPG",
+            "params": {
+              "id": "0"
+            }
           },
           "cellsNavigation": false
         },
         "assigned": {
-          "hasPocket": true,
           "isNominated": false,
-          "pathUrl": "spendingPockets"
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "1",
+        "balance": {
+          "availableBalance": {
+            "amount": 15919.21,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "9633245055",
+          "originalAccountNumber": "00740004719633245055",
+          "typeId": "PR",
+          "accountType": "otrosCreditos"
+        },
+        "description": "Crediton nomina",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "consultaSaldoCreditonPG",
+            "params": {
+              "id": "1"
+            }
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "2",
+        "balance": {
+          "availableBalance": {
+            "amount": 3338.96,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "9608898911",
+          "originalAccountNumber": "00740960549608898911",
+          "typeId": "PR",
+          "accountType": "otrosCreditos"
+        },
+        "description": "Prestamo personal",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "consultaSaldoCreditonPG",
+            "params": {
+              "id": "2"
+            }
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ],
+    "mortgages": [
+      {
+        "productId": "00740001209603099202",
+        "balance": {
+          "grantedBalance": {
+            "amount": 148137.88,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "9603099202",
+          "originalAccountNumber": "00740001209603099202",
+          "typeId": "HP",
+          "accountType": "hipotecarios"
+        },
+        "description": "Crédito hipotecario",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "o3ConsultaCreditoHipotecario",
+            "params": {
+              "entrada": "PG",
+              "indiceCred": "00740001209603099202"
+            }
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
         }
       }
     ]
