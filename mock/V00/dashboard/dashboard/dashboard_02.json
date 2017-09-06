@@ -688,6 +688,35 @@
           "cellsNavigation": false
         }
       }
+    ],
+    "spendingPockets": [
+      {
+        "productId": "PKMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 800.12,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "PK34567890",
+          "typeId": "PK",
+          "accountType": "apartados",
+          "relatedAccount": "0178800936"
+        },
+        "description": "Apartado",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "spendingPockets"
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "hasPocket": true,
+          "isNominated": false,
+          "pathUrl": "spendingPockets"
+        }
+      }
     ]
   },
   "totalBalanceMxn": {

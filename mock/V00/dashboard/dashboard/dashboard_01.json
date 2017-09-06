@@ -259,6 +259,62 @@
           "cellsNavigation": false
         }
       }
+    ],
+     "spendingPockets": [
+      {
+        "productId": "PKMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 2900,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "PK78800936",
+          "typeId": "PK",
+          "accountType": "apartados",
+          "relatedAccount": "0178800936"
+        },
+        "description": "Apartado",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "spendingPockets"
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "hasPocket": true,
+          "isNominated": false,
+          "pathUrl": "spendingPockets"
+        }
+      },
+      {
+        "productId": "PKMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 500,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "PK78805733",
+          "typeId": "PK",
+          "accountType": "apartados",
+          "relatedAccount": "0178805733"
+        },
+        "description": "Apartado",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "spendingPockets"
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "hasPocket": true,
+          "isNominated": false,
+          "pathUrl": "spendingPockets"
+        }
+      }
     ]
   },
   "totalBalanceMxn": {
