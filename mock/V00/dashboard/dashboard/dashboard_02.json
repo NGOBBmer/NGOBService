@@ -688,6 +688,40 @@
         "navigation": {
           "cellsNavigation": false
         }
+      },
+      {
+        "productId": "CAUSD0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 25000,
+            "currency": "Dólares",
+            "currencyId": "USD"
+          }
+        },
+        "branch": {
+          "number": "8000751488",
+          "originalAccountNumber": "00740001008000751488",
+          "typeId": "IN",
+          "accountType": "inversionesUsd"
+        },
+        "region": {
+          "name": "HOUSTON"
+        },
+        "description": "Inversión en Dólares",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "CAUSD0000001",
+              "tipoCuenta": "inversionesMxp"
+            }
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
       }
     ],
     "loans": [
@@ -814,6 +848,62 @@
           "hasPocket": false
         }
       }
+    ],
+     "spendingPockets": [
+      {
+        "productId": "PKMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 2900,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "PK78800936",
+          "typeId": "PK",
+          "accountType": "apartados",
+          "relatedAccount": "0178800936"
+        },
+        "description": "Apartado",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "spendingPockets"
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "hasPocket": true,
+          "isNominated": false,
+          "pathUrl": "spendingPockets"
+        }
+      },
+      {
+        "productId": "PKMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 500,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "PK78805733",
+          "typeId": "PK",
+          "accountType": "apartados",
+          "relatedAccount": "0178805733"
+        },
+        "description": "Apartado",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "spendingPockets"
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "hasPocket": true,
+          "isNominated": false,
+          "pathUrl": "spendingPockets"
+        }
+      }
     ]
   },
   "totalBalanceMxn": {
@@ -842,5 +932,18 @@
       "amount": 360604.3
     },
     "description": "Tarjeta de Crédito"
+  },
+  "totalBalanceInversionUsd": {
+    "balance": {
+      "amount": 25000,
+      "currency": "USD"
+    },
+    "description": "Total de inversión en Dólares"
+  },
+  "totalBalanceCreditos": {
+    "balance": {
+      "amount": 1619394.78
+    },
+    "description": "Total de préstamos"
   }
 }
