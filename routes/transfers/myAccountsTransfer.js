@@ -17,8 +17,8 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:5000/transfers/V00/creditCardPayment/TCMXP0000001
 
-router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
-    var cardId = req.params.creditCardId;
+router.post('/V00/myAccountsTransfer', function(req, res, next) {
+    var receiverAccountId = req.body.receiverAccountId;
    var  senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
     var isPeriodic =req.body.isPeriodic;
@@ -28,7 +28,7 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if (cardId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && cardId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+    if (receiverAccountId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && receiverAccountId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
         
         if (isPeriodic){
              if (endDate != '' && concept != '' &&  period != '' && endDate != null && concept != null &&  period != null){
