@@ -33,18 +33,8 @@ block content
           span -aplicationDate. Fecha del dia actual
           br 
           span -amount. cantidad a pagar
-        li PROGRAMADA {"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-09-29","amount":"10"}
-          br
-          br
-          span -senderAccountId. ID Cuenta Cargo
           br 
-          span -concept. Si no aplica enviar vacio
-          br 
-          span -isPeriodic. FALSE
-          br 
-          span -aplicationDate. Fecha en que se aplicara el traspaso
-          br 
-          span -amount. cantidad a pagar
+          **span Para un Pago PROGRAMADO solo se envia en aplicactionDate una fecha mayor al dia de actual
         li PERIODICA {"senderAccountId":"CHMXP0000002","concept":"PAGO SEMANAL","isPeriodic":true,"aplicationDate":"2017-08-29","endDate":"2017-09-30","period":"WEEKLY","amount":"10"}
           br
           br
@@ -95,7 +85,7 @@ block content
           br
           Sin tsec devuelve 2 cuentas de deposito
     li
-        a(href="https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer") myAccountsTransfer
+        a(href="https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer") myAccountsTransfer (POST)
         span https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer
         ul
           li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
@@ -112,20 +102,8 @@ block content
             span -aplicationDate. Fecha del dia actual
             br 
             span -amount. cantidad a transferir
-          li PROGRAMADA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-09-29","amount":"10"}
-            br
-            br
-            span -receiverAccountId. Cuenta Abono
             br 
-            span -senderAccountId. Cuenta Cargo
-            br 
-            span -concept. Si no aplica enviar vacio
-            br 
-            span -isPeriodic. FALSE
-            br 
-            span -aplicationDate. Fecha en que se aplicara el traspaso
-            br 
-            span -amount. cantidad a transferir
+            span **Para una transferencia PROGRAMADA solo se envia en aplicactionDate una fecha mayor al dia de actual
           li PERIODICA {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"AHORRO","isPeriodic":true,"aplicationDate":"2017-08-29","endDate":"2017-09-29","period":"WEEKLY","amount":"10"}
             br
             br
@@ -143,7 +121,7 @@ block content
             br 
             span -amount. cantidad a transferir
       li
-        a(href="https://cards-service-mock.herokuapp.com/transfers/V00/cashAdvanceFee") cashAdvanceFee
+        a(href="https://cards-service-mock.herokuapp.com/transfers/V00/cashAdvanceFee") cashAdvanceFee (POST)
         span https://cards-service-mock.herokuapp.com/transfers/V00/cashAdvanceFee
         ul
           li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"TCMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
@@ -160,6 +138,8 @@ block content
             span -aplicationDate. Fecha del dia actual
             br 
             span -amount. cantidad a transferir
+            br 
+            span **Para una transferencia PROGRAMADA solo se envia en aplicactionDate una fecha mayor al dia de actual
           li PERIODICA {"receiverAccountId":"CHMXP0000001","senderAccountId":"TCMXP0000002","concept":"AHORRO","isPeriodic":true,"aplicationDate":"2017-08-29","endDate":"2017-09-29","period":"WEEKLY","amount":"10"}
             br
             br
