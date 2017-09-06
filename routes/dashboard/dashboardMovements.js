@@ -1,8 +1,14 @@
 var express = require('express');
 var router = express.Router();
 var dashMov_01 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01.json');
+var dashMov_01_02 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01_02.json');
+var dashMov_01_03 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01_03.json');
+var dashMov_02_01 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_02_01.json');
 var dashMov_02 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_02.json');
 var dashMov_03 = require('../../mock/V00/dashboard/dashboardMovements/INmovements_01.json');
+var dashMov_04 = require('../../mock/V00/dashboard/dashboardMovements/INmovements_01_02.json');
+var dashMov_05 = require('../../mock/V00/dashboard/dashboardMovements/INmovements_02_01.json');
+var dashMov_06 = require('../../mock/V00/dashboard/dashboardMovements/INmovements_02_02.json');
 var NO_MOVS = require('../../mock/V00/dashboard/dashboardMovements/SI_noMovs.json');
 var ERROR = require('../../mock/V00/dashboard/dashboardMovements/error.json');
 
@@ -22,9 +28,21 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/dashboardMovements?$filter=productType==SI,idContract==SIMXP0000001,period==1
 router.get('/V00/dashboardMovements', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==1'){
+    if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000003,period==0'){
+       return res.json(dashMov_01_02);
+    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000005,period==0'){
+       return res.json(dashMov_02_01);
+    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000005,period==1'){
+       return res.json(dashMov_02_01);
+    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000005,period==2'){
+       return res.json(NO_MOVS);
+    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000003,period==1'){
+       return res.json(dashMov_01_03);
+    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000003,period==2'){
+       return res.json(NO_MOVS);
+    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==1'){
        return res.json(dashMov_01);
-    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==0'){
+    }else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==0'){
         return res.status(400).json(NO_MOVS);
     }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==0'){
        return res.json(dashMov_02);
@@ -36,6 +54,18 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
        return res.json(dashMov_03);
     }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==1'){
        return res.json(NO_MOVS);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000002,period==0'){
+       return res.json(dashMov_04);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000002,period==1'){
+       return res.json(dashMov_05);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000002,period==2'){
+       return res.json(NO_MOVS);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000003,period==0'){
+       return res.json(NO_MOVS);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000003,period==1'){
+       return res.json(NO_MOVS);
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000003,period==2'){
+       return res.json(dashMov_06);
     }
     else{
         return res.status(400).json(ERROR);

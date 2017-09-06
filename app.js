@@ -47,6 +47,7 @@ var frequentOperations = require('./routes/transfers/frequentOperations');
 var creditCardPayment = require('./routes/transfers/creditCardPayment');
 var mainTransfers = require('./routes/transfers/mainTransfers');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
+var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 
 var app = express();
 
@@ -103,6 +104,7 @@ app.use('/transfers', frequentOperations);
 app.use('/transfers', creditCardPayment);
 app.use('/transfers', mainTransfers);
 app.use('/dashboard', dashboardMovements);
+app.use('/dashboard', balanceDashboard);
 
 
 // catch 404 and forward to error handler

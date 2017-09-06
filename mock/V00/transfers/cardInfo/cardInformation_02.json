@@ -1,0 +1,43 @@
+{
+  "data": {
+    "alias": "Giovanni",
+    "number": "1234",
+    "cardId": "TCMXP0000002",
+    "cutOffDate": "2016-03-20 00:00:00:000000",
+    "paymentMethod": {
+      "endDate": "2017-08-30",
+      "paymentAmounts": [
+        {
+          "id": "PM",
+          "name": "minimumPayment",
+          "values": {
+            "amount": "100.23"
+          }
+        },
+        {
+          "id": "PNI",
+          "name": "notInterestPayment",
+          "values": {
+            "amount": "4450.0"
+          }
+        }
+      ]
+    },
+    "disposedBalance": {
+      "currentBalances": {
+        "amount": 123.1,
+        "currency": "MXP"
+      }
+    },
+    "images": {
+      "id": "IMG01",
+      "name": "IMAGEN",
+      "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=410181&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+    },
+    "cardType": {
+      "id": "TP",
+      "name": "T BCMR PLATINUM"
+    },
+    "currentDate": "2017-08-17"
+  }
+}

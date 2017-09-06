@@ -28,8 +28,9 @@
           "cellsNavigation": true
         },
         "assigned": {
-          "isNominated": false,
-          "hasPocket": false
+          "isNominated": true,
+          "hasPocket": false,
+          "pathUrl": "zonaNomina"
         }
       },
       {
@@ -662,6 +663,58 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        }
+      }
+    ],
+    "investments": [
+      {
+        "productId": "INMXP0000001",
+        "branch": {
+          "number": "1368067104",
+          "originalAccountNumber": "00740010001368067104",
+          "accountType": "inversionesMxp"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currency": "",
+            "currencyId": "Pesos"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "description": "Inversión en Pesos",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ],
+    "spendingPockets": [
+      {
+        "productId": "PKMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 800.12,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "PK34567890",
+          "typeId": "PK",
+          "accountType": "apartados",
+          "relatedAccount": "0178800936"
+        },
+        "description": "Apartado",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "spendingPockets"
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "hasPocket": true,
+          "isNominated": false,
+          "pathUrl": "spendingPockets"
         }
       }
     ]

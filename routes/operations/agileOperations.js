@@ -5,11 +5,13 @@ var path = require('path');
 var router = express.Router();
 
 var LISTA_ALL = require('../../mock/V00/operations/agileOperations/lista_all.json');
-var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json');
+var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json')
 //var PR_EMPTY = require('../../mock/V00/operations/agileOperations/pr_empty.json');
 var LISTA_RP = require('../../mock/V00/operations/agileOperations/lista_rp.json');
+var LISTA_RP0 = require('../../mock/V00/operations/agileOperations/lista_rp_0.json');
 var DATE = require('../../mock/V00/operations/agileOperations/lista_rp.json');
 var ERROR = require('../../mock/V00/operations/agileOperations/error.json');
+var ERROR_RP = require('../../mock/V00/operations/agileOperations/error_rp.json');
 var ERR_DATE01 = require('../../mock/V00/operations/agileOperations/err_date01.json');
 var ERR_DATE02 = require('../../mock/V00/operations/agileOperations/err_date02.json');
 var ERR_DATE03 = require('../../mock/V00/operations/agileOperations/err_date03.json');
@@ -41,10 +43,10 @@ router.get('/V00/agileOperations', function(req, res, next) {
       
       if (date != undefined && date != ''){
         var currentDate = moment().format('YYYY-MM-DD');
-        var endDate = moment().add(8,'weeks');
-        endDate = endDate.subtract(1,'days').format('YYYY-MM-DD');
+        var endDate = moment().add(9,'weeks');
+        endDate = moment(endDate).subtract(4,'days').format('YYYY-MM-DD');
         var cDate = moment(date);
-        var rn = Math.floor((Math.random() * 7) + 1);;
+        var rn = Math.floor((Math.random() * 8) + 1);;
         if (!isNaN(cDate)) {
           var filePath = path.join(__dirname, urlJson);
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -90,7 +92,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
         var filePath = path.join(__dirname, urlJson2 + weekId + ".json");
         try {
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-          if (weekId == 'init' || Number(weekId) <= 7){
+          if (weekId == 'init' || Number(weekId) <= 8){
             var len = 0;
             try {
               len = json.periodicsOperations.length;
@@ -118,6 +120,9 @@ router.get('/V00/agileOperations', function(req, res, next) {
             }else if (weekId=='7'){
               currentDate = moment().add(49,'days').format('YYYY-MM-DD');
               nextDate = moment().add(55,'days').format('YYYY-MM-DD');
+            }else if (weekId=='8'){
+              currentDate = moment().add(56,'days').format('YYYY-MM-DD');
+              nextDate = moment().add(59,'days').format('YYYY-MM-DD');
             }
             for(i = 0; i < len; i++){
               if (i==0){
@@ -138,7 +143,12 @@ router.get('/V00/agileOperations', function(req, res, next) {
       }
       // return res.json(LISTA_PR);
     }else if (req.query.agileOperationType === 'FAST')
-      return res.json(LISTA_RP);
+      if (tsec == '123456')
+        return res.json(LISTA_RP);
+      else if (tsec = '12345678')
+        return res.json(LISTA_RP0);
+      else
+        return res.status(400).json(ERROR_RP);
     }
   return res.json(ERROR);
   next();

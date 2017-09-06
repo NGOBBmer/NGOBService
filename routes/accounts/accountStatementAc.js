@@ -22,7 +22,6 @@ router.use(function(req, res, next) {
 router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
   var otp = req.headers['otp'];
 	if(req.params && req.params.id){
-    console.log();
     if (otp == "12345678"){
 	    if (req.params && req.query.periodId == 'PERIOD0001')  {
         return res.json(PERIOD0001);
