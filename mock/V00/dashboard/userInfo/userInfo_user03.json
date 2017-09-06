@@ -14,6 +14,8 @@
     "hourLastAccess": "11:55 AM",
     "dateLastAccess": "2017-04-19",
     "indNominated": "",
-    "profilePercentage": 50
+    "profilePercentage": 50,
+    "hasFastOperations": false,
+    "hasPeriodicOperations": false
   }
 }
