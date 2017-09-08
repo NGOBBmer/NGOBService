@@ -418,6 +418,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=410181&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -448,6 +452,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -478,6 +486,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -508,6 +520,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -538,6 +554,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -568,6 +588,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -598,6 +622,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       }
     ],
