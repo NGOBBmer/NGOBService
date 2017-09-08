@@ -68,7 +68,7 @@
         "name": "Visa",
         "test":"test"
       },
-      "cardId": "CHMXP0000001",
+      "cardId": "CHMXP0000002",
       "cardType": {
         "id": "CHECK_ACCOUNT",
         "name": "Check Account"
