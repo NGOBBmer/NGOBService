@@ -15,7 +15,7 @@
     "dateLastAccess": "2017-04-19",
     "indNominated": "",
     "profilePercentage": 50,
-    "hasFastOperations": false,
+    "hasFastOperations": true,
     "hasPeriodicOperations": true
   }
 }
