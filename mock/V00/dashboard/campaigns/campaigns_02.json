@@ -26,10 +26,14 @@
         }
       },
       "image": {
-        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/TDC.png",
+        "url": "/img/oneclic/TDC.png",
         "base64": ""
       },
       "isModal": false
     }
-  ]
+  ],
+  "image": {
+    "url": "/img/oneclic/oneclick_icon.png",
+    "base64": ""
+  }
 }
