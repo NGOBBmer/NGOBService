@@ -15,32 +15,19 @@
 		"navigation": {
 			"pathUrl": "realizarOperacionFrecuente",
 			"cellsNavigation": true,
-			"params": [{
-				"name": "operationType",
-				"value": "TCP"
-			},
-			{
-				"name": "id",
-				"value": "59b95438dd22e771619fdb3c22"
-			},
-			{
-				"name": "senderAccountId",
-				"value": "AHMXP0000001"
-			},
-			{
-				"name": "receiverAccountId",
-				"value": "TCMXP0000001"
-			},
-			{
-				"name": "amount",
-				"value": "10.00"
-			}]
+			"params": {
+				"amount": "15.0",
+				"id": "59b95438dd22e771619fdb3c22",
+				"operationType": "TCP",
+				"receiverAccountId": "TCMXP0000001",
+				"senderAccountId": "AHMXP0000001"
+			}
 		},
 		"operationType": "TCP",
 		"adviceType": "I",
 		"bank": {
 
 		}
-	},
-	"comment": " Informativo o alerta // 'I' a A //  action"
+	}
+
 }
