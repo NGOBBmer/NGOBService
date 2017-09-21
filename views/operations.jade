@@ -25,7 +25,7 @@ block content
       a(href="https://cards-service-mock.herokuapp.com/operations/V00/deleteAgileOperations/PR000001/?agileOperationType=FAST") deleteAgileOperations (DELETE)
       span /operations/V00/deleteAgileOperations/0001/?agileOperationType=FAST
     li
-      a(href="https://cards-service-mock.herokuapp.com/operations/V00/actionalAdvice") ActionalAdvice - List (GET)
+      a(href="https://cards-service-mock.herokuapp.com/operations/V00/actionalAdvice") ActionalAdvice  (GET)
       span https://cards-service-mock.herokuapp.com/operations/V00/actionalAdvice
     li
       a(href="https://cards-service-mock.herokuapp.com/operations/V00/suggestedOperations?suggestedOperationType=ALL") suggestedOperations - List (GET)
@@ -37,3 +37,6 @@ block content
       p suggestedOperationType=TCI devuelve pagos de TDC Interbancaria
       p suggestedOperationType=TCP devuelve pagos de  tarjeta de credito propia
       p suggestedOperationType=PDS devuelve pagos de servicios
+    li
+      a(href="https://cards-service-mock.herokuapp.com/operations/V00/deleteActionalAdvice?adviceId=59b95438dd22e771619fdb3c22") deleteActionalAdvice (DELETE)
+      span https://cards-service-mock.herokuapp.com/operations/V00/deleteActionalAdvice?adviceId={id}

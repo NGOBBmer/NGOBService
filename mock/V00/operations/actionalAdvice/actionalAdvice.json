@@ -1,24 +1,39 @@
 {
 	"actionalAdvice": {
-		"id": "26770",
+		"id": "59b95438dd22e771619fdb3c22",
 		"title": "Mantén tus beneficios",
 		"description": "NOMBRE, hemos visto que esta cerca la fecha de pago de tu TDC terminación *****2215 . Evita intereses pagando a tiempo.",
 		"action":"Pagar Ahora",
-		"paymentAccount": "4772142702142215",
+		"receiverAccount": "4772142702142215",
+		"receiverAccountId": "TCMXP0000001",
 		"paymentAmount": {
 			"amount": "10.00"
 		},
 		"isOperable": true,
-		"chargeAccount": "1500001929",
+		"senderAccount": "00740010001500001929",
+		"senderAccountId": "AHMXP0000001",
 		"navigation": {
 			"pathUrl": "realizarOperacionFrecuente",
+			"cellsNavigation": true,
 			"params": [{
 				"name": "operationType",
 				"value": "TCP"
 			},
 			{
 				"name": "id",
-				"value": "26770"
+				"value": "59b95438dd22e771619fdb3c22"
+			},
+			{
+				"name": "senderAccountId",
+				"value": "AHMXP0000001"
+			},
+			{
+				"name": "receiverAccountId",
+				"value": "TCMXP0000001"
+			},
+			{
+				"name": "amount",
+				"value": "10.00"
 			}]
 		},
 		"operationType": "TCP",
