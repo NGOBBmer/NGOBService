@@ -1,0 +1,251 @@
+{
+  "suggestedOperations": [{
+    "id": "26761",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26761"
+      }]
+    },
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26762",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26762"
+      }]
+    },
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26763",
+    "shortname": "Transferencia a Cuentas Propias",
+    "paymentAccount": "1500007838",
+    "paymentAmount": {
+      "amount": "10.55"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TP"
+      },
+      {
+        "name": "id",
+        "value": "26763"
+      }]
+    },
+    "operationType": "TP",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26764",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0178851808",
+    "paymentAmount": {
+      "amount": "10.23"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26764"
+      }]
+    },
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26765",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0177930047",
+    "paymentAmount": {
+      "amount": "10.90"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26765"
+      }]
+    },
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26766",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0177930047",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": false,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26766"
+      }]
+    },
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26767",
+    "shortname": "Transferencia a Cuentas de Terceros",
+    "paymentAccount": "0178851808",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": false,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TT"
+      },
+      {
+        "name": "id",
+        "value": "26767"
+      }]
+    },
+    "operationType": "TT",
+    "bank": {
+      "name": "BBVA"
+    }
+  },
+  {
+    "id": "26768",
+    "shortname": "Transferencia a Otros Bancos",
+    "paymentAccount": "002180700256551903",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TI"
+      },
+      {
+        "name": "id",
+        "value": "26768"
+      }]
+    },
+    "operationType": "TI",
+    "bank": {
+      "name": "BANAMEX",
+      "code": "0002"
+    }
+  },
+  {
+    "id": "26769",
+    "shortname": "Pago a Tarjeta de CrÃ©dito otros Bancos",
+    "paymentAccount": "4913660004355169",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TCI"
+      },
+      {
+        "name": "id",
+        "value": "26769"
+      }]
+    },
+    "operationType": "TCI",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26770",
+    "shortname": "Pago a Tarjeta de CrÃ©dito Cuenta Propia",
+    "paymentAmount": {
+      "amount": "10.00"
+    },
+    "isOperable": true,
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TCP"
+      },
+      {
+        "name": "id",
+        "value": "26770"
+      }]
+    },
+    "operationType": "TCP",
+    "bank": {
+      
+    }
+  }]
+}
