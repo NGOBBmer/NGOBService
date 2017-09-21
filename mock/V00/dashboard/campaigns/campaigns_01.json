@@ -17,7 +17,7 @@
         }
       },
       "image": {
-        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/Token.png",
+        "url": "/img/oneclic/Token.png",
         "base64": ""
       },
       "isModal": true
@@ -49,7 +49,7 @@
         }
       },
       "image": {
-        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/TDC.png",
+        "url": "/img/oneclic/incrementa_tu_line_one_click.png",
         "base64": ""
       },
       "isModal": false
@@ -77,7 +77,7 @@
         }
       },
       "image": {
-        "url": "/img/iconos/oneclic/EFI.png",
+        "url": "/img/iconos/oneclic/efectivo_inmediato.png",
         "base64": ""
       },
       "isModal": false
@@ -109,7 +109,7 @@
         }
       },
       "image": {
-        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/PPI.png",
+        "url": "/img/oneclic/prestamo_one_click.png",
         "base64": ""
       },
       "isModal": false
@@ -146,7 +146,7 @@
         }
       },
       "image": {
-        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/Insurance.png",
+        "url": "/img/oneclic/seguros_one_click.png",
         "base64": ""
       },
       "isModal": false
@@ -191,10 +191,14 @@
         }
       },
       "image": {
-        "url": "https://cards-service-mock.herokuapp.com/img/oneclic/Insurance.png",
+        "url": "/img/oneclic/seguros_one_click.png",
         "base64": ""
       },
       "isModal": false
     }
-  ]
+  ],
+  "image": {
+    "url": "/img/oneclic/oneclick_icon.png",
+    "base64": ""
+  }
 }
