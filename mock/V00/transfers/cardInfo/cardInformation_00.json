@@ -32,7 +32,7 @@
     "images": {
       "id": "IMG01",
       "name": "IMAGEN",
-      "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=410181&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+      "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477213&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
     },
     "cardType": {
       "id": "",
