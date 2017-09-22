@@ -4,13 +4,13 @@
 		"title": "Mantén tus beneficios",
 		"description": "NOMBRE, hemos visto que esta cerca la fecha de pago de tu TDC terminación *****2215 . Evita intereses pagando a tiempo.",
 		"action":"Pagar Ahora",
-		"receiverAccount": "4772142702142215",
+		"receiverAccount": "2215",
 		"receiverAccountId": "TCMXP0000001",
 		"paymentAmount": {
 			"amount": "10.00"
 		},
 		"isOperable": true,
-		"senderAccount": "00740010001500001929",
+		"senderAccount": "1929",
 		"senderAccountId": "AHMXP0000001",
 		"navigation": {
 			"pathUrl": "realizarOperacionFrecuente",
