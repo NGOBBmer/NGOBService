@@ -35,7 +35,7 @@ router.get('/V00/suggestedOperations', function(req, res, next) {
   } 
   else if (req.query.suggestedOperationType === 'TP'){
   	return res.json(LISTA_TP);
-  } else if (req.query.suggestedOperationType === 'PDS'){
+  } else if (req.query.suggestedOperationType === 'PS'){
   	return res.json(LISTA_PDS);
   } else if (req.query.suggestedOperationType === 'TCP'){
   	return res.json(LISTA_TCP);
