@@ -25,7 +25,7 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:4000/operations/V00/suggestedOperations?suggestedOperationType=
 router.get('/V00/suggestedOperations', function(req, res, next) {
-  if (req.query.suggestedOperationType === 'ALL')
+  if (req.query.suggestedOperationType === 'all')
   	return res.json(LISTA_ALL);
   else if (req.query.suggestedOperationType === 'TT'){
 	return res.json(LISTA_TT);
