@@ -28,7 +28,9 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:5000/dashboard/V00/dashboard?$filter=productType==TT
 router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==TT' )
+    if ((tsec == '12345678') && req.query.$filter === 'productType==TT')
+        return res.json(dashboard_2cards);
+    else if ((tsec == 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==TT' )
 	   return res.json(dashboard_02);
     else if (req.query.$filter === 'productType==SI,idContract==SIMXP0000001')
         return res.json(dashboard_02_SI);
@@ -58,8 +60,6 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_04_IN);
     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,currency==USD')
         return res.json(dashboard_05_IN);
-    else if ((tsec == '12345678') && req.query.$filter === 'productType==TT')
-        return res.json(dashboard_2cards);
 
 
     return res.status(400).json(dashboard_error);
