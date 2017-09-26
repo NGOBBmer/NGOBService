@@ -1,215 +1,292 @@
 {
-	"listOtherAccountsFrequent": [{
-			"id": "FRTT000000",
-			"shortName": "CHQS",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "1480628875"
-								}
-							}
-						},
-						"name": "MARGRETT ALGUIRE CIRIONI"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTT000001",
-			"shortName": "SUSAN",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "0178851808"
-								}
-							}
-						},
-						"name": "SUSAN DIAZ LOW"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTT000002",
-			"shortName": "TDCBBVA",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "4555406269802930"
-								}
-							}
-						},
-						"name": "URI DOINO CRANE"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTT000003",
-			"shortName": "ESPOMEGA",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "4772133011610042"
-								}
-							}
-						},
-						"name": "ESPOMEGA, S DE RL DE CV"
-					}
-				}
-			}
-		}
-	],
-	"listInterbankFrequent": [{
-			"id": "FRTI000000",
-			"shortName": "EXTINEESI",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180435001413613"
-								}
-							}
-						},
-						"name": "JOSE LUIS MIRANDA PACHECO"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000001",
-			"shortName": "AFASI",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180032642233765"
-								}
-							}
-						},
-						"name": "AFASI"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000002",
-			"shortName": "banamex",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002021009412595217"
-								}
-							}
-						},
-						"name": "BANAMEX"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000003",
-			"shortName": "LG SEGURID",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180021809439627"
-								}
-							}
-						},
-						"name": "LG SEGURIDAD"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000004",
-			"shortName": "SOBMEX",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180094861640740"
-								}
-							}
-						},
-						"name": "SOTO BARRANCO MEXICANA"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000005",
-			"shortName": "MET DIAZ",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180019409095266"
-								}
-							}
-						},
-						"name": "METALES DIAZ"
-					}
-				}
-			}
-		}
-	],
-	"paginationKey": {
-		"nextPaginationKey": "6"
-	}
+  "listFrequentOperation": [
+    {
+      "id": "FRTT000000",
+      "shortName": "Prueba_TT",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "2800160237"
+                }
+              }
+            },
+            "name": "GIOVANNI NICOLAS MARIN"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "THIRD_PARTY",
+      "accountingOfOpe": "16"
+    },
+    {
+      "id": "FRTT000001",
+      "shortName": "TestSusan",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0178851808"
+                }
+              }
+            },
+            "name": "SUSAN DIAZ LOW"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "THIRD_PARTY",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTT000002",
+      "shortName": "Maggi",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "1480628875"
+                }
+              }
+            },
+            "name": "MARGRETT ALGUIRE CIRIONI"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "THIRD_PARTY",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTT000003",
+      "shortName": "JAG_01",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "2700718602"
+                }
+              }
+            },
+            "name": "FIFI DRETZKA GALEOTTI"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "THIRD_PARTY",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000000",
+      "shortName": "Pao PrFrec",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "SANTANDER"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "014180605884001963"
+                }
+              }
+            },
+            "name": "PAO"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000001",
+      "shortName": "PrLoan",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "111111111000000011"
+                }
+              }
+            },
+            "name": "PRUEBALOAN"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000002",
+      "shortName": "Prueba01",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "4152313300"
+                }
+              }
+            },
+            "name": "PRUEBA"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000003",
+      "shortName": "PruebaTDD",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "BANORTE/ IXE"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "4915663015856694"
+                }
+              }
+            },
+            "name": "PRUEBA"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000004",
+      "shortName": "PruebaTDC2",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "545631060044264"
+                }
+              }
+            },
+            "name": "PRUEBATC"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000005",
+      "shortName": "PruebaTDC",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "5499490522354489"
+                }
+              }
+            },
+            "name": "PRUEBATDC"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000006",
+      "shortName": "PrAuto",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "552307474702020202"
+                }
+              }
+            },
+            "name": "PRUEBAAUTO"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    },
+    {
+      "id": "FRTI000007",
+      "shortName": "FrecCel",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "name": "SCOTIABANK"
+            },
+            "contract": {
+              "product": {
+                "expressAccount": {
+                  "accountNumber": "5527156011"
+                }
+              }
+            },
+            "name": "CELULAR PRUEBA FREC"
+          },
+          "token": false
+        }
+      },
+      "typeOperationFreq": "INTERBANK",
+      "accountingOfOpe": "0"
+    }
+  ]
 }
