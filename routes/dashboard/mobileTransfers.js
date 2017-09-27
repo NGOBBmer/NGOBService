@@ -22,7 +22,7 @@ router.post('/V00/dashboard/mobileTransfers/', function(req, res, next) {
   var amou= req.body.amount%100
   
     if(otp == '12345678' && tsec != '' && tsec != null){
-      if(req.body.amount!=null && req.body.concept!= "" && req.body.idAccount !="" &&  amou== 0){
+      if(req.body.amount!=null && req.body.concept!= "" && req.body.idAccount !="" &&  amou== 0 || req.body.concept === ""){
         return res.json(DATA_01);
       }else{ 
           return res.status(400).json(ERROR);
