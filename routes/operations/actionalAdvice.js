@@ -26,9 +26,11 @@ router.get('/V00/actionalAdvice', function(req, res, next) {
   
 		return res.json(VACIO);
 	}
-	  return res.json(ERROR);
 	  return res.json(ADVISE);
+	  return res.json(ERROR);
+	  
 	  next();
 });
 
 module.exports = router;
+
