@@ -22,7 +22,7 @@ router.use(function(req, res, next) {
 router.get('/V00/actionalAdvice', function(req, res, next) {
 
 	var tsec = req.headers['tsec'];
-	if(tsec === '' || tsec === ''){
+	if(tsec === '123456' || tsec === '012345678'){
   
 		return res.json(VACIO);
 	}
