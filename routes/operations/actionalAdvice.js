@@ -21,15 +21,12 @@ router.use(function(req, res, next) {
 router.get('/V00/actionalAdvice', function(req, res, next) {
 
  var tsec = req.headers['tsec'];
- if(tsec != '012345678' && tsec != '123456' && tsec != ''){
-
-
-  return res.json(ADVISE);
-
-  
-}else if(&& tsec != ''){
+ if(tsec == '012345678' || tsec == '123456'){
 	return res.json(VACIO);
+
+}else if(tsec != ''){
 	
+	return res.json(ADVISE);
 }else{
 	return res.json(ERROR);
 }
