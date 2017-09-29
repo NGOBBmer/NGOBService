@@ -6,7 +6,7 @@ var router = express.Router();
 
 var ADVISE = require('../../mock/V00/operations/actionalAdvice/actionalAdvice.json');
 var ERROR = require('../../mock/V00/operations/actionalAdvice/error.json');
-
+var VACIO = require('../../mock/V00/operations/actionalAdvice/adviceEmpty.json');
 router.use(function(req, res, next) {
   var host = req.get('origin');
   res.setHeader('Access-Control-Allow-Origin', host || '*');
@@ -20,9 +20,22 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/operations/V00/actionalAdvice
 router.get('/V00/actionalAdvice', function(req, res, next) {
 
+ var tsec = req.headers['tsec'];
+ if(tsec != '012345678' && tsec != '123456' && tsec != ''){
+
+
   return res.json(ADVISE);
-  return res.json(ERROR);
+
+  
+}else if(&& tsec != ''){
+	return res.json(VACIO);
+	
+}else{
+	return res.json(ERROR);
+}
   next();
+}
+}
 });
 
 module.exports = router;
