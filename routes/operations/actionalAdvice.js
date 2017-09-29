@@ -31,8 +31,6 @@ router.get('/V00/actionalAdvice', function(req, res, next) {
 	return res.json(ERROR);
 }
   next();
-}
-}
 });
 
 module.exports = router;
