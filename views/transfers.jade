@@ -10,14 +10,14 @@ block content
   h2 Transfers
   ul
     li
-      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/frequentOperations?typeOpFrequent=&paginationKey=&numMovsFreq=20") frequentOperations (GET)
-      span https://cards-service-mock.herokuapp.com/transfers/V00/frequentOperations?typeOpFrequent=&paginationKey=&numMovsFreq=20
+      a(href="https://ngob-services.herokuapp.com/transfers/V00/frequentOperations?typeOpFrequent=&paginationKey=&numMovsFreq=20") frequentOperations (GET)
+      span https://ngob-services.herokuapp.com/transfers/V00/frequentOperations?typeOpFrequent=&paginationKey=&numMovsFreq=20
     li
-      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001") creditCardPayment/{idCreditCard}  (POST)
+      a(href="https://ngob-services.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001") creditCardPayment/{idCreditCard}  (POST)
       br
       span creditCardId. TDC a pagar (URL param) 
       br
-      span https://cards-service-mock.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001
+      span https://ngob-services.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001
       ul
         li  Dia Actual {"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
           br
@@ -51,15 +51,15 @@ block content
           span -amount. cantidad a pagar
        
     li
-      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts") listSenderAccountsALL (GET)
-      span https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts
+      a(href="https://ngob-services.herokuapp.com/transfers/V00/listSenderAccounts") listSenderAccountsALL (GET)
+      span https://ngob-services.herokuapp.com/transfers/V00/listSenderAccounts
       ul
-        li https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts 
+        li https://ngob-services.herokuapp.com/transfers/V00/listSenderAccounts 
           b Muestra todas las cuentas de retiro v&aacute;lidas 
-        li https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD 
+        li https://ngob-services.herokuapp.com/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD 
           b Muestra las cuentas de retiro v&aacute;lidas para TDC 
           i (puede ir el id informado en accountId o no)
-        li https://cards-service-mock.herokuapp.com/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
+        li https://ngob-services.herokuapp.com/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
           br
           br
           Si tsec es 1234567890 devuelve error, sin cuentas v&aacute;lidas para operar
@@ -68,13 +68,13 @@ block content
           br
           Sin tsec devuelve 2 cuentas v&aacute;lidas
     li
-      a(href="https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts") listReceiverAccounts (GET)
-      span https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts
+      a(href="https://ngob-services.herokuapp.com/transfers/V00/listReceiverAccounts") listReceiverAccounts (GET)
+      span https://ngob-services.herokuapp.com/transfers/V00/listReceiverAccounts
       ul
-        li https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts?operationType=PAY_CREDITCARD&accountId=TCMXP0000001 
+        li https://ngob-services.herokuapp.com/transfers/V00/listReceiverAccounts?operationType=PAY_CREDITCARD&accountId=TCMXP0000001 
           b Muestra las cuentas de deposito v&aacute;lidas para TDC 
           i (puede ir el id informado en accountId o no)
-        li https://cards-service-mock.herokuapp.com/transfers/V00/listReceiverAccounts?operationType=PAY_CREDITCARD&accountId=TCMXP0000001
+        li https://ngob-services.herokuapp.com/transfers/V00/listReceiverAccounts?operationType=PAY_CREDITCARD&accountId=TCMXP0000001
           br
           br
           Si tsec es 1234567890 devuelve error, sin cuentas deposito para operar
@@ -83,8 +83,8 @@ block content
           br
           Sin tsec devuelve 2 cuentas de deposito
     li
-        a(href="https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer") myAccountsTransfer (POST)
-        span https://cards-service-mock.herokuapp.com/transfers/V00/myAccountsTransfer
+        a(href="https://ngob-services.herokuapp.com/transfers/V00/myAccountsTransfer") myAccountsTransfer (POST)
+        span https://ngob-services.herokuapp.com/transfers/V00/myAccountsTransfer
         ul
           li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
             br
@@ -119,8 +119,8 @@ block content
             br 
             span -amount. cantidad a transferir
       li
-        a(href="https://cards-service-mock.herokuapp.com/transfers/V00/cashAdvanceFee") cashAdvanceFee (POST)
-        span https://cards-service-mock.herokuapp.com/transfers/V00/cashAdvanceFee
+        a(href="https://ngob-services.herokuapp.com/transfers/V00/cashAdvanceFee") cashAdvanceFee (POST)
+        span https://ngob-services.herokuapp.com/transfers/V00/cashAdvanceFee
         ul
           li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"TCMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
             br
