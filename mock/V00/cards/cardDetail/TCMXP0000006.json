@@ -82,6 +82,7 @@
     "currentDate": "",
     "status": {
       "id": "BLOCKED"
-    }
+    },
+    "cellsNavigation": false
   }
 }

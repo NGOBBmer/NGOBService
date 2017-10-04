@@ -82,6 +82,7 @@
     "currentDate": "",
     "status": {
       "id": "OPERATIVE"
-    }
+    },
+    "cellsNavigation": false
   }
 }

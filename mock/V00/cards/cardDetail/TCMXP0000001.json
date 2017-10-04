@@ -94,6 +94,7 @@
     "currentDate": "",
     "status": {
       "id": "BLOCKED"
-    }
+    },
+    "cellsNavigation": true
   }
 }
