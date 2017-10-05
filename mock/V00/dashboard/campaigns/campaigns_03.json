@@ -1,26 +1,36 @@
 {
   "data": [
     {
-      "campaignName": "CAMBIO TOKEN",
-      "campaignId": "0498CAM2508150001",
+      "campaignName": "PREAPROBADO TDC",
+      "campaignId": "0296CAM1701030005",
       "amountOffer": {
-        "amount": 0.0,
+        "amount": 50000.0,
         "currency": "MXP"
       },
       "type": "1C",
-      "promotionType": "0498",
+      "promotionType": "0296",
       "information": {
-        "title": "Actualiza tu token ahora",
+        "title": "Tarjeta de crédito de",
         "subtitle": "",
         "navigation": {
-          "pathUrl": ""
+          "pathUrl": "promocionCTDC",
+          "params": [
+            {
+              "name": "origen",
+              "value": "oneClic"
+            },
+            {
+              "name": "idPromocion",
+              "value": "0498CAM2508150005"
+            }
+          ]
         }
       },
       "image": {
-        "url": "/img/oneclic/Token.png",
+        "url": "/img/oneclic/IncreaseCredit.png",
         "base64": ""
       },
-      "isModal": true
+      "isModal": false
     }
   ],
   "image": {
