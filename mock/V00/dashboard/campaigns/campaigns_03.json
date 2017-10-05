@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "campaignName": "CAMBIO TOKEN",
+      "campaignId": "0498CAM2508150001",
+      "amountOffer": {
+        "amount": 0.0,
+        "currency": "MXP"
+      },
+      "type": "1C",
+      "promotionType": "0498",
+      "information": {
+        "title": "Actualiza tu token ahora",
+        "subtitle": "",
+        "navigation": {
+          "pathUrl": ""
+        }
+      },
+      "image": {
+        "url": "/img/oneclic/Token.png",
+        "base64": ""
+      },
+      "isModal": true
+    }
+  ],
+  "image": {
+    "url": "/img/oneclic/oneclick_icon.png",
+    "base64": ""
+  }
+}

@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var CAMPANIA01 = require('../../mock/V00/dashboard/campaigns/campaigns_01.json');
 var CAMPANIA02 = require('../../mock/V00/dashboard/campaigns/campaigns_02.json');
+var CAMPANIA03 = require('../../mock/V00/dashboard/campaigns/campaigns_03.json');
 var CAMPANIA_error = require('../../mock/V00/dashboard/campaigns/campaigns_error.json');
 var CAMPANIA_error01 = require('../../mock/V00/dashboard/campaigns/campaigns_error01.json');
 
@@ -23,6 +24,8 @@ router.get('/V00/campaigns', function(req, res, next) {
 		return res.json(CAMPANIA01);
 	else if (tsec === '654321')
         return res.json(CAMPANIA02);
+    else if (tsec === '123456')
+        return res.json(CAMPANIA03);
     else if (tsec === '123654')
         return res.status(400).json(CAMPANIA_error01);
 
