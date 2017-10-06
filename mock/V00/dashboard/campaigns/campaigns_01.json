@@ -10,8 +10,8 @@
       "type": "1C",
       "promotionType": "0498",
       "information": {
-        "title": "Actualiza tu token ahora",
-        "subtitle": "",
+        "title": "¡Por tiempo limitado!",
+        "subtitle": "Actualiza tu token ahora",
         "navigation": {
           "pathUrl": ""
         }
@@ -32,8 +32,8 @@
       "type": "1C",
       "promotionType": "0296",
       "information": {
-        "title": "Tarjeta de crédito de",
-        "subtitle": "",
+        "title": "¡Por tiempo limitado!",
+        "subtitle": "Obtén tu tarjeta con línea de crédito de",
         "navigation": {
           "pathUrl": "promocionCTDC",
           "params": [
@@ -64,8 +64,8 @@
       "type": "1C",
       "promotionType": "0377",
       "information": {
-        "title": "Disposición Efectivo Inmediato hasta",
-        "subtitle": "",
+        "title": "¡Por tiempo limitado!",
+        "subtitle": "Disposición Efectivo Inmediato hasta",
         "navigation": {
           "pathUrl": "promocionEFI",
           "params": [
@@ -92,8 +92,8 @@
       "type": "1C",
       "promotionType": "0060",
       "information": {
-        "title": "Préstamo por",
-        "subtitle": "",
+        "title": "",
+        "subtitle": "Obten un préstamo hasta por",
         "navigation": {
           "pathUrl": "promocionPrestamoPersonal",
           "params": [
@@ -129,8 +129,8 @@
       "type": "1C",
       "promotionType": "0622",
       "information": {
-        "title": "Seguro de Auto por",
-        "subtitle": "",
+        "title": "¡Por tiempo limitado!",
+        "subtitle": "Seguro de Auto al mes por solo",
         "navigation": {
           "pathUrl": "ofertasOneClick",
           "params": [
@@ -166,8 +166,8 @@
       "type": "1C",
       "promotionType": "0133",
       "information": {
-        "title": "VIDA NÓMINA por sólo",
-        "subtitle": "al mes",
+        "title": "¡Por tiempo limitado!",
+        "subtitle": "Seguro de vida al mes por solo",
         "navigation": {
           "pathUrl": "promocionSGF",
           "params": [
