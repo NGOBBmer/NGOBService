@@ -19,7 +19,7 @@ block content
       br
       span https://ngob-services.herokuapp.com/transfers/V00/creditCardPayment/TCMXP0000001
       ul
-        li  Dia Actual {"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
+        li  li aplicationDate en LINEA o PROGRAMDA  {"senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
           br
           br
           span -senderAccountId. ID Cuenta Cargo
@@ -28,7 +28,7 @@ block content
           br 
           span -isPeriodic. FALSE
           br 
-          span -aplicationDate. Fecha del dia actual
+          span -aplicationDate. Fecha del dia actual (LINEA) Fecha futura (PROGRAMADA)
           br 
           span -amount. cantidad a pagar
           br 
@@ -86,7 +86,7 @@ block content
         a(href="https://ngob-services.herokuapp.com/transfers/V00/myAccountsTransfer") myAccountsTransfer (POST)
         span https://ngob-services.herokuapp.com/transfers/V00/myAccountsTransfer
         ul
-          li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
+          li aplicationDate en LINEA o PROGRAMDA  {"receiverAccountId":"CHMXP0000001","senderAccountId":"CHMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
             br
             br
             span -receiverAccountId. Cuenta Abono
@@ -97,7 +97,7 @@ block content
             br 
             span -isPeriodic. FALSE
             br 
-            span -aplicationDate. Fecha del dia actual
+            span -aplicationDate. Fecha del dia actual (LINEA) Fecha futura (PROGRAMADA)
             br 
             span -amount. cantidad a transferir
             br 
@@ -122,7 +122,7 @@ block content
         a(href="https://ngob-services.herokuapp.com/transfers/V00/cashAdvanceFee") cashAdvanceFee (POST)
         span https://ngob-services.herokuapp.com/transfers/V00/cashAdvanceFee
         ul
-          li aplicationDate Dia Actual {"receiverAccountId":"CHMXP0000001","senderAccountId":"TCMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
+          li aplicationDate en LINEA o PROGRAMDA {"receiverAccountId":"CHMXP0000001","senderAccountId":"TCMXP0000002","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
             br
             br
             span -receiverAccountId. Cuenta Abono
@@ -133,7 +133,7 @@ block content
             br 
             span -isPeriodic. FALSE
             br 
-            span -aplicationDate. Fecha del dia actual
+            span -aplicationDate. Fecha del dia actual (LINEA) Fecha futura (PROGRAMADA)
             br 
             span -amount. cantidad a transferir
             br 
@@ -158,10 +158,10 @@ block content
         a(href="https://ngob-services.herokuapp.com/transfers/V00/otherAccountsTransfer") otherAccountsTransfer (POST)
         span https://ngob-services.herokuapp.com/transfers/V00/otherAccountsTransfer
         ul
-          li aplicationDate Dia Actual {"senderAccountId":"CHMXP0000001","otherTrasnferFreqId":"FRTT000001","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
+          li aplicationDate en LINEA o PROGRAMDA  {"senderAccountId":"CHMXP0000001","otherTrasnferFreqId":"FRTT000001","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
             br
             br
-            span -otherTrasnferFreqId. Cuenta Abono
+            span -otherTrasnferFreqId. ID de la operacion frecuente 
             br 
             span -senderAccountId. Cuenta Cargo
             br 
@@ -169,7 +169,7 @@ block content
             br 
             span -isPeriodic. FALSE
             br 
-            span -aplicationDate. Fecha del dia actual
+            span -aplicationDate. Fecha del dia actual (LINEA) Fecha futura (PROGRAMADA)
             br 
             span -amount. cantidad a transferir
             br 
