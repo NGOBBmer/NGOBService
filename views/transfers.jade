@@ -118,7 +118,7 @@ block content
             span -period. WEEKLY, FORTNIGHT, MONTHLY o BIMONTHLY
             br 
             span -amount. cantidad a transferir
-      li
+    li
         a(href="https://ngob-services.herokuapp.com/transfers/V00/cashAdvanceFee") cashAdvanceFee (POST)
         span https://ngob-services.herokuapp.com/transfers/V00/cashAdvanceFee
         ul
@@ -148,6 +148,44 @@ block content
             span -concept. Sera el nombre de la periodica
             br 
             span -isPeriodic. TRUE para periodicas, FALSE en otro casoli aplicationDate. Fecha de inicio
+            br 
+            span -endDate. fecha Fin...
+            br 
+            span -period. WEEKLY, FORTNIGHT, MONTHLY o BIMONTHLY
+            br 
+            span -amount. cantidad a transferir
+    li
+        a(href="https://ngob-services.herokuapp.com/transfers/V00/otherAccountsTransfer") otherAccountsTransfer (POST)
+        span https://ngob-services.herokuapp.com/transfers/V00/otherAccountsTransfer
+        ul
+          li aplicationDate Dia Actual {"senderAccountId":"CHMXP0000001","otherTrasnferFreqId":"FRTT000001","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10"}
+            br
+            br
+            span -otherTrasnferFreqId. Cuenta Abono
+            br 
+            span -senderAccountId. Cuenta Cargo
+            br 
+            span -concept. Si no aplica enviar vacio
+            br 
+            span -isPeriodic. FALSE
+            br 
+            span -aplicationDate. Fecha del dia actual
+            br 
+            span -amount. cantidad a transferir
+            br 
+            span **Para una transferencia PROGRAMADA solo se envia en aplicactionDate una fecha mayor al dia de actual
+          li PERIODICA {"senderAccountId":"CHMXP0000001","otherTrasnferFreqId":"FRTT000001","concept":"AHORRO","isPeriodic":true,"aplicationDate":"2017-08-29","endDate":"2017-09-29","period":"WEEKLY","amount":"10"}
+            br
+            br
+            span -otherTrasnferFreqId. ID de la operacion frecuente 
+            br 
+            span -senderAccountId. Cuenta Cargo
+            br 
+            span -concept. Sera el nombre de la periodica
+            br 
+            span -isPeriodic. TRUE para periodicas, FALSE en otro caso
+            br
+            span -aplicationDate. Fecha de inicio
             br 
             span -endDate. fecha Fin...
             br 
