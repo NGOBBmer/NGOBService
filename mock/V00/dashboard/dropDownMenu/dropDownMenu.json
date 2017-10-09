@@ -230,11 +230,7 @@
         "pathUrl": "edoCuentaCredito",
         "navigation": {
             "cellsNavigation": false,
-            "typeProductId": "PR",
-            "params": [{
-                "name": "cuenta",
-                "value": "0"
-            }]
+            "typeProductId": "PR"
         }
     }]
 }]

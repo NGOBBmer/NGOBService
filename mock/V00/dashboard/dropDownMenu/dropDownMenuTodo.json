@@ -6,14 +6,7 @@
         "pathUrl": "cellsDetalleCuenta",
         "navigation": {
             "cellsNavigation": true,
-            "typeProductId": "AH",
-            "params": [{
-                "name": "tipoCuenta",
-                "value": "cuentaChequera"
-            }, {
-                "name": "idcuenta",
-                "value": "AHMXP0000001"
-            }]
+            "typeProductId": "AH"
         }
     }, {
         "nombre": "Transferir",

@@ -5,14 +5,7 @@
         "nombre": "Movimientos",
         "pathUrl": "detalleCuenta",
         "navigation": {
-            "cellsNavigation": true,
-            "params": [{
-                "name": "tipoCuenta",
-                "value": "cuentaChequera"
-            }, {
-                "name": "idcuenta",
-                "value": "CHMXP0000001"
-            }]
+            "cellsNavigation": true
         }
     }, {
         "nombre": "Transferir",
