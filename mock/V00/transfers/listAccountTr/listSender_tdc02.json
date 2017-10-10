@@ -16,6 +16,7 @@
           "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       }
-    ]
+    ],
+    "currentDate": "2017-10-11"
   }
 }
