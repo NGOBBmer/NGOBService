@@ -957,7 +957,8 @@
   },
   "totalBalanceCreditCard": {
     "balance": {
-      "amount": 360604.3
+      "amount": 360604.3,
+      "currency": "MXP"
     },
     "description": "Tarjeta de Crédito"
   },
@@ -970,7 +971,8 @@
   },
   "totalBalanceCreditos": {
     "balance": {
-      "amount": 1619394.78
+      "amount": 1619394.78,
+      "currency": "MXP"
     },
     "description": "Total de préstamos"
   }
