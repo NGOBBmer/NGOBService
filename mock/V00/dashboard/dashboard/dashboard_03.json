@@ -41,5 +41,12 @@
       "currency": "MXP"
     },
     "description": "Cuenta en Pesos"
+  },
+  "totalBalanceCreditCard": {
+    "balance": {
+      "amount": 43179.94,
+      "currency": "MXP"
+    },
+    "description": "Total de tarjeta de crédito"
   }
 }
