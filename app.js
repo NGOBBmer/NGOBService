@@ -65,6 +65,15 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.all('*', function(req, res, next) {
+  var host = req.get('origin');
+  res.setHeader('Access-Control-Allow-Origin', host || '*');
+  res.setHeader('Accept-Language', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,POST');
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  next();
+});
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/cheques', cheques);
