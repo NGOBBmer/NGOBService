@@ -31,6 +31,10 @@
           "isNominated": true,
           "hasPocket": false,
           "pathUrl": "zonaNomina"
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -62,6 +66,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       }
     ],
@@ -95,6 +103,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -126,6 +138,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -157,6 +173,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -188,6 +208,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -219,6 +243,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -250,6 +278,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -281,6 +313,10 @@
         "assigned": {
           "isNominated": false,
           "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
@@ -895,14 +931,16 @@
         "description": "Apartado",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "spendingPockets"
+            "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
           },
           "cellsNavigation": false
         },
         "assigned": {
           "hasPocket": true,
           "isNominated": false,
-          "pathUrl": "spendingPockets"
+          "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
         }
       },
       {
@@ -922,14 +960,16 @@
         "description": "Apartado",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "spendingPockets"
+            "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
           },
           "cellsNavigation": false
         },
         "assigned": {
           "hasPocket": true,
           "isNominated": false,
-          "pathUrl": "spendingPockets"
+          "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
         }
       }
     ]

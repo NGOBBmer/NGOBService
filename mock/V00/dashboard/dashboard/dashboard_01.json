@@ -34,6 +34,10 @@
       "assigned": {
         "isNominated": false,
         "hasPocket": false
+      },
+      "image": {
+        "type": "CHECKACCOUNT",
+        "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
       }
     }],
     "investmentsFund": [{
@@ -285,7 +289,8 @@
         "assigned": {
           "hasPocket": true,
           "isNominated": false,
-          "pathUrl": "spendingPockets"
+          "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
         }
       },
       {
@@ -312,7 +317,8 @@
         "assigned": {
           "hasPocket": true,
           "isNominated": false,
-          "pathUrl": "spendingPockets"
+          "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
         }
       }
     ]
