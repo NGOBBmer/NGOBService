@@ -6,6 +6,7 @@ var router = express.Router();
 
 var LISTA_ALL = require('../../mock/V00/operations/agileOperations/lista_all.json');
 var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json')
+var LISTA_PR_VACIA = require('../../mock/V00/operations/agileOperations/lista_prVacia.json')
 //var PR_EMPTY = require('../../mock/V00/operations/agileOperations/pr_empty.json');
 var LISTA_RP = require('../../mock/V00/operations/agileOperations/lista_rp.json');
 var LISTA_RP0 = require('../../mock/V00/operations/agileOperations/lista_rp_0.json');
@@ -37,7 +38,9 @@ router.get('/V00/agileOperations', function(req, res, next) {
   }else{
     if (req.query.agileOperationType === 'ALL')
       return res.json(LISTA_ALL);
-    else if (req.query.agileOperationType === 'RECURRING'){
+   else if (tsec == '12347823'){
+     return res.json(LISTA_PR_VACIA);
+   }else if (req.query.agileOperationType === 'RECURRING'){
       var weekId = req.query.weekId;
       var date = req.query.date;
       

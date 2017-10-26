@@ -90,7 +90,7 @@
         "nombre": "Pagar",
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "TC",
             "params": [{
                 "name": "cuenta",

@@ -25,6 +25,8 @@ router.get('/V00/userInfo', function(req, res, next) {
     return res.json(userInfo_user01)
   else if (tsec == 'qrcronto')
     return res.json(userInfo_user03)
+  else if (tsec == '12347823')
+    return res.json(userInfo_user01)
 	else
     return res.json(userInfo_user02);
 
