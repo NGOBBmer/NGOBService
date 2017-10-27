@@ -1,24 +1,24 @@
 {
   "data": {
-    "alias": "Giovanni",
-    "number": "1234",
+    "alias": "",
+    "number": "3456",
     "cardId": "TCMXP0000003",
-    "cutOffDate": "2016-03-20 00:00:00:000000",
+    "cutOffDate": "",
     "paymentMethod": {
-      "endDate": "2017-08-30",
+      "endDate": "",
       "paymentAmounts": [
         {
           "id": "PM",
           "name": "minimumPayment",
           "values": {
-            "amount": "0.0"
+            "amount": "0"
           }
         },
         {
           "id": "PNI",
           "name": "notInterestPayment",
           "values": {
-            "amount": "0.0"
+            "amount": "0"
           }
         }
       ]
@@ -38,6 +38,6 @@
       "id": "TP",
       "name": "T BCMR PLATINUM"
     },
-    "currentDate": "2017-08-17"
+    "currentDate": "2017-10-26"
   }
 }
