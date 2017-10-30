@@ -50,6 +50,7 @@ var myAccountsTransfer = require('./routes/transfers/myAccountsTransfer');
 var otherAccountsTransfer = require('./routes/transfers/otherAccountsTransfer');
 var cashAdvanceFee = require('./routes/transfers/cashAdvanceFee');
 var mainTransfers = require('./routes/transfers/mainTransfers');
+var getSequences = require('./routes/transfers/getSequences');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 
@@ -120,6 +121,7 @@ app.use('/transfers', myAccountsTransfer);
 app.use('/transfers', otherAccountsTransfer);
 app.use('/transfers', cashAdvanceFee);
 app.use('/transfers', mainTransfers);
+app.use('/transfers', getSequences);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
 
