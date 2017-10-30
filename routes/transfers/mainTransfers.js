@@ -28,7 +28,7 @@ var banksCatalogTdd = require('../../mock/V00/transfers/loadBanks/loadBanks_tdd.
 var banksCatalogTdc = require('../../mock/V00/transfers/loadBanks/loadBanks_tdc.json');
 var banksCatalogOtrosCreditos = require('../../mock/V00/transfers/loadBanks/loadBanks_OtrosCreditos.json');
 var bankFound = require('../../mock/V00/transfers/loadBanks/bankFound.json');
-var bankFound01 = require('../../mock/V00/transfers/loadBanks/bankFound_01.json');
+var bankFound01 = require('../../mock/V00/transfers/loadBanks/BankFound_01.json');
 var banksError = require('../../mock/V00/transfers/loadBanks/ERROR.json');
 
 
@@ -90,6 +90,43 @@ router.get('/V00/cardInformation/:id', function(req, res, next) {
         return res.json(cardInformation_def);
 
     return res.status(400).json(cardInformation_err);
+  next();
+});
+
+// handler for query http://localhost:4000/transfers/V00/QrData?account=002180700256&beneficiaryName=BANAMEX
+router.get('/V00/QrData', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if (tsec == '123456')
+        return res.json(QrDataOcra);
+    else  if (tsec == '123456789')
+        return res.json(QrDataSoftokenOpt);
+    else  if (tsec == 'cronto')
+        return res.json(QrDataCronto);
+
+    return res.status(400).json(qrError);
+  next();
+});
+
+
+// handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
+router.get('/V00/loadBanks', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if (tsec == 'null' || tsec == undefined && req.query.operationType==='spei' && req.query.cveBank==='90628')
+        return res.json(bankFound);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='otroscreditos' && req.query.cveBank==='30167')
+        return res.json(bankFound01);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='spei')
+        return res.json(banksCatalogSpei);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='clabe')
+        return res.json(banksCatalogClabe);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='tdd')
+        return res.json(banksCatalogTdd);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='tdc')
+        return res.json(banksCatalogTdc);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='otroscreditos')
+        return res.json(banksCatalogOtrosCreditos);
+
+    return res.status(400).json(banksError);
   next();
 });
 
