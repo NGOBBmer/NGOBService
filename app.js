@@ -52,8 +52,6 @@ var cashAdvanceFee = require('./routes/transfers/cashAdvanceFee');
 var mainTransfers = require('./routes/transfers/mainTransfers');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
-var loadBank = require('./routes/transfers/loadBanks');
-
 
 var app = express();
 
@@ -124,7 +122,6 @@ app.use('/transfers', cashAdvanceFee);
 app.use('/transfers', mainTransfers);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
-app.use('/transfers', loadBank);
 
 
 // catch 404 and forward to error handler
