@@ -54,6 +54,7 @@ var getSequences = require('./routes/transfers/getSequences');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 
+
 var app = express();
 
 // view engine setup
