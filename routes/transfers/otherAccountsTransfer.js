@@ -23,7 +23,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var concept = req.body.concept;
     var isPeriodic =req.body.isPeriodic;
     var aplicationDate =req.body.aplicationDate;
-    var endDate =req.body.endDate;
+    var repetitions =req.body.repetitions;
     //var reference =req.body.reference;
     var amount =req.body.amount;
     var period =req.body.period;
@@ -31,7 +31,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
         
         if (isPeriodic){
-             if (endDate != '' && concept != '' &&  period != '' && endDate != null && concept != null &&  period != null){
+             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
                 return res.json(OK_period);
              }else{
                 return res.json(ERROR); 
