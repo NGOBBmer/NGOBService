@@ -53,7 +53,6 @@ var mainTransfers = require('./routes/transfers/mainTransfers');
 var getSequences = require('./routes/transfers/getSequences');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
-var loadBank = require('./routes/transfers/loadBanks');
 var qrData = require('./routes/transfers/QrData');
 
 var app = express();
@@ -126,7 +125,6 @@ app.use('/transfers', mainTransfers);
 app.use('/transfers', getSequences);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
-app.use('/transfers', loadBank);
 app.use('/transfers', qrData);
 
 
