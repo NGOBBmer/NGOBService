@@ -52,6 +52,7 @@ var cashAdvanceFee = require('./routes/transfers/cashAdvanceFee');
 var mainTransfers = require('./routes/transfers/mainTransfers');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
+var loadBanks = require('./routes/transfers/loadBanks');
 
 var app = express();
 
@@ -120,6 +121,7 @@ app.use('/transfers', myAccountsTransfer);
 app.use('/transfers', otherAccountsTransfer);
 app.use('/transfers', cashAdvanceFee);
 app.use('/transfers', mainTransfers);
+app.use('/transfers', loadBanks);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
 

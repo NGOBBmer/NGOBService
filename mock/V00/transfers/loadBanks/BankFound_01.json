@@ -1,0 +1,17 @@
+{
+  "bankCatalog": [
+    {
+      "claveSPEI": "30167",
+      "bankName": "TESORERIA DE LA FEDERACION",
+      "cbe": true,
+      "cbeMD": false,
+      "cbeDS": true,
+      "tdd": true,
+      "tddMD": false,
+      "tddDS": true,
+      "tdc": false,
+      "ocr": true,
+      "sinApl": true
+    }
+  ]
+}

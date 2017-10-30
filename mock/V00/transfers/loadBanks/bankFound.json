@@ -1,0 +1,18 @@
+{
+  "bankCatalog": [
+    {
+      "idBank": "94",
+      "claveSPEI": "90628",
+      "bankName": "ZURICHVI",
+      "cbe": true,
+      "cbeMD": true,
+      "cbeDS": false,
+      "tdd": true,
+      "tddMD": true,
+      "tddDS": false,
+      "tdc": false,
+      "ocr": false,
+      "sinApl": true
+    }
+  ]
+}
