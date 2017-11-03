@@ -32,8 +32,7 @@ router.use(function(req, res, next) {
 router.post('/V00/getPDFDocuments', function(req, res, next) {
   if (req.body.type=="pdf"){
     return res.json(PDF);
-  }
-  else if (req.body.type=="html"){
+  }else if (req.body.type=="html"){
     if (req.body.productId=="TCMXP0000001")
       return res.json(HTML_TC);
     else if (req.body.productId=="CHMXP0000001")

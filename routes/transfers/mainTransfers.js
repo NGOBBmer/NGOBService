@@ -15,6 +15,23 @@ var cardInformation_04 = require('../../mock/V00/transfers/cardInfo/cardInformat
 var cardInformation_def = require('../../mock/V00/transfers/cardInfo/cardInformation_00.json');
 var cardInformation_err = require('../../mock/V00/transfers/cardInfo/cardInformation_err.json');
 
+//QrData
+var QrDataOcra = require('../../mock/V00/transfers/QrData/QrOcra.json');
+var QrDataSoftokenOpt = require('../../mock/V00/transfers/QrData/QrSoftokenOptico.json');
+var QrDataCronto = require('../../mock/V00/transfers/QrData/QrCronto.json');
+var qrError = require('../../mock/V00/transfers/QrData/error.json');
+
+//loadBanks
+var banksCatalogSpei = require('../../mock/V00/transfers/loadBanks/loadBanks_Spei.json');
+var banksCatalogClabe = require('../../mock/V00/transfers/loadBanks/loadBanks_clabe.json');
+var banksCatalogTdd = require('../../mock/V00/transfers/loadBanks/loadBanks_tdd.json');
+var banksCatalogTdc = require('../../mock/V00/transfers/loadBanks/loadBanks_tdc.json');
+var banksCatalogOtrosCreditos = require('../../mock/V00/transfers/loadBanks/loadBanks_OtrosCreditos.json');
+var bankFound = require('../../mock/V00/transfers/loadBanks/bankFound.json');
+var bankFound01 = require('../../mock/V00/transfers/loadBanks/BankFound_01.json');
+var banksError = require('../../mock/V00/transfers/loadBanks/ERROR.json');
+
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -76,5 +93,41 @@ router.get('/V00/cardInformation/:id', function(req, res, next) {
   next();
 });
 
+// handler for query http://localhost:4000/transfers/V00/QrData?account=002180700256&beneficiaryName=BANAMEX
+router.get('/V00/QrData', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if (tsec == '123456')
+        return res.json(QrDataOcra);
+    else  if (tsec == '123456789')
+        return res.json(QrDataSoftokenOpt);
+    else  if (tsec == 'cronto')
+        return res.json(QrDataCronto);
+
+    return res.status(400).json(qrError);
+  next();
+});
+
+
+// handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
+router.get('/V00/loadBanks', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if (tsec == 'null' || tsec == undefined && req.query.operationType==='spei' && req.query.cveBank==='90628')
+        return res.json(bankFound);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='otroscreditos' && req.query.cveBank==='30167')
+        return res.json(bankFound01);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='spei')
+        return res.json(banksCatalogSpei);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='clabe')
+        return res.json(banksCatalogClabe);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='tdd')
+        return res.json(banksCatalogTdd);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='tdc')
+        return res.json(banksCatalogTdc);
+    else if (tsec == 'null' || tsec == undefined && req.query.operationType==='otroscreditos')
+        return res.json(banksCatalogOtrosCreditos);
+
+    return res.status(400).json(banksError);
+  next();
+});
 
 module.exports = router;
