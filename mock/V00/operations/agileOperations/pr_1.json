@@ -14,7 +14,8 @@
       },
       "operationDate": "2017-07-07",
       "description": "Traspaso Bancomer",
-      "operationType": "T"
+      "operationType": "T",
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "2",

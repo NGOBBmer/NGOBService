@@ -14,7 +14,8 @@
       },
       "operationDate": "2017-08-08",
       "description": "Traspaso interbancario",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "SCHEDULED"
     }
   ],
   "nextWeekId": "7",

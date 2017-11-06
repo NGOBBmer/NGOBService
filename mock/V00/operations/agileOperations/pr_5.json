@@ -14,7 +14,8 @@
       },
       "operationDate": "2017-08-02",
       "description": "Traspaso",
-      "operationType": "T"
+      "operationType": "T",
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "6",

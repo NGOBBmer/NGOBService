@@ -14,7 +14,8 @@
       },
       "operationDate": "2017-07-21",
       "description": "Compra tiempo aire",
-      "operationType": "TA"
+      "operationType": "TA",
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "4",

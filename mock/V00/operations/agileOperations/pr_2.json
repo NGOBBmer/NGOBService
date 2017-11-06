@@ -14,7 +14,8 @@
       },
       "operationDate": "2017-07-14",
       "description": "Traspaso Interbancario",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "SCHEDULED"
     },
     {
       "id": "0001",
@@ -30,7 +31,8 @@
       },
       "operationDate": "2017-07-11",
       "description": "Traspaso Bancomer",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -46,7 +48,8 @@
       },
       "operationDate": "2017-07-14",
       "description": "Traspaso",
-      "operationType": "T"
+      "operationType": "T",
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "3",

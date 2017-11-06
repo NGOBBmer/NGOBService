@@ -29,7 +29,8 @@
           }
         ]
       },
-      "operationType": "OB"
+      "operationType": "OB",
+      "agileType": "FAST"
     },
     {
       "id": "PR000002",
@@ -60,7 +61,8 @@
           }
         ]
       },
-      "operationType": "TA"
+      "operationType": "TA",
+      "agileType": "FAST"
     },
     {
       "id": "PR000003",
@@ -91,7 +93,8 @@
           }
         ]
       },
-      "operationType": "TT"
+      "operationType": "TT",
+      "agileType": "FAST"
     },
     {
       "id": "PR000004",
@@ -122,7 +125,8 @@
           }
         ]
       },
-      "operationType": "TT"
+      "operationType": "TT",
+      "agileType": "FAST"
     },
     {
       "id": "PR000005",
@@ -153,7 +157,8 @@
           }
         ]
       },
-      "operationType": "TT"
+      "operationType": "TT",
+      "agileType": "FAST"
     },
     {
       "id": "PR000006",
@@ -184,7 +189,8 @@
           }
         ]
       },
-      "operationType": "TA"
+      "operationType": "TA",
+      "agileType": "FAST"
     }
   ],
   "image": {
