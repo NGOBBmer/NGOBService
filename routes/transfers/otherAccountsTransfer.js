@@ -18,7 +18,7 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/otherAccountsTransfer
 
 router.post('/V00/otherAccountsTransfer', function(req, res, next) {
-    var otherTrasnferFreqId = req.body.otherTrasnferFreqId;
+    var otherTrasnferFreqId = req.body.frequentId;
    var  senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
     var isPeriodic =req.body.isPeriodic;
