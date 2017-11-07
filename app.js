@@ -47,6 +47,7 @@ var headlinesAccounts = require('./routes/dashboard/headlinesAccounts');
 var frequentOperations = require('./routes/transfers/frequentOperations');
 var creditCardPayment = require('./routes/transfers/creditCardPayment');
 var myAccountsTransfer = require('./routes/transfers/myAccountsTransfer');
+var sendEmailTransfers = require('./routes/transfers/sendEmailTransfers');
 var otherAccountsTransfer = require('./routes/transfers/otherAccountsTransfer');
 var cashAdvanceFee = require('./routes/transfers/cashAdvanceFee');
 var mainTransfers = require('./routes/transfers/mainTransfers');
@@ -123,6 +124,7 @@ app.use('/transfers', otherAccountsTransfer);
 app.use('/transfers', cashAdvanceFee);
 app.use('/transfers', mainTransfers);
 app.use('/transfers', getSequences);
+app.use('/transfers', sendEmailTransfers);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
 

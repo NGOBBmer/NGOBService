@@ -203,3 +203,17 @@ block content
     li
       a(href="https://ngob-services.herokuapp.com/transfers/V00/loadBanks?operationType=otroscreditos&cveBank=30167") loadBanks (GET)
       span https://ngob-services.herokuapp.com/transfers/V00/loadBanks?operationType=otroscreditos&cveBank=30167
+    li
+      a(href="/transfers/V00/sendEmailTransfers?operationId=0000213004&beneficiaryEmail=example@example.com&titularCopy=true") sendEmailTransfers (GET)
+      span /transfers/V00/sendEmailTransfers?operationId=0000213004&beneficiaryEmail=example@example.com&titularCopy=true
+    li
+      a(href="https://ngob-services.herokuapp.com/transfers/V00/getSequences?initDate=2017-10-30&transferType=PAYMENT_CREDITCARD&period=WEEKLY&repetitions=5") getSequences (GET)
+      span https://ngob-services.herokuapp.com/transfers/V00/getSequences?initDate=2017-10-30&transferType=PAYMENT_CREDITCARD&period=WEEKLY&repetitions=5
+       ul
+        li transferType
+        br 
+        span MY_ACCOUNTS
+        br 
+        span OTHER_ACCOUNTS
+        br 
+        span INTERBANK
