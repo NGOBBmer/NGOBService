@@ -14,7 +14,8 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -30,7 +31,8 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -46,7 +48,8 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "I"
+      "operationType": "I",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -62,7 +65,8 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -78,7 +82,8 @@
       },
       "operationDate": "2017-07-06",
       "description": "Traspaso Interbancario",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -94,7 +99,8 @@
       },
       "operationDate": "2017-07-08",
       "description": "Compra tiempo aire",
-      "operationType": "TA"
+      "operationType": "TA",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -110,7 +116,8 @@
       },
       "operationDate": "2017-07-08",
       "description": "Compra tiempo aire",
-      "operationType": "TA"
+      "operationType": "TA",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -126,7 +133,8 @@
       },
       "operationDate": "2017-07-08",
       "description": "Traspaso",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "RECURRING"
     },
     {
       "id": "0001",
@@ -142,7 +150,8 @@
       },
       "operationDate": "2017-07-09",
       "description": "Traspaso",
-      "operationType": "T"
+      "operationType": "T",
+      "agileType": "SCHEDULED"
     },
     {
       "id": "0001",
@@ -158,7 +167,8 @@
       },
       "operationDate": "2017-07-09",
       "description": "Traspaso",
-      "operationType": "R"
+      "operationType": "R",
+      "agileType": "SCHEDULED"
     },
     {
       "id": "0001",
@@ -174,7 +184,8 @@
       },
       "operationDate": "2017-07-10",
       "description": "Traspaso",
-      "operationType": "F"
+      "operationType": "F",
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "1",
