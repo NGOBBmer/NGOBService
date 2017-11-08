@@ -15,7 +15,7 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:4000/operations/V00/deleteAgileOperations/PR0001?agileOperationType=RECURRING
 router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
-  if (req.query.agileOperationType === 'RECURRING')
+  if (req.query.agileOperationType === 'RECURRING' || req.query.agileOperationType === 'SCHEDULED')
   	return res.json(OK);
   else if (req.query.agileOperationType === 'FAST')
   	return res.json(OK);
