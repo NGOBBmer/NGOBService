@@ -20,6 +20,8 @@ var ERR_WEEK01 = require('../../mock/V00/operations/agileOperations/err_week01.j
 var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
 var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
 
+
+
 router.use(function(req, res, next) {
   var host = req.get('origin');
   res.setHeader('Access-Control-Allow-Origin', host || '*');
@@ -29,6 +31,20 @@ router.use(function(req, res, next) {
   next();
 });
 
+
+// handler for query http://localhost:4000/operations/V00/allowAgileOperations?agileOperationType=RECURRING&transferType=THIRD_PARTY
+router.get('/V00/allowAgileOperations', function(req, res, next) {
+
+  var tsec = req.headers['tsec'];
+    if (tsec === '1234567890'){
+      if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
+        return res.json(allowRecT);
+      else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
+        return res.json(allowRecI);
+    }else 
+      return res.status(400).json(errorAllow);
+    next();
+});
 
 // handler for query http://localhost:4000/operations/V00/agileOperations?agileOperationType=
 router.get('/V00/agileOperations', function(req, res, next) {
