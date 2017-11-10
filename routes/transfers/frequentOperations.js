@@ -3,6 +3,9 @@ var router = express.Router();
 var frequent_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01.json');
 var frequent_02 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02.json');
 var frequent_03 = require('../../mock/V00/transfers/frequentOperations/listFrequents_03.json');
+var frequents_I = require('../../mock/V00/transfers/frequentOperations/frequents_Interbank_01.json');
+var frequents_TP = require('../../mock/V00/transfers/frequentOperations/frequents_ThirdParty_01.json');
+var frequents_A1 = require('../../mock/V00/transfers/frequentOperations/frequentsA_01.json');
 var frequent_01_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01_01.json');
 var frequent_02_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02_01.json');
 
@@ -24,7 +27,7 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
 router.get('/V00/frequentOperations', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '20')
+    if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '0' && req.query.numMovsFreq == '20')
         return res.json(frequent_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '6' && req.query.numMovsFreq == '10')
         return res.json(frequent_02);
@@ -34,6 +37,14 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         return res.json(frequent_01_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '10')
         return res.json(frequent_02_01);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_A1);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_A1);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_I);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_TP);
 
     return res.status(400).json(frequent_error);
   next();
