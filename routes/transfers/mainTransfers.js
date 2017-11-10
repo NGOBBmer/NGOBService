@@ -170,7 +170,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
         if (taxReceipt){
              if (iva != '' && rfc != '' && iva != null && rfc != null){
-                return res.json(OK_period);
+                 return res.json(OK); 
              }else{
                 return res.json(ERROR); 
              }
