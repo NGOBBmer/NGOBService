@@ -1,0 +1,91 @@
+{
+  "listFrequentOperation": [
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N5X610EGX0EA0BXZABYDBG1DR0NVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "TEST1",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0177947089",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "name": "GARO GROCE DEGRACE"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M4MCD4Z9MBMYCAH8WB8YBZFK8GNVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "prueba",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0190909092",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "name": "CITY OF YORKTON SAGELYNE CARMIKA"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PMX9S445TBYEV8E0S2ZTK1HQR95VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "pruebaCH",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0178934584",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "name": "MOISES DUARTE MUJIA"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    }
+  ]
+}

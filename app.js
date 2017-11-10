@@ -52,7 +52,6 @@ var otherAccountsTransfer = require('./routes/transfers/otherAccountsTransfer');
 var cashAdvanceFee = require('./routes/transfers/cashAdvanceFee');
 var mainTransfers = require('./routes/transfers/mainTransfers');
 var getSequences = require('./routes/transfers/getSequences');
-var interbankTransfer = require('./routes/transfers/interbankTransfer');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 
@@ -126,7 +125,6 @@ app.use('/transfers', cashAdvanceFee);
 app.use('/transfers', mainTransfers);
 app.use('/transfers', getSequences);
 app.use('/transfers', sendEmailTransfers);
-app.use('/transfers', interbankTransfer);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
 
