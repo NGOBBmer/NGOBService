@@ -31,6 +31,15 @@ var bankFound = require('../../mock/V00/transfers/loadBanks/bankFound.json');
 var bankFound01 = require('../../mock/V00/transfers/loadBanks/BankFound_01.json');
 var banksError = require('../../mock/V00/transfers/loadBanks/ERROR.json');
 
+//interbank
+var express = require('express');
+var router = express.Router();
+var OK = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok.json'); 
+var OK_period = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok_period.json'); 
+var ERROR = require('../../mock/V00/transfers/otherAccountsTransfer/response_err.json');
+
+
+
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -127,6 +136,43 @@ router.get('/V00/loadBanks', function(req, res, next) {
         return res.json(banksCatalogOtrosCreditos);
 
     return res.status(400).json(banksError);
+  next();
+});
+
+
+router.post('/V00/interbankTransfer', function(req, res, next) {
+    var otherTrasnferFreqId = req.body.frequentId;
+   var  senderAccountId = req.body.senderAccountId;
+    var concept = req.body.concept;
+    var isPeriodic =req.body.isPeriodic;
+    var aplicationDate =req.body.aplicationDate;
+    var repetitions =req.body.repetitions;
+    //var reference =req.body.reference;
+    var amount =req.body.amount;
+    var period =req.body.period;
+    var rfc =req.body.rfc;
+    var iva =req.body.iva;
+    var numericReference =req.body.numericReference;
+    var taxReceipt =req.body.taxReceipt;
+    var dayIndicator =req.body.dayIndicator;
+
+
+    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
+         && taxReceipt !=null  && numericReference != null && dayIndicator!= null && taxReceipt !=''  && numericReference != '' && dayIndicator!= ''){
+        
+        if (isPeriodic){
+             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+                return res.json(OK_period);
+             }else{
+                return res.json(ERROR); 
+             }
+        }
+
+        return res.json(OK); 
+    }else{
+       return res.json(ERROR); 
+    }
+    return res.json(ERROR);
   next();
 });
 

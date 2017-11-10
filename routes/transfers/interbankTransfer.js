@@ -35,7 +35,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
 
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
-         && taxReceipt !=null  && numericReference != null && dayIndicator!= null && taxReceipt !=''  && numericReference != '' && dayIndicator!= ""null""){
+         && taxReceipt !=null  && numericReference != null && dayIndicator!= null && taxReceipt !=''  && numericReference != '' && dayIndicator!= ''){
         
         if (isPeriodic){
              if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
