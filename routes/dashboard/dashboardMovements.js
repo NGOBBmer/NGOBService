@@ -11,6 +11,7 @@ var dashMov_05 = require('../../mock/V00/dashboard/dashboardMovements/INmovement
 var dashMov_06 = require('../../mock/V00/dashboard/dashboardMovements/INmovements_02_02.json');
 var NO_MOVS = require('../../mock/V00/dashboard/dashboardMovements/SI_noMovs.json');
 var ERROR = require('../../mock/V00/dashboard/dashboardMovements/error.json');
+var dashMovUSD = require('../../mock/V00/dashboard/dashboardMovements/INmovementsUS.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -66,7 +67,9 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
        return res.json(NO_MOVS);
     }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==INMXP0000003,period==2'){
        return res.json(dashMov_06);
-    }
+    }else  if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,period==0'){
+       return res.json(dashMovUSD);
+    }  
     else{
         return res.status(400).json(ERROR);
     }
