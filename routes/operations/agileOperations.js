@@ -20,7 +20,8 @@ var ERR_WEEK01 = require('../../mock/V00/operations/agileOperations/err_week01.j
 var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
 var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
 
-
+var allowRecI = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_I.json');
+var allowRecT = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_T.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
