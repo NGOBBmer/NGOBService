@@ -56,15 +56,13 @@ router.get('/V00/dashboard', function(req, res, next) {
     else if ((tsec == 'null' || tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,currency==MXP')
         return res.json(dashboard_03_IN); 
     else if ((tsec == 'null' || tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000002,currency==MXP')
-        return res.json(dashboard_04_IN);
+        return res.json(dashboard_error_02);
     else if ((tsec == 'null' || tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000003,currency==MXP')
         return res.json(dashboard_04_IN);
     else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,currency==USD')
         return res.json(dashboard_05_IN);
-    else if ((tsec != 'null' || tsec == undefined || tsec == '09876543') && req.query.$filter === 'productType==IN,idContract==INMXP0000002,currency==MXP​')
-         return res.json(dashboard_error_02);
 
-    return res.status(200).json(dashboard_error_02);
+    return res.status(400).json(dashboard_error_02);
   next();
 });
 
