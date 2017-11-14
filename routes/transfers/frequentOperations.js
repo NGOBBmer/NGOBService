@@ -55,6 +55,7 @@ router.get('/V00/frequentOperations', function(req, res, next) {
 
 // handler for query http://localhost:4000/transfers/V00/searchFrequents?word=prue
 router.get('/V00/searchFrequents', function(req, res, next) {
+     var tsec = req.headers['tsec'];
      if ((tsec == '12345678') && req.query.word === 'prueba')
         return res.json(search_frequent);
     return res.status(400).json(freq_error);
