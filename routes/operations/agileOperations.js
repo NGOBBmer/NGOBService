@@ -22,6 +22,9 @@ var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
 
 var allowRecI = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_I.json');
 var allowRecT = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_T.json');
+var allowFastT = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_01.json');
+var allowFastI = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_02.json');
+
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -42,6 +45,10 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
         return res.json(allowRecT);
       else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
         return res.json(allowRecI);
+      else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'THIRD_PARTY')
+        return res.json(allowFastT);
+      else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'INTERBANK')
+        return res.json(allowFastI);
     }else 
       return res.status(400).json(errorAllow);
     next();
