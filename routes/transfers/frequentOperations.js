@@ -11,6 +11,9 @@ var frequent_02_01 = require('../../mock/V00/transfers/frequentOperations/listFr
 
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
 
+var search_frequent = require('../../mock/V00/transfers/searchFrequents/searchFrequents_ALL.json');
+var freq_error = require('../../mock/V00/transfers/searchFrequents/searchFrequents_error.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -48,6 +51,14 @@ router.get('/V00/frequentOperations', function(req, res, next) {
 
     return res.status(400).json(frequent_error);
   next();
+});
+
+// handler for query http://localhost:4000/transfers/V00/searchFrequents?word=prue
+router.get('/V00/searchFrequents', function(req, res, next) {
+     if ((tsec == '12345678') && req.query.word === 'prueba')
+        return res.json(search_frequent);
+    return res.status(400).json(freq_error);
+    next();
 });
 
 module.exports = router;
