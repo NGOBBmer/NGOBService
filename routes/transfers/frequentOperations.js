@@ -11,6 +11,7 @@ var frequent_02_01 = require('../../mock/V00/transfers/frequentOperations/listFr
 
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
 
+//Search frequents
 var search_frequent = require('../../mock/V00/transfers/searchFrequents/searchFrequents_ALL.json');
 var freq_error = require('../../mock/V00/transfers/searchFrequents/searchFrequents_error.json');
 
