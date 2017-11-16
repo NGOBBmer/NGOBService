@@ -44,14 +44,7 @@ var auth = require('./routes/auth');
 var dropDownMenu = require('./routes/dashboard/dropDownMenu');
 var mobileTransfers = require('./routes/dashboard/mobileTransfers');
 var headlinesAccounts = require('./routes/dashboard/headlinesAccounts');
-var frequentOperations = require('./routes/transfers/frequentOperations');
-var creditCardPayment = require('./routes/transfers/creditCardPayment');
-var myAccountsTransfer = require('./routes/transfers/myAccountsTransfer');
-var sendEmailTransfers = require('./routes/transfers/sendEmailTransfers');
-var otherAccountsTransfer = require('./routes/transfers/otherAccountsTransfer');
-var cashAdvanceFee = require('./routes/transfers/cashAdvanceFee');
 var mainTransfers = require('./routes/transfers/mainTransfers');
-var getSequences = require('./routes/transfers/getSequences');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 
@@ -117,14 +110,7 @@ app.use('/security', qrcronto);
 app.use('/dashboard', mobileTransfers);
 app.use('/dashboard', headlinesAccounts);
 app.use('/transfers', transfers)
-app.use('/transfers', frequentOperations);
-app.use('/transfers', creditCardPayment);
-app.use('/transfers', myAccountsTransfer);
-app.use('/transfers', otherAccountsTransfer);
-app.use('/transfers', cashAdvanceFee);
 app.use('/transfers', mainTransfers);
-app.use('/transfers', getSequences);
-app.use('/transfers', sendEmailTransfers);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
 

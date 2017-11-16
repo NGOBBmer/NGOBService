@@ -38,7 +38,49 @@ var OK = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok.jso
 var OK_period = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok_period.json'); 
 var ERROR = require('../../mock/V00/transfers/otherAccountsTransfer/response_err.json');
 
+//cashAdvanceFree
+var CASH_OK = require('../../mock/V00/transfers/cashAdvanceFee/response_ok.json'); 
+var CASH_ERROR = require('../../mock/V00/transfers/cashAdvanceFee/response_err.json');
 
+//creditCardPayment
+var CREDIT_OK = require('../../mock/V00/transfers/creditCardPayment/response_ok.json'); 
+var OK_period = require('../../mock/V00/transfers/creditCardPayment/response_ok_period.json'); 
+var CREDIT_ERROR = require('../../mock/V00/transfers/creditCardPayment/response_err.json');
+
+//FrequentOperations
+var frequent_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01.json');
+var frequent_02 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02.json');
+var frequent_03 = require('../../mock/V00/transfers/frequentOperations/listFrequents_03.json');
+var frequents_I = require('../../mock/V00/transfers/frequentOperations/frequents_Interbank_01.json');
+var frequents_TP = require('../../mock/V00/transfers/frequentOperations/frequents_ThirdParty_01.json');
+var frequents_A1 = require('../../mock/V00/transfers/frequentOperations/frequentsA_01.json');
+var frequent_01_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01_01.json');
+var frequent_02_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02_01.json');
+
+var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
+
+//Search frequents
+var search_frequent = require('../../mock/V00/transfers/searchFrequents/searchFrequents_ALL.json');
+var freq_error = require('../../mock/V00/transfers/searchFrequents/searchFrequents_error.json');
+
+//getSequences
+var json_OK = require('../../mock/V00/transfers/getSequences/json_ok.json');
+var json_ERR = require('../../mock/V00/transfers/getSequences/json_err.json');
+
+//otherAccountsTransfer
+var RESP_OK = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok.json'); 
+var OK_period = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok_period.json'); 
+var RESP_ERROR = require('../../mock/V00/transfers/otherAccountsTransfer/response_err.json');
+
+//myAccountsTransfer
+var MYACCOUNTS_OK = require('../../mock/V00/transfers/creditCardPayment/response_ok.json'); 
+var OK_period_resp = require('../../mock/V00/transfers/creditCardPayment/response_ok_period.json'); 
+var MYACCOUNTS_ERROR = require('../../mock/V00/transfers/creditCardPayment/response_err.json');
+
+//sendEmailTransfers
+var json_true = require('../../mock/V00/transfers/sendEmailTransfers/true_json.json');
+var json_false = require('../../mock/V00/transfers/sendEmailTransfers/false_json.json');
+var json_ERR = require('../../mock/V00/transfers/sendEmailTransfers/err_json.json');
 
 
 /* GET users listing. */
@@ -52,6 +94,67 @@ router.use(function(req, res, next) {
     } else {
     }*/
     next();
+});
+
+
+// handler for query http://localhost:5000/transfers/V00/cashAdvanceFee
+router.post('/V00/cashAdvanceFee', function(req, res, next) {
+    var receiverAccountId = req.body.receiverAccountId;
+   var  senderAccountId = req.body.senderAccountId;
+    var concept = req.body.concept;
+    var isPeriodic =req.body.isPeriodic;
+    var aplicationDate =req.body.aplicationDate;
+    var endDate =req.body.endDate;
+    //var reference =req.body.reference;
+    var amount =req.body.amount;
+    var period =req.body.period;
+
+    if (receiverAccountId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && receiverAccountId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+        
+        if (isPeriodic){
+             if (endDate != '' && concept != '' &&  period != '' && endDate != null && concept != null &&  period != null){
+                return res.json(CASH_OK);
+             }else{
+                return res.json(CASH_ERROR); 
+             }
+        }
+
+        return res.json(CASH_OK); 
+    }else{
+       return res.json(CASH_ERROR); 
+    }
+    return res.json(CASH_ERROR);
+  next();
+});
+
+// handler for query http://localhost:4000/transfers/V00/creditCardPayment/TCMXP0000001
+router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
+    var cardId = req.params.creditCardId;
+   var  senderAccountId = req.body.senderAccountId;
+    var concept = req.body.concept;
+    var isPeriodic =req.body.isPeriodic;
+    var aplicationDate =req.body.aplicationDate;
+    var repetitions =req.body.repetitions;
+    //var reference =req.body.reference;
+    var amount =req.body.amount;
+    var period =req.body.period;
+
+    if (cardId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && cardId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+        
+        if (isPeriodic){
+             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+                return res.json(OK_period);
+             }else{
+                return res.json(CREDIT_ERROR); 
+             }
+        }
+
+        return res.json(CREDIT_OK); 
+    }else{
+       return res.json(CREDIT_ERROR); 
+    }
+    return res.json(CREDIT_ERROR);
+  next();
 });
 
 // handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
@@ -139,6 +242,53 @@ router.get('/V00/loadBanks', function(req, res, next) {
   next();
 });
 
+// handler for query http://localhost:5000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
+router.get('/V00/frequentOperations', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '0' && req.query.numMovsFreq == '20')
+        return res.json(frequent_01);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '6' && req.query.numMovsFreq == '10')
+        return res.json(frequent_02);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '16' && req.query.numMovsFreq == '10')
+        return res.json(frequent_03);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '10')
+        return res.json(frequent_01_01);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '10')
+        return res.json(frequent_02_01);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_A1);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_A1);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_I);
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequents_TP);
+
+    return res.status(400).json(frequent_error);
+  next();
+});
+
+// handler for query http://localhost:4000/transfers/V00/searchFrequents?word=prue
+router.get('/V00/searchFrequents', function(req, res, next) {
+     var tsec = req.headers['tsec'];
+     if ((tsec == '12345678') && req.query.word === 'prueba')
+        return res.json(search_frequent);
+    return res.status(400).json(freq_error);
+    next();
+});
+
+// handler for query http://localhost:4000/transfers/V00/getSequences?initDate=2017-10-30&transferType=PAYMENT_CREDITCARD&period=WEEKLY&repetitions=5
+router.get('/V00/getSequences', function(req, res, next) {
+    //var tsec = req.headers['tsec'];
+    if (req.query.initDate != '' && req.query.transferType != '' && req.query.period != '' && req.query.repetitions != ''){
+        return res.json(json_OK);
+    }else{
+        return res.json(json_ERR);
+    }
+  next();
+});
+
+// handler for query http://localhost:5000/transfers/V00/otherAccountsTransfer
 
 router.post('/V00/interbankTransfer', function(req, res, next) {
     var otherTrasnferFreqId = req.body.frequentId;
@@ -158,29 +308,96 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
 
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
-          && numericReference != null && dayIndicator!= null   && numericReference != '' && dayIndicator!= ''){
+         && taxReceipt !=null  && numericReference != null && dayIndicator!= null && taxReceipt !=''  && numericReference != '' && dayIndicator!= ''){
         
         if (isPeriodic){
              if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
                 return res.json(OK_period);
              }else{
-                return res.json(ERROR); 
+                return res.json(RESP_ERROR); 
              }
         }
 
-        if (taxReceipt){
-             if (iva != '' && rfc != '' && iva != null && rfc != null){
-                 return res.json(OK); 
-             }else{
-                return res.json(ERROR); 
-             }
-        }
-
-        return res.json(OK); 
+        return res.json(RESP_OK); 
     }else{
-       return res.json(ERROR); 
+       return res.json(RESP_ERROR); 
     }
-    return res.json(ERROR);
+    return res.json(RESP_ERROR);
+  next();
+});
+
+
+// handler for query http://localhost:5000/transfers/V00/creditCardPayment/TCMXP0000001
+router.post('/V00/myAccountsTransfer', function(req, res, next) {
+    var receiverAccountId = req.body.receiverAccountId;
+   var  senderAccountId = req.body.senderAccountId;
+    var concept = req.body.concept;
+    var isPeriodic =req.body.isPeriodic;
+    var aplicationDate =req.body.aplicationDate;
+    var repetitions =req.body.repetitions;
+    //var reference =req.body.reference;
+    var amount =req.body.amount;
+    var period =req.body.period;
+
+    if (receiverAccountId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && receiverAccountId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+        
+        if (isPeriodic){
+             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+                return res.json(OK_period_resp);
+             }else{
+                return res.json(MYACCOUNTS_ERROR); 
+             }
+        }
+
+        return res.json(MYACCOUNTS_OK); 
+    }else{
+       return res.json(MYACCOUNTS_ERROR); 
+    }
+    return res.json(MYACCOUNTS_ERROR);
+  next();
+});
+
+//sendEmailTransfers
+router.get('/V00/sendEmailTransfers', function(req, res, next) {
+    //var tsec = req.headers['tsec'];
+    if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && req.query.titularCopy){
+        return res.json(json_true);
+    }else if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && !req.query.titularCopy){
+        return res.json(json_false);
+    }else{
+        return res.json(json_ERR);
+
+    }
+  next();
+});
+
+// handler for query http://localhost:5000/transfers/V00/otherAccountsTransfer
+router.post('/V00/otherAccountsTransfer', function(req, res, next) {
+    var otherTrasnferFreqId = req.body.frequentId;
+   var  senderAccountId = req.body.senderAccountId;
+    var concept = req.body.concept;
+    var isPeriodic =req.body.isPeriodic;
+    var aplicationDate =req.body.aplicationDate;
+    var repetitions =req.body.repetitions;
+    //var reference =req.body.reference;
+    var amount =req.body.amount;
+    var period =req.body.period;
+
+    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+        
+        if (isPeriodic){
+             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+                return res.json(OK_period);
+             }else{
+                return res.json(RESP_ERROR); 
+             }
+        }
+
+        return res.json(RESP_OK); 
+    }else{
+       return res.json(RESP_ERROR); 
+    }
+    return res.json(RESP_ERROR);
   next();
 });
 
