@@ -4,6 +4,12 @@ var fs = require("fs");
 var path = require('path');
 var router = express.Router();
 
+//actionalAdvice
+var ADVISE = require('../../mock/V00/operations/actionalAdvice/actionalAdvice.json');
+var ERROR = require('../../mock/V00/operations/actionalAdvice/error.json');
+var VACIO = require('../../mock/V00/operations/actionalAdvice/actionalVacio.json');
+
+//agileOperations
 var LISTA_ALL = require('../../mock/V00/operations/agileOperations/lista_all.json');
 var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json')
 var LISTA_PR_VACIA = require('../../mock/V00/operations/agileOperations/lista_prVacia.json')
@@ -20,10 +26,38 @@ var ERR_WEEK01 = require('../../mock/V00/operations/agileOperations/err_week01.j
 var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
 var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
 
+//allowOperations
 var allowRecI = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_I.json');
 var allowRecT = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_T.json');
 var allowFastT = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_01.json');
 var allowFastI = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_02.json');
+
+//deleteAgileOperations
+var OK = require('../../mock/V00/operations/deleteAgileOps/delete_01.json');
+var ERROR = require('../../mock/V00/operations/deleteAgileOps/delete_err.json');
+
+//deleteActionalAdvice
+var ADVISE_OK = require('../../mock/V00/operations/deleteActionalAdvice/ok.json');
+var ADVISE_ERROR = require('../../mock/V00/operations/deleteActionalAdvice/error.json');
+
+//Documents
+var PDF = require('../../mock/V00/operations/documents/pdf.json');
+var HTML = require('../../mock/V00/operations/documents/html.json');
+var HTML_TC = require('../../mock/V00/operations/documents/html_tc.json');
+var HTML_NOMOVS = require('../../mock/V00/operations/documents/html_nomovs.json');
+var HTML_PRINT = require('../../mock/V00/operations/documents/html_print.json');
+var XLS = require('../../mock/V00/operations/documents/xls.json');
+var NOK = require('../../mock/V00/operations/documents/error.json');
+
+//suggestedOperations
+var SLISTA_ALL = require('../../mock/V00/operations/suggestedOperations/lista_all.json');
+var SLISTA_TT = require('../../mock/V00/operations/suggestedOperations/lista_tt.json');
+var SLISTA_TI = require('../../mock/V00/operations/suggestedOperations/lista_ti.json');
+var SLISTA_TP = require('../../mock/V00/operations/suggestedOperations/lista_tp.json');
+var SLISTA_PDS = require('../../mock/V00/operations/suggestedOperations/lista_pds.json');
+var SLISTA_TCP = require('../../mock/V00/operations/suggestedOperations/lista_tcp.json');
+var SLISTA_TCI = require('../../mock/V00/operations/suggestedOperations/lista_tci.json');
+var SERROR = require('../../mock/V00/operations/suggestedOperations/error.json');
 
 
 router.use(function(req, res, next) {
@@ -35,6 +69,20 @@ router.use(function(req, res, next) {
   next();
 });
 
+
+// handler for query http://localhost:4000/operations/V00/actionalAdvice
+router.get('/V00/actionalAdvice', function(req, res, next) {
+
+	var tsec = req.headers['tsec'];
+	if(tsec === '123456' || tsec === '012345678'){
+  
+		return res.json(VACIO);
+	}
+	  return res.json(ADVISE);
+	  return res.json(ERROR);
+	  
+	  next();
+});
 
 // handler for query http://localhost:4000/operations/V00/allowAgileOperations?agileOperationType=RECURRING&transferType=THIRD_PARTY
 router.get('/V00/allowAgileOperations', function(req, res, next) {
@@ -181,4 +229,78 @@ router.get('/V00/agileOperations', function(req, res, next) {
   next();
 });
 
+// handler for query http://localhost:4000/operations/V00/deleteAgileOperations/PR0001?agileOperationType=RECURRING
+router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
+  if (req.query.agileOperationType === 'RECURRING' || req.query.agileOperationType === 'SCHEDULED')
+  	return res.json(OK);
+  else if (req.query.agileOperationType === 'FAST')
+  	return res.json(OK);
+
+  return res.status(409).json(ERROR);
+  next();
+});
+
+// handler for query http://localhost:4000/operations/V00/actionalAdvice
+router.get('/V00/deleteActionalAdvice', function(req, res, next) {
+	if(req.query.adviceId != null && req.query.adviceId != ''){
+		return res.json(ADVISE_OK);
+	}else{
+		return res.json(ADVISE_ERROR);
+	}
+  next();
+});
+
+// handler for query http://localhost:4000/operations/V00/getPDFDocuments
+/*se espera
+
+{
+  "productId": "CHMXP0000001",
+  "businessFlow": "MOVEMENTS",
+  "operationType": "",
+  "type": "pdf","html","xls"
+}
+
+*/
+router.post('/V00/getPDFDocuments', function(req, res, next) {
+  if (req.body.type=="pdf"){
+    return res.json(PDF);
+  }else if (req.body.type=="html"){
+    if (req.body.productId=="TCMXP0000001")
+      return res.json(HTML_TC);
+    else if (req.body.productId=="CHMXP0000001")
+      return res.json(HTML);
+    else
+      return res.json(HTML_NOMOVS);
+  }
+  else if (req.body.type=="xls"){
+    return res.json(XLS);
+  }
+  return res.status(400).json(NOK);
+  next();
+});
+
+// handler for query http://localhost:4000/operations/V00/suggestedOperations?suggestedOperationType=
+router.get('/V00/suggestedOperations', function(req, res, next) {
+  if (req.query.suggestedOperationType === 'all')
+  	return res.json(SLISTA_ALL);
+  else if (req.query.suggestedOperationType === 'TT'){
+	return res.json(SLISTA_TT);
+  }
+  else if (req.query.suggestedOperationType === 'TI'){
+  	return res.json(SLISTA_TI);
+  } 
+  else if (req.query.suggestedOperationType === 'TP'){
+  	return res.json(SLISTA_TP);
+  } else if (req.query.suggestedOperationType === 'PS'){
+  	return res.json(SLISTA_PDS);
+  } else if (req.query.suggestedOperationType === 'TCP'){
+  	return res.json(SLISTA_TCP);
+  } else if (req.query.suggestedOperationType === 'TCI'){
+  	return res.json(SLISTA_TCI);
+  }
+  return res.json(SERROR);
+  next();
+});
+
 module.exports = router;
+
