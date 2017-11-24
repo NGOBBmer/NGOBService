@@ -1,6 +1,25 @@
 {
-  "previousWeekId": "6",
-  "nextWeekId": "8",
+  "periodicsOperations": [
+    {
+      "id": "0001",
+      "shortname": "PbaEmmaTT",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-08-08",
+      "description": "Traspaso",
+      "operationType": "T",
+      "agileType": "RECURRING"
+    }
+  ],
+  "nextWeekId": "152232158154152156150157152147153160AB153AB3886000832",
+  "previousWeekId": "152232158154152156150157152147153160AB153AB3886000632",
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
@@ -15,7 +34,7 @@
     "description": "Total de movimientos",
     "amount":{
     "currency": "MXN",
-    "amount": 0
+    "amount": 100.0
     }
   },
   "initialDate": "2017-07-31",

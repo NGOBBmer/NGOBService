@@ -59,6 +59,17 @@ var SLISTA_TCP = require('../../mock/V00/operations/suggestedOperations/lista_tc
 var SLISTA_TCI = require('../../mock/V00/operations/suggestedOperations/lista_tci.json');
 var SERROR = require('../../mock/V00/operations/suggestedOperations/error.json');
 
+//Mapa de semanas para calendario
+var mapaWeek = ["init",
+  "152232158154152156150157152147153160AB153AB3886000232",
+  "152232158154152156150157152147153160AB153AB3886000332",
+  "152232158154152156150157152147153160AB153AB3886000432",
+  "152232158154152156150157152147153160AB153AB3886000532",
+  "152232158154152156150157152147153160AB153AB3886000632",
+  "152232158154152156150157152147153160AB153AB3886000732",
+  "152232158154152156150157152147153160AB153AB3886000832",
+  "152232158154152156150157152147153160AB153AB3886000932"
+  ]
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -102,7 +113,7 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:4000/operations/V00/agileOperations?agileOperationType=
+// handler for query http://localhost:4000/operations/V00/agileOperations?agileOperationType=ALL_RS&weekId=init
 router.get('/V00/agileOperations', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if (tsec == '1234567890'){
@@ -164,38 +175,48 @@ router.get('/V00/agileOperations', function(req, res, next) {
         }
         
       }else{
-        var filePath = path.join(__dirname, urlJson2 + weekId + ".json");
+        var week = '';
+        for (var i = 0; i< mapaWeek.length; i++){
+          if (weekId == mapaWeek[i]){  
+            week = i + 1;
+          }
+        }
+        if (week == 1){
+          week = 'init';
+        }
+        var numFile = Number();
+        var filePath = path.join(__dirname, urlJson2 + week + ".json");
         try {
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-          if (weekId == 'init' || Number(weekId) <= 8){
+          if (week == 'init' || Number(week) <= 9){
             var len = 0;
             try {
               len = json.periodicsOperations.length;
             }catch(exa){}
             var currentDate = moment().format('YYYY-MM-DD'); 
             var nextDate = moment().add(6,'days').format('YYYY-MM-DD');
-            if (weekId=='1'){
+            if (week=='2'){
               currentDate = moment().add(7,'days').format('YYYY-MM-DD');
               nextDate = moment().add(13,'days').format('YYYY-MM-DD');
-            }else if (weekId=='2'){
+            }else if (week=='3'){
               currentDate = moment().add(14,'days').format('YYYY-MM-DD');
               nextDate = moment().add(20,'days').format('YYYY-MM-DD');
-            }else if (weekId=='3'){
+            }else if (week=='4'){
                currentDate = moment().add(21,'days').format('YYYY-MM-DD');
                nextDate = moment().add(27,'days').format('YYYY-MM-DD');
-            }else if (weekId=='4'){
+            }else if (week=='5'){
                currentDate = moment().add(28,'days').format('YYYY-MM-DD');
                nextDate = moment().add(34,'days').format('YYYY-MM-DD');
-            }else if (weekId=='5'){
+            }else if (week=='6'){
               currentDate = moment().add(35,'days').format('YYYY-MM-DD');
               nextDate = moment().add(41,'days').format('YYYY-MM-DD');
-            }else if (weekId=='6'){
+            }else if (week=='7'){
               currentDate = moment().add(42,'days').format('YYYY-MM-DD');
               nextDate = moment().add(48,'days').format('YYYY-MM-DD');
-            }else if (weekId=='7'){
+            }else if (week=='8'){
               currentDate = moment().add(49,'days').format('YYYY-MM-DD');
               nextDate = moment().add(55,'days').format('YYYY-MM-DD');
-            }else if (weekId=='8'){
+            }else if (week=='9'){
               currentDate = moment().add(56,'days').format('YYYY-MM-DD');
               nextDate = moment().add(59,'days').format('YYYY-MM-DD');
             }

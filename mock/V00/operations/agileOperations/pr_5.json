@@ -2,24 +2,41 @@
   "periodicsOperations": [
     {
       "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
+      "shortname": "PbaEmmaTT",
+      "paymentAccount": "60237",
       "paymentAmount": {
-        "amount": 100.0,
+        "amount": 1.0,
         "currency": "MXN"
       },
       "isOperable": false,
       "beneficiary": {
         "name": ""
       },
-      "operationDate": "2017-08-02",
+      "operationDate": "2017-07-25",
+      "description": "Traspaso",
+      "operationType": "T",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba_TT",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-07-28",
       "description": "Traspaso",
       "operationType": "T",
       "agileType": "RECURRING"
     }
   ],
-  "nextWeekId": "6",
-  "previousWeekId": "4",
+  "nextWeekId": "152232158154152156150157152147153160AB153AB3886000632",
+  "previousWeekId": "152232158154152156150157152147153160AB153AB3886000432",
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",

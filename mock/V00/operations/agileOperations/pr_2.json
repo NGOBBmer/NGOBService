@@ -2,40 +2,6 @@
   "periodicsOperations": [
     {
       "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "74747",
-      "paymentAmount": {
-        "amount": 1.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": "PRUEBA11"
-      },
-      "operationDate": "2017-07-14",
-      "description": "Traspaso Interbancario",
-      "operationType": "R",
-      "agileType": "SCHEDULED"
-    },
-    {
-      "id": "0001",
-      "shortname": "PbaEmmaTT",
-      "paymentAccount": "60237",
-      "paymentAmount": {
-        "amount": 1.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-07-11",
-      "description": "Traspaso Bancomer",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
       "shortname": "Prueba_TT",
       "paymentAccount": "60237",
       "paymentAmount": {
@@ -46,14 +12,14 @@
       "beneficiary": {
         "name": ""
       },
-      "operationDate": "2017-07-14",
-      "description": "Traspaso",
+      "operationDate": "2017-07-07",
+      "description": "Traspaso Bancomer",
       "operationType": "T",
       "agileType": "RECURRING"
     }
   ],
-  "nextWeekId": "3",
-  "previousWeekId": "1",
+  "nextWeekId": "152232158154152156150157152147153160AB153AB3886000332",
+  "previousWeekId": "init",
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
