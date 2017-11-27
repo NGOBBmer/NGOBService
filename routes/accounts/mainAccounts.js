@@ -23,6 +23,8 @@ var NOK = require('../../mock/V00/dashboard/validateOtp/otp_error.json');
 
 //listAccounts
 var accounts_4152313300116865 = require('../../mock/V00/accounts/listAccounts/accounts_4152313300116865.json');
+
+var accounts_gio = require('../../mock/V00/accounts/listAccounts/accounts_gio.json');
 // var accounts_4152313300116865 = require('../mock/V00/accounts/listAccounts/accounts_4152313300116865.json');
 var accounts_sinAccountType = require('../../mock/V00/accounts/listAccounts/accounts_sinAccountType.json');
 // var accounts_sinAccounts = require('../mock/V00/accounts/listAccounts/accounts_sinAccounts.json');
@@ -131,7 +133,7 @@ router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
 router.get('/V00/accounts', function(req, res, next) {
     if(req.query && req.query.accountType){
         if (req.query && req.query.accountType== 'CHECK_ACCOUNT')  {
-          res.json(accounts_4152313300116865);
+          res.json(accounts_gio);
         }
         if (req.query && req.query.accountType!= 'CHECK_ACCOUNT' || req.query.accountType==null)  {
           res.json(accounts_sinAccountType);

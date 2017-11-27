@@ -17,7 +17,8 @@
           "pathUrl": "operacionesPeriodicasConsultaDetalle",
           "id": "Detalle",
           "params": {
-            "idDetalle": "0"
+            "operationId": "0",
+            "option": "TMC"
           }
         },
         {

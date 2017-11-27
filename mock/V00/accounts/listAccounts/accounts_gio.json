@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "cardId": "AHMXP0000001",
+      "number": "1518367124",
+      "numberType": {
+        "id": "cuentaChequera",
+        "name": "Cuenta en Pesos"
+      },
+      "cardType": {
+        "id": "CHECK_ACCOUNT",
+        "name": "Check Account"
+      },
+      "alias": "",
+      "brandAssociation": {
+        "id": "VISA",
+        "name": "Visa"
+      },
+      "currencies": [
+        {
+          "currency": "MXP",
+          "isMajor": true
+        }
+      ],
+      "availableBalance": {
+        "currentBalances": [
+          {
+            "amount": 1500.0,
+            "currency": "MXP"
+          }
+        ]
+      },
+      "disposedBalance": {
+        "currentBalances": [
+          {
+            "amount": 0.0,
+            "currency": "MXP"
+          }
+        ]
+      },
+      "images": {
+        "id": "IMG1",
+        "name": "IMAGEN",
+        "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+      }
+    },
+    {
+      "cardId": "AHMXP0000002",
+      "number": "Digital",
+      "numberType": {
+        "id": "cuentaChequera",
+        "name": "Cuenta en Pesos"
+      },
+      "cardType": {
+        "id": "CHECK_ACCOUNT",
+        "name": "Check Account"
+      },
+      "alias": "Digital",
+      "brandAssociation": {
+        "id": "VISA",
+        "name": "Visa"
+      },
+      "currencies": [
+        {
+          "currency": "MXP",
+          "isMajor": true
+        }
+      ],
+      "availableBalance": {
+        "currentBalances": [
+          {
+            "amount": 30.0,
+            "currency": "MXP"
+          }
+        ]
+      },
+      "disposedBalance": {
+        "currentBalances": [
+          {
+            "amount": 0.0,
+            "currency": "MXP"
+          }
+        ]
+      },
+      "images": {
+        "id": "IMG1",
+        "name": "IMAGEN",
+        "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+      }
+    },
+    {
+      "cardId": "AHMXP0000003",
+      "number": "Gio 2",
+      "numberType": {
+        "id": "cuentaChequera",
+        "name": "Cuenta en Pesos"
+      },
+      "cardType": {
+        "id": "CHECK_ACCOUNT",
+        "name": "Check Account"
+      },
+      "alias": "Gio 2",
+      "brandAssociation": {
+        "id": "VISA",
+        "name": "Visa"
+      },
+      "currencies": [
+        {
+          "currency": "MXP",
+          "isMajor": true
+        }
+      ],
+      "availableBalance": {
+        "currentBalances": [
+          {
+            "amount": 2932.17,
+            "currency": "MXP"
+          }
+        ]
+      },
+      "disposedBalance": {
+        "currentBalances": [
+          {
+            "amount": 0.0,
+            "currency": "MXP"
+          }
+        ]
+      },
+      "pocketBalance": {
+        "currentBalances": [
+          {
+            "amount": 300.0,
+            "currency": "MXP"
+          }
+        ]
+      },
+      "images": {
+        "id": "IMG1",
+        "name": "IMAGEN",
+        "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+      }
+    }
+  ],
+  "paginationKey": ""
+}
