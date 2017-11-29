@@ -133,7 +133,7 @@ router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
 router.get('/V00/accounts', function(req, res, next) {
     if(req.query && req.query.accountType){
         if (req.query && req.query.accountType== 'CHECK_ACCOUNT')  {
-          res.json(accounts_gio);
+          res.json(accounts_4152313300116865);
         }
         if (req.query && req.query.accountType!= 'CHECK_ACCOUNT' || req.query.accountType==null)  {
           res.json(accounts_sinAccountType);
