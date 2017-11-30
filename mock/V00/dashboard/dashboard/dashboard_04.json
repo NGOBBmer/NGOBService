@@ -125,7 +125,39 @@
           "hasPocket": false
         }
       }
-  	]
+  	],
+    "prepaidCard": [
+      {
+        "productId": "TPMXP0000001",
+        "branch": {
+          "number": "·9173",
+          "originalAccountNumber": "4413130036249173",
+          "type": "Tarjetas prepagadas",
+          "typeId": "TP",
+          "accountType": "tarjetasPrepagadas",
+          "comboType": "TPP",
+          "comboNumber": "·49173"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 99998949,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "description": "Tarjeta Prepagada",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
   },
   "totalBalanceMxn": {
     "balance": {

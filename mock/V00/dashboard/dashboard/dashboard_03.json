@@ -38,6 +38,38 @@
           "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       }
+    ],
+    "prepaidCard": [
+      {
+        "productId": "TPMXP0000001",
+        "branch": {
+          "number": "·9173",
+          "originalAccountNumber": "4413130036249173",
+          "type": "Tarjetas prepagadas",
+          "typeId": "TP",
+          "accountType": "tarjetasPrepagadas",
+          "comboType": "TPP",
+          "comboNumber": "·49173"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 99998949,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "description": "Tarjeta Prepagada",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
     ]
   },
   "totalBalanceMxn": {
