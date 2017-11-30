@@ -327,12 +327,8 @@
         "productId": "TPMXP0000001",
         "branch": {
           "number": "·9173",
-          "originalAccountNumber": "4413130036249173",
-          "type": "Tarjetas prepagadas",
           "typeId": "TP",
           "accountType": "tarjetasPrepagadas",
-          "comboType": "TPP",
-          "comboNumber": "·49173"
         },
         "balance": {
           "availableBalance": {
