@@ -106,8 +106,7 @@
         }
       }
     ],
-    "investments": [
-      {
+    "investments": [{
         "productId": "INMXP0000001",
         "balance": {
           "availableBalance": {
@@ -233,39 +232,36 @@
         }
       }
     ],
-    "heritage": [
-      {
-        "productId": "PTMXP0000001",
-        "branch": {
-          "number": "00740680002106857531",
-          "alias": "PT00740680002106857531",
-          "typeId": "PT",
-          "accountType": "patrimoniales"
-        },
-        "balance": {
-          "totalBalance": {
-            "currency": "",
-            "currencyId": "MXP"
+    "heritage": [{
+      "productId": "PTMXP0000001",
+      "branch": {
+        "number": "00740680002106857531",
+        "alias": "PT00740680002106857531",
+        "typeId": "PT",
+        "accountType": "patrimoniales"
+      },
+      "balance": {
+        "totalBalance": {
+          "currency": "",
+          "currencyId": "MXP"
+        }
+      },
+      "isAdittional": "no",
+      "innerJoinAccount": "no",
+      "status": "0",
+      "description": "Patrimonial",
+      "navigation": {
+        "pathNavigation": {
+          "pathUrl": "portafolioPatrimonialChart",
+          "params": {
+            "name": "idContrato",
+            "value": "PTMXP0000001"
           }
         },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
-        "status": "0",
-        "description": "Patrimonial",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "portafolioPatrimonialChart",
-            "params": {
-                "name": "idContrato",
-                "value": "PTMXP0000001"
-              }
-          },
-          "cellsNavigation": false
-        }
+        "cellsNavigation": false
       }
-    ],
-     "spendingPockets": [
-      {
+    }],
+    "spendingPockets": [{
         "productId": "PKMXP0000001",
         "balance": {
           "availableBalance": {
@@ -322,34 +318,32 @@
         }
       }
     ],
-    "prepaidCard": [
-      {
-        "productId": "TPMXP0000001",
-        "branch": {
-          "number": "·9173",
-          "typeId": "TP",
-          "accountType": "tarjetasPrepagadas",
+    "prepaidCard": [{
+      "productId": "TPMXP0000001",
+      "branch": {
+        "number": "·9173",
+        "typeId": "TP",
+        "accountType": "tarjetasPrepagadas"
+      },
+      "balance": {
+        "availableBalance": {
+          "amount": 99998949,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         },
-        "balance": {
-          "availableBalance": {
-            "amount": 99998949,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
-        "description": "Tarjeta Prepagada",
-        "navigation": {
-          "cellsNavigation": false
+        "pendingBalance": {
+          "amount": 0,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         }
+      },
+      "isAdittional": "no",
+      "innerJoinAccount": "no",
+      "description": "Tarjeta Prepagada",
+      "navigation": {
+        "cellsNavigation": false
       }
-    ]
+    }]
   },
   "totalBalanceMxn": {
     "balance": {

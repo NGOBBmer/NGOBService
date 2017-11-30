@@ -1,7 +1,6 @@
 {
   "product": {
-    "savingAccount": [
-      {
+    "savingAccount": [{
         "productId": "AHMXP0000001",
         "balance": {
           "availableBalance": {
@@ -73,8 +72,7 @@
         }
       }
     ],
-    "checkAccount": [
-      {
+    "checkAccount": [{
         "productId": "CHMXP0000003",
         "balance": {
           "availableBalance": {
@@ -425,8 +423,7 @@
         }
       }
     ],
-    "creditCard": [
-      {
+    "creditCard": [{
         "productId": "TCMXP0000001",
         "balance": {
           "availableBalance": {
@@ -665,39 +662,36 @@
         }
       }
     ],
-    "heritage": [
-      {
-        "productId": "PTMXP0000001",
-        "balance": {
-          "totalBalance": {
-            "currency": "",
-            "currencyId": "MXP"
+    "heritage": [{
+      "productId": "PTMXP0000001",
+      "balance": {
+        "totalBalance": {
+          "currency": "",
+          "currencyId": "MXP"
+        }
+      },
+      "branch": {
+        "number": "2106857531",
+        "alias": "PT00740680002106857531",
+        "typeId": "PT",
+        "accountType": "patrimoniales"
+      },
+      "description": "Patrimonial",
+      "navigation": {
+        "pathNavigation": {
+          "pathUrl": "portafolioPatrimonialChart",
+          "params": {
+            "idContrato": "PTMXP0000001"
           }
         },
-        "branch": {
-          "number": "2106857531",
-          "alias": "PT00740680002106857531",
-          "typeId": "PT",
-          "accountType": "patrimoniales"
-        },
-        "description": "Patrimonial",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "portafolioPatrimonialChart",
-            "params": {
-              "idContrato": "PTMXP0000001"
-            }
-          },
-          "cellsNavigation": false
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
+        "cellsNavigation": false
+      },
+      "assigned": {
+        "isNominated": false,
+        "hasPocket": false
       }
-    ],
-    "investmentsFund": [
-      {
+    }],
+    "investmentsFund": [{
         "productId": "SIMXP0000001",
         "branch": {
           "number": "2092377152",
@@ -730,8 +724,7 @@
         }
       }
     ],
-    "investments": [
-      {
+    "investments": [{
         "productId": "INMXP0000001",
         "branch": {
           "number": "1368067104",
@@ -788,8 +781,7 @@
         }
       }
     ],
-    "loans": [
-      {
+    "loans": [{
         "productId": "0",
         "balance": {
           "availableBalance": {
@@ -880,41 +872,38 @@
         }
       }
     ],
-    "mortgages": [
-      {
-        "productId": "00740001209603099202",
-        "balance": {
-          "grantedBalance": {
-            "amount": 148137.88,
-            "currency": "",
-            "currencyId": "MXP"
+    "mortgages": [{
+      "productId": "00740001209603099202",
+      "balance": {
+        "grantedBalance": {
+          "amount": 148137.88,
+          "currency": "",
+          "currencyId": "MXP"
+        }
+      },
+      "branch": {
+        "number": "9603099202",
+        "originalAccountNumber": "00740001209603099202",
+        "typeId": "HP",
+        "accountType": "hipotecarios"
+      },
+      "description": "Crédito hipotecario",
+      "navigation": {
+        "pathNavigation": {
+          "pathUrl": "o3ConsultaCreditoHipotecario",
+          "params": {
+            "entrada": "PG",
+            "indiceCred": "00740001209603099202"
           }
         },
-        "branch": {
-          "number": "9603099202",
-          "originalAccountNumber": "00740001209603099202",
-          "typeId": "HP",
-          "accountType": "hipotecarios"
-        },
-        "description": "Crédito hipotecario",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "o3ConsultaCreditoHipotecario",
-            "params": {
-              "entrada": "PG",
-              "indiceCred": "00740001209603099202"
-            }
-          },
-          "cellsNavigation": false
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
+        "cellsNavigation": false
+      },
+      "assigned": {
+        "isNominated": false,
+        "hasPocket": false
       }
-    ],
-     "spendingPockets": [
-      {
+    }],
+    "spendingPockets": [{
         "productId": "PKMXP0000001",
         "balance": {
           "availableBalance": {
@@ -932,7 +921,7 @@
         "navigation": {
           "pathNavigation": {
             "pathUrl": "spendingPockets",
-          "text": "Ir a Apartados"
+            "text": "Ir a Apartados"
           },
           "cellsNavigation": false
         },
@@ -961,7 +950,7 @@
         "navigation": {
           "pathNavigation": {
             "pathUrl": "spendingPockets",
-          "text": "Ir a Apartados"
+            "text": "Ir a Apartados"
           },
           "cellsNavigation": false
         },
@@ -973,34 +962,32 @@
         }
       }
     ],
-    "prepaidCard": [
-      {
-        "productId": "TPMXP0000001",
-        "branch": {
-          "number": "·9173",
-          "typeId": "TP",
-          "accountType": "tarjetasPrepagadas",
+    "prepaidCard": [{
+      "productId": "TPMXP0000001",
+      "branch": {
+        "number": "·9173",
+        "typeId": "TP",
+        "accountType": "tarjetasPrepagadas"
+      },
+      "balance": {
+        "availableBalance": {
+          "amount": 99998949,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         },
-        "balance": {
-          "availableBalance": {
-            "amount": 99998949,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
-        "description": "Tarjeta Prepagada",
-        "navigation": {
-          "cellsNavigation": false
+        "pendingBalance": {
+          "amount": 0,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         }
+      },
+      "isAdittional": "no",
+      "innerJoinAccount": "no",
+      "description": "Tarjeta Prepagada",
+      "navigation": {
+        "cellsNavigation": false
       }
-    ]
+    }]
   },
   "totalBalanceMxn": {
     "balance": {

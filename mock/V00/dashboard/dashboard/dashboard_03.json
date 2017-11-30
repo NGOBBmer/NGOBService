@@ -1,72 +1,68 @@
 {
   "product": {
-    "savingAccount": [
-      {
-        "productId": "AHMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 6000.01,
-            "currency": "Pesos",
-            "currencyId": "MXP"
+    "savingAccount": [{
+      "productId": "AHMXP0000001",
+      "balance": {
+        "availableBalance": {
+          "amount": 6000.01,
+          "currency": "Pesos",
+          "currencyId": "MXP"
+        }
+      },
+      "branch": {
+        "number": "1136164080",
+        "alias": "",
+        "typeId": "AH",
+        "accountType": "cuentaChequera"
+      },
+      "description": "Cuenta en Pesos",
+      "navigation": {
+        "pathNavigation": {
+          "pathUrl": "detalleCuenta",
+          "params": {
+            "tipoCuenta": "cuentaChequera",
+            "idcuenta": "AHMXP0000001"
           }
         },
-        "branch": {
-          "number": "1136164080",
-          "alias": "",
-          "typeId": "AH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "tipoCuenta": "cuentaChequera",
-              "idcuenta": "AHMXP0000001"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": true,
-          "hasPocket": false,
-          "pathUrl": "spendingPocket",
-          "text": "Ir a Apartados"
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
+        "cellsNavigation": true
+      },
+      "assigned": {
+        "isNominated": true,
+        "hasPocket": false,
+        "pathUrl": "spendingPocket",
+        "text": "Ir a Apartados"
+      },
+      "image": {
+        "type": "CHECKACCOUNT",
+        "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
       }
-    ],
-    "prepaidCard": [
-      {
-        "productId": "TPMXP0000001",
-        "branch": {
-          "number": "·9173",
-          "typeId": "TP",
-          "accountType": "tarjetasPrepagadas",
+    }],
+    "prepaidCard": [{
+      "productId": "TPMXP0000001",
+      "branch": {
+        "number": "·9173",
+        "typeId": "TP",
+        "accountType": "tarjetasPrepagadas"
+      },
+      "balance": {
+        "availableBalance": {
+          "amount": 99998949,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         },
-        "balance": {
-          "availableBalance": {
-            "amount": 99998949,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "isAdittional": "no",
-        "innerJoinAccount": "no",
-        "description": "Tarjeta Prepagada",
-        "navigation": {
-          "cellsNavigation": false
+        "pendingBalance": {
+          "amount": 0,
+          "currency": "Pesos",
+          "currencyId": "MXP"
         }
+      },
+      "isAdittional": "no",
+      "innerJoinAccount": "no",
+      "description": "Tarjeta Prepagada",
+      "navigation": {
+        "cellsNavigation": false
       }
-    ]
+    }]
   },
   "totalBalanceMxn": {
     "balance": {
