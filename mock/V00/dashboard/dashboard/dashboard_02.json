@@ -994,35 +994,35 @@
       "amount": 2009039975.7,
       "currency": "MXP"
     },
-    "description": "Total en Pesos"
+    "description": "Total en pesos"
   },
   "totalBalanceUsd": {
     "balance": {
       "amount": 165879.61,
       "currency": "USD"
     },
-    "description": "Total en Dólares"
+    "description": "Total en dólares"
   },
   "totalBalanceEur": {
     "balance": {
       "amount": 999530.5,
       "currency": "EUR"
     },
-    "description": "Total en Euros"
+    "description": "Total en euros"
   },
   "totalBalanceCreditCard": {
     "balance": {
       "amount": 360604.3,
       "currency": "MXP"
     },
-    "description": "Tarjeta de Crédito"
+    "description": "Tarjeta de crédito"
   },
   "totalBalanceInversionUsd": {
     "balance": {
       "amount": 25000,
       "currency": "USD"
     },
-    "description": "Total de inversión en Dólares"
+    "description": "Total de inversión en dólares"
   },
   "totalBalanceCreditos": {
     "balance": {
