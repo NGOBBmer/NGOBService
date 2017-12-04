@@ -3,10 +3,6 @@
     {
       "campaignName": "CAMBIO TOKEN",
       "campaignId": "0498CAM2508150001",
-      "amountOffer": {
-        "amount": 0.0,
-        "currency": "MXP"
-      },
       "type": "1C",
       "promotionType": "0498",
       "information": {
@@ -20,8 +16,7 @@
         "url": "/img/oneclic/Token.png",
         "base64": ""
       },
-      "isModal": true,
-      "showAmount": false
+      "isModal": true
     },
     {
       "campaignName": "PREAPROBADO TDC",
@@ -53,8 +48,7 @@
         "url": "/img/oneclic/incrementa_tu_line_one_click.png",
         "base64": ""
       },
-      "isModal": false,
-      "showAmount": true
+      "isModal": false
     },
     {
       "campaignName": "EFECTIVO INMEDIATO",
@@ -82,8 +76,7 @@
         "url": "/img/oneclic/Cash.png",
         "base64": ""
       },
-      "isModal": false,
-      "showAmount": true
+      "isModal": false
     },
     {
       "campaignName": "PRE APROBADOS CONSUMO",
@@ -115,8 +108,7 @@
         "url": "/img/oneclic/prestamo_one_click.png",
         "base64": ""
       },
-      "isModal": false,
-      "showAmount": true
+      "isModal": false
     },
     {
       "campaignName": "SCRUM SEGUROS",
@@ -153,8 +145,7 @@
         "url": "/img/oneclic/seguros_one_click.png",
         "base64": ""
       },
-      "isModal": false,
-      "showAmount": true
+      "isModal": false
     },
     {
       "campaignName": "SEGURO DE GASTOS FUNERARIOS",
@@ -199,8 +190,7 @@
         "url": "/img/oneclic/seguros_one_click.png",
         "base64": ""
       },
-      "isModal": false,
-      "showAmount": true
+      "isModal": false
     }
   ],
   "image": {
