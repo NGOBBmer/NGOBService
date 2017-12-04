@@ -20,7 +20,8 @@
         "url": "/img/oneclic/Token.png",
         "base64": ""
       },
-      "isModal": true
+      "isModal": true,
+      "showAmount": false
     },
     {
       "campaignName": "PREAPROBADO TDC",
@@ -52,7 +53,8 @@
         "url": "/img/oneclic/incrementa_tu_line_one_click.png",
         "base64": ""
       },
-      "isModal": false
+      "isModal": false,
+      "showAmount": true
     },
     {
       "campaignName": "EFECTIVO INMEDIATO",
@@ -80,7 +82,8 @@
         "url": "/img/oneclic/Cash.png",
         "base64": ""
       },
-      "isModal": false
+      "isModal": false,
+      "showAmount": true
     },
     {
       "campaignName": "PRE APROBADOS CONSUMO",
@@ -112,7 +115,8 @@
         "url": "/img/oneclic/prestamo_one_click.png",
         "base64": ""
       },
-      "isModal": false
+      "isModal": false,
+      "showAmount": true
     },
     {
       "campaignName": "SCRUM SEGUROS",
@@ -149,7 +153,8 @@
         "url": "/img/oneclic/seguros_one_click.png",
         "base64": ""
       },
-      "isModal": false
+      "isModal": false,
+      "showAmount": true
     },
     {
       "campaignName": "SEGURO DE GASTOS FUNERARIOS",
@@ -194,7 +199,8 @@
         "url": "/img/oneclic/seguros_one_click.png",
         "base64": ""
       },
-      "isModal": false
+      "isModal": false,
+      "showAmount": true
     }
   ],
   "image": {

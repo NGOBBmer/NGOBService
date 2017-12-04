@@ -30,7 +30,8 @@
         "url": "/img/oneclic/IncreaseCredit.png",
         "base64": ""
       },
-      "isModal": false
+      "isModal": false,
+      "showAmount": true
     }
   ],
   "image": {
