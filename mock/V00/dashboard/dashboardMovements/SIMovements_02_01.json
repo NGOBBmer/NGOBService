@@ -1,6 +1,6 @@
 {
     "investmentFundMovementsList": [{
-        "operationDate": "03/08/2017",
+        "operationDate": "2017-08-03",
         "concept": "COMPRA EN LINEA",
         "fund": "FIQ",
         "serie": "G2",
@@ -8,7 +8,7 @@
         "price": "10.891836",
         "amount": "19223.2"
     }, {
-        "operationDate": "03/08/2017",
+        "operationDate": "2017-08-03",
         "concept": "COMPRA EN LINEA",
         "fund": "FLO",
         "serie": "C2",
@@ -16,7 +16,7 @@
         "price": "10.891836",
         "amount": "12203.2"
     },{
-        "operationDate": "03/08/2017",
+        "operationDate": "2017-08-03",
         "concept": "COMPRA EN LINEA",
         "fund": "F+LIQ",
         "serie": "D3",
@@ -25,7 +25,7 @@
         "amount": "4000.2"
     },
     {
-        "operationDate": "02/08/2017",
+        "operationDate": "2017-08-02",
         "concept": "COMPRA EN LINEA",
         "fund": "DC+",
         "serie": "D2",

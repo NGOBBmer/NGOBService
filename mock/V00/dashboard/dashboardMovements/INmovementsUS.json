@@ -1,34 +1,34 @@
 {
     "investmentsMovementsList": [{
-        "date": "10/11/2017",
+        "date": "2017-11-10",
         "concept": "0060245002ABONO POR INVER",
         "charge": "",
         "payment": "20000.0",
         "balance": "20000.0",
         "currency": "USD"
     }, {
-        "date": "10/11/2017",
+        "date": "2017-11-10",
         "concept": "APERTURA DE CUE",
         "charge": "0.0",
         "payment": "",
         "balance": "0.0",
         "currency": "USD"
     }, {
-        "date": "09/11/2017",
+        "date": "2017-11-09",
         "concept": "0060785002ABONO",
         "charge": "0.0",
         "payment": "100.00",
         "balance": "100.0",
         "currency": "USD"
     }, {
-        "date": "09/11/2017",
+        "date": "2017-11-09",
         "concept": "0063945002ABONO",
         "charge": "0.0",
         "payment": "300.00",
         "balance": "300.0",
         "currency": "USD"
     }, {
-        "date": "09/11/2017",
+        "date": "2017-11-09",
         "concept": "APERTURA DE CUE",
         "charge": "0.0",
         "payment": "",
