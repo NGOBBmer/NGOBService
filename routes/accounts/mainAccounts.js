@@ -11,6 +11,7 @@ var movements_CH02 = require('../../mock/V00/accounts/movements/CHEUR0000001.jso
 var movements_CH02_next= require('../../mock/V00/accounts/movements/CHEUR0000001_next.json');
 var movements_CH02_filter= require('../../mock/V00/accounts/movements/CHEUR0000001_filter.json');
 var movements_default= require('../../mock/V00/accounts/movements/default.json');
+var movements_err= require('../../mock/V00/accounts/movements/movements_err.json');
 
 //accountStatement
 var PERIOD0001 = require('../../mock/V00/accounts/accountstatement/PERIOD0001.json');
@@ -60,43 +61,47 @@ router.use(function(req, res, next) {
 });
 // handler for /V00/accounts/movements/AHMXP0000001?paginationKey=&initialDate=&finalDate=&period=&numMovements&period=&amountMin=&amountMax
 router.get('/V00/accounts/movements/:id', function(req, res, next) {
-        if (req.params.id == 'AHMXP0000001'){
-            if (req.query.paginationKey) {
-                return res.json(movements_AH01_next);
-            }else if (req.query.period){
-                 return res.json(movements_AH01);
-            }else if (req.query.initialDate && req.query.finalDate && req.query.amountMin && req.query.amountMax){
-                return res.json(movements_AH01_filter);
-            } else{
-                return res.json(movements_AH01);
-            }
-            return res.json(movements_default);
+    var tsec = req.headers['tsec'];
+    if (tsec === '1234567890'){
+         return res.status(400).json(movements_err);
+    }
+    if (req.params.id == 'AHMXP0000001'){
+        if (req.query.paginationKey) {
+            return res.json(movements_AH01_next);
+        }else if (req.query.period){
+             return res.json(movements_AH01);
+        }else if (req.query.initialDate && req.query.finalDate && req.query.amountMin && req.query.amountMax){
+            return res.json(movements_AH01_filter);
+        } else{
+            return res.json(movements_AH01);
         }
-        if (req.params.id == 'CHUSD0000001'){
-            if (req.query.paginationKey) {
-                return res.json(movements_CH01_next);
-            }else if (req.query.period){
-                 return res.json(movements_CH01);
-            }else if (req.query.initialDate && req.query.finalDate && req.query.amountMin && req.query.amountMax){
-                return res.json(movements_CH01_filter);
-            } else{
-                return res.json(movements_CH01);
-            }
-            return res.json(movements_default);
+        return res.json(movements_default);
+    }
+    if (req.params.id == 'CHUSD0000001'){
+        if (req.query.paginationKey) {
+            return res.json(movements_CH01_next);
+        }else if (req.query.period){
+             return res.json(movements_CH01);
+        }else if (req.query.initialDate && req.query.finalDate && req.query.amountMin && req.query.amountMax){
+            return res.json(movements_CH01_filter);
+        } else{
+            return res.json(movements_CH01);
         }
-        if (req.params.id == 'CHEUR0000001'){
-            if (req.query.paginationKey) {
-                return res.json(movements_CH02_next);
-            }else if (req.query.period){
-                 return res.json(movements_CH02);
-            }else if (req.query.initialDate && req.query.finalDate && req.query.amountMin && req.query.amountMax){
-                return res.json(movements_CH02_filter);
-            } else{
-                return res.json(movements_CH02);
-            }
-            return res.json(movements_default);
+        return res.json(movements_default);
+    }
+    if (req.params.id == 'CHEUR0000001'){
+        if (req.query.paginationKey) {
+            return res.json(movements_CH02_next);
+        }else if (req.query.period){
+             return res.json(movements_CH02);
+        }else if (req.query.initialDate && req.query.finalDate && req.query.amountMin && req.query.amountMax){
+            return res.json(movements_CH02_filter);
+        } else{
+            return res.json(movements_CH02);
         }
-    return res.json(movements_default);
+        return res.json(movements_default);
+    }
+  return res.json(movements_default);
 
 });
 

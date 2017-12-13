@@ -20,6 +20,8 @@ var movements_TJ0004_next = require('../mock/V00/cards/movements/TJ0004_next.jso
 var movements_TJ0005 = require('../mock/V00/cards/movements/TJ0005.json');
 var movements_TJ0005_next = require('../mock/V00/cards/movements/TJ0005_next.json');
 
+var movements_err= require('../mock/V00/cards/movements/movements_err.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -31,6 +33,10 @@ router.use(function(req, res, next) {
 });
 // handler for /V00/cards/movements/TCMXP0000001?additionalCardId=TJ0001&paginationKey=&initialDate=&finalDate=&numMovements&period=
 router.get('/V00/cards/movements/:id', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if (tsec === '1234567890'){
+         return res.status(400).json(movements_err);
+    }
    // setTimeout(function() {
         if (req.query.additionalCardId){
             if (req.query.additionalCardId == 'TJ0001') {
