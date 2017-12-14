@@ -1,0 +1,12 @@
+{
+    "id": "184180151157157148156AB138AB293990735649",
+    "wasFound": true,
+    "account": {
+        "number": "2800160237",
+        "accountType": "CH"
+    },
+    "transferType": "THIRD_PARTY",
+    "beneficiary": {
+        "name": "GIOVANNI NICOLAS MARIN"
+    }
+}

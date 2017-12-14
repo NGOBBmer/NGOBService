@@ -82,6 +82,11 @@ var json_true = require('../../mock/V00/transfers/sendEmailTransfers/true_json.j
 var json_false = require('../../mock/V00/transfers/sendEmailTransfers/false_json.json');
 var json_ERR = require('../../mock/V00/transfers/sendEmailTransfers/err_json.json');
 
+//advancedSearch
+var advancedSearch01 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_01.json');
+var advancedSearch02 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_02.json');
+var advancedSearch03 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_03.json');
+var advancedSearchErr = require('../../mock/V00/transfers/advancedSearch/advancedSearch_err.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -398,6 +403,20 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
        return res.json(RESP_ERROR); 
     }
     return res.json(RESP_ERROR);
+  next();
+});
+
+//advancedSearch
+router.get('/V00/advancedSearch', function(req, res, next) {
+    if (req.query.number == undefined || req.query.number === ''){
+       return res.status(400).json(advancedSearchErr); 
+    }else  if (req.query.number === '2800160237'){
+        return res.json(advancedSearch01);
+    }else if (req.query.number === '002180700256551903'){
+        return res.json(advancedSearch02);
+    }else{
+        return res.json(advancedSearch03);
+    }
   next();
 });
 

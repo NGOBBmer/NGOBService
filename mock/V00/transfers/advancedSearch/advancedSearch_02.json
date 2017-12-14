@@ -1,0 +1,15 @@
+{
+    "id": "186174149150150148156AB138AB4312207234",
+    "wasFound": true,
+    "account": {
+        "number": "002180700256551903",
+        "accountType": "40"
+    },
+    "transferType": "INTERBANK",
+    "beneficiary": {
+        "bank": {
+            "code": "0002",
+            "name": "BANAMEX"
+        }
+    }
+}
