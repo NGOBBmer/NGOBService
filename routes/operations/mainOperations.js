@@ -26,6 +26,18 @@ var ERR_WEEK01 = require('../../mock/V00/operations/agileOperations/err_week01.j
 var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
 var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
 
+//Mapa de semanas para agileOperations
+var mapaWeek = ["init",
+  "152232158154152156150157152147153160AB153AB3886000232",
+  "152232158154152156150157152147153160AB153AB3886000332",
+  "152232158154152156150157152147153160AB153AB3886000432",
+  "152232158154152156150157152147153160AB153AB3886000532",
+  "152232158154152156150157152147153160AB153AB3886000632",
+  "152232158154152156150157152147153160AB153AB3886000732",
+  "152232158154152156150157152147153160AB153AB3886000832",
+  "152232158154152156150157152147153160AB153AB3886000932"
+  ]
+
 //allowOperations
 var allowRecI = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_I.json');
 var allowRecT = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_T.json');
@@ -59,17 +71,10 @@ var SLISTA_TCP = require('../../mock/V00/operations/suggestedOperations/lista_tc
 var SLISTA_TCI = require('../../mock/V00/operations/suggestedOperations/lista_tci.json');
 var SERROR = require('../../mock/V00/operations/suggestedOperations/error.json');
 
-//Mapa de semanas para calendario
-var mapaWeek = ["init",
-  "152232158154152156150157152147153160AB153AB3886000232",
-  "152232158154152156150157152147153160AB153AB3886000332",
-  "152232158154152156150157152147153160AB153AB3886000432",
-  "152232158154152156150157152147153160AB153AB3886000532",
-  "152232158154152156150157152147153160AB153AB3886000632",
-  "152232158154152156150157152147153160AB153AB3886000732",
-  "152232158154152156150157152147153160AB153AB3886000832",
-  "152232158154152156150157152147153160AB153AB3886000932"
-  ]
+//createAgileOperations
+var createAgileOp01 = require('../../mock/V00/operations/createAgileOperations/createAgileOp01.json');
+var createAgileOpErr_01 = require('../../mock/V00/operations/createAgileOperations/createAgileOpErr_01.json');
+var createAgileOpErr_02 = require('../../mock/V00/operations/createAgileOperations/createAgileOpErr_02.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -320,6 +325,43 @@ router.get('/V00/suggestedOperations', function(req, res, next) {
   	return res.json(SLISTA_TCI);
   }
   return res.json(SERROR);
+  next();
+});
+
+//createAgileOperations
+router.post('/V00/getPDFDocuments', function(req, res, next) {
+  if (req.body.agileOperationType ==='REGISTER'){
+    if (req.body.operationId !== '112233445566AB112233445566'){
+      return res.status(400).json(createAgileOpErr_02); 
+    }
+    return res.json(createAgileOp01); 
+  }else if (req.body.agileOperationType ==='FREQUENT'){
+     if (req.body.operationId !== '1234567890'){
+      return res.status(400).json(createAgileOpErr_02); 
+    }
+    return res.json(createAgileOp01); 
+  }else if (req.body.agileOperationType ==='QUICK'){
+     if (req.body.operationId !== '1234567890' || req.body.sender === undefined){
+      return res.status(400).json(createAgileOpErr_02); 
+    }
+    return res.json(createAgileOp01); 
+  }else{
+    return res.status(400).json(createAgileOpErr_01);
+  }
+  if (req.body.type=="pdf"){
+    return res.json(PDF);
+  }else if (req.body.type=="html"){
+    if (req.body.productId=="TCMXP0000001")
+      return res.json(HTML_TC);
+    else if (req.body.productId=="CHMXP0000001")
+      return res.json(HTML);
+    else
+      return res.json(HTML_NOMOVS);
+  }
+  else if (req.body.type=="xls"){
+    return res.json(XLS);
+  }
+  return res.status(400).json(NOK);
   next();
 });
 
