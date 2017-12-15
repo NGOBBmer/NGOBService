@@ -328,8 +328,8 @@ router.get('/V00/suggestedOperations', function(req, res, next) {
   next();
 });
 
-//createAgileOperations
-router.post('/V00/getPDFDocuments', function(req, res, next) {
+//createAgileOperations V00
+router.post('/V00/createAgileOperations', function(req, res, next) {
   if (req.body.agileOperationType ==='REGISTER'){
     if (req.body.operationId !== '112233445566AB112233445566'){
       return res.status(400).json(createAgileOpErr_02); 
