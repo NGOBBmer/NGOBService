@@ -5,6 +5,8 @@ var DATA_02 = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenuPesos.j
 var DATA_03 = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenuTodo.json');
 var DATA_04 = require('../../mock/V00/dashboard/dropDownMenu/dropDownTarjetaCredito.json');
 var DATA_05 = require('../../mock/V00/dashboard/dropDownMenu/dropDownPesosFondosInversion.json');
+var DATA_06 = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenu_01.json');
+var DATA_07 = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenuFondosInv_01.json');
 var ERROR = require('../../mock/V00/dashboard/dropDownMenu/dropDownMenuError.json');
 
 /* GET users listing. */
@@ -22,6 +24,8 @@ router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if (tsec === '1234567890'){
     return res.status(400).json(ERROR);
+  }else if (tsec === '456789012'){
+    return res.json(DATA_07);
   }else{
     if(req.query.typeProduct=='tarjetasCredito'){
      return res.json(DATA_04);
