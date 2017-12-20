@@ -16,10 +16,6 @@
             "name": "Tracking",
             "value": "031881803607"
         }],
-        "withdrawalCodes": [{
-            "id": "SENDER_CODE",
-            "value": "1356"
-        }],
         "mobileTransferId": "0020044012"
     }
 }
