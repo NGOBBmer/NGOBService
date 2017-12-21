@@ -45,7 +45,8 @@
         "branch": {
           "number": "2029987894",
           "typeId": "SI",
-          "accountType": "fondoInversiones"
+          "accountType": "fondoInversiones",
+          "alias": ""
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -57,11 +58,12 @@
         }
       },
       {
-        "productId": "SIMXP0000003",
+        "productId": "SIMXP0000002",
         "branch": {
           "number": "2029987908",
           "typeId": "SI",
-          "accountType": "fondoInversiones"
+          "accountType": "fondoInversiones",
+          "alias": "prueba"
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -78,7 +80,8 @@
         "branch": {
           "number": "2034689771",
           "typeId": "SI",
-          "accountType": "fondoInversiones"
+          "accountType": "fondoInversiones",
+          "alias": ""
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -94,7 +97,8 @@
         "branch": {
           "number": "2034689984",
           "typeId": "SI",
-          "accountType": "fondoInversiones"
+          "accountType": "fondoInversiones",
+          "alias": "prueba02"
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -117,7 +121,8 @@
         "branch": {
           "number": "1368067104",
           "typeId": "IN",
-          "accountType": "inversionesMxp"
+          "accountType": "inversionesMxp",
+          "alias": ""
         },
         "description": "Inversión en Pesos",
         "navigation": {
@@ -142,7 +147,8 @@
         "branch": {
           "number": "1368072280",
           "typeId": "IN",
-          "accountType": "inversionesMxp"
+          "accountType": "inversionesMxp",
+          "alias": "inversion1"
         },
         "description": "Inversión en Pesos",
         "navigation": {
@@ -167,7 +173,8 @@
         "branch": {
           "number": "1368072302",
           "typeId": "IN",
-          "accountType": "inversionesMxp"
+          "accountType": "inversionesMxp",
+          "alias": ""
         },
         "description": "Inversión en Pesos",
         "navigation": {
@@ -192,7 +199,8 @@
         "branch": {
           "number": "1368072574",
           "typeId": "IN",
-          "accountType": "inversionesMxp"
+          "accountType": "inversionesMxp",
+          "alias": ""
         },
         "description": "Inversión en Pesos",
         "navigation": {
@@ -217,7 +225,8 @@
         "branch": {
           "number": "1368074682",
           "typeId": "IN",
-          "accountType": "inversionesMxp"
+          "accountType": "inversionesMxp",
+          "alias": ""
         },
         "description": "Inversión en Pesos",
         "navigation": {
