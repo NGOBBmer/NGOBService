@@ -16,7 +16,6 @@
     "indNominated": "",
     "profilePercentage": 50,
     "hasFastOperations": true,
-    "hasPeriodicOperations": true,
-    "ngobNavigation":true
+    "hasPeriodicOperations": true
   }
 }
