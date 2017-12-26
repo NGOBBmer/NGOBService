@@ -26,9 +26,23 @@ router.use(function(req, res, next) {
 */
 router.post('/V00/modifyAlias/:id', function(req, res, next) {
     var alias = req.body.shortName;
+    var tsec = req.headers['tsec'];
     if (alias == undefined)
         alias = "";
     if (req.params.id == 'AHMXP0000001' || req.params.id == 'TCMXP0000001'){
+        var filePath = path.join(__dirname, dashboard_roor);
+        var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        json.product.savingAccount[0].branch.alias=alias;
+        var nvoJson = JSON.stringify(json);
+        fs.truncate(filePath, 0, function() {
+            fs.writeFile(filePath, nvoJson , function (err) {
+                if (err) {
+                    return res.json(alias_nok); 
+                }
+            });
+          });
+        return res.json(alias_ok); 
+    }else  if (tsec != null || tsec==='456789012' || req.params.id == 'SIMXP0000002'){
         var filePath = path.join(__dirname, dashboard_roor);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         json.product.savingAccount[0].branch.alias=alias;
