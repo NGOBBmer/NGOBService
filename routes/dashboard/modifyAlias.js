@@ -55,6 +55,8 @@ router.post('/V00/modifyAlias/:id', function(req, res, next) {
             });
           });
         return res.json(alias_ok); 
+    }else  if (tsec != null || tsec==='456789012' && req.params.id == 'SIMXP0000002'){
+        return res.status(502).json(alias_nok);
     }else{
         return res.status(502).json(alias_nok);
     }
