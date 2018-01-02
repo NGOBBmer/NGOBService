@@ -56,7 +56,7 @@ router.post('/V00/modifyAlias/:id', function(req, res, next) {
           });
         return res.json(alias_ok); 
     }else{
-       return res.json(alias_nok); 
+        return res.status(502).json(alias_nok);
     }
 	return res.json(alias_nok);
   next();
