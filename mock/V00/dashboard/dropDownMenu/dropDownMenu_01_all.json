@@ -1,0 +1,578 @@
+[
+  {
+    "id": "CHMXP0000001",
+    "typeProduct": "pesos",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "CH",
+          "params": {
+            "idcuenta": "CHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "tipo": "todos",
+            "cuenta": "CHMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Compra/Venta de DÛlares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Apartados",
+        "pathUrl": "spendingPockets",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuentaId": "CHMXP0000001",
+            "origen": "PG"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "CHUSD0000001",
+    "typeProduct": "dolares",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "CH",
+          "params": {
+            "idcuenta": "CHUSD0000001",
+            "tipoCuenta": "cuentaChequeraDolares"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHUSD0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Compra/Venta de DÛlares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHUSD0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "CHUSD0000002",
+    "typeProduct": "dolares",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "CH",
+          "params": {
+            "idcuenta": "CHUSD0000002",
+            "tipoCuenta": "cuentaChequeraDolares"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHUSD0000002"
+          }
+        }
+      },
+      {
+        "nombre": "Compra/Venta de DÛlares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHUSD0000002"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "CHEUR0000001",
+    "typeProduct": "euros",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "CH",
+          "params": {
+            "idcuenta": "CHEUR0000001",
+            "tipoCuenta": "cuentaChequeraEuro"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CH",
+          "params": {
+            "cuenta": "CHEUR0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "INMXP0000001",
+    "typeProduct": "inversiones",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "IN",
+          "params": {
+            "idcuenta": "INMXP0000001",
+            "tipoCuenta": "inversionesMxp"
+          }
+        }
+      },
+      {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "compra",
+            "cuenta": "00740010001334676815"
+          }
+        }
+      },
+      {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "venta",
+            "cuenta": "00740010001334676815"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "INUSD0000002",
+    "typeProduct": "inversiones",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "IN",
+          "params": {
+            "idcuenta": "INUSD0000002",
+            "tipoCuenta": "inversionesMxp"
+          }
+        }
+      },
+      {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "compra",
+            "cuenta": "00740031001337722737"
+          }
+        }
+      },
+      {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "venta",
+            "cuenta": "00740031001337722737"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "TCMXP0000001",
+    "typeProduct": "tarjetasCredito",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "TCP",
+          "params": {
+            "idcuenta": "TCMXP0000001",
+            "tipoCuenta": "tarjetasCredito"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar",
+        "pathUrl": "pagoTarjetaDeCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Disponer efectivo",
+        "pathUrl": "disposicionTDC",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "TCMXP0000002",
+    "typeProduct": "tarjetasCredito",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "TCP",
+          "params": {
+            "idcuenta": "TCMXP0000002",
+            "tipoCuenta": "tarjetasCredito"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000002"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar",
+        "pathUrl": "pagoTarjetaDeCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000002"
+          }
+        }
+      },
+      {
+        "nombre": "Disponer efectivo",
+        "pathUrl": "disposicionTDC",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000002"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000002"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "TCMXP0000003",
+    "typeProduct": "tarjetasCredito",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "TCP",
+          "params": {
+            "idcuenta": "TCMXP0000003",
+            "tipoCuenta": "tarjetasCredito"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000003"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar",
+        "pathUrl": "pagoTarjetaDeCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000003"
+          }
+        }
+      },
+      {
+        "nombre": "Disponer efectivo",
+        "pathUrl": "disposicionTDC",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000003"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "TCP",
+          "params": {
+            "cuenta": "TCMXP0000003"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "TPMXP0000001",
+    "typeProduct": "tarjetaprepagada",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "typeProductId": "TP",
+          "params": {
+            "idcuenta": "TPMXP0000001",
+            "tipoCuenta": "tarjetasPrepagadas"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "TPMXP0000002",
+    "typeProduct": "tarjetaprepagada",
+    "typeProductId": null,
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "typeProductId": "TP",
+          "params": {
+            "idcuenta": "TPMXP0000002",
+            "tipoCuenta": "tarjetasPrepagadas"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
+      }
+    ]
+  }
+]

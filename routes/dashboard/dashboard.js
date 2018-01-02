@@ -10,6 +10,7 @@ var dashboard_03_IN = require('../../mock/V00/dashboard/dashboard/dashboard_03.I
 var dashboard_04_IN = require('../../mock/V00/dashboard/dashboard/dashboard_04.IN.json');
 var dashboard_05_IN = require('../../mock/V00/dashboard/dashboard/dashboard_05.IN.json');
 var dashboard_2cards= require('../../mock/V00/dashboard/dashboard/dashboard_2cards.json');
+var dashboard_all = require('../../mock/V00/dashboard/dashboard/dashboard_01_all.json');
 var dashboard_error = require('../../mock/V00/dashboard/dashboard/dashboard_error.json');
 var dashboard_error_02 = require('../../mock/V00/dashboard/dashboard/error_01.json');
 
@@ -31,7 +32,9 @@ router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (tsec === '456789012'){
         return res.json(dashboard_01);
-    }else if ((tsec === '012345678') && req.query.$filter === 'productType==TT')
+    }else if (tsec === '123456789' && req.query.$filter === 'productType==TT')
+        return res.json(dashboard_all);
+    else if ((tsec === '012345678') && req.query.$filter === 'productType==TT')
         return res.json(dashboard_2cards);
     else if ((tsec == 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==TT' )
 	   return res.json(dashboard_02);
