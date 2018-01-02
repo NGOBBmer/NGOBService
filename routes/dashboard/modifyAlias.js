@@ -29,6 +29,8 @@ router.post('/V00/modifyAlias/:id', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (alias == undefined)
         alias = "";
+    if ( tsec==='456789012' && req.params.id == 'SIMXP0000002' && alias == 'AliasPr002')
+        return res.status(502).json(alias_nok);
     if (req.params.id == 'AHMXP0000001' || req.params.id == 'TCMXP0000001'){
         var filePath = path.join(__dirname, dashboard_roor);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -55,8 +57,6 @@ router.post('/V00/modifyAlias/:id', function(req, res, next) {
             });
           });
         return res.json(alias_ok); 
-    }else  if (tsec != null || tsec==='456789012' && req.params.id == 'SIMXP0000002' && alias == 'AliasPr002'){
-        return res.status(502).json(alias_nok);
     }else{
         return res.status(502).json(alias_nok);
     }
