@@ -36,7 +36,7 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_all);
     else if ((tsec === '012345678') && req.query.$filter === 'productType==TT')
         return res.json(dashboard_2cards);
-    else if ((tsec == 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==TT' )
+    else if ((tsec == 'null' || tsec == '419032') && req.query.$filter === 'productType==TT' )
 	   return res.json(dashboard_02);
     else if (req.query.$filter === 'productType==SI,idContract==SIMXP0000001')
         return res.json(dashboard_02_SI);

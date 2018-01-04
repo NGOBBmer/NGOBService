@@ -1,17 +1,18 @@
 {
   "product": {
-    "savingAccount": [{
+    "savingAccount": [
+      {
         "productId": "AHMXP0000001",
         "balance": {
           "availableBalance": {
-            "amount": 2722.07,
+            "amount": -1300.50,
             "currency": "Pesos",
             "currencyId": "MXP"
           }
         },
         "branch": {
-          "number": "1500001929",
-          "alias": "Cta Eje",
+          "number": "1402321858",
+          "alias": "AliasPr001",
           "typeId": "AH",
           "accountType": "cuentaChequera"
         },
@@ -19,684 +20,112 @@
         "navigation": {
           "pathNavigation": {
             "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "AHMXP0000001",
-              "tipoCuenta": "cuentaChequera"
-            }
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "AHMXP0000001"
+              }
+            ]
           },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },{
+        "productId": "AHMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": -3500.50,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1402321858",
+          "alias": "Cuentaaa",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "AHMXP0000002"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      }
+    ],
+    "investmentsFund": [
+      {
+        "productId": "SIMXP0000001",
+        "branch": {
+          "number": "2029987894",
+          "typeId": "SI",
+          "accountType": "fondoInversiones",
+          "alias": "FondooUNO"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": true
+        }
+      },
+      {
+        "productId": "SIMXP0000002",
+        "branch": {
+          "number": "2029987908",
+          "typeId": "SI",
+          "accountType": "fondoInversiones",
+          "alias": "prueba"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
           "cellsNavigation": true
         },
         "assigned": {
           "isNominated": true,
           "hasPocket": false,
           "pathUrl": "zonaNomina"
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
       {
-        "productId": "AHMXP0000002",
-        "balance": {
-          "availableBalance": {
-            "amount": 897855980.99,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
+        "productId": "SIMXP0000005",
         "branch": {
-          "number": "1500007838",
-          "alias": "Cuenta 783",
-          "typeId": "AH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "AHMXP0000002",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      }
-    ],
-    "checkAccount": [{
-        "productId": "CHMXP0000003",
-        "balance": {
-          "availableBalance": {
-            "amount": 2389897.31,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "0178200831",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHMXP0000003",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "CHMXP0000004",
-        "balance": {
-          "availableBalance": {
-            "amount": 13573.78,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "0109395466",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHMXP0000004",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "CHMXP0000005",
-        "balance": {
-          "availableBalance": {
-            "amount": 407814,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "0434710355",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHMXP0000005",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "CHMXP0000006",
-        "balance": {
-          "availableBalance": {
-            "amount": 4994051.17,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "0434710363",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHMXP0000006",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "CHMXP0000007",
-        "balance": {
-          "availableBalance": {
-            "amount": 1003749519.15,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "0178087725",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHMXP0000007",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "CHMXP0000008",
-        "balance": {
-          "availableBalance": {
-            "amount": 99618517.5,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "0178053081",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHMXP0000008",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "CHMXP0000009",
-        "balance": {
-          "availableBalance": {
-            "amount": 7899.73,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "0100052671",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequera"
-        },
-        "description": "Cuenta en Pesos",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHMXP0000009",
-              "tipoCuenta": "cuentaChequera"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CHECKACCOUNT",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "CHUSD0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 162867.75,
-            "currency": "",
-            "currencyId": "USD"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currencyId": "USD"
-          }
-        },
-        "branch": {
-          "number": "0178512663",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequeraDolares"
-        },
-        "region": {
-          "name": "MEXICO"
-        },
-        "description": "Cuenta en Dólares",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHUSD0000001",
-              "tipoCuenta": "cuentaChequeraDolares"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
-      },
-      {
-        "productId": "CHUSD0000002",
-        "balance": {
-          "availableBalance": {
-            "amount": 3011.86,
-            "currency": "",
-            "currencyId": "USD"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currencyId": "USD"
-          }
-        },
-        "branch": {
-          "number": "0149494014",
-          "alias": "",
-          "typeId": "CH",
-          "accountType": "cuentaChequeraDolares"
-        },
-        "region": {
-          "name": "MEXICO"
-        },
-        "description": "Cuenta en Dólares",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "detalleCuenta",
-            "params": {
-              "idcuenta": "CHUSD0000002",
-              "tipoCuenta": "cuentaChequeraDolares"
-            }
-          },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
-      },
-      {
-        "productId": "CHEUR0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 999530.5,
-            "currency": "Euros",
-            "currencyId": "EUR"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currency": "",
-            "currencyId": "EUR"
-          }
-        },
-        "branch": {
-          "number": "0178530718",
-          "alias": "0178530718",
-          "typeId": "CH",
-          "accountType": "cuentaChequeraEuro"
-        },
-        "description": "Cuenta en Euros",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
-      }
-    ],
-    "creditCard": [{
-        "productId": "TCMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 270284.92,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": -764819.56,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "·86497",
-          "alias": "LOREMIPSUM",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito"
-        },
-        "minimumPayment": 0,
-        "description": "Tarjeta de Crédito",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CREDIT_CARD",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=410181&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "TCMXP0000002",
-        "balance": {
-          "availableBalance": {
-            "amount": 150858.13,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": 150858.13,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "·42215",
-          "alias": "",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito"
-        },
-        "minimumPayment": 9684.81,
-        "description": "Tarjeta de Crédito",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CREDIT_CARD",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "TCMXP0000003",
-        "balance": {
-          "availableBalance": {
-            "amount": -60610.15,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": 16977.41,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "·19049",
-          "alias": "Giovanni",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito"
-        },
-        "minimumPayment": 0,
-        "description": "Tarjeta de Crédito",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CREDIT_CARD",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "TCMXP0000004",
-        "balance": {
-          "availableBalance": {
-            "amount": -3030.22,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": 0,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "·00291",
-          "alias": "",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito"
-        },
-        "minimumPayment": 0,
-        "description": "Tarjeta de Crédito",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CREDIT_CARD",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "TCMXP0000005",
-        "balance": {
-          "availableBalance": {
-            "amount": 4409.79,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": 4311.79,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "·03155",
-          "alias": "",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito"
-        },
-        "minimumPayment": 4311.79,
-        "description": "Tarjeta de Crédito",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CREDIT_CARD",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "TCMXP0000006",
-        "balance": {
-          "availableBalance": {
-            "amount": 6013.83,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": 0,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "·59233",
-          "alias": "",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito"
-        },
-        "minimumPayment": 0,
-        "description": "Tarjeta de Crédito",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CREDIT_CARD",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      },
-      {
-        "productId": "TCMXP0000007",
-        "balance": {
-          "availableBalance": {
-            "amount": -7322,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": 0,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "·14815",
-          "alias": "*****14815",
-          "typeId": "TC",
-          "accountType": "tarjetasCredito"
-        },
-        "minimumPayment": 0,
-        "description": "Tarjeta de Crédito",
-        "navigation": {
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        },
-        "image": {
-          "type": "CREDIT_CARD",
-          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=493161&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
-        }
-      }
-    ],
-    "heritage": [{
-      "productId": "PTMXP0000001",
-      "balance": {
-        "totalBalance": {
-          "currency": "",
-          "currencyId": "MXP"
-        }
-      },
-      "branch": {
-        "number": "2106857531",
-        "alias": "PT00740680002106857531",
-        "typeId": "PT",
-        "accountType": "patrimoniales"
-      },
-      "description": "Patrimonial",
-      "navigation": {
-        "pathNavigation": {
-          "pathUrl": "portafolioPatrimonialChart",
-          "params": {
-            "idContrato": "PTMXP0000001"
-          }
-        },
-        "cellsNavigation": false
-      },
-      "assigned": {
-        "isNominated": false,
-        "hasPocket": false
-      }
-    }],
-    "investmentsFund": [{
-        "productId": "SIMXP0000001",
-        "branch": {
-          "number": "2092377152",
+          "number": "2034689771",
           "typeId": "SI",
-          "accountType": "fondoInversiones"
+          "accountType": "fondoInversiones",
+          "alias": ""
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -708,11 +137,12 @@
         }
       },
       {
-        "productId": "SIMXP0000003",
+        "productId": "SIMXP0000006",
         "branch": {
-          "number": "2092377160",
+          "number": "2034689984",
           "typeId": "SI",
-          "accountType": "fondoInversiones"
+          "accountType": "fondoInversiones",
+          "alias": "prueba02"
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -724,186 +154,171 @@
         }
       }
     ],
-    "investments": [{
+    "investments": [
+      {
         "productId": "INMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 31999,
+            "currencyId": "MXP"
+          }
+        },
         "branch": {
           "number": "1368067104",
-          "originalAccountNumber": "00740010001368067104",
           "typeId": "IN",
-          "accountType": "inversionesMxp"
+          "accountType": "inversionesMxp",
+          "alias": "PRalias"
         },
+        "description": "Inversión en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1368072280",
+          "typeId": "IN",
+          "accountType": "inversionesMxp",
+          "alias": "inversion1"
+        },
+        "description": "Inversión en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000003",
         "balance": {
           "availableBalance": {
             "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1368072302",
+          "typeId": "IN",
+          "accountType": "inversionesMxp",
+          "alias": ""
+        },
+        "description": "Inversión en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000004",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1368072574",
+          "typeId": "IN",
+          "accountType": "inversionesMxp",
+          "alias": ""
+        },
+        "description": "Inversión en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000005",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1368074682",
+          "typeId": "IN",
+          "accountType": "inversionesMxp",
+          "alias": ""
+        },
+        "description": "Inversión en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ],
+    "heritage": [
+      {
+        "productId": "PTMXP0000001",
+        "branch": {
+          "number": "00740680002106857531",
+          "alias": "PT00740680002106857531",
+          "typeId": "PT",
+          "accountType": "patrimoniales"
+        },
+        "balance": {
+          "totalBalance": {
             "currency": "",
-            "currencyId": "Pesos"
+            "currencyId": "MXP"
           }
         },
         "isAdittional": "no",
         "innerJoinAccount": "no",
-        "description": "Inversión en Pesos",
-        "navigation": {
-          "cellsNavigation": false
-        }
-      },
-      {
-        "productId": "CAUSD0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 25000,
-            "currency": "Dólares",
-            "currencyId": "USD"
-          }
-        },
-        "branch": {
-          "number": "8000751488",
-          "originalAccountNumber": "00740001008000751488",
-          "typeId": "IN",
-          "accountType": "inversionesUsd"
-        },
-        "region": {
-          "name": "HOUSTON"
-        },
-        "description": "Inversión en Dólares",
+        "status": "0",
+        "description": "Patrimonial",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "detalleCuenta",
+            "pathUrl": "portafolioPatrimonialChart",
             "params": {
-              "idcuenta": "CAUSD0000001",
-              "tipoCuenta": "inversionesMxp"
+              "name": "idContrato",
+              "value": "PTMXP0000001"
             }
           },
-          "cellsNavigation": true
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
+          "cellsNavigation": false
         }
       }
     ],
-    "loans": [{
-        "productId": "0",
-        "balance": {
-          "availableBalance": {
-            "amount": 8683.97,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "9600038429",
-          "originalAccountNumber": "00740004799600038429",
-          "typeId": "PR",
-          "accountType": "otrosCreditos"
-        },
-        "description": "Crediton nomina",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "consultaSaldoCreditonPG",
-            "params": {
-              "id": "0"
-            }
-          },
-          "cellsNavigation": false
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
-      },
+    "spendingPockets": [
       {
-        "productId": "1",
-        "balance": {
-          "availableBalance": {
-            "amount": 15919.21,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "9633245055",
-          "originalAccountNumber": "00740004719633245055",
-          "typeId": "PR",
-          "accountType": "otrosCreditos"
-        },
-        "description": "Crediton nomina",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "consultaSaldoCreditonPG",
-            "params": {
-              "id": "1"
-            }
-          },
-          "cellsNavigation": false
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
-      },
-      {
-        "productId": "2",
-        "balance": {
-          "availableBalance": {
-            "amount": 3338.96,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
-        "branch": {
-          "number": "9608898911",
-          "originalAccountNumber": "00740960549608898911",
-          "typeId": "PR",
-          "accountType": "otrosCreditos"
-        },
-        "description": "Prestamo personal",
-        "navigation": {
-          "pathNavigation": {
-            "pathUrl": "consultaSaldoCreditonPG",
-            "params": {
-              "id": "2"
-            }
-          },
-          "cellsNavigation": false
-        },
-        "assigned": {
-          "isNominated": false,
-          "hasPocket": false
-        }
-      }
-    ],
-    "mortgages": [{
-      "productId": "00740001209603099202",
-      "balance": {
-        "grantedBalance": {
-          "amount": 148137.88,
-          "currency": "",
-          "currencyId": "MXP"
-        }
-      },
-      "branch": {
-        "number": "9603099202",
-        "originalAccountNumber": "00740001209603099202",
-        "typeId": "HP",
-        "accountType": "hipotecarios"
-      },
-      "description": "Crédito hipotecario",
-      "navigation": {
-        "pathNavigation": {
-          "pathUrl": "o3ConsultaCreditoHipotecario",
-          "params": {
-            "entrada": "PG",
-            "indiceCred": "00740001209603099202"
-          }
-        },
-        "cellsNavigation": false
-      },
-      "assigned": {
-        "isNominated": false,
-        "hasPocket": false
-      }
-    }],
-    "spendingPockets": [{
         "productId": "PKMXP0000001",
         "balance": {
           "availableBalance": {
@@ -920,8 +335,7 @@
         "description": "Apartado",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "spendingPockets",
-            "text": "Ir a Apartados"
+            "pathUrl": "spendingPockets"
           },
           "cellsNavigation": false
         },
@@ -949,8 +363,7 @@
         "description": "Apartado",
         "navigation": {
           "pathNavigation": {
-            "pathUrl": "spendingPockets",
-            "text": "Ir a Apartados"
+            "pathUrl": "spendingPockets"
           },
           "cellsNavigation": false
         },
@@ -962,73 +375,47 @@
         }
       }
     ],
-    "prepaidCard": [{
-      "productId": "TPMXP0000001",
-      "branch": {
-        "number": "·9173",
-        "typeId": "TP",
-        "accountType": "tarjetasPrepagadas"
-      },
-      "balance": {
-        "availableBalance": {
-          "amount": 99998949,
-          "currency": "Pesos",
-          "currencyId": "MXP"
+    "prepaidCard": [
+      {
+        "productId": "TPMXP0000001",
+        "branch": {
+          "number": "·9173",
+          "typeId": "TP",
+          "accountType": "tarjetasPrepagadas"
         },
-        "pendingBalance": {
-          "amount": 0,
-          "currency": "Pesos",
-          "currencyId": "MXP"
+        "balance": {
+          "availableBalance": {
+            "amount": 99998949,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "isAdittional": "no",
+        "innerJoinAccount": "no",
+        "description": "Tarjeta Prepagada",
+        "navigation": {
+          "cellsNavigation": false
         }
-      },
-      "isAdittional": "no",
-      "innerJoinAccount": "no",
-      "description": "Tarjeta Prepagada",
-      "navigation": {
-        "cellsNavigation": false
       }
-    }]
+    ]
   },
   "totalBalanceMxn": {
     "balance": {
-      "amount": 2009039975.7,
+      "amount": -13740.7,
       "currency": "MXP"
     },
-    "description": "Total en pesos"
+    "description": "Cuenta en Pesos"
   },
-  "totalBalanceUsd": {
+  "totalBalanceInversionMxp": {
     "balance": {
-      "amount": 165879.61,
-      "currency": "USD"
-    },
-    "description": "Total en dólares"
-  },
-  "totalBalanceEur": {
-    "balance": {
-      "amount": 999530.5,
-      "currency": "EUR"
-    },
-    "description": "Total en euros"
-  },
-  "totalBalanceCreditCard": {
-    "balance": {
-      "amount": 360604.3,
+      "amount": 35999,
       "currency": "MXP"
     },
-    "description": "Tarjeta de crédito"
-  },
-  "totalBalanceInversionUsd": {
-    "balance": {
-      "amount": 25000,
-      "currency": "USD"
-    },
-    "description": "Total de inversión en dólares"
-  },
-  "totalBalanceCreditos": {
-    "balance": {
-      "amount": 1619394.78,
-      "currency": "MXP"
-    },
-    "description": "Total de préstamos"
+    "description": "Inversión en Pesos"
   }
 }
