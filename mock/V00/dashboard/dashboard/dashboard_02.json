@@ -83,6 +83,106 @@
         }
       }
     ],
+    "creditCard": [
+      {
+        "productId": "TCMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 282856.85,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": -764819.56,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·86497",
+          "alias": "LOREMIPSUM",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "TCMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 256.85,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 819.56,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·86439",
+          "alias": "Tarjetaaa",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 100,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },{
+        "productId": "TCMXP0000003",
+        "balance": {
+          "availableBalance": {
+            "amount": 833.85,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": -819.56,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·85537",
+          "alias": "Jeje",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleTarjetaCredito"
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ],
     "investmentsFund": [
       {
         "productId": "SIMXP0000001",
