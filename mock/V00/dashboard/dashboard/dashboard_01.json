@@ -52,7 +52,7 @@
           "accountType": "fondoInversiones",
           "alias": "FondooUNO"
         },
-        "description": "Fondo de Inversión",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "cellsNavigation": true
         },
@@ -69,7 +69,7 @@
           "accountType": "fondoInversiones",
           "alias": "prueba"
         },
-        "description": "Fondo de Inversión",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "cellsNavigation": true
         },
@@ -87,7 +87,7 @@
           "accountType": "fondoInversiones",
           "alias": ""
         },
-        "description": "Fondo de Inversión",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "cellsNavigation": true
         },
@@ -104,7 +104,7 @@
           "accountType": "fondoInversiones",
           "alias": "prueba02"
         },
-        "description": "Fondo de Inversión",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "cellsNavigation": true
         },
