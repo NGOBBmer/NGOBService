@@ -52,7 +52,7 @@
           "accountType": "fondoInversiones",
           "alias": "FondooUNO"
         },
-        "description": "Pagaré Bancomer",
+        "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
         },
@@ -69,7 +69,7 @@
           "accountType": "fondoInversiones",
           "alias": "prueba"
         },
-        "description": "Pagaré Bancomer",
+        "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
         },
@@ -87,7 +87,7 @@
           "accountType": "fondoInversiones",
           "alias": ""
         },
-        "description": "Pagaré Bancomer",
+        "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
         },
@@ -104,7 +104,7 @@
           "accountType": "fondoInversiones",
           "alias": "prueba02"
         },
-        "description": "Pagaré Bancomer",
+        "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
         },
@@ -129,7 +129,7 @@
           "accountType": "inversionesMxp",
           "alias": "PRalias"
         },
-        "description": "Inversión en Pesos",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "pathNavigation": {
             "pathUrl": "detalleCuenta"
@@ -155,7 +155,7 @@
           "accountType": "inversionesMxp",
           "alias": "inversion1"
         },
-        "description": "Inversión en Pesos",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "pathNavigation": {
             "pathUrl": "detalleCuenta"
@@ -181,7 +181,7 @@
           "accountType": "inversionesMxp",
           "alias": ""
         },
-        "description": "Inversión en Pesos",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "pathNavigation": {
             "pathUrl": "detalleCuenta"
@@ -207,7 +207,7 @@
           "accountType": "inversionesMxp",
           "alias": ""
         },
-        "description": "Inversión en Pesos",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "pathNavigation": {
             "pathUrl": "detalleCuenta"
@@ -233,7 +233,7 @@
           "accountType": "inversionesMxp",
           "alias": ""
         },
-        "description": "Inversión en Pesos",
+        "description": "Pagaré Bancomer",
         "navigation": {
           "pathNavigation": {
             "pathUrl": "detalleCuenta"
