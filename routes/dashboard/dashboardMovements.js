@@ -32,11 +32,11 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if ( tsec == undefined && req.query.$filter === 'productType==SI,idContract==SIMXP0000003,period==0'){
        return res.json(dashMov_01_02);
-    }else if (tsec == '' && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==0'){
+    }else if ((tsec == '' || tsec != 'null') && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==0'){
        return res.json(dashMov_02_01);
-    } else if (tsec == '' && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==1'){
+    } else if ((tsec == '' || tsec != 'null') && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==1'){
        return res.json(dashMov_01_02_01);
-    } else if (tsec == '' && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==2'){
+    } else if ((tsec == '' || tsec != 'null') && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==2'){
        return res.json(dashMov_01_03);
     }else if (tsec == undefined && req.query.$filter === 'productType==SI,idContract==SIMXP0000005,period==0'){
        return res.json(dashMov_02_01);
@@ -58,11 +58,11 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
        return res.json(NO_MOVS);
     }else  if (tsec == undefined && req.query.$filter === 'productType==SI,idContract==SIMXP0000004,period==2'){
        return res.json(dashMov_02);
-    }else  if (tsec == '' && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==0'){
+    }else  if ((tsec == '' || tsec == 'null') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==0'){
        return res.json(dashMov_03);
-    }else  if (tsec == '' && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==1'){
+    }else  if ((tsec == '' || tsec == 'null') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==1'){
        return res.json(dashMov_04);
-    }else  if (tsec == '' && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==2'){
+    }else  if ((tsec == '' || tsec == 'null') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==2'){
        return res.json(dashMov_04);
     }else  if (tsec == undefined && req.query.$filter === 'productType==IN,idContract==INMXP0000002,period==0'){
        return res.json(dashMov_04);
