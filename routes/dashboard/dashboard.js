@@ -56,15 +56,15 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_04);
     else if (tsec === '1234567890' && req.query.$filter === 'productType==TT')
         return res.status(400).json(dashboard_error);
-    else if ((tsec != 'null' || tsec != undefined || tsec != '') && req.query.$filter === 'productType==TT')
+    else if ((tsec != undefined || tsec != '') && req.query.$filter === 'productType==TT')
         return res.json(dashboard_01);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,currency==MXP')
+    else if ((tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,currency==MXP')
         return res.json(dashboard_03_IN); 
-    else if ((tsec == 'null' || tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000002,currency==MXP')
+    else if ((tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000002,currency==MXP')
         return res.json(dashboard_error_02);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000003,currency==MXP')
+    else if ((tsec == undefined || tsec == '12345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000003,currency==MXP')
         return res.json(dashboard_04_IN);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,currency==USD')
+    else if ((tsec == undefined || tsec == '') && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,currency==USD')
         return res.json(dashboard_05_IN);
 
     return res.status(400).json(dashboard_error_02);
