@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var dashMov_01 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01.json');
 var dashMov_01_02 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01_02.json');
+var dashMov_01_02_01 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01_02_01.json');
 var dashMov_01_03 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_01_03.json');
 var dashMov_02_01 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_02_01.json');
 var dashMov_02 = require('../../mock/V00/dashboard/dashboardMovements/SIMovements_02.json');
@@ -31,7 +32,13 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000003,period==0'){
        return res.json(dashMov_01_02);
-    } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000005,period==0'){
+    }else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==0'){
+       return res.json(dashMov_01_02); 
+    }else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==1'){
+       return res.json(dashMov_01_02_01); 
+    }else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000001,period==2'){
+       return res.json(dashMov_01_02); 
+    }else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000005,period==0'){
        return res.json(dashMov_02_01);
     } else if ((tsec != 'null' || tsec == '' || tsec == null || tsec == undefined) && req.query.$filter === 'productType==SI,idContract==SIMXP0000005,period==1'){
        return res.json(dashMov_02_01);
