@@ -9,6 +9,9 @@ var ADVISE = require('../../mock/V00/operations/actionalAdvice/actionalAdvice.js
 var ERROR = require('../../mock/V00/operations/actionalAdvice/error.json');
 var VACIO = require('../../mock/V00/operations/actionalAdvice/actionalVacio.json');
 
+var GEMAIL = require('../../mock/V00/operations/email/get_email.json');
+var UEMAIL = require('../../mock/V00/operations/email/update_email.json');
+
 //agileOperations
 var LISTA_ALL = require('../../mock/V00/operations/agileOperations/lista_all.json');
 var LISTA_PR = require('../../mock/V00/operations/agileOperations/lista_pr.json')
@@ -362,6 +365,19 @@ router.post('/V00/createAgileOperations', function(req, res, next) {
     return res.json(XLS);
   }
   return res.status(400).json(NOK);
+  next();
+});
+
+router.get('/V00/getEmail', function(req, res, next) {
+    return res.json(GEMAIL);
+  next();
+});
+
+router.get('/V00/updateEmail', function(req, res, next) {
+  if (req.query.newEmail != '')
+    return res.json(UEMAIL);
+  else
+    return res.json(ERROR);
   next();
 });
 
