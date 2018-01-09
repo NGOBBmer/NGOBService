@@ -58,11 +58,11 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
        return res.json(NO_MOVS);
     }else  if (tsec == undefined && req.query.$filter === 'productType==SI,idContract==SIMXP0000004,period==2'){
        return res.json(dashMov_02);
-    }else  if ((tsec == '' || tsec == 'null') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==0'){
+    }else  if ((tsec == '' || tsec == 'null' || tsec === '2345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==0'){
        return res.json(dashMov_03);
-    }else  if ((tsec == '' || tsec == 'null') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==1'){
+    }else  if ((tsec == '' || tsec == 'null' || tsec === '2345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==1'){
        return res.json(dashMov_04);
-    }else  if ((tsec == '' || tsec == 'null') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==2'){
+    }else  if ((tsec == '' || tsec == 'null' || tsec === '2345678') && req.query.$filter === 'productType==IN,idContract==INMXP0000001,period==2'){
        return res.json(dashMov_04);
     }else  if (tsec == undefined && req.query.$filter === 'productType==IN,idContract==INMXP0000002,period==0'){
        return res.json(dashMov_04);
