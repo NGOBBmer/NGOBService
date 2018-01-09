@@ -316,6 +316,75 @@
           "cellsNavigation": false
         }
       }
+    ],"creditCard": [
+      {
+        "productId": "TCMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": -34535,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 626.67,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·59284",
+          "alias": "43210",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477213&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
+        "productId": "TCMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 91008.74,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·03188",
+          "alias": "",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477214&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      }
     ],
     "spendingPockets": [
       {
