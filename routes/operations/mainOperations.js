@@ -50,6 +50,7 @@ var allowFastI = require('../../mock/V00/operations/allowAgileOperations/allowFa
 //deleteAgileOperations
 var OK = require('../../mock/V00/operations/deleteAgileOps/delete_01.json');
 var ERROR = require('../../mock/V00/operations/deleteAgileOps/delete_err.json');
+var DELETE_ERROR = require('../../mock/V00/operations/deleteAgileOps/deleteAgileOp_error.json');
 
 //deleteActionalAdvice
 var ADVISE_OK = require('../../mock/V00/operations/deleteActionalAdvice/ok.json');
@@ -260,11 +261,14 @@ router.get('/V00/agileOperations', function(req, res, next) {
 
 // handler for query http://localhost:4000/operations/V00/deleteAgileOperations/PR0001?agileOperationType=RECURRING
 router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  if(tsec === '123456' && req.query.agileOperationType === 'RECURRING')
+    return res.json(DELETE_ERROR);
   if (req.query.agileOperationType === 'RECURRING' || req.query.agileOperationType === 'SCHEDULED')
   	return res.json(OK);
   else if (req.query.agileOperationType === 'FAST')
   	return res.json(OK);
-
+  
   return res.status(409).json(ERROR);
   next();
 });

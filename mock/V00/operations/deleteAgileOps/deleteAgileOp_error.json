@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "CNE0310",
+    "message": "LAS CANCELACIONES LAS PUEDES EFECTUAR EN HORARIO 11.00 HRS. A 24 HRS.",
+    "descripcion": "Se ha producido un error al consultar el servicio ",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}
