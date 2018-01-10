@@ -319,9 +319,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     var dayIndicator =req.body.dayIndicator;
 
 
-    if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
-        isPeriodic != "" && isPeriodic != null && aplicationDate != "" && aplicationDate != null &&
-        amount != "" && amount != null && taxReceipt != "" && taxReceipt != null){
+    if (senderAccountId != "" && senderAccountId != null){
         
         if (isPeriodic){
                      if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
