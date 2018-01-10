@@ -38,6 +38,10 @@ var OK = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok.jso
 var OK_period = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok_period.json'); 
 var ERROR = require('../../mock/V00/transfers/otherAccountsTransfer/response_err.json');
 
+var error_period = require('../../mock/V00/transfers/otherAccountsTransfer/intert_error_prog.json'); 
+var error_tax = require('../../mock/V00/transfers/otherAccountsTransfer/intert_error_tax.json'); 
+var error_line = require('../../mock/V00/transfers/interbankTransfers/intert_error_line.json');
+
 //cashAdvanceFree
 var CASH_OK = require('../../mock/V00/transfers/cashAdvanceFee/response_ok.json'); 
 var CASH_ERROR = require('../../mock/V00/transfers/cashAdvanceFee/response_err.json');
@@ -325,27 +329,27 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                                     return res.json(OK_period);
                                  }else{
-                                    return res.json(RESP_ERROR); 
+                                    return res.json(intert_error_tax); 
                                  }
                               }
-                              
+
                               return res.json(OK_period);
                      }else{
-                        return res.json(RESP_ERROR); 
+                        return res.json(intert_error_prog); 
                      }
         }
         if (taxReceipt){
              if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                 return res.json(RESP_OK);
              }else{
-                return res.json(RESP_ERROR); 
+                return res.json(intert_error_tax); 
              }
         }
 
 
         return res.json(RESP_OK); 
     }else{
-       return res.json(RESP_ERROR); 
+       return res.json(intert_error_line); 
     }
     return res.json(RESP_ERROR);
   next();
