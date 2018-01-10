@@ -321,7 +321,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
     if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
         aplicationDate != "" && aplicationDate != null && tsec != "" && tsec != null &&
-        amount != "" && amount != null && otp != "11111111" && otp != null){
+        amount != "" && amount != null && otp == "11111111" && otp != null){
         
         if (isPeriodic){
                      if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
