@@ -329,27 +329,27 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                                     return res.json(OK_period);
                                  }else{
-                                    return res.json(intert_error_tax); 
+                                    return res.json(error_tax); 
                                  }
                               }
 
                               return res.json(OK_period);
                      }else{
-                        return res.json(intert_error_prog); 
+                        return res.json(error_period); 
                      }
         }
         if (taxReceipt){
              if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                 return res.json(RESP_OK);
              }else{
-                return res.json(intert_error_tax); 
+                return res.json(error_tax); 
              }
         }
 
 
         return res.json(RESP_OK); 
     }else{
-       return res.json(intert_error_line); 
+       return res.json(error_line); 
     }
     return res.json(RESP_ERROR);
   next();
