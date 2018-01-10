@@ -302,7 +302,7 @@ router.get('/V00/getSequences', function(req, res, next) {
 router.post('/V00/interbankTransfer', function(req, res, next) {
     var tsec = req.headers['tsec'];
     var otp = req.headers['otp'];
-    var otherTrasnferFreqId = req.body.frequentId;
+    var frequentId = req.body.frequentId;
    var  senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
     var periodicName = req.body.periodicName;
@@ -319,9 +319,9 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     var dayIndicator =req.body.dayIndicator;
 
 
-    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
-         && taxReceipt !=null  && numericReference != null  && taxReceipt !=''  && numericReference != '' 
-         ){
+    if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
+        isPeriodic != "" && isPeriodic != null && aplicationDate != "" && aplicationDate != null &&
+        amount != "" && amount != null && taxReceipt != "" && taxReceipt != null){
         
         if (isPeriodic){
                      if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
