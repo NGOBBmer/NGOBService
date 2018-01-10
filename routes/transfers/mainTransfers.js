@@ -93,7 +93,7 @@ router.use(function(req, res, next) {
     var host = req.get('origin');
     res.setHeader('Access-Control-Allow-Origin', host||"*");
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec,otp');
     res.setHeader('Access-Control-Allow-Credentials', true);/*    if(req.get(withCredentials)){
       res.setHeader('Access-Control-Allow-Credentials', true);
     } else {
@@ -296,9 +296,12 @@ router.get('/V00/getSequences', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/otherAccountsTransfer
 
 router.post('/V00/interbankTransfer', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    var otp = req.headers['otp'];
     var otherTrasnferFreqId = req.body.frequentId;
    var  senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
+    var periodicName = req.body.periodicName;
     var isPeriodic =req.body.isPeriodic;
     var aplicationDate =req.body.aplicationDate;
     var repetitions =req.body.repetitions;
@@ -313,15 +316,32 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
 
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
-         && taxReceipt !=null  && numericReference != null && dayIndicator!= null && taxReceipt !=''  && numericReference != '' && dayIndicator!= ''){
+         && taxReceipt !=null  && numericReference != null && dayIndicator!= null && taxReceipt !=''  && numericReference != '' && dayIndicator!= '' &&
+         tsec != '' && tsec != null && otp != '' && otp != null){
         
         if (isPeriodic){
-             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
-                return res.json(OK_period);
+                     if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+                            if (taxReceipt){
+                                 if (iva != '' && rfc != '' &&  iva != null && rfc != null){
+                                    return res.json(OK_period);
+                                 }else{
+                                    return res.json(RESP_ERROR); 
+                                 }
+                              }
+                              
+                              return res.json(OK_period);
+                     }else{
+                        return res.json(RESP_ERROR); 
+                     }
+        }
+        if (taxReceipt){
+             if (iva != '' && rfc != '' &&  iva != null && rfc != null){
+                return res.json(RESP_OK);
              }else{
                 return res.json(RESP_ERROR); 
              }
         }
+
 
         return res.json(RESP_OK); 
     }else{
