@@ -221,10 +221,11 @@ block content
       a(href="https://ngob-services.herokuapp.com/transfers/V00/searchFrequents?word=prueba") searchFrequents (GET)
       span https://ngob-services.herokuapp.com/transfers/V00/searchFrequents?word=prueba
     li
-        a(href="https://ngob-services.herokuapp.com/transfers/V00/inter") interbankTransfer (POST)
+        a(href="https://ngob-services.herokuapp.com/transfers/V00/interbankTransfer") interbankTransfer (POST)
         span https://ngob-services.herokuapp.com/transfers/V00/interbankTransfer
         ul
           li aplicationDate en LINEA o PROGRAMDA  {"senderAccountId":"CHMXP0000001","frequentId":"FRTT000001","concept":"TESTNGOB","isPeriodic":false,"aplicationDate":"2017-08-29","amount":"10","taxReceipt":true,"rfc":"QWER201040","iva":"17.02","dayIndicator":"M"}
+            br
             br
             span **Para una transferencia PROGRAMADA solo se envia en aplicactionDate una fecha mayor al dia de actual
           li PERIODICA {"senderAccountId":"CHMXP0000001","frequentId":"FRTT000001","concept":"AHORRO","isPeriodic":true,"aplicationDate":"2017-08-29","period":"WEEKLY","amount":"10","periodicName":"nombrePeriodica","numericReference":"12345","taxReceipt":false,"repetitions":5}
@@ -236,7 +237,7 @@ block content
             br 
             span -concept. Sera el nombre de la periodica
             br 
-            span -isPeriodic. TRUE para periodicas, FALSE en otro caso
+            span -isPeriodic. true para periodicas, false en otro caso
             br
             span -aplicationDate. Fecha de inicio
             br 
