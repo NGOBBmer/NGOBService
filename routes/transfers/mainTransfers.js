@@ -38,8 +38,8 @@ var OK = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok.jso
 var OK_period = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok_period.json'); 
 var ERROR = require('../../mock/V00/transfers/otherAccountsTransfer/response_err.json');
 
-var error_period = require('../../mock/V00/transfers/otherAccountsTransfer/intert_error_prog.json'); 
-var error_tax = require('../../mock/V00/transfers/otherAccountsTransfer/intert_error_tax.json'); 
+var error_period = require('../../mock/V00/transfers/interbankTransfers/intert_error_prog.json'); 
+var error_tax = require('../../mock/V00/transfers/interbankTransfers/intert_error_tax.json'); 
 var error_line = require('../../mock/V00/transfers/interbankTransfers/intert_error_line.json');
 
 //cashAdvanceFree
