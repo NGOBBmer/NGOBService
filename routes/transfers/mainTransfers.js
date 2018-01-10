@@ -320,8 +320,8 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
 
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
-         && taxReceipt !=null  && numericReference != null  && taxReceipt !=''  && numericReference != '' &&
-         tsec != '' && tsec != null && otp != '' && otp != null){
+         && taxReceipt !=null  && numericReference != null  && taxReceipt !=''  && numericReference != '' 
+         ){
         
         if (isPeriodic){
                      if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
