@@ -262,7 +262,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
 // handler for query http://localhost:4000/operations/V00/deleteAgileOperations/PR0001?agileOperationType=RECURRING
 router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if(req.params.id != '0001')
+  if(req.params.id !== '0001' && req.query.agileOperationType === 'RECURRING')
     return res.json(OK);
   else if(tsec === '123456' && req.query.agileOperationType === 'RECURRING')
    return res.status(409).json(DELETE_ERROR);
