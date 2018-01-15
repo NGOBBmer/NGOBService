@@ -39,7 +39,7 @@ router.get('/V00/cards/:id/promotions', function(req, res, next) {
 if(req.params && req.params.id ){
 
   if (req.query && req.query.type== 'CPS' && req.params.id=='TCMXP0000001' && req.query.paginationKey=='')  {
-    return res.json(CPS);
+    return res.json(PR_NO_DATA);
   }
   if (req.query && req.query.type== 'CPS' && req.params.id=='TCMXP0000002' && req.query.paginationKey=='')  {
     return res.json(CPS_TCMXP0000002);
