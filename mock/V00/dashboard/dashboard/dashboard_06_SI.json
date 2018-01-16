@@ -1,0 +1,91 @@
+{
+  "product": {
+    "investmentsFund": [
+      {
+        "productId": "SIMXP0000001",
+        "branch": {
+          "number": "2034722256",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000002",
+        "branch": {
+          "number": "2034722418",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000003",
+        "branch": {
+          "number": "2034727649",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000004",
+        "branch": {
+          "number": "2034727657",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000005",
+        "branch": {
+          "number": "2034727665",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ]
+  }
+}
