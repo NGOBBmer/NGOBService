@@ -17,7 +17,7 @@
       },
       "iconImage": {
         "type": "",
-        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_ob_40_x_40.png",
+        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_ob_40_x_40.png",
         "base64": ""
       },
       "navigation": {
@@ -49,7 +49,7 @@
       },
       "iconImage": {
         "type": "E",
-        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
+        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
         "base64": ""
       },
       "navigation": {
@@ -81,7 +81,7 @@
       },
       "iconImage": {
         "type": "",
-        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
+        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
         "base64": ""
       },
       "navigation": {
@@ -113,7 +113,7 @@
       },
       "iconImage": {
         "type": "L",
-        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
+        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
         "base64": ""
       },
       "navigation": {
@@ -145,7 +145,7 @@
       },
       "iconImage": {
         "type": "",
-        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
+        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
         "base64": ""
       },
       "navigation": {
@@ -177,7 +177,7 @@
       },
       "iconImage": {
         "type": "N",
-        "url": "https://cards-service-mock.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
+        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
         "base64": ""
       },
       "navigation": {
