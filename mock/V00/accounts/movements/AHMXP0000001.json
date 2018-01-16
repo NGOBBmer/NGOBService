@@ -1,89 +1,131 @@
-{ 
-	"data": {
-	  "listMovements": [
-	    {
-	      "amount": {
-	        "amount": "-12.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "RECARGA TELEFONICA BMOV/ ******3056 26/ABR 09:04 AUT:841013 Ñ",
-	      "movementPending": false,
-	      "operationDate": "2017-02-06",
-	      "postedBalance": {
-	        "amount": "981988.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ ******3056 26/ABR 09:04 AUT:841013",
-	      "type": "Cargo"
-	    },
-	    {
-	      "amount": {
-	        "amount": "-125.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "TELEFONOS DE MEXICO,/ GUIA:3253811 REF:00000000097171381178 CIE:0035241",
-	      "movementPending": false,
-	      "operationDate": "2017-02-04",
-	      "postedBalance": {
-	        "amount": "981980.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ GUIA:3253811 REF:00000000097171381178 CIE:0035241",
-	      "type": "Cargo"
-	    },
-	    {
-	      "amount": {
-	        "amount": "34.00",
-	        "currency": "MXP"
-	      },
-	      "category": "C",
-	      "concept": "RETIRO SIN TARJETA/ ******5643",
-	      "movementPending": false,
-	      "operationDate": "2017-02-03",
-	      "postedBalance": {
-	        "amount": "981800.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ ******5643",
-	      "type": "Abono"
-	    },
-	    {
-	      "amount": {
-	        "amount": "100.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "SPEI RECIBIDOBANXICO/ 0006552583 001 0110014HACIENDA TE DEVUELVE",
-	      "movementPending": false,
-	      "operationDate": "2017-02-03",
-	      "postedBalance": {
-	        "amount": "981750.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ 0006552583 001 0110014HACIENDA TE DEVUELVE",
-	      "type": "Abono"
-	    },
-	    {
-	      "amount": {
-	        "amount": "-58.00",
-	        "currency": "MXP"
-	      },
-	      "category": "D",
-	      "concept": "SPEI ENVIADO SANTANDER/ 0003051751 014 0170424JUAN",
-	      "movementPending": false,
-	      "operationDate": "2017-02-02",
-	      "postedBalance": {
-	        "amount": "981600.00",
-	        "currency": "MXP"
-	      },
-	      "reference": "/ 0003051751 014 0170424JUAN",
-	      "type": "Cargo"
-	    }
-	  ],
-	  "paginationKey": "0123456789"
-	}
+{
+  "data": {
+    "listMovements": [
+      {
+        "operationDate": "2017-12-27",
+        "operationDateFormat": 1514354400000,
+        "concept": "PROCONSA",
+        "amount": {
+          "amount": "-2.8",
+          "currency": "MXP"
+        },
+        "type": "Cargo",
+        "movementPending": true
+      },
+      {
+        "operationDate": "2017-12-26",
+        "operationDateFormat": 1514354400000,
+        "concept": "TPV BANCOMER",
+        "amount": {
+          "amount": "-402.8",
+          "currency": "MXP"
+        },
+        "type": "Cargo",
+        "movementPending": true
+      },
+      {
+        "operationDate": "2017-12-25",
+        "operationDateFormat": 1514354400000,
+        "concept": "OXXO MARINA",
+        "amount": {
+          "amount": "-452.2",
+          "currency": "MXP"
+        },
+        "type": "Cargo",
+        "movementPending": true
+      },
+      {
+        "operationDate": "2017-12-25",
+        "operationDateFormat": 1514354400000,
+        "concept": "HOTEL GRANDE",
+        "amount": {
+          "amount": "-103.5",
+          "currency": "MXP"
+        },
+        "type": "Cargo",
+        "movementPending": true
+      },
+      {
+        "amount": {
+          "amount": "-12.00",
+          "currency": "MXP"
+        },
+        "category": "D",
+        "concept": "RECARGA TELEFONICA BMOV/ ******3056 26/ABR 09:04 AUT:841013 Ñ",
+        "movementPending": false,
+        "operationDate": "2017-02-06",
+        "postedBalance": {
+          "amount": "981988.00",
+          "currency": "MXP"
+        },
+        "reference": "/ ******3056 26/ABR 09:04 AUT:841013",
+        "type": "Cargo"
+      },
+      {
+        "amount": {
+          "amount": "-125.00",
+          "currency": "MXP"
+        },
+        "category": "D",
+        "concept": "TELEFONOS DE MEXICO,/ GUIA:3253811 REF:00000000097171381178 CIE:0035241",
+        "movementPending": false,
+        "operationDate": "2017-02-04",
+        "postedBalance": {
+          "amount": "981980.00",
+          "currency": "MXP"
+        },
+        "reference": "/ GUIA:3253811 REF:00000000097171381178 CIE:0035241",
+        "type": "Cargo"
+      },
+      {
+        "amount": {
+          "amount": "34.00",
+          "currency": "MXP"
+        },
+        "category": "C",
+        "concept": "RETIRO SIN TARJETA/ ******5643",
+        "movementPending": false,
+        "operationDate": "2017-02-03",
+        "postedBalance": {
+          "amount": "981800.00",
+          "currency": "MXP"
+        },
+        "reference": "/ ******5643",
+        "type": "Abono"
+      },
+      {
+        "amount": {
+          "amount": "100.00",
+          "currency": "MXP"
+        },
+        "category": "D",
+        "concept": "SPEI RECIBIDOBANXICO/ 0006552583 001 0110014HACIENDA TE DEVUELVE",
+        "movementPending": false,
+        "operationDate": "2017-02-03",
+        "postedBalance": {
+          "amount": "981750.00",
+          "currency": "MXP"
+        },
+        "reference": "/ 0006552583 001 0110014HACIENDA TE DEVUELVE",
+        "type": "Abono"
+      },
+      {
+        "amount": {
+          "amount": "-58.00",
+          "currency": "MXP"
+        },
+        "category": "D",
+        "concept": "SPEI ENVIADO SANTANDER/ 0003051751 014 0170424JUAN",
+        "movementPending": false,
+        "operationDate": "2017-02-02",
+        "postedBalance": {
+          "amount": "981600.00",
+          "currency": "MXP"
+        },
+        "reference": "/ 0003051751 014 0170424JUAN",
+        "type": "Cargo"
+      }
+    ],
+    "paginationKey": "0123456789"
+  }
 }
-
-	  
