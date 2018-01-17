@@ -48,7 +48,7 @@ router.get('/V00/dashboard', function(req, res, next) {
     else if ((tsec === '012345678') && filters[0] === 'productType==TT'){
         return res.json(dashboard_2cards);
     }
-    else if ((tsec == undefined || tsec == '419032') && filters[0] === 'productType==TT' ){
+    else if (tsec == '419032' && filters[0] === 'productType==TT' ){
 	   return res.json(dashboard_02);
     }else if (filters[0] === 'productType==SI' && filters[1]==='idContract==SIMXP0000001'){
         return res.json(dashboard_02_SI);
@@ -60,7 +60,7 @@ router.get('/V00/dashboard', function(req, res, next) {
         }else if (filters[1]==='idContract==SIMXP0000003' || filters[1]==='idContract==SIMXP0000005'){
             return res.json(dashboard_04_SI);
         }
-    }else if ((tsec == undefined || tsec == '12345678') && filters[1] === 'productType==IN'){
+    }else if (tsec == '12345678' && filters[1] === 'productType==IN'){
         if (filters[0] === 'idContract==INMXP0000001' && filters[2]==='currency==MXP'){
             return res.json(dashboard_03_IN);
         }
@@ -76,7 +76,7 @@ router.get('/V00/dashboard', function(req, res, next) {
     }
     else if ((tsec != undefined || tsec != '') && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);
-    }else if((tsec != undefined || tsec == '12345678') && filters[0] === 'productType==IN'){
+    }else if(tsec == '12345678' && filters[0] === 'productType==IN'){
         if (filters[1]==='idContract==INMXP0000001' && filters[2]==='currency==MXP'){
             return res.json(dashboard_03_IN);
         }else if (filters[1]==='idContract==INMXP0000002' && filters[2]==='currency==MXP'){
