@@ -37,7 +37,7 @@ router.get('/V00/dashboard', function(req, res, next) {
     var filters = getFilters(req.query.$filter);
 
     var tsec = req.headers['tsec'];
-    if (tsec === '456789012'){
+    if (tsec === '456789012' && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);
     }else if(tsec === '2345678' && filters[0] === 'productType==TT'){
         return res.json(dashboard_SI_IN);
@@ -47,6 +47,8 @@ router.get('/V00/dashboard', function(req, res, next) {
         return res.json(dashboard_2cards);
     }else if (tsec == '419032' && filters[0] === 'productType==TT' ){
 	   return res.json(dashboard_02);
+    }else if (tsec === '456789012' && filters[0] === 'productType==SI' && filters[1]==='idContract==SIMXP0000001'){
+        return res.json(dashboard_02_SI);
     }else if (filters[0] === 'productType==SI' && filters[1]==='idContract==SIMXP0000001'){
         return res.json(dashboard_02_SI);
     }else if ((tsec != undefined || tsec == '') && filters[0] === 'productType==SI'){
