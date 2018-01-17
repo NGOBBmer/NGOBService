@@ -3,7 +3,7 @@
     "wasFound": true,
     "account": {
         "number": "2800160237",
-        "accountType": "CH"
+        "accountType": "CHECKACCOUNT"
     },
     "transferType": "THIRD_PARTY",
     "beneficiary": {

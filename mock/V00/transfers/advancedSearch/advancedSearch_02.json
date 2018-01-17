@@ -3,7 +3,7 @@
     "wasFound": true,
     "account": {
         "number": "002180700256551903",
-        "accountType": "40"
+        "accountType": "CLABE"
     },
     "transferType": "INTERBANK",
     "beneficiary": {
