@@ -18,6 +18,7 @@ var PERIOD0001 = require('../../mock/V00/accounts/accountstatement/PERIOD0001.js
 var PERIOD0002 = require('../../mock/V00/accounts/accountstatement/PERIOD0002.json');
 var PERIOD0003 = require('../../mock/V00/accounts/accountstatement/PERIOD0003.json');
 var PERIOD0004 = require('../../mock/V00/accounts/accountstatement/PERIOD0004.json');
+var PERIOD0005_XML = require('../../mock/V00/accounts/accountstatement/PERIOD0005_XML.json');
 var AS_NO_DATA = require('../../mock/V00/accounts/accountstatement/accountstatement_error_sinperiodos.json');
 var AS_ERROR_ID = require('../../mock/V00/accounts/accountstatement/accountstatement_error_id.json');
 var NOK = require('../../mock/V00/dashboard/validateOtp/otp_error.json');
@@ -109,7 +110,9 @@ router.get('/V00/accounts/movements/:id', function(req, res, next) {
 router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
   var otp = req.headers['otp'];
     if(req.params && req.params.id){
-    if (otp == "12345678"){
+    if (req.body.format === 'xml'){
+      return res.json(PERIOD0005_XML);
+    }else if (otp == "12345678"){
         if (req.params && req.query.periodId == 'PERIOD0001')  {
         return res.json(PERIOD0001);
         }
