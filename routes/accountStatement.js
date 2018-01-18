@@ -4,6 +4,7 @@ var PERIOD0001 = require('../mock/V00/cards/accountstatement/PERIOD0001.json');
 var PERIOD0002 = require('../mock/V00/cards/accountstatement/PERIOD0002.json');
 var PERIOD0003 = require('../mock/V00/cards/accountstatement/PERIOD0003.json');
 var PERIOD0004 = require('../mock/V00/cards/accountstatement/PERIOD0004.json');
+var PERIOD0005_XML = require('../../mock/V00/accounts/accountstatement/PERIOD0005_XML.json');
 var AS_NO_DATA = require('../mock/V00/cards/accountstatement/accountstatement_error_sinperiodos.json');
 var AS_ERROR_ID = require('../mock/V00/cards/accountstatement/accountstatement_error_id.json');
 
@@ -20,7 +21,9 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:3000/cards/V00/cards/TCMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf
 router.get('/V00/cards/:id/accountStatement/', function(req, res, next) {
 	if(req.params && req.params.id){
-	    if (req.params && req.query.periodId == 'PERIOD0001')  {
+    if (req.query.format === 'xml'){
+      return res.json(PERIOD0005_XML);
+    }else if (req.params && req.query.periodId == 'PERIOD0001')  {
         return res.json(PERIOD0001);
 	    }
       if (req.params && req.query.periodId == 'PERIOD0002')  {
