@@ -161,6 +161,8 @@ router.get('/V00/agileOperations', function(req, res, next) {
             var previousDate = moment(date).subtract(1,'days').format('YYYY-MM-DD');
             json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
             json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
+            delete json.periodicsOperations[2];
+            delete json.periodicsOperations[3];
             json.previousDate = previousDate;
             json.currentWeek=String(rn);
             json.currentDate=currentDate;
@@ -168,10 +170,31 @@ router.get('/V00/agileOperations', function(req, res, next) {
             delete json.image;
           }else{
             // var cDate = moment(date);
+            var ran = Math.floor((Math.random() * 4) + 1);
             var nextDate = moment(date).add(1,'days').format('YYYY-MM-DD');
             var previousDate = moment(date).subtract(1,'days').format('YYYY-MM-DD');
-            json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
-            json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
+            if (ran === 1){
+               json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
+               delete json.periodicsOperations[1];
+               delete json.periodicsOperations[2];
+               delete json.periodicsOperations[3];
+            }else if (ran === 2){
+              json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
+              json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
+              json.periodicsOperations[2].operationDate = moment(date).format('YYYY-MM-DD');
+              delete json.periodicsOperations[3];
+            }else if (ran === 3){
+              json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
+              json.periodicsOperations[2].operationDate = moment(date).format('YYYY-MM-DD');
+              delete json.periodicsOperations[0];
+              delete json.periodicsOperations[3];
+            }else{
+              json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
+              json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
+              json.periodicsOperations[2].operationDate = moment(date).format('YYYY-MM-DD');
+              json.periodicsOperations[3].operationDate = moment(date).format('YYYY-MM-DD');
+            }
+            
             json.nextDate = nextDate;
             json.previousDate = previousDate;
             json.currentWeek=String(rn);

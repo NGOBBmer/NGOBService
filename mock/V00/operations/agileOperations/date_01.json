@@ -31,11 +31,69 @@
       "agileType": "SCHEDULED"
     },
     {
-      "id": "0001",
+      "id": "0002",
       "shortname": "PbaGio01",
       "paymentAccount": "11456",
       "paymentAmount": {
         "amount": 12.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "1"
+          }
+        },
+        {
+          "id": "Eliminar"
+        }
+      ],
+      "operationDate": "2017-06-27",
+      "description": "Traspaso a otro banco",
+      "operationType": "R",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0003",
+      "shortname": "PbaGio03",
+      "paymentAccount": "75647",
+      "paymentAmount": {
+        "amount": 3.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "1"
+          }
+        },
+        {
+          "id": "Eliminar"
+        }
+      ],
+      "operationDate": "2017-06-27",
+      "description": "Traspaso a otro banco",
+      "operationType": "R",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0004",
+      "shortname": "Pao",
+      "paymentAccount": "96857",
+      "paymentAmount": {
+        "amount": 0.02,
         "currency": "MXN"
       },
       "isOperable": false,
