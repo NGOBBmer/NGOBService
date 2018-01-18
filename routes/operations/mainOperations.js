@@ -175,19 +175,19 @@ router.get('/V00/agileOperations', function(req, res, next) {
             var previousDate = moment(date).subtract(1,'days').format('YYYY-MM-DD');
             if (ran === 1){
                json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
-               delete json.periodicsOperations[1];
-               delete json.periodicsOperations[2];
-               delete json.periodicsOperations[3];
+               json.periodicsOperations.splice(1,1);
+               json.periodicsOperations.splice(1,1);
+               json.periodicsOperations.splice(1,1);
             }else if (ran === 2){
               json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
               json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
               json.periodicsOperations[2].operationDate = moment(date).format('YYYY-MM-DD');
-              delete json.periodicsOperations[3];
+              json.periodicsOperations.splice(1,3);
             }else if (ran === 3){
+              json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
               json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations[2].operationDate = moment(date).format('YYYY-MM-DD');
-              delete json.periodicsOperations[0];
-              delete json.periodicsOperations[3];
+              json.periodicsOperations.splice(1,1);
+              json.periodicsOperations.splice(1,1);
             }else{
               json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
               json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
