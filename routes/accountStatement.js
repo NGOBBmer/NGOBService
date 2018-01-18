@@ -4,7 +4,7 @@ var PERIOD0001 = require('../mock/V00/cards/accountstatement/PERIOD0001.json');
 var PERIOD0002 = require('../mock/V00/cards/accountstatement/PERIOD0002.json');
 var PERIOD0003 = require('../mock/V00/cards/accountstatement/PERIOD0003.json');
 var PERIOD0004 = require('../mock/V00/cards/accountstatement/PERIOD0004.json');
-var PERIOD0005_XML = require('../../mock/V00/accounts/accountstatement/PERIOD0005_XML.json');
+var PERIOD0005_XML = require('../mock/V00/cards/accountstatement/PERIOD0005XML.json');
 var AS_NO_DATA = require('../mock/V00/cards/accountstatement/accountstatement_error_sinperiodos.json');
 var AS_ERROR_ID = require('../mock/V00/cards/accountstatement/accountstatement_error_id.json');
 

@@ -461,6 +461,38 @@
           "cellsNavigation": false
         }
       }
+    ],
+    "digitalAccount": [
+      {
+        "productId": "CMMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 5.02,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "pendingBalance": {
+            "amount": 0.0,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "9711440156",
+          "alias": "",
+          "type": "Cuenta digital",
+          "typeId": "CM",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta Digital",
+        "navigation": {
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
     ]
   },
   "totalBalanceMxn": {
