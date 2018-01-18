@@ -110,7 +110,7 @@ router.get('/V00/accounts/movements/:id', function(req, res, next) {
 router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
   var otp = req.headers['otp'];
     if(req.params && req.params.id){
-    if (req.body.format === 'xml'){
+    if (req.query.format === 'xml'){
       return res.json(PERIOD0005_XML);
     }else if (otp == "12345678"){
         if (req.params && req.query.periodId == 'PERIOD0001')  {
