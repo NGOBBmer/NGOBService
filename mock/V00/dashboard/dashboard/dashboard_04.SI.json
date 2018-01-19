@@ -1,161 +1,162 @@
 {
-	"product": {
-		"investmentsFund": [{
-				"productId": "SIMXP0000011",
-				"balance": {
-					"totalTitles": {
-						"amount": 54,
-						"currency": "MXP"
-					},
-					"agreedPrice": {
-						"amount": 36.660969,
-						"currency": "MXP"
-					},
-					"financialValue": {
-						"amount": 1979.69,
-						"currency": "MXP"
-					}
-				},
-				"branch": {
-					"number": "2092470004",
-					"accountType": "fondoInversiones",
-					"fundDescription": "BMERPZO",
-					"serie": "A"
-				},
-				"description": "Fondo de Inversión",
-				"navigation": {
-					"pathNavigation": {
-						"pathUrl": "detalleCuenta"
-					},
-					"cellsNavigation": true
-				}
-			},
-			{
-				"productId": "SIMXP0000012",
-				"balance": {
-					"totalTitles": {
-						"amount": 898,
-						"currency": "MXP"
-					},
-					"agreedPrice": {
-						"amount": 4.450631,
-						"currency": "MXP"
-					},
-					"financialValue": {
-						"amount": 3996.66,
-						"currency": "MXP"
-					}
-				},
-				"branch": {
-					"number": "2092470004",
-					"accountType": "fondoInversiones",
-					"fundDescription": "BMER90",
-					"serie": "B1"
-				},
-				"description": "Fondo de Inversión",
-				"navigation": {
-					"pathNavigation": {
-						"pathUrl": "detalleCuenta"
-					},
-					"cellsNavigation": true
-				}
-			},
-			{
-				"productId": "SIMXP0000013",
-				"balance": {
-					"totalTitles": {
-						"amount": 314,
-						"currency": "MXP"
-					},
-					"agreedPrice": {
-						"amount": 13.00397,
-						"currency": "MXP"
-					},
-					"financialValue": {
-						"amount": 4083.24,
-						"currency": "MXP"
-					}
-				},
-				"branch": {
-					"number": "2092470004",
-					"accountType": "fondoInversiones",
-					"fundDescription": "DCP-1",
-					"serie": "B"
-				},
-				"description": "Fondo de Inversión",
-				"navigation": {
-					"pathNavigation": {
-						"pathUrl": "detalleCuenta"
-					},
-					"cellsNavigation": true
-				}
-			},
-			{
-				"productId": "SIMXP0000014",
-				"balance": {
-					"totalTitles": {
-						"amount": 191,
-						"currency": "MXP"
-					},
-					"agreedPrice": {
-						"amount": 10.67308,
-						"currency": "MXP"
-					},
-					"financialValue": {
-						"amount": 2038.55,
-						"currency": "MXP"
-					}
-				},
-				"branch": {
-					"number": "2092470004",
-					"accountType": "fondoInversiones",
-					"fundDescription": "F+LIQ",
-					"serie": "B1"
-				},
-				"description": "Fondo de Inversión",
-				"navigation": {
-					"pathNavigation": {
-						"pathUrl": "detalleCuenta"
-					},
-					"cellsNavigation": true
-				}
-			},
-			{
-				"productId": "SIMXP0000015",
-				"balance": {
-					"totalTitles": {
-						"amount": 1915,
-						"currency": "MXP"
-					},
-					"agreedPrice": {
-						"amount": 10.742287,
-						"currency": "MXP"
-					},
-					"financialValue": {
-						"amount": 20571.47,
-						"currency": "MXP"
-					}
-				},
-				"branch": {
-					"number": "2092470004",
-					"accountType": "fondoInversiones",
-					"fundDescription": "DCP+",
-					"serie": "B1"
-				},
-				"description": "Fondo de Inversión",
-				"navigation": {
-					"pathNavigation": {
-						"pathUrl": "detalleCuenta"
-					},
-					"cellsNavigation": true
-				}
-			}
-		],
-		"totalBalance": {
-			"balance": {
-				"amount": 32669.61,
-				"currency": "MXP"
-			}
-		}
-	}
+  "product": {
+    "investmentsFund": [
+      {
+        "productId": "SIMXP0000011",
+        "balance": {
+          "totalTitles": {
+            "amount": 54,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 36.660969,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 1979.69,
+            "currency": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2092470004",
+          "accountType": "fondoInversiones",
+          "fundDescription": "BMERPZO",
+          "serie": "A"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "SIMXP0000012",
+        "balance": {
+          "totalTitles": {
+            "amount": 898,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 4.450631,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 3996.66,
+            "currency": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2092470004",
+          "accountType": "fondoInversiones",
+          "fundDescription": "BMER90",
+          "serie": "B1"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "SIMXP0000013",
+        "balance": {
+          "totalTitles": {
+            "amount": 314,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 13.00397,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 4083.24,
+            "currency": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2092470004",
+          "accountType": "fondoInversiones",
+          "fundDescription": "DCP-1",
+          "serie": "B"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "SIMXP0000014",
+        "balance": {
+          "totalTitles": {
+            "amount": 191,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 10.67308,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 2038.55,
+            "currency": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2092470004",
+          "accountType": "fondoInversiones",
+          "fundDescription": "F+LIQ",
+          "serie": "B1"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        }
+      },
+      {
+        "productId": "SIMXP0000015",
+        "balance": {
+          "totalTitles": {
+            "amount": 1915,
+            "currency": "MXP"
+          },
+          "agreedPrice": {
+            "amount": 10.742287,
+            "currency": "MXP"
+          },
+          "financialValue": {
+            "amount": 20571.47,
+            "currency": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2092470004",
+          "accountType": "fondoInversiones",
+          "fundDescription": "DCP+",
+          "serie": "B1"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta"
+          },
+          "cellsNavigation": true
+        }
+      }
+    ],
+    "totalBalance": {
+      "balance": {
+        "amount": 32669.61,
+        "currency": "MXP"
+      }
+    }
+  }
 }

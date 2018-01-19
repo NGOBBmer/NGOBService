@@ -42,7 +42,8 @@
           "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       }
-    ], "creditCard": [
+    ],
+    "creditCard": [
       {
         "productId": "TCMXP0000001",
         "balance": {
@@ -108,7 +109,8 @@
           "isNominated": false,
           "hasPocket": false
         }
-      },{
+      },
+      {
         "productId": "TCMXP0000003",
         "balance": {
           "availableBalance": {
@@ -151,6 +153,12 @@
           "accountType": "fondoInversiones",
           "alias": "FondooUNO"
         },
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -167,6 +175,12 @@
           "typeId": "SI",
           "accountType": "fondoInversiones",
           "alias": "prueba"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 100.0,
+            "currencyId": "MXP"
+          }
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -186,6 +200,12 @@
           "accountType": "fondoInversiones",
           "alias": ""
         },
+        "balance": {
+          "availableBalance": {
+            "amount": 12.23,
+            "currencyId": "MXP"
+          }
+        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -202,6 +222,12 @@
           "typeId": "SI",
           "accountType": "fondoInversiones",
           "alias": "prueba02"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
         },
         "description": "Fondo de Inversión",
         "navigation": {

@@ -9,6 +9,12 @@
           "typeId": "SI",
           "accountType": "fondoInversiones"
         },
+        "balance": {
+          "availableBalance": {
+            "amount": 100,
+            "currencyId": "MXP"
+          }
+        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -25,6 +31,12 @@
           "alias": "",
           "typeId": "SI",
           "accountType": "fondoInversiones"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 20,
+            "currencyId": "MXP"
+          }
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -43,6 +55,12 @@
           "typeId": "SI",
           "accountType": "fondoInversiones"
         },
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -60,6 +78,12 @@
           "typeId": "SI",
           "accountType": "fondoInversiones"
         },
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -76,6 +100,12 @@
           "alias": "",
           "typeId": "SI",
           "accountType": "fondoInversiones"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 220,
+            "currencyId": "MXP"
+          }
         },
         "description": "Fondo de Inversión",
         "navigation": {
