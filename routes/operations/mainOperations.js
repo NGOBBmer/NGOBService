@@ -330,7 +330,7 @@ router.post('/V00/getPDFDocuments', function(req, res, next) {
     else
       return res.json(HTML_NOMOVS);
   }
-  else if (req.body.type=="xlsx"){
+  else if (req.body.type=="xls"){
     return res.json(XLS);
   }
   return res.status(400).json(NOK);
