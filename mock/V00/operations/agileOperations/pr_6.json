@@ -16,6 +16,74 @@
       "description": "Traspaso",
       "operationType": "T",
       "agileType": "RECURRING"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-08-02",
+      "description": "Traspaso",
+      "operationType": "T",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-08-02",
+      "description": "Traspaso",
+      "operationType": "T",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-08-02",
+      "description": "Traspaso",
+      "operationType": "T",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0001",
+      "shortname": "Prueba",
+      "paymentAccount": "21628",
+      "paymentAmount": {
+        "amount": 100.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-08-02",
+      "description": "Traspaso",
+      "operationType": "T",
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "152232158154152156150157152147153160AB153AB3886000732",

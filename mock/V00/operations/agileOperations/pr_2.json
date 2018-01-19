@@ -16,6 +16,57 @@
       "description": "Traspaso Bancomer",
       "operationType": "T",
       "agileType": "RECURRING"
+    },
+    {
+      "id": "0002",
+      "shortname": "Prueba_AA",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 2.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-07-07",
+      "description": "Traspaso Bancomer",
+      "operationType": "T",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0003",
+      "shortname": "PruebaA",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-07-07",
+      "description": "Traspaso Bancomer",
+      "operationType": "T",
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0004",
+      "shortname": "Programado",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-07-07",
+      "description": "Traspaso Bancomer",
+      "operationType": "T",
+      "agileType": "SCHEDULED"
     }
   ],
   "nextWeekId": "152232158154152156150157152147153160AB153AB3886000332",

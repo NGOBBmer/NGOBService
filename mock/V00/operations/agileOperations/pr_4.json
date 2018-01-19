@@ -16,6 +16,23 @@
       "description": "Compra tiempo aire",
       "operationType": "TA",
       "agileType": "RECURRING"
+    },
+    {
+      "id": "0002",
+      "shortname": "Pruebas",
+      "paymentAccount": "60237",
+      "paymentAmount": {
+        "amount": 4.0,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "beneficiary": {
+        "name": ""
+      },
+      "operationDate": "2017-07-21",
+      "description": "Compra tiempo aire",
+      "operationType": "TA",
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "152232158154152156150157152147153160AB153AB3886000532",

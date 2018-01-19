@@ -207,14 +207,18 @@ router.get('/V00/agileOperations', function(req, res, next) {
         }
         
       }else{
-        var week = '';
+        var ran = Math.floor((Math.random() * 8) + 1);;
+        /*var week = '';
         for (var i = 0; i< mapaWeek.length; i++){
           if (weekId == mapaWeek[i]){  
             week = i + 1;
           }
         }
-        if (week == 1){
+        */
+        if (ran == 1){
           week = 'init';
+        }else{
+          week = ran;
         }
         var numFile = Number();
         var filePath = path.join(__dirname, urlJson2 + week + ".json");
