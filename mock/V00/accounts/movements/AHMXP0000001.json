@@ -2,50 +2,6 @@
   "data": {
     "listMovements": [
       {
-        "operationDate": "2017-12-27",
-        "operationDateFormat": 1514354400000,
-        "concept": "PROCONSA",
-        "amount": {
-          "amount": "-2.8",
-          "currency": "MXP"
-        },
-        "type": "Cargo",
-        "movementPending": true
-      },
-      {
-        "operationDate": "2017-12-26",
-        "operationDateFormat": 1514354400000,
-        "concept": "TPV BANCOMER",
-        "amount": {
-          "amount": "-402.8",
-          "currency": "MXP"
-        },
-        "type": "Cargo",
-        "movementPending": true
-      },
-      {
-        "operationDate": "2017-12-25",
-        "operationDateFormat": 1514354400000,
-        "concept": "OXXO MARINA",
-        "amount": {
-          "amount": "-452.2",
-          "currency": "MXP"
-        },
-        "type": "Cargo",
-        "movementPending": true
-      },
-      {
-        "operationDate": "2017-12-25",
-        "operationDateFormat": 1514354400000,
-        "concept": "HOTEL GRANDE",
-        "amount": {
-          "amount": "-103.5",
-          "currency": "MXP"
-        },
-        "type": "Cargo",
-        "movementPending": true
-      },
-      {
         "amount": {
           "amount": "-12.00",
           "currency": "MXP"
