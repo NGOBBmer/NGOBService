@@ -93,15 +93,15 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:4000/operations/V00/actionalAdvice
 router.get('/V00/actionalAdvice', function(req, res, next) {
 
-	var tsec = req.headers['tsec'];
-	if(tsec === '123456' || tsec === '012345678'){
+  var tsec = req.headers['tsec'];
+  if(tsec === '123456' || tsec === '012345678'){
   
-		return res.json(VACIO);
-	}
-	  return res.json(ADVISE);
-	  return res.json(ERROR);
-	  
-	  next();
+    return res.json(VACIO);
+  }
+    return res.json(ADVISE);
+    return res.json(ERROR);
+    
+    next();
 });
 
 // handler for query http://localhost:4000/operations/V00/allowAgileOperations?agileOperationType=RECURRING&transferType=THIRD_PARTY
@@ -207,21 +207,24 @@ router.get('/V00/agileOperations', function(req, res, next) {
         }
         
       }else{
-        var ran = Math.floor((Math.random() * 8) + 1);;
-        /*var week = '';
+        var week = '';
         for (var i = 0; i< mapaWeek.length; i++){
           if (weekId == mapaWeek[i]){  
             week = i + 1;
           }
         }
-        */
-        if (ran == 1){
+        if (week == 1){
           week = 'init';
-        }else{
-          week = ran;
         }
-        var numFile = Number();
-        var filePath = path.join(__dirname, urlJson2 + week + ".json");
+
+        var ran = Math.floor((Math.random() * 8) + 1);;
+        var weekRan = '';
+        if (ran == 1){
+          weekRan = 'init';
+        }else{
+          weekRan = ran;
+        }
+        var filePath = path.join(__dirname, urlJson2 + weekRan + ".json");
         try {
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
           if (week == 'init' || Number(week) <= 9){
@@ -256,6 +259,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
               currentDate = moment().add(56,'days').format('YYYY-MM-DD');
               nextDate = moment().add(59,'days').format('YYYY-MM-DD');
             }
+
             for(i = 0; i < len; i++){
               if (i==0){
                 json.periodicsOperations[i].operationDate = moment(currentDate).format('YYYY-MM-DD');
@@ -294,9 +298,9 @@ router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
   else if(tsec === '123456' && req.query.agileOperationType === 'RECURRING')
    return res.status(409).json(DELETE_ERROR);
   if (req.query.agileOperationType === 'RECURRING' || req.query.agileOperationType === 'SCHEDULED')
-  	return res.json(OK);
+    return res.json(OK);
   else if (req.query.agileOperationType === 'FAST')
-  	return res.json(OK);
+    return res.json(OK);
   
   return res.status(409).json(ERROR);
   next();
@@ -304,11 +308,11 @@ router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
 
 // handler for query http://localhost:4000/operations/V00/actionalAdvice
 router.get('/V00/deleteActionalAdvice', function(req, res, next) {
-	if(req.query.adviceId != null && req.query.adviceId != ''){
-		return res.json(ADVISE_OK);
-	}else{
-		return res.json(ADVISE_ERROR);
-	}
+  if(req.query.adviceId != null && req.query.adviceId != ''){
+    return res.json(ADVISE_OK);
+  }else{
+    return res.json(ADVISE_ERROR);
+  }
   next();
 });
 
@@ -344,21 +348,21 @@ router.post('/V00/getPDFDocuments', function(req, res, next) {
 // handler for query http://localhost:4000/operations/V00/suggestedOperations?suggestedOperationType=
 router.get('/V00/suggestedOperations', function(req, res, next) {
   if (req.query.suggestedOperationType === 'all')
-  	return res.json(SLISTA_ALL);
+    return res.json(SLISTA_ALL);
   else if (req.query.suggestedOperationType === 'TT'){
-	return res.json(SLISTA_TT);
+  return res.json(SLISTA_TT);
   }
   else if (req.query.suggestedOperationType === 'TI'){
-  	return res.json(SLISTA_TI);
+    return res.json(SLISTA_TI);
   } 
   else if (req.query.suggestedOperationType === 'TP'){
-  	return res.json(SLISTA_TP);
+    return res.json(SLISTA_TP);
   } else if (req.query.suggestedOperationType === 'PS'){
-  	return res.json(SLISTA_PDS);
+    return res.json(SLISTA_PDS);
   } else if (req.query.suggestedOperationType === 'TCP'){
-  	return res.json(SLISTA_TCP);
+    return res.json(SLISTA_TCP);
   } else if (req.query.suggestedOperationType === 'TCI'){
-  	return res.json(SLISTA_TCI);
+    return res.json(SLISTA_TCI);
   }
   return res.json(SERROR);
   next();
@@ -415,4 +419,3 @@ router.get('/V00/updateEmail', function(req, res, next) {
 });
 
 module.exports = router;
-
