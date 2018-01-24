@@ -9,6 +9,14 @@
 			"typeProductId": "AH"
 		}
 	}, {
+		"nombre": "Estados de cuenta",
+		"pathUrl": "cellsEstadosDeCuenta",
+		"navigation": {
+			"cellsNavigation": true,
+			"typeProductId": "AH",
+			"tab": "a"
+		}
+	},{
 		"nombre": "Transferir",
 		"pathUrl": "traspasos",
 		"navigation": {
@@ -80,6 +88,14 @@
 			}]
 		}
 	}, {
+		"nombre": "Estados de cuenta",
+		"pathUrl": "cellsEstadosDeCuenta",
+		"navigation": {
+			"cellsNavigation": true,
+			"typeProductId": "AH",
+			"tab": "a"
+		}
+	},{
 		"nombre": "Transferir",
 		"pathUrl": "traspasos",
 		"navigation": {
@@ -913,6 +929,14 @@
 			}]
 		}
 	}, {
+		"nombre": "Estados de cuenta",
+		"pathUrl": "cellsEstadosDeCuenta",
+		"navigation": {
+			"cellsNavigation": true,
+			"typeProductId": "TC",
+			"tab": "a"
+		}
+	},{
 		"nombre": "Transferir",
 		"pathUrl": "traspasos",
 		"navigation": {
@@ -981,6 +1005,14 @@
 			}]
 		}
 	}, {
+		"nombre": "Estados de cuenta",
+		"pathUrl": "cellsEstadosDeCuenta",
+		"navigation": {
+			"cellsNavigation": true,
+			"typeProductId": "TC",
+			"tab": "a"
+		}
+	},{
 		"nombre": "Transferir",
 		"pathUrl": "traspasos",
 		"navigation": {
@@ -1049,6 +1081,14 @@
 			}]
 		}
 	}, {
+		"nombre": "Estados de cuenta",
+		"pathUrl": "cellsEstadosDeCuenta",
+		"navigation": {
+			"cellsNavigation": true,
+			"typeProductId": "TC",
+			"tab": "a"
+		}
+	},{
 		"nombre": "Transferir",
 		"pathUrl": "traspasos",
 		"navigation": {
