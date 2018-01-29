@@ -173,7 +173,7 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
     if (tsec == '1234567890')
         return res.status(400).json(listAccount_err);
     else  if (tsec == '09876543')
-        return res.status(400).json(listSender_tdcEmpty);
+        res.json(listSender_tdcEmpty);
     else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD')
         return res.json(listSender_tdc02);
     else if (req.query.operationType == 'PAY_CREDITCARD')
