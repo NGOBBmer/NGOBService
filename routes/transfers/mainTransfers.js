@@ -6,6 +6,7 @@ var listSender_tdc02 = require('../../mock/V00/transfers/listAccountTr/listSende
 var listReceiver_tdc01 = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdc01.json');
 var listReceiver_tdc02 = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdc02.json');
 var listSender_tdcEmpty = require('../../mock/V00/transfers/listAccountTr/listSender_tdcEmpty.json');
+var listSender_tdc03 = require('../../mock/V00/transfers/listAccountTr/listSender_tdc03.json');
 var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccount_err.json');
 
 //CardInformation
@@ -176,6 +177,8 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         res.json(listSender_tdcEmpty);
     else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD')
         return res.json(listSender_tdc02);
+    else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD')
+        return res.json(listSender_tdc03);
     else if (req.query.operationType == 'PAY_CREDITCARD')
         return res.json(listSender_tdc01);
     else 
