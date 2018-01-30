@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var listAccount_all = require('../../mock/V00/transfers/listAccountTr/listAccount_all.json');
+var listAccount_01 = require('../../mock/V00/transfers/listAccountTr/listAccount_01.json');
+var listAccount_02 = require('../../mock/V00/transfers/listAccountTr/listAccount_02.json');
 var listSender_tdc01 = require('../../mock/V00/transfers/listAccountTr/listSender_tdc01.json');
 var listSender_tdc02 = require('../../mock/V00/transfers/listAccountTr/listSender_tdc02.json');
 var listReceiver_tdc01 = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdc01.json');
@@ -172,18 +174,23 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
 router.get('/V00/listSenderAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec == '1234567890')
+    if (tsec == '1234567890'){
         return res.status(400).json(listAccount_err);
-    else  if (tsec == '09876543')
+    }else  if (tsec == '09876543'){
         res.json(listSender_tdcEmpty);
-    else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD')
+    }else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc02);
-    else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD')
+    }else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc03);
-    else if (req.query.operationType == 'PAY_CREDITCARD')
+    }else if (req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc01);
-    else 
+    }else if (tsec === '123456'){
+        return res.json(listAccount_01);
+    }else if (tsec === '1234567'){
+        return res.json(listAccount_02);
+    }else{
         return res.json(listAccount_all);
+    }
     return res.status(400).json(listAccount_err);
   next();
 });
@@ -416,6 +423,8 @@ router.get('/V00/sendEmailTransfers', function(req, res, next) {
 
 // handler for query http://localhost:5000/transfers/V00/otherAccountsTransfer
 router.post('/V00/otherAccountsTransfer', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    var otp = req.headers['otp'];
     var otherTrasnferFreqId = req.body.frequentId;
    var  senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
@@ -426,7 +435,9 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
+        && tsec != "" && tsec != null 
+        && otp == "11111111" && otp != null){
         
         if (isPeriodic){
              if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
