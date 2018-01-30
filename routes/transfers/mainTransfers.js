@@ -416,6 +416,8 @@ router.get('/V00/sendEmailTransfers', function(req, res, next) {
 
 // handler for query http://localhost:5000/transfers/V00/otherAccountsTransfer
 router.post('/V00/otherAccountsTransfer', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    var otp = req.headers['otp'];
     var otherTrasnferFreqId = req.body.frequentId;
    var  senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
@@ -426,7 +428,9 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
+        && tsec != "" && tsec != null 
+        && otp == "11111111" && otp != null){
         
         if (isPeriodic){
              if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
