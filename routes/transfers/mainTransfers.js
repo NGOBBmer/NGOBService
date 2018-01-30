@@ -62,6 +62,7 @@ var frequents_TP = require('../../mock/V00/transfers/frequentOperations/frequent
 var frequents_A1 = require('../../mock/V00/transfers/frequentOperations/frequentsA_01.json');
 var frequent_01_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01_01.json');
 var frequent_02_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02_01.json');
+var frequent_empty = require('../../mock/V00/transfers/frequentOperations/listFrequents_empty.json');
 
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
 
@@ -278,6 +279,13 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         return res.json(frequents_I);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
         return res.json(frequents_TP);
+    else if ((tsec == '3456789') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequent_empty);
+    else if ((tsec == '3456789') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequent_empty);
+    else if ((tsec == '3456789') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+        return res.json(frequent_empty);
+
 
     return res.status(400).json(frequent_error);
   next();
