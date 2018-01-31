@@ -216,14 +216,19 @@ router.get('/V00/agileOperations', function(req, res, next) {
         if (week == 1){
           week = 'init';
         }
-
-        var ran = Math.floor((Math.random() * 8) + 1);;
         var weekRan = '';
-        if (ran == 1){
-          weekRan = 'init';
+        if (tsec === '123456'){
+          weekRan = week;
         }else{
-          weekRan = ran;
+          var ran = Math.floor((Math.random() * 8) + 1);;
+        
+          if (ran == 1){
+            weekRan = 'init';
+          }else{
+            weekRan = ran;
+          }
         }
+        
         var filePath = path.join(__dirname, urlJson2 + weekRan + ".json");
         try {
           var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
