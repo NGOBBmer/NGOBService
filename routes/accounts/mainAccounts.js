@@ -11,6 +11,8 @@ var movements_CH02 = require('../../mock/V00/accounts/movements/CHEUR0000001.jso
 var movements_CH02_next= require('../../mock/V00/accounts/movements/CHEUR0000001_next.json');
 var movements_CH02_filter= require('../../mock/V00/accounts/movements/CHEUR0000001_filter.json');
 var movements_default= require('../../mock/V00/accounts/movements/default.json');
+var movements_Prepag_MXP = require('../../mock/V00/accounts/movements/PrepagoMXP.json');
+var movements_Prepag_USD = require('../../mock/V00/accounts/movements/PrepagoUSD.json');
 var movements_err= require('../../mock/V00/accounts/movements/movements_err.json');
 
 //accountStatement
@@ -101,6 +103,12 @@ router.get('/V00/accounts/movements/:id', function(req, res, next) {
             return res.json(movements_CH02);
         }
         return res.json(movements_default);
+    }
+    if (req.params.id == 'TPMXP0000001'){
+      return res.json(movements_Prepag_MXP);
+    }
+    if (req.params.id == 'TPUSD0000002'){
+      return res.json(movements_Prepag_USD);
     }
   return res.json(movements_default);
 
