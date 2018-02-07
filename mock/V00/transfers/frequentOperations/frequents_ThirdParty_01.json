@@ -4,6 +4,7 @@
       "id": "4C5AN0EFASM9SD5WYPDB9TK49N5X610EGX0EA0BXZABYDBG1DR0NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "TEST1",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -33,6 +34,7 @@
       "id": "4C5AN0EFASM9SD5WYPDB9TK49M4MCD4Z9MBMYCAH8WB8YBZFK8GNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "prueba",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -62,6 +64,7 @@
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PMX9S445TBYEV8E0S2ZTK1HQR95VJ8001517FC5KVE91C40NJ32A",
       "shortName": "pruebaCH",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",

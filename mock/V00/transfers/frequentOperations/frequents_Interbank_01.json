@@ -4,6 +4,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9VZDZT9YYXH9J53DRE5C060X0D557BN02WW5PG8QXTFRDQBEDGADA",
       "shortName": "CLABEBanm4",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -35,6 +36,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R9WB95N5DRKAWA5PBF6W7QW3XNB9Q1TWA57Z9SJ4J78VN2807YCT",
       "shortName": "tddSantan2",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -64,6 +66,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9S03K48J746KN2P9ZB8D9W3R805H7BSPZN6QW0QP6EZ2JACXEGGAG",
       "shortName": "cel",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -95,6 +98,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9VZGH967V39JS3FCG6VK8SFMEVG1SVFQHE30XY9CPFGQRFSEC6V2M",
       "shortName": "credBNRT",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -126,6 +130,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RRZNS1V8MG8GMEPD5YFY1DRTFH29A363PKG21186YM1HKZP5GA48",
       "shortName": "TEST OTROS",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -157,6 +162,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SD39ZNSPHPTJM7G3Z6C1YGG44DAGT2VDB4H2YQ7WQGAN1GPJVXJR",
       "shortName": "banamex",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -188,6 +194,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SW8VXX75QE2P4W03RCR9DMKTYSJJE8KJPV9Q6MJT28BZZQRASCX6",
       "shortName": "tdcHSBC",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -219,6 +226,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R84E2VF8DPQDDMKX5ZEP80G8F9JJE8KJPV9Q6MJT28BZZQRASCX6",
       "shortName": "tdcSANT",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -250,6 +258,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9S9RD567QX8ZP5J4WEXTXXBEAG4SKSE82J0H9RVG19NVCMJQSCQJE",
       "shortName": "CBE SANTAN",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
@@ -281,6 +290,7 @@
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T76NY5BMA6N1CGD7PX77FQE3XEB9Q1TWA57Z9SJ4J78VN2807YCT",
       "shortName": "tddBMX",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
