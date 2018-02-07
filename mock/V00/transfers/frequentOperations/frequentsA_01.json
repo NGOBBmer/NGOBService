@@ -406,8 +406,5 @@
       },
       "typeOperationFreq": "INTERBANK"
     }
-  ],
-  "paginationKey": {
-    "nextPaginationKey": ""
-  }
+  ]
 }

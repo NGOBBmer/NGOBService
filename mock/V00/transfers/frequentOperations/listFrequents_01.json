@@ -1,124 +1,165 @@
 {
   "listFrequentOperation": [
     {
-      "id": "FRTT000000",
-      "shortName": "Prueba_TT",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N5X610EGX0EA0BXZABYDBG1DR0NVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "TEST1",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "2800160237"
+                  "accountNumber": "0177947089",
+                  "accountType": "CH"
                 }
               }
             },
-            "name": "GIOVANNI NICOLAS MARIN"
+            "name": "GARO GROCE DEGRACE"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "16"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000001",
-      "shortName": "TestSusan",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M4MCD4Z9MBMYCAH8WB8YBZFK8GNVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "prueba",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "0178851808"
+                  "accountNumber": "0190909092",
+                  "accountType": "CH"
                 }
               }
             },
-            "name": "SUSAN DIAZ LOW"
+            "name": "CITY OF YORKTON SAGELYNE CARMIKA"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
           "token": false
         }
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000002",
-      "shortName": "Maggi",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PMX9S445TBYEV8E0S2ZTK1HQR95VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "pruebaCH",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "1480628875"
+                  "accountNumber": "0178934584",
+                  "accountType": "CH"
                 }
               }
             },
-            "name": "MARGRETT ALGUIRE CIRIONI"
+            "name": "MOISES DUARTE MUJIA"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
           "token": false
         }
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000003",
-      "shortName": "JAG_01",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9VZDZT9YYXH9J53DRE5C060X0D557BN02WW5PG8QXTFRDQBEDGADA",
+      "shortName": "CLABEBanm4",
+      "image":"",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "2700718602"
+                "debitCard": {
+                  "interbankCode": "002180000092290270"
                 }
               }
             },
-            "name": "FIFI DRETZKA GALEOTTI"
+            "name": "CLABEBANAMEX"
           },
+          "reasonPayment": "40",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "FRTI000000",
-      "shortName": "Pao PrFrec",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R9WB95N5DRKAWA5PBF6W7QW3XNB9Q1TWA57Z9SJ4J78VN2807YCT",
+      "shortName": "tddSantan2",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "SANTANDER"
             },
             "contract": {
               "product": {
-                "expressAccount": {
-                  "accountNumber": "014180605884001963"
-                }
+                "debitCard": {}
               }
             },
-            "name": "PAO"
+            "name": "TDDSANTARDER"
           },
+          "reasonPayment": "03",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "FRTI000001",
-      "shortName": "PrLoan",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9S03K48J746KN2P9ZB8D9W3R805H7BSPZN6QW0QP6EZ2JACXEGGAG",
+      "shortName": "cel",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "BANAMEX"
@@ -126,24 +167,405 @@
             "contract": {
               "product": {
                 "expressAccount": {
-                  "accountNumber": "111111111000000011"
+                  "accountNumber": "5559615139"
                 }
               }
             },
-            "name": "PRUEBALOAN"
+            "name": "CEL"
           },
+          "reasonPayment": "10",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "FRTI000002",
-      "shortName": "Prueba01",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9VZGH967V39JS3FCG6VK8SFMEVG1SVFQHE30XY9CPFGQRFSEC6V2M",
+      "shortName": "credBNRT",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "IXE"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "765456464325355323"
+                }
+              }
+            },
+            "name": "FDSFSDFDS"
+          },
+          "reasonPayment": "13",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RRZNS1V8MG8GMEPD5YFY1DRTFH29A363PKG21186YM1HKZP5GA48",
+      "shortName": "TEST OTROS",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "8811370024331195"
+                }
+              }
+            },
+            "name": "21345678"
+          },
+          "reasonPayment": "13",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SD39ZNSPHPTJM7G3Z6C1YGG44DAGT2VDB4H2YQ7WQGAN1GPJVXJR",
+      "shortName": "banamex",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "213456754321346522"
+                }
+              }
+            },
+            "name": "DSADASDAS"
+          },
+          "reasonPayment": "13",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SW8VXX75QE2P4W03RCR9DMKTYSJJE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "tdcHSBC",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "HSBC"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "4912849514319465"
+                }
+              }
+            },
+            "name": "DSADASDAS"
+          },
+          "reasonPayment": "20",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R84E2VF8DPQDDMKX5ZEP80G8F9JJE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "tdcSANT",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "SANTANDER"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "5470464951966249"
+                }
+              }
+            },
+            "name": "DSADASDAS"
+          },
+          "reasonPayment": "20",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9S9RD567QX8ZP5J4WEXTXXBEAG4SKSE82J0H9RVG19NVCMJQSCQJE",
+      "shortName": "CBE SANTAN",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "SANTANDER"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {
+                  "interbankCode": "014010004577845686"
+                }
+              }
+            },
+            "name": "CBE SANTANDER"
+          },
+          "reasonPayment": "40",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T76NY5BMA6N1CGD7PX77FQE3XEB9Q1TWA57Z9SJ4J78VN2807YCT",
+      "shortName": "tddBMX",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {}
+              }
+            },
+            "name": "PRUEBA1"
+          },
+          "reasonPayment": "03",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N5X610EGX0EA0BXZABYDBG1DR0NVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "TEST1",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0177947089",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "name": "GARO GROCE DEGRACE"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M4MCD4Z9MBMYCAH8WB8YBZFK8GNVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "prueba",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0190909092",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "name": "CITY OF YORKTON SAGELYNE CARMIKA"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PMX9S445TBYEV8E0S2ZTK1HQR95VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "pruebaCH",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0178934584",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "name": "MOISES DUARTE MUJIA"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9VZDZT9YYXH9J53DRE5C060X0D557BN02WW5PG8QXTFRDQBEDGADA",
+      "shortName": "CLABEBanm4",
+      "image":"",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {
+                  "interbankCode": "002180000092290270"
+                }
+              }
+            },
+            "name": "CLABEBANAMEX"
+          },
+          "reasonPayment": "40",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R9WB95N5DRKAWA5PBF6W7QW3XNB9Q1TWA57Z9SJ4J78VN2807YCT",
+      "shortName": "tddSantan2",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "SANTANDER"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {}
+              }
+            },
+            "name": "TDDSANTARDER"
+          },
+          "reasonPayment": "03",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9S03K48J746KN2P9ZB8D9W3R805H7BSPZN6QW0QP6EZ2JACXEGGAG",
+      "shortName": "cel",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image":"",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "BANAMEX"
@@ -151,142 +573,247 @@
             "contract": {
               "product": {
                 "expressAccount": {
-                  "accountNumber": "4152313300"
+                  "accountNumber": "5559615139"
                 }
               }
             },
-            "name": "PRUEBA"
+            "name": "CEL"
           },
+          "reasonPayment": "10",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "FRTI000003",
-      "shortName": "PruebaTDD",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9VZGH967V39JS3FCG6VK8SFMEVG1SVFQHE30XY9CPFGQRFSEC6V2M",
+      "shortName": "credBNRT",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "BANORTE/ IXE"
+              "name": "IXE"
             },
             "contract": {
               "product": {
-                "expressAccount": {
-                  "accountNumber": "4915663015856694"
+                "personalLoan": {
+                  "accountNumber": "765456464325355323"
                 }
               }
             },
-            "name": "PRUEBA"
+            "name": "FDSFSDFDS"
           },
+          "reasonPayment": "13",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
-    },
-    {
-      "id": "FRTI000004",
-      "shortName": "PruebaTDC2",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "receiver": {
-            "bank": {
-              "name": "BANAMEX"
-            },
-            "contract": {
-              "product": {
-                "expressAccount": {
-                  "accountNumber": "545631060044264"
-                }
-              }
-            },
-            "name": "PRUEBATC"
-          },
-          "token": false
-        }
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "FRTI000005",
-      "shortName": "PruebaTDC",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RRZNS1V8MG8GMEPD5YFY1DRTFH29A363PKG21186YM1HKZP5GA48",
+      "shortName": "TEST OTROS",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "BANAMEX"
             },
             "contract": {
               "product": {
-                "expressAccount": {
-                  "accountNumber": "5499490522354489"
+                "personalLoan": {
+                  "accountNumber": "8811370024331195"
                 }
               }
             },
-            "name": "PRUEBATDC"
+            "name": "21345678"
           },
+          "reasonPayment": "13",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "FRTI000006",
-      "shortName": "PrAuto",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SD39ZNSPHPTJM7G3Z6C1YGG44DAGT2VDB4H2YQ7WQGAN1GPJVXJR",
+      "shortName": "banamex",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "BANAMEX"
             },
             "contract": {
               "product": {
-                "expressAccount": {
-                  "accountNumber": "552307474702020202"
+                "personalLoan": {
+                  "accountNumber": "213456754321346522"
                 }
               }
             },
-            "name": "PRUEBAAUTO"
+            "name": "DSADASDAS"
           },
+          "reasonPayment": "13",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "FRTI000007",
-      "shortName": "FrecCel",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SW8VXX75QE2P4W03RCR9DMKTYSJJE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "tdcHSBC",
       "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "SCOTIABANK"
+              "name": "HSBC"
             },
             "contract": {
               "product": {
-                "expressAccount": {
-                  "accountNumber": "5527156011"
+                "creditCard": {
+                  "cardNumber": "4912849514319465"
                 }
               }
             },
-            "name": "CELULAR PRUEBA FREC"
+            "name": "DSADASDAS"
           },
+          "reasonPayment": "20",
+          "referenceIndicator": 9,
           "token": false
         }
       },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "0"
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R84E2VF8DPQDDMKX5ZEP80G8F9JJE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "tdcSANT",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "SANTANDER"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "5470464951966249"
+                }
+              }
+            },
+            "name": "DSADASDAS"
+          },
+          "reasonPayment": "20",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9S9RD567QX8ZP5J4WEXTXXBEAG4SKSE82J0H9RVG19NVCMJQSCQJE",
+      "shortName": "CBE SANTAN",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "SANTANDER"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {
+                  "interbankCode": "014010004577845686"
+                }
+              }
+            },
+            "name": "CBE SANTANDER"
+          },
+          "reasonPayment": "40",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T76NY5BMA6N1CGD7PX77FQE3XEB9Q1TWA57Z9SJ4J78VN2807YCT",
+      "shortName": "tddBMX",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "image": "",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {}
+              }
+            },
+            "name": "PRUEBA1"
+          },
+          "reasonPayment": "03",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "typeOperationFreq": "INTERBANK"
     }
-  ]
+  ],
+  "paginationKey": {
+    "nextPaginationKey": "26"
+  }
 }
