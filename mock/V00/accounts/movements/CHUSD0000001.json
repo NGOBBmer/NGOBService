@@ -9,8 +9,12 @@
           "amount": "-13.22",
           "currency": "USD"
         },
+        "postedBalance": {
+          "amount": "1324343.00",
+          "currency": "USD"
+        },
         "type": "Cargo",
-        "movementPending": true
+        "movementPending": false
       },
       {
         "amount": {
