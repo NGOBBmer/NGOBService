@@ -2,6 +2,17 @@
   "data": {
     "listMovements": [
       {
+        "operationDate": "2017-12-27",
+        "operationDateFormat": 1514354400000,
+        "concept": "PROCONSA",
+        "amount": {
+          "amount": "-2.8",
+          "currency": "MXP"
+        },
+        "type": "Cargo",
+        "movementPending": true
+      },
+      {
         "operationDate": "2017-12-25",
         "operationDateFormat": 1514354400000,
         "concept": "AGUAS GRANDE",
