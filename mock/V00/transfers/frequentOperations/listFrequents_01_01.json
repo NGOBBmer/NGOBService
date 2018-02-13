@@ -9,6 +9,9 @@
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
+            "bank": {
+              "name": "Bbva Bancomer"
+            },
             "contract": {
               "product": {
                 "checkAccount": {
@@ -17,7 +20,9 @@
                 }
               }
             },
-            "name": "GARO GROCE DEGRACE"
+            "email": "pruebaskModif@gmail.com",
+            "name": "GARO GROCE DEGRACE",
+            "productAlias": "Cuenta Bbva Bancomer"
           },
           "reasonPayment": "CH",
           "referenceIndicator": 0,
@@ -39,6 +44,9 @@
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
+            "bank": {
+              "name": "Bbva Bancomer"
+            },
             "contract": {
               "product": {
                 "checkAccount": {
@@ -47,7 +55,9 @@
                 }
               }
             },
-            "name": "CITY OF YORKTON SAGELYNE CARMIKA"
+            "email": "pruebaskModif@gmail.com",
+            "name": "CITY OF YORKTON SAGELYNE CARMIKA",
+            "productAlias": "Cuenta Bbva Bancomer"
           },
           "reasonPayment": "CH",
           "referenceIndicator": 1,
@@ -69,6 +79,9 @@
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
+            "bank": {
+              "name": "Bbva Bancomer"
+            },
             "contract": {
               "product": {
                 "checkAccount": {
@@ -77,7 +90,9 @@
                 }
               }
             },
-            "name": "MOISES DUARTE MUJIA"
+            "email": "pruebaskModif@gmail.com",
+            "name": "MOISES DUARTE MUJIA",
+            "productAlias": "Cuenta Bbva Bancomer"
           },
           "reasonPayment": "CH",
           "referenceIndicator": 1,
