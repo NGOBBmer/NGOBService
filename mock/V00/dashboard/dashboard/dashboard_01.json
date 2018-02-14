@@ -1,15 +1,8 @@
 {
   "product": {
-    "savingAccount": [
+    "checkAccount": [
       {
         "productId": "AHMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 115507740.7,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "1402321858",
           "alias": "AliasPr001",
@@ -46,18 +39,6 @@
     "creditCard": [
       {
         "productId": "TCMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 282856.85,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": -764819.56,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "·86497",
           "alias": "LOREMIPSUM",
@@ -79,18 +60,6 @@
       },
       {
         "productId": "TCMXP0000002",
-        "balance": {
-          "availableBalance": {
-            "amount": 256.85,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": 819.56,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "·86439",
           "alias": "Tarjetaaa",
@@ -112,18 +81,6 @@
       },
       {
         "productId": "TCMXP0000003",
-        "balance": {
-          "availableBalance": {
-            "amount": 833.85,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "cuttingBalance": {
-            "amount": -819.56,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "·86437",
           "alias": "LOREMIPSUM",
@@ -153,12 +110,6 @@
           "accountType": "fondoInversiones",
           "alias": "FondooUNO"
         },
-        "balance": {
-          "availableBalance": {
-            "amount": 0,
-            "currencyId": "MXP"
-          }
-        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -175,12 +126,6 @@
           "typeId": "SI",
           "accountType": "fondoInversiones",
           "alias": "prueba"
-        },
-        "balance": {
-          "availableBalance": {
-            "amount": 100.0,
-            "currencyId": "MXP"
-          }
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -200,12 +145,6 @@
           "accountType": "fondoInversiones",
           "alias": ""
         },
-        "balance": {
-          "availableBalance": {
-            "amount": 12.23,
-            "currencyId": "MXP"
-          }
-        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -223,12 +162,6 @@
           "accountType": "fondoInversiones",
           "alias": "prueba02"
         },
-        "balance": {
-          "availableBalance": {
-            "amount": 0,
-            "currencyId": "MXP"
-          }
-        },
         "description": "Fondo de Inversión",
         "navigation": {
           "cellsNavigation": true
@@ -242,12 +175,6 @@
     "investments": [
       {
         "productId": "INMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 31999,
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "1368067104",
           "typeId": "IN",
@@ -294,12 +221,6 @@
       },
       {
         "productId": "INMXP0000003",
-        "balance": {
-          "availableBalance": {
-            "amount": 0,
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "1368072302",
           "typeId": "IN",
@@ -320,12 +241,6 @@
       },
       {
         "productId": "INMXP0000004",
-        "balance": {
-          "availableBalance": {
-            "amount": 0,
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "1368072574",
           "typeId": "IN",
@@ -346,12 +261,6 @@
       },
       {
         "productId": "INMXP0000005",
-        "balance": {
-          "availableBalance": {
-            "amount": 2000,
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "1368074682",
           "typeId": "IN",
@@ -380,12 +289,6 @@
           "typeId": "PT",
           "accountType": "patrimoniales"
         },
-        "balance": {
-          "totalBalance": {
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "status": "0",
@@ -405,12 +308,6 @@
     "spendingPockets": [
       {
         "productId": "PKMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 2900,
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "PK78800936",
           "typeId": "PK",
@@ -433,12 +330,6 @@
       },
       {
         "productId": "PKMXP0000002",
-        "balance": {
-          "availableBalance": {
-            "amount": 500,
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "PK78805733",
           "typeId": "PK",
@@ -468,18 +359,6 @@
           "typeId": "TP",
           "accountType": "tarjetasPrepagadas"
         },
-        "balance": {
-          "availableBalance": {
-            "amount": 99998949,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          }
-        },
         "isAdittional": "no",
         "innerJoinAccount": "no",
         "description": "Tarjeta Prepagada",
@@ -491,18 +370,6 @@
     "digitalAccount": [
       {
         "productId": "CMMXP0000001",
-        "balance": {
-          "availableBalance": {
-            "amount": 5.02,
-            "currency": "Pesos",
-            "currencyId": "MXP"
-          },
-          "pendingBalance": {
-            "amount": 0.0,
-            "currency": "",
-            "currencyId": "MXP"
-          }
-        },
         "branch": {
           "number": "9711440156",
           "alias": "",
