@@ -34,6 +34,47 @@
           "type": "CHECKACCOUNT",
           "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
+      },
+       {
+        "productId": "CHMXP0000002",
+        "branch": {
+          "number": "1234567890",
+          "alias": "Cuenta 2",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+         "balance": {
+          "availableBalance": {
+            "amount": 345678.25,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "AHMXP0000001"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
       }
     ],
     "creditCard": [
@@ -44,6 +85,18 @@
           "alias": "LOREMIPSUM",
           "typeId": "TC",
           "accountType": "tarjetasCredito"
+        },
+         "balance": {
+          "availableBalance": {
+            "amount": 19137.2,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 11963.61,
+            "currency": "",
+            "currencyId": "MXP"
+          }
         },
         "minimumPayment": 0,
         "description": "Tarjeta de Crédito",
@@ -109,6 +162,12 @@
           "typeId": "SI",
           "accountType": "fondoInversiones",
           "alias": "FondooUNO"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 10,
+            "currencyId": "MXP"
+          }
         },
         "description": "Fondo de Inversión",
         "navigation": {
@@ -180,6 +239,12 @@
           "typeId": "IN",
           "accountType": "inversionesMxp",
           "alias": "PRalias"
+        },
+         "balance": {
+          "availableBalance": {
+            "amount": 28.90,
+            "currencyId": "MXP"
+          }
         },
         "description": "Pagaré Bancomer",
         "navigation": {
