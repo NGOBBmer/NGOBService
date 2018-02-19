@@ -28,7 +28,7 @@
       },
       "extendedData": {
         "frequentOperationsCounter": null,
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "typeOperationFreq": "INTERBANK"
     },

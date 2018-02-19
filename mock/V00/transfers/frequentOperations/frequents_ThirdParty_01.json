@@ -32,7 +32,7 @@
       },
       "extendedData": {
         "frequentOperationsCounter": null,
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "typeOperationFreq": "THIRD_PARTY"
     },
