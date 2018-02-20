@@ -45,7 +45,7 @@ router.get('/V00/cards/welcomeKit/:id', function(req, res, next) {
     return res.json(wkOro);
   }else if(req.params.id != ''){  
     return res.json(wkAzul);
-  }else{
+  }else if(tsec == '12345' && req.params.id == 'TCMXP0000001'){
     return res.json(error);
   }
     
