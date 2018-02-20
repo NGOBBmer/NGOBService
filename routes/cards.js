@@ -4,6 +4,11 @@ var card_4152313300116865 = require('../mock/V00/cards/listCards/card_4152313300
 var card_4152313300116865 = require('../mock/V00/cards/listCards/card_4152313300116865.json');
 var card_sinCardType = require('../mock/V00/cards/listCards/card_sinCardType.json');
 
+/* Welcome Kit */
+var wkAzul = require('../mock/V00/cards/welcomeKit/welcomeKit_Azul.json');
+var wkOro = require('../mock/V00/cards/welcomeKit/welcomeKit_Oro.json');
+var error = require('../mock/V00/cards/welcomeKit/welcomeKit_empty.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -30,6 +35,19 @@ router.get('/V00/cards', function(req, res, next) {
   	}else{
   		return res.json(card_sinCardType);
   	}
+    
+  });
+
+// handler for query http://localhost:4000/cards/V00/cards/welcomeKit/TCMXP0000002
+router.get('/V00/cards/welcomeKit/:id', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  if(req.params.id == 'TCMXP0000001'){  
+    return res.json(wkOro);
+  }else if(req.params.id != ''){  
+    return res.json(wkAzul);
+  }else{
+    return res.json(error);
+  }
     
   });
 
