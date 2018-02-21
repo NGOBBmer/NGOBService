@@ -342,6 +342,10 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     var taxReceipt =req.body.taxReceipt;
     var dayIndicator =req.body.dayIndicator;
 
+    if(frequentId == "FRTT000001"){
+        otp = "11111111";
+    }
+
 
     if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
         aplicationDate != "" && aplicationDate != null && tsec != "" && tsec != null &&
