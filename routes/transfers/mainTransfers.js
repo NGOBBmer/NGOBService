@@ -249,9 +249,9 @@ router.get('/V00/QrData', function(req, res, next) {
 // handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='spei' && req.query.cveBank==='90628')
+    if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='spei' && req.query.cveBank==='0002')
         return res.json(bankFound);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos' && req.query.cveBank==='30167')
+    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos' && req.query.cveBank==='0167')
         return res.json(bankFound01);
     else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='spei')
         return res.json(banksCatalogSpei);

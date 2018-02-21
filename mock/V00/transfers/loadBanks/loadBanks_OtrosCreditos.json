@@ -1,7 +1,7 @@
 {
   "bankCatalog": [
     {
-      "claveSPEI": "40062",
+      "idBank": "0062",
       "bankName": "AFIRME",
       "cbe": true,
       "cbeMD": true,
@@ -14,7 +14,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40103",
+      "idBank": "0103",
       "bankName": "AMERICAN EXPRES",
       "cbe": true,
       "cbeMD": true,
@@ -27,7 +27,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40127",
+      "idBank": "0127",
       "bankName": "AZTECA",
       "cbe": true,
       "cbeMD": true,
@@ -40,7 +40,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40030",
+      "idBank": "0030",
       "bankName": "BAJIO",
       "cbe": true,
       "cbeMD": true,
@@ -53,7 +53,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40106",
+      "idBank": "0106",
       "bankName": "BAMSA",
       "cbe": true,
       "cbeMD": true,
@@ -66,7 +66,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40002",
+      "idBank": "0002",
       "bankName": "BANAMEX",
       "cbe": true,
       "cbeMD": true,
@@ -79,7 +79,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40131",
+      "idBank": "0131",
       "bankName": "BANCO FAMSA",
       "cbe": true,
       "cbeMD": true,
@@ -92,7 +92,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40137",
+      "idBank": "0137",
       "bankName": "BANCOPPEL",
       "cbe": true,
       "cbeMD": true,
@@ -105,7 +105,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "30019",
+      "idBank": "0019",
       "bankName": "BANJERCITO",
       "cbe": true,
       "cbeMD": true,
@@ -118,7 +118,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40072",
+      "idBank": "0072",
       "bankName": "BANORTE/ IXE",
       "cbe": true,
       "cbeMD": true,
@@ -131,7 +131,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40058",
+      "idBank": "0058",
       "bankName": "BANREGIO",
       "cbe": true,
       "cbeMD": true,
@@ -144,7 +144,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "30166",
+      "idBank": "0166",
       "bankName": "BANSEFI",
       "cbe": true,
       "cbeMD": true,
@@ -157,7 +157,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40060",
+      "idBank": "0060",
       "bankName": "BANSI",
       "cbe": true,
       "cbeMD": true,
@@ -170,7 +170,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40143",
+      "idBank": "0143",
       "bankName": "CIBANCO",
       "cbe": true,
       "cbeMD": true,
@@ -183,7 +183,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40021",
+      "idBank": "0021",
       "bankName": "HSBC",
       "cbe": true,
       "cbeMD": true,
@@ -196,7 +196,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40036",
+      "idBank": "0036",
       "bankName": "INBURSA",
       "cbe": true,
       "cbeMD": true,
@@ -209,7 +209,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40037",
+      "idBank": "0037",
       "bankName": "INTERACCIONES",
       "cbe": true,
       "cbeMD": true,
@@ -222,7 +222,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40136",
+      "idBank": "0136",
       "bankName": "INTERCAM BANCO",
       "cbe": true,
       "cbeMD": true,
@@ -235,7 +235,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40102",
+      "idBank": "0102",
       "bankName": "INVESTA BANK",
       "cbe": true,
       "cbeMD": true,
@@ -248,7 +248,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40059",
+      "idBank": "0059",
       "bankName": "INVEX",
       "cbe": true,
       "cbeMD": true,
@@ -261,7 +261,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40032",
+      "idBank": "0032",
       "bankName": "IXE",
       "cbe": true,
       "cbeMD": false,
@@ -274,7 +274,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40110",
+      "idBank": "0110",
       "bankName": "JP MORGAN",
       "cbe": true,
       "cbeMD": true,
@@ -287,7 +287,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40042",
+      "idBank": "0042",
       "bankName": "MIFEL",
       "cbe": true,
       "cbeMD": true,
@@ -300,7 +300,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40132",
+      "idBank": "0132",
       "bankName": "MULTIVA BANCO",
       "cbe": true,
       "cbeMD": true,
@@ -313,7 +313,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "30135",
+      "idBank": "0135",
       "bankName": "NAFIN",
       "cbe": true,
       "cbeMD": true,
@@ -326,7 +326,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40014",
+      "idBank": "0014",
       "bankName": "SANTANDER",
       "cbe": true,
       "cbeMD": true,
@@ -339,7 +339,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40044",
+      "idBank": "0044",
       "bankName": "SCOTIABANK",
       "cbe": true,
       "cbeMD": true,
@@ -352,7 +352,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "30167",
+      "idBank": "0167",
       "bankName": "TESORERIA DE LA FEDERACION",
       "cbe": true,
       "cbeMD": false,
@@ -365,7 +365,7 @@
       "sinApl": true
     },
     {
-      "claveSPEI": "40113",
+      "idBank": "0113",
       "bankName": "VE POR MAS",
       "cbe": true,
       "cbeMD": true,

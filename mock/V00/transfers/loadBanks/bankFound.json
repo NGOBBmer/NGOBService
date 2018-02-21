@@ -1,17 +1,16 @@
 {
   "bankCatalog": [
     {
-      "idBank": "94",
-      "claveSPEI": "90628",
-      "bankName": "ZURICHVI",
+      "idBank": "0002",
+      "bankName": "BANAMEX",
       "cbe": true,
       "cbeMD": true,
-      "cbeDS": false,
+      "cbeDS": true,
       "tdd": true,
       "tddMD": true,
-      "tddDS": false,
-      "tdc": false,
-      "ocr": false,
+      "tddDS": true,
+      "tdc": true,
+      "ocr": true,
       "sinApl": true
     }
   ]
