@@ -1,11 +1,50 @@
 {
   "listFrequentOperation": [
     {
-      "id": "FRTT000000",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QGQR5DHSHH50BMZ1TNZEVXDHP75VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "frectercer",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "Bbva Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0434738969",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "esanchez.isc701@gmail.com",
+            "name": "SONIA LOPEZ TARANTINO",
+            "productAlias": "Cuenta Bbva Bancomer"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "SL"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QR8T0187RSPNH4RV3E6GFNQXY1NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "AguiNAlduu",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -22,58 +61,28 @@
             "name": "BELEN GARCES GARCIA",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "BG"
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "9"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000064",
-      "shortName": "prueExpres",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "receiver": {
-            "bank": {
-              "name": "Bbva Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "4098512066867424",
-                  "accountType": "TD"
-                }
-              }
-            },
-            "email": "",
-            "name": "RAUDEL GURECKI AHRNS",
-            "productAlias": "Tarjeta Bbva Bancomer"
-          },
-          "token": false
-        } 
-      },
-      "avatar": {
-        "image": "",
-        "ini": "RG"
-      },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": true
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "8"
-    },
-    {
-      "id": "FRTT000001",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PMX9S445TBYEV8E0S2ZTK1HQR95VJ8001517FC5KVE91C40NJ32A",
       "shortName": "ModifFreq",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -90,26 +99,28 @@
             "name": "MOISES DUARTE MUJIA",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "MD"
       },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": true
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "6"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000002",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MB5JJM2JZHEXS91ERS8QTK2156NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "I8H1CEL",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -126,135 +137,28 @@
             "name": "CINTHIA MAR CASTRO",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "CM"
       },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": true
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "3"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000067",
-      "shortName": "I8H1TDC",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "receiver": {
-            "bank": {
-              "name": "Bbva Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "4772913025540644",
-                  "accountType": "TC"
-                }
-              }
-            },
-            "email": "",
-            "name": "SADAKO DIPALMA DAMAN",
-            "productAlias": "Tarjeta Bbva Bancomer"
-          },
-          "token": false
-        }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "SD"
-      },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": true
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "2"
-    },
-    {
-      "id": "FRTT000065",
-      "shortName": "ChuecoMood",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "receiver": {
-            "bank": {
-              "name": "Bbva Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "5531463927",
-                  "accountType": "CM"
-                }
-              }
-            },
-            "email": "correochueco@gmail.com",
-            "name": "NALLE PRUEBA",
-            "productAlias": "Celular Bbva Bancomer"
-          },
-          "token": false
-        }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "NP"
-      },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": true
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "1"
-    },
-    {
-      "id": "FRTI000000",
-      "shortName": "ppE",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "receiver": {
-            "bank": {
-              "name": "BANAMEX"
-            },
-            "contract": {
-              "product": {
-                "expressAccount": {
-                  "accountNumber": "002180700256551903",
-                  "accountType": "40"
-                }
-              }
-            },
-            "email": "ppE@gmail.com",
-            "name": "PREUBAMARY",
-            "productAlias": "CLABE BANAMEX"
-          },
-          "token": false
-        }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "PR"
-      },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": true
-      },
-      "typeOperationFreq": "INTERBANK",
-      "accountingOfOpe": "1",
-      "trustIndicator": "N"
-    },
-    {
-      "id": "FRTT000003",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N7KXDBQEPNJ9HJV7B3ZD7SRW6S5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "PrueBACom",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -271,6 +175,8 @@
             "name": "Nancy Maximo",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
       },
@@ -282,15 +188,15 @@
         "image": "",
         "ini": "NM"
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000004",
-      "shortName": "---",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M785BV9TF2AV4HYEY9B288XGDHNVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -307,26 +213,28 @@
             "name": "Prueba Registro 02",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "PR"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000005",
-      "shortName": "---",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NQEFVV2A86JBTKTS0NTFNCATR7NVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -343,6 +251,8 @@
             "name": "Prueba Registro 02",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
       },
@@ -354,15 +264,53 @@
         "image": "",
         "ini": "PR"
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000006",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NDV610M8NXJM6HK8Z1R2DQ5KV85VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "frecnumcel",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "Bbva Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "0179002626",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "",
+            "name": "RAMON DIAZ CRUZ",
+            "productAlias": "Cuenta Bbva Bancomer"
+          },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "RD"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NC0VPR8G1RKFD5N96RMFRDY6EQNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Nuevaaaa",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -379,26 +327,28 @@
             "name": "HIPOLITA BUENAVENTE BCOM NO USAR",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 1,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "HB"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "HB"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000007",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MR0SZ73DM155B2Q4P6JKW0P40ANVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -415,26 +365,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000008",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PY6X6FYP11ECXC75PYR730R14DNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -451,26 +403,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000009",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QX4J10KXXKBR7CXWX7JVR7AGHXNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -487,26 +441,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000010",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N2PKPKXAZ7CXCKX0JS2JHX79115VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -523,26 +479,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000011",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NEZ5ZM4J6P96WP50VXG6EGKWB0NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -559,26 +517,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000012",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M27ZQMZ5Q9HMAMVVBPFKDVVCXBNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -595,26 +555,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000013",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QGCG3RW7MDDB111MPSA9EJCQ2WNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -631,26 +593,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000014",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PP5Z5T8G34JY0WMRJXXJX6AXD4NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -667,26 +631,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000015",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NVJWGD1Y46JP7BV67NDCRTNJ88NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -703,26 +669,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000016",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QZ6R10A6EA5NFWCS7X4MM9JFW75VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -739,26 +707,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000017",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NDJM833GDEAFGEPXEMTW0W16JX5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Liz",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -775,26 +745,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000018",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PVZ427SX871ZK32N1H1A9H1BCCNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Liz",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -811,26 +783,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000019",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QTWADF1MZ8G8TP4HGBFYZK3GMM5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Liz",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -847,26 +821,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000020",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MRMD6C2ZQKKTACE0KNNYN4V85F5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Liz Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -883,26 +859,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000021",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MKGPPMRKGMS98HY4FFF38YW2HRNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Liz",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -919,26 +897,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000022",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49Q9E4XY423VHE2NNX3WZSM6RF89NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Liz",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -955,26 +935,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000023",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49P1S92KKBXKXM4PP749HSQATPGPNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Liz",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -991,26 +973,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000024",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MZGAXFSZCQK0P2R560K25D6A325VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1027,26 +1011,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000025",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QDA6D2SE3TKAZ0ARK76EQ1Y8N95VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1063,26 +1049,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000026",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49P37PFT3714RQ0247DJVHBER3BN5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1099,26 +1087,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000027",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QT045GFK2X8PB66BG7BBTF8SCZNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1135,26 +1125,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000028",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PFSKD6YDNPCT9P1NYXVKNEBYJ25VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1171,26 +1163,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000029",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N77D6MAT8JN50Y8MDH1VXF3FE95VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1207,26 +1201,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000030",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PB8CGRTG7TJSKYWFHW43B3BRVQ5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1243,26 +1239,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000031",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NPH4CJ6HKAV4Z48E2DH9FHDB375VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1279,26 +1277,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000032",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PAF9S7S7M5BTMQD17JZAFZMWAZNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1315,26 +1315,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000033",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PQHYRPB2G5HEY15PBK57G6RHRBNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1351,26 +1353,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000034",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MWX6Y7F207W36YCCRZFP45W0Z2NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1387,26 +1391,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000035",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QAVMS3B9D1HYTDA69Z3A93CVJ1NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1423,26 +1429,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000036",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N4R2V871TW112HKPBCCNJNAPMS5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1459,26 +1467,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000037",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NJFPT3DFT9FDJJ5XQRZGY0BA5P5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1495,26 +1505,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000038",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PJM9G1AWF27M1GK3Y1JZVBVB0V5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1531,26 +1543,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000039",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PS1DNJRWBBRMK8ZCQYGJKKVCT35VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1567,26 +1581,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000040",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MZN0KG2XD82S7TVSDGTM4D5W0WNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1603,26 +1619,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000041",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MPSH839ZR0EBMX7G8MN842KZGHNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1639,26 +1657,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000042",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M8G670QK7W50D5ETTEXDFHWRB2NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1675,26 +1695,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000043",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QQMMX1BZJPJ12K40HQSGYK98ZANVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1711,26 +1733,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000044",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QBRG6TSCPY5KZHYJ1E4FZRQ8R85VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1747,26 +1771,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000045",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49P2ZGGM6XWV8KBV2K03PAWVBRCW5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1783,26 +1809,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000046",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MJ6JD6VQ1A9NXTK0NRFCW5WBBD5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1819,26 +1847,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000047",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NXWNF4HTZQB9K3VN3WCS2C72WD5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1855,26 +1885,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000048",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MHSVTW3314G8YE34EF4V7WY2FS5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1891,26 +1923,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000049",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M08WE14J6802EBXVMG0RP7R8AKNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1927,26 +1961,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000050",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PYQ0CMB04GJ43V4YF7A8RHAWHSNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1963,26 +1999,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000051",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MR20SGZ48RWNJE8E1DWKFAP3DV5VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -1999,26 +2037,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000052",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NW3AKT45T5ECZQBMDW0GQJXQPANVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2035,26 +2075,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000053",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NBSVFB4JH7Z1DGXKH1ZJ46JKZ5NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2071,26 +2113,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000054",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NFWFY51P1DZ6BBV9ANQH17XZZGNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2107,26 +2151,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000055",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PMNC3M2R0KGPF9008MEKA2SPZ55VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2143,26 +2189,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000056",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QB81RD85DVQQRHDTH7VZGJT4C35VJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2179,26 +2227,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000057",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NFFH6EAZPSHZ7GGTXTMT3MS6B7NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2215,26 +2265,28 @@
             "name": "Prueba",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "Pr"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000058",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QZN244236MWRKSF4MPJ55MVMCSNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "aAELIminar",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2251,26 +2303,28 @@
             "name": "GIOVANNI NICOLAS MARIN",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "GN"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "GN"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000059",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49P5Z77AS2994WSK7208VDSJ22W4NVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
@@ -2287,199 +2341,267 @@
             "name": "GIOVANNI NICOLAS MARIN",
             "productAlias": "Cuenta Bbva Bancomer"
           },
+          "reasonPayment": "CH",
+          "referenceIndicator": 0,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "GN"
       },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": false
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000060",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QMWEA6NGXESGN87QV2RWGCWSZ3ZC4Q393EWAZYF0SHY6H0B7KZV8",
       "shortName": "pruebaFrec",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
             },
             "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "4152310035861435",
-                  "accountType": "TD"
-                }
-              }
+              "product": {}
             },
             "email": "",
             "name": "HIPOLITA BUENAVENTE BCOM NO USAR",
             "productAlias": "Tarjeta Bbva Bancomer"
           },
+          "reasonPayment": "TD",
+          "referenceIndicator": 1,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "HB"
       },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": false
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000061",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QYAPXN9CEGJ1TH3RE9QJPM53TSFC4Q393EWAZYF0SHY6H0B7KZV8",
       "shortName": "lau mora",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
             },
             "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "4152312171294322",
-                  "accountType": "TD"
-                }
-              }
+              "product": {}
             },
             "email": "",
             "name": "LAURA LOPEZ MORALES",
             "productAlias": "Tarjeta Bbva Bancomer"
           },
+          "reasonPayment": "TD",
+          "referenceIndicator": 1,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "LL"
       },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": false
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000062",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NXDF5944TGSX21CRH39FPC5K79ZC4Q393EWAZYF0SHY6H0B7KZV8",
       "shortName": "pruebaHP",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
             },
             "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "4152313302087643",
-                  "accountType": "TD"
-                }
-              }
+              "product": {}
             },
             "email": "",
             "name": "ROSIO ABARCA ARONA",
             "productAlias": "Tarjeta Bbva Bancomer"
           },
+          "reasonPayment": "TD",
+          "referenceIndicator": 1,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "RA"
       },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": false
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000063",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N437YP9VFKCX8N1HTBH2C63CGWFC4Q393EWAZYF0SHY6H0B7KZV8",
       "shortName": "I340NAY",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "name": "Bbva Bancomer"
             },
             "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "4152313302268482",
-                  "accountType": "TD"
-                }
-              }
+              "product": {}
             },
             "email": "",
             "name": "JUAN GUZMAN FONSECA",
             "productAlias": "Tarjeta Bbva Bancomer"
           },
+          "reasonPayment": "TD",
+          "referenceIndicator": 1,
           "token": false
         }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
       },
       "avatar": {
         "image": "",
         "ini": "JG"
       },
-      "extendedData": {
-        "frequentOperationsCounter": null,
-        "reliableOperation": false
-      },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "FRTT000066",
-      "shortName": "I8H1EX10",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TKGX34HY7KJVXFSVWMRZ67SAXTGZE4RBAFDHTXDG3H6DXF7CAJH4",
+      "shortName": "frecclabe",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "Bbva Bancomer"
+              "id": "0002",
+              "name": "BANAMEX"
             },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "5514221248",
-                  "accountType": "CM"
+                "debitCard": {
+                  "interbankCode": "002180434500699829"
                 }
               }
             },
             "email": "",
-            "name": "ALFREDO VELASCO DIEGO",
-            "productAlias": "Celular Bbva Bancomer"
+            "name": "CLABE",
+            "productAlias": "CLABE BANAMEX"
           },
+          "reasonPayment": "40",
+          "referenceIndicator": 9,
           "token": false
         }
-      },
-      "avatar": {
-        "image": "",
-        "ini": "AV"
       },
       "extendedData": {
         "frequentOperationsCounter": null,
         "reliableOperation": false
       },
-      "typeOperationFreq": "THIRD_PARTY",
-      "accountingOfOpe": "0"
+      "avatar": {
+        "image": "",
+        "ini": "CL"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RJQHE8HA9MWRQH54HF22XH8DS2E95FJVXZBXFR5NSDY7WV9QDQPA",
+      "shortName": "ppE",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {
+                  "interbankCode": "002180700256551903"
+                }
+              }
+            },
+            "email": "ppE@gmail.com",
+            "name": "PREUBAMARY",
+            "productAlias": "CLABE BANAMEX"
+          },
+          "reasonPayment": "40",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RE9A8RXRPRVKDPRQVN3RWJZMRAV9Q1TWA57Z9SJ4J78VN2807YCT",
+      "shortName": "frecuentob",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {}
+              }
+            },
+            "email": "",
+            "name": "TDD OB",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "reasonPayment": "03",
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": null,
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TO"
+      },
+      "typeOperationFreq": "INTERBANK"
     }
-  ]
+  ],
+  "paginationKey": {
+    "nextPaginationKey": ""
+  }
 }
