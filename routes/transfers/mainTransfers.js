@@ -249,19 +249,19 @@ router.get('/V00/QrData', function(req, res, next) {
 // handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='spei' && req.query.cveBank==='0002')
+    if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='spei' || req.query.operationType==='SPEI' && req.query.cveBank==='0002')
         return res.json(bankFound);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos' && req.query.cveBank==='0167')
+    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos' && req.query.cveBank==='0167' || req.query.operationType==='OTROSCREDITOS')
         return res.json(bankFound01);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='spei')
+    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(banksCatalogSpei);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='clabe')
+    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='clabe' || req.query.operationType==='CLABE')
         return res.json(banksCatalogClabe);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='tdd')
+    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='tdd' || req.query.operationType==='TDD')
         return res.json(banksCatalogTdd);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='tdc')
+    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='tdc' || req.query.operationType==='TDC')
         return res.json(banksCatalogTdc);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos')
+    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS')
         return res.json(banksCatalogOtrosCreditos);
 
     return res.status(400).json(banksError);
