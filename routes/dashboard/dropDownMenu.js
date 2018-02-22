@@ -25,6 +25,8 @@ router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if (tsec === '1234567890'){
     return res.status(400).json(ERROR);
+  }else if(tsec === '567890'){
+    return res.json(DATA_06);
   }else if (tsec === '456789012'){
     return res.json(DATA_07);
   }else if(tsec === '123456789' && req.query.page=="posicionGlobal"){
