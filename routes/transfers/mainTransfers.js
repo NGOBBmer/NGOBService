@@ -343,14 +343,12 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     var dayIndicator =req.body.dayIndicator;
 
 
-    if(tsec=="12345678" && frequentId == "FRTT000001"){
-        otp = "11111111";
-    }
+
 
 
     if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
         aplicationDate != "" && aplicationDate != null && tsec != "" && tsec != null &&
-        amount != "" && amount != null && otp == "11111111" && otp != null){
+        amount != "" && amount != null && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
                      if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
@@ -443,13 +441,10 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if(tsec=="12345678" && otherTrasnferFreqId == "FRTT000001"){
-        otp = "11111111";
-    }
 
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
         && tsec != "" && tsec != null 
-        && otp == "11111111" && otp != null){
+        && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
              if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
