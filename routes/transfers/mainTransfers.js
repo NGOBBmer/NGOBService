@@ -343,7 +343,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     var dayIndicator =req.body.dayIndicator;
 
 
-    if(tsec=="12345678" && otherTrasnferFreqId == "FRTT000001"){
+    if(tsec=="12345678" && frequentId == "FRTT000001"){
         otp = "11111111";
     }
 
