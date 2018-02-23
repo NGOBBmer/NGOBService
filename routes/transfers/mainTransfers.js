@@ -442,7 +442,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-        if(otherTrasnferFreqId == "FRTT000001" && tsec=="12345678" ){
+    if(tsec=="12345678" && otherTrasnferFreqId == "FRTT000001"  ){
         otp = "11111111";
     }
 
