@@ -342,7 +342,8 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     var taxReceipt =req.body.taxReceipt;
     var dayIndicator =req.body.dayIndicator;
 
-    if(frequentId == "FRTT000001"){
+
+    if(tsec=="12345678" && otherTrasnferFreqId == "FRTT000001"){
         otp = "11111111";
     }
 
@@ -442,7 +443,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if(tsec=="12345678" && otherTrasnferFreqId == "FRTT000001"  ){
+    if(tsec=="12345678" && otherTrasnferFreqId == "FRTT000001"){
         otp = "11111111";
     }
 
