@@ -10,7 +10,7 @@
 		}
 	}, {
 		"nombre": "Estados de cuenta",
-		"pathUrl": "cellsEstadosDeCuenta",
+		"pathUrl": "cellsDetalleCuenta",
 		"navigation": {
 			"cellsNavigation": true,
 			"typeProductId": "AH",
@@ -89,7 +89,7 @@
 		}
 	}, {
 		"nombre": "Estados de cuenta",
-		"pathUrl": "cellsEstadosDeCuenta",
+		"pathUrl": "cellsDetalleCuenta",
 		"navigation": {
 			"cellsNavigation": true,
 			"typeProductId": "AH",
@@ -930,7 +930,7 @@
 		}
 	}, {
 		"nombre": "Estados de cuenta",
-		"pathUrl": "cellsEstadosDeCuenta",
+		"pathUrl": "cellsDetalleCuenta",
 		"navigation": {
 			"cellsNavigation": true,
 			"typeProductId": "TC",
@@ -1006,7 +1006,7 @@
 		}
 	}, {
 		"nombre": "Estados de cuenta",
-		"pathUrl": "cellsEstadosDeCuenta",
+		"pathUrl": "cellsDetalleCuenta",
 		"navigation": {
 			"cellsNavigation": true,
 			"typeProductId": "TC",
@@ -1082,7 +1082,7 @@
 		}
 	}, {
 		"nombre": "Estados de cuenta",
-		"pathUrl": "cellsEstadosDeCuenta",
+		"pathUrl": "cellsDetalleCuenta",
 		"navigation": {
 			"cellsNavigation": true,
 			"typeProductId": "TC",
