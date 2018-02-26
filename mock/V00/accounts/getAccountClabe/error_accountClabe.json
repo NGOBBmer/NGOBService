@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_TSEC_001",
+    "message": "No se encontro tsec en la peticion",
+    "descripcion": "Se ha producido un error al consultar el servicio /accounts/V00/accounts/getAccountCLABE",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

@@ -50,7 +50,9 @@ var SPERIOD0003 = require('../../mock/V00/accounts/sendAccountStatement/PERIOD00
 var SAS_NO_DATA = require('../../mock/V00/accounts/sendAccountStatement/error_sin_edc.json');
 var SAS_ERROR_ID = require('../../mock/V00/accounts/sendAccountStatement/error_id.json');
 
-
+//getAccountClabe
+var clabe_Ok = require('../../mock/V00/accounts/getAccountClabe/accountClabe.json');
+var clabe_NoOk = require('../../mock/V00/accounts/getAccountClabe/error_accountClabe.json');
 
 
 /* GET users listing. */
@@ -218,6 +220,19 @@ router.post('/V00/accounts/:id/sendAccountStatement', function(req, res, next) {
     
     return res.json(SAS_ERROR_ID);
   }
+  next();
+});
+
+//getAccountClabe
+// accounts/V00/accounts/getAccountCLABE?accountId=AHMXP0000011
+router.post('/V00/accounts/getAccountCLABE', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  var accountId = req.params.accountId;
+  if(tsec == '123456789'){
+    return res.status(400).json(clabe_NoOk);
+  }else{
+    return res.json(clabe_Ok);
+  }   
   next();
 });
 
