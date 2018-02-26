@@ -225,7 +225,7 @@ router.post('/V00/accounts/:id/sendAccountStatement', function(req, res, next) {
 
 //getAccountClabe
 // accounts/V00/accounts/getAccountCLABE?accountId=AHMXP0000011
-router.post('/V00/accounts/getAccountCLABE', function(req, res, next) {
+router.get('/V00/accounts/getAccountCLABE', function(req, res, next) {
   var tsec = req.headers['tsec'];
   var accountId = req.params.accountId;
   if(tsec == '123456789'){
