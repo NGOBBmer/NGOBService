@@ -2,6 +2,7 @@
   "data": {
     "listMovements": [
       {
+        "movementId": "MOVP000001",
         "operationDate": "2017-04-27",
         "reference": "962359",
         "concept": "UBER BV Ñ",
@@ -18,6 +19,13 @@
           "card": "*9053",
           "participant": "TIT."
         },
+        "navigation": [
+          {
+            "cellsNagivation": true,
+            "id": "CLAR",
+            "description": "No reconozco esta operaciòn"
+          }
+        ],
         "category": "G",
         "type": "Cargo",
         "rewardsGenerated": "",
@@ -26,6 +34,7 @@
         "movementPending": true
       },
       {
+        "movementId": "MOVP000002",
         "operationDate": "2017-04-26",
         "reference": "392236",
         "concept": "UBER BV",
@@ -42,6 +51,19 @@
           "card": "*9053",
           "participant": "TIT."
         },
+        "navigation": [
+          {
+            "cellsNagivation": false,
+            "id": "CLAR",
+            "description": "No reconozco esta operaciòn",
+            "pathUrl": "aclaracionesAlta",
+            "params": [
+              {
+                "opcion": "administrar"
+              }
+            ]
+          }
+        ],
         "category": "G",
         "type": "Cargo",
         "rewardsGenerated": "",

@@ -1,52 +1,77 @@
 {
-    "data": {
-        "listMovements": [{
-            "operationDate": "2016-02-01",
-            "reference": "059339010719365026DATES",
-            "concept": "SAMS CLUB",
-            "amount": {
-                "amount": "59",
-                "currency": "MXN"
-            },
-            "postedBalance": {
-                "amount": "",
-                "currency": "MXN"
-            },
-            "card": {
-                "idSubCard": "TJ0000",
-                "card": "****1924",
-                "participant": "TIT."
-            },
-            "category": "G",
-            "type": "Cargo",
-            "rewardsGenerated": "",
-            "rewardsconsumed": "",
-            "deferred": false,
-            "movementPending": true
-        }, {
-            "operationDate": "2016-02-01",
-            "reference": "05933901071936502668504",
-            "concept": "SAMBORNS",
-            "amount": {
-                "amount": "59",
-                "currency": "MXN"
-            },
-            "postedBalance": {
-                "amount": "",
-                "currency": "MXN"
-            },
-            "card": {
-                "idSubCard": "TJ0000",
-                "card": "****1924",
-                "participant": "TIT."
-            },
-            "category": "G",
-            "type": "Cargo",
-            "rewardsGenerated": "",
-            "rewardsconsumed": "",
-            "deferred": false,
-            "movementPending": true
-        }],
-        "paginationKey": "AHYASEMEOCURRIOUNO"
-    }
+  "data": {
+    "listMovements": [
+      {
+        "movementId": "MOVP000001",
+        "operationDate": "2016-02-01",
+        "reference": "059339010719365026DATES",
+        "concept": "SAMS CLUB",
+        "amount": {
+          "amount": "59",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "TJ0000",
+          "card": "****1924",
+          "participant": "TIT."
+        },
+        "navigation": [
+          {
+            "cellsNagivation": true,
+            "id": "CLAR",
+            "description": "No reconozco esta operaciòn"
+          }
+        ],
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": true
+      },
+      {
+        "movementId": "MOVP000002",
+        "operationDate": "2016-02-01",
+        "reference": "05933901071936502668504",
+        "concept": "SAMBORNS",
+        "amount": {
+          "amount": "59",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "TJ0000",
+          "card": "****1924",
+          "participant": "TIT."
+        },
+        "navigation": [
+          {
+            "cellsNagivation": false,
+            "id": "CLAR",
+            "description": "No reconozco esta operaciòn",
+            "pathUrl": "aclaracionesAlta",
+            "params": [
+              {
+                "opcion": "administrar"
+              }
+            ]
+          }
+        ],
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": true
+      }
+    ],
+    "paginationKey": "AHYASEMEOCURRIOUNO"
+  }
 }

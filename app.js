@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var cheques = require('./routes/cheques');
 var cards = require('./routes/cards');
+var clarifications = require('./routes/clarifications');
 var pg = require('./routes/pg');
 var operations = require('./routes/operations');
 var transfers = require('./routes/transfers');
@@ -38,6 +39,7 @@ var headlinesAccounts = require('./routes/dashboard/headlinesAccounts');
 var mainTransfers = require('./routes/transfers/mainTransfers');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
+var mainClarifications = require('./routes/clarifications/mainClarifications');
 
 
 var app = express();
@@ -95,6 +97,8 @@ app.use('/transfers', transfers)
 app.use('/transfers', mainTransfers);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
+app.use('/clarifications', clarifications);
+app.use('/clarifications', mainClarifications);
 
 
 // catch 404 and forward to error handler

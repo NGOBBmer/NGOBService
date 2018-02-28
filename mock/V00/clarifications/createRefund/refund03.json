@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_CLAR_002",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "EL MOVIMIENTO NO FUE UNA COMPRA > NO APLICA DEVOLUCIÓN",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}
