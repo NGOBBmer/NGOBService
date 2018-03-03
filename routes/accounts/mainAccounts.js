@@ -243,9 +243,9 @@ router.get('/V00/accounts/getAccountCLABE', function(req, res, next) {
 //accounts/V00/accounts/getLoanOffer?accountId={accountId}
 router.get('/V00/accounts/getLoanOffer', function(req, res, next) {
    var tsec = req.headers['tsec'];
-   if(tsec == '098776' && req.params.accountId != null  || req.params.accountId != undefined){
+   if(tsec == '098776'){
       return res.json(case1);
-   }else if(tsec == '12345' && req.params.accountId != null  || req.params.accountId != undefined){
+   }else if(tsec == '12345'){
       return res.json(case2);
    }else{
       return res.status(406).json(caseError);
