@@ -1,0 +1,17 @@
+{
+  "data": {
+    "isValidOffer": "true",
+    "purchaseAmount": "10000.00",
+    "debitCard": "*1111"
+  },
+  "navigation": {
+    "cellsNavigation": "false",
+    "params": {
+      "idPromocion": "0060CAM0902180001",
+      "origen": "oneClic"
+    },
+    "typeProductId": "AH",
+    "nombre": "Financiamiento de Compras",
+    "pathUrl": "promocionPrestamoPersonal"
+  }
+}

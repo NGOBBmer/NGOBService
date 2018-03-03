@@ -54,6 +54,10 @@ var SAS_ERROR_ID = require('../../mock/V00/accounts/sendAccountStatement/error_i
 var clabe_Ok = require('../../mock/V00/accounts/getAccountClabe/accountClabe.json');
 var clabe_NoOk = require('../../mock/V00/accounts/getAccountClabe/error_accountClabe.json');
 
+//getLoanOffer
+var case1 = require('../../mock/V00/accounts/getLoanOffer/case1.json');
+var case2 = require('../../mock/V00/accounts/getLoanOffer/case2.json');
+var caseError = require('../../mock/V00/accounts/getLoanOffer/caseError.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -235,5 +239,18 @@ router.get('/V00/accounts/getAccountCLABE', function(req, res, next) {
   }   
   next();
 });
+
+//accounts/V00/accounts/getLoanOffer?accountId={accountId}
+router.get('/V00/accounts', function(req, res, next) {
+   var tsec = req.headers['tsec'];
+   if(tsec == '098776' && req.params.accountId != null  || req.params.accountId != undefined){
+      return res.json(case1);
+   }else if(tsec == '12345' && req.params.accountId != null  || req.params.accountId != undefined){
+      return res.json(case2);
+   }else{
+      return res.status(406).json(caseError);
+   } 
+    next();
+  });
 
 module.exports = router;
