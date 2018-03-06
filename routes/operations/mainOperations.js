@@ -120,7 +120,7 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'INTERBANK')
         return res.json(allowFastI);
     }else {
-      if ((tsec === '34567890') && req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
+      if ((tsec === '34567890') && req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
         return res.json(allowRec01);
       else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
         return res.json(allowRecT);
