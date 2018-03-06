@@ -45,6 +45,7 @@ var mapaWeek = ["init",
 //allowOperations
 var allowRecI = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_I.json');
 var allowRecT = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_T.json');
+var allowRec01 = require('../../mock/V00/operations/allowAgileOperations/allow_Recurring_01.json');
 var allowFastT = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_01.json');
 var allowFastI = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_02.json');
 
@@ -121,6 +122,8 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
     }else {
       if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
         return res.json(allowRecT);
+      else if ((tsec === '34567890') && req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
+        return res.json(allowRec01);
       else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
         return res.json(allowRecI);
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'THIRD_PARTY')
