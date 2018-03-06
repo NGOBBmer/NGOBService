@@ -18,6 +18,7 @@ var dashboard_06_INMXP = require('../../mock/V00/dashboard/dashboard/dashboard_0
 var dashboard_06_INUSD = require('../../mock/V00/dashboard/dashboard/dashboard_06_INUSD.json');
 var dashboard_error = require('../../mock/V00/dashboard/dashboard/dashboard_error.json');
 var dashboard_error_02 = require('../../mock/V00/dashboard/dashboard/error_01.json');
+var dashboard_monoprod= require('../../mock/V00/dashboard/dashboard/dashboardMonoproducto.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {

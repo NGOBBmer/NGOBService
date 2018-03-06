@@ -1,0 +1,78 @@
+{
+  "product": {
+    "checkAccount": [{
+        "assigned": {
+          "hasPocket": false,
+          "isNominated": true,
+          "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 14235.11,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "accountType": "cuentaChequera",
+          "alias": "",
+          "number": "1192779609",
+          "typeId": "AH"
+        },
+        "description": "Cuenta en Pesos",
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "navigation": {
+          "cellsNavigation": true,
+          "pathNavigation": {
+            "cellsNavigation": false,
+            "params": {
+              "idcuenta": "AHMXP0000001",
+              "tipoCuenta": "cuentaChequera"
+            },
+            "pathUrl": "detalleCuenta"
+          }
+        },
+        "productId": "AHMXP0000001"
+      },
+      {
+        "assigned": {
+          "hasPocket": false,
+          "isNominated": false
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 5464.62,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "accountType": "cuentaChequera",
+          "alias": "",
+          "number": "2777532628",
+          "typeId": "AH"
+        },
+        "description": "Cuenta en Pesos",
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "navigation": {
+          "cellsNavigation": true,
+          "pathNavigation": {
+            "cellsNavigation": false,
+            "params": {
+              "idcuenta": "AHMXP0000002",
+              "tipoCuenta": "cuentaChequera"
+            },
+            "pathUrl": "detalleCuenta"
+          }
+        }
+      }
+    ]
+  }
+}
