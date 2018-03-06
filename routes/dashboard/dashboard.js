@@ -38,7 +38,9 @@ router.get('/V00/dashboard', function(req, res, next) {
     var filters = getFilters(req.query.$filter);
 
     var tsec = req.headers['tsec'];
-    if (tsec === '456789012' && filters[0] === 'productType==TT'){
+    if (tsec === '9412' && filters[0] === 'productType==TT'){
+        return res.json(dashboard_monoprod);
+    }else if (tsec === '456789012' && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);
     }else if(tsec === '2345678' && filters[0] === 'productType==TT'){
         return res.json(dashboard_SI_IN);
