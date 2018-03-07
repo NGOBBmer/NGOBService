@@ -9,6 +9,7 @@ var urlJson = '../mock/V00/cards/cardDetail/';
 var cutOffDate = '';
 var paymentDate = '';
 var flag = false;
+var CARD_DETAIL_NEW = require('../mock/V00/cards/cardDetail/newTDC.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -77,7 +78,13 @@ router.get('/V00/cards/:id', function(req, res, next) {
 
 // handler for query http://localhost:3001/cards/V00/cards?id=TCMXP0000003
 router.get('/V00/cards', function(req, res, next) {
+  var tsec = req.headers['tsec'];
   if (req.query && req.query.id) {
+    if(tsec === '12345678'){
+      if (req.query && req.query.id == 'TCMXP0000001')  {
+        return res.json(CARD_DETAIL_NEW);
+      }
+    }
     if (req.query && req.query.id == 'TCMXP0000001')  {
       return res.json(TCMXP0000001);
     }
