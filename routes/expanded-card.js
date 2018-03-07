@@ -25,7 +25,7 @@ router.use(function(req, res, next) {
 router.get('/V00/cards/:id', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if(tsec === '12345678'){
-      if (req.query && req.query.id == 'TCMXP0000001')  {
+      if (req.params && req.params.id == 'TCMXP0000001')  {
         return res.json(CARD_DETAIL_NEW);
       }
   }
