@@ -23,6 +23,12 @@ router.use(function(req, res, next) {
 
 // handler for params http://localhost:3001/cards/V00/cards/TCMXP0000003
 router.get('/V00/cards/:id', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  if(tsec === '12345678'){
+      if (req.query && req.query.id == 'TCMXP0000001')  {
+        return res.json(CARD_DETAIL_NEW);
+      }
+  }
   if (req.params && req.params.id) {
     if (req.params && req.params.id) {
       if (req.params && req.params.id == 'TCMXP0000001') {
