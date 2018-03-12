@@ -284,10 +284,10 @@
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "TC",
           "tab": "a",
           "params": {
-            "idcuenta": "AHMXP0000001",
+            "idcuenta": "TCMXP0000001",
             "tipoCuenta": "cuentaChequera"
           }
         }
@@ -366,10 +366,10 @@
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "TC",
           "tab": "a",
           "params": {
-            "idcuenta": "AHMXP0000001",
+            "idcuenta": "TCMXP0000002",
             "tipoCuenta": "cuentaChequera"
           }
         }
@@ -448,10 +448,10 @@
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "TC",
           "tab": "a",
           "params": {
-            "idcuenta": "AHMXP0000001",
+            "idcuenta": "TCMXP0000003",
             "tipoCuenta": "cuentaChequera"
           }
         }
@@ -530,10 +530,10 @@
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "TC",
           "tab": "a",
           "params": {
-            "idcuenta": "AHMXP0000001",
+            "idcuenta": "TCMXP0000004",
             "tipoCuenta": "cuentaChequera"
           }
         }
@@ -612,10 +612,10 @@
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "TCP",
           "tab": "a",
           "params": {
-            "idcuenta": "AHMXP0000001",
+            "idcuenta": "TCMXP0000005",
             "tipoCuenta": "cuentaChequera"
           }
         }
@@ -694,10 +694,10 @@
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "TCP",
           "tab": "a",
           "params": {
-            "idcuenta": "AHMXP0000001",
+            "idcuenta": "TCMXP0000006",
             "tipoCuenta": "cuentaChequera"
           }
         }
@@ -776,10 +776,10 @@
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "TCP",
           "tab": "a",
           "params": {
-            "idcuenta": "AHMXP0000001",
+            "idcuenta": "TCMXP0000006",
             "tipoCuenta": "cuentaChequera"
           }
         }
