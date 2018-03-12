@@ -279,6 +279,18 @@
             "cuenta": "TCMXP0000001"
           }
         }
+      },{
+        "nombre": "Estado de cuenta",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "AH",
+          "tab": "a",
+          "params": {
+            "idcuenta": "AHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
+          }
+        }
       },
       {
         "nombre": "Definir alias",
@@ -347,6 +359,18 @@
           "typeProductId": "TC",
           "params": {
             "cuenta": "TCMXP0000002"
+          }
+        }
+      },{
+        "nombre": "Estado de cuenta",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "AH",
+          "tab": "a",
+          "params": {
+            "idcuenta": "AHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
           }
         }
       },
@@ -419,6 +443,18 @@
             "cuenta": "TCMXP0000003"
           }
         }
+      },{
+        "nombre": "Estado de cuenta",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "AH",
+          "tab": "a",
+          "params": {
+            "idcuenta": "AHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
+          }
+        }
       },
       {
         "nombre": "Definir alias",
@@ -487,6 +523,18 @@
           "typeProductId": "TC",
           "params": {
             "cuenta": "TCMXP0000004"
+          }
+        }
+      },{
+        "nombre": "Estado de cuenta",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "AH",
+          "tab": "a",
+          "params": {
+            "idcuenta": "AHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
           }
         }
       },
@@ -559,6 +607,18 @@
             "cuenta": "TCMXP0000005"
           }
         }
+      },{
+        "nombre": "Estado de cuenta",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "AH",
+          "tab": "a",
+          "params": {
+            "idcuenta": "AHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
+          }
+        }
       },
       {
         "nombre": "Definir alias",
@@ -629,6 +689,18 @@
             "cuenta": "TCMXP0000006"
           }
         }
+      },{
+        "nombre": "Estado de cuenta",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "AH",
+          "tab": "a",
+          "params": {
+            "idcuenta": "AHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
+          }
+        }
       },
       {
         "nombre": "Definir alias",
@@ -697,6 +769,18 @@
           "typeProductId": "TC",
           "params": {
             "cuenta": "TCMXP0000007"
+          }
+        }
+      },{
+        "nombre": "Estado de cuenta",
+        "pathUrl": "cellsDetalleTarjetaCredito",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "AH",
+          "tab": "a",
+          "params": {
+            "idcuenta": "AHMXP0000001",
+            "tipoCuenta": "cuentaChequera"
           }
         }
       },
