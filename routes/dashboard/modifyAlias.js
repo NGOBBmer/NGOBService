@@ -34,7 +34,7 @@ router.post('/V00/modifyAlias/:id', function(req, res, next) {
     if (req.params.id == 'AHMXP0000001' || req.params.id == 'TCMXP0000001'){
         var filePath = path.join(__dirname, dashboard_roor);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        json.product.savingAccount[0].branch.alias=alias;
+        json.product.checkAccount[0].branch.alias=alias;
         var nvoJson = JSON.stringify(json);
         fs.truncate(filePath, 0, function() {
             fs.writeFile(filePath, nvoJson , function (err) {
@@ -47,7 +47,7 @@ router.post('/V00/modifyAlias/:id', function(req, res, next) {
     }else  if (tsec != null || tsec==='456789012' || req.params.id == 'SIMXP0000002'){
         var filePath = path.join(__dirname, dashboard_roor);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        json.product.savingAccount[0].branch.alias=alias;
+        json.product.checkAccount[0].branch.alias=alias;
         var nvoJson = JSON.stringify(json);
         fs.truncate(filePath, 0, function() {
             fs.writeFile(filePath, nvoJson , function (err) {

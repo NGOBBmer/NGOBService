@@ -5,7 +5,7 @@
         "productId": "AHMXP0000001",
         "branch": {
           "number": "1402321858",
-          "alias": "AliasPr001",
+          "alias": "",
           "typeId": "AH",
           "accountType": "cuentaChequera"
         },
@@ -35,7 +35,7 @@
           "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
       },
-       {
+      {
         "productId": "CHMXP0000002",
         "branch": {
           "number": "1234567890",
@@ -43,7 +43,7 @@
           "typeId": "AH",
           "accountType": "cuentaChequera"
         },
-         "balance": {
+        "balance": {
           "availableBalance": {
             "amount": 345678.25,
             "currency": "Pesos",
@@ -86,7 +86,7 @@
           "typeId": "TC",
           "accountType": "tarjetasCredito"
         },
-         "balance": {
+        "balance": {
           "availableBalance": {
             "amount": 19137.2,
             "currency": "Pesos",
@@ -240,9 +240,9 @@
           "accountType": "inversionesMxp",
           "alias": "PRalias"
         },
-         "balance": {
+        "balance": {
           "availableBalance": {
-            "amount": 28.90,
+            "amount": 28.9,
             "currencyId": "MXP"
           }
         },
