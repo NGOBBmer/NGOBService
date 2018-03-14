@@ -1,21 +1,20 @@
 {
-    "data": {
-        "concept": "concepto prueba",
-        "receiver": {
-            "mobile": "5571904507"
-        },
-        "sentMoney": [{
-            "amount": 300,
-            "currency": "MXN",
-            "isMajor": true
-        }],
-        "date": "2017-05-26T11:30:58",
-        "dueDate": "2017-06-02T00:00:00.0-0500",
-        "references": [{
-            "id": "TRACKING",
-            "name": "Tracking",
-            "value": "031881803607"
-        }],
-        "mobileTransferId": "0020044012"
-    }
+  "data": {
+    "receiver": {},
+    "sentMoney": [
+      {
+        "amount": 100.0,
+        "currency": "MXN"
+      }
+    ],
+    "date": "2018-03-13T19:06",
+    "dueDate": "2018-03-20T19:06",
+    "withdrawalCodes": [
+      {
+        "id": "SENDER_CODE",
+        "value": "1234"
+      }
+    ],
+    "mobileTransferId": "0042162018"
+  }
 }
