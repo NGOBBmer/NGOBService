@@ -2,7 +2,7 @@
   "data": {
     "listMovements": [
       {
-        "movementId": "MOVP000001",
+        "movementId": "MOVT000001",
         "operationDate": "2017-04-27",
         "reference": "962359",
         "concept": "UBER BV Ñ",
@@ -19,13 +19,6 @@
           "card": "*9053",
           "participant": "TIT."
         },
-        "navigation": [
-          {
-            "cellsNagivation": true,
-            "id": "CLAR",
-            "description": "No reconozco esta operaciòn"
-          }
-        ],
         "category": "G",
         "type": "Cargo",
         "rewardsGenerated": "",
@@ -34,7 +27,7 @@
         "movementPending": true
       },
       {
-        "movementId": "MOVP000002",
+        "movementId": "MOVP000001",
         "operationDate": "2017-04-26",
         "reference": "392236",
         "concept": "UBER BV",
@@ -72,6 +65,7 @@
         "movementPending": true
       },
       {
+        "movementId": "MOVP000002",
         "operationDate": "2017-04-22",
         "reference": "74796317112389505521388",
         "concept": "UBER MX APR22 PU25I HELP.",
@@ -93,9 +87,23 @@
         "rewardsGenerated": "",
         "rewardsconsumed": "",
         "deferred": false,
-        "movementPending": false
+        "movementPending": false,
+        "navigation": [
+          {
+            "cellsNagivation": false,
+            "id": "CLAR",
+            "description": "No reconozco esta operaciòn",
+            "pathUrl": "aclaracionesAlta",
+            "params": [
+              {
+                "opcion": "administrar"
+              }
+            ]
+          }
+        ]
       },
       {
+        "movementId": "MOVP000003",
         "operationDate": "2017-04-21",
         "reference": "74518997111688873769611",
         "concept": "PAGOCON*SINDELANTALMX",
@@ -117,9 +125,23 @@
         "rewardsGenerated": "",
         "rewardsconsumed": "",
         "deferred": false,
-        "movementPending": false
+        "movementPending": false,
+        "navigation": [
+          {
+            "cellsNagivation": false,
+            "id": "CLAR",
+            "description": "No reconozco esta operaciòn",
+            "pathUrl": "aclaracionesAlta",
+            "params": [
+              {
+                "opcion": "administrar"
+              }
+            ]
+          }
+        ]
       },
       {
+        "movementId": "MOVP000004",
         "operationDate": "2017-04-16",
         "reference": "74082347106256475680395",
         "concept": "CONEKTA*SINDELANTAL",
@@ -136,6 +158,13 @@
           "card": "*5118",
           "participant": "Additional"
         },
+        "navigation": [
+          {
+            "cellsNagivation": true,
+            "id": "CLAR",
+            "description": "No reconozco esta operaciòn"
+          }
+        ],
         "category": "G",
         "type": "Cargo",
         "rewardsGenerated": "",

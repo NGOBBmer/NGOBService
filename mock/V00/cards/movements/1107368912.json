@@ -2,7 +2,7 @@
   "data": {
     "listMovements": [
       {
-        "movementId": "MOVP000001",
+        "movementId": "MOVT000001",
         "operationDate": "01/03/2016",
         "reference": "74931616061981002663415",
         "concept": "7ELEVEN",
@@ -19,13 +19,6 @@
           "card": "****1924",
           "participant": "TIT."
         },
-        "navigation": [
-          {
-            "cellsNagivation": true,
-            "id": "CLAR",
-            "description": "No reconozco esta operaciòn"
-          }
-        ],
         "category": "G",
         "type": "Cargo",
         "rewardsGenerated": "",
@@ -34,6 +27,7 @@
         "movementPending": true
       },
       {
+        "movementId": "MOVP000001",
         "operationDate": "01/03/2016",
         "reference": "74931616061981002663431",
         "concept": "SAT REFERENCIADO",
