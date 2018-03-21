@@ -20,6 +20,12 @@ router.use(function(req, res, next) {
 
 // handler for query http://localhost:4000/cards/V00/cards/TCMXP0000001/periods?paginationKey=
 router.get('/V00/cards/:id/periods/', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  if(tsec === '045678'){
+    return res.status(400).json(AS_NO_DATA);
+  }else if(tsec === '12045678'){
+    return res.status(400).json(AS_ERROR_ID);
+  }
 	if(req.params && req.params.id){
 	    if (req.params && req.params.id == 'TCMXP0000001')  {
         if (req.query.paginationKey != "" && req.query.paginationKey != null){
