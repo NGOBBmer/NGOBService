@@ -29,6 +29,9 @@ router.get('/V00/cards/:id', function(req, res, next) {
         return res.json(CARD_DETAIL_NEW);
       }
   }
+  if(tsec === '045678'){
+    return res.json(CARD_DETAIL_SERVICE_ERROR);
+  }
   if (req.params && req.params.id) {
     if (req.params && req.params.id) {
       if (req.params && req.params.id == 'TCMXP0000001') {
