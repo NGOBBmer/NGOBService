@@ -22,9 +22,9 @@ router.use(function(req, res, next) {
 router.get('/V00/cards/:id/periods/', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if(tsec === '045678'){
-    return res.status(400).json(AS_NO_DATA);
+    return res.status(403).json(AS_NO_DATA);
   }else if(tsec === '12045678'){
-    return res.status(400).json(AS_ERROR_ID);
+    return res.status(403).json(AS_ERROR_ID);
   }
 	if(req.params && req.params.id){
 	    if (req.params && req.params.id == 'TCMXP0000001')  {
