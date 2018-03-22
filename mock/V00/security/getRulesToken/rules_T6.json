@@ -1,0 +1,12 @@
+{
+  "data": {
+    "deviceType": "T6",
+    "navigation": {
+      "cellsNavigation": true
+    },
+    "simpleValidation": {
+      "simpleValidation": true
+    },
+    "tokenValidation": true
+  }
+}

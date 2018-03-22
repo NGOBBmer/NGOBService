@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "SEC0002",
+    "message": "Operacion invalida",
+    "descripcion": "Se ha producido un error al consultar el servicio /security/V00/getRulesToken",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "deviceType": "S1",
+    "navigation": {
+      "cellsNavigation": true
+    },
+    "opticalValidation": {
+      "opticalValidation": true,
+      "doubleFactorValidation": true
+    },
+    "tokenValidation": true
+  }
+}

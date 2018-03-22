@@ -41,12 +41,13 @@ router.get('/V00/cards', function(req, res, next) {
 // handler for query http://localhost:4000/cards/V00/cards/welcomeKit/TCMXP0000002
 router.get('/V00/cards/welcomeKit/:id', function(req, res, next) {
   var tsec = req.headers['tsec'];
+   if(tsec == '12345'){
+    return res.json(error);
+  }
   if(req.params.id == 'TCMXP0000001'){  
     return res.json(wkOro);
   }else if(req.params.id != ''){  
     return res.json(wkAzul);
-  }else if(tsec == '12345' && req.params.id == 'TCMXP0000001'){
-    return res.json(error);
   }
     
   });

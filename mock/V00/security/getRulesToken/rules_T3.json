@@ -1,0 +1,12 @@
+{
+  "data": {
+    "deviceType": "T3",
+    "navigation": {
+      "cellsNavigation": true
+    },
+    "simpleValidation": {
+      "simpleValidation": true
+    },
+    "tokenValidation": true
+  }
+}

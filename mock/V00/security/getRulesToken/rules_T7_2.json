@@ -1,0 +1,13 @@
+{
+  "data": {
+    "deviceType": "T7",
+    "navigation": {
+      "cellsNavigation": true
+    },
+    "opticalValidation": {
+      "opticalValidation": true,
+      "doubleFactorValidation": false
+    },
+    "tokenValidation": true
+  }
+}
