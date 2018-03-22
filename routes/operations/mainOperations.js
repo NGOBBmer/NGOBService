@@ -66,6 +66,10 @@ var HTML_NOMOVS = require('../../mock/V00/operations/documents/html_nomovs.json'
 var HTML_PRINT = require('../../mock/V00/operations/documents/html_print.json');
 var XLS = require('../../mock/V00/operations/documents/xls.json');
 var NOK = require('../../mock/V00/operations/documents/error.json');
+var PDF_PG_01 = require('../../mock/V00/operations/documents/pdf_pg_01.json');
+var PDF_PG_02 = require('../../mock/V00/operations/documents/pdf_pg_02.json');
+var PDF_PG_03 = require('../../mock/V00/operations/documents/pdfImpresionPG.json');
+
 
 //suggestedOperations
 var SLISTA_ALL = require('../../mock/V00/operations/suggestedOperations/lista_all.json');
@@ -350,8 +354,18 @@ router.get('/V00/deleteActionalAdvice', function(req, res, next) {
 
 */
 router.post('/V00/getPDFDocuments', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  if (tsec == '1234567890'){
+    return res.json(pdf_pg_02);
+  }else  if (tsec == '8796787'){
+    return res.json(pdf_pg_03);
+  }
   if (req.body.type=="pdf"){
-    return res.json(PDF);
+    if(req.body.businessFlow=="pg" || req.body.businessFlow=="PG"){
+      return res.json(pdf_pg_01);
+    }else {
+     return res.json(PDF);
+    }
   }else if (req.body.type=="html"){
     if (req.body.productId=="TCMXP0000001")
       return res.json(HTML_TC);
