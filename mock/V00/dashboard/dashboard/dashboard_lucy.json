@@ -181,6 +181,536 @@
         },
         "productId": "TCMXP0000002"
       }
+    ],"investmentsFund": [
+      {
+        "productId": "SIMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034722256",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034722418",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000003",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034727649",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000004",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034727657",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000005",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034727665",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000006",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034730356",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000007",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034722299",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000008",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034722329",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000009",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034722345",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000010",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034722876",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000011",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034724003",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000012",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034724127",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000013",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034724143",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000014",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034724259",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000015",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034724275",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000016",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034726359",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000017",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034726367",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000018",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034727371",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000019",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034730380",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000020",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034730399",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000021",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034730402",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000022",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034731786",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000023",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2034733150",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
     ],
     "investments": [
       {
