@@ -391,8 +391,11 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
              }
         }
 
-
-        return res.json(RESP_OK); 
+        if(tsec == "1234567890"){
+         return res.json(OK_interbank_traking); 
+        }else{
+            return res.json(OK_interbank); 
+        }
     }else{
        return res.json(error_line); 
     }
