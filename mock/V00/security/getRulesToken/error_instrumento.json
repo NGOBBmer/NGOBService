@@ -1,17 +1,14 @@
 {
-  "data": {
-    "deviceType": "T1",
-    "navigation": {
-      "cellsNavigation": false,
-      "pathNavigation": {
-        "pathUrl": "actualizaToken",
-        "id": "INVALID_TOKEN",
-        "description": "Instrumento no soporta validacion optica",
-        "params": {
-          "origen": "reglasSeguridad"
-        }
+  "typeValidation": "INVALID",
+  "navigation": {
+    "cellsNavigation": false,
+    "pathNavigation": {
+      "pathUrl": "actualizaToken",
+      "id": "INVALID_TOKEN",
+      "description": "Instrumento no soporta validacion optica",
+      "params": {
+        "origen": "reglasSeguridad"
       }
-    },
-    "tokenValidation": true
+    }
   }
 }

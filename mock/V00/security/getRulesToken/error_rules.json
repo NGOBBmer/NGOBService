@@ -1,8 +1,8 @@
 {
   "error": {
-    "code": "SEC0002",
-    "message": "Operacion invalida",
-    "descripcion": "Se ha producido un error al consultar el servicio /security/V00/getRulesToken",
+    "code": "QYED001",
+    "message": "OPERACION NO DISPONIBLE",
+    "descripcion": "Se ha producido un error al consultar el servicio /security/V00/getOpticalValidation",
     "version": "1",
     "severity": "FATAL",
     "httpStatus": "400"

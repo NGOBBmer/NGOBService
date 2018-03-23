@@ -1,0 +1,10 @@
+{
+  "typeValidation": "OCRA_DATA",
+  "navigation": {
+    "cellsNavigation": true
+  },
+  "ocraData": {
+    "beneficiaryName": "MANUEL LOPEZ",
+    "beneficiaryAccount": "1234567890"
+  }
+}
