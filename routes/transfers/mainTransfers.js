@@ -43,6 +43,12 @@ var OK = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok.jso
 var OK_period = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok_period.json'); 
 var ERROR = require('../../mock/V00/transfers/otherAccountsTransfer/response_err.json');
 
+var OK_interbank_traking = require('../../mock/V00/transfers/interbankTransfers/response_ok_traking.json'); 
+var OK_interbank = require('../../mock/V00/transfers/interbankTransfers/response_ok.json'); 
+var OK_interbank_period = require('../../mock/V00/transfers/interbankTransfers/response_ok_period.json'); 
+var OK_interbank_traking_period = require('../../mock/V00/transfers/interbankTransfers/response_ok_period.json'); 
+
+
 var error_period = require('../../mock/V00/transfers/interbankTransfers/intert_error_prog.json'); 
 var error_tax = require('../../mock/V00/transfers/interbankTransfers/intert_error_tax.json'); 
 var error_line = require('../../mock/V00/transfers/interbankTransfers/intert_error_line.json');
@@ -354,20 +360,28 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                      if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
                             if (taxReceipt){
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
-                                    return res.json(OK_period);
+                                    if(tsec == "1234567890"){
+                                        return res.json(OK_interbank_traking);
+                                    }else{
+                                        return res.json(OK_interbank);
+                                    }
                                  }else{
                                     return res.json(error_tax); 
                                  }
                               }
-
-                              return res.json(OK_period);
+                              if(tsec == "1234567890"){
+                                return res.json(OK_interbank_period);
+                              }else{
+                                return res.json(OK_interbank_traking_period);
+                                
+                              }
                      }else{
                         return res.json(error_period); 
                      }
         }
         if (taxReceipt){
              if (iva != '' && rfc != '' &&  iva != null && rfc != null){
-                return res.json(RESP_OK);
+                return res.json(OK_interbank);
              }else{
                 return res.json(error_tax); 
              }
