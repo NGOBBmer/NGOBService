@@ -62,7 +62,7 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
   } else if(tsec === '556790' && req.body.idOperation === 'RSTPG'){
     return res.json(simple_validation);
   }else if(tsec === '34567' && req.body.idOperation === 'RSTPG'){
-    return res.status(400).json(error_inst);
+    return res.json(error_inst);
   }else if(req.body.idOperation === 'RSTPG'){
     return res.status(400).json(error_rules);
   }
