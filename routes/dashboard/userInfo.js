@@ -22,18 +22,26 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:3000/dashboard/V00/userInfo?filter=email
 router.get('/V00/userInfo', function(req, res, next) {
   var tsec = req.headers['tsec'];
+  if(tsec === '')
+    return res.json(userInfo_error);
   if (tsec == 'giovanni')
     return res.json(userInfo_user04)
-  else if (tsec == '123456')
+  else if (tsec == '123456789')
     return res.json(userInfo_user01)
+ else if (tsec == '890765')
+    return res.json(userInfo_user01)
+  else if (tsec == '556790')
+    return res.json(userInfo_user01)
+  else if (tsec == '123456')
+    return res.json(userInfo_user01)  
   else if (tsec == 'qrcronto')
     return res.json(userInfo_user03)
   else if (tsec == '12347823')
     return res.json(userInfo_user01)
 	else
     return res.json(userInfo_user02);
-
-  return res.json(userInfo_error);
+  return res.json(userInfo_user01)
+  
 
     
   });

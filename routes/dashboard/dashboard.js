@@ -19,6 +19,7 @@ var dashboard_06_INUSD = require('../../mock/V00/dashboard/dashboard/dashboard_0
 var dashboard_error = require('../../mock/V00/dashboard/dashboard/dashboard_error.json');
 var dashboard_error_02 = require('../../mock/V00/dashboard/dashboard/error_01.json');
 var dashboard_monoprod= require('../../mock/V00/dashboard/dashboard/dashboardMonoproducto.json');
+var dashboard_especial = require('../../mock/V00/dashboard/dashboard/dashboard_especial.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -38,7 +39,9 @@ router.get('/V00/dashboard', function(req, res, next) {
     var filters = getFilters(req.query.$filter);
 
     var tsec = req.headers['tsec'];
-    if (tsec === '9412' && filters[0] === 'productType==TT'){
+    if (tsec === '091111' && filters[0] === 'productType==TT'){
+        return res.json(dashboard_especial);
+    }else if (tsec === '9412' && filters[0] === 'productType==TT'){
         return res.json(dashboard_monoprod);
     }else if (tsec === '456789012' && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);

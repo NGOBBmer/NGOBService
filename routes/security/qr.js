@@ -5,13 +5,11 @@ var QR_IMAGE = require('../../mock/V00/security/qr/qr_image.json');
 var QR_ERROR = require('../../mock/V00/security/qr/qr_error.json');
 
 //getRulesToken
-var rules_s1 = require('../../mock/V00/security/getRulesToken/rules_S1.json');
-var rules_s2 = require('../../mock/V00/security/getRulesToken/rules_S2.json');
-var rules_t1 = require('../../mock/V00/security/getRulesToken/rules_T1.json');
-var rules_t7_2 = require('../../mock/V00/security/getRulesToken/rules_T7_2.json');
-var rules_t3 = require('../../mock/V00/security/getRulesToken/rules_T3.json');
-var rules_t6 = require('../../mock/V00/security/getRulesToken/rules_T6.json');
-var rules_t7 = require('../../mock/V00/security/getRulesToken/rules_T7.json');
+var rules_s1 = require('../../mock/V00/security/getRulesToken/S1.json');
+var rules_s2 = require('../../mock/V00/security/getRulesToken/S2.json');
+var simple_validation = require('../../mock/V00/security/getRulesToken/simple_validation.json');
+var ocra = require('../../mock/V00/security/getRulesToken/ocra.json');
+var rules_t7 = require('../../mock/V00/security/getRulesToken/T7.json');
 var error_inst = require('../../mock/V00/security/getRulesToken/error_instrumento.json');
 var error_rules = require('../../mock/V00/security/getRulesToken/error_rules.json');
 
@@ -45,27 +43,28 @@ router.post('/V00/getQR', function(req, res, next) {
   next();
 });
 
-//security/V00/getRulesToken?idOperation=RSTPG
-router.get('/V00/getRulesToken', function(req, res, next) {
+//security/V00/getOpticalValidation
+/*{
+  "idOperation": "RSTPG",
+  "beneficiaryName": "",
+  "beneficiaryAccount": ""
+}*/
+router.post('/V00/getOpticalValidation', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if(tsec === '123456789' && req.query.idOperation === 'RSTPG'){
+  if(tsec === '123456789' && req.body.idOperation === 'RSTPG'){
     return res.json(rules_s1);
-  } else if(tsec == undefined && req.query.idOperation === 'RSTPG'){
+  } else if(tsec == undefined && req.body.idOperation === 'RSTPG'){
     return res.json(rules_s2);
-  } else if(tsec === '890765' && req.query.idOperation === 'RSTPG'){
+  } else if(tsec === '890765' && req.body.idOperation === 'RSTPG'){
     return res.json(rules_t7);
-  }else if(tsec === '18234' && req.query.idOperation === 'RSTPG'){
-    return res.json(rules_t6);
-  } else if(tsec === '556790' && req.query.idOperation === 'RSTPG'){
-    return res.json(rules_t3);
-  }else if(tsec === '098734' && req.query.idOperation === 'RSTPG'){
-    return res.json(rules_t1);
-  }else if(tsec === '234235' && req.query.idOperation === 'RSTPG'){
-    return res.json(rules_t7_2);
-  }else if(tsec === '34567' && req.query.idOperation === 'RSTPG'){
+  }else if(tsec === '18234' && req.body.idOperation === 'RSTPG'){
+    return res.json(ocra);
+  } else if(tsec === '556790' && req.body.idOperation === 'RSTPG'){
+    return res.json(simple_validation);
+  }else if(tsec === '34567' && req.body.idOperation === 'RSTPG'){
     return res.json(error_inst);
-  }else if(tsec === '91111' && req.query.idOperation === 'RSTPG'){
-    return res.json(error_rules);
+  }else if(req.body.idOperation === 'RSTPG'){
+    return res.status(400).json(error_rules);
   }
  
   next();
