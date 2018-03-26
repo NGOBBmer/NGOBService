@@ -360,7 +360,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                      if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
                             if (taxReceipt){
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
-                                    if(tsec == "1234567890"){
+                                    if(tsec == "7777777"){
                                         return res.json(OK_interbank_traking);
                                     }else{
                                         return res.json(OK_interbank);
@@ -369,7 +369,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                                     return res.json(error_tax); 
                                  }
                               }
-                              if(tsec == "1234567890"){
+                              if(tsec == "7777777"){
                                 return res.json(OK_interbank_traking_period);
                               }else{
                                 return res.json(OK_interbank_period);
@@ -381,7 +381,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
         }
         if (taxReceipt){
              if (iva != '' && rfc != '' &&  iva != null && rfc != null){
-                if(tsec == "1234567890"){
+                if(tsec == "7777777"){
                     return res.json(OK_interbank_traking);
                 }else{
                     return res.json(OK_interbank);
@@ -391,7 +391,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
              }
         }
 
-        if(tsec == "1234567890"){
+        if(tsec == "7777777"){
          return res.json(OK_interbank_traking); 
         }else{
             return res.json(OK_interbank); 
