@@ -287,7 +287,7 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         return res.json(frequent_01_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '10')
         return res.json(frequent_02_01);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '7777777') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '')
+    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '7777777') && req.query.typeOpFrequent === '' && req.query.paginationKey === '')
         return res.json(frequent_02_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
         return res.json(frequents_A1);
