@@ -172,6 +172,9 @@ router.get('/V00/accounts', function(req, res, next) {
 router.get('/V00/accounts/:id/periods/', function(req, res, next) {
   if(req.params && req.params.id){
     var id = req.params.id;
+    if (id === 'AHMXP0000001' || id === 'CHMXP0000001' || id === 'LIMXP0000001'){
+      return res.status(400).json(AS_NO_DATA);
+    }else{
       if (req.params && (id.startsWith('AH') || id.startsWith('IN') || id.startsWith('CA') || id.startsWith('SI') )) {
         if (req.query.paginationKey != "" && req.query.paginationKey != null){
           return res.json(AHMXP0000001_next);
@@ -192,6 +195,8 @@ router.get('/V00/accounts/:id/periods/', function(req, res, next) {
       if (req.params && req.params.id == 'CHMXP0000001')  {
         return res.json(AS_NO_DATA);
       }
+    }
+      
       return res.json(AS_ERROR_ID);
     }
     next();
