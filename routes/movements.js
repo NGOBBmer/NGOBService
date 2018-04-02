@@ -20,6 +20,8 @@ var movements_TJ0004_next = require('../mock/V00/cards/movements/TJ0004_next.jso
 var movements_TJ0005 = require('../mock/V00/cards/movements/TJ0005.json');
 var movements_TJ0005_next = require('../mock/V00/cards/movements/TJ0005_next.json');
 
+var movements_tdc01 = require('../mock/V00/cards/movements/TDC01_2233.json');
+
 var movements_err= require('../mock/V00/cards/movements/movements_err.json');
 
 /* GET users listing. */
@@ -58,7 +60,10 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
             }
         }else{
             if (req.params.id == 'TCMXP0000001'){
-                 if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
+                if (tsec === '2233445566'){
+                    return res.json(movements_tdc01);
+                }else{
+                    if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
                     return res.json(movements_TJ0001_dates_next);
                 } else if (req.query.initialDate && req.query.finalDate) {
                     return res.json(movements_TJ0001_next);
@@ -67,6 +72,9 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
                 } else{
                     return res.json(movements_TJ0001);
                 }
+                }
+
+                
             }
             if (req.params.id == 'TCMXP0000002'){
                  if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
