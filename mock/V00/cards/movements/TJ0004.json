@@ -78,7 +78,7 @@
         "rewardsGenerated": "",
         "rewardsconsumed": "",
         "deferred": false,
-        "movementPending": true,
+        "movementPending": false,
         "hasRefund": true
       },
       {
@@ -111,7 +111,7 @@
         "rewardsGenerated": "",
         "rewardsconsumed": "",
         "deferred": false,
-        "movementPending": true,
+        "movementPending": false,
         "hasRefund": false
       },
       {
@@ -150,7 +150,7 @@
         "rewardsGenerated": "",
         "rewardsconsumed": "",
         "deferred": false,
-        "movementPending": true,
+        "movementPending": false,
         "hasRefund": false
       }
     ],
