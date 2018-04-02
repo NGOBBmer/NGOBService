@@ -71,7 +71,7 @@ router.use(function(req, res, next) {
 // handler for /V00/accounts/movements/AHMXP0000001?paginationKey=&initialDate=&finalDate=&period=&numMovements&period=&amountMin=&amountMax
 router.get('/V00/accounts/movements/:id', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec === '1234567890'){
+    if (tsec === '2233445566'){
          return res.status(400).json(movements_err);
     }
     if (req.params.id == 'AHMXP0000001'){
