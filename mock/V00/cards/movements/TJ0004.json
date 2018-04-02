@@ -2,7 +2,87 @@
   "data": {
     "listMovements": [
       {
+        "movementId": "MOVT000001",
+        "operationDate": "2018-04-01",
+        "reference": "734723",
+        "concept": "PAGO MITELMEX",
+        "amount": {
+          "amount": "389.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "",
+          "currency": ""
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "TIT."
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVT00001",
+        "deferred": false,
+        "movementPending": true,
+        "hasRefund": false
+      },
+      {
+        "movementId": "MOVT000002",
+        "operationDate": "2018-04-01",
+        "reference": "3453453",
+        "concept": "PAGO TDC 100029",
+        "amount": {
+          "amount": "9.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "",
+          "currency": ""
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "TIT."
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVT00001",
+        "deferred": false,
+        "movementPending": true,
+        "hasRefund": false
+      },
+      {
         "movementId": "MOVP000001",
+        "operationDate": "2016-02-01",
+        "reference": "059339010719365026DATES",
+        "concept": "DEVOLUCIÓN SAMS CLUB",
+        "amount": {
+          "amount": "-59",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "TJ0000",
+          "card": "****1924",
+          "participant": "TIT."
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "deferred": false,
+        "movementPending": true,
+        "hasRefund": true
+      },
+      {
+        "movementId": "MOVP000002",
         "operationDate": "2016-02-01",
         "reference": "059339010719365026DATES",
         "concept": "SAMS CLUB",
@@ -21,7 +101,7 @@
         },
         "navigation": [
           {
-            "cellsNagivation": true,
+            "cellsNavigation": true,
             "id": "CLAR",
             "description": "No reconozco esta operaciòn"
           }
@@ -31,10 +111,11 @@
         "rewardsGenerated": "",
         "rewardsconsumed": "",
         "deferred": false,
-        "movementPending": true
+        "movementPending": true,
+        "hasRefund": false
       },
       {
-        "movementId": "MOVP000002",
+        "movementId": "MOVP000003",
         "operationDate": "2016-02-01",
         "reference": "05933901071936502668504",
         "concept": "SAMBORNS",
@@ -53,7 +134,7 @@
         },
         "navigation": [
           {
-            "cellsNagivation": false,
+            "cellsNavigation": false,
             "id": "CLAR",
             "description": "No reconozco esta operaciòn",
             "pathUrl": "aclaracionesAlta",
@@ -69,7 +150,8 @@
         "rewardsGenerated": "",
         "rewardsconsumed": "",
         "deferred": false,
-        "movementPending": true
+        "movementPending": true,
+        "hasRefund": false
       }
     ],
     "paginationKey": "AHYASEMEOCURRIOUNO"
