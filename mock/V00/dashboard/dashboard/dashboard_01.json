@@ -75,6 +75,88 @@
           "type": "CHECKACCOUNT",
           "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         }
+      },
+      {
+        "productId": "CHEUR0000001",
+        "branch": {
+          "number": "1234567890",
+          "alias": "Cuenta eur",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 567.33,
+            "currency": "Pesos",
+            "currencyId": "EUR"
+          }
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHEUR0000001"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
+        "productId": "CHEUR0000001",
+        "branch": {
+          "number": "1234567890",
+          "alias": "Cuenta 2",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 3451.25,
+            "currency": "Pesos",
+            "currencyId": "USD"
+          }
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "CHUSD0000001"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
       }
     ],
     "creditCard": [

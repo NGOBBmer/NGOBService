@@ -28,6 +28,7 @@ var NOK = require('../../mock/V00/dashboard/validateOtp/otp_error.json');
 //listAccounts
 var accounts_4152313300116865 = require('../../mock/V00/accounts/listAccounts/accounts_4152313300116865.json');
 
+var accounts_01 = require('../../mock/V00/accounts/listAccounts/accounts_01.json');
 var accounts_gio = require('../../mock/V00/accounts/listAccounts/accounts_gio.json');
 // var accounts_4152313300116865 = require('../mock/V00/accounts/listAccounts/accounts_4152313300116865.json');
 var accounts_sinAccountType = require('../../mock/V00/accounts/listAccounts/accounts_sinAccountType.json');
@@ -153,9 +154,15 @@ router.get('/V00/accounts/:id/accountStatement/', function(req, res, next) {
 
 // handler for query http://localhost:3000/accounts/V00/accounts?accountType=CHECK_ACCOUNT
 router.get('/V00/accounts', function(req, res, next) {
+  var tsec = req.headers['tsec'];
     if(req.query && req.query.accountType){
         if (req.query && req.query.accountType== 'CHECK_ACCOUNT')  {
-          res.json(accounts_4152313300116865);
+          if (tsec === '456789012'){
+            res.json(accounts_01);
+          }else{
+            res.json(accounts_4152313300116865);
+          }
+          
         }
         if (req.query && req.query.accountType!= 'CHECK_ACCOUNT' || req.query.accountType==null)  {
           res.json(accounts_sinAccountType);
