@@ -104,6 +104,12 @@ var advancedSearch02 = require('../../mock/V00/transfers/advancedSearch/advanced
 var advancedSearch03 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_03.json');
 var advancedSearchErr = require('../../mock/V00/transfers/advancedSearch/advancedSearch_err.json');
 
+//rulesInterbank
+var rulesInterbank_inSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_01.json');
+var rulesInterbank_outSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_02.json');
+var error_rulesInterbank = require('../../mock/V00/transfers/rulesInterbank/error_rulesInterbank.json');
+
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -498,5 +504,22 @@ router.get('/V00/advancedSearch', function(req, res, next) {
     }
   next();
 });
+
+//handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?operationType=spei
+router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if ((tsec == '11111111') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
+        return res.json(rulesInterbank_inSchedule);
+    else if ((tsec == '927182') && req.query.operationType==='cecoban' || req.query.operationType==='CECOBAN')
+        return res.json(rulesInterbank_inSchedule);
+    else if ((tsec == '123456789') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
+        return res.json(rulesInterbank_outSchedule);
+    
+
+    return res.status(409).json(error_rulesInterbank);
+  next();
+});
+
+
 
 module.exports = router;
