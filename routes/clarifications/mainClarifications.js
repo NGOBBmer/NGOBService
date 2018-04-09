@@ -17,10 +17,11 @@ router.use(function(req, res, next) {
     next();
 });
 
-// handler for query http://localhost:4000/clarifications/v0/createRefund
-router.post('/v0/createRefund', function(req, res, next) {
+// handler for query http://localhost:4000/clarifications/v0/createRefund/TCMXP000001
+router.post('/v0/createRefund/:cardid', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if (req.body.movementId === 'MOVP000001'){
+  var sId = req.body.movementId.substring(0,4);
+  if (sId === 'MOVP'){
     if (tsec === '111OK111'){
       return res.json(refund01);
     }else if (tsec === '222NOK222'){
