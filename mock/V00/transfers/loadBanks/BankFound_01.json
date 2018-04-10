@@ -10,7 +10,15 @@
       "tddMD": false,
       "tddDS": true,
       "tdc": false,
+      "tdcMD": false,
+      "tdcDS": false,
       "ocr": true,
+      "ocrHipMD": false,
+      "ocrHipDS": true,
+      "ocrPerMD": false,
+      "ocrPerDS": true,
+      "ocrAutoMD": false,
+      "ocrAutoDS": true,
       "sinApl": true
     }
   ]
