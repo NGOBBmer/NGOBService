@@ -276,7 +276,7 @@ router.get('/V00/loadBanks', function(req, res, next) {
     else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS')
         return res.json(banksCatalogOtrosCreditos);
 
-    return res.status(400).json(banksError);
+    return res.status(409).json(banksError);
   next();
 });
 
