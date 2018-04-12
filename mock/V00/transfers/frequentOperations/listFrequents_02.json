@@ -1,435 +1,440 @@
 {
-	"listOtherAccountsFrequent": [{
-			"id": "FRTT000000",
-			"shortName": "CHQS",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "1480628875"
-								}
-							}
-						},
-						"name": "MARGRETT ALGUIRE CIRIONI"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTT000001",
-			"shortName": "SUSAN",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "0178851808"
-								}
-							}
-						},
-						"name": "SUSAN DIAZ LOW"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTT000002",
-			"shortName": "TDCBBVA",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "4555406269802930"
-								}
-							}
-						},
-						"name": "URI DOINO CRANE"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTT000003",
-			"shortName": "ESPOMEGA",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"contract": {
-							"product": {
-								"checkAccount": {
-									"accountNumber": "4772133011610042"
-								}
-							}
-						},
-						"name": "ESPOMEGA, S DE RL DE CV"
-					}
-				}
-			}
-		}
-	],
-	"listInterbankFrequent": [{
-			"id": "FRTI000000",
-			"shortName": "EXTINEESI",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180435001413613"
-								}
-							}
-						},
-						"name": "JOSE LUIS MIRANDA PACHECO"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000001",
-			"shortName": "AFASI",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180032642233765"
-								}
-							}
-						},
-						"name": "AFASI"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000002",
-			"shortName": "banamex",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002021009412595217"
-								}
-							}
-						},
-						"name": "BANAMEX"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000003",
-			"shortName": "LG SEGURID",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180021809439627"
-								}
-							}
-						},
-						"name": "LG SEGURIDAD"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000004",
-			"shortName": "SOBMEX",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180094861640740"
-								}
-							}
-						},
-						"name": "SOTO BARRANCO MEXICANA"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000005",
-			"shortName": "MET DIAZ",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180019409095266"
-								}
-							}
-						},
-						"name": "METALES DIAZ"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000006",
-			"shortName": "HILL SAFE",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "HSBC"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "021580040569639031"
-								}
-							}
-						},
-						"name": "HILL HS SAFE"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000007",
-			"shortName": "ISRAEL",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANORTE/ IXE"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "4913660004355169"
-								}
-							}
-						},
-						"name": "ISRAEL LUGO GARCIA"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000008",
-			"shortName": "BLINDAJES",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "SANTANDER"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "014180655039143529"
-								}
-							}
-						},
-						"name": "BLINDAJES BULL SAFE"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000009",
-			"shortName": "DIKEN",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANORTE/ IXE"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "072078005853194186"
-								}
-							}
-						},
-						"name": "PROVEEDORA INDUSTRIAL DIKEN S.A. DE C.V"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000010",
-			"shortName": "ALMEIDA",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180050257276597"
-								}
-							}
-						},
-						"name": "ALMEIDA SAENZ DIANA"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000011",
-			"shortName": "BNMXCLABE",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANAMEX"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "002180700256551903"
-								}
-							}
-						},
-						"name": "JASON DERULO"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000012",
-			"shortName": "TRAPO IND",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "SANTANDER"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "014180655031212636"
-								}
-							}
-						},
-						"name": "INDUSTRIALIZADORA DE TRAPO"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000013",
-			"shortName": "GUILTOR",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "HSBC"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "021180040430305276"
-								}
-							}
-						},
-						"name": "GUILTOR EQUIPOS DE SEGURIDAD"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000014",
-			"shortName": "HETSA",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANORTE/ IXE"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "072180008314244570"
-								}
-							}
-						},
-						"name": "HERRAMIENTAS TECNICAS"
-					}
-				}
-			}
-		},
-		{
-			"id": "FRTI000015",
-			"shortName": "VELAVI",
-			"agileOperationType": "FREQUENT_OPERATION",
-			"operation": {
-				"agileOperationTransfer": {
-					"receiver": {
-						"bank": {
-							"name": "BANORTE/ IXE"
-						},
-						"contract": {
-							"product": {
-								"expressAccount": {
-									"accountNumber": "072580005327081190"
-								}
-							}
-						},
-						"name": "VELAVI"
-					}
-				}
-			}
-		}
-	],
-	"paginationKey": {
-		"nextPaginationKey": "16"
-	}
+  "listFrequentOperation": [
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TC0PK41ETCS080ESNZE65H49Z2R30JRZ7FFYWTD0013GQ5VKJYQ2",
+      "shortName": "PRESTAMOAU",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0030",
+              "name": "BAJIO"
+            },
+            "contract": {
+              "product": {
+                "mortgageCredit": {
+                  "idContract": "765432123456789098"
+                }
+              }
+            },
+            "email": "",
+            "name": "PRESTAMOAU",
+            "productAlias": "Crédito BAJIO"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SE68RXAH62GDJYCZABTVG1S8C9RCNW46214EA3V8135VR43F441R",
+      "shortName": "PRESTAMOHI",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "autoLoan": {
+                  "loanNumber": "345678998765432123"
+                }
+              }
+            },
+            "email": "",
+            "name": "PRESTAMOHIPO",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Hip"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T7ZTZ483FQ7KJ5N4W29EPT3WMDEKAHDCRFZPKZ0Z5CPEYM530590",
+      "shortName": "PERPROG",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "111111234567898765"
+                }
+              }
+            },
+            "email": "",
+            "name": "PPERSONAL",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Per"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PP"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RRZNS1V8MG8GMEPD5YFY1DRTFHEWD0G0QVGQ8X4VXCGBEQV29QM6",
+      "shortName": "Otro banco",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "mortgageCredit": {
+                  "idContract": "8811370024331195"
+                }
+              }
+            },
+            "email": "evherv@frfr.com",
+            "name": "PABLO PICAPIEDRA",
+            "productAlias": "Crédito BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PP"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9STC009DH2FDNKMAV2T33GNEVTT2JE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "NombreI325",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "5456310600442694"
+                }
+              }
+            },
+            "email": "sncn25@gmail.com",
+            "name": "PRUEBA NOMBRE TRANSACCIONI325",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PN"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R60YF598C9MC07JM5YCFR5YASZK23TWBYF8TB3PQBRVX6YQAB5A8",
+      "shortName": "PAUTOMOTRI",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "mortgageCredit": {
+                  "idContract": "123456765432123456"
+                }
+              }
+            },
+            "email": "",
+            "name": "PAUTOMOTRIZ",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PA"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R21RXV43ZE61RB6PWACY2EBCH4Y39W9JWK3G6Y5RRYQGG0EVCJHR",
+      "shortName": "PbaFluI325",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "545631060044264"
+                }
+              }
+            },
+            "email": "sncn25@gmail.com",
+            "name": "PRUEBA FLUJO DE TRANSACCION I325",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PF"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RJQHE8HA9MWRQH54HF22XH8DS2E95FJVXZBXFR5NSDY7WV9QDQPA",
+      "shortName": "CONAMEX",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {
+                  "interbankCode": "002180700256551903"
+                }
+              }
+            },
+            "email": "conamex@gmail.com",
+            "name": "CONAMEX",
+            "productAlias": "CLABE BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "CLABE"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "CO"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T58AXDY80YNKM3994PBKN3CJR87MBYQEX3A1MJ45F0SFP8AH1HWA",
+      "shortName": "CRDITOPP",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0030",
+              "name": "BAJIO"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "1234214234"
+                }
+              }
+            },
+            "email": "",
+            "name": "CREDITOPERSONAL",
+            "productAlias": "Crédito BAJIO"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Per"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "CR"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SNAXJPT41T1AXCJW6QGM86H5CGS524MP6YWXD2GSVAGTKCD3NVEM",
+      "shortName": "PHIPOTECAR",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "autoLoan": {
+                  "loanNumber": "765432123456789876"
+                }
+              }
+            },
+            "email": "",
+            "name": "PHIPOTECARIO",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Hip"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PH"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R9WB95N5DRKAWA5PBF6W7QW3XN2JE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "TDC Hogar",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "4913660004355169"
+                }
+              }
+            },
+            "email": "TDC@gmail.com",
+            "name": "LUIS SANCHEZ",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "LS"
+      },
+      "typeOperationFreq": "INTERBANK"
+    }
+  ]
 }

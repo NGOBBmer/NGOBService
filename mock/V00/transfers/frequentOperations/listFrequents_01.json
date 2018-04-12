@@ -1,8 +1,8 @@
 {
   "listFrequentOperation": [
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QR8T0187RSPNH4RV3E6GFNQXY1NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "AguiNAlduu",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PV2ZHJ4WHHY26RWAFG3H872S8VNVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "pruebacheq",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
@@ -14,130 +14,13 @@
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "0178963983",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "pruebaskModif@gmail.com",
-            "name": "BELEN GARCES GARCIA",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 1,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "BG"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QGQR5DHSHH50BMZ1TNZEVXDHP75VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "frectercer",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "0434738969",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "esanchez.isc701@gmail.com",
-            "name": "SONIA LOPEZ TARANTINO",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "SL"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PMX9S445TBYEV8E0S2ZTK1HQR95VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "ModifFreq",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "0178934584",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "freq@gmail.com",
-            "name": "MOISES DUARTE MUJIA",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 1,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "MD"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MB5JJM2JZHEXS91ERS8QTK2156NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "I8H1CEL",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2800162574",
+                  "accountNumber": "0177937814",
                   "accountType": "CH"
                 }
               }
             },
             "email": "",
-            "name": "CINTHIA MAR CASTRO",
+            "name": "LE PROTECTEUR DU CIT TRIENA AMORIA",
             "productAlias": "Cuenta BBVA Bancomer"
           },
           "typeProduct": {
@@ -152,51 +35,12 @@
       },
       "avatar": {
         "image": "",
-        "ini": "CM"
+        "ini": "LP"
       },
       "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49N7KXDBQEPNJ9HJV7B3ZD7SRW6S5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "PrueBACom",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "0150001929",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "frec_7@gmail.com",
-            "name": "Nancy Maximo",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "NM"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49M785BV9TF2AV4HYEY9B288XGDHNVJ8001517FC5KVE91C40NJ32A",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PA34V0YHJC1F4DAPYPGTG5P40SNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
@@ -209,13 +53,13 @@
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "0178200821",
+                  "accountNumber": "0109395462",
                   "accountType": "CH"
                 }
               }
             },
             "email": "",
-            "name": "Prueba Registro 02",
+            "name": "Prueba Registro 03",
             "productAlias": "Cuenta BBVA Bancomer"
           },
           "typeProduct": {
@@ -235,7 +79,7 @@
       "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NQEFVV2A86JBTKTS0NTFNCATR7NVJ8001517FC5KVE91C40NJ32A",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PBJVFJABDCPX3NK3JN9CB3Y7X35VJ8001517FC5KVE91C40NJ32A",
       "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
@@ -248,13 +92,13 @@
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "0178200831",
+                  "accountNumber": "0109395466",
                   "accountType": "CH"
                 }
               }
             },
             "email": "",
-            "name": "Prueba Registro 02",
+            "name": "Prueba Registro 03",
             "productAlias": "Cuenta BBVA Bancomer"
           },
           "typeProduct": {
@@ -274,8 +118,8 @@
       "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NDV610M8NXJM6HK8Z1R2DQ5KV85VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "frecnumcel",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MNPQVHWW2S8EB8WK19ZPSGEVZZNVJ8001517FC5KVE91C40NJ32A",
+      "shortName": "Maggie",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
@@ -287,13 +131,52 @@
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "0179002626",
+                  "accountNumber": "1480628875",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "Magi.-01hut@gmail.com",
+            "name": "MARGRETT ALGUIRE CIRIONI",
+            "productAlias": "Cuenta BBVA Bancomer"
+          },
+          "typeProduct": {
+            "reasonPayment": "CH"
+          },
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MA"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PDSJM9Y1ZHQPK15E5SSZYPC59B5VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BBVA Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "2658702098",
                   "accountType": "CH"
                 }
               }
             },
             "email": "",
-            "name": "RAMON DIAZ CRUZ",
+            "name": "MANUEL*LOPEZ*JAGUEY",
             "productAlias": "Cuenta BBVA Bancomer"
           },
           "typeProduct": {
@@ -308,13 +191,13 @@
       },
       "avatar": {
         "image": "",
-        "ini": "RD"
+        "ini": "MA"
       },
       "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NC0VPR8G1RKFD5N96RMFRDY6EQNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Nuevaaaa",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49QH35F258YP2YYDFHMGQAAK1HC65VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
@@ -326,52 +209,13 @@
             "contract": {
               "product": {
                 "checkAccount": {
-                  "accountNumber": "1402321858",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "new@gmail.com",
-            "name": "HIPOLITA BUENAVENTE BCOM NO USAR",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 1,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "HB"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MR0SZ73DM155B2Q4P6JKW0P40ANVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269600",
+                  "accountNumber": "3658702098",
                   "accountType": "CH"
                 }
               }
             },
             "email": "",
-            "name": "Prueba",
+            "name": "MANUEL*LOPEZ*JAGUEY1",
             "productAlias": "Cuenta BBVA Bancomer"
           },
           "typeProduct": {
@@ -386,2040 +230,12 @@
       },
       "avatar": {
         "image": "",
-        "ini": "Pr"
+        "ini": "MA"
       },
       "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PY6X6FYP11ECXC75PYR730R14DNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269601",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QX4J10KXXKBR7CXWX7JVR7AGHXNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269602",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49N2PKPKXAZ7CXCKX0JS2JHX79115VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269603",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NEZ5ZM4J6P96WP50VXG6EGKWB0NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269604",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49M27ZQMZ5Q9HMAMVVBPFKDVVCXBNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269605",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QGCG3RW7MDDB111MPSA9EJCQ2WNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269606",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PP5Z5T8G34JY0WMRJXXJX6AXD4NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269607",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NVJWGD1Y46JP7BV67NDCRTNJ88NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269608",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QZ6R10A6EA5NFWCS7X4MM9JFW75VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269609",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NDJM833GDEAFGEPXEMTW0W16JX5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269610",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PVZ427SX871ZK32N1H1A9H1BCCNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269611",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QTWADF1MZ8G8TP4HGBFYZK3GMM5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269612",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MRMD6C2ZQKKTACE0KNNYN4V85F5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269613",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MKGPPMRKGMS98HY4FFF38YW2HRNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269614",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49Q9E4XY423VHE2NNX3WZSM6RF89NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269615",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49P1S92KKBXKXM4PP749HSQATPGPNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269616",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MZGAXFSZCQK0P2R560K25D6A325VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269617",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QDA6D2SE3TKAZ0ARK76EQ1Y8N95VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269618",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49P37PFT3714RQ0247DJVHBER3BN5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269619",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QT045GFK2X8PB66BG7BBTF8SCZNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269620",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PFSKD6YDNPCT9P1NYXVKNEBYJ25VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269621",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49N77D6MAT8JN50Y8MDH1VXF3FE95VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269622",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PB8CGRTG7TJSKYWFHW43B3BRVQ5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269623",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NPH4CJ6HKAV4Z48E2DH9FHDB375VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269624",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PAF9S7S7M5BTMQD17JZAFZMWAZNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269625",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PQHYRPB2G5HEY15PBK57G6RHRBNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269626",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MWX6Y7F207W36YCCRZFP45W0Z2NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269627",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QAVMS3B9D1HYTDA69Z3A93CVJ1NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269628",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49N4R2V871TW112HKPBCCNJNAPMS5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269629",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NJFPT3DFT9FDJJ5XQRZGY0BA5P5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269630",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PJM9G1AWF27M1GK3Y1JZVBVB0V5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269631",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PS1DNJRWBBRMK8ZCQYGJKKVCT35VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269632",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MZN0KG2XD82S7TVSDGTM4D5W0WNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269633",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MPSH839ZR0EBMX7G8MN842KZGHNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269634",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49M8G670QK7W50D5ETTEXDFHWRB2NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269635",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QQMMX1BZJPJ12K40HQSGYK98ZANVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269636",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QBRG6TSCPY5KZHYJ1E4FZRQ8R85VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269637",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49P2ZGGM6XWV8KBV2K03PAWVBRCW5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269638",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MJ6JD6VQ1A9NXTK0NRFCW5WBBD5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269639",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NXWNF4HTZQB9K3VN3WCS2C72WD5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269640",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MHSVTW3314G8YE34EF4V7WY2FS5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269641",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49M08WE14J6802EBXVMG0RP7R8AKNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269642",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PYQ0CMB04GJ43V4YF7A8RHAWHSNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269643",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MR20SGZ48RWNJE8E1DWKFAP3DV5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269644",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NW3AKT45T5ECZQBMDW0GQJXQPANVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269645",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NBSVFB4JH7Z1DGXKH1ZJ46JKZ5NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269646",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NFWFY51P1DZ6BBV9ANQH17XZZGNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269647",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PMNC3M2R0KGPF9008MEKA2SPZ55VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269648",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QB81RD85DVQQRHDTH7VZGJT4C35VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269649",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NFFH6EAZPSHZ7GGTXTMT3MS6B7NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269650",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QZN244236MWRKSF4MPJ55MVMCSNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "aAELIminar",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2800160236",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "prueba.gio@gmai.com",
-            "name": "GIOVANNI NICOLAS MARIN",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "GN"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49P5Z77AS2994WSK7208VDSJ22W4NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2800160237",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "GIOVANNI NICOLAS MARIN",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "GN"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QMWEA6NGXESGN87QV2RWGCWSZ3ZC4Q393EWAZYF0SHY6H0B7KZV8",
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PF5NX67DC14CEYG4W6QD5RTTX7FC4Q393EWAZYF0SHY6H0B7KZV8",
       "shortName": "pruebaFrec",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
@@ -2430,155 +246,292 @@
               "name": "BBVA Bancomer"
             },
             "contract": {
-              "product": {}
-            },
-            "email": "",
-            "name": "HIPOLITA BUENAVENTE BCOM NO USAR",
-            "productAlias": "Tarjeta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "TD"
-          },
-          "referenceIndicator": 1,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "HB"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QYAPXN9CEGJ1TH3RE9QJPM53TSFC4Q393EWAZYF0SHY6H0B7KZV8",
-      "shortName": "lau mora",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {}
-            },
-            "email": "",
-            "name": "LAURA LOPEZ MORALES",
-            "productAlias": "Tarjeta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "TD"
-          },
-          "referenceIndicator": 1,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "LL"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49NXDF5944TGSX21CRH39FPC5K79ZC4Q393EWAZYF0SHY6H0B7KZV8",
-      "shortName": "pruebaHP",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {}
-            },
-            "email": "",
-            "name": "ROSIO ABARCA ARONA",
-            "productAlias": "Tarjeta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "TD"
-          },
-          "referenceIndicator": 1,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "RA"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49N437YP9VFKCX8N1HTBH2C63CGWFC4Q393EWAZYF0SHY6H0B7KZV8",
-      "shortName": "I340NAY",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {}
-            },
-            "email": "",
-            "name": "JUAN GUZMAN FONSECA",
-            "productAlias": "Tarjeta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "TD"
-          },
-          "referenceIndicator": 1,
-          "token": false
-        }
-      },
-      "extendedData": {
-        "reliableOperation": false
-      },
-      "avatar": {
-        "image": "",
-        "ini": "JG"
-      },
-      "typeOperationFreq": "THIRD_PARTY"
-    },
-    {
-      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TKGX34HY7KJVXFSVWMRZ67SAXTGZE4RBAFDHTXDG3H6DXF7CAJH4",
-      "shortName": "frecclabe",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
-          "receiver": {
-            "bank": {
-              "id": "0002",
-              "name": "BANAMEX"
-            },
-            "contract": {
               "product": {
                 "debitCard": {
-                  "interbankCode": "002180434500699829"
+                  "cardNumber": "4152313169782955"
                 }
               }
             },
             "email": "",
-            "name": "CLABE",
-            "productAlias": "CLABE BANAMEX"
+            "name": "KAELEE GHALIB ABILA",
+            "productAlias": "Tarjeta BBVA Bancomer"
           },
           "typeProduct": {
-            "reasonPayment": "CLABE"
+            "reasonPayment": "TD"
+          },
+          "referenceIndicator": 1,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "KG"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49NV3HR7HJMCRRYFYG2VR35APN5V5VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BBVA Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "4658702098",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "",
+            "name": "MANUEL*LOPEZ*JAGUEY1",
+            "productAlias": "Cuenta BBVA Bancomer"
+          },
+          "typeProduct": {
+            "reasonPayment": "CH"
+          },
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MA"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49N0MVDF8X4THY10E7R4AHA4WSCQ5VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BBVA Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "5658702098",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "",
+            "name": "MANUEL*LOPEZ*JAGUEY1",
+            "productAlias": "Cuenta BBVA Bancomer"
+          },
+          "typeProduct": {
+            "reasonPayment": "CH"
+          },
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MA"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49PKCSBX3KEF1AXE1BQ1C51PR42P5VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BBVA Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "6658702098",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "",
+            "name": "MANUEL*LOPEZ*JAGUEY1",
+            "productAlias": "Cuenta BBVA Bancomer"
+          },
+          "typeProduct": {
+            "reasonPayment": "CH"
+          },
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MA"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49MDMHQVG2JP72BKR21N06VWZ3PV5VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BBVA Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "7658702098",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "",
+            "name": "MANUEL*LOPEZ*JAGUEY1",
+            "productAlias": "Cuenta BBVA Bancomer"
+          },
+          "typeProduct": {
+            "reasonPayment": "CH"
+          },
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MA"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49Q99GJKGYYQV7SAH9CWHZC1NPDN5VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BBVA Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "8658702098",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "",
+            "name": "MANUEL*LOPEZ*JAGUEY1",
+            "productAlias": "Cuenta BBVA Bancomer"
+          },
+          "typeProduct": {
+            "reasonPayment": "CH"
+          },
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MA"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "4C5AN0EFASM9SD5WYPDB9TK49M84CCK67S61S6RVYSTNM38FM6Z5VJ8001517FC5KVE91C40NJ32A",
+      "shortName": "",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "name": "BBVA Bancomer"
+            },
+            "contract": {
+              "product": {
+                "checkAccount": {
+                  "accountNumber": "9658702098",
+                  "accountType": "CH"
+                }
+              }
+            },
+            "email": "",
+            "name": "MANUEL*LOPEZ*JAGUEY1",
+            "productAlias": "Cuenta BBVA Bancomer"
+          },
+          "typeProduct": {
+            "reasonPayment": "CH"
+          },
+          "referenceIndicator": 0,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MA"
+      },
+      "typeOperationFreq": "THIRD_PARTY"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TC0PK41ETCS080ESNZE65H49Z2R30JRZ7FFYWTD0013GQ5VKJYQ2",
+      "shortName": "PRESTAMOAU",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0030",
+              "name": "BAJIO"
+            },
+            "contract": {
+              "product": {
+                "mortgageCredit": {
+                  "idContract": "765432123456789098"
+                }
+              }
+            },
+            "email": "",
+            "name": "PRESTAMOAU",
+            "productAlias": "Crédito BAJIO"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
           },
           "referenceIndicator": 9,
           "token": false
@@ -2589,13 +542,93 @@
       },
       "avatar": {
         "image": "",
-        "ini": "CL"
+        "ini": "PR"
       },
       "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RE9A8RXRPRVKDPRQVN3RWJZMRAV9Q1TWA57Z9SJ4J78VN2807YCT",
-      "shortName": "frecuentob",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SE68RXAH62GDJYCZABTVG1S8C9RCNW46214EA3V8135VR43F441R",
+      "shortName": "PRESTAMOHI",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "autoLoan": {
+                  "loanNumber": "345678998765432123"
+                }
+              }
+            },
+            "email": "",
+            "name": "PRESTAMOHIPO",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Hip"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T7ZTZ483FQ7KJ5N4W29EPT3WMDEKAHDCRFZPKZ0Z5CPEYM530590",
+      "shortName": "PERPROG",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "111111234567898765"
+                }
+              }
+            },
+            "email": "",
+            "name": "PPERSONAL",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Per"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PP"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RRZNS1V8MG8GMEPD5YFY1DRTFHEWD0G0QVGQ8X4VXCGBEQV29QM6",
+      "shortName": "Otro banco",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
@@ -2607,15 +640,18 @@
             },
             "contract": {
               "product": {
-                "debitCard": {}
+                "mortgageCredit": {
+                  "idContract": "8811370024331195"
+                }
               }
             },
-            "email": "",
-            "name": "TDD OB",
-            "productAlias": "Tarjeta BANAMEX"
+            "email": "evherv@frfr.com",
+            "name": "PABLO PICAPIEDRA",
+            "productAlias": "Crédito BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "tdd"
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
           },
           "referenceIndicator": 9,
           "token": false
@@ -2626,13 +662,131 @@
       },
       "avatar": {
         "image": "",
-        "ini": "TO"
+        "ini": "PP"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9STC009DH2FDNKMAV2T33GNEVTT2JE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "NombreI325",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "5456310600442694"
+                }
+              }
+            },
+            "email": "sncn25@gmail.com",
+            "name": "PRUEBA NOMBRE TRANSACCIONI325",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PN"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R60YF598C9MC07JM5YCFR5YASZK23TWBYF8TB3PQBRVX6YQAB5A8",
+      "shortName": "PAUTOMOTRI",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "mortgageCredit": {
+                  "idContract": "123456765432123456"
+                }
+              }
+            },
+            "email": "",
+            "name": "PAUTOMOTRIZ",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PA"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R21RXV43ZE61RB6PWACY2EBCH4Y39W9JWK3G6Y5RRYQGG0EVCJHR",
+      "shortName": "PbaFluI325",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "545631060044264"
+                }
+              }
+            },
+            "email": "sncn25@gmail.com",
+            "name": "PRUEBA FLUJO DE TRANSACCION I325",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PF"
       },
       "typeOperationFreq": "INTERBANK"
     },
     {
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RJQHE8HA9MWRQH54HF22XH8DS2E95FJVXZBXFR5NSDY7WV9QDQPA",
-      "shortName": "ppE",
+      "shortName": "CONAMEX",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
@@ -2649,8 +803,8 @@
                 }
               }
             },
-            "email": "ppE@gmail.com",
-            "name": "PREUBAMARY",
+            "email": "conamex@gmail.com",
+            "name": "CONAMEX",
             "productAlias": "CLABE BANAMEX"
           },
           "typeProduct": {
@@ -2665,7 +819,126 @@
       },
       "avatar": {
         "image": "",
-        "ini": "PR"
+        "ini": "CO"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T58AXDY80YNKM3994PBKN3CJR87MBYQEX3A1MJ45F0SFP8AH1HWA",
+      "shortName": "CRDITOPP",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0030",
+              "name": "BAJIO"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "1234214234"
+                }
+              }
+            },
+            "email": "",
+            "name": "CREDITOPERSONAL",
+            "productAlias": "Crédito BAJIO"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Per"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "CR"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SNAXJPT41T1AXCJW6QGM86H5CGS524MP6YWXD2GSVAGTKCD3NVEM",
+      "shortName": "PHIPOTECAR",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "autoLoan": {
+                  "loanNumber": "765432123456789876"
+                }
+              }
+            },
+            "email": "",
+            "name": "PHIPOTECARIO",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Hip"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PH"
+      },
+      "typeOperationFreq": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R9WB95N5DRKAWA5PBF6W7QW3XN2JE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "TDC Hogar",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "typeScheduler": "NO_VALUE",
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "4913660004355169"
+                }
+              }
+            },
+            "email": "TDC@gmail.com",
+            "name": "LUIS SANCHEZ",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9,
+          "token": false
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "LS"
       },
       "typeOperationFreq": "INTERBANK"
     }

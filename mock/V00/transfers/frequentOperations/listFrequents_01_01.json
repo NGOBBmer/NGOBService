@@ -246,7 +246,11 @@
               "name": "BBVA Bancomer"
             },
             "contract": {
-              "product": {}
+              "product": {
+                "debitCard": {
+                  "cardNumber": "4152313169782955"
+                }
+              }
             },
             "email": "",
             "name": "KAELEE GHALIB ABILA",
@@ -555,7 +559,11 @@
               "name": "AZTECA"
             },
             "contract": {
-              "product": {}
+              "product": {
+                "autoLoan": {
+                  "loanNumber": "345678998765432123"
+                }
+              }
             },
             "email": "",
             "name": "PRESTAMOHIPO",
