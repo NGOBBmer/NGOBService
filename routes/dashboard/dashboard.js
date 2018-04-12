@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var dashboard_01 = require('../../mock/V00/dashboard/dashboard/dashboard_01.json');
+var dashboard_ced = require('../../mock/V00/dashboard/dashboard/dashboard_ced.json');
 var dashboard_02 = require('../../mock/V00/dashboard/dashboard/dashboard_02.json');
 var dashboard_03 = require('../../mock/V00/dashboard/dashboard/dashboard_03.json');
 var dashboard_02_SI = require('../../mock/V00/dashboard/dashboard/dashboard_02.SI.json');
@@ -41,6 +42,8 @@ router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (tsec === '091111' && filters[0] === 'productType==TT'){
         return res.json(dashboard_especial);
+    }else if (tsec === '1122334455' && filters[0] === 'productType==TT'){
+        return res.json(dashboard_ced);
     }else if (tsec === '9412' && filters[0] === 'productType==TT'){
         return res.json(dashboard_monoprod);
     }else if (tsec === '456789012' && filters[0] === 'productType==TT'){
