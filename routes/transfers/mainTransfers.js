@@ -283,6 +283,8 @@ router.get('/V00/loadBanks', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
 router.get('/V00/frequentOperations', function(req, res, next) {
     var tsec = req.headers['tsec'];
+    if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '1111111') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
+        return res.json(frequent_01_01);
     if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '6' && req.query.numMovsFreq == '10')
