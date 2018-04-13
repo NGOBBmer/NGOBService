@@ -58,6 +58,7 @@ var clabe_NoOk = require('../../mock/V00/accounts/getAccountClabe/error_accountC
 //getLoanOffer
 var case1 = require('../../mock/V00/accounts/getLoanOffer/case1.json');
 var case2 = require('../../mock/V00/accounts/getLoanOffer/case2.json');
+var case3 = require('../../mock/V00/accounts/getLoanOffer/case3.json');
 var caseError = require('../../mock/V00/accounts/getLoanOffer/caseError.json');
 
 /* GET users listing. */
@@ -259,6 +260,8 @@ router.get('/V00/accounts/getLoanOffer', function(req, res, next) {
       return res.json(case1);
    }else if(tsec == '12345'){
       return res.json(case2);
+   }else if(tsec == '223344'){
+      return res.json(case3);
    }else{
       return res.status(406).json(caseError);
    } 
