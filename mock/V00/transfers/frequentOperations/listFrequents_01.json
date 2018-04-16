@@ -257,7 +257,7 @@
             "productAlias": "Tarjeta BBVA Bancomer"
           },
           "typeProduct": {
-            "reasonPayment": "TD"
+            "reasonPayment": "tdd"
           },
           "referenceIndicator": 1,
           "token": false
