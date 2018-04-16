@@ -781,32 +781,33 @@
       "typeOperationFreq": "THIRD_PARTY"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49PVZ427SX871ZK32N1H1A9H1BCCNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R60YF598C9MC07JM5YCFR5YASZK23TWBYF8TB3PQBRVX6YQAB5A8",
+      "shortName": "PAUTOMOTRI",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "BBVA Bancomer"
+              "id": "0127",
+              "name": "AZTECA"
             },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269611",
-                  "accountType": "CH"
+                "mortgageCredit": {
+                  "idContract": "123456765432123456"
                 }
               }
             },
             "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
+            "name": "PAUTOMOTRIZ",
+            "productAlias": "Crédito AZTECA"
           },
           "typeProduct": {
-            "reasonPayment": "CH"
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
           },
-          "referenceIndicator": 0,
+          "referenceIndicator": 9,
           "token": false
         }
       },
@@ -815,37 +816,37 @@
       },
       "avatar": {
         "image": "",
-        "ini": "Pr"
+        "ini": "PA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49QTWADF1MZ8G8TP4HGBFYZK3GMM5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R21RXV43ZE61RB6PWACY2EBCH4Y39W9JWK3G6Y5RRYQGG0EVCJHR",
+      "shortName": "PbaFluI325",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "BBVA Bancomer"
+              "id": "0002",
+              "name": "BANAMEX"
             },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269612",
-                  "accountType": "CH"
+                "creditCard": {
+                  "cardNumber": "545631060044264"
                 }
               }
             },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
+            "email": "sncn25@gmail.com",
+            "name": "PRUEBA FLUJO DE TRANSACCION I325",
+            "productAlias": "Tarjeta BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "CH"
+            "reasonPayment": "tdc"
           },
-          "referenceIndicator": 0,
+          "referenceIndicator": 9,
           "token": false
         }
       },
@@ -854,37 +855,37 @@
       },
       "avatar": {
         "image": "",
-        "ini": "Pr"
+        "ini": "PF"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MRMD6C2ZQKKTACE0KNNYN4V85F5VJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz Prueba",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RJQHE8HA9MWRQH54HF22XH8DS2E95FJVXZBXFR5NSDY7WV9QDQPA",
+      "shortName": "CONAMEX",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "BBVA Bancomer"
+              "id": "0002",
+              "name": "BANAMEX"
             },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269613",
-                  "accountType": "CH"
+                "debitCard": {
+                  "interbankCode": "002180700256551903"
                 }
               }
             },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
+            "email": "conamex@gmail.com",
+            "name": "CONAMEX",
+            "productAlias": "CLABE BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "CH"
+            "reasonPayment": "CLABE"
           },
-          "referenceIndicator": 0,
+          "referenceIndicator": 9,
           "token": false
         }
       },
@@ -893,37 +894,38 @@
       },
       "avatar": {
         "image": "",
-        "ini": "Pr"
+        "ini": "CO"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49MKGPPMRKGMS98HY4FFF38YW2HRNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T58AXDY80YNKM3994PBKN3CJR87MBYQEX3A1MJ45F0SFP8AH1HWA",
+      "shortName": "CRDITOPP",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "BBVA Bancomer"
+              "id": "0030",
+              "name": "BAJIO"
             },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269614",
-                  "accountType": "CH"
+                "personalLoan": {
+                  "accountNumber": "1234214234"
                 }
               }
             },
             "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
+            "name": "CREDITOPERSONAL",
+            "productAlias": "Crédito BAJIO"
           },
           "typeProduct": {
-            "reasonPayment": "CH"
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Per"
           },
-          "referenceIndicator": 0,
+          "referenceIndicator": 9,
           "token": false
         }
       },
@@ -932,37 +934,38 @@
       },
       "avatar": {
         "image": "",
-        "ini": "Pr"
+        "ini": "CR"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49Q9E4XY423VHE2NNX3WZSM6RF89NVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SNAXJPT41T1AXCJW6QGM86H5CGS524MP6YWXD2GSVAGTKCD3NVEM",
+      "shortName": "PHIPOTECAR",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "BBVA Bancomer"
+              "id": "0127",
+              "name": "AZTECA"
             },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269615",
-                  "accountType": "CH"
+                "autoLoan": {
+                  "loanNumber": "765432123456789876"
                 }
               }
             },
             "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
+            "name": "PHIPOTECARIO",
+            "productAlias": "Crédito AZTECA"
           },
           "typeProduct": {
-            "reasonPayment": "CH"
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Hip"
           },
-          "referenceIndicator": 0,
+          "referenceIndicator": 9,
           "token": false
         }
       },
@@ -971,37 +974,37 @@
       },
       "avatar": {
         "image": "",
-        "ini": "Pr"
+        "ini": "PH"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "typeOperationFreq": "INTERBANK"
     },
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49P1S92KKBXKXM4PP749HSQATPGPNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Liz",
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R9WB95N5DRKAWA5PBF6W7QW3XN2JE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "TDC Hogar",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
           "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
-              "name": "BBVA Bancomer"
+              "id": "0002",
+              "name": "BANAMEX"
             },
             "contract": {
               "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269616",
-                  "accountType": "CH"
+                "creditCard": {
+                  "cardNumber": "4913660004355169"
                 }
               }
             },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
+            "email": "TDC@gmail.com",
+            "name": "LUIS SANCHEZ",
+            "productAlias": "Tarjeta BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "CH"
+            "reasonPayment": "tdc"
           },
-          "referenceIndicator": 0,
+          "referenceIndicator": 9,
           "token": false
         }
       },
@@ -1010,9 +1013,9 @@
       },
       "avatar": {
         "image": "",
-        "ini": "Pr"
+        "ini": "LS"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "typeOperationFreq": "INTERBANK"
     }
   ],
   "paginationKey": {
