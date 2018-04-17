@@ -574,5 +574,47 @@
         }
       }
     ]
+  },
+  {
+    "id": "CAUSD0000001",
+    "typeProduct": "dolares",
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "CA",
+          "tab": "m",
+          "params": {
+            "idcuenta": "CAUSD0000001",
+            "tipoCuenta": "cuentaChequera"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CA",
+          "params": {
+            "cuenta": "CAUSD0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CA",
+          "params": {
+            "tipo": "todos",
+            "cuenta": "CAUSD0000001"
+          }
+        }
+      }
+    ]
   }
 ]

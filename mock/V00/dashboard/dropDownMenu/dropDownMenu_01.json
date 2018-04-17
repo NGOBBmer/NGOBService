@@ -279,7 +279,8 @@
             "cuenta": "TCMXP0000001"
           }
         }
-      },{
+      },
+      {
         "nombre": "Estado de cuenta",
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
@@ -361,7 +362,8 @@
             "cuenta": "TCMXP0000002"
           }
         }
-      },{
+      },
+      {
         "nombre": "Estado de cuenta",
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
@@ -443,7 +445,8 @@
             "cuenta": "TCMXP0000003"
           }
         }
-      },{
+      },
+      {
         "nombre": "Estado de cuenta",
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
@@ -525,7 +528,8 @@
             "cuenta": "TCMXP0000004"
           }
         }
-      },{
+      },
+      {
         "nombre": "Estado de cuenta",
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
@@ -607,7 +611,8 @@
             "cuenta": "TCMXP0000005"
           }
         }
-      },{
+      },
+      {
         "nombre": "Estado de cuenta",
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
@@ -689,7 +694,8 @@
             "cuenta": "TCMXP0000006"
           }
         }
-      },{
+      },
+      {
         "nombre": "Estado de cuenta",
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
@@ -771,7 +777,8 @@
             "cuenta": "TCMXP0000007"
           }
         }
-      },{
+      },
+      {
         "nombre": "Estado de cuenta",
         "pathUrl": "cellsDetalleTarjetaCredito",
         "navigation": {
@@ -789,6 +796,48 @@
         "pathUrl": "changeAlias",
         "navigation": {
           "cellsNavigation": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "CAUSD0000001",
+    "typeProduct": "dolares",
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "cellsDetalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "CA",
+          "tab": "m",
+          "params": {
+            "idcuenta": "CAUSD0000001",
+            "tipoCuenta": "cuentaChequera"
+          }
+        }
+      },
+      {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CA",
+          "params": {
+            "cuenta": "CAUSD0000001"
+          }
+        }
+      },
+      {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "CA",
+          "params": {
+            "tipo": "todos",
+            "cuenta": "CAUSD0000001"
+          }
         }
       }
     ]
