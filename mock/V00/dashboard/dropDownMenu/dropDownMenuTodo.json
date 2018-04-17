@@ -1811,6 +1811,13 @@
             "cuenta": "CAUSD0000001"
           }
         }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": false
+        }
       }
     ]
   }
