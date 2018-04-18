@@ -6,7 +6,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0030",
@@ -46,7 +45,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0127",
@@ -86,7 +84,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0127",
@@ -126,7 +123,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0002",
@@ -166,7 +162,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0002",
@@ -205,7 +200,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0127",
@@ -245,7 +239,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0002",
@@ -284,7 +277,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0002",
@@ -323,7 +315,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0030",
@@ -363,7 +354,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0127",
@@ -403,7 +393,6 @@
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationTransfer": {
-          "typeScheduler": "NO_VALUE",
           "receiver": {
             "bank": {
               "id": "0002",
