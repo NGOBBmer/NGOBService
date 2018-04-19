@@ -1,0 +1,25 @@
+{
+  "bankCatalog": [
+    {
+      "idBank": "0002",
+      "bankName": "BANAMEX",
+      "cbe": true,
+      "cbeMD": true,
+      "cbeDS": true,
+      "tdd": true,
+      "tddMD": true,
+      "tddDS": true,
+      "tdc": true,
+      "tdcMD": true,
+      "tdcDS": true,
+      "ocr": true,
+      "ocrHipMD": true,
+      "ocrHipDS": true,
+      "ocrPerMD": true,
+      "ocrPerDS": true,
+      "ocrAutoMD": true,
+      "ocrAutoDS": true,
+      "sinApl": true
+    }
+  ]
+}

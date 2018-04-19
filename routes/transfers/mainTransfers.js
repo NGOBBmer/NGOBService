@@ -33,6 +33,9 @@ var banksCatalogTdd = require('../../mock/V00/transfers/loadBanks/loadBanks_tdd.
 var banksCatalogTdc = require('../../mock/V00/transfers/loadBanks/loadBanks_tdc.json');
 var banksCatalogOtrosCreditos = require('../../mock/V00/transfers/loadBanks/loadBanks_OtrosCreditos.json');
 var bankFound = require('../../mock/V00/transfers/loadBanks/bankFound.json');
+var bank_002 = require('../../mock/V00/transfers/loadBanks/bank_002.json');
+var bank_0030 = require('../../mock/V00/transfers/loadBanks/bank_0030.json');
+var bank_0127 = require('../../mock/V00/transfers/loadBanks/bank_0127.json');
 var bankFound01 = require('../../mock/V00/transfers/loadBanks/BankFound_01.json');
 var banksError = require('../../mock/V00/transfers/loadBanks/ERROR.json');
 
@@ -261,6 +264,13 @@ router.get('/V00/QrData', function(req, res, next) {
 // handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
+    if(tsec == 'null' || req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS' && req.query.cveBank==='0002'){
+        return res.json(bank_002);
+    }else if(tsec == 'null' || req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS' && req.query.cveBank==='0030'){
+        return res.json(bank_0030);
+    }else if(tsec == 'null' || req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS' && req.query.cveBank==='0127'){
+        return res.json(bank_0127);
+    }
     if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='clabe' || req.query.operationType==='CLABE' && req.query.cveBank==='0002')
         return res.json(bankFound);
     else if ((tsec == '11111111') && req.query.operationType==='otroscreditos' && req.query.cveBank==='0167' || req.query.operationType==='OTROSCREDITOS')

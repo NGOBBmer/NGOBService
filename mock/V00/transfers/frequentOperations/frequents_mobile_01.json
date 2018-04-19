@@ -1,0 +1,106 @@
+{
+  "listFrequentOperation": [
+    {
+      "id": "FRTA000000",
+      "shortName": "Frec3",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "cellphoneNumber": "5556456456"
+                }
+              }
+            },
+            "email": "liliana.ventura.contractor@bbva.com",
+            "name": "MOVISTAR",
+            "productAlias": "Celular MOVISTAR"
+          },
+          "typeProduct": {
+            "reasonPayment": "TA"
+          },
+          "referenceIndicator": 7,
+          "token": true
+        }
+      },
+      "extendedData": {
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MO"
+      },
+      "typeOperationFreq": "MOBILE_TOP_UP"
+    },
+    {
+      "id": "FRTA000001",
+      "shortName": "mov",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "cellphoneNumber": "5516955020"
+                }
+              }
+            },
+            "email": "",
+            "name": "MOVISTAR",
+            "productAlias": "Celular MOVISTAR"
+          },
+          "typeProduct": {
+            "reasonPayment": "TA"
+          },
+          "referenceIndicator": 1,
+          "token": true
+        }
+      },
+      "extendedData": {
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MO"
+      },
+      "typeOperationFreq": "MOBILE_TOP_UP"
+    },
+    {
+      "id": "FRTA000002",
+      "shortName": "micel",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "cellphoneNumber": "5533919291"
+                }
+              }
+            },
+            "email": "liliana.ventura.contractor@bbva.com",
+            "name": "TELCEL",
+            "productAlias": "Celular TELCEL"
+          },
+          "typeProduct": {
+            "reasonPayment": "TA"
+          },
+          "referenceIndicator": 1,
+          "token": true
+        }
+      },
+      "extendedData": {
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TE"
+      },
+      "typeOperationFreq": "MOBILE_TOP_UP"
+    }
+  ]
+}
