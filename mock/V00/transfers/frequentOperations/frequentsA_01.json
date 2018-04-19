@@ -29,7 +29,7 @@
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -103,7 +103,7 @@
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -506,7 +506,7 @@
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
