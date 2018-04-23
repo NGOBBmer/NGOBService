@@ -75,6 +75,9 @@ var frequents_A1 = require('../../mock/V00/transfers/frequentOperations/frequent
 var frequent_01_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01_01.json');
 var frequent_02_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02_01.json');
 var frequent_empty = require('../../mock/V00/transfers/frequentOperations/listFrequents_empty.json');
+var frequent_mobile_01 = require('../../mock/V00/transfers/frequentOperations/frequents_mobile_01.json');
+var frequent_mobile_02 = require('../../mock/V00/transfers/frequentOperations/frequent_mobile_02.json');
+
 
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
 
@@ -293,6 +296,11 @@ router.get('/V00/frequentOperations', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if ((tsec == '1111111') && req.query.numMovsFreq == '26')
         return res.json(frequent_01_01);
+    if ((tsec == '1111111') && req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
+        return res.json(frequent_mobile_02);
+    }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
+        return res.json(frequent_mobile_01);
+    }
     if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '6' && req.query.numMovsFreq == '10')
