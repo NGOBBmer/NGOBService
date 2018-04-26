@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "id": "PEGA",
+      "nameCompany": "Movistar",
+      "amountsAllowed": [
+        {
+          "id": "50",
+          "amount": "50"
+        },
+        {
+          "id": "100",
+          "amount": "100"
+        },
+        {
+          "id": "150",
+          "amount": "150"
+        },
+        {
+          "id": "200",
+          "amount": "200"
+        },
+        {
+          "id": "300",
+          "amount": "300"
+        },
+        {
+          "id": "500",
+          "amount": "500"
+        }
+      ]
+    },
+    {
+      "id": "UNEF",
+      "nameCompany": "Unefon",
+      "amountsAllowed": [
+        {
+          "id": "50",
+          "amount": "50"
+        },
+        {
+          "id": "100",
+          "amount": "100"
+        },
+        {
+          "id": "150",
+          "amount": "150"
+        },
+        {
+          "id": "200",
+          "amount": "200"
+        },
+        {
+          "id": "300",
+          "amount": "300"
+        },
+        {
+          "id": "500",
+          "amount": "500"
+        },
+        {
+          "id": "1000",
+          "amount": "1000"
+        },
+        {
+          "id": "600",
+          "amount": "S&uacute;per Recarga 600"
+        },
+        {
+          "id": "800",
+          "amount": "S&uacute;per Recarga 800"
+        }
+      ]
+    },
+    {
+      "id": "TELC",
+      "nameCompany": "Telcel",
+      "amountsAllowed": [
+        {
+          "id": "50",
+          "amount": "50"
+        },
+        {
+          "id": "100",
+          "amount": "100"
+        },
+        {
+          "id": "150",
+          "amount": "150"
+        },
+        {
+          "id": "200",
+          "amount": "200"
+        },
+        {
+          "id": "300",
+          "amount": "300"
+        },
+        {
+          "id": "500",
+          "amount": "500"
+        }
+      ]
+    },
+    {
+      "id": "IUSA",
+      "nameCompany": "AT&T",
+      "amountsAllowed": [
+        {
+          "id": "50",
+          "amount": "50"
+        },
+        {
+          "id": "100",
+          "amount": "100"
+        },
+        {
+          "id": "150",
+          "amount": "150"
+        },
+        {
+          "id": "200",
+          "amount": "200"
+        },
+        {
+          "id": "300",
+          "amount": "300"
+        },
+        {
+          "id": "500",
+          "amount": "500"
+        },
+        {
+          "id": "1000",
+          "amount": "1000"
+        },
+        {
+          "id": "600",
+          "amount": "Recarga Plus 600"
+        },
+        {
+          "id": "800",
+          "amount": "Recarga Plus 800"
+        }
+      ]
+    }
+  ]
+}

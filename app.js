@@ -42,6 +42,7 @@ var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 var mainClarifications = require('./routes/clarifications/mainClarifications');
 
 
+
 var app = express();
 
 // view engine setup
