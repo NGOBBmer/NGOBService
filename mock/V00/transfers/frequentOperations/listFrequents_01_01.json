@@ -25,8 +25,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 1,
-          "token": false
+          "referenceIndicator": 1
         }
       },
       "extendedData": {
@@ -63,8 +62,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -101,8 +99,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 1,
-          "token": false
+          "referenceIndicator": 1
         }
       },
       "extendedData": {
@@ -139,12 +136,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -177,8 +173,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -215,8 +210,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -253,12 +247,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -291,8 +284,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -329,8 +321,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 1,
-          "token": false
+          "referenceIndicator": 1
         }
       },
       "extendedData": {
@@ -367,8 +358,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -405,12 +395,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -443,8 +432,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -481,8 +469,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -519,8 +506,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -557,8 +543,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -595,8 +580,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -633,8 +617,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -671,8 +654,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -709,8 +691,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -747,8 +728,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -786,8 +766,7 @@
             "reasonPayment": "otroscreditos",
             "subtypeReasonPayment": "Auto"
           },
-          "referenceIndicator": 9,
-          "token": false
+          "referenceIndicator": 9
         }
       },
       "extendedData": {
@@ -824,12 +803,11 @@
           "typeProduct": {
             "reasonPayment": "tdc"
           },
-          "referenceIndicator": 9,
-          "token": false
+          "referenceIndicator": 9
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -862,12 +840,11 @@
           "typeProduct": {
             "reasonPayment": "CLABE"
           },
-          "referenceIndicator": 9,
-          "token": false
+          "referenceIndicator": 9
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -901,8 +878,7 @@
             "reasonPayment": "otroscreditos",
             "subtypeReasonPayment": "Per"
           },
-          "referenceIndicator": 9,
-          "token": false
+          "referenceIndicator": 9
         }
       },
       "extendedData": {
@@ -940,8 +916,7 @@
             "reasonPayment": "otroscreditos",
             "subtypeReasonPayment": "Hip"
           },
-          "referenceIndicator": 9,
-          "token": false
+          "referenceIndicator": 9
         }
       },
       "extendedData": {
@@ -978,12 +953,11 @@
           "typeProduct": {
             "reasonPayment": "tdc"
           },
-          "referenceIndicator": 9,
-          "token": false
+          "referenceIndicator": 9
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",

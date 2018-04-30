@@ -68,12 +68,10 @@ var CREDIT_ERROR = require('../../mock/V00/transfers/creditCardPayment/response_
 //FrequentOperations
 var frequent_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01.json');
 var frequent_02 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02.json');
-var frequent_03 = require('../../mock/V00/transfers/frequentOperations/listFrequents_03.json');
 var frequents_I = require('../../mock/V00/transfers/frequentOperations/frequents_Interbank_01.json');
 var frequents_TP = require('../../mock/V00/transfers/frequentOperations/frequents_ThirdParty_01.json');
 var frequents_A1 = require('../../mock/V00/transfers/frequentOperations/frequentsA_01.json');
 var frequent_01_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_01_01.json');
-var frequent_02_01 = require('../../mock/V00/transfers/frequentOperations/listFrequents_02_01.json');
 var frequent_empty = require('../../mock/V00/transfers/frequentOperations/listFrequents_empty.json');
 var frequent_mobile_01 = require('../../mock/V00/transfers/frequentOperations/frequents_mobile_01.json');
 var frequent_mobile_02 = require('../../mock/V00/transfers/frequentOperations/frequent_mobile_02.json');

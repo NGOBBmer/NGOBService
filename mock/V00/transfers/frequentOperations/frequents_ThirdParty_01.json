@@ -25,8 +25,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -63,8 +62,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -101,12 +99,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -139,8 +136,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -177,8 +173,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -195,7 +190,7 @@
       "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
-        "agileOperationTransfer": {          
+        "agileOperationTransfer": {
           "receiver": {
             "bank": {
               "name": "BBVA Bancomer"
@@ -215,12 +210,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -233,7 +227,7 @@
       "shortName": "pruebaFrec",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
-        "agileOperationTransfer": {          
+        "agileOperationTransfer": {
           "receiver": {
             "bank": {
               "name": "BBVA Bancomer"
@@ -252,8 +246,7 @@
           "typeProduct": {
             "reasonPayment": "tdd"
           },
-          "referenceIndicator": 1,
-          "token": false
+          "referenceIndicator": 1
         }
       },
       "extendedData": {
@@ -270,7 +263,7 @@
       "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
-        "agileOperationTransfer": {          
+        "agileOperationTransfer": {
           "receiver": {
             "bank": {
               "name": "BBVA Bancomer"
@@ -290,12 +283,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -328,8 +320,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -346,7 +337,7 @@
       "shortName": "",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
-        "agileOperationTransfer": {          
+        "agileOperationTransfer": {
           "receiver": {
             "bank": {
               "name": "BBVA Bancomer"
@@ -366,8 +357,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -404,8 +394,7 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
@@ -442,12 +431,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
@@ -480,12 +468,11 @@
           "typeProduct": {
             "reasonPayment": "CH"
           },
-          "referenceIndicator": 0,
-          "token": false
+          "referenceIndicator": 0
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",

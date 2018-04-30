@@ -12,6 +12,7 @@ var clarifications = require('./routes/clarifications');
 var pg = require('./routes/pg');
 var operations = require('./routes/operations');
 var transfers = require('./routes/transfers');
+var hire = require('./routes/hire');
 var expandedCard = require('./routes/expanded-card');
 var movements = require('./routes/movements');
 var relatedCards = require('./routes/related-cards');
@@ -40,6 +41,7 @@ var mainTransfers = require('./routes/transfers/mainTransfers');
 var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 var mainClarifications = require('./routes/clarifications/mainClarifications');
+var mainHire = require('./routes/hire/mainHire');
 
 
 
@@ -100,6 +102,8 @@ app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
 app.use('/clarifications', clarifications);
 app.use('/clarifications', mainClarifications);
+app.use('/hire', hire);
+app.use('/hire', mainHire);
 
 
 // catch 404 and forward to error handler
