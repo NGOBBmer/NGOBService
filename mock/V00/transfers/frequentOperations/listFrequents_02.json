@@ -35,7 +35,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PYQ0CMB04GJ43V4YF7A8RHAWHSNVJ8001517FC5KVE91C40NJ32A",
@@ -72,7 +72,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49MR20SGZ48RWNJE8E1DWKFAP3DV5VJ8001517FC5KVE91C40NJ32A",
@@ -109,7 +109,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49NW3AKT45T5ECZQBMDW0GQJXQPANVJ8001517FC5KVE91C40NJ32A",
@@ -146,7 +146,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49NBSVFB4JH7Z1DGXKH1ZJ46JKZ5NVJ8001517FC5KVE91C40NJ32A",
@@ -183,7 +183,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49NFWFY51P1DZ6BBV9ANQH17XZZGNVJ8001517FC5KVE91C40NJ32A",
@@ -220,7 +220,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PMNC3M2R0KGPF9008MEKA2SPZ55VJ8001517FC5KVE91C40NJ32A",
@@ -257,7 +257,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49QB81RD85DVQQRHDTH7VZGJT4C35VJ8001517FC5KVE91C40NJ32A",
@@ -294,7 +294,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49NFFH6EAZPSHZ7GGTXTMT3MS6B7NVJ8001517FC5KVE91C40NJ32A",
@@ -331,7 +331,7 @@
         "image": "",
         "ini": "Pr"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49QZN244236MWRKSF4MPJ55MVMCSNVJ8001517FC5KVE91C40NJ32A",
@@ -368,7 +368,7 @@
         "image": "",
         "ini": "GN"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49P5Z77AS2994WSK7208VDSJ22W4NVJ8001517FC5KVE91C40NJ32A",
@@ -405,7 +405,7 @@
         "image": "",
         "ini": "GN"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49QMWEA6NGXESGN87QV2RWGCWSZ3ZC4Q393EWAZYF0SHY6H0B7KZV8",
@@ -441,7 +441,7 @@
         "image": "",
         "ini": "HB"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49QYAPXN9CEGJ1TH3RE9QJPM53TSFC4Q393EWAZYF0SHY6H0B7KZV8",
@@ -477,7 +477,7 @@
         "image": "",
         "ini": "LL"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49NXDF5944TGSX21CRH39FPC5K79ZC4Q393EWAZYF0SHY6H0B7KZV8",
@@ -513,7 +513,7 @@
         "image": "",
         "ini": "RA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49N437YP9VFKCX8N1HTBH2C63CGWFC4Q393EWAZYF0SHY6H0B7KZV8",
@@ -549,7 +549,7 @@
         "image": "",
         "ini": "JG"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TKGX34HY7KJVXFSVWMRZ67SAXTGZE4RBAFDHTXDG3H6DXF7CAJH4",
@@ -586,7 +586,7 @@
         "image": "",
         "ini": "CL"
       },
-      "typeOperationFreq": "INTERBANK"
+      "transferType": "INTERBANK"
     },
     {
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RE9A8RXRPRVKDPRQVN3RWJZMRAV9Q1TWA57Z9SJ4J78VN2807YCT",
@@ -621,7 +621,7 @@
         "image": "",
         "ini": "TO"
       },
-      "typeOperationFreq": "INTERBANK"
+      "transferType": "INTERBANK"
     },
     {
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RJQHE8HA9MWRQH54HF22XH8DS2E95FJVXZBXFR5NSDY7WV9QDQPA",
@@ -658,7 +658,7 @@
         "image": "",
         "ini": "PR"
       },
-      "typeOperationFreq": "INTERBANK"
+      "transferType": "INTERBANK"
     },
     {
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TX6NVCZB2ZZTQJ4JFGGRZ8KQSSJJE8KJPV9Q6MJT28BZZQRASCX6",
@@ -695,7 +695,7 @@
         "image": "",
         "ini": "PP"
       },
-      "typeOperationFreq": "INTERBANK"
+      "transferType": "INTERBANK"
     }
   ],
   "paginationKey": {

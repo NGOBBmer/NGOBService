@@ -32,7 +32,7 @@
         "image": "",
         "ini": "MO"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     },
     {
       "id": "WK74M4JB5A6H10VF6AYZAYP10RWYE4PHTFQS6XN9X8R8JRSHR71MB2MY9VGM9MY8BVEQQ55XY181Y",
@@ -66,7 +66,7 @@
         "image": "",
         "ini": "MO"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     },
     {
       "id": "WK74M4JB5A6H10VF6AYZAYP10V0BNG9ZF3MWDGFWRQRBC55B6CN4B2MY9VGM9MY8BVEQQ55XY181Y",
@@ -100,7 +100,7 @@
         "image": "",
         "ini": "TE"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     },
     {
       "id": "WK74M4JB5A6H10VF6AYZAYP10TZ81MJQPH4FAZWTQH1J7C8XSYFMB2MY9VGM9MY8BVEQQ55XY181Y",
@@ -134,7 +134,7 @@
         "image": "",
         "ini": "TE"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     }
   ],
   "paginationKey": {

@@ -32,7 +32,7 @@
         "image": "",
         "ini": "Fr"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     },
     {
       "id": "FRTA000001",
@@ -66,7 +66,7 @@
         "image": "",
         "ini": "mo"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     },
     {
       "id": "FRTA000002",
@@ -100,7 +100,7 @@
         "image": "",
         "ini": "mi"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     },
     {
       "id": "FRTA000003",
@@ -134,7 +134,7 @@
         "image": "",
         "ini": "Pa"
       },
-      "typeOperationFreq": "MOBILE_TOP_UP"
+      "transferType": "MOBILE_TOP_UP"
     }
   ]
 }

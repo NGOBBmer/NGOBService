@@ -4,7 +4,7 @@
       "idBank": "0030",
       "bankName": "BAJIO",
       "cbe": true,
-      "cbeMD": true,
+      "cbeMD": false,
       "cbeDS": true,
       "tdd": true,
       "tddMD": true,

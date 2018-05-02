@@ -35,7 +35,7 @@
         "image": "",
         "ini": "LP"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PA34V0YHJC1F4DAPYPGTG5P40SNVJ8001517FC5KVE91C40NJ32A",
@@ -72,7 +72,7 @@
         "image": "",
         "ini": "PR"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PBJVFJABDCPX3NK3JN9CB3Y7X35VJ8001517FC5KVE91C40NJ32A",
@@ -109,7 +109,7 @@
         "image": "",
         "ini": "PR"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49MNPQVHWW2S8EB8WK19ZPSGEVZZNVJ8001517FC5KVE91C40NJ32A",
@@ -146,7 +146,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PDSJM9Y1ZHQPK15E5SSZYPC59B5VJ8001517FC5KVE91C40NJ32A",
@@ -183,7 +183,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49QH35F258YP2YYDFHMGQAAK1HC65VJ8001517FC5KVE91C40NJ32A",
@@ -220,7 +220,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PF5NX67DC14CEYG4W6QD5RTTX7FC4Q393EWAZYF0SHY6H0B7KZV8",
@@ -256,7 +256,7 @@
         "image": "",
         "ini": "KG"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49NV3HR7HJMCRRYFYG2VR35APN5V5VJ8001517FC5KVE91C40NJ32A",
@@ -293,7 +293,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49N0MVDF8X4THY10E7R4AHA4WSCQ5VJ8001517FC5KVE91C40NJ32A",
@@ -330,7 +330,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PKCSBX3KEF1AXE1BQ1C51PR42P5VJ8001517FC5KVE91C40NJ32A",
@@ -367,7 +367,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49MDMHQVG2JP72BKR21N06VWZ3PV5VJ8001517FC5KVE91C40NJ32A",
@@ -404,7 +404,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49Q99GJKGYYQV7SAH9CWHZC1NPDN5VJ8001517FC5KVE91C40NJ32A",
@@ -441,7 +441,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     },
     {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49M84CCK67S61S6RVYSTNM38FM6Z5VJ8001517FC5KVE91C40NJ32A",
@@ -478,7 +478,7 @@
         "image": "",
         "ini": "MA"
       },
-      "typeOperationFreq": "THIRD_PARTY"
+      "transferType": "THIRD_PARTY"
     }
   ],
   "paginationKey": {

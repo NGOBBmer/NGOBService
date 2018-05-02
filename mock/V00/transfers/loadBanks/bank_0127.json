@@ -5,7 +5,7 @@
       "bankName": "AZTECA",
       "cbe": true,
       "cbeMD": true,
-      "cbeDS": true,
+      "cbeDS": false,
       "tdd": true,
       "tddMD": true,
       "tddDS": true,
