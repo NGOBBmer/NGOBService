@@ -745,6 +745,43 @@
       "transferType": "INTERBANK"
     },
     {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R21RXV43ZE61RB6PWACY2EBCH4Y39W9JWK3G6Y5RRYQGG0EVCJHR",
+      "shortName": "PRUEBA TDC",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "545631060044264"
+                }
+              }
+            },
+            "email": "sncn25@gmail.com",
+            "name": "TDC UNO",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PF"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
       "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RJQHE8HA9MWRQH54HF22XH8DS2E95FJVXZBXFR5NSDY7WV9QDQPA",
       "shortName": "CONAMEX",
       "agileOperationType": "FREQUENT_OPERATION",
@@ -778,6 +815,80 @@
       "avatar": {
         "image": "",
         "ini": "CO"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RJQHE8HA9MWRQH54HF22XH8DS2E95FJVXZBXFR5NSDY7WV9QDQPA",
+      "shortName": "clabe bajiop",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0030",
+              "name": "BAJIO"
+            },
+            "contract": {
+              "product": {
+                "debitCard": {
+                  "interbankCode": "002180700212341903"
+                }
+              }
+            },
+            "email": "conamex@gmail.com",
+            "name": "Clabe BAJIO",
+            "productAlias": "CLABE BAJIO"
+          },
+          "typeProduct": {
+            "reasonPayment": "CLABE"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "CO"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9R21RXV43ZE61RB6PWACY2EBCH4Y39W9JWK3G6Y5RRYQGG0EVCJHR",
+      "shortName": "PRUEBA TDC",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0030",
+              "name": "BAJIO"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "555631060044264"
+                }
+              }
+            },
+            "email": "sncn25@gmail.com",
+            "name": "TDC UNO",
+            "productAlias": "Tarjeta BAJIO"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PF"
       },
       "transferType": "INTERBANK"
     },
