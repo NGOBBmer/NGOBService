@@ -1,0 +1,193 @@
+{
+  "data": [
+    {
+      "id": "185180149156152152155AB138AB391844660540",
+      "wasFound": true,
+      "account": {
+        "number": "0021807005",
+        "accountType": "CL"
+      },
+      "transferType": "INTERBANK",
+      "beneficiary": {
+        "bank": {
+          "code": "",
+          "name": ""
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": ""
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "185171156156153151149AB138AB308853002248",
+      "wasFound": true,
+      "account": {
+        "number": "9711440156",
+        "accountType": "CL"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Giovanni Nicolas Marin"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "GN"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "183174148155151157155AB138AB130739645746",
+      "wasFound": true,
+      "account": {
+        "number": "5520721628",
+        "accountType": "CL"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Magali Nomina Mtp"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MN"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "186173150148148148155AB138AB422000611536",
+      "wasFound": true,
+      "account": {
+        "number": "1136164080",
+        "accountType": "CH"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Magali Garcia Mtp"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MG"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "184178155151155156149AB138AB277378065321",
+      "wasFound": true,
+      "account": {
+        "number": "021180040000000752",
+        "accountType": "CB"
+      },
+      "transferType": "INTERBANK",
+      "beneficiary": {
+        "bank": {
+          "code": "0021",
+          "name": "HSBC"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "HS"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "190180157157150155152AB138AB89992730884",
+      "wasFound": true,
+      "account": {
+        "number": "5499490515322931",
+        "accountType": "TC"
+      },
+      "transferType": "INTERBANK",
+      "beneficiary": {
+        "bank": {
+          "code": "0002",
+          "name": "BANAMEX"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BA"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "184175148156150156158AB138AB240828990894",
+      "wasFound": false,
+      "account": {
+        "number": "4098513016451321",
+        "accountType": ""
+      },
+      "transferType": "INTERBANK",
+      "sendDetail": false
+    },
+    {
+      "id": "185178154151148149152AB138AB376301340661",
+      "wasFound": true,
+      "account": {
+        "number": "4098513016018209",
+        "accountType": "CM"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Paola Itzel Chavez Fragoso"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PI"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "185176152154153155156AB138AB354657793374",
+      "wasFound": true,
+      "account": {
+        "number": "4152313300116865",
+        "accountType": "TD"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Felipe Medez Mtp"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "FM"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "189175148152149153157AB138AB74041584375",
+      "wasFound": true,
+      "account": {
+        "number": "4461180036974370",
+        "accountType": "TP"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Hec√èor Salda√èa Sierra"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "HS"
+      },
+      "sendDetail": false
+    },
+    {
+      "id": "185180154152155154153AB138AB396476457079",
+      "wasFound": true,
+      "account": {
+        "number": "4772133010484910",
+        "accountType": "TC"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Belen Garces Garcia"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BG"
+      },
+      "sendDetail": false
+    }
+  ]
+}
