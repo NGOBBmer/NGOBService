@@ -10,6 +10,7 @@ var listReceiver_tdc02 = require('../../mock/V00/transfers/listAccountTr/listRec
 var listReceiver_tdcError = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdcError.json');
 var listSender_tdcEmpty = require('../../mock/V00/transfers/listAccountTr/listSender_tdcEmpty.json');
 var listSender_tdc03 = require('../../mock/V00/transfers/listAccountTr/listSender_tdc03.json');
+var listSender_paco = require('../../mock/V00/transfers/listAccountTr/listSender_paco.json');
 var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccount_err.json');
 
 //CardInformation
@@ -205,6 +206,8 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         return res.json(listAccount_01);
     }else if (tsec === '1234567'){
         return res.json(listAccount_02);
+    }else if (tsec === 'paco'){
+        return res.json(listAccount_paco);
     }else{
         return res.json(listAccount_all);
     }
