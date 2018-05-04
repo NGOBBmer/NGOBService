@@ -8,6 +8,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0030",
               "name": "BAJIO"
             },
             "contract": {
@@ -45,6 +46,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0127",
               "name": "AZTECA"
             },
             "contract": {
@@ -82,6 +84,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0127",
               "name": "AZTECA"
             },
             "contract": {
@@ -119,6 +122,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0002",
               "name": "BANAMEX"
             },
             "contract": {
@@ -156,6 +160,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -194,6 +199,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0002",
               "name": "BANAMEX"
             },
             "contract": {
@@ -231,6 +237,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0127",
               "name": "AZTECA"
             },
             "contract": {
@@ -268,6 +275,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0002",
               "name": "BANAMEX"
             },
             "contract": {
@@ -305,6 +313,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0002",
               "name": "BANAMEX"
             },
             "contract": {
@@ -342,6 +351,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0030",
               "name": "BAJIO"
             },
             "contract": {
@@ -379,6 +389,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0127",
               "name": "AZTECA"
             },
             "contract": {
@@ -416,6 +427,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -454,6 +466,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -492,6 +505,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -530,6 +544,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -568,6 +583,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -606,6 +622,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -644,6 +661,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -682,6 +700,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -720,6 +739,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -758,6 +778,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -796,6 +817,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -834,6 +856,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -872,6 +895,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -910,6 +934,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0002",
               "name": "BANAMEX"
             },
             "contract": {

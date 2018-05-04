@@ -271,25 +271,25 @@ router.get('/V00/QrData', function(req, res, next) {
 // handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if(tsec == 'null' || req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS' && req.query.cveBank==='0002'){
+    if(tsec == 'null' || req.query.operationType==='oca' || req.query.operationType==='OCA' && req.query.cveBank==='0002'){
         return res.json(bank_002);
-    }else if(tsec == 'null' || req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS' && req.query.cveBank==='0030'){
+    }else if(tsec == 'null' || req.query.operationType==='oca' || req.query.operationType==='OCA' && req.query.cveBank==='0030'){
         return res.json(bank_0030);
-    }else if(tsec == 'null' || req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS' && req.query.cveBank==='0127'){
+    }else if(tsec == 'null' || req.query.operationType==='oca' || req.query.operationType==='OCA' && req.query.cveBank==='0127'){
         return res.json(bank_0127);
     }
-    if(tsec == 'null' || req.query.operationType==='tdc' || req.query.operationType==='TDC' && req.query.cveBank==='0002'){
+    if(tsec == 'null' || req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0002'){
         return res.json(bank_002);
-    }else if(tsec == 'null' || req.query.operationType==='tdc' || req.query.operationType==='TDC' && req.query.cveBank==='0030'){
+    }else if(tsec == 'null' || req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0030'){
         return res.json(bank_0030);
-    }else if(tsec == 'null' || req.query.operationType==='tdc' || req.query.operationType==='TDC' && req.query.cveBank==='0127'){
+    }else if(tsec == 'null' || req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0127'){
         return res.json(bank_0127);
     }
-    if(tsec == 'null' || req.query.operationType==='clabe' || req.query.operationType==='CLABE' && req.query.cveBank==='0002'){
+    if(tsec == 'null' || req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0002'){
         return res.json(bank_002);
-    }else if(tsec == 'null' || req.query.operationType==='clabe' || req.query.operationType==='CLABE' && req.query.cveBank==='0030'){
+    }else if(tsec == 'null' || req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0030'){
         return res.json(bank_0030);
-    }else if(tsec == 'null' || req.query.operationType==='clabe' || req.query.operationType==='CLABE' && req.query.cveBank==='0127'){
+    }else if(tsec == 'null' || req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0127'){
         return res.json(bank_0127);
     }
     
