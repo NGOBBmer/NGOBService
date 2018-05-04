@@ -298,7 +298,7 @@ router.get('/V00/loadBanks', function(req, res, next) {
         return res.json(bank_0127);
     }
     
-    if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='clabe' || req.query.operationType==='CLABE' && req.query.cveBank==='0002')
+    if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='cb' || req.query.operationType==='CB' && req.query.cveBank==='0002')
         return res.json(bankFound);
     else if ((tsec == '11111111') && req.query.operationType==='otroscreditos' && req.query.cveBank==='0167' || req.query.operationType==='OTROSCREDITOS')
         return res.json(bankFound01);
