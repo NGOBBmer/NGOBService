@@ -39,6 +39,7 @@ var bankFound = require('../../mock/V00/transfers/loadBanks/bankFound.json');
 var bank_002 = require('../../mock/V00/transfers/loadBanks/bank_002.json');
 var bank_0030 = require('../../mock/V00/transfers/loadBanks/bank_0030.json');
 var bank_0127 = require('../../mock/V00/transfers/loadBanks/bank_0127.json');
+var bank_0127_2 = require('../../mock/V00/transfers/loadBanks/bank_0127_2.json');
 var bankFound01 = require('../../mock/V00/transfers/loadBanks/BankFound_01.json');
 var banksError = require('../../mock/V00/transfers/loadBanks/ERROR.json');
 var bancomer = require('../../mock/V00/transfers/loadBanks/bancomer.json');
@@ -280,9 +281,11 @@ router.get('/V00/loadBanks', function(req, res, next) {
         return res.json(bank_002);
     }else if(tsec == 'null' && (req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0030'){
         return res.json(bank_0030);
-    }else if(tsec == 'null' && (req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0127'){
+    }else if(tsec == 'null' && (req.query.operationType==='och' || req.query.operationType==='OCH') && req.query.cveBank==='0127'){
         return res.json(bank_0127);
-    }
+    }else if(tsec == 'null' && (req.query.operationType==='ocp' || req.query.operationType==='OCP') && req.query.cveBank==='0127'){
+        return res.json(bank_0127);
+    }   
     if(tsec == 'null' && req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0002'){
         return res.json(bank_002);
     }else if(tsec == 'null' && req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0030'){

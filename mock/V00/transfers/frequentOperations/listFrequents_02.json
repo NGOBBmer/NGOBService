@@ -1,43 +1,6 @@
 {
   "listFrequentOperation": [
     {
-      "id": "4C5AN0EFASM9SD5WYPDB9TK49M08WE14J6802EBXVMG0RP7R8AKNVJ8001517FC5KVE91C40NJ32A",
-      "shortName": "Prueba",
-      "agileOperationType": "FREQUENT_OPERATION",
-      "operation": {
-        "agileOperationTransfer": {
-          "receiver": {
-            "bank": {
-              "name": "BBVA Bancomer"
-            },
-            "contract": {
-              "product": {
-                "checkAccount": {
-                  "accountNumber": "2781269642",
-                  "accountType": "CH"
-                }
-              }
-            },
-            "email": "",
-            "name": "Prueba",
-            "productAlias": "Cuenta BBVA Bancomer"
-          },
-          "typeProduct": {
-            "reasonPayment": "CH"
-          },
-          "referenceIndicator": 0
-        }
-      },
-      "extendedData": {
-        "reliableOperation": true
-      },
-      "avatar": {
-        "image": "",
-        "ini": "Pr"
-      },
-      "transferType": "THIRD_PARTY"
-    },
-    {
       "id": "4C5AN0EFASM9SD5WYPDB9TK49PYQ0CMB04GJ43V4YF7A8RHAWHSNVJ8001517FC5KVE91C40NJ32A",
       "shortName": "Prueba",
       "agileOperationType": "FREQUENT_OPERATION",
@@ -45,6 +8,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -82,6 +46,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -119,6 +84,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -156,6 +122,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -193,6 +160,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -230,6 +198,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -267,6 +236,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -304,6 +274,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -341,6 +312,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -378,6 +350,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -415,6 +388,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -429,7 +403,7 @@
             "productAlias": "Tarjeta BBVA Bancomer"
           },
           "typeProduct": {
-            "reasonPayment": "tdd"
+            "reasonPayment": "TD"
           },
           "referenceIndicator": 1
         }
@@ -451,6 +425,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -465,7 +440,7 @@
             "productAlias": "Tarjeta BBVA Bancomer"
           },
           "typeProduct": {
-            "reasonPayment": "tdd"
+            "reasonPayment": "TD"
           },
           "referenceIndicator": 1
         }
@@ -487,6 +462,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -501,7 +477,7 @@
             "productAlias": "Tarjeta BBVA Bancomer"
           },
           "typeProduct": {
-            "reasonPayment": "tdd"
+            "reasonPayment": "TD"
           },
           "referenceIndicator": 1
         }
@@ -523,6 +499,7 @@
         "agileOperationTransfer": {
           "receiver": {
             "bank": {
+              "id": "0012",
               "name": "BBVA Bancomer"
             },
             "contract": {
@@ -537,7 +514,7 @@
             "productAlias": "Tarjeta BBVA Bancomer"
           },
           "typeProduct": {
-            "reasonPayment": "tdd"
+            "reasonPayment": "TD"
           },
           "referenceIndicator": 1
         }
@@ -574,7 +551,7 @@
             "productAlias": "CLABE BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "CLABE"
+            "reasonPayment": "CB"
           },
           "referenceIndicator": 9
         }
@@ -609,7 +586,7 @@
             "productAlias": "Tarjeta BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "tdd"
+            "reasonPayment": "TD"
           },
           "referenceIndicator": 9
         }
@@ -646,7 +623,7 @@
             "productAlias": "CLABE BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "CLABE"
+            "reasonPayment": "CB"
           },
           "referenceIndicator": 9
         }
@@ -683,7 +660,7 @@
             "productAlias": "Tarjeta BANAMEX"
           },
           "typeProduct": {
-            "reasonPayment": "tdc"
+            "reasonPayment": "TC"
           },
           "referenceIndicator": 9
         }
