@@ -284,7 +284,7 @@ router.get('/V00/loadBanks', function(req, res, next) {
     }else if(tsec == 'null' && (req.query.operationType==='och' || req.query.operationType==='OCH') && req.query.cveBank==='0127'){
         return res.json(bank_0127);
     }else if(tsec == 'null' && (req.query.operationType==='ocp' || req.query.operationType==='OCP') && req.query.cveBank==='0127'){
-        return res.json(bank_0127);
+        return res.json(bank_0127_2);
     }   
     if(tsec == 'null' && req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0002'){
         return res.json(bank_002);
