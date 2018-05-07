@@ -3,7 +3,7 @@
     "code": "ERR_CLAR_002",
     "descripcion": "Se ha producido un error al consultar el servicio",
     "httpStatus": "400",
-    "message": "Servicio temporalmente no disponible",
+    "message": "Servicio temporalmente no disponible <br><br> Folio: xxxxxxxxxx <br>Concepto: xxxxxxxxxx ",
     "severity": "FATAL",
     "version": "1"
   }
