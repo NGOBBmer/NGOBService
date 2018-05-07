@@ -1,5 +1,10 @@
 {
-  "message": "BBVA Bancomer ha realizado un abono del cargo no reconocido en tu T. de crédito ·12345- <br><br>Folio: xxxxxxxxxx<br>Concepto: xxxxxxxxxx",
-  "folio": "5520721628",
-  "operationDate": "20187-02-27"
+  "message": [
+    "BBVA Bancomer ha realizado un abono del cargo no reconocido en tu T. de crédito con terminación ·12345 por un monto de $120.00 con fecha 07-05-2018 11:20",
+    "",
+    "Folio de atención: 1234567890.",
+    "Concepto: Recepción de reclamación."
+  ],
+  "folio": "",
+  "operationDate": "sdfkjdklfj"
 }
