@@ -119,6 +119,8 @@ var rulesInterbank_inSchedule = require('../../mock/V00/transfers/rulesInterbank
 var rulesInterbank_outSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_02.json');
 var error_rulesInterbank = require('../../mock/V00/transfers/rulesInterbank/error_rulesInterbank.json');
 
+//DeleteFrequent
+var deleteOk_freq = require('../../mock/V00/transfers/deleteFrequentOperation/deleteFrequentOperation.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -592,6 +594,17 @@ router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
   next();
 });
 
+
+//http://localhost:8080/Andrea/transfers/V00/deleteFrequents/FRTT000065
+router.post('/V00/deleteFrequents/:id', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    if (req.params.id != null){
+        return res.json(deleteOk_freq);
+    }
+
+    return res.status(409).json(error_rulesInterbank);
+  next();
+});
 
 
 module.exports = router;
