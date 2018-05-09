@@ -301,18 +301,13 @@ router.get('/V00/loadBanks', function(req, res, next) {
     }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0127'){
         return res.json(bank_0127);
     }
-    
-    if ((tsec == 'null' || tsec == undefined) && req.query.operationType==='cb' || req.query.operationType==='CB' && req.query.cveBank==='0002')
-        return res.json(bankFound);
-    else if ((tsec == '11111111') && req.query.operationType==='otroscreditos' && req.query.cveBank==='0167' || req.query.operationType==='OTROSCREDITOS')
-        return res.json(bankFound01);
-    else if ((tsec == '11111111') && req.query.operationType==='clabe' || req.query.operationType==='CLABE')
+    if ((tsec == 'null' || tsec == '11111111') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
         return res.json(banksCatalogClabe);
-    else if ((tsec == '987654' || tsec == '11111111') && req.query.operationType==='tdd' || req.query.operationType==='TDD')
+    else if ((tsec == 'null' || tsec == '987654') && (req.query.operationType==='td' || req.query.operationType==='TD'))
         return res.json(banksCatalogTdd);
-    else if ((tsec == '123456789' || tsec == '11111111') && req.query.operationType==='tdc' || req.query.operationType==='TDC')
+    else if ((tsec == 'null' || tsec == '123456789') && (req.query.operationType==='tc' || req.query.operationType==='TC'))
         return res.json(banksCatalogTdc);
-    else if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='otroscreditos' || req.query.operationType==='OTROSCREDITOS')
+    else if ((tsec == 'null' || tsec == 'null') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
         return res.json(banksCatalogOtrosCreditos);
 
     return res.status(409).json(banksError);
