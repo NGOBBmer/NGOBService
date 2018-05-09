@@ -85,6 +85,7 @@ var SERROR = require('../../mock/V00/operations/suggestedOperations/error.json')
 var createAgileOp01 = require('../../mock/V00/operations/createAgileOperations/createAgileOp01.json');
 var createAgileOpErr_01 = require('../../mock/V00/operations/createAgileOperations/createAgileOpErr_01.json');
 var createAgileOpErr_02 = require('../../mock/V00/operations/createAgileOperations/createAgileOpErr_02.json');
+var getId_createAgileOp01 = require('../../mock/V00/operations/createAgileOperations/getId_createAgileOp_01.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -451,6 +452,15 @@ router.get('/V00/updateEmail', function(req, res, next) {
     return res.json(UEMAIL);
   else
     return res.json(ERROR);
+  next();
+});
+
+//createAgileOperations GetId
+router.get('/V00/createAgileOperations', function(req, res, next) {
+  if (req.query.action ==='getId' ){
+    return res.json(getId_createAgileOp01);
+  }
+  return res.status(400).json(NOK);
   next();
 });
 
