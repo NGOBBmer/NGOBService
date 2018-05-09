@@ -42,7 +42,7 @@ var bank_0127 = require('../../mock/V00/transfers/loadBanks/bank_0127.json');
 var bank_0127_2 = require('../../mock/V00/transfers/loadBanks/bank_0127_2.json');
 var bankFound01 = require('../../mock/V00/transfers/loadBanks/BankFound_01.json');
 var banksError = require('../../mock/V00/transfers/loadBanks/ERROR.json');
-var bancomer = require('../../mock/V00/transfers/loadBanks/bancomer.json');
+var bank_bancomer = require('../../mock/V00/transfers/loadBanks/bank_0012.json');
 
 //interbank
 var express = require('express');
@@ -276,9 +276,8 @@ router.get('/V00/QrData', function(req, res, next) {
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if(req.query.cveBank==='0012'){
-        return bancomer;
+        return res.json(bank_bancomer);
     }
-
     if(tsec == 'null' && (req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0002'){
         return res.json(bank_002);
     }else if(tsec == 'null' && (req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0030'){
