@@ -576,11 +576,11 @@ router.get('/V00/advancedSearch', function(req, res, next) {
 //handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?operationType=spei
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == '11111111') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
+    if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_inSchedule);
     else if ((tsec == '927182') && req.query.operationType==='cecoban' || req.query.operationType==='CECOBAN')
         return res.json(rulesInterbank_inSchedule);
-    else if ((tsec == '123456789') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
+    else if ((tsec == 'null' || tsec == '123456789') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_outSchedule);
     
 
