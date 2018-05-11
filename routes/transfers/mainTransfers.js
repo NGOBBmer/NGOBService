@@ -410,7 +410,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
 
     if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
-        aplicationDate != "" && aplicationDate != null && (tsec != "" || tsec =='null') && (tsec == 'null') &&
+        aplicationDate != "" && aplicationDate != null && (tsec != "") && (tsec != null) &&
         amount != "" && amount != null && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
@@ -418,8 +418,6 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                             if (taxReceipt){
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                                     if(tsec == "7777777"){
-                                        return res.json(OK_interbank_traking);
-                                    }else if(tsec == "null"){
                                         return res.json(OK_interbank_traking);
                                     }else{
                                         return res.json(OK_interbank);
@@ -429,8 +427,6 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                                  }
                               }
                               if(tsec == "7777777"){
-                                return res.json(OK_interbank_traking_period);
-                              }else if(tsec == "null"){
                                 return res.json(OK_interbank_traking_period);
                               }else{
                                 return res.json(OK_interbank_period);
@@ -444,9 +440,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
              if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                 if(tsec == "7777777"){
                     return res.json(OK_interbank_traking);
-                }else if(tsec == "null"){
-                    return res.json(OK_interbank_traking);
-                }else{
+               }else{
                     return res.json(OK_interbank);
                 }
              }else{
@@ -456,9 +450,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
         if(tsec == "7777777"){
          return res.json(OK_interbank_traking); 
-        }else  if(tsec == "null"){
-         return res.json(OK_interbank_traking); 
-        }else{
+       }else{
             return res.json(OK_interbank); 
         }
     }else{
