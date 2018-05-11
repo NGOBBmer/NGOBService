@@ -543,7 +543,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
 //advancedSearch
 router.get('/V00/advancedSearch', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec === '1234567890' || tsec === undefined || tsec === 'null'){
+    if (tsec === '1234567890' || tsec === 'null' && (req.query.number !== undefined && req.query.number !=='')){
         var filePath = path.join(__dirname, advancedSearch_varios);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         if (req.query.number === '0021807005'){
@@ -569,7 +569,8 @@ router.get('/V00/advancedSearch', function(req, res, next) {
         }else if (req.query.number === '4772133010484910'){
             return res.json(json.data[10]);
         }else{
-            return res.status(406).json(advancedSearchErr); 
+            json.data[7].account.number = req.query.number;
+            return res.json(json.data[7]); 
         }
     }else if (req.query.number == undefined || req.query.number === ''){
        return res.status(406).json(advancedSearchErr); 
