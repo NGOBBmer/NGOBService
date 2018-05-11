@@ -212,7 +212,7 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
     }else if (req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc01);
     }else if (tsec === 'null'){
-        return res.json(listAccount_01);
+        return res.json(listAccount_all);
     }else if (tsec === '123456'){
         return res.json(listAccount_01);
     }else if (tsec === '1234567'){
@@ -551,7 +551,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
 //advancedSearch
 router.get('/V00/advancedSearch', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec === '1234567890' || tsec === 'null'){
+    if (tsec === '1234567890'){
         var filePath = path.join(__dirname, advancedSearch_varios);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         if (req.query.number === '0021807005'){
