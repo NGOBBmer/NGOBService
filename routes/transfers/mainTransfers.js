@@ -570,7 +570,7 @@ router.get('/V00/advancedSearch', function(req, res, next) {
             return res.json(json.data[10]);
         }
     }else if (req.query.number == undefined || req.query.number === ''){
-       return res.status(400).json(advancedSearchErr); 
+       return res.status(406).json(advancedSearchErr); 
     }else  if (req.query.number === '2800160237'){
         return res.json(advancedSearch01);
     }else if (req.query.number === '002180700256551903'){
