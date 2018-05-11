@@ -51,7 +51,9 @@ router.post('/V00/getQR', function(req, res, next) {
 }*/
 router.post('/V00/getOpticalValidation', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if(tsec === '123456789' && req.body.idOperation === 'RSTPG'){
+  if(tsec == 'null' && req.body.idOperation === 'RSTPG'){
+    return res.json(rules_s2);
+  }else if(tsec === '123456789' && req.body.idOperation === 'RSTPG'){
     return res.json(rules_s1);
   } else if(tsec == undefined && req.body.idOperation === 'RSTPG'){
     return res.json(rules_s2);
