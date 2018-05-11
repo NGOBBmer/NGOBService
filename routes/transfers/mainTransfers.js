@@ -535,7 +535,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
 //advancedSearch
 router.get('/V00/advancedSearch', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec === '1234567890'){
+    if (tsec === '1234567890' || tsec === undefined || tsec === 'null'){
         var filePath = path.join(__dirname, advancedSearch_varios);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         if (req.query.number === '0021807005'){
