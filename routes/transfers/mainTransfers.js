@@ -568,6 +568,8 @@ router.get('/V00/advancedSearch', function(req, res, next) {
             return res.json(json.data[9]);
         }else if (req.query.number === '4772133010484910'){
             return res.json(json.data[10]);
+        }else{
+            return res.status(406).json(advancedSearchErr); 
         }
     }else if (req.query.number == undefined || req.query.number === ''){
        return res.status(406).json(advancedSearchErr); 
