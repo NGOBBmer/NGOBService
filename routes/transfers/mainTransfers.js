@@ -203,12 +203,16 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         return res.status(400).json(listAccount_err);
     }else  if (tsec == '09876543'){
         res.status(409).json(listSender_tdcEmpty);
+    }else if (tsec == 'null' && req.query.operationType == 'PAY_CREDITCARD'){
+        return res.json(listSender_tdc02);
     }else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc02);
     }else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc03);
     }else if (req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc01);
+    }else if (tsec === 'null'){
+        return res.json(listAccount_01);
     }else if (tsec === '123456'){
         return res.json(listAccount_01);
     }else if (tsec === '1234567'){
@@ -233,6 +237,8 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
         return res.json(listReceiver_tdc02);
     else if (req.query.operationType == 'PAY_CREDITCARD')
         return res.json(listReceiver_tdc01);
+    else if (tsec==='null')
+        return res.json(listAccount_all);
     else 
         return res.json(listAccount_all);
     return res.status(400).json(listAccount_err);
@@ -266,6 +272,8 @@ router.get('/V00/QrData', function(req, res, next) {
         return res.json(QrDataSoftokenOpt);
     else  if (tsec == 'cronto')
         return res.json(QrDataCronto);
+     else  if (tsec == 'null')
+        return res.json(QrDataSoftokenOpt);
 
     return res.status(400).json(qrError);
   next();
@@ -346,9 +354,9 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         return res.json(frequents_TP);
     else if ((tsec == '3456789') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
         return res.json(frequent_empty);
-    else if ((tsec == '3456789') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+    else if ((tsec == 'null' ||tsec == '3456789') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
         return res.json(frequent_empty);
-    else if ((tsec == '3456789') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+    else if ((tsec == 'null' || tsec == '3456789') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
         return res.json(frequent_empty);
 
 
@@ -402,7 +410,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
 
     if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
-        aplicationDate != "" && aplicationDate != null && tsec != "" && tsec != null &&
+        aplicationDate != "" && aplicationDate != null && (tsec != "" || tsec =='null') && (tsec == 'null') &&
         amount != "" && amount != null && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
@@ -410,6 +418,8 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                             if (taxReceipt){
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                                     if(tsec == "7777777"){
+                                        return res.json(OK_interbank_traking);
+                                    }else if(tsec == "null"){
                                         return res.json(OK_interbank_traking);
                                     }else{
                                         return res.json(OK_interbank);
@@ -419,6 +429,8 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                                  }
                               }
                               if(tsec == "7777777"){
+                                return res.json(OK_interbank_traking_period);
+                              }else if(tsec == "null"){
                                 return res.json(OK_interbank_traking_period);
                               }else{
                                 return res.json(OK_interbank_period);
@@ -432,6 +444,8 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
              if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                 if(tsec == "7777777"){
                     return res.json(OK_interbank_traking);
+                }else if(tsec == "null"){
+                    return res.json(OK_interbank_traking);
                 }else{
                     return res.json(OK_interbank);
                 }
@@ -441,6 +455,8 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
         }
 
         if(tsec == "7777777"){
+         return res.json(OK_interbank_traking); 
+        }else  if(tsec == "null"){
          return res.json(OK_interbank_traking); 
         }else{
             return res.json(OK_interbank); 
@@ -535,7 +551,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
 //advancedSearch
 router.get('/V00/advancedSearch', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec === '1234567890'){
+    if (tsec === '1234567890' || tsec === 'null'){
         var filePath = path.join(__dirname, advancedSearch_varios);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         if (req.query.number === '0021807005'){

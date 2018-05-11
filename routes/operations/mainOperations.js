@@ -115,7 +115,7 @@ router.get('/V00/actionalAdvice', function(req, res, next) {
 router.get('/V00/allowAgileOperations', function(req, res, next) {
 
   var tsec = req.headers['tsec'];
-    if (tsec === '1234567890'){
+    if (tsec === '1234567890' || tsec === 'null'){
       if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
         return res.json(allowRecT);
       else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
@@ -125,7 +125,7 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'INTERBANK')
         return res.json(allowFastI);
     }else {
-      if ((tsec === '34567890') && req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
+      if ((tsec === '34567890' || tsec === 'null') && req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
         return res.json(allowRec01);
       else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
         return res.json(allowRecT);
@@ -145,7 +145,7 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
 // handler for query http://localhost:4000/operations/V00/agileOperations?agileOperationType=ALL_RS&weekId=init
 router.get('/V00/agileOperations', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if (tsec == '034942' && req.query.agileOperationType === 'FAST'){
+  if ((tsec == '034942') && req.query.agileOperationType === 'FAST'){
      return res.status(406).json(ERROR);
   }else if (tsec == '1234567890'){
      return res.status(400).json(ERROR);
@@ -306,7 +306,7 @@ router.get('/V00/agileOperations', function(req, res, next) {
       }
       // return res.json(LISTA_PR);
     }else if (req.query.agileOperationType === 'FAST')
-      if (tsec == '123456')
+      if (tsec === 'null' || tsec == '123456')
         return res.json(LISTA_RP);
       else if (tsec = '12345678')
         return res.json(LISTA_RP0);
@@ -322,9 +322,9 @@ router.get('/V00/deleteAgileOperations/:id', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if(req.params.id !== '0001' && req.query.agileOperationType === 'RECURRING')
     return res.json(OK);
-  else if(tsec === '123456' && req.query.agileOperationType === 'RECURRING')
+  else if((tsec === 'null' || tsec === '123456') && req.query.agileOperationType === 'RECURRING')
    return res.status(409).json(DELETE_ERROR);
-  if (req.query.agileOperationType === 'RECURRING' || req.query.agileOperationType === 'SCHEDULED')
+  if ((tsec === 'null') && req.query.agileOperationType === 'RECURRING' || req.query.agileOperationType === 'SCHEDULED')
     return res.json(OK);
   else if (req.query.agileOperationType === 'FAST')
     return res.json(OK);
