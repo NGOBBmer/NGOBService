@@ -188,6 +188,26 @@
         "ini": "BG"
       },
       "sendDetail": false
+    },
+    {
+      "id": "854854849349200090155152AB138AB89992730884",
+      "wasFound": true,
+      "account": {
+        "number": "4513120515322123",
+        "accountType": "TD"
+      },
+      "transferType": "INTERBANK",
+      "beneficiary": {
+        "bank": {
+          "code": "0012",
+          "name": "BANK OF AMERICA"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BO"
+      },
+      "sendDetail": false
     }
   ]
 }
