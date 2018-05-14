@@ -335,7 +335,7 @@ router.get('/V00/frequentOperations', function(req, res, next) {
     }
     if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
-    else if ((tsec == '7777777') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
+    else if ((tsec == '7777777') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequents_A1);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '6' && req.query.numMovsFreq == '10')
         return res.json(frequent_02);
