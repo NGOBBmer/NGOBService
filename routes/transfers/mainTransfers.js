@@ -334,6 +334,8 @@ router.get('/V00/frequentOperations', function(req, res, next) {
     }
     if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
+    else if ((tsec == '7777777') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
+        return res.json(frequents_A1);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '6' && req.query.numMovsFreq == '10')
         return res.json(frequent_02);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '16' && req.query.numMovsFreq == '10')
@@ -586,9 +588,9 @@ router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_inSchedule);
-    else if ((tsec == '927182') && req.query.operationType==='cecoban' || req.query.operationType==='CECOBAN')
+    else if ((tsec == 'null') && req.query.operationType==='cecoban' || req.query.operationType==='CECOBAN')
         return res.json(rulesInterbank_inSchedule);
-    else if ((tsec == 'null' || tsec == '123456789') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
+    else if ((tsec == '7777777') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_outSchedule);
     
 
