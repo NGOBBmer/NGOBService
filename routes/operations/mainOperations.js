@@ -425,20 +425,7 @@ router.post('/V00/createAgileOperations', function(req, res, next) {
   }else{
     return res.status(400).json(createAgileOpErr_01);
   }
-  if (req.body.type=="pdf"){
-    return res.json(PDF);
-  }else if (req.body.type=="html"){
-    if (req.body.productId=="TCMXP0000001")
-      return res.json(HTML_TC);
-    else if (req.body.productId=="CHMXP0000001")
-      return res.json(HTML);
-    else
-      return res.json(HTML_NOMOVS);
-  }
-  else if (req.body.type=="xls"){
-    return res.json(XLS);
-  }
-  return res.status(400).json(NOK);
+  return res.status(400).json(createAgileOpErr_01);
   next();
 });
 
@@ -456,8 +443,8 @@ router.get('/V00/updateEmail', function(req, res, next) {
 });
 
 //createAgileOperations GetId
-router.get('/V00/createAgileOperations', function(req, res, next) {
-  if (req.query.action ==='getId' ){
+router.get('/V00/createAgileOperations/:action', function(req, res, next) {
+  if (req.param.action ==='getId' ){
     return res.json(getId_createAgileOp01);
   }
   return res.status(400).json(NOK);
