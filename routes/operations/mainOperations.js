@@ -443,12 +443,21 @@ router.get('/V00/updateEmail', function(req, res, next) {
 });
 
 //createAgileOperations GetId
-router.get('/V00/createAgileOperations/:action', function(req, res, next) {
-  if (req.param.action ==='getId' ){
+router.get('/V00/createAgileOperations', function(req, res, next) {
+  if (req.query.action ==='getId' ){
     return res.json(getId_createAgileOp01);
   }
   return res.status(400).json(NOK);
   next();
 });
+
+//createAgileOperations GetId
+// router.get('/V00/createAgileOperations/:action', function(req, res, next) {
+//   if (req.param.action ==='getId' ){
+//     return res.json(getId_createAgileOp01);
+//   }
+//   return res.status(400).json(NOK);
+//   next();
+// });
 
 module.exports = router;
