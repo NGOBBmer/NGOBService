@@ -103,7 +103,7 @@ var OK_period_resp = require('../../mock/V00/transfers/creditCardPayment/respons
 var MYACCOUNTS_ERROR = require('../../mock/V00/transfers/creditCardPayment/response_err.json');
 
 //sendEmailTransfers
-var json_true_err = require('../../mock/V00/transfers/sendEmailTransfers/err_true_json.json');
+var json_true_err = require('../../mock/V00/transfers/sendEmailTransfers/err_true.json');
 var json_false_err = require('../../mock/V00/transfers/sendEmailTransfers/err_false_json.json');
 var json_true = require('../../mock/V00/transfers/sendEmailTransfers/true_json.json');
 var json_false = require('../../mock/V00/transfers/sendEmailTransfers/false_json.json');
