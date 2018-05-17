@@ -103,6 +103,8 @@ var OK_period_resp = require('../../mock/V00/transfers/creditCardPayment/respons
 var MYACCOUNTS_ERROR = require('../../mock/V00/transfers/creditCardPayment/response_err.json');
 
 //sendEmailTransfers
+var json_true_err = require('../../mock/V00/transfers/sendEmailTransfers/err_true_json.json');
+var json_false_err = require('../../mock/V00/transfers/sendEmailTransfers/err_false_json.json');
 var json_true = require('../../mock/V00/transfers/sendEmailTransfers/true_json.json');
 var json_false = require('../../mock/V00/transfers/sendEmailTransfers/false_json.json');
 var json_ERR = require('../../mock/V00/transfers/sendEmailTransfers/err_json.json');
@@ -498,9 +500,23 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
 router.post('/V00/sendEmailTransfers', function(req, res, next) {
     //var tsec = req.headers['tsec'];
     if (req.body.frequentId != '' && req.body.beneficiaryEmail != '' && req.body.titularCopy && req.body.message != ''){
-        return res.json(json_true);
-    }else if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && !req.query.titularCopy){
-        return res.json(json_false);
+if(req.body.beneficiaryEmail == "error"){
+    return res.json(json_true_err);
+}else{
+    return res.json(json_true);
+
+}
+
+        
+    }else if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && !req.query.titularCopy ){
+
+        if(req.body.beneficiaryEmail == "error"){
+         return res.json(json_false_err);
+        }else{
+            return res.json(json_false);
+
+        }
+        
     }else{
         return res.json(json_ERR);
 
