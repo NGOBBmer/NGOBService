@@ -444,7 +444,7 @@ router.get('/V00/updateEmail', function(req, res, next) {
 
 //createAgileOperations GetId
 router.post('/V00/createAgileOperations/:action', function(req, res, next) {
-  if (req.param.action ==='getId' ){
+  if (req.params.action ==='getId' ){
     return res.json(getId_createAgileOp01);
   }
   return res.status(400).json(NOK);
