@@ -1,7 +1,7 @@
 {
   "error": {
     "code": "ERR_AO_000",
-    "message": "Ocurrió un problema al intentar eliminar la operación",
+    "message": "Ocurrió un problema al consultar el servicio",
     "descripcion": "Se ha producido un error al consultar el servicio /Andrea/transfers/V00/cahsAdvanceFee",
     "version": "1",
     "severity": "FATAL",

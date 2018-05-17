@@ -1,7 +1,7 @@
 {
   "error": {
     "code": "ERR_AO_000",
-    "message": "Ocurrió un problema al intentar eliminar la operación",
+    "message": "Ocurrió un problema al enviar el email",
     "descripcion": "Se ha producido un error al consultar el servicio /Andrea/transfers/V00/snedEmailTransfers",
     "version": "1",
     "severity": "FATAL",

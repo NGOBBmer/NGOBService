@@ -495,9 +495,9 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
 });
 
 //sendEmailTransfers
-router.get('/V00/sendEmailTransfers', function(req, res, next) {
+router.post('/V00/sendEmailTransfers', function(req, res, next) {
     //var tsec = req.headers['tsec'];
-    if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && req.query.titularCopy){
+    if (req.body.frequentId; != '' && req.body.beneficiaryEmail != '' && req.body.titularCopy && req.body.message != ''){
         return res.json(json_true);
     }else if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && !req.query.titularCopy){
         return res.json(json_false);
