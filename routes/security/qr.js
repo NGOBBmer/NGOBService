@@ -12,6 +12,7 @@ var ocra = require('../../mock/V00/security/getRulesToken/ocra.json');
 var rules_t7 = require('../../mock/V00/security/getRulesToken/T7.json');
 var error_inst = require('../../mock/V00/security/getRulesToken/error_instrumento.json');
 var error_rules = require('../../mock/V00/security/getRulesToken/error_rules.json');
+var without_validation = require('../../mock/V00/security/getRulesToken/without_validation.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -51,23 +52,37 @@ router.post('/V00/getQR', function(req, res, next) {
 }*/
 router.post('/V00/getOpticalValidation', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if(tsec == 'null' && req.body.idOperation === 'RSTPG'){
-    return res.json(rules_s2);
-  }else if(tsec === '123456789' && req.body.idOperation === 'RSTPG'){
-    return res.json(rules_s1);
-  } else if(tsec == undefined && req.body.idOperation === 'RSTPG'){
-    return res.json(rules_s2);
-  } else if(tsec === '890765' && req.body.idOperation === 'RSTPG'){
-    return res.json(rules_t7);
-  }else if(tsec === '18234' && req.body.idOperation === 'RSTPG'){
-    return res.json(ocra);
-  } else if(tsec === '556790' && req.body.idOperation === 'RSTPG'){
-    return res.json(simple_validation);
-  }else if(tsec === '34567' && req.body.idOperation === 'RSTPG'){
-    return res.json(error_inst);
-  }else if(req.body.idOperation === 'RSTPG'){
-    return res.status(400).json(error_rules);
+
+  if(req.body.idOperation === 'RSTPG' || req.body.idOperation === 'PREREG' || req.body.idOperation === 'TCT' | req.body.idOperation === 'TCI'){
+    
+    if(tsec == 'null'){
+      return res.json(rules_s2);
+    } else if(tsec === '123456789'){
+        return res.json(rules_s1);
+    } else if(tsec == undefined){
+        return res.json(rules_s2);
+    } else if(tsec === '890765'){
+        return res.json(rules_t7);
+    } else if(tsec === '18234'){
+        return res.json(ocra);
+    } else if(tsec === '556790'){
+        return res.json(simple_validation);
+    } else if(tsec === '34567'){
+        return res.json(error_inst);
+    } else {
+      return res.status(400).json(error_rules);    
+    }
+  } else if (req.body.idOperation === 'TCP'){
+    if(tsec == '34567'){
+      return res.json(error_rules);
+    } else {
+        return res.json(without_validation);
+    }
   }
+  
+
+
+  
  
   next();
 });
