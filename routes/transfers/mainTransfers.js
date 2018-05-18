@@ -104,6 +104,7 @@ var MYACCOUNTS_ERROR = require('../../mock/V00/transfers/creditCardPayment/respo
 
 //sendEmailTransfers
 var json_true_err = require('../../mock/V00/transfers/sendEmailTransfers/err_true_json.json');
+var json_true_err2 = require('../../mock/V00/transfers/sendEmailTransfers/err_true_json_2.json');
 var json_false_err = require('../../mock/V00/transfers/sendEmailTransfers/err_false_json.json');
 var json_true = require('../../mock/V00/transfers/sendEmailTransfers/true_json.json');
 var json_false = require('../../mock/V00/transfers/sendEmailTransfers/false_json.json');
@@ -499,9 +500,11 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
 //sendEmailTransfers
 router.post('/V00/sendEmailTransfers', function(req, res, next) {
     //var tsec = req.headers['tsec'];
-    if (req.body.frequentId != '' && req.body.beneficiaryEmail != '' && req.body.titularCopy && req.body.message != ''){
-if(req.body.beneficiaryEmail == "error"){
+    if (req.body.frequentId != '' && req.body.beneficiaryEmail != '' && req.body.titularCopy){
+if(req.body.beneficiaryEmail == "error@error.com"){
     return res.json(json_true_err);
+}else if(req.body.beneficiaryEmail == "error2@error.com"){
+    return res.json(json_true_err2);
 }else{
     return res.json(json_true);
 
