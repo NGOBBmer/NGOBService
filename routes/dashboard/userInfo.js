@@ -26,11 +26,11 @@ router.get('/V00/userInfo', function(req, res, next) {
     return res.json(userInfo_error);
   if (tsec == 'giovanni')
     return res.json(userInfo_user04)
-  else if (tsec == '123456789')
+  else if (tsec == '123456789' || tsec == '34567')
     return res.json(userInfo_user01)
  else if (tsec == '890765')
     return res.json(userInfo_user01)
-  else if (tsec == '556790')
+  else if (tsec == '556790' || tsec == '18234')
     return res.json(userInfo_user01)
   else if (tsec == '123456')
     return res.json(userInfo_user01)  

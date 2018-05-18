@@ -21,7 +21,7 @@ router.post('/V00/dashboard/mobileTransfers/', function(req, res, next) {
   var tsec = req.headers['tsec'];
   var amou= req.body.amount%100
   
-    if(otp == '12345678' && tsec != '' && tsec != null){
+    if(otp == '12345678' && (tsec != '' || tsec != null || tsec == '556790' || tsec == '123456789' || tsec == '890765' || tsec == '18234' || tsec == '34567')){
       if(req.body.amount!=null && req.body.concept!= "" && req.body.idAccount !="" &&  amou== 0 || req.body.concept === ""){
         return res.json(DATA_01);
       }else{ 
