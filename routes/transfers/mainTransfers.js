@@ -501,9 +501,9 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
 router.post('/V00/sendEmailTransfers', function(req, res, next) {
     //var tsec = req.headers['tsec'];
     if (req.body.frequentId != '' && req.body.beneficiaryEmail != '' && req.body.titularCopy){
-if(req.body.beneficiaryEmail == "error@error.com"){
+if(req.body.beneficiaryEmail == "error@test.com"){
     return res.json(json_true_err);
-}else if(req.body.beneficiaryEmail == "error2@error.com"){
+}else if(req.body.beneficiaryEmail == "error2@test.com"){
     return res.json(json_true_err2);
 }else{
     return res.json(json_true);
@@ -513,7 +513,7 @@ if(req.body.beneficiaryEmail == "error@error.com"){
         
     }else if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && !req.query.titularCopy ){
 
-        if(req.body.beneficiaryEmail == "error"){
+        if(req.body.beneficiaryEmail == "error@test.com"){
          return res.json(json_false_err);
         }else{
             return res.json(json_false);
