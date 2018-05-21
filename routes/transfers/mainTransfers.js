@@ -119,6 +119,7 @@ var advancedSearchErr = require('../../mock/V00/transfers/advancedSearch/advance
 var advancedSearchErr_02 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_err02.json');
 
 //rulesInterbank
+var rules_interbank = require('../../mock/V00/transfers/rulesInterbank/rules_01.json');
 var rulesInterbank_inSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_01.json');
 var rulesInterbank_outSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_02.json');
 var error_rulesInterbank = require('../../mock/V00/transfers/rulesInterbank/error_rulesInterbank.json');
@@ -623,7 +624,7 @@ router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_inSchedule);
     else if ((tsec == 'null') && req.query.operationType==='cecoban' || req.query.operationType==='CECOBAN')
-        return res.json(rulesInterbank_inSchedule);
+        return res.json(rules_interbank);
     else if ((tsec == '7777777') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_outSchedule);
     
