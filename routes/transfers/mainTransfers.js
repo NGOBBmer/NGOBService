@@ -288,6 +288,8 @@ router.get('/V00/QrData', function(req, res, next) {
 // handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
+     if ((tsec == 'null' || tsec == '11111111' || tsec == '1234567890') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
+        return res.json(banksCatalogClabe);
     if(req.query.cveBank==='0012'){
         return res.json(bank_bancomer);
     }
