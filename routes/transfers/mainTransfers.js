@@ -314,7 +314,7 @@ router.get('/V00/loadBanks', function(req, res, next) {
     }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0127'){
         return res.json(bank_0127);
     }
-    if ((tsec == 'null' || tsec == '11111111') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
+    if ((tsec == 'null' || tsec == '11111111' || tsec == '1234567890') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
         return res.json(banksCatalogClabe);
     else if ((tsec == 'null' || tsec == '987654') && (req.query.operationType==='td' || req.query.operationType==='TD'))
         return res.json(banksCatalogTdd);
