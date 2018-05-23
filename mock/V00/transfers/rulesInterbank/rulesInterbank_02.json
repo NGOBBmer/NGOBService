@@ -1,6 +1,9 @@
 {
   "dataSpei": {
-    "date": "2018-03-28",
+    "date": "2018-05-23",
     "amount": "8000"
+  },
+  "dataCecoban": {
+    "nextDayEnabled": "2018-05-24"
   }
 }
