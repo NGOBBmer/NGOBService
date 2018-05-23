@@ -208,6 +208,23 @@
         "ini": "BO"
       },
       "sendDetail": false
+    },
+    {
+      "id": "10745987348587BG348750937845MB456435",
+      "wasFound": true,
+      "account": {
+        "number": "1136164080",
+        "accountType": "CH"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "Giovanni Nicolás Marín"
+      },
+      "avatar": {
+        "image": "",
+        "ini": "GN"
+      },
+      "sendDetail": false
     }
   ]
 }

@@ -42,6 +42,22 @@ var mapaWeek = ["init",
   "152232158154152156150157152147153160AB153AB3886000932"
   ]
 
+var allowIdCAO = ["185171156156153151149AB138AB308853002248",
+  "185180149156152152155AB138AB391844660540",
+  "183174148155151157155AB138AB130739645746",
+  "186173150148148148155AB138AB422000611536",
+  "184178155151155156149AB138AB277378065321",
+  "190180157157150155152AB138AB89992730884",
+  "854854849349200090155152AB138AB89992730884",
+  "185180154152155154153AB138AB396476457079",
+  "189175148152149153157AB138AB74041584375",
+  "185176152154153155156AB138AB354657793374",
+  "184175148156150156158AB138AB240828990894",
+  "185178154151148149152AB138AB376301340661",
+  "10745987348587BG348750937845MB456435",
+  "187174187197182177176180190185169191200178173179174AB51AB95020857710"
+  ];
+
 //allowOperations
 var allowRecI = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_I.json');
 var allowRecT = require('../../mock/V00/operations/allowAgileOperations/allowAgileOpe_RECURRING_T.json');
@@ -408,9 +424,8 @@ router.get('/V00/suggestedOperations', function(req, res, next) {
 //createAgileOperations V00
 router.post('/V00/createAgileOperations', function(req, res, next) {
   if (req.body.agileOperationType ==='REGISTER' || req.body.agileOperationType ==='REGISTER_FREQUENT'){
-    if (req.body.operationId !== '112233445566AB112233445566' && 
-      req.body.operationId !=='187174187197182177176180190185169191200178173179174AB51AB95020857710'){
-      return res.status(400).json(createAgileOpErr_02); 
+    if (allowIdCAO.indexOf(req.body.operationId) == -1){
+      return res.status(400).json(createAgileOpErr_02);
     }
     return res.json(createAgileOp01); 
   }else if (req.body.agileOperationType ==='FREQUENT'){

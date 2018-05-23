@@ -597,6 +597,8 @@ router.get('/V00/advancedSearch', function(req, res, next) {
                     return res.json(json.data[10]);
                 }else if (req.query.number === '4513120515322123'){
                     return res.json(json.data[11]);
+                }else if (req.query.number === '012610011361640806'){
+                    return res.json(json.data[12]);
                 }else{
                     json.data[6].account.number = req.query.number;
                     return res.json(json.data[6]); 
@@ -623,11 +625,11 @@ router.get('/V00/advancedSearch', function(req, res, next) {
 //handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?operationType=spei
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec == 'null')
+    if ((tsec == 'null' || tsec == '11111111') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_inSchedule);
-    else if ((tsec == '11111111'))
+    else if ((tsec == 'null') && req.query.operationType==='cecoban' || req.query.operationType==='CECOBAN')
         return res.json(rules_interbank);
-    else if (tsec == '7777777')
+    else if ((tsec == '7777777') && req.query.operationType==='spei' || req.query.operationType==='SPEI')
         return res.json(rulesInterbank_outSchedule);
     
 
