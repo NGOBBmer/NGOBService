@@ -177,7 +177,7 @@
         }
       },
       "extendedData": {
-        "reliableOperation": false
+        "reliableOperation": true
       },
       "avatar": {
         "image": "",
