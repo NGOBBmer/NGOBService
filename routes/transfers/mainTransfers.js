@@ -208,6 +208,8 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         return res.status(400).json(listAccount_err);
     }else  if (tsec == '09876543'){
         res.status(409).json(listSender_tdcEmpty);
+    }else if (tsec == '3456789'){
+        return res.json(listAccount_01);
     }else if (tsec == 'null' && req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc02);
     }else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD'){
@@ -219,7 +221,8 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
     }else if (tsec === 'null'){
         return res.json(listAccount_all);
     }else if (tsec === '123456'){
-        return res.json(listAccount_01);
+        return res.json(
+            );
     }else if (tsec === '1234567'){
         return res.json(listAccount_02);
     }else if (tsec === 'paco'){
@@ -236,6 +239,8 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (tsec == '1234567890')
         return res.status(400).json(listAccount_err);
+    else if(tsec === '3456789')
+         return res.json(listReceiver_tdcError);
     else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD')
         return res.status(400).json(listAccount_err);
     else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD')
