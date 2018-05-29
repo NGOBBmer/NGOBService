@@ -423,6 +423,10 @@ router.get('/V00/suggestedOperations', function(req, res, next) {
 
 //createAgileOperations V00
 router.post('/V00/createAgileOperations', function(req, res, next) {
+  var otp = req.headers['otp']; 
+  if (otp == undefined || otp == ''){
+    return res.status(400).json(createAgileOpErr_02);
+  }
   if (req.body.agileOperationType ==='REGISTER' || req.body.agileOperationType ==='REGISTER_FREQUENT'){
     if (allowIdCAO.indexOf(req.body.operationId) == -1){
       return res.status(400).json(createAgileOpErr_02);
