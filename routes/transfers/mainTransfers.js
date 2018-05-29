@@ -549,6 +549,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var isPeriodic =req.body.isPeriodic;
     var aplicationDate =req.body.aplicationDate;
     var repetitions =req.body.repetitions;
+    var periodicName = req.body.periodicName;
     //var reference =req.body.reference;
     var amount =req.body.amount;
     var period =req.body.period;
