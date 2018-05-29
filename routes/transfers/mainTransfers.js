@@ -327,7 +327,7 @@ router.get('/V00/loadBanks', function(req, res, next) {
         return res.json(banksCatalogTdd);
     else if ((tsec == 'null' || tsec == '123456789') && (req.query.operationType==='tc' || req.query.operationType==='TC'))
         return res.json(banksCatalogTdc);
-    else if ((tsec == 'null' || tsec == 'null') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
+    else if ((tsec == 'null' || tsec == '34567890') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
         return res.json(banksCatalogOtrosCreditos);
 
     return res.status(409).json(banksError);
@@ -344,7 +344,7 @@ router.get('/V00/frequentOperations', function(req, res, next) {
     }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
         return res.json(frequent_mobile_01);
     }
-    if ((tsec == 'null' || tsec == '556790' || tsec == '' || tsec == '123456789') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
+    if ((tsec == 'null' || tsec == '556790' || tsec == ''|| tsec == '34567890' || tsec == '123456789') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
     else if ((tsec == '7777777'|| tsec == '12345678' || tsec == '890765' || tsec == '34567' ) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '')
         return res.json(frequents_A1);
