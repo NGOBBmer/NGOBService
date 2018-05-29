@@ -432,7 +432,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
         amount != "" && amount != null && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
-                     if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+                     if (repetitions != '' && periodicName != '' && periodicName != null &&  period != '' && repetitions != null && concept != null &&  period != null){
                             if (taxReceipt){
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                                     if(tsec == "7777777"){
@@ -494,7 +494,7 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
     if (receiverAccountId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && receiverAccountId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
         
         if (isPeriodic){
-             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+             if (repetitions != '' &&  period != '' && repetitions != null  &&  period != null){
                 return res.json(OK_period_resp);
              }else{
                 return res.json(MYACCOUNTS_ERROR); 
@@ -559,7 +559,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
         && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
-             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+             if (repetitions != '' && periodicName != '' &&  period != '' && periodicName != null && repetitions != null && concept != null &&  period != null){
                 return res.json(OK_period);
              }else{
                 return res.json(RESP_ERROR); 
