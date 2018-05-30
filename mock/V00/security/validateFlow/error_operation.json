@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "SEC0001",
+    "message": "OPERACION NO VALIDA",
+    "descripcion": "Se ha producido un error al consultar el servicio /security/V00/validateFlow",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

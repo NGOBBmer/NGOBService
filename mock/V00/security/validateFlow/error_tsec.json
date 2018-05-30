@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_TSEC_002",
+    "message": "TSEC Invalido",
+    "descripcion": "Se ha producido un error al consultar el servicio /security/V00/validateFlow",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}
