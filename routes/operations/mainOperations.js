@@ -107,7 +107,7 @@ router.use(function(req, res, next) {
   var host = req.get('origin');
   res.setHeader('Access-Control-Allow-Origin', host || '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec');
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec,otp');
   res.setHeader('Access-Control-Allow-Credentials', true);
   next();
 });
@@ -464,6 +464,7 @@ router.get('/V00/updateEmail', function(req, res, next) {
 
 //createAgileOperations GetId
 router.post('/V00/createAgileOperations/:action', function(req, res, next) {
+  var otp = req.headers['otp'];
   if (req.params.action ==='getId' ){
     return res.json(getId_createAgileOp01);
   }
