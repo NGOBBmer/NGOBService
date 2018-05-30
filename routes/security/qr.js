@@ -14,6 +14,12 @@ var error_inst = require('../../mock/V00/security/getRulesToken/error_instrument
 var error_rules = require('../../mock/V00/security/getRulesToken/error_rules.json');
 var without_validation = require('../../mock/V00/security/getRulesToken/without_validation.json');
 
+//validateFlow
+var validateFlowNavigationOK = require('../../mock/V00/security/validateFlow/navigationOK.json');
+var validateFlowUpdateNavigation = require('../../mock/V00/security/validateFlow/updateNavigation.json');
+var validateFlowErrorTsec = require('../../mock/V00/security/validateFlow/error_tsec.json');
+var validateFlowErrorOperation = require('../../mock/V00/security/validateFlow/error_operation.json');
+
 router.use(function(req, res, next) {
   var host = req.get('origin');
   res.setHeader('Access-Control-Allow-Origin', host||"*");
@@ -79,12 +85,40 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
         return res.json(without_validation);
     }
   }
-  
-
-
-  
- 
   next();
 });
+
+
+//security/V00/validateFlow?idOperation=PREREG
+
+router.get('/V00/validateFlow', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+
+  if(req.query.idOperation === 'PREREG'){
+    
+    if(tsec == 'null'){
+      return res.json(validateFlowNavigationOK);
+    } else if(tsec === '11111111'){
+        return res.json(validateFlowUpdateNavigation);
+    } else if(tsec == undefined){
+        return res.json(validateFlowNavigationOK);
+    } else if(tsec === '890765'){
+        return res.json(validateFlowNavigationOK);
+    } else if(tsec === '18234'){
+        return res.json(validateFlowNavigationOK);
+    } else if(tsec === '556790'){
+        return res.json(validateFlowNavigationOK);
+    } else if(tsec === '34567'){
+        return res.status(400).json(validateFlowErrorTsec);
+    } else {
+       return res.json(validateFlowNavigationOK); 
+    }
+  } else {
+     return res.status(400).json(validateFlowErrorOperation);
+  }
+  next();
+});
+
+
 
 module.exports = router;

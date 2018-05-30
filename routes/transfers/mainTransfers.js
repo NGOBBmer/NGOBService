@@ -208,6 +208,8 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         return res.status(400).json(listAccount_err);
     }else  if (tsec == '09876543'){
         res.status(409).json(listSender_tdcEmpty);
+    }else if (tsec == '3456789'){
+        return res.json(listAccount_01);
     }else if (tsec == 'null' && req.query.operationType == 'PAY_CREDITCARD'){
         return res.json(listSender_tdc02);
     }else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD'){
@@ -219,7 +221,8 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
     }else if (tsec === 'null'){
         return res.json(listAccount_all);
     }else if (tsec === '123456'){
-        return res.json(listAccount_01);
+        return res.json(
+            );
     }else if (tsec === '1234567'){
         return res.json(listAccount_02);
     }else if (tsec === 'paco'){
@@ -236,6 +239,8 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (tsec == '1234567890')
         return res.status(400).json(listAccount_err);
+    else if(tsec === '3456789')
+         return res.json(listReceiver_tdcError);
     else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD')
         return res.status(400).json(listAccount_err);
     else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD')
@@ -322,7 +327,7 @@ router.get('/V00/loadBanks', function(req, res, next) {
         return res.json(banksCatalogTdd);
     else if ((tsec == 'null' || tsec == '123456789') && (req.query.operationType==='tc' || req.query.operationType==='TC'))
         return res.json(banksCatalogTdc);
-    else if ((tsec == 'null' || tsec == 'null') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
+    else if ((tsec == 'null' || tsec == '34567890') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
         return res.json(banksCatalogOtrosCreditos);
 
     return res.status(409).json(banksError);
@@ -339,7 +344,7 @@ router.get('/V00/frequentOperations', function(req, res, next) {
     }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
         return res.json(frequent_mobile_01);
     }
-    if ((tsec == 'null' || tsec == '556790' || tsec == '' || tsec == '123456789') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
+    if ((tsec == 'null' || tsec == '556790' || tsec == ''|| tsec == '34567890' || tsec == '123456789') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
     else if ((tsec == '7777777'|| tsec == '12345678' || tsec == '890765' || tsec == '34567' ) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '')
         return res.json(frequents_A1);
@@ -427,7 +432,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
         amount != "" && amount != null && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
-                     if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+                     if (repetitions != '' && periodicName != '' && periodicName != null &&  period != '' && repetitions != null && concept != null &&  period != null){
                             if (taxReceipt){
                                  if (iva != '' && rfc != '' &&  iva != null && rfc != null){
                                     if(tsec == "7777777"){
@@ -489,7 +494,7 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
     if (receiverAccountId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && receiverAccountId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
         
         if (isPeriodic){
-             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+             if (repetitions != '' &&  period != '' && repetitions != null  &&  period != null){
                 return res.json(OK_period_resp);
              }else{
                 return res.json(MYACCOUNTS_ERROR); 
@@ -544,6 +549,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var isPeriodic =req.body.isPeriodic;
     var aplicationDate =req.body.aplicationDate;
     var repetitions =req.body.repetitions;
+    var periodicName = req.body.periodicName;
     //var reference =req.body.reference;
     var amount =req.body.amount;
     var period =req.body.period;
@@ -554,7 +560,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
         && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
-             if (repetitions != '' && concept != '' &&  period != '' && repetitions != null && concept != null &&  period != null){
+             if (repetitions != '' && periodicName != '' &&  period != '' && periodicName != null && repetitions != null && concept != null &&  period != null){
                 return res.json(OK_period);
              }else{
                 return res.json(RESP_ERROR); 
