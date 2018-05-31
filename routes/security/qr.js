@@ -80,9 +80,23 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
     }
   } else if (req.body.idOperation === 'TCP'){
     if(tsec == '34567'){
-      return res.json(error_rules);
+       return res.status(400).json(error_rules);    
     } else {
         return res.json(without_validation);
+    }
+  } else if (req.body.idOperation === 'EDOCTATDC'){
+    if(tsec == '34567'){
+       return res.status(400).json(error_rules);    
+    } else {
+      return res.json(without_validation);
+    }
+  } else if (req.body.idOperation === 'EDOCTAINV' || req.body.idOperation === 'EDOCTAFON' || req.body.idOperation === 'EDOCTACH'){
+    if(tsec == '34567'){
+       return res.status(400).json(error_rules);    
+    } else if(tsec === '890765'){
+        return res.json(rules_t7);
+    } else {
+      return res.json(simple_validation);
     }
   }
   next();
