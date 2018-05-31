@@ -344,7 +344,7 @@ router.get('/V00/frequentOperations', function(req, res, next) {
     }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
         return res.json(frequent_mobile_01);
     } 
-    else if (tsec == '1234567890')
+    else if (tsec == '3456789')
         return res.json(frequent_empty);
     if ((tsec == 'null' || tsec == '556790' || tsec == ''|| tsec == '34567890' || tsec == '123456789') && req.query.accountId !== '' && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
