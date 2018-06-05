@@ -243,7 +243,6 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
     else if(tsec === '3456789')
          return res.json(listReceiver_empty);
     else if(tsec === '456789')
-        listReceiver_empty
          return res.json(listReceiver_tdcError);
     else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD')
         return res.status(400).json(listAccount_err);
