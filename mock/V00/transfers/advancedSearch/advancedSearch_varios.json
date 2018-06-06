@@ -29,7 +29,11 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "Giovanni Nicolas Marin"
+        "name": "Giovanni Nicolas Marin",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
@@ -46,7 +50,11 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "Magali Nomina Mtp"
+        "name": "Magali Nomina Mtp",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
@@ -63,7 +71,11 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "Magali Garcia Mtp"
+        "name": "Magali Garcia Mtp",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
@@ -130,7 +142,11 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "Paola Itzel Chavez Fragoso"
+        "name": "Paola Itzel Chavez Fragoso",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
@@ -147,7 +163,11 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "Felipe Medez Mtp"
+        "name": "Felipe Medez Mtp",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
@@ -164,7 +184,11 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "Hec√èor Salda√èa Sierra"
+        "name": "Hec√èor Salda√èa Sierra",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
@@ -181,7 +205,11 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "Belen Garces Garcia"
+        "name": "Belen Garces Garcia",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
@@ -218,13 +246,38 @@
       },
       "transferType": "THIRD_PARTY",
       "beneficiary": {
-        "name": "M;anuel Lopez Jaguey"
+        "name": "Manuel Lopez Jaguey",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
       },
       "avatar": {
         "image": "",
-        "ini": "GN"
+        "ini": "ML"
       },
       "sendDetail": false
+    },
+    {
+      "id": "185172151149148148152AB138AB313100318228",
+      "wasFound": true,
+      "account": {
+        "number": "376782341005795",
+        "accountType": "TC"
+      },
+      "transferType": "INTERBANK",
+      "beneficiary": {
+        "bank": {
+          "code": "0103",
+          "name": "AMERICAN EXP"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "AE"
+      },
+      "sendDetail": false,
+      "useSearcher": false
     }
   ]
 }

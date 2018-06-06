@@ -435,27 +435,27 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
         amount != "" && amount != null && (otp == "11111111" || otp == "") && otp != null){
         
         if (isPeriodic){
-                     if (repetitions != '' && periodicName != '' && periodicName != null &&  period != '' && repetitions != null && concept != null &&  period != null){
-                            if (taxReceipt){
-                                 if (iva != '' && rfc != '' &&  iva != null && rfc != null){
-                                    if(tsec == "7777777"){
-                                        return res.json(OK_interbank_traking);
-                                    }else{
-                                        return res.json(OK_interbank);
-                                    }
-                                 }else{
-                                    return res.json(error_tax); 
-                                 }
-                              }
-                              if(tsec == "7777777"){
-                                return res.json(OK_interbank_traking_period);
-                              }else{
-                                return res.json(OK_interbank_period);
-                                
-                              }
+         if (repetitions != '' && periodicName != '' && periodicName != null &&  period != '' && repetitions != null && concept != null &&  period != null){
+                if (taxReceipt){
+                     if (iva != '' && rfc != '' &&  iva != null && rfc != null){
+                        if(tsec == "7777777"){
+                            return res.json(OK_interbank_traking);
+                        }else{
+                            return res.json(OK_interbank);
+                        }
                      }else{
-                        return res.json(error_period); 
+                        return res.json(error_tax); 
                      }
+                  }
+                  if(tsec == "7777777"){
+                    return res.json(OK_interbank_traking_period);
+                  }else{
+                    return res.json(OK_interbank_period);
+                    
+                  }
+         }else{
+            return res.json(error_period); 
+         }
         }
         if (taxReceipt){
              if (iva != '' && rfc != '' &&  iva != null && rfc != null){
@@ -612,6 +612,8 @@ router.get('/V00/advancedSearch', function(req, res, next) {
                     return res.json(json.data[11]);
                 }else if (req.query.number === '012610011361640806'){
                     return res.json(json.data[12]);
+                }else if (req.query.number === '376782341005795'){
+                    return res.json(json.data[13]);
                 }else{
                     json.data[6].account.number = req.query.number;
                     return res.json(json.data[6]); 
