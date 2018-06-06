@@ -36,6 +36,7 @@ var banksCatalogClabe = require('../../mock/V00/transfers/loadBanks/loadBanks_cl
 var banksCatalogTdd = require('../../mock/V00/transfers/loadBanks/loadBanks_tdd.json');
 var banksCatalogTdc = require('../../mock/V00/transfers/loadBanks/loadBanks_tdc.json');
 var banksCatalogOtrosCreditos = require('../../mock/V00/transfers/loadBanks/loadBanks_OtrosCreditos.json');
+var banksCatalog_bancomer = require('../../mock/V00/transfers/loadBanks/loadBanks_bbva.json');
 var bankFound = require('../../mock/V00/transfers/loadBanks/bankFound.json');
 var bank_002 = require('../../mock/V00/transfers/loadBanks/bank_002.json');
 var bank_0030 = require('../../mock/V00/transfers/loadBanks/bank_0030.json');
@@ -44,6 +45,7 @@ var bank_0127_2 = require('../../mock/V00/transfers/loadBanks/bank_0127_2.json')
 var bankFound01 = require('../../mock/V00/transfers/loadBanks/BankFound_01.json');
 var banksError = require('../../mock/V00/transfers/loadBanks/ERROR.json');
 var bank_bancomer = require('../../mock/V00/transfers/loadBanks/bank_0012.json');
+
 
 //interbank
 var express = require('express');
@@ -296,7 +298,12 @@ router.get('/V00/QrData', function(req, res, next) {
 // handler for query http://localhost:4000/transfers/V00/loadBanks?operationType=spei
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
-     if ((tsec == 'null' || tsec == '11111111' || tsec == '1234567890') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
+
+    if(req.query.includeBbva==='true'){
+          return res.json(banksCatalog_bancomer);
+    }
+
+    if ((tsec == 'null' || tsec == '11111111' || tsec == '1234567890') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
         return res.json(banksCatalogClabe);
     if(req.query.cveBank==='0012'){
         return res.json(bank_bancomer);
