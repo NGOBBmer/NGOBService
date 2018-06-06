@@ -112,6 +112,7 @@ var json_false_err = require('../../mock/V00/transfers/sendEmailTransfers/err_fa
 var json_true = require('../../mock/V00/transfers/sendEmailTransfers/true_json.json');
 var json_false = require('../../mock/V00/transfers/sendEmailTransfers/false_json.json');
 var json_ERR = require('../../mock/V00/transfers/sendEmailTransfers/err_json.json');
+var err_mandatory = require('../../mock/V00/transfers/sendEmailTransfers/set_err_01.json');
 
 //advancedSearch
 var advancedSearch01 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_01.json');
@@ -522,20 +523,23 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
 //sendEmailTransfers
 router.post('/V00/sendEmailTransfers', function(req, res, next) {
     //var tsec = req.headers['tsec'];
-    if (req.body.frequentId != '' && req.body.beneficiaryEmail != '' && req.body.titularCopy){
-if(req.body.beneficiaryEmail == "error@test.com"){
-    return res.json(json_true_err);
-}else if(req.body.beneficiaryEmail == "error2@test.com"){
-    return res.json(json_true_err2);
-}else{
-    return res.json(json_true);
+    var bodi = req.body;
+    if (bodi.operationId === undefined || bodi.operationId === '' || bodi.beneficiaryEmail === undefined || 
+        bodi.beneficiaryEmail === '' || bodi.titularCopy === undefined){
+        return res.status(400).json(err_mandatory);
+    }
+    if (bodi.operationId != '' && bodi.beneficiaryEmail != '' && bodi.titularCopy){
+        if(bodi.beneficiaryEmail == "error@test.com"){
+            return res.json(json_true_err);
+        }else if(req.body.beneficiaryEmail == "error2@test.com"){
+            return res.json(json_true_err2);
+        }else{
+            return res.json(json_true);
 
-}
+        }
+    }else if (bodi.operationId != '' && bodi.beneficiaryEmail != '' && !bodi.titularCopy ){
 
-        
-    }else if (req.query.operationId != '' && req.query.beneficiaryEmail != '' && !req.query.titularCopy ){
-
-        if(req.body.beneficiaryEmail == "error@test.com"){
+        if(bodi.beneficiaryEmail == "error@test.com"){
          return res.json(json_false_err);
         }else{
             return res.json(json_false);
