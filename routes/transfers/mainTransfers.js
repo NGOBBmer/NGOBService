@@ -39,6 +39,7 @@ var banksCatalogOtrosCreditos = require('../../mock/V00/transfers/loadBanks/load
 var banksCatalog_bancomer = require('../../mock/V00/transfers/loadBanks/loadBanks_bbva.json');
 var bankFound = require('../../mock/V00/transfers/loadBanks/bankFound.json');
 var bank_002 = require('../../mock/V00/transfers/loadBanks/bank_002.json');
+var bank_0103 = require('../../mock/V00/transfers/loadBanks/bank_0103.json');
 var bank_0030 = require('../../mock/V00/transfers/loadBanks/bank_0030.json');
 var bank_0127 = require('../../mock/V00/transfers/loadBanks/bank_0127.json');
 var bank_0127_2 = require('../../mock/V00/transfers/loadBanks/bank_0127_2.json');
@@ -308,6 +309,9 @@ router.get('/V00/loadBanks', function(req, res, next) {
         return res.json(banksCatalogClabe);
     if(req.query.cveBank==='0012'){
         return res.json(bank_bancomer);
+    }
+    if(req.query.cveBank==='0103'){
+        return res.json(bank_0103);
     }
     if(tsec == 'null' && (req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0002'){
         return res.json(bank_002);
