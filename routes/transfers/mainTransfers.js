@@ -361,6 +361,8 @@ router.get('/V00/frequentOperations', function(req, res, next) {
     } 
     else if (tsec == '3456789')
         return res.json(frequent_empty);
+    else if ((tsec == 'null') && req.query.accountId === 'TCMXP0000001')
+        return res.json(frequent_02_01);
     if ((tsec == 'null' || tsec == '556790' || tsec == ''|| tsec == '34567890' || tsec == '123456789') && req.query.accountId !== '' && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
         return res.json(frequent_01);
     else if ((tsec == '7777777'|| tsec == '12345678' || tsec == '890765' || tsec == '34567' ) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '')
@@ -375,8 +377,6 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         return res.json(frequent_01_01);
     else if ((tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '26' && req.query.numMovsFreq == '26')
         return res.json(frequent_02);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '10')
-        return res.json(frequent_02_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '7777777') && req.query.typeOpFrequent === '' && req.query.paginationKey === '')
         return res.json(frequent_02_01);
     else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
