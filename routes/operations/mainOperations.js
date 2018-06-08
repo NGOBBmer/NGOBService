@@ -377,13 +377,13 @@ router.get('/V00/deleteActionalAdvice', function(req, res, next) {
 */
 router.post('/V00/getPDFDocuments', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if (tsec == '1234567890'){
+  if (tsec == '12345678'){
     return res.json(PDF_PG_02);
-  }else  if (tsec == '8796787'){
+  }else  if (tsec == '3456789'){
     return res.json(PDF_PG_03); 
   }
   if (req.body.type=="pdf"){
-    if(req.body.businessFlow=="pg" || req.body.businessFlow=="PG"){
+    if(tsec == 'null' && req.body.businessFlow=="pg" || req.body.businessFlow=="PG"){
       return res.json(PDF_PG_01);
     }else {
      return res.json(PDF);
