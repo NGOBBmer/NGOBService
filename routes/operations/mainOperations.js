@@ -30,6 +30,10 @@ var ERR_WEEK01 = require('../../mock/V00/operations/agileOperations/err_week01.j
 var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
 var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
 
+
+var FAST_DETAIL = require('../../mock/V00/operations/fast/fastDetail.json');
+var FAST_ERROR = require('../../mock/V00/operations/fast/fastError.json');
+
 //Mapa de semanas para agileOperations
 var mapaWeek = ["init",
   "152232158154152156150157152147153160AB153AB3886000232",
@@ -470,6 +474,17 @@ router.post('/V00/createAgileOperations/:action', function(req, res, next) {
     return res.json(getId_createAgileOp01);
   }
   return res.status(400).json(NOK);
+  next();
+});
+
+//fastOperation
+router.get('/V00/fastOperation', function(req, res, next) {
+
+  if (req.query.idOperation === '1234567890'){
+    return res.status(400).json(FAST_ERROR);
+  } else {
+    return res.json(FAST_DETAIL);
+  }
   next();
 });
 

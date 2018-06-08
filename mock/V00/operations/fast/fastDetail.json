@@ -1,0 +1,119 @@
+{
+  "rootAccount": {
+    "event": "",
+    "params": {
+      "card": {
+        "id": "AHMXP0000001",
+        "image": {
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob",
+          "alt": "",
+          "size": "height-image-large"
+        },
+        "currentDate": "2018-06-07",
+        "layout": "layout-vertical",
+        "amount": {
+          "balance": 999109235.09,
+          "currency": "MXN",
+          "localCurrency": "MXN",
+          "language": "es-MX"
+        },
+        "cardType": "AH",
+        "typeOperationFreq": "MYACCOUNTS",
+        "items": [
+          {
+            "value": {
+              "text": "NUEVOALIAS · 21858",
+              "class": "title font-normal",
+              "size": "22"
+            }
+          },
+          {
+            "amount": {
+              "value": 999109235.09,
+              "class": "amount amount-fractional-large amount-currency-large",
+              "size": "28",
+              "accountCurrency": "MXN"
+            }
+          },
+          {
+            "value": {
+              "text": "Cambiar",
+              "class": "link",
+              "action": {
+                "params": {
+                  "fire": "show-my-accounts"
+                }
+              }
+            }
+          }
+        ],
+        "sizeCard": "height-card-large"
+      }
+    }
+  },
+  "payee": {
+    "event": "",
+    "params": {
+      "card": {
+        "id": "PR000001",
+        "layout": "layout-vertical",
+        "frequentId": "PR000001",
+        "avatar": {
+          "type": "letter",
+          "letter": "GARO GROCE DEGRACE",
+          "color": "orange-base",
+          "size": "height-avatar-large"
+        },
+        "typeOperationFreq": "THIRD_PARTY",
+        "items": [
+          {
+            "value": {
+              "text": "GARO GROCE DEGRACE",
+              "class": "title font-normal larger-ellipsis",
+              "size": "22"
+            }
+          },
+          {
+            "value": {
+              "text": "BBVA Bancomer",
+              "class": "title font-normal"
+            }
+          },
+          {
+            "value": {
+              "text": "0177947089",
+              "class": "text"
+            }
+          },
+          {
+            "value": {
+              "text": "Cambiar",
+              "class": "link",
+              "action": {
+                "params": {
+                  "fire": "go-to-search"
+                }
+              }
+            }
+          }
+        ],
+        "sizeCard": "height-card-large"
+      },
+      "reasonPayment": "CH",
+      "typeOperationFreq": "THIRD_PARTY",
+      "isReliable": true,
+      "cveBank": ""
+    },
+    "background": "reliable-background"
+  },
+  "favoritePreloadedData": {
+    "isFavorite": true,
+    "operationName": "luisant"
+  },
+  "preLoadedData": {
+    "amount": 1,
+    "concept": "",
+    "isProgrammable": true,
+    "initDate": "2018-06-07"
+  }
+}
