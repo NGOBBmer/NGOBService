@@ -12,7 +12,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
@@ -83,7 +83,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "AH",
             "params": [{
                 "name": "cuenta",
@@ -154,7 +154,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
@@ -225,7 +225,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
@@ -296,7 +296,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
@@ -367,7 +367,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
@@ -438,7 +438,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
@@ -509,7 +509,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",
@@ -580,7 +580,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-            "cellsNavigation": false,
+            "cellsNavigation": true,
             "typeProductId": "CH",
             "params": [{
                 "name": "cuenta",

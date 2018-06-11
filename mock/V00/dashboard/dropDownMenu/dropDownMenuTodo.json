@@ -15,7 +15,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "AH",
           "params": [
             {
@@ -106,7 +106,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "AH",
           "params": [
             {
@@ -197,7 +197,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {
@@ -288,7 +288,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {
@@ -379,7 +379,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {
@@ -470,7 +470,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {
@@ -561,7 +561,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {
@@ -652,7 +652,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {
@@ -743,7 +743,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {
@@ -834,7 +834,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": [
             {

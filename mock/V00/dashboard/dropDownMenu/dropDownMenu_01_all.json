@@ -20,7 +20,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": {
             "cuenta": "CHMXP0000001"
@@ -103,7 +103,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CH",
           "params": {
             "cuenta": "CHUSD0000001"
@@ -336,7 +336,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "TCP",
           "params": {
             "cuenta": "TCMXP0000001"
@@ -406,7 +406,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "TCP",
           "params": {
             "cuenta": "TCMXP0000002"
@@ -476,7 +476,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "TCP",
           "params": {
             "cuenta": "TCMXP0000003"
@@ -596,7 +596,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "CA",
           "params": {
             "cuenta": "CAUSD0000001"
