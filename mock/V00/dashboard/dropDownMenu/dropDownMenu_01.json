@@ -21,7 +21,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "AH",
+          "typeProductId": "AHT",
           "params": {
             "cuenta": "AHMXP0000001"
           }
@@ -106,7 +106,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "CH",
+          "typeProductId": "CHT",
           "params": {
             "cuenta": "CHMXP0000002"
           }
@@ -191,7 +191,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "CH",
+          "typeProductId": "CHT",
           "params": {
             "cuenta": "CHEUR0000001"
           }
@@ -241,7 +241,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCT",
           "params": {
             "cuenta": "TCMXP0000001"
           }
@@ -324,7 +324,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCT",
           "params": {
             "cuenta": "TCMXP0000002"
           }
@@ -407,7 +407,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCT",
           "params": {
             "cuenta": "TCMXP0000003"
           }
@@ -490,7 +490,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCT",
           "params": {
             "cuenta": "TCMXP0000004"
           }
@@ -573,7 +573,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCT",
           "params": {
             "cuenta": "TCMXP0000005"
           }
@@ -656,7 +656,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCT",
           "params": {
             "cuenta": "TCMXP0000006"
           }
@@ -739,7 +739,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCT",
           "params": {
             "cuenta": "TCMXP0000007"
           }
@@ -822,7 +822,7 @@
         "pathUrl": "traspasos",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "CA",
+          "typeProductId": "CAT",
           "params": {
             "cuenta": "CAUSD0000001"
           }
