@@ -16,6 +16,11 @@ var listSender_tdc03 = require('../../mock/V00/transfers/listAccountTr/listSende
 var listSender_paco = require('../../mock/V00/transfers/listAccountTr/listSender_paco.json');
 var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccount_err.json');
 
+var listSender_regla01 = require('../../mock/V00/transfers/listAccountTr/listSender_regla03.json');
+var listSender_regla02 = require('../../mock/V00/transfers/listAccountTr/listSender_regla02.json');
+var listSender_regla03 = require('../../mock/V00/transfers/listAccountTr/listSender_regla03.json');
+var listSender_regla04 = require('../../mock/V00/transfers/listAccountTr/listSender_regla04.json');
+
 //CardInformation
 var cardInformation_01 = require('../../mock/V00/transfers/cardInfo/cardInformation_01.json');
 var cardInformation_02 = require('../../mock/V00/transfers/cardInfo/cardInformation_02.json');
@@ -210,6 +215,22 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
 router.get('/V00/listSenderAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
+
+    if (req.query.accountId !== undefined && req.query.accountId !== ''){
+         return res.json(listSender_regla02);
+    }else if (req.query.operationType !== undefined && req.query.operationType !== ''){
+        if (req.query.accountType === undefined || req.query.accountType === ''){
+            return res.status(400).json(listAccount_err);
+        }
+        if (req.query.operationType === 'THIRD_PARTY'){
+            return res.json(listSender_regla03);
+        }else if (req.query.operationType === 'INTERBANK'){
+            return res.json(listSender_regla04);
+        }
+    }else{
+        return res.json(listSender_regla01);
+    }
+/*
     if (tsec == '1234567890'){
         return res.status(400).json(listAccount_err);
     }else  if (tsec == '09876543'){
@@ -235,7 +256,7 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         return res.json(listSender_paco);
     }else{
         return res.json(listAccount_all);
-    }
+    }*/
     return res.status(400).json(listAccount_err);
   next();
 });
