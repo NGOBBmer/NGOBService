@@ -1162,7 +1162,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TC",
+          "typeProductId": "TCP",
           "params": [
             {
               "name": "cuenta",
