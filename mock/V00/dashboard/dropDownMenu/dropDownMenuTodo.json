@@ -1147,7 +1147,7 @@
         "nombre": "Transferir",
         "pathUrl": "traspasos",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "TCT",
           "params": [
             {
@@ -1161,7 +1161,7 @@
         "nombre": "Pagar",
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
-          "cellsNavigation": false,
+          "cellsNavigation": true,
           "typeProductId": "TC",
           "params": [
             {
