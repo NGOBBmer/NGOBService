@@ -1,199 +1,65 @@
 {
   "fastOperations": [
     {
-      "id": "PR000001",
-      "shortname": "PruebaPaol",
-      "paymentAccount": "74747",
+      "id": "GCXAWTA1JE1YAY95S55GP9F6V87SC2M3AD1T64D3KA3YTQ0HZN4E32FA3PY9ZTRAYBGG5D16A0R7Y",
+      "shortname": "CLABE",
+      "paymentAccount": "55793",
       "paymentAmount": {
         "amount": 1.0,
         "currency": "MXN"
       },
       "bank": {
-        "name": "BANAMEX"
+        "name": "SANTANDER",
+        "code": "0014"
       },
       "isOperable": true,
       "beneficiary": {
-        "name": "PRUEBA11"
+        "name": "Administradora Cumbres de Santa Fe"
       },
       "iconImage": {
-        "type": "",
-        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_ob_40_x_40.png",
+        "url": "/img/ngob/icons/rapidas/rapida_ob_40_x_40.png",
         "base64": ""
       },
       "navigation": {
-        "pathUrl": "operacionesRapidasRealizarOB",
-        "params": [
-          {
-            "name": "id",
-            "value": "0"
-          }
-        ]
+        "pathUrl": "operacionRapidaDetalle",
+        "params": {
+          "tipo": "ob",
+          "id": "0"
+        },
+        "cellsNavigation": true,
+        "id": "GCXAWTA1JE1YAY95S55GP9F6V87SC2M3AD1T64D3KA3YTQ0HZN4E32FA3PY9ZTRAYBGG5D16A0R7Y"
       },
       "operationType": "OB",
       "agileType": "FAST"
     },
     {
-      "id": "PR000002",
-      "shortname": "PruebaTA",
-      "paymentAccount": "",
-      "paymentAmount": {
-        "amount": 50.0,
-        "currency": "MXN"
-      },
-      "bank": {
-        "name": ""
-      },
-      "isOperable": true,
-      "beneficiary": {
-        "name": ""
-      },
-      "iconImage": {
-        "type": "E",
-        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
-        "base64": ""
-      },
-      "navigation": {
-        "pathUrl": "operacionesRapidasRealizarCTA",
-        "params": [
-          {
-            "name": "id",
-            "value": "1"
-          }
-        ]
-      },
-      "operationType": "TA",
-      "agileType": "FAST"
-    },
-    {
-      "id": "PR000003",
-      "shortname": "Express",
-      "paymentAccount": "40156",
+      "id": "Y52D4GFFM8ZYJX6V6W177HPEZ8N2BWMNMSJ340670X4SJ5P62CY0",
+      "shortname": "TercerosCH",
+      "paymentAccount": "37814",
       "paymentAmount": {
         "amount": 1.0,
         "currency": "MXN"
       },
-      "bank": {
-        "name": ""
-      },
       "isOperable": true,
-      "beneficiary": {
-        "name": "GIOVANNI NICOLAS MARIN"
-      },
+      "beneficiary": {},
       "iconImage": {
-        "type": "",
-        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
+        "url": "/img/ngob/icons/rapidas/rapida_tt_40_x_40.png",
         "base64": ""
       },
       "navigation": {
-        "pathUrl": "operacionesRapidasRealizarTT",
-        "params": [
-          {
-            "name": "id",
-            "value": "2"
-          }
-        ]
+        "pathUrl": "operacionRapidaDetalle",
+        "params": {
+          "tipo": "tt",
+          "id": "1"
+        },
+        "cellsNavigation": true,
+        "id": "Y52D4GFFM8ZYJX6V6W177HPEZ8N2BWMNMSJ340670X4SJ5P62CY0"
       },
       "operationType": "TT",
-      "agileType": "FAST"
-    },
-    {
-      "id": "PR000004",
-      "shortname": "PruebaTDC",
-      "paymentAccount": "04684",
-      "paymentAmount": {
-        "amount": 12.0,
-        "currency": "MXN"
-      },
-      "bank": {
-        "name": ""
-      },
-      "isOperable": true,
-      "beneficiary": {
-        "name": "PETRA PRADO PAVEL"
-      },
-      "iconImage": {
-        "type": "L",
-        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
-        "base64": ""
-      },
-      "navigation": {
-        "pathUrl": "operacionesRapidasRealizarTT",
-        "params": [
-          {
-            "name": "id",
-            "value": "3"
-          }
-        ]
-      },
-      "operationType": "TT",
-      "agileType": "FAST"
-    },
-    {
-      "id": "PR000005",
-      "shortname": "PbaEmmaTT",
-      "paymentAccount": "60237",
-      "paymentAmount": {
-        "amount": 1.0,
-        "currency": "MXN"
-      },
-      "bank": {
-        "name": ""
-      },
-      "isOperable": true,
-      "beneficiary": {
-        "name": "GIOVANNI NICOLAS MARIN"
-      },
-      "iconImage": {
-        "type": "",
-        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_tt_40_x_40.png",
-        "base64": ""
-      },
-      "navigation": {
-        "pathUrl": "operacionesRapidasRealizarTT",
-        "params": [
-          {
-            "name": "id",
-            "value": "4"
-          }
-        ]
-      },
-      "operationType": "TT",
-      "agileType": "FAST"
-    },
-    {
-      "id": "PR000006",
-      "shortname": "Celular",
-      "paymentAccount": "",
-      "paymentAmount": {
-        "amount": 500.0,
-        "currency": "MXN"
-      },
-      "bank": {
-        "name": ""
-      },
-      "isOperable": true,
-      "beneficiary": {
-        "name": ""
-      },
-      "iconImage": {
-        "type": "N",
-        "url": "https://ngob-services.herokuapp.com/img/rapidas/rapida_ta_40_x_40.png",
-        "base64": ""
-      },
-      "navigation": {
-        "pathUrl": "operacionesRapidasRealizarCTA",
-        "params": [
-          {
-            "name": "id",
-            "value": "5"
-          }
-        ]
-      },
-      "operationType": "TA",
       "agileType": "FAST"
     }
   ],
   "image": {
-    "url": "/img/rapidas/widget_cloud.png"
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
   }
 }
