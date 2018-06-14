@@ -252,7 +252,7 @@
         "pathUrl": "pagoTarjetaDeCredito",
         "navigation": {
           "cellsNavigation": true,
-          "typeProductId": "TCT",
+          "typeProductId": "TCP",
           "params": {
             "cuenta": "TCMXP0000001"
           }
