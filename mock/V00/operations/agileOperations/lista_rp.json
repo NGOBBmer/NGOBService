@@ -22,12 +22,12 @@
       },
       "navigation": {
         "pathUrl": "operacionRapidaDetalle",
+        "id": "GCXAWTA1JE1YAY95S55GP9F6V87SC2M3AD1T64D3KA3YTQ0HZN4E32FA3PY9ZTRAYBGG5D16A0R7Y",
         "params": {
-          "tipo": "ob",
-          "id": "0"
+          "id": "0",
+          "tipo": "ob"
         },
-        "cellsNavigation": true,
-        "id": "GCXAWTA1JE1YAY95S55GP9F6V87SC2M3AD1T64D3KA3YTQ0HZN4E32FA3PY9ZTRAYBGG5D16A0R7Y"
+        "cellsNavigation": true
       },
       "operationType": "OB",
       "agileType": "FAST"
@@ -48,12 +48,12 @@
       },
       "navigation": {
         "pathUrl": "operacionRapidaDetalle",
+        "id": "Y52D4GFFM8ZYJX6V6W177HPEZ8N2BWMNMSJ340670X4SJ5P62CY0",
         "params": {
-          "tipo": "tt",
-          "id": "1"
+          "id": "1",
+          "tipo": "tt"
         },
-        "cellsNavigation": true,
-        "id": "Y52D4GFFM8ZYJX6V6W177HPEZ8N2BWMNMSJ340670X4SJ5P62CY0"
+        "cellsNavigation": true
       },
       "operationType": "TT",
       "agileType": "FAST"
