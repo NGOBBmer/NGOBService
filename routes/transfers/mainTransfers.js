@@ -367,6 +367,15 @@ router.get('/V00/loadBanks', function(req, res, next) {
     else if ((tsec == 'null' || tsec == '34567890') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
         return res.json(banksCatalogOtrosCreditos);
 
+    if ((tsec == 'null' || tsec == '18234') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
+        return res.json(banksCatalogClabe);
+    else if ((tsec == 'null' || tsec == '18234') && (req.query.operationType==='td' || req.query.operationType==='TD'))
+        return res.json(banksCatalogTdd);
+    else if ((tsec == 'null' || tsec == '18234') && (req.query.operationType==='tc' || req.query.operationType==='TC'))
+        return res.json(banksCatalogTdc);
+    else if ((tsec == 'null' || tsec == '18234') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
+        return res.json(banksCatalogOtrosCreditos);
+
     return res.status(409).json(banksError);
   next();
 });
