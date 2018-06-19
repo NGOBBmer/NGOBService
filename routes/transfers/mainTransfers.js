@@ -529,7 +529,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     }else{
            return res.status(400).json(error_token_transfer); 
     
-}
+     }
   next();
 });
 
@@ -638,7 +638,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     
 }
   next();
-}
+
 });
 
 //advancedSearch
