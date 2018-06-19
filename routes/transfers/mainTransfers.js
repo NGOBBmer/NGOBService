@@ -612,7 +612,7 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if((otp != "11111111" || otp != "") && otp != null){
+    if((otp == "11111111" || otp == "") && otp != null){
 
  
 
