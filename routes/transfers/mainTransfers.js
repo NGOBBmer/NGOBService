@@ -477,13 +477,6 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
     if((otp == "11111111" || otp == "") && otp != null){
 
-        return res.status(400).json(error_token_transfer); 
-    }
-
-
-
-
-
     if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
         aplicationDate != "" && aplicationDate != null && (tsec != "") && (tsec != null) &&
         amount != "" && amount != null){
@@ -532,6 +525,11 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
        return res.status(409).json(error_line); 
     }
     return res.status(406).json(RESP_ERROR);
+
+    }else{
+           return res.status(400).json(error_token_transfer); 
+    
+}
   next();
 });
 
@@ -614,14 +612,12 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
-    if((otp == "11111111" || otp == "") && otp != null){
+    if((otp != "11111111" || otp != "") && otp != null){
 
-        return res.status(400).json(error_token_transfer); 
-    }
+ 
 
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
-        && tsec != "" && tsec != null 
-        && (otp == "11111111" || otp == "") && otp != null){
+        && tsec != "" && tsec != null ){
         
         if (isPeriodic){
              if (repetitions != '' && periodicName != '' &&  period != '' && periodicName != null && repetitions != null && concept != null &&  period != null){
@@ -636,7 +632,13 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
        return res.status(400).json(RESP_ERROR); 
     }
     return res.status(400).json(RESP_ERROR);
+
+}else{
+           return res.status(400).json(error_token_transfer); 
+    
+}
   next();
+}
 });
 
 //advancedSearch
