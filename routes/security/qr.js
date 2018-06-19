@@ -76,7 +76,7 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
     } else if(tsec === '34567'){
         return res.json(error_inst);
     } else if(tsec === 'errorOptical'){
-        return res.json(error_rules);
+       return res.status(400).json(error_rules);
     } else {
       return res.status(400).json(error_rules);    
     }
