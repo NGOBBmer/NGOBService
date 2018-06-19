@@ -64,6 +64,7 @@ var OK_interbank_traking = require('../../mock/V00/transfers/interbankTransfers/
 var OK_interbank = require('../../mock/V00/transfers/interbankTransfers/response_ok.json'); 
 var OK_interbank_period = require('../../mock/V00/transfers/interbankTransfers/response_ok_period.json'); 
 var OK_interbank_traking_period = require('../../mock/V00/transfers/interbankTransfers/response_ok_traking_period.json'); 
+var error_token_transfer= require('../../mock/V00/transfers/interbankTransfers/error_token.json'); 
 
 
 var error_period = require('../../mock/V00/transfers/interbankTransfers/intert_error_prog.json'); 
@@ -474,11 +475,18 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
 
 
 
+    if((otp == "11111111" || otp == "") && otp != null){
+
+        return res.status(400).json(error_token_transfer); 
+    }
+
+
+
 
 
     if (senderAccountId != "" && senderAccountId != null &&  frequentId != "" && frequentId != null &&
         aplicationDate != "" && aplicationDate != null && (tsec != "") && (tsec != null) &&
-        amount != "" && amount != null && (otp == "11111111" || otp == "") && otp != null){
+        amount != "" && amount != null){
         
         if (isPeriodic){
          if (repetitions != '' && periodicName != '' && periodicName != null &&  period != '' && repetitions != null && concept != null &&  period != null){
@@ -490,7 +498,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                             return res.json(OK_interbank);
                         }
                      }else{
-                        return res.json(error_tax); 
+                        return res.status(409).json(error_tax); 
                      }
                   }
                   if(tsec == "7777777"){
@@ -500,7 +508,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                     
                   }
          }else{
-            return res.json(error_period); 
+            return res.status(409).json(error_period); 
          }
         }
         if (taxReceipt){
@@ -511,7 +519,7 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
                     return res.json(OK_interbank);
                 }
              }else{
-                return res.json(error_tax); 
+                return res.status(409).json(error_tax); 
              }
         }
 
@@ -521,9 +529,9 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
             return res.json(OK_interbank); 
         }
     }else{
-       return res.json(error_line); 
+       return res.status(409).json(error_line); 
     }
-    return res.json(RESP_ERROR);
+    return res.status(406).json(RESP_ERROR);
   next();
 });
 
@@ -546,15 +554,15 @@ router.post('/V00/myAccountsTransfer', function(req, res, next) {
              if (repetitions != '' &&  period != '' && repetitions != null  &&  period != null){
                 return res.json(OK_period_resp);
              }else{
-                return res.json(MYACCOUNTS_ERROR); 
+                return res.status(409).json(MYACCOUNTS_ERROR); 
              }
         }
 
         return res.json(MYACCOUNTS_OK); 
     }else{
-       return res.json(MYACCOUNTS_ERROR); 
+       return res.status(409).json(MYACCOUNTS_ERROR); 
     }
-    return res.json(MYACCOUNTS_ERROR);
+    return res.status(406).json(MYACCOUNTS_ERROR);
   next();
 });
 
@@ -606,6 +614,10 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     var amount =req.body.amount;
     var period =req.body.period;
 
+    if((otp == "11111111" || otp == "") && otp != null){
+
+        return res.status(400).json(error_token_transfer); 
+    }
 
     if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
         && tsec != "" && tsec != null 
@@ -615,15 +627,15 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
              if (repetitions != '' && periodicName != '' &&  period != '' && periodicName != null && repetitions != null && concept != null &&  period != null){
                 return res.json(OK_period);
              }else{
-                return res.json(RESP_ERROR); 
+                return res.status(400).json(RESP_ERROR); 
              }
         }
 
         return res.json(RESP_OK); 
     }else{
-       return res.json(RESP_ERROR); 
+       return res.status(400).json(RESP_ERROR); 
     }
-    return res.json(RESP_ERROR);
+    return res.status(400).json(RESP_ERROR);
   next();
 });
 
