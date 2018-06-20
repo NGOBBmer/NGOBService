@@ -433,6 +433,9 @@ router.post('/V00/createAgileOperations', function(req, res, next) {
     return res.status(400).json(createAgileOpErr_02);
   }
   if (req.body.agileOperationType ==='REGISTER' || req.body.agileOperationType ==='REGISTER_FREQUENT'){
+    if (otp === '00000000'){
+       return res.status(400).json(createAgileOpErr_01);
+    }
     if (allowIdCAO.indexOf(req.body.operationId) == -1){
       return res.status(400).json(createAgileOpErr_02);
     }
