@@ -216,7 +216,13 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
 router.get('/V00/listSenderAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
-
+    if(tsec=== 'errorTransfer'){
+        if (req.query.operationType === 'THIRD_PARTY'){
+            return res.json(listSender_regla03);
+        }else if (req.query.operationType === 'INTERBANK'){
+            return res.json(listSender_regla04);
+        }
+    }
     if (req.query.accountId !== undefined && req.query.accountId !== ''){
          return res.json(listSender_regla02);
     }else if (req.query.operationType !== undefined && req.query.operationType !== ''){
@@ -267,6 +273,8 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (tsec == '1234567890')
         return res.status(400).json(listAccount_err);
+    else if (tsec==='errorTransfer')
+        return res.json(listAccount_all);
     else if(tsec === '3456789')
          return res.json(listReceiver_empty);
     else if(tsec === '456789')
@@ -384,6 +392,9 @@ router.get('/V00/loadBanks', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
 router.get('/V00/frequentOperations', function(req, res, next) {
     var tsec = req.headers['tsec'];
+    if(tsec=== 'errorTransfer'){
+        return res.json(frequents_A1);
+    }
     if ((tsec == '1111111') && req.query.numMovsFreq == '26')
         return res.json(frequent_01_01);
     if (tsec == '3456789' && req.query.numMovsFreq !== ''){
@@ -473,7 +484,9 @@ router.post('/V00/interbankTransfer', function(req, res, next) {
     var taxReceipt =req.body.taxReceipt;
     var dayIndicator =req.body.dayIndicator;
 
-
+    if(tsec=== 'errorTransfer'){
+        return res.status(406).json(error_token_transfer); 
+    }
 
     if((otp == "11111111" || otp == "") && otp != null){
 
@@ -703,7 +716,7 @@ router.get('/V00/advancedSearch', function(req, res, next) {
 //handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?operationType=spei
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == '11111111' || tsec == '556790' || tsec == '18234'))
+    if ((tsec == 'null' || tsec == '11111111' || tsec == '556790' || tsec == '18234' || tsec=='errorTransfer'))
         return res.json(rulesInterbank_inSchedule);
     else if ((tsec == '123456789'))
         return res.json(rules_interbank);
