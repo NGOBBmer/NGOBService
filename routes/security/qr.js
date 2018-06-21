@@ -63,6 +63,8 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
     
     if(tsec == 'null'){
       return res.json(rules_s2);
+     } else if(tsec == '7777777'){
+      return res.json(rules_s2);
     } else if(tsec === '123456789'){
         return res.json(rules_s1);
     } else if(tsec == undefined){
