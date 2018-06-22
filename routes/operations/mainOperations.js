@@ -446,7 +446,7 @@ router.post('/V00/createAgileOperations', function(req, res, next) {
     }
     return res.json(createAgileOp01); 
   }else if (req.body.agileOperationType ==='QUICK'){
-    if (req.body.operationId == '' || req.body.sender === undefined || otp === '00000000'){
+    if (req.body.operationId == '' || req.body.operationId == undefined  || req.body.sender === undefined){
       return res.status(400).json(createAgileOpErr_02); 
     }
     return res.json(createAgileOp01); 
