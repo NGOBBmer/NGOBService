@@ -15,7 +15,7 @@ var random_rules_t7 = '../../mock/V00/security/getRulesToken/T7.json';
 var error_inst = require('../../mock/V00/security/getRulesToken/error_instrumento.json');
 var error_rules = require('../../mock/V00/security/getRulesToken/error_rules.json');
 var without_validation = require('../../mock/V00/security/getRulesToken/without_validation.json');
-
+var random_rules_s12 = '../../mock/V00/security/getRulesToken/S1.json';
 //validateFlow
 var validateFlowNavigationOK = require('../../mock/V00/security/validateFlow/navigationOK.json');
 var validateFlowUpdateNavigation = require('../../mock/V00/security/validateFlow/updateNavigation.json');
@@ -67,16 +67,23 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
   }
 
   if(req.body.idOperation === 'RSTPG' || req.body.idOperation === 'PREREG' || req.body.idOperation === 'TCT' | req.body.idOperation === 'TCI'){
+    
+    var random = (Math.floor(Math.random() * 3) + 1) - 1;
+    var filePath1 = path.join(__dirname, random_rules_t7);
+    var jsoncronto = JSON.parse(fs.readFileSync(filePath1, 'utf8'));
+
+    var filePath2 = path.join(__dirname, random_rules_s12);
+    var jsons12 = JSON.parse(fs.readFileSync(filePath2, 'utf8'));
     if(tsec == 'null'){
-      return res.json(rules_s2);
+      return res.json(jsons12[random]);
      } else if(tsec == '7777777'){
-      return res.json(rules_s2);
+      return res.json(jsons12[random]);
     } else if(tsec === '123456789'){
-        return res.json(rules_s1);
+        return res.json(jsons12[random]);
     } else if(tsec == undefined){
-        return res.json(rules_s2);
+        return res.json(jsons12[random]);
     } else if(tsec === '890765'){
-        return res.json(json[random]);
+        return res.json(jsoncronto[random]);
     } else if(tsec === '18234'){
         return res.json(ocra);
     } else if(tsec === '556790'){
@@ -101,13 +108,10 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
       return res.json(without_validation);
     }
   } else if (req.body.idOperation === 'EDOCTAINV' || req.body.idOperation === 'EDOCTAFON' || req.body.idOperation === 'EDOCTACH'){
-    var random = (Math.floor(Math.random() * 3) + 1) - 1;
-    var filePath = path.join(__dirname, random_rules_t7);
-    var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     if(tsec == '34567'){
        return res.status(400).json(error_rules);    
     } else if(tsec === '890765'){
-        return res.json(json[random]);
+        return res.json(jsoncronto[random]);
     } else {
       return res.json(simple_validation);
     }
