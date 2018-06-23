@@ -60,20 +60,17 @@ router.post('/V00/getQR', function(req, res, next) {
 }*/
 router.post('/V00/getOpticalValidation', function(req, res, next) {
   var tsec = req.headers['tsec'];
+  var random = (Math.floor(Math.random() * 3) + 1) - 1;
+  var filePath1 = path.join(__dirname, random_rules_t7);
+  var jsoncronto = JSON.parse(fs.readFileSync(filePath1, 'utf8'));
 
-
+  var filePath2 = path.join(__dirname, random_rules_s12);
+  var jsons12 = JSON.parse(fs.readFileSync(filePath2, 'utf8'));
   if(req.body.idOperation === 'TCT' | req.body.idOperation === 'TCI'){
     return res.json(simple_validation);
   }
 
   if(req.body.idOperation === 'RSTPG' || req.body.idOperation === 'PREREG' || req.body.idOperation === 'TCT' | req.body.idOperation === 'TCI'){
-    
-    var random = (Math.floor(Math.random() * 3) + 1) - 1;
-    var filePath1 = path.join(__dirname, random_rules_t7);
-    var jsoncronto = JSON.parse(fs.readFileSync(filePath1, 'utf8'));
-
-    var filePath2 = path.join(__dirname, random_rules_s12);
-    var jsons12 = JSON.parse(fs.readFileSync(filePath2, 'utf8'));
     if(tsec == 'null'){
       return res.json(jsons12[random]);
      } else if(tsec == '7777777'){
