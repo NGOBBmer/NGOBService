@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
-
+var fs = require("fs");
+var path = require('path');
 var QR_IMAGE = require('../../mock/V00/security/qr/qr_image.json');
 var QR_ERROR = require('../../mock/V00/security/qr/qr_error.json');
 
@@ -10,6 +11,7 @@ var rules_s2 = require('../../mock/V00/security/getRulesToken/S2.json');
 var simple_validation = require('../../mock/V00/security/getRulesToken/simple_validation.json');
 var ocra = require('../../mock/V00/security/getRulesToken/ocra.json');
 var rules_t7 = require('../../mock/V00/security/getRulesToken/T7.json');
+var random_rules_t7 = '../../mock/V00/security/getRulesToken/T7.json';
 var error_inst = require('../../mock/V00/security/getRulesToken/error_instrumento.json');
 var error_rules = require('../../mock/V00/security/getRulesToken/error_rules.json');
 var without_validation = require('../../mock/V00/security/getRulesToken/without_validation.json');
@@ -19,6 +21,7 @@ var validateFlowNavigationOK = require('../../mock/V00/security/validateFlow/nav
 var validateFlowUpdateNavigation = require('../../mock/V00/security/validateFlow/updateNavigation.json');
 var validateFlowErrorTsec = require('../../mock/V00/security/validateFlow/error_tsec.json');
 var validateFlowErrorOperation = require('../../mock/V00/security/validateFlow/error_operation.json');
+var filesQR = '../../mock/V00/security/qr/qr_image.json';
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -38,7 +41,6 @@ router.use(function(req, res, next) {
 }
 */
 router.post('/V00/getQR', function(req, res, next) {
-
   if (req.body.type=="OPERATION"){
     return res.json(QR_IMAGE);
   } else if (req.body.type=="REGISTER"){
@@ -65,7 +67,6 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
   }
 
   if(req.body.idOperation === 'RSTPG' || req.body.idOperation === 'PREREG' || req.body.idOperation === 'TCT' | req.body.idOperation === 'TCI'){
-    
     if(tsec == 'null'){
       return res.json(rules_s2);
      } else if(tsec == '7777777'){
@@ -75,7 +76,7 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
     } else if(tsec == undefined){
         return res.json(rules_s2);
     } else if(tsec === '890765'){
-        return res.json(rules_t7);
+        return res.json(json[random]);
     } else if(tsec === '18234'){
         return res.json(ocra);
     } else if(tsec === '556790'){
@@ -100,10 +101,13 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
       return res.json(without_validation);
     }
   } else if (req.body.idOperation === 'EDOCTAINV' || req.body.idOperation === 'EDOCTAFON' || req.body.idOperation === 'EDOCTACH'){
+    var random = (Math.floor(Math.random() * 3) + 1) - 1;
+    var filePath = path.join(__dirname, random_rules_t7);
+    var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     if(tsec == '34567'){
        return res.status(400).json(error_rules);    
     } else if(tsec === '890765'){
-        return res.json(rules_t7);
+        return res.json(json[random]);
     } else {
       return res.json(simple_validation);
     }
