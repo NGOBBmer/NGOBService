@@ -713,10 +713,10 @@ router.get('/V00/advancedSearch', function(req, res, next) {
   next();
 });
 
-//handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?operationType=spei
+//handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?typeProduct=TC
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == '11111111' || tsec == '556790' || tsec == '18234' || tsec=='errorTransfer'))
+    if ((tsec == 'null' || tsec == '11111111' || tsec == '556790' || tsec == '18234' || tsec=='errorTransfer')&& req.query.typeProduct !== '')
         return res.json(rulesInterbank_inSchedule);
     else if ((tsec == '123456789'))
         return res.json(rules_interbank);
