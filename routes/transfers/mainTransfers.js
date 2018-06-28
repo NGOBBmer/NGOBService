@@ -439,55 +439,30 @@ router.get('/V00/loadBanks', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
 router.get('/V00/frequentOperations', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if(tsec=== 'errorTransfer'){
-        return res.json(frequents_A1);
-    }
-    if ((tsec == '1111111') && req.query.numMovsFreq == '26')
-        return res.json(frequent_01_01);
-    if (tsec == '3456789' && req.query.numMovsFreq !== ''){
-        return res.json(frequent_2);
-    }
-    if ((tsec == '1111111') && req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
-        return res.json(frequent_mobile_02);
-    }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
-        return res.json(frequent_mobile_01);
-    } 
-    else if (tsec == '3456789')
-        return res.json(frequent_empty);
-    else if ((tsec == 'null') && req.query.accountId === 'TCMXP0000001')
-        return res.json(frequent_02_01);
-    if ((tsec == 'null' || tsec == '556790' || tsec == ''|| tsec == '34567890' || tsec == '123456789') && req.query.accountId !== '' && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
-        return res.json(frequent_01);
-    else if ((tsec == '7777777'|| tsec == '12345678' || tsec == '890765' || tsec == '34567' ) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '')
-        return res.json(frequents_A1);
-    else if ((tsec == '7777777'|| tsec == '12345678' || tsec == '890765' || tsec == '34567' ) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
-        return res.json(frequents_A1);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === ''  && req.query.accountId === '')
-        return res.json(frequent_02);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '16' && req.query.numMovsFreq == '10')
+    if(tsec == '' || tsec == 'undefined'){
+        if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
+            return res.json(frequents_A1);
+        }else if(req.query.accountId.includes('TCMXP') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
+            return res.json(frequent_02);
+        }
+    }else if(tsec.includes("frequentOperations01")){
+        if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
+            return res.json(frequent_01);
+        }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
+            return res.json(frequent_mobile_01);
+        }
+    }else if(tsec.includes("frequentOperations02")){
         return res.json(frequent_03);
-    else if ((tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '26')
-        return res.json(frequent_01_01);
-    else if ((tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '26' && req.query.numMovsFreq == '26')
-        return res.json(frequent_02);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '7777777') && req.query.typeOpFrequent === '' && req.query.paginationKey === '')
-        return res.json(frequent_02_01);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
-        return res.json(frequents_A1);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
-        return res.json(frequents_A1);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'interbank' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
-        return res.json(frequents_I);
-    else if ((tsec == 'null' || tsec == undefined || tsec == '' || tsec == '12345678') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
-        return res.json(frequents_TP);
-    else if ((tsec == '3456789') && req.query.typeOpFrequent === 'all' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
+    }else if(tsec.includes("frequentOperationsErr01")){
         return res.json(frequent_empty);
-    else if ((tsec == 'null' || tsec == '3456789') && req.query.typeOpFrequent === 'third_party' && req.query.paginationKey === '' && req.query.numMovsFreq == '30')
-        return res.json(frequent_empty);
-
-
-    return res.status(400).json(frequent_error);
-  next();
+    }else{
+        if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
+            return res.json(frequents_A1);
+        }else if(req.query.accountId.includes('TCMXP') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
+            return res.json(frequent_02);
+        }
+    }
+    next();
 });
 
 // handler for query http://localhost:4000/transfers/V00/searchFrequents?word=prue
