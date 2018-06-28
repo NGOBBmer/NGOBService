@@ -1,10 +1,15 @@
 var express = require('express');
 var router = express.Router();
+
 var userInfo_user01 = require('../../mock/V00/dashboard/userInfo/userInfo_user01.json');
 var userInfo_user02 = require('../../mock/V00/dashboard/userInfo/userInfo_user02.json');
 var userInfo_user03 = require('../../mock/V00/dashboard/userInfo/userInfo_user03.json');
-var userInfo_user04 = require('../../mock/V00/dashboard/userInfo/userInfo_user04.json');
-var userInfo_user05 = require('../../mock/V00/dashboard/userInfo/userInfo_user05.json');
+var userInfoS1  = require('../../mock/V00/dashboard/userInfo/userInfoS1.json');
+var userInfoS2  = require('../../mock/V00/dashboard/userInfo/userInfoS2.json');
+var userInfoT1  = require('../../mock/V00/dashboard/userInfo/userInfoT1.json');
+var userInfoT3  = require('../../mock/V00/dashboard/userInfo/userInfoT3.json');
+var userInfoT6  = require('../../mock/V00/dashboard/userInfo/userInfoT6.json');
+var userInfoT7  = require('../../mock/V00/dashboard/userInfo/userInfoT7.json');
 var userInfo_error = require('../../mock/V00/dashboard/userInfo/userInfo_error.json');
 
 /* GET users listing. */
@@ -23,31 +28,32 @@ router.use(function(req, res, next) {
 // handler for query http://localhost:3000/dashboard/V00/userInfo?filter=email
 router.get('/V00/userInfo', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if(tsec === '')
-    return res.json(userInfo_error);
-  if (tsec === '1122334455'){
-    return res.json(userInfo_user05)
-  }else if (tsec == 'giovanni'){
-    return res.json(userInfo_user04)
-  }else if (tsec == '123456789' || tsec == '34567'){
-    return res.json(userInfo_user01)
-  }else if (tsec == '890765'){
-    return res.json(userInfo_user01)
-  } else if (tsec == '556790' || tsec == '18234'){
-    return res.json(userInfo_user01)
-  } else if (tsec == '123456'){
-    return res.json(userInfo_user01)  
-  } else if (tsec == 'qrcronto'){
-    return res.json(userInfo_user03)
-  } else if (tsec == '12347823'){
-    return res.json(userInfo_user01)
-  } else{
-    return res.json(userInfo_user02);
+
+  if(tsec==undefined || tsec===''){
+    return res.json(userInfoS1);
+  } else if (tsec.includes("userInfoS1")){
+    return res.json(userInfoS1);
+  } else if (tsec.includes("userInfoS2")){
+    return res.json(userInfoS2);
+  } else if (tsec.includes("userInfoT1")){
+    return res.json(userInfoT1);
+  } else if (tsec.includes("userInfoT3")){
+    return res.json(userInfoT3);
+  } else if (tsec.includes("userInfoT6")){
+    return res.json(userInfoT6);
+  } else if (tsec.includes("userInfoT7")){
+    return res.json(userInfoT7);
+  } else if (tsec.includes("userInfoNoNominated")){
+    return res.json(userInfo_user01);
+  } else if (tsec.includes("userInfoWithOutAlerts")){
+     return res.json(userInfo_user02);
+  } else if (tsec.includes("userInfoWithOperations")){
+     return res.json(userInfo_user03);
+  } else if (tsec.includes("userInfoError")){
+     return res.json(userInfo_error);
+  } else {
+    return res.json(userInfoS1);
   }
-  return res.json(userInfo_user01)
-  
+});
 
-    
-  });
-
-module.exports = router;
+  module.exports = router;
