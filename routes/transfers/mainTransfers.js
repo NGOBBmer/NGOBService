@@ -129,6 +129,7 @@ var advancedSearch03 = require('../../mock/V00/transfers/advancedSearch/advanced
 var advancedSearch_varios = '../../mock/V00/transfers/advancedSearch/advancedSearch_varios.json';
 var advancedSearchErr = require('../../mock/V00/transfers/advancedSearch/advancedSearch_err.json');
 var advancedSearchErr_02 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_err02.json');
+var advancedSearchErr_STN = require('../../mock/V00/transfers/advancedSearch/advancedSearch_STN.json');
 
 //rulesInterbank
 var rules_interbank = require('../../mock/V00/transfers/rulesInterbank/rules_01.json');
@@ -658,44 +659,45 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
 router.get('/V00/advancedSearch', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (!isNaN(req.query.number)){
-        if (tsec === '1234567890' || tsec === 'null' || tsec === undefined) {
-            if (req.query.number !== undefined && req.query.number !==''){
-                var filePath = path.join(__dirname, advancedSearch_varios);
-                var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-                if (req.query.number === '0021807005'){
-                    return res.json(json.data[0]);
-                }else if (req.query.number === '9711440156'){
-                    return res.json(json.data[1]);
-                }else if (req.query.number === '5520721628'){
-                    return res.json(json.data[2]);           
-                }else if (req.query.number === '1136164080'){
-                    return res.json(json.data[3]);          
-                }else if (req.query.number === '021180040000000752'){
-                    return res.json(json.data[4]);         
-                }else if (req.query.number === '5499490515322931'){
-                    return res.json(json.data[5]);        
-                }else if (req.query.number === '4768513016451321'){
-                    return res.json(json.data[6]);
-                }else if (req.query.number === '4098513016018209'){
-                    return res.json(json.data[7]);
-                }else if (req.query.number === '4152313300116865'){
-                    return res.json(json.data[8]);
-                }else if (req.query.number === '4461180036974370'){
-                    return res.json(json.data[9]);
-                }else if (req.query.number === '4772133010484910'){
-                    return res.json(json.data[10]);
-                }else if (req.query.number === '4513120515322123'){
-                    return res.json(json.data[11]);
-                }else if (req.query.number === '012610011361640806'){
-                    return res.json(json.data[12]);
-                }else if (req.query.number === '376782341005795'){
-                    return res.json(json.data[13]);
-                }else{
-                    json.data[6].account.number = req.query.number;
-                    return res.json(json.data[6]); 
-                }
+         var filePath = path.join(__dirname, advancedSearch_varios);
+         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        if (tsec === '' || tsec === undefined){
+            json.data[6].account.number = req.query.number;
+            return res.json(json.data[6]); 
+        }else if (tsec.includes('advancedSearchErr01')){
+             return res.status(406).json(advancedSearchErr_STN); 
+        }else if (tsec.includes('advancedSearch01')) {
+            if (req.query.number === '0021807005'){
+                return res.json(json.data[0]);
+            }else if (req.query.number === '9711440156'){
+                return res.json(json.data[1]);
+            }else if (req.query.number === '5520721628'){
+                return res.json(json.data[2]);           
+            }else if (req.query.number === '1136164080'){
+                return res.json(json.data[3]);          
+            }else if (req.query.number === '021180040000000752'){
+                return res.json(json.data[4]);         
+            }else if (req.query.number === '5499490515322931'){
+                return res.json(json.data[5]);        
+            }else if (req.query.number === '4768513016451321'){
+                return res.json(json.data[6]);
+            }else if (req.query.number === '4098513016018209'){
+                return res.json(json.data[7]);
+            }else if (req.query.number === '4152313300116865'){
+                return res.json(json.data[8]);
+            }else if (req.query.number === '4461180036974370'){
+                return res.json(json.data[9]);
+            }else if (req.query.number === '4772133010484910'){
+                return res.json(json.data[10]);
+            }else if (req.query.number === '4513120515322123'){
+                return res.json(json.data[11]);
+            }else if (req.query.number === '012610011361640806'){
+                return res.json(json.data[12]);
+            }else if (req.query.number === '376782341005795'){
+                return res.json(json.data[13]);
             }else{
-                return res.status(406).json(advancedSearchErr); 
+                json.data[6].account.number = req.query.number;
+                return res.json(json.data[6]); 
             }
         }else if (req.query.number == undefined || req.query.number === ''){
            return res.status(406).json(advancedSearchErr); 
