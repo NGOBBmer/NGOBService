@@ -9,7 +9,7 @@ var QR_ERROR = require('../../mock/V00/security/qr/qr_error.json');
 var rules_s1 = require('../../mock/V00/security/getRulesToken/S1.json');
 var rules_s2 = require('../../mock/V00/security/getRulesToken/S2.json');
 var simple_validation = require('../../mock/V00/security/getRulesToken/simple_validation.json');
-var ocra = require('../../mock/V00/security/getRulesToken/ocra.json');
+var ocra = '../../mock/V00/security/getRulesToken/ocra.json';
 var rules_t7 = require('../../mock/V00/security/getRulesToken/T7.json');
 var random_rules_t7 = '../../mock/V00/security/getRulesToken/T7.json';
 var error_inst = require('../../mock/V00/security/getRulesToken/error_instrumento.json');
@@ -60,59 +60,87 @@ router.post('/V00/getQR', function(req, res, next) {
 }*/
 router.post('/V00/getOpticalValidation', function(req, res, next) {
   var tsec = req.headers['tsec'];
+ 
+ //Genera un json dinamico para cronto
   var random = (Math.floor(Math.random() * 3) + 1) - 1;
-  var filePath1 = path.join(__dirname, random_rules_t7);
-  var jsoncronto = JSON.parse(fs.readFileSync(filePath1, 'utf8'));
+ 
+  var filePathCronto = path.join(__dirname, random_rules_t7);
+  var jsonOpticalcronto = JSON.parse(fs.readFileSync(filePathCronto, 'utf8'));
 
-  var filePath2 = path.join(__dirname, random_rules_s12);
-  var jsons12 = JSON.parse(fs.readFileSync(filePath2, 'utf8'));
-  if(req.body.idOperation === 'TCT' | req.body.idOperation === 'TCI'){
-    return res.json(simple_validation);
-  }
+  var filePathOcra = path.join(__dirname, ocra);
+  var jsonOpticalOcra = JSON.parse(fs.readFileSync(filePathOcra, 'utf8'));
 
-  if(req.body.idOperation === 'RSTPG' || req.body.idOperation === 'PREREG' || req.body.idOperation === 'TCT' | req.body.idOperation === 'TCI'){
-    if(tsec == 'null'){
-      return res.json(jsons12[random]);
-     } else if(tsec == '7777777'){
-      return res.json(jsons12[random]);
-    } else if(tsec === '123456789'){
-        return res.json(jsons12[random]);
-    } else if(tsec == undefined){
-        return res.json(jsons12[random]);
-    } else if(tsec === '890765'){
-        return res.json(jsoncronto[random]);
-    } else if(tsec === '18234'){
-        return res.json(ocra);
-    } else if(tsec === '556790'){
-        return res.json(simple_validation);
-    } else if(tsec === '34567'){
-        return res.json(error_inst);
-    } else if(tsec === 'errorOptical'){
-       return res.status(400).json(error_rules);
-    } else {
-      return res.status(400).json(error_rules);    
-    }
-  } else if (req.body.idOperation === 'TCP'){
-    if(tsec == '34567'){
-       return res.status(400).json(error_rules);    
-    } else {
-        return res.json(without_validation);
-    }
-  } else if (req.body.idOperation === 'EDOCTATDC'){
-    if(tsec == '34567'){
-       return res.status(400).json(error_rules);    
-    } else {
-      return res.json(without_validation);
-    }
-  } else if (req.body.idOperation === 'EDOCTAINV' || req.body.idOperation === 'EDOCTAFON' || req.body.idOperation === 'EDOCTACH'){
-    if(tsec == '34567'){
-       return res.status(400).json(error_rules);    
-    } else if(tsec === '890765'){
-        return res.json(jsoncronto[random]);
+  var filePathSoftoken = path.join(__dirname, random_rules_s12);
+  var jsonOpticalSoftoken = JSON.parse(fs.readFileSync(filePathSoftoken, 'utf8'));
+
+  //Reglas para operación con token simple
+  if(req.body.idOperation === 'TCT' || req.body.idOperation === 'TCI' || req.body.idOperation === 'EDOCTAINV' 
+      || req.body.idOperation === 'EDOCTAFON' || req.body.idOperation === 'EDOCTACH'){
+    if (tsec.includes("userInfoT7")){
+      return res.json(jsonOpticalcronto[random]);
+    } else if (tsec.includes("optValidationErr")){
+      return res.status(400).json(error_rules);
     } else {
       return res.json(simple_validation);
     }
+  
+  //reglas para flujos donde no solicita token
+  } else if(req.body.idOperation === 'EDOCTATDC' || req.body.idOperation === 'TCP'){
+    if (tsec.includes("optValidationErr")){
+      return res.status(400).json(error_rules);
+    } else {
+      return res.json(without_validation);
+    }
+  
+  //reglas para validación optica
+  } else if(req.body.idOperation === 'PREREG' ){
+    if(tsec==undefined || tsec===''){
+      return res.json(jsonOpticalSoftoken[random]);
+    } else if (tsec.includes("userInfoS1")){
+      return res.json(jsonOpticalSoftoken[random]);
+    } else if (tsec.includes("userInfoS2")){
+      return res.json(jsonOpticalSoftoken[random]);
+    } else if (tsec.includes("userInfoT1")){
+       return res.json(error_inst);
+    } else if (tsec.includes("userInfoT3")){
+       return res.json(error_inst);
+    } else if (tsec.includes("userInfoT6")){
+      return res.json(jsonOpticalOcra[random]);
+    } else if (tsec.includes("userInfoT7")){
+      return res.json(jsonOpticalcronto[random]);
+    } else if (tsec.includes("optValidationErr")){
+       return res.status(400).json(error_rules);
+    } else {
+      return res.json(userInfoS1);
+    }
+  
+  // reglas especiales para retiro sin tarjeta en PG
+  } else if(req.body.idOperation === 'PREREG' ){
+    if(tsec==undefined || tsec===''){
+      return res.json(jsonOpticalSoftoken[random]);
+    } else if (tsec.includes("userInfoS1")){
+      return res.json(jsonOpticalSoftoken[random]);
+    } else if (tsec.includes("userInfoS2")){
+      return res.json(jsonOpticalSoftoken[random]);
+    } else if (tsec.includes("userInfoT1")){
+      return res.json(simple_validation);
+    } else if (tsec.includes("userInfoT3")){
+      return res.json(simple_validation);
+    } else if (tsec.includes("userInfoT6")){
+      return res.json(simple_validation);
+    } else if (tsec.includes("userInfoT7")){
+      return res.json(jsonOpticalcronto[random]);
+    } else if (tsec.includes("optValidationErr")){
+       return res.status(400).json(error_rules);
+    } else {
+      return res.json(userInfoS1);
+    }
+  
+  //en caso de que el idOperation sea incorrecto
+  } else {
+    return res.status(400).json(validateFlowErrorOperation);
   }
+
   next();
 });
 
@@ -123,27 +151,29 @@ router.get('/V00/validateFlow', function(req, res, next) {
   var tsec = req.headers['tsec'];
 
   if(req.query.idOperation === 'PREREG'){
-    
-    if(tsec == 'null'){
+    if(tsec==undefined || tsec===''){
       return res.json(validateFlowNavigationOK);
-    } else if(tsec === '11111111'){
-        return res.json(validateFlowUpdateNavigation);
-    } else if(tsec == undefined){
-        return res.json(validateFlowNavigationOK);
-    } else if(tsec === '890765'){
-        return res.json(validateFlowNavigationOK);
-    } else if(tsec === '18234'){
-        return res.json(validateFlowNavigationOK);
-    } else if(tsec === '556790'){
-        return res.json(validateFlowNavigationOK);
-    } else if(tsec === '34567'){
-        return res.status(400).json(validateFlowErrorTsec);
+    } else if (tsec.includes("userInfoS1")){
+      return res.json(validateFlowNavigationOK);
+    } else if (tsec.includes("userInfoS2")){
+      return res.json(validateFlowNavigationOK);
+    } else if (tsec.includes("userInfoT1")){
+      return res.json(validateFlowUpdateNavigation);
+    } else if (tsec.includes("userInfoT3")){
+      return res.json(validateFlowUpdateNavigation);
+    } else if (tsec.includes("userInfoT6")){
+      return res.json(validateFlowNavigationOK);
+    } else if (tsec.includes("userInfoT7")){
+      return res.json(validateFlowNavigationOK);
+    } else if (tsec.includes("validateFlowErr")){
+       return res.json(validateFlowErrorTsec);
     } else {
-       return res.json(validateFlowNavigationOK); 
+      return res.json(validateFlowNavigationOK);
     }
-  } else {
-     return res.status(400).json(validateFlowErrorOperation);
+  }else {
+    return res.status(400).json(validateFlowErrorOperation);
   }
+
   next();
 });
 
