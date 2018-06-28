@@ -286,6 +286,8 @@ router.get('/V00/getBeneficiary', function(req, res, next) {
         return res.json(json[random]);
     }else if (tsec.includes("beneficiaryErr")){
        return res.status(400).json(beneficiaryErr); 
+    }else{
+         return res.json(json[1]);
     }
 
     return res.status(400).json(beneficiaryErr);
