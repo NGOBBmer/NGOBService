@@ -358,60 +358,81 @@ router.get('/V00/QrData', function(req, res, next) {
 router.get('/V00/loadBanks', function(req, res, next) {
     var tsec = req.headers['tsec'];
 
-    if(req.query.includeBbva==='true'){
+    if ((tsec == '' || tsec == 'undefined')){
+        if(req.query.includeBbva==='true'){
           return res.json(banksCatalog_bancomer);
+        }
+        if (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'){
+            return res.json(banksCatalogClabe);
+        }else if(req.query.cveBank==='0012'){
+            return res.json(bank_bancomer);
+        }else if(req.query.cveBank==='0103'){
+            return res.json(bank_0103);
+        }else if((req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0002'){
+            return res.json(bank_002);
+        }else if((req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0030'){
+            return res.json(bank_0030);
+        }else if((req.query.operationType==='och' || req.query.operationType==='OCH') && req.query.cveBank==='0127'){
+            return res.json(bank_0127);
+        }else if((req.query.operationType==='ocp' || req.query.operationType==='OCP') && req.query.cveBank==='0127'){
+            return res.json(bank_0127_2);
+        }else if(req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0002'){
+            return res.json(bank_002);
+        }else if(req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0030'){
+            return res.json(bank_0030);
+        }else if(req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0127'){
+            return res.json(bank_0127);
+        }else if( req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0002'){
+            return res.json(bank_002);
+        }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0030'){
+            return res.json(bank_0030);
+        }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0127'){
+            return res.json(bank_0127);
+        }
+    }else if (tsec.includes("loadBanks01")){
+        if(req.query.includeBbva==='true'){
+            return res.json(banksCatalog_bancomer);
+        }
+        if ((req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
+            return res.json(banksCatalogClabe);
+        else if ((req.query.operationType==='td' || req.query.operationType==='TD'))
+            return res.json(banksCatalogTdd);
+        else if ((req.query.operationType==='tc' || req.query.operationType==='TC'))
+            return res.json(banksCatalogTdc);
+        else if ((req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
+            return res.json(banksCatalogOtrosCreditos);
+    }else if(tsec.includes("loadBanksErr01")){
+        return res.status(409).json(banksError);
+    }else{
+        if (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'){
+            return res.json(banksCatalogClabe);
+        }else if(req.query.cveBank==='0012'){
+            return res.json(bank_bancomer);
+        }else if(req.query.cveBank==='0103'){
+            return res.json(bank_0103);
+        }else if((req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0002'){
+            return res.json(bank_002);
+        }else if((req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0030'){
+            return res.json(bank_0030);
+        }else if((req.query.operationType==='och' || req.query.operationType==='OCH') && req.query.cveBank==='0127'){
+            return res.json(bank_0127);
+        }else if((req.query.operationType==='ocp' || req.query.operationType==='OCP') && req.query.cveBank==='0127'){
+            return res.json(bank_0127_2);
+        }else if(req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0002'){
+            return res.json(bank_002);
+        }else if(req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0030'){
+            return res.json(bank_0030);
+        }else if(req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0127'){
+            return res.json(bank_0127);
+        }else if( req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0002'){
+            return res.json(bank_002);
+        }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0030'){
+            return res.json(bank_0030);
+        }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0127'){
+            return res.json(bank_0127);
+        }
     }
 
-    if ((tsec == 'null' || tsec == '11111111' || tsec == '1234567890') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
-        return res.json(banksCatalogClabe);
-    if(req.query.cveBank==='0012'){
-        return res.json(bank_bancomer);
-    }
-    if(req.query.cveBank==='0103'){
-        return res.json(bank_0103);
-    }
-    if(tsec == 'null' && (req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0002'){
-        return res.json(bank_002);
-    }else if(tsec == 'null' && (req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0030'){
-        return res.json(bank_0030);
-    }else if(tsec == 'null' && (req.query.operationType==='och' || req.query.operationType==='OCH') && req.query.cveBank==='0127'){
-        return res.json(bank_0127);
-    }else if(tsec == 'null' && (req.query.operationType==='ocp' || req.query.operationType==='OCP') && req.query.cveBank==='0127'){
-        return res.json(bank_0127_2);
-    }   
-    if(tsec == 'null' && req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0002'){
-        return res.json(bank_002);
-    }else if(tsec == 'null' && req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0030'){
-        return res.json(bank_0030);
-    }else if(tsec == 'null' && req.query.operationType==='tc' || req.query.operationType==='TC' && req.query.cveBank==='0127'){
-        return res.json(bank_0127);
-    }
-    if( req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0002'){
-        return res.json(bank_002);
-    }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0030'){
-        return res.json(bank_0030);
-    }else if(req.query.operationType==='cb' || req.query.operationType==='CB'  || req.query.operationType==='cl' || req.query.operationType==='CL' && req.query.cveBank==='0127'){
-        return res.json(bank_0127);
-    }
-    if ((tsec == 'null' || tsec == '11111111' || tsec == '1234567890') && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
-        return res.json(banksCatalogClabe);
-    else if ((tsec == 'null' || tsec == '987654') && (req.query.operationType==='td' || req.query.operationType==='TD'))
-        return res.json(banksCatalogTdd);
-    else if ((tsec == 'null' || tsec == '123456789') && (req.query.operationType==='tc' || req.query.operationType==='TC'))
-        return res.json(banksCatalogTdc);
-    else if ((tsec == 'null' || tsec == '34567890') && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
-        return res.json(banksCatalogOtrosCreditos);
-
-    if ((tsec == 'null' || tsec == '18234' || tsec == 'errorOptical' ) && (req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
-        return res.json(banksCatalogClabe);
-    else if ((tsec == 'null' || tsec == '18234' || tsec == 'errorOptical' ) && (req.query.operationType==='td' || req.query.operationType==='TD'))
-        return res.json(banksCatalogTdd);
-    else if ((tsec == 'null' || tsec == '18234' || tsec == 'errorOptical' ) && (req.query.operationType==='tc' || req.query.operationType==='TC'))
-        return res.json(banksCatalogTdc);
-    else if ((tsec == 'null' || tsec == '18234' || tsec == 'errorOptical' ) && (req.query.operationType==='oca' || req.query.operationType==='OCA' || req.query.operationType==='oc' || req.query.operationType==='OC' || req.query.operationType==='och' || req.query.operationType==='OCH' || req.query.operationType==='ocp' || req.query.operationType==='OCP'))
-        return res.json(banksCatalogOtrosCreditos);
-
-    return res.status(409).json(banksError);
   next();
 });
 
