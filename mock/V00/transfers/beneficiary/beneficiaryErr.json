@@ -1,0 +1,10 @@
+{
+    "error": {
+        "code": "CNE0027",
+        "message": "LA CUENTA REGISTRADA NO EXISTE, VERIFICA E INTENTA NUEVAMENTE.",
+        "descripcion": "Se ha producido un error al consultar el servicio /transfers/V00/getBeneficiary",
+        "version": "1",
+        "severity": "FATAL",
+        "httpStatus": "400"
+    }
+}

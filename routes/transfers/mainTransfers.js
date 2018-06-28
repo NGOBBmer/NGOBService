@@ -131,6 +131,10 @@ var advancedSearchErr = require('../../mock/V00/transfers/advancedSearch/advance
 var advancedSearchErr_02 = require('../../mock/V00/transfers/advancedSearch/advancedSearch_err02.json');
 var advancedSearchErr_STN = require('../../mock/V00/transfers/advancedSearch/advancedSearch_STN.json');
 
+//getBeneficiary
+var beneficiary01 ='../../mock/V00/transfers/beneficiary/beneficiary01.json';
+var beneficiaryErr = require('../../mock/V00/transfers/beneficiary/beneficiaryErr.json');
+
 //rulesInterbank
 var rules_interbank = require('../../mock/V00/transfers/rulesInterbank/rules_01.json');
 var rulesInterbank_inSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_01.json');
@@ -266,6 +270,25 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         return res.json(listAccount_all);
     }*/
     return res.status(400).json(listAccount_err);
+  next();
+});
+
+
+// handler for query http://localhost:5000/transfers/V00/getBeneficiary?number=&accountType=
+router.get('/V00/getBeneficiary', function(req, res, next) {
+    var tsec = req.headers['tsec'];
+    var filePath = path.join(__dirname, beneficiary01);
+    var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    if(tsec === '' || tsec === undefined){
+       return res.json(json[1]);
+    }else if (tsec.includes("beneficiary01")){
+        var random = (Math.floor(Math.random() * 7) + 1) - 1;
+        return res.json(json[random]);
+    }else if (tsec.includes("beneficiaryErr")){
+       return res.status(400).json(beneficiaryErr); 
+    }
+
+    return res.status(400).json(beneficiaryErr);
   next();
 });
 
