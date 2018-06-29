@@ -752,15 +752,18 @@ router.get('/V00/advancedSearch', function(req, res, next) {
 //handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?typeProduct=TC
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == '11111111' || tsec == '556790' || tsec == '18234' || tsec=='errorTransfer')&& req.query.typeProduct !== '')
+    if ((tsec == '' || tsec == 'undefined')&& req.query.typeProduct !== '')
         return res.json(rulesInterbank_inSchedule);
-    else if ((tsec == '123456789'))
+    else if(tsec.includes("rulesInterbankTransfer01")){
         return res.json(rules_interbank);
-    else if ((tsec == '7777777' || tsec == '890765' || tsec == '34567'))
+    }else if(tsec.includes("rulesInterbankTransfer02")){
         return res.json(rulesInterbank_outSchedule);
+    }else if(tsec.includes("rulesInterbankTransferErr01")){
+        return res.status(409).json(error_rulesInterbank);
+    }else{
+        return res.json(rulesInterbank_inSchedule);
+    }
     
-
-    return res.status(409).json(error_rulesInterbank);
   next();
 });
 
