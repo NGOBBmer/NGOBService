@@ -436,12 +436,25 @@ router.get('/V00/loadBanks', function(req, res, next) {
   next();
 });
 
-// handler for query http://localhost:5000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
+// handler for query http://localhost:4000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
 router.get('/V00/frequentOperations', function(req, res, next) {
     var tsec = req.headers['tsec'];
+
+  //  var filePath = path.join(__dirname, frequents_A1);
+   // var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
     if(tsec == '' || tsec == 'undefined'){
         if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
-            return res.json(frequents_A1);
+            //return res.json(frequents_A1);
+            var random = (Math.floor(Math.random() * 4) + 1) - 1;
+            if(random > 0 && random < 2){
+                return res.json(frequents_A1);
+            }else  if(random > 2 && random < 5){
+               return res.json(frequent_01);
+            }else{
+                return res.json(frequent_02);
+            }
+            return res.json(json.listFrequentOperation[1].id);
         }else if(req.query.accountId.includes('TCMXP') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
             return res.json(frequent_02);
         }
