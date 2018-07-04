@@ -228,7 +228,11 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
             return res.json(listSender_regla04);
         }
     }
-    if (req.query.accountId !== undefined && req.query.accountId !== ''){
+    if(tsec=='' || tsec === undefined){
+        if (req.query.accountId === undefined && req.query.accountId === ''){
+            return res.json(listSender_regla02);
+        }   
+    }else if (req.query.accountId !== undefined && req.query.accountId !== ''){
          return res.json(listSender_regla02);
     }else if (req.query.operationType !== undefined && req.query.operationType !== ''){
         if (req.query.accountType === undefined || req.query.accountType === ''){
