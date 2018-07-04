@@ -16,7 +16,7 @@ var listSender_tdc03 = require('../../mock/V00/transfers/listAccountTr/listSende
 var listSender_paco = require('../../mock/V00/transfers/listAccountTr/listSender_paco.json');
 var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccount_err.json');
 
-var listSender_regla01 = require('../../mock/V00/transfers/listAccountTr/listSender_regla03.json');
+var listSender_regla01 = require('../../mock/V00/transfers/listAccountTr/listSender_regla01.json');
 var listSender_regla02 = require('../../mock/V00/transfers/listAccountTr/listSender_regla02.json');
 var listSender_regla03 = require('../../mock/V00/transfers/listAccountTr/listSender_regla03.json');
 var listSender_regla04 = require('../../mock/V00/transfers/listAccountTr/listSender_regla04.json');
@@ -221,6 +221,9 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
 router.get('/V00/listSenderAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
+    console.log(tsec);
+    console.log(req.query.accountId !== undefined && req.query.accountId !== '');
+    console.log(req.query.operationType !== undefined && req.query.operationType !== '');
     if(tsec=== 'errorTransfer'){
         if (req.query.operationType === 'THIRD_PARTY'){
             return res.json(listSender_regla03);
@@ -242,33 +245,6 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
     }else{
         return res.json(listSender_regla01);
     }
-/*
-    if (tsec == '1234567890'){
-        return res.status(400).json(listAccount_err);
-    }else  if (tsec == '09876543'){
-        res.status(409).json(listSender_tdcEmpty);
-    }else if (tsec == '3456789'){
-        return res.json(listAccount_01);
-    }else if (tsec == 'null' && req.query.operationType == 'PAY_CREDITCARD'){
-        return res.json(listSender_tdc02);
-    }else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD'){
-        return res.json(listSender_tdc02);
-    }else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD'){
-        return res.json(listSender_tdc03);
-    }else if (req.query.operationType == 'PAY_CREDITCARD'){
-        return res.json(listSender_tdc01);
-    }else if (tsec === 'null'){
-        return res.json(listAccount_all);
-    }else if (tsec === '123456'){
-        return res.json(
-            );
-    }else if (tsec === '1234567'){
-        return res.json(listAccount_02);
-    }else if (tsec === 'paco'){
-        return res.json(listSender_paco);
-    }else{
-        return res.json(listAccount_all);
-    }*/
     return res.status(400).json(listAccount_err);
   next();
 });
