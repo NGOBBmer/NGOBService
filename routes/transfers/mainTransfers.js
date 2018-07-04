@@ -221,17 +221,23 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
 router.get('/V00/listSenderAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
+<<<<<<< HEAD
     console.log(tsec);
     console.log(req.query.accountId !== undefined && req.query.accountId !== '');
     console.log(req.query.operationType !== undefined && req.query.operationType !== '');
     if(tsec=== 'errorTransfer'){
+=======
+
+    if(tsec==='' || tsec === undefined){
+        return res.json(listSender_regla02);
+    }else if(tsec === 'errorTransfer'){
+>>>>>>> eb06bd77d35463f136adc2456014b2d7aceb0527
         if (req.query.operationType === 'THIRD_PARTY'){
             return res.json(listSender_regla03);
         }else if (req.query.operationType === 'INTERBANK'){
             return res.json(listSender_regla04);
         }
-    }
-    if (req.query.accountId !== undefined && req.query.accountId !== ''){
+    }else if (req.query.accountId !== undefined && req.query.accountId !== ''){
          return res.json(listSender_regla02);
     }else if (req.query.operationType !== undefined && req.query.operationType !== ''){
         if (req.query.accountType === undefined || req.query.accountType === ''){
@@ -412,12 +418,25 @@ router.get('/V00/loadBanks', function(req, res, next) {
   next();
 });
 
-// handler for query http://localhost:5000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
+// handler for query http://localhost:4000/transfers/V00/frequentOperations?typeOpFrequent&paginationKey=&numMovsFreq=10
 router.get('/V00/frequentOperations', function(req, res, next) {
     var tsec = req.headers['tsec'];
+
+  //  var filePath = path.join(__dirname, frequents_A1);
+   // var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
     if(tsec == '' || tsec == 'undefined'){
         if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
-            return res.json(frequents_A1);
+            //return res.json(frequents_A1);
+            var random = (Math.floor(Math.random() * 4) + 1) - 1;
+            if(random > 0 && random < 2){
+                return res.json(frequents_A1);
+            }else  if(random > 2 && random < 5){
+               return res.json(frequent_01);
+            }else{
+                return res.json(frequent_02);
+            }
+            return res.json(json.listFrequentOperation[1].id);
         }else if(req.query.accountId.includes('TCMXP') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
             return res.json(frequent_02);
         }
@@ -715,15 +734,18 @@ router.get('/V00/advancedSearch', function(req, res, next) {
 //handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?typeProduct=TC
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == 'null' || tsec == '11111111' || tsec == '556790' || tsec == '18234' || tsec=='errorTransfer')&& req.query.typeProduct !== '')
+    if ((tsec == '' || tsec == 'undefined')&& req.query.typeProduct !== '')
         return res.json(rulesInterbank_inSchedule);
-    else if ((tsec == '123456789'))
+    else if(tsec.includes("rulesInterbankTransfer01")){
         return res.json(rules_interbank);
-    else if ((tsec == '7777777' || tsec == '890765' || tsec == '34567'))
+    }else if(tsec.includes("rulesInterbankTransfer02")){
         return res.json(rulesInterbank_outSchedule);
+    }else if(tsec.includes("rulesInterbankTransferErr01")){
+        return res.status(409).json(error_rulesInterbank);
+    }else{
+        return res.json(rulesInterbank_inSchedule);
+    }
     
-
-    return res.status(409).json(error_rulesInterbank);
   next();
 });
 
