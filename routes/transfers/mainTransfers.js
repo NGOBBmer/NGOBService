@@ -221,17 +221,15 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
 router.get('/V00/listSenderAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if(tsec=== 'errorTransfer'){
+
+    if(tsec==='' || tsec === undefined){
+        return res.json(listSender_regla02);
+    }else if(tsec === 'errorTransfer'){
         if (req.query.operationType === 'THIRD_PARTY'){
             return res.json(listSender_regla03);
         }else if (req.query.operationType === 'INTERBANK'){
             return res.json(listSender_regla04);
         }
-    }
-    if(tsec=='' || tsec === undefined){
-        if (req.query.accountId === undefined && req.query.accountId === ''){
-            return res.json(listSender_regla02);
-        }   
     }else if (req.query.accountId !== undefined && req.query.accountId !== ''){
          return res.json(listSender_regla02);
     }else if (req.query.operationType !== undefined && req.query.operationType !== ''){
