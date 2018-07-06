@@ -107,6 +107,7 @@ var json_ERR = require('../../mock/V00/transfers/getSequences/json_err.json');
 var RESP_OK = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok.json'); 
 var OK_period = require('../../mock/V00/transfers/otherAccountsTransfer/response_ok_period.json'); 
 var RESP_ERROR = require('../../mock/V00/transfers/otherAccountsTransfer/response_err.json');
+var otheraccounts_err = require('../../mock/V00/transfers/otherAccountsTransfer/otheraccounts_err.json');
 
 //myAccountsTransfer
 var MYACCOUNTS_OK = require('../../mock/V00/transfers/creditCardPayment/response_ok.json'); 
@@ -619,10 +620,9 @@ router.post('/V00/sendEmailTransfers', function(req, res, next) {
 
 // handler for query http://localhost:5000/transfers/V00/otherAccountsTransfer
 router.post('/V00/otherAccountsTransfer', function(req, res, next) {
-    var tsec = req.headers['tsec'];
     var otp = req.headers['otp'];
     var otherTrasnferFreqId = req.body.frequentId;
-   var  senderAccountId = req.body.senderAccountId;
+    var senderAccountId = req.body.senderAccountId;
     var concept = req.body.concept;
     var isPeriodic =req.body.isPeriodic;
     var aplicationDate =req.body.aplicationDate;
@@ -631,32 +631,31 @@ router.post('/V00/otherAccountsTransfer', function(req, res, next) {
     //var reference =req.body.reference;
     var amount =req.body.amount;
     var period =req.body.period;
-
-    if((otp == "11111111" || otp == "") && otp != null){
-
- 
-
-    if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null
-        && tsec != "" && tsec != null ){
-        
-        if (isPeriodic){
-             if (repetitions != '' && periodicName != '' &&  period != '' && periodicName != null && repetitions != null && concept != null &&  period != null){
-                return res.json(OK_period);
-             }else{
-                return res.status(400).json(RESP_ERROR); 
-             }
+    var tsec = req.headers['tsec'];
+    if((otp == "11111111" || otp == "") && otp != undefined){
+        if (tsec.includes('errorReliable')){
+            return res.status(406).json(otheraccounts_err); 
+        }else  if (tsec.includes('errorOtherAccount')){
+            return res.status(400).json(RESP_ERROR); 
+        }else if (tsec.includes("otherAccount01")){
+            if (otherTrasnferFreqId!= '' && senderAccountId != '' && amount !=''  && aplicationDate != '' && otherTrasnferFreqId!= null && senderAccountId != null && amount !=null  && aplicationDate != null){
+            
+                if (isPeriodic){
+                     if (repetitions != '' && periodicName != '' &&  period != '' && periodicName != null && repetitions != null && concept != null &&  period != null){
+                        return res.json(OK_period);
+                     }else{
+                        return res.status(400).json(RESP_ERROR); 
+                     }
+                }
+                return res.json(RESP_OK);
+            }
+        }else{
+           return res.json(RESP_OK); 
         }
 
-        return res.json(RESP_OK); 
     }else{
-       return res.status(400).json(RESP_ERROR); 
+        return res.status(400).json(error_token_transfer);    
     }
-    return res.status(400).json(RESP_ERROR);
-
-}else{
-           return res.status(400).json(error_token_transfer); 
-    
-}
   next();
 
 });
