@@ -278,6 +278,28 @@
       },
       "sendDetail": false,
       "useSearcher": false
+    },
+    {
+      "id": "11234567890987654321152AB138AB313108228",
+      "wasFound": true,
+      "account": {
+        "number": "551234567890",
+        "accountType": "CM"
+      },
+      "transferType": "THIRD_PARTY",
+      "beneficiary": {
+        "name": "DANIELA PATRICIA SOLORIO",
+        "bank": {
+          "code": "0012",
+          "name": "BBVA BANCOMER"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "DP"
+      },
+      "sendDetail": false,
+      "useSearcher": false
     }
   ]
 }
