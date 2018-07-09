@@ -21,6 +21,8 @@ var listSender_regla02 = require('../../mock/V00/transfers/listAccountTr/listSen
 var listSender_regla03 = require('../../mock/V00/transfers/listAccountTr/listSender_regla03.json');
 var listSender_regla04 = require('../../mock/V00/transfers/listAccountTr/listSender_regla04.json');
 
+var listReceiver_regla01 = require('../../mock/V00/transfers/listAccountTr/listReceiver_regla01.json');
+
 //CardInformation
 var cardInformation_01 = require('../../mock/V00/transfers/cardInfo/cardInformation_01.json');
 var cardInformation_02 = require('../../mock/V00/transfers/cardInfo/cardInformation_02.json');
@@ -270,24 +272,29 @@ router.get('/V00/getBeneficiary', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listReceiverAccounts?accountId=TCMXP0000001&operationType=PAY_CREDITCARD
 router.get('/V00/listReceiverAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec == '1234567890')
-        return res.status(400).json(listAccount_err);
-    else if (tsec==='errorTransfer')
-        return res.json(listAccount_all);
-    else if(tsec === '3456789')
-         return res.json(listReceiver_empty);
-    else if(tsec === '456789')
-         return res.json(listReceiver_tdcError);
-    else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD')
-        return res.status(400).json(listAccount_err);
-    else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD')
-        return res.json(listReceiver_tdc02);
-    else if (req.query.operationType == 'PAY_CREDITCARD')
-        return res.json(listReceiver_tdc01);
-    else if (tsec==='null')
-        return res.json(listAccount_all);
-    else 
-        return res.json(listAccount_all);
+    if (tsec.indludes("listReceiver01")){
+        return res.json(listReceiver_regla01);
+    }else{
+        if (tsec == '1234567890'){
+            return res.status(400).json(listAccount_err);
+        }else if (tsec==='errorTransfer'){
+            return res.json(listAccount_all);
+        }else if(tsec === '3456789'){
+             return res.json(listReceiver_empty);
+        }else if(tsec === '456789'){
+             return res.json(listReceiver_tdcError);
+        }else if (tsec == '567812' && req.query.operationType == 'PAY_CREDITCARD'){
+            return res.status(400).json(listAccount_err);
+        }else if (tsec == '123456' && req.query.operationType == 'PAY_CREDITCARD'){
+            return res.json(listReceiver_tdc02);
+        }else if (req.query.operationType == 'PAY_CREDITCARD'){
+            return res.json(listReceiver_tdc01);
+        }else if (tsec==='null'){
+            return res.json(listAccount_all);
+        }else {
+            return res.json(listAccount_all);
+        }
+    }
     return res.status(400).json(listAccount_err);
   next();
 });
