@@ -272,7 +272,7 @@ router.get('/V00/getBeneficiary', function(req, res, next) {
 // handler for query http://localhost:5000/transfers/V00/listReceiverAccounts?accountId=TCMXP0000001&operationType=PAY_CREDITCARD
 router.get('/V00/listReceiverAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if (tsec.indludes("listReceiver01")){
+    if (tsec.includes("listReceiver01")){
         return res.json(listReceiver_regla01);
     }else{
         if (tsec == '1234567890'){
