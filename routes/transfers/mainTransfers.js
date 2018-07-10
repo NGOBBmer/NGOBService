@@ -142,6 +142,10 @@ var beneficiaryErr = require('../../mock/V00/transfers/beneficiary/beneficiaryEr
 var rules_interbank = require('../../mock/V00/transfers/rulesInterbank/rules_01.json');
 var rulesInterbank_inSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_01.json');
 var rulesInterbank_outSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_02.json');
+
+var rules_happyPathInterbank = require('../../mock/V00/transfers/rulesInterbank/happyPathInterbank.json');
+var rules_OutOfTimeSpei = require('../../mock/V00/transfers/rulesInterbank/OutOfTimeSpei.json');
+var rules_OutOfTimeCecoban = require('../../mock/V00/transfers/rulesInterbank/OutOfTimeCecoban.json');
 var error_rulesInterbank = require('../../mock/V00/transfers/rulesInterbank/error_rulesInterbank.json');
 
 //DeleteFrequent
@@ -733,15 +737,15 @@ router.get('/V00/advancedSearch', function(req, res, next) {
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if ((tsec == '' || tsec == 'undefined')&& req.query.typeProduct !== '')
-        return res.json(rulesInterbank_inSchedule);
-    else if(tsec.includes("rulesInterbankTransfer01")){
-        return res.json(rules_interbank);
-    }else if(tsec.includes("rulesInterbankTransfer02")){
-        return res.json(rulesInterbank_outSchedule);
+        return res.json(rules_happyPathInterbank);
+    else if(tsec.includes("outOfTimeSpei")){
+        return res.json(rules_OutOfTimeSpei);
+    }else if(tsec.includes("outOfTimeCecoban")){
+        return res.json(rules_OutOfTimeCecoban);
     }else if(tsec.includes("rulesInterbankTransferErr01")){
         return res.status(409).json(error_rulesInterbank);
     }else{
-        return res.json(rulesInterbank_inSchedule);
+        return res.json(rules_happyPathInterbank);
     }
     
   next();
