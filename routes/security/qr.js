@@ -111,7 +111,7 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
     } else if (tsec.includes("optValidationErr")){
        return res.status(400).json(error_rules);
     } else {
-      return res.json(userInfoS1);
+      return res.json(jsonOpticalSoftoken[random]);
     }
   
   // reglas especiales para retiro sin tarjeta en PG
@@ -133,7 +133,7 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
     } else if (tsec.includes("optValidationErr")){
        return res.status(400).json(error_rules);
     } else {
-      return res.json(userInfoS1);
+      return res.json(jsonOpticalSoftoken[random]);
     }
   
   //en caso de que el idOperation sea incorrecto
