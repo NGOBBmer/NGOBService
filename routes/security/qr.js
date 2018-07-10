@@ -115,7 +115,7 @@ router.post('/V00/getOpticalValidation', function(req, res, next) {
     }
   
   // reglas especiales para retiro sin tarjeta en PG
-  } else if(req.body.idOperation === 'PREREG' ){
+  } else if(req.body.idOperation === 'RSTPG' ){
     if(tsec==undefined || tsec===''){
       return res.json(jsonOpticalSoftoken[random]);
     } else if (tsec.includes("userInfoS1")){
