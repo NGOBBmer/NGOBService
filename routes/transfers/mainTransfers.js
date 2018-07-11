@@ -142,6 +142,7 @@ var beneficiaryErr = require('../../mock/V00/transfers/beneficiary/beneficiaryEr
 var rules_interbank = require('../../mock/V00/transfers/rulesInterbank/rules_01.json');
 var rulesInterbank_inSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_01.json');
 var rulesInterbank_outSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_02.json');
+var rulesInterbank_03 = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_03.json');
 
 var rules_happyPathInterbank = require('../../mock/V00/transfers/rulesInterbank/happyPathInterbank.json');
 var rules_OutOfTimeSpei = require('../../mock/V00/transfers/rulesInterbank/OutOfTimeSpei.json');
@@ -744,6 +745,8 @@ router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
         return res.json(rules_OutOfTimeCecoban);
     }else if(tsec.includes("rulesInterbankTransferErr01")){
         return res.status(409).json(error_rulesInterbank);
+    }else if(tsec.includes("rulesInterbankTransfer03")){
+        return res.json(rulesInterbank_03);
     }else{
         return res.json(rules_happyPathInterbank);
     }
