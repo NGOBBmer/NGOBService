@@ -40,6 +40,9 @@ router.get('/V00/dashboard', function(req, res, next) {
     var filters = getFilters(req.query.$filter);
 
     var tsec = req.headers['tsec'];
+    if(tsec == '' || tsec == 'undefined' || tsec == 'null'){
+        return res.json(dashboard_01);
+    }
     if (tsec === '091111' && filters[0] === 'productType==TT'){
         return res.json(dashboard_especial);
     }else if (tsec === '1122334455' && filters[0] === 'productType==TT'){
