@@ -1,0 +1,17 @@
+{
+  "data": {
+    "listValidAccounts": [
+      {
+        "id": "TCMXP0000001",
+        "number": "·1924",
+        "alias": "Giovanni",
+        "accountType": "TC",
+        "currentBalance": {
+          "balance": 5412.51,
+          "currency": "MXP"
+        }
+      } ],
+    "currentDate": "2018-06-11",
+    "cellsNavigation": true
+  }
+}
