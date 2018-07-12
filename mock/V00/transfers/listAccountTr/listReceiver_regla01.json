@@ -48,8 +48,67 @@
           "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
         },
         "transferType": "MYACCOUNTS"
-      },
-      {
+      },{
+        "id": "CHUSD0000002",
+        "number": "62867",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 500000000,
+          "currency": "USD"
+        },
+        "images": {
+          "id": "IMG2",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },{
+        "id": "CHUSD0000003",
+        "number": "62862",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 1500000000,
+          "currency": "USD"
+        },
+        "images": {
+          "id": "IMG3",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },{
+        "id": "CHEUR0000001",
+        "number": "91867",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 500000000,
+          "currency": "EUR"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },{
+        "id": "CHEUR0000002",
+        "number": "91867",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 9900000000,
+          "currency": "EUR"
+        },
+        "images": {
+          "id": "IMG2",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },{
         "id": "TCMXP0000001",
         "number": "33081",
         "alias": "",
