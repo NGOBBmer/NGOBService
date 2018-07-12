@@ -60,10 +60,6 @@ router.post('/V00/getQR', function(req, res, next) {
 }*/
 router.post('/V00/getOpticalValidation', function(req, res, next) {
   var tsec = req.headers['tsec'];
- 
-  for (i = 0; i < 1000000000; i++) { 
-    console.log(i);
-  }
 
  //Genera un json dinamico para cronto
   var random = (Math.floor(Math.random() * 3) + 1) - 1;
