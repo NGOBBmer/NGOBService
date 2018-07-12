@@ -20,6 +20,7 @@ var listSender_regla01 = require('../../mock/V00/transfers/listAccountTr/listSen
 var listSender_regla02 = require('../../mock/V00/transfers/listAccountTr/listSender_regla02.json');
 var listSender_regla03 = require('../../mock/V00/transfers/listAccountTr/listSender_regla03.json');
 var listSender_regla04 = require('../../mock/V00/transfers/listAccountTr/listSender_regla04.json');
+var listSender_regla05 = require('../../mock/V00/transfers/listAccountTr/listSender_regla05.json');
 
 var listReceiver_regla01 = require('../../mock/V00/transfers/listAccountTr/listReceiver_regla01.json');
 
@@ -244,6 +245,9 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         if (req.query.operationType === 'THIRD_PARTY'){
             return res.json(listSender_regla03);
         }else if (req.query.operationType === 'INTERBANK'){
+            if (req.query.accountType === 'CB'){
+                return res.json(listSender_regla05);
+            }
             return res.json(listSender_regla04);
         }
     }else{
