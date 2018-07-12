@@ -15,6 +15,7 @@ var listSender_tdcEmpty = require('../../mock/V00/transfers/listAccountTr/listSe
 var listSender_tdc03 = require('../../mock/V00/transfers/listAccountTr/listSender_tdc03.json');
 var listSender_paco = require('../../mock/V00/transfers/listAccountTr/listSender_paco.json');
 var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccount_err.json');
+var listReceiver_oneAcc = require('../../mock/V00/transfers/listAccountTr/listReceiver_monoprod.json');
 
 var listSender_regla01 = require('../../mock/V00/transfers/listAccountTr/listSender_regla01.json');
 var listSender_regla02 = require('../../mock/V00/transfers/listAccountTr/listSender_regla02.json');
@@ -284,6 +285,9 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
     if (tsec.includes("listReceiver01")){
         return res.json(listReceiver_regla01);
     }else{
+        if(tsec.includes("receiver1Accounts")){
+            return res.json(listReceiver_oneAcc);
+        }
         if (tsec == '1234567890'){
             return res.status(400).json(listAccount_err);
         }else if (tsec==='errorTransfer'){
