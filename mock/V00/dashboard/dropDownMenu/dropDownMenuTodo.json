@@ -1120,8 +1120,251 @@
         }
       }
     ]
+  },{
+    "id": "INMXP0000001",
+    "typeProduct": "inversiones",
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "IN",
+          "params": {
+            "idcuenta": "INMXP0000001",
+            "tipoCuenta": "inversionesMxp"
+          }
+        }
+      },
+      {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "compra",
+            "cuenta": "00740010001369105204"
+          }
+        }
+      },
+      {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "venta",
+            "cuenta": "00740010001369105204"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }
+    ]
   },
   {
+    "id": "INMXP0000002",
+    "typeProduct": "inversiones",
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "IN",
+          "params": {
+            "idcuenta": "INMXP0000002",
+            "tipoCuenta": "inversionesMxp"
+          }
+        }
+      },
+      {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "compra",
+            "cuenta": "00740010001369110984"
+          }
+        }
+      },
+      {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "venta",
+            "cuenta": "00740010001369110984"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "INMXP0000003",
+    "typeProduct": "inversiones",
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "IN",
+          "params": {
+            "idcuenta": "INMXP0000003",
+            "tipoCuenta": "inversionesMxp"
+          }
+        }
+      },
+      {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "compra",
+            "cuenta": "00740010001369111654"
+          }
+        }
+      },
+      {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "venta",
+            "cuenta": "00740010001369111654"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "INMXP0000004",
+    "typeProduct": "inversiones",
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "IN",
+          "params": {
+            "idcuenta": "INMXP0000004",
+            "tipoCuenta": "inversionesMxp"
+          }
+        }
+      },
+      {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "compra",
+            "cuenta": "00740010001369118586"
+          }
+        }
+      },
+      {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "venta",
+            "cuenta": "00740010001369118586"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "INMXP0000005",
+    "typeProduct": "inversiones",
+    "menu": [
+      {
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+          "cellsNavigation": true,
+          "typeProductId": "IN",
+          "params": {
+            "idcuenta": "INMXP0000005",
+            "tipoCuenta": "inversionesMxp"
+          }
+        }
+      },
+      {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "compra",
+            "cuenta": "00740010001369119973"
+          }
+        }
+      },
+      {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+          "cellsNavigation": false,
+          "typeProductId": "IN",
+          "params": {
+            "operacion": "venta",
+            "cuenta": "00740010001369119973"
+          }
+        }
+      },
+      {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+          "cellsNavigation": true
+        }
+      }
+    ]
+  },{
     "id": "TCMXP0000001",
     "typeProduct": "tarjetasCredito",
     "menu": [
