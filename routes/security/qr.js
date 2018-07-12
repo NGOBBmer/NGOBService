@@ -61,7 +61,7 @@ router.post('/V00/getQR', function(req, res, next) {
 router.post('/V00/getOpticalValidation', function(req, res, next) {
   var tsec = req.headers['tsec'];
  
-  for (i = 0; i < 100000; i++) { 
+  for (i = 0; i < 1000000000; i++) { 
     console.log(i);
   }
 
