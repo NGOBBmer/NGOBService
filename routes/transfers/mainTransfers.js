@@ -1,7 +1,9 @@
 var express = require('express');
 var router = express.Router();
+var moment = require('moment');
 var fs = require("fs");
 var path = require('path');
+
 var listAccount_all = require('../../mock/V00/transfers/listAccountTr/listAccount_all.json');
 var listAccount_01 = require('../../mock/V00/transfers/listAccountTr/listAccount_01.json');
 var listAccount_02 = require('../../mock/V00/transfers/listAccountTr/listAccount_02.json');
@@ -145,10 +147,15 @@ var rules_interbank = require('../../mock/V00/transfers/rulesInterbank/rules_01.
 var rulesInterbank_inSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_01.json');
 var rulesInterbank_outSchedule = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_02.json');
 var rulesInterbank_03 = require('../../mock/V00/transfers/rulesInterbank/rulesInterbank_03.json');
+var rulesInterbank_03_2 = '../../mock/V00/transfers/rulesInterbank/rulesInterbank_03.json';
 
 var rules_happyPathInterbank = require('../../mock/V00/transfers/rulesInterbank/happyPathInterbank.json');
+var rules_happyPathInterbank_2 = '../../mock/V00/transfers/rulesInterbank/happyPathInterbank.json';
 var rules_OutOfTimeSpei = require('../../mock/V00/transfers/rulesInterbank/OutOfTimeSpei.json');
+var rules_OutOfTimeSpei_2 = '../../mock/V00/transfers/rulesInterbank/OutOfTimeSpei.json';
 var rules_OutOfTimeCecoban = require('../../mock/V00/transfers/rulesInterbank/OutOfTimeCecoban.json');
+var rules_OutOfTimeCecoban_2 = '../../mock/V00/transfers/rulesInterbank/OutOfTimeCecoban.json';
+
 var error_rulesInterbank = require('../../mock/V00/transfers/rulesInterbank/error_rulesInterbank.json');
 
 //DeleteFrequent
@@ -745,20 +752,34 @@ router.get('/V00/advancedSearch', function(req, res, next) {
 //handler for query http://localhost:4000/transfers/V00/getRulesInterbankTransfers?typeProduct=TC
 router.get('/V00/getRulesInterbankTransfers', function(req, res, next) {
     var tsec = req.headers['tsec'];
-    if ((tsec == '' || tsec == 'undefined')&& req.query.typeProduct !== '')
-        return res.json(rules_happyPathInterbank);
-    else if(tsec.includes("outOfTimeSpei")){
-        return res.json(rules_OutOfTimeSpei);
+    var date00 = moment().format('YYYY-MM-DD');
+    var date01day = moment().add(1,'days').format('YYYY-MM-DD');
+    var sFile = '';
+    var isCecoban = false;
+    if ((tsec == '' || tsec == 'undefined')&& req.query.typeProduct !== ''){
+        sFile = rules_happyPathInterbank_2;
+    }else if(tsec.includes("outOfTimeSpei")){
+        sFile = rules_OutOfTimeSpei_2;
     }else if(tsec.includes("outOfTimeCecoban")){
-        return res.json(rules_OutOfTimeCecoban);
+        sFile = rules_OutOfTimeCecoban_2;
     }else if(tsec.includes("rulesInterbankTransferErr01")){
         return res.status(409).json(error_rulesInterbank);
     }else if(tsec.includes("rulesInterbankTransfer03")){
-        return res.json(rulesInterbank_03);
+        sFile = rulesInterbank_03_2;
+        isCecoban = true;
     }else{
-        return res.json(rules_happyPathInterbank);
+         sFile = rules_happyPathInterbank_2;
     }
     
+    var filePath = path.join(__dirname, sFile);
+    var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    json.dataSpei.date=date00;
+    json.date=date01day;
+    if (!isCecoban){
+        json.dataCecoban.date=date01day;
+    }
+    
+    return res.json(json);
   next();
 });
 
