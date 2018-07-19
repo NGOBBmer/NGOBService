@@ -494,7 +494,7 @@ router.get('/V00/fastOperation', function(req, res, next) {
   } else if(tsec.includes("fastInterError")){
     return res.status(400).json(FAST_ERROR);
   } else {
-    return res.json(FAST_DETAIL);
+    return res.json(FAST_DETAIL_INTER);
   }
 
   next();
