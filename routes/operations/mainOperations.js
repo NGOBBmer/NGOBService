@@ -486,15 +486,15 @@ router.get('/V00/fastOperation', function(req, res, next) {
   var tsec = req.headers['tsec'];
   
   if (tsec == '' || tsec == 'undefined'){
-    return res.json(FAST_DETAIL_INTER);
+    return res.json(FAST_DETAIL);
   } else if(tsec.includes("fastThird")){
-    return res.json(FAST_DETAIL_INTER);
+    return res.json(FAST_DETAIL);
   } else if(tsec.includes("fastInterBank")){
     return res.json(FAST_DETAIL_INTER);
   } else if(tsec.includes("fastInterError")){
     return res.status(400).json(FAST_ERROR);
   } else {
-    return res.json(FAST_DETAIL_INTER);
+    return res.json(FAST_DETAIL);
   }
 
   next();

@@ -366,7 +366,7 @@ router.get('/V00/loadBanks', function(req, res, next) {
             return res.json(banksCatalogClabe);
         }else if(req.query.cveBank==='0012'){
             return res.json(bank_bancomer);
-        }else if(req.query.cveBank==='0103'){
+        }else if(req.query.cveBank==='0103' || req.query.cveBank==='0002' ){
             return res.json(bank_0103);
         }else if((req.query.operationType==='oca' || req.query.operationType==='OCA') && req.query.cveBank==='0002'){
             return res.json(bank_002);
