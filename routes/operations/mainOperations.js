@@ -31,6 +31,7 @@ var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
 var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
 
 
+var FAST_DETAIL_INTERBANK = require('../../mock/V00/operations/fast/fastDetailInterbank.json');
 var FAST_DETAIL = require('../../mock/V00/operations/fast/fastDetail.json');
 var FAST_ERROR = require('../../mock/V00/operations/fast/fastError.json');
 
@@ -483,11 +484,19 @@ router.post('/V00/createAgileOperations/:action', function(req, res, next) {
 //fastOperation
 router.get('/V00/fastOperation', function(req, res, next) {
 
-  if (req.query.idOperation === '1234567890'){
+
+  if (tsec == '' || tsec == 'undefined'){
+    return res.json(FAST_DETAIL);
+  } else if(tsec.includes("fastThird")){
+     return res.json(FAST_DETAIL);
+  } else if(tsec.includes("fastInterBank")){
+     return res.json(FAST_DETAIL_INTERBANK);
+  } else if(tsec.includes("fastInterError")){
     return res.status(400).json(FAST_ERROR);
   } else {
-    return res.json(FAST_DETAIL);
+     return res.json(FAST_DETAIL);
   }
+  
   next();
 });
 
