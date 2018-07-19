@@ -394,7 +394,9 @@ router.get('/V00/loadBanks', function(req, res, next) {
         if(req.query.includeBbva==='true'){
             return res.json(banksCatalog_bancomer);
         }
-        if ((req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
+        if ((req.query.operationType==='TC' || req.query.operationType==='TD') && req.query.cveBank==='0002'){
+            return res.json(bank_002);
+        }else if ((req.query.operationType==='cb' || req.query.operationType==='CB' || req.query.operationType==='cl' || req.query.operationType==='CL'))
             return res.json(banksCatalogClabe);
         else if ((req.query.operationType==='td' || req.query.operationType==='TD'))
             return res.json(banksCatalogTdd);
