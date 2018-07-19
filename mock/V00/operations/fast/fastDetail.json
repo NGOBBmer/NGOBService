@@ -17,6 +17,10 @@
           "localCurrency": "MXN",
           "language": "es-MX"
         },
+        "bank": {
+          "code": "0012",
+          "name": "BBVA Bancomer"
+        },
         "cardType": "AH",
         "typeOperationFreq": "MYACCOUNTS",
         "items": [

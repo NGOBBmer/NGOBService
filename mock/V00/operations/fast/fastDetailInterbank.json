@@ -9,6 +9,10 @@
           "alt": "",
           "size": "height-image-large"
         },
+        "bank": {
+          "code": "0002",
+          "name": "BANAMEX"
+        },
         "layout": "layout-vertical",
         "amount": {
           "balance": 542.4,
