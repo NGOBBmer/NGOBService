@@ -17,10 +17,6 @@
           "localCurrency": "MXN",
           "language": "es-MX"
         },
-        "bank": {
-          "code": "0012",
-          "name": "BBVA Bancomer"
-        },
         "cardType": "AH",
         "typeOperationFreq": "MYACCOUNTS",
         "items": [
@@ -67,6 +63,10 @@
           "letter": "GARO GROCE DEGRACE",
           "color": "orange-base",
           "size": "height-avatar-large"
+        },
+        "bank": {
+          "code": "0012",
+          "name": "BBVA Bancomer"
         },
         "typeOperationFreq": "THIRD_PARTY",
         "items": [

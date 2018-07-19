@@ -9,10 +9,6 @@
           "alt": "",
           "size": "height-image-large"
         },
-        "bank": {
-          "code": "0002",
-          "name": "BANAMEX"
-        },
         "layout": "layout-vertical",
         "amount": {
           "balance": 542.4,
@@ -56,6 +52,10 @@
           "letter": "ADRIANA LOPEZ JAGUEY",
           "color": "orange-base",
           "size": "height-avatar-large"
+        },
+        "bank": {
+          "code": "0002",
+          "name": "BANAMEX"
         },
         "frequentId": "FRTI000000",
         "items": [
