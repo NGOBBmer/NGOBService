@@ -42,6 +42,8 @@ router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if(tsec == '' || tsec == 'undefined' || tsec == 'null'){
         return res.json(dashboard_01);
+    }else if(tsec.includes("dashboard_2cards")){
+        return res.json(dashboard_2cards);
     }
     if (tsec === '091111' && filters[0] === 'productType==TT'){
         return res.json(dashboard_especial);
