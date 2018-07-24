@@ -4,22 +4,17 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+//Indexs
 var routes = require('./routes/index');
-var cheques = require('./routes/cheques');
-var cards = require('./routes/cards');
-var clarifications = require('./routes/clarifications');
-var pg = require('./routes/pg');
-var operations = require('./routes/operations');
-var transfers = require('./routes/transfers');
-var hire = require('./routes/hire');
-var expandedCard = require('./routes/expanded-card');
-var movements = require('./routes/movements');
-var relatedCards = require('./routes/related-cards');
-var periods = require('./routes/periods');
-var promotions = require('./routes/promotions');
-var accountStatement = require('./routes/accountStatement');
-var sendAccountStatement = require('./routes/sendAccountStatement');
+var cheques = require('./routes/mainIndexs/cheques');
+var cards = require('./routes/mainIndexs/cards');
+var clarifications = require('./routes/mainIndexs/clarifications');
+var pg = require('./routes/mainIndexs/pg');
+var operations = require('./routes/mainIndexs/operations');
+var transfers = require('./routes/mainIndexs/transfers');
+var hire = require('./routes/mainIndexs/hire');
+
+var mainCards = require('./routes/cards/mainCards');
 var mainAccounts = require('./routes/accounts/mainAccounts');
 var tsec = require('./routes/dashboard/tsec');
 var userInfo = require('./routes/dashboard/userInfo');
@@ -32,8 +27,6 @@ var dashboard = require('./routes/dashboard/dashboard');
 var modifyAlias = require('./routes/dashboard/modifyAlias');
 var mainOperations = require('./routes/operations/mainOperations');
 var qrcronto = require('./routes/security/qr');
-var assets = require('./routes/assets');
-var auth = require('./routes/auth');
 var dropDownMenu = require('./routes/dashboard/dropDownMenu');
 var mobileTransfers = require('./routes/dashboard/mobileTransfers');
 var headlinesAccounts = require('./routes/dashboard/headlinesAccounts');
@@ -42,8 +35,6 @@ var dashboardMovements = require('./routes/dashboard/dashboardMovements');
 var balanceDashboard = require('./routes/dashboard/balanceDashboard');
 var mainClarifications = require('./routes/clarifications/mainClarifications');
 var mainHire = require('./routes/hire/mainHire');
-
-
 
 var app = express();
 
@@ -70,14 +61,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/cheques', cheques);
 app.use('/dashboard', pg);
-app.use('/cards', promotions);
-app.use('/cards', expandedCard);
 app.use('/cards', cards);
-app.use('/cards', movements);
-app.use('/cards', relatedCards);
-app.use('/cards', periods);
-app.use('/cards', accountStatement);
-app.use('/cards', sendAccountStatement);
+app.use('/cards', mainCards);
 app.use('/accounts', mainAccounts);
 app.use('/dashboard', dashboard);
 app.use('/dashboard', tsec);
@@ -88,23 +73,20 @@ app.use('/dashboard', logs);
 app.use('/dashboard', validateOtp);
 app.use('/dashboard', banners);
 app.use('/dashboard', modifyAlias);
-app.use('/operations', operations);
-app.use('/operations', mainOperations);
-app.use('/auth', auth);
-app.use('/img', assets);
-app.use('/dashboard', dropDownMenu);
-app.use('/security', qrcronto);
-app.use('/dashboard', mobileTransfers);
-app.use('/dashboard', headlinesAccounts);
-app.use('/transfers', transfers)
-app.use('/transfers', mainTransfers);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
+app.use('/dashboard', dropDownMenu);
+app.use('/operations', operations);
+app.use('/operations', mainOperations);
+app.use('/dashboard', mobileTransfers);
+app.use('/dashboard', headlinesAccounts);
+app.use('/security', qrcronto);
+app.use('/transfers', transfers)
+app.use('/transfers', mainTransfers);
 app.use('/clarifications', clarifications);
 app.use('/clarifications', mainClarifications);
 app.use('/hire', hire);
 app.use('/hire', mainHire);
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

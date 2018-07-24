@@ -1,0 +1,43 @@
+extends layout
+
+block content
+  h1 Express Heroku API
+  p Welcome to Services for GlobalNet
+  a(href="./cheques") ir a cheques
+  a(href="./dashboard") ir a dashboard
+  a(href="./operations") ir a operations
+  a(href="./transfers") ir a transfers
+  h2 TDC (cards)
+  ul
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/movements/TCMXP0000001?period=CURRENT_PERIOD&initialDate=&finalDate=&paginationKey=&numMovements=20&additionalCardId=") Movements
+      span https://ngob-services.herokuapp.com/cards/V00/cards/movements/TCMXP0000001?period=CURRENT_PERIOD&initialDate=&finalDate=&paginationKey=&numMovements=20&additionalCardId=
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards?cardType=CREDIT_CARD") List Cards
+      span http://cards-service-mock.herokuapp.com/cards/V00/cards?cardType=CREDIT_CARD
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001") Card Detail
+      span http://cards-service-mock.herokuapp.com/cards/V00/cards/TCMXP0000001
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/promotions?type=CPS&paginationKey=") Promotions
+      span https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/promotions?type=CPS&paginationKey=
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/relatedCards/TCMXP0000001") Related Cards
+      span https://ngob-services.herokuapp.com/cards/V00/cards/relatedCards/TCMXP0000002
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/periods?paginationKey=") Periods 
+      span https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/periods?paginationKey=
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf") getAccountStatement 
+      span https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/accountStatement?periodId=PERIOD0001&format=pdf
+    li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/sendAccountStatement") sendAccountStatement (POST)
+      span https://ngob-services.herokuapp.com/cards/V00/cards/TCMXP0000001/sendAccountStatement
+     li
+      a(href="https://ngob-services.herokuapp.com/cards/V00/cards/welcomeKit/TCMXP0000001") WelcomeKit (GET)
+      span https://ngob-services.herokuapp.com/cards/V00/cards/welcomeKit/TCMXP0000001
+      ul
+        li 
+          span https://ngob-services.herokuapp.com/cards/V00/cards/welcomeKit/TCMXP0000001 y tsec '12345' 
+        li span https://ngob-services.herokuapp.com/cards/V00/cards/welcomeKit/TCMXP0000002
+
