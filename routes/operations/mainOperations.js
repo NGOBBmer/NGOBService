@@ -118,6 +118,9 @@ router.use(function(req, res, next) {
   next();
 });
 
+router.get('/', function(req, res, next) {
+  res.render('operations', { title: '' });
+});
 
 // handler for query http://localhost:4000/operations/V00/actionalAdvice
 router.get('/V00/actionalAdvice', function(req, res, next) {

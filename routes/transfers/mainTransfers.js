@@ -174,6 +174,10 @@ router.use(function(req, res, next) {
     next();
 });
 
+router.get('/', function(req, res, next) {
+  res.render('transfers', { title: '' });
+});
+
 
 // handler for query http://localhost:5000/transfers/V00/cashAdvanceFee
 router.post('/V00/cashAdvanceFee', function(req, res, next) {

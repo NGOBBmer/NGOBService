@@ -70,6 +70,11 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
+
+router.get('/', function(req, res, next) {
+  res.render('accounts', { title: '' });
+});
+
 // handler for /V00/accounts/movements/AHMXP0000001?paginationKey=&initialDate=&finalDate=&period=&numMovements&period=&amountMin=&amountMax
 router.get('/V00/accounts/movements/:id', function(req, res, next) {
     var tsec = req.headers['tsec'];

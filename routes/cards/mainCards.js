@@ -106,6 +106,10 @@ router.use(function(req, res, next) {
     next();
 });
 
+router.get('/', function(req, res, next) {
+  res.render('cards', { title: '' });
+});
+
 // handler for query http://localhost:3000/cards/V00/cards?cardType=CREDIT_CARD
 router.get('/V00/cards', function(req, res, next) {
 	if(req.query && req.query.cardType){

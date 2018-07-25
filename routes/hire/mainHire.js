@@ -18,6 +18,9 @@ router.use(function(req, res, next) {
     next();
 });
 
+router.get('/', function(req, res, next) {
+  res.render('hire', { title: '' });
+});
 
 // handler for query http://localhost:4000/hire/v0/getCompaniesAmounts
 router.get('/v0/getCompaniesAmounts', function(req, res, next) {

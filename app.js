@@ -6,13 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 //Indexs
 var routes = require('./routes/index');
-var cheques = require('./routes/mainIndexs/cheques');
-var cards = require('./routes/mainIndexs/cards');
-var clarifications = require('./routes/mainIndexs/clarifications');
 var pg = require('./routes/mainIndexs/pg');
-var operations = require('./routes/mainIndexs/operations');
-var transfers = require('./routes/mainIndexs/transfers');
-var hire = require('./routes/mainIndexs/hire');
 
 var mainCards = require('./routes/cards/mainCards');
 var mainAccounts = require('./routes/accounts/mainAccounts');
@@ -59,11 +53,15 @@ app.all('*', function(req, res, next) {
 });
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
-app.use('/cheques', cheques);
 app.use('/dashboard', pg);
-app.use('/cards', cards);
 app.use('/cards', mainCards);
 app.use('/accounts', mainAccounts);
+app.use('/transfers', mainTransfers);
+app.use('/clarifications', mainClarifications);
+app.use('/hire', mainHire);
+app.use('/security', qrcronto);
+app.use('/operations', mainOperations);
+
 app.use('/dashboard', dashboard);
 app.use('/dashboard', tsec);
 app.use('/dashboard', userInfo);
@@ -76,17 +74,8 @@ app.use('/dashboard', modifyAlias);
 app.use('/dashboard', dashboardMovements);
 app.use('/dashboard', balanceDashboard);
 app.use('/dashboard', dropDownMenu);
-app.use('/operations', operations);
-app.use('/operations', mainOperations);
 app.use('/dashboard', mobileTransfers);
 app.use('/dashboard', headlinesAccounts);
-app.use('/security', qrcronto);
-app.use('/transfers', transfers)
-app.use('/transfers', mainTransfers);
-app.use('/clarifications', clarifications);
-app.use('/clarifications', mainClarifications);
-app.use('/hire', hire);
-app.use('/hire', mainHire);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

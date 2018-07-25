@@ -17,6 +17,10 @@ router.use(function(req, res, next) {
     next();
 });
 
+router.get('/', function(req, res, next) {
+  res.render('clarifications', { title: '' });
+});
+
 // handler for query http://localhost:4000/clarifications/v0/createRefund/TCMXP000001
 router.post('/v0/createRefund/:cardid', function(req, res, next) {
   var tsec = req.headers['tsec'];
