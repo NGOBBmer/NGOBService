@@ -116,15 +116,40 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', host||"*");
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec,otp');
-    res.setHeader('Access-Control-Allow-Credentials', true);/*    if(req.get(withCredentials)){
-      res.setHeader('Access-Control-Allow-Credentials', true);
-    } else {
-    }*/
+    res.setHeader('Access-Control-Allow-Credentials', true);
     next();
+});
+
+router.get('/', function(req, res, next) {
+  res.render('pg', { title: '' });
 });
 
 // handler for query http://localhost:5000/dashboard/V00/dashboard?$filter=productType==TT
 router.get('/V00/dashboard', function(req, res, next) {
+    function getFilters(filter){
+        var sFilter = filter.split(",");
+        if (sFilter.length == 1){
+            sFilter[1] = '';
+            sFilter[2] = '';
+        }else if (sFilter.length == 2){
+            sFilter[2] = '';
+        }
+        var filters = ['','',''];
+        for (var i = 0; i < 3; i++){
+            if (sFilter[i].includes('productType')){
+                console.log(sFilter[i]);
+                filters[0] = sFilter[i];
+            }
+            if (sFilter[i].includes('idContract')){
+                filters[1] = sFilter[i];
+            }
+            if (sFilter[i].includes('currency')){
+                filters[2] = sFilter[i];
+            }
+        }
+
+        return filters;
+    }
     var filters = getFilters(req.query.$filter);
 
     var tsec = req.headers['tsec'];
@@ -215,31 +240,6 @@ router.get('/V00/dashboard', function(req, res, next) {
     }    
   next();
 });
-
-function getFilters(filter){
-    var sFilter = filter.split(",");
-    if (sFilter.length == 1){
-        sFilter[1] = '';
-        sFilter[2] = '';
-    }else if (sFilter.length == 2){
-        sFilter[2] = '';
-    }
-    var filters = ['','',''];
-    for (var i = 0; i < 3; i++){
-        if (sFilter[i].includes('productType')){
-            console.log(sFilter[i]);
-            filters[0] = sFilter[i];
-        }
-        if (sFilter[i].includes('idContract')){
-            filters[1] = sFilter[i];
-        }
-        if (sFilter[i].includes('currency')){
-            filters[2] = sFilter[i];
-        }
-    }
-
-    return filters;
-}
 
 // handler for query http://localhost:5000/dashboard/V00/balanceDashboard?$filter=idContract==SIMXP0000001
 router.get('/V00/balanceDashboard', function(req, res, next) {
@@ -492,43 +492,42 @@ router.post('/V00/modifyAlias/:id', function(req, res, next) {
 
 var dates01 = require('../../mock/V00/dashboard/systemDate/date01.json');
 
-function getDate(now) {
-   var yyyy = now.getFullYear();
-   var mm = now.getMonth()+1;
-   var dd  = now.getDate();
-
-   return String(10000*yyyy + 100*mm + dd); 
-}
-
-function getTime(now){
-  var hh = now.getHours();
-  var mm = now.getMinutes();
-  var ss = now.getSeconds();
-  var ms = now.getMilliseconds();
-
-  hh < 10 ? hh = '0' + hh : hh = hh;
-  mm < 10 ? mm = '0' + mm : mm = mm;
-  ss < 10 ? ss = '0' + ss : ss = ss;
-
-  return hh + ":" +  mm + ":" + ss;
-}
-
-function getJson(){
-  var now = new Date();
-  var dt = getDate(now);
-  var newDate = dt.substring(0,4) + "-" + dt.substring(4,6) + "-" + dt.substring(6);
-  var obj = { 
-    "data": 
-    { 
-      "date":  newDate,
-      "time": getTime(now)
-    }
-  }
-  return obj;
-}
-
 // handler for query http://localhost:4000/users/V00/systemDate
 router.get('/V00/systemDate', function(req, res, next) {
+    function getDate(now) {
+       var yyyy = now.getFullYear();
+       var mm = now.getMonth()+1;
+       var dd  = now.getDate();
+
+       return String(10000*yyyy + 100*mm + dd); 
+    }
+
+    function getTime(now){
+      var hh = now.getHours();
+      var mm = now.getMinutes();
+      var ss = now.getSeconds();
+      var ms = now.getMilliseconds();
+
+      hh < 10 ? hh = '0' + hh : hh = hh;
+      mm < 10 ? mm = '0' + mm : mm = mm;
+      ss < 10 ? ss = '0' + ss : ss = ss;
+
+      return hh + ":" +  mm + ":" + ss;
+    }
+
+    function getJson(){
+      var now = new Date();
+      var dt = getDate(now);
+      var newDate = dt.substring(0,4) + "-" + dt.substring(4,6) + "-" + dt.substring(6);
+      var obj = { 
+        "data": 
+        { 
+          "date":  newDate,
+          "time": getTime(now)
+        }
+      }
+      return obj;
+    }
     if(req.query){
     return res.json(getJson());
     }else{
@@ -587,6 +586,12 @@ router.get('/V00/validateOtp', function(req, res, next) {
     return res.json(OK);
   }
   return res.status(406).json(NOK);
+  next();
+});
+
+// handler for query http://localhost:4000/dashboard/V00/tsec
+router.post('/V00/tsec', function(req, res, next) {
+  return res.json({});
   next();
 });
 
