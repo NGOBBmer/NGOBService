@@ -153,9 +153,8 @@ router.get('/V00/dashboard', function(req, res, next) {
     var filters = getFilters(req.query.$filter);
 
     var tsec = req.headers['tsec'];
-    if((tsec == '' || tsec == undefined || tsec == null) && filters[0] === 'productType==TT'){
+    if((tsec == '' || tsec == undefined || tsec == null || tsec == 'null') && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);
-
     }else if((tsec == '' || tsec == undefined || tsec == null) && filters[0] === 'productType==SI'){
         if(filters[1]==='idContract==SIMXP0000001'){
             return res.json(dashboard_02_SI);
