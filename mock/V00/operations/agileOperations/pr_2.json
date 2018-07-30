@@ -1,72 +1,74 @@
 {
   "periodicsOperations": [
     {
-      "id": "0001",
-      "shortname": "Prueba_TT",
-      "paymentAccount": "60237",
+      "id": "0036696002",
+      "shortname": "REGISTRO11",
       "paymentAmount": {
-        "amount": 1.0,
+        "amount": 0.02,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-07-07",
-      "description": "Traspaso Bancomer",
       "operationType": "T",
+      "operationDate": "2018-08-12",
+      "description": "Traspaso bancomer",
+      "detailId": 1,
       "agileType": "RECURRING"
     },
     {
-      "id": "0002",
-      "shortname": "Prueba_AA",
-      "paymentAccount": "60237",
+      "id": "0076656002",
+      "shortname": "REGISTRO11",
       "paymentAmount": {
-        "amount": 2.0,
+        "amount": 0.02,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-07-07",
-      "description": "Traspaso Bancomer",
       "operationType": "T",
+      "operationDate": "2018-08-12",
+      "description": "Traspaso bancomer",
+      "detailId": 4,
       "agileType": "RECURRING"
     },
     {
-      "id": "0003",
-      "shortname": "PruebaA",
-      "paymentAccount": "60237",
+      "id": "0096640002",
+      "shortname": "REGISTRO11",
       "paymentAmount": {
-        "amount": 1.0,
+        "amount": 0.02,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-07-07",
-      "description": "Traspaso Bancomer",
       "operationType": "T",
+      "operationDate": "2018-08-12",
+      "description": "Traspaso bancomer",
+      "detailId": 9,
       "agileType": "RECURRING"
     },
     {
-      "id": "0004",
-      "shortname": "Programado",
-      "paymentAccount": "60237",
+      "id": "0000052002",
+      "shortname": "PERI NAY",
       "paymentAmount": {
-        "amount": 1.0,
+        "amount": 100,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
+      "operationType": "R",
+      "operationDate": "2018-08-09",
+      "description": "Traspaso a otro banco",
+      "detailId": 10,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0060130003",
+      "shortname": "PRUB NAY",
+      "paymentAmount": {
+        "amount": 100,
+        "currency": "MXN"
       },
-      "operationDate": "2017-07-07",
-      "description": "Traspaso Bancomer",
-      "operationType": "T",
-      "agileType": "SCHEDULED"
+      "isOperable": false,
+      "operationType": "R",
+      "operationDate": "2018-08-08",
+      "description": "Traspaso a otro banco",
+      "detailId": 13,
+      "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "152232158154152156150157152147153160AB153AB3886000332",
@@ -74,20 +76,20 @@
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
-      "option": "ADD"
+      "option": "ADD",
+      "params": {},
+      "cellsNavigation": false
     },
     {
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
-      "option": "ALL"
+      "option": "ALL",
+      "params": {},
+      "cellsNavigation": false
     }
   ],
-  "total":{
-    "description": "Total de movimientos",
-    "amount":{
-    "currency": "MXN",
-    "amount": 100.0
-    }
+  "image": {
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
   },
-  "initialDate": "2017-07-31",
-  "finalDate": "2017-08-06"
+  "initialDate": "2018-08-06",
+  "finalDate": "2018-08-12"
 }

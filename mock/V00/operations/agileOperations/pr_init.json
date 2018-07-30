@@ -1,190 +1,73 @@
 {
   "periodicsOperations": [
     {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "74747",
+      "id": "0080192002",
+      "shortname": "REGISTRO11",
       "paymentAmount": {
-        "amount": 1.0,
+        "amount": 0.02,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": "PRUEBA11"
-      },
-      "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "PbaEmmaTT",
-      "paymentAccount": "60237",
-      "paymentAmount": {
-        "amount": 1.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-07-06",
-      "description": "Traspaso",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba 02",
-      "paymentAccount": "74747",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": "PRUEBA"
-      },
-      "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario",
-      "operationType": "I",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba Calendario",
-      "paymentAccount": "74747",
-      "paymentAmount": {
-        "amount": 300.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": "PRUEBAAA"
-      },
-      "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba Calendario1",
-      "paymentAccount": "74747",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": "PRUEBACALENDARIO"
-      },
-      "operationDate": "2017-07-06",
-      "description": "Traspaso Interbancario",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba_TA",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "adress": "Movistar"
-      },
-      "operationDate": "2017-07-08",
-      "description": "Compra tiempo aire",
-      "operationType": "TA",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba_TA01",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "adress": "TELCEL"
-      },
-      "operationDate": "2017-07-08",
-      "description": "Compra tiempo aire",
-      "operationType": "TA",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba_TA02",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 200.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "adress": "Movistar"
-      },
-      "operationDate": "2017-07-08",
-      "description": "Traspaso",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba_TT",
-      "paymentAccount": "60237",
-      "paymentAmount": {
-        "amount": 1.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-07-09",
-      "description": "Traspaso",
       "operationType": "T",
-      "agileType": "SCHEDULED"
+      "operationDate": "2018-08-04",
+      "description": "Traspaso bancomer",
+      "detailId": 2,
+      "agileType": "RECURRING"
     },
     {
-      "id": "0001",
-      "shortname": "Prueba_Prueba",
-      "paymentAccount": "21628",
+      "id": "0080181002",
+      "shortname": "REGISTRO11",
       "paymentAmount": {
-        "amount": 100.0,
+        "amount": 0.02,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
+      "operationType": "T",
+      "operationDate": "2018-08-04",
+      "description": "Traspaso bancomer",
+      "detailId": 3,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0080206054",
+      "shortname": "PruebaTPP",
+      "paymentAmount": {
+        "amount": 10,
+        "currency": "MXN"
       },
-      "operationDate": "2017-07-09",
-      "description": "Traspaso",
+      "isOperable": false,
+      "operationType": "T",
+      "operationDate": "2018-08-01",
+      "description": "Traspaso bancomer",
+      "detailId": 5,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0000052002",
+      "shortname": "PERI NAY",
+      "paymentAmount": {
+        "amount": 100,
+        "currency": "MXN"
+      },
+      "isOperable": false,
       "operationType": "R",
-      "agileType": "SCHEDULED"
+      "operationDate": "2018-08-02",
+      "description": "Traspaso a otro banco",
+      "detailId": 10,
+      "agileType": "RECURRING"
     },
     {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
+      "id": "0060130003",
+      "shortname": "PRUB NAY",
       "paymentAmount": {
-        "amount": 100.0,
+        "amount": 100,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-07-10",
-      "description": "Traspaso",
-      "operationType": "F",
+      "operationType": "R",
+      "operationDate": "2018-08-01",
+      "description": "Traspaso a otro banco",
+      "detailId": 13,
       "agileType": "RECURRING"
     }
   ],
@@ -192,20 +75,20 @@
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
-      "option": "ADD"
+      "option": "ADD",
+      "params": {},
+      "cellsNavigation": false
     },
     {
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
-      "option": "ALL"
+      "option": "ALL",
+      "params": {},
+      "cellsNavigation": false
     }
   ],
-  "total":{
-    "description": "Total de movimientos",
-    "amount":{
-    "currency": "MXN",
-    "amount": 202.0
-    }
+  "image": {
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
   },
-  "initialDate": "2017-07-31",
-  "finalDate": "2017-08-06"
+  "initialDate": "2018-07-30",
+  "finalDate": "2018-08-05"
 }

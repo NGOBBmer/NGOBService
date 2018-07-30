@@ -1,76 +1,53 @@
 {
   "periodicsOperations": [
     {
-      "id": "0001",
-      "shortname": "PbaEmmaTT",
-      "paymentAccount": "60237",
+      "id": "0000052002",
+      "shortname": "PERI NAY",
       "paymentAmount": {
-        "amount": 1.0,
+        "amount": 100,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-08",
-      "description": "Traspaso",
-      "operationType": "T",
+      "operationType": "R",
+      "operationDate": "2018-09-13",
+      "description": "Traspaso a otro banco",
+      "detailId": 10,
       "agileType": "RECURRING"
     },
     {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
+      "id": "0060130003",
+      "shortname": "PRUB NAY",
       "paymentAmount": {
-        "amount": 100.0,
+        "amount": 100,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
+      "operationType": "R",
+      "operationDate": "2018-09-12",
+      "description": "Traspaso a otro banco",
+      "detailId": 13,
       "agileType": "RECURRING"
     }
   ],
   "nextWeekId": "152232158154152156150157152147153160AB153AB3886000832",
-  "previousWeekId": "152232158154152156150157152147153160AB153AB3886000632",
+  "previousWeekId": "152232158154152156150157152147153160AB153AB3886000732",
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
-      "option": "ADD"
+      "option": "ADD",
+      "params": {},
+      "cellsNavigation": false
     },
     {
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
-      "option": "ALL"
+      "option": "ALL",
+      "params": {},
+      "cellsNavigation": false
     }
   ],
-  "total":{
-    "description": "Total de movimientos",
-    "amount":{
-    "currency": "MXN",
-    "amount": 100.0
-    }
+  "image": {
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
   },
-  "initialDate": "2017-07-31",
-  "finalDate": "2017-08-06"
+  "initialDate": "2018-09-10",
+  "finalDate": "2018-09-16"
 }

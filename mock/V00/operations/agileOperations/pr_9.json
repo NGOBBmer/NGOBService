@@ -1,143 +1,22 @@
 {
-  "periodicsOperations": [
-    {
-      "id": "000134",
-      "shortname": "PbaGioOB",
-      "paymentAccount": "12345",
-      "paymentAmount": {
-        "amount": 1.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-08",
-      "description": "Traspaso interbancario",
-      "operationType": "R",
-      "agileType": "SCHEDULED"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0001",
-      "shortname": "Prueba",
-      "paymentAccount": "21628",
-      "paymentAmount": {
-        "amount": 100.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "operationDate": "2017-08-02",
-      "description": "Traspaso",
-      "operationType": "T",
-      "agileType": "RECURRING"
-    }
-  ],
-  "previousWeekId": "152232158154152156150157152147153160AB153AB3886000832",
+  "previousWeekId": "152232158154152156150157152147153160AB153AB3886000932",
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
-      "option": "ADD"
+      "option": "ADD",
+      "params": {},
+      "cellsNavigation": false
     },
     {
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
-      "option": "ALL"
+      "option": "ALL",
+      "params": {},
+      "cellsNavigation": false
     }
   ],
-  "total": {
-    "description": "Total de movimientos",
-    "amount": {
-      "currency": "MXN",
-      "amount": 1.0
-    }
+  "image": {
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
   },
-  "initialDate": "2017-07-31",
-  "finalDate": "2017-08-06"
+  "initialDate": "2018-09-24",
+  "finalDate": "2018-09-27"
 }

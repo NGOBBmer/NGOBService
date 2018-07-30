@@ -1,145 +1,119 @@
 {
   "periodicsOperations": [
     {
-      "id": "0001",
-      "shortname": "PbaEmmaTT",
-      "paymentAccount": "60237",
-      "paymentAmount": {
-        "amount": 1.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "navigation": [
-        {
-          "pathUrl": "operacionesPeriodicasConsultaDetalle",
-          "id": "Detalle",
-          "params": {
-            "operationId": "0",
-            "option": "TMC"
-          }
-        },
-        {
-          "id": "Eliminar"
-        }
-      ],
-      "operationDate": "2017-06-27",
-      "description": "Traspaso Bancomer",
-      "operationType": "T",
-      "agileType": "SCHEDULED"
-    },
-    {
-      "id": "0002",
-      "shortname": "PbaGio01",
-      "paymentAccount": "11456",
-      "paymentAmount": {
-        "amount": 12.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "navigation": [
-        {
-          "pathUrl": "operacionesPeriodicasConsultaDetalle",
-          "id": "Detalle",
-          "params": {
-            "idDetalle": "1"
-          }
-        },
-        {
-          "id": "Eliminar"
-        }
-      ],
-      "operationDate": "2017-06-27",
-      "description": "Traspaso a otro banco",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0003",
-      "shortname": "PbaGio03",
-      "paymentAccount": "75647",
-      "paymentAmount": {
-        "amount": 3.0,
-        "currency": "MXN"
-      },
-      "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
-      "navigation": [
-        {
-          "pathUrl": "operacionesPeriodicasConsultaDetalle",
-          "id": "Detalle",
-          "params": {
-            "idDetalle": "1"
-          }
-        },
-        {
-          "id": "Eliminar"
-        }
-      ],
-      "operationDate": "2017-06-27",
-      "description": "Traspaso a otro banco",
-      "operationType": "R",
-      "agileType": "RECURRING"
-    },
-    {
-      "id": "0004",
-      "shortname": "Pao",
-      "paymentAccount": "96857",
+      "id": "0036696002",
+      "shortname": "REGISTRO11",
       "paymentAmount": {
         "amount": 0.02,
         "currency": "MXN"
       },
       "isOperable": false,
-      "beneficiary": {
-        "name": ""
-      },
       "navigation": [
         {
           "pathUrl": "operacionesPeriodicasConsultaDetalle",
           "id": "Detalle",
           "params": {
             "idDetalle": "1"
-          }
+          },
+          "cellsNavigation": false
         },
         {
-          "id": "Eliminar"
+          "id": "Eliminar",
+          "params": {},
+          "cellsNavigation": true
         }
       ],
-      "operationDate": "2017-06-27",
-      "description": "Traspaso a otro banco",
-      "operationType": "R",
+      "operationType": "T",
+      "operationDate": "2018-08-26",
+      "description": "Traspaso bancomer",
+      "detailId": 1,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0076656002",
+      "shortname": "REGISTRO11",
+      "paymentAmount": {
+        "amount": 0.02,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "4"
+          },
+          "cellsNavigation": false
+        },
+        {
+          "id": "Eliminar",
+          "params": {},
+          "cellsNavigation": true
+        }
+      ],
+      "operationType": "T",
+      "operationDate": "2018-08-26",
+      "description": "Traspaso bancomer",
+      "detailId": 4,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0096640002",
+      "shortname": "REGISTRO11",
+      "paymentAmount": {
+        "amount": 0.02,
+        "currency": "MXN"
+      },
+      "isOperable": false,
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "9"
+          },
+          "cellsNavigation": false
+        },
+        {
+          "id": "Eliminar",
+          "params": {},
+          "cellsNavigation": true
+        }
+      ],
+      "operationType": "T",
+      "operationDate": "2018-08-26",
+      "description": "Traspaso bancomer",
+      "detailId": 9,
       "agileType": "RECURRING"
     }
   ],
-  "currentWeek": "lol",
-  "currentDate": "2017-09-10",
-  "nextDate": "2017-06-26",
-  "previousDate": "2017-06-26",
+  "nextDate": "2018-08-27",
+  "previousDate": "2018-08-25",
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
-      "option": "ADD"
+      "option": "ADD",
+      "params": {},
+      "cellsNavigation": false
     },
     {
       "pathUrl": "operacionesPeriodicasConsultaYBaja",
-      "option": "ALL"
+      "option": "ALL",
+      "params": {},
+      "cellsNavigation": false
     }
   ],
   "image": {
-    "url": "/img/rapidas/widget_cloud.png"
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
   },
-  "total":{
-    "description": "Total de movimientos",
-    "amount":{
-    "currency": "MXN",
-    "amount": 100.0
+  "total": {
+    "description": "Total para este día",
+    "amount": {
+      "currency": "MXN",
+      "amount": 0.06
     }
-  }
+  },
+  "currentWeek": "152230158153157156154149159154156151AB158AB168580914953",
+  "currentDate": "2018-07-30"
 }
