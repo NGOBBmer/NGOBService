@@ -227,11 +227,9 @@ router.get('/V00/cards/movements/:id', function(req, res, next) {
                 }else if (req.query.paginationKey) {
                     return res.json(movements_TJ0001_next);
                 } else{
-                    return res.json(movements_TJ0001);
+                    return res.json(movements_tdc01);
                 }
-                }
-
-                
+              } 
             }
             if (req.params.id == 'TCMXP0000002'){
                  if (req.query.paginationKey && req.query.initialDate && req.query.finalDate) {
