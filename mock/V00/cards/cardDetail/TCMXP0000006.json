@@ -24,7 +24,7 @@
     "deferredPayment": "",
     "disposedBalance": {
       "currentBalances": {
-        "amount": 3000,
+        "amount": 1000,
         "currency": "MXP"
       },
       "pendingBalances": {
