@@ -16,6 +16,7 @@
     "indNominated": "",
     "profilePercentage": 80,
     "hasFastOperations": false,
+    "global": "003001",
     "hasPeriodicOperations": true
   }
 }
