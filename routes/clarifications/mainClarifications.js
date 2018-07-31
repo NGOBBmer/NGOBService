@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
 router.post('/v0/createRefund/:cardid', function(req, res, next) {
   var tsec = req.headers['tsec'];
   var sId = req.body.movementId.substring(0,4);
-  if (sId === 'MOVP'){
+
     if (tsec === '111OK111'){
       return res.json(refund01);
     }else if (tsec === '222NOK222'){
@@ -39,10 +39,8 @@ router.post('/v0/createRefund/:cardid', function(req, res, next) {
     }else{
       return res.status(400).json(refunderr);
     }
-    
-  }else {
-    return res.status(400).json(refunderr);
-  }
+     
+  
   next();
 });
 
