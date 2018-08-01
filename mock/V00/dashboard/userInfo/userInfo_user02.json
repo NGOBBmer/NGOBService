@@ -17,6 +17,7 @@
     "profilePercentage": 80,
     "hasFastOperations": false,
     "global": "003001",
+    "currentDate": "2018-08-01",
     "hasPeriodicOperations": true
   }
 }
