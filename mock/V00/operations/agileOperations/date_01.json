@@ -78,7 +78,7 @@
           "cellsNavigation": true
         }
       ],
-      "operationType": "R",
+      "operationType": "T",
       "operationDate": "2018-08-16",
       "description": "Traspaso a otro banco",
       "detailId": 11,
@@ -106,7 +106,7 @@
           "cellsNavigation": true
         }
       ],
-      "operationType": "R",
+      "operationType": "PS",
       "operationDate": "2018-08-16",
       "description": "Traspaso a otro banco",
       "detailId": 11,
@@ -190,7 +190,7 @@
           "cellsNavigation": true
         }
       ],
-      "operationType": "R",
+      "operationType": "TA",
       "operationDate": "2018-08-16",
       "description": "Traspaso a otro banco",
       "detailId": 11,
