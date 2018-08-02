@@ -28,7 +28,7 @@ var ERR_DATE02 = require('../../mock/V00/operations/agileOperations/err_date02.j
 var ERR_DATE03 = require('../../mock/V00/operations/agileOperations/err_date03.json');
 var ERR_WEEK01 = require('../../mock/V00/operations/agileOperations/err_week01.json');
 var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
-var ALL_CALENDAR = require('../../mock/V00/operations/agileOperations/pr_all.json');
+var ALL_CALENDAR = '../../mock/V00/operations/agileOperations/pr_all.json';
 
 
 var FAST_DETAIL_INTER = require('../../mock/V00/operations/fast/fastDetailInterbank.json');
@@ -168,11 +168,9 @@ router.get('/V00/agileOperations', function(req, res, next) {
    }else if (req.query.agileOperationType === 'ALL_RS'){
       var weekId = req.query.weekId;
       var date = req.query.date;
-      
-      if (date != undefined && date != ''){
-        var currentDate = moment().format('YYYY-MM-DD');
-        var endDate = moment().add(9,'weeks');
-        endDate = moment(endDate).subtract(4,'days').format('YYYY-MM-DD');
+      var currentDate = moment().format('YYYY-MM-DD');
+      var endDate = moment().add(59,'days').format('YYYY-MM-DD');
+      if (date != undefined && date != ''){ 
         var cDate = moment(date);
         var rn = Math.floor((Math.random() * 8) + 1);;
         if (!isNaN(cDate)) {
@@ -200,29 +198,16 @@ router.get('/V00/agileOperations', function(req, res, next) {
             delete json.nextDate;
             delete json.image;
           }else{
-            var ran = Math.floor((Math.random() * 4) + 1);
+            var ran = Math.floor((Math.random() * 7) + 1);
             var nextDate = moment(date).add(1,'days').format('YYYY-MM-DD');
             var previousDate = moment(date).subtract(1,'days').format('YYYY-MM-DD');
-            if (ran === 1){
-               json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
-               json.periodicsOperations.splice(1,1);
-               json.periodicsOperations.splice(1,1);
-               json.periodicsOperations.splice(1,1);
-            }else if (ran === 2){
-              json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations[2].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations.splice(1,3);
-            }else if (ran === 3){
-              json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations.splice(1,1);
-              json.periodicsOperations.splice(1,1);
-            }else{
-              json.periodicsOperations[0].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations[1].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations[2].operationDate = moment(date).format('YYYY-MM-DD');
-              json.periodicsOperations[3].operationDate = moment(date).format('YYYY-MM-DD');
+            
+            for (var i=0; i<ran; i++){
+              json.periodicsOperations[i].operationDate = moment(date).format('YYYY-MM-DD');
+            }
+            for (var x = ran; x < 7; x++){
+              //delete json.periodicsOperations[x];
+              json.periodicsOperations.splice(ran, 1);
             }
             
             json.nextDate = nextDate;
@@ -236,7 +221,12 @@ router.get('/V00/agileOperations', function(req, res, next) {
         }
         
       }else if (weekId == 'init'){
-          return res.json(ALL_CALENDAR);
+        var filePath = path.join(__dirname, ALL_CALENDAR);
+        var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        json.initialDate = currentDate;
+        json.finalDate = endDate;
+
+        return res.json(json);
       }
       return res.status(500).json(ERR_WEEK01);
     }else if (req.query.agileOperationType === 'FAST')
