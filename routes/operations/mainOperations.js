@@ -28,24 +28,12 @@ var ERR_DATE02 = require('../../mock/V00/operations/agileOperations/err_date02.j
 var ERR_DATE03 = require('../../mock/V00/operations/agileOperations/err_date03.json');
 var ERR_WEEK01 = require('../../mock/V00/operations/agileOperations/err_week01.json');
 var urlJson = '../../mock/V00/operations/agileOperations/date_01.json';
-var urlJson2 = '../../mock/V00/operations/agileOperations/pr_';
+var ALL_CALENDAR = require('../../mock/V00/operations/agileOperations/pr_all.json');
 
 
 var FAST_DETAIL_INTER = require('../../mock/V00/operations/fast/fastDetailInterbank.json');
 var FAST_DETAIL = require('../../mock/V00/operations/fast/fastDetail.json');
 var FAST_ERROR = require('../../mock/V00/operations/fast/fastError.json');
-
-//Mapa de semanas para agileOperations
-var mapaWeek = ["init",
-  "152232158154152156150157152147153160AB153AB3886000232",
-  "152232158154152156150157152147153160AB153AB3886000332",
-  "152232158154152156150157152147153160AB153AB3886000432",
-  "152232158154152156150157152147153160AB153AB3886000532",
-  "152232158154152156150157152147153160AB153AB3886000632",
-  "152232158154152156150157152147153160AB153AB3886000732",
-  "152232158154152156150157152147153160AB153AB3886000832",
-  "152232158154152156150157152147153160AB153AB3886000932"
-  ]
 
 var allowIdCAO = ["185171156156153151149AB138AB308853002248",
   "185180149156152152155AB138AB391844660540",
@@ -138,7 +126,6 @@ router.get('/V00/actionalAdvice', function(req, res, next) {
 
 // handler for query http://localhost:4000/operations/V00/allowAgileOperations?agileOperationType=RECURRING&transferType=THIRD_PARTY
 router.get('/V00/allowAgileOperations', function(req, res, next) {
-
   var tsec = req.headers['tsec'];
     if (tsec === '1234567890' || tsec === 'null'){
       if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'THIRD_PARTY')
@@ -163,7 +150,6 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
       else
         return res.status(400).json(errorAllow);
     }
-
     next();
 });
 
@@ -175,9 +161,9 @@ router.get('/V00/agileOperations', function(req, res, next) {
   }else if (tsec == '1234567890'){
      return res.status(400).json(ERROR);
   }else{
-    if (req.query.agileOperationType === 'ALL')
+    if (req.query.agileOperationType === 'ALL'){
       return res.json(LISTA_ALL);
-   else if (tsec == '12347823'){
+    }else if (tsec == '12347823'){
      return res.json(LISTA_PR_VACIA);
    }else if (req.query.agileOperationType === 'ALL_RS'){
       var weekId = req.query.weekId;
@@ -201,7 +187,6 @@ router.get('/V00/agileOperations', function(req, res, next) {
             delete json.periodicsOperations;
             json.nextDate = nextDate;
             json.total.amount.amount=0;
-            json.currentWeek='init';
             json.currentDate=currentDate;
             delete json.previousDate;
           }else if (date === endDate){
@@ -211,12 +196,10 @@ router.get('/V00/agileOperations', function(req, res, next) {
             delete json.periodicsOperations[2];
             delete json.periodicsOperations[3];
             json.previousDate = previousDate;
-            json.currentWeek=String(rn);
             json.currentDate=currentDate;
             delete json.nextDate;
             delete json.image;
           }else{
-            // var cDate = moment(date);
             var ran = Math.floor((Math.random() * 4) + 1);
             var nextDate = moment(date).add(1,'days').format('YYYY-MM-DD');
             var previousDate = moment(date).subtract(1,'days').format('YYYY-MM-DD');
@@ -244,7 +227,6 @@ router.get('/V00/agileOperations', function(req, res, next) {
             
             json.nextDate = nextDate;
             json.previousDate = previousDate;
-            json.currentWeek=String(rn);
             json.currentDate=currentDate;
             delete json.image;
           }
@@ -253,83 +235,10 @@ router.get('/V00/agileOperations', function(req, res, next) {
           res.status(400).json(ERR_DATE03);
         }
         
-      }else{
-        var week = '';
-        for (var i = 0; i< mapaWeek.length; i++){
-          if (weekId == mapaWeek[i]){  
-            week = i + 1;
-          }
-        }
-        if (week == 1){
-          week = 'init';
-        }
-        var weekRan = '';
-        if (tsec === '123456'){
-          weekRan = week;
-        }else{
-          var ran = Math.floor((Math.random() * 8) + 1);;
-        
-          if (ran == 1){
-            weekRan = 'init';
-          }else{
-            weekRan = ran;
-          }
-        }
-        
-        var filePath = path.join(__dirname, urlJson2 + weekRan + ".json");
-        try {
-          var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-          if (week == 'init' || Number(week) <= 9){
-            var len = 0;
-            try {
-              len = json.periodicsOperations.length;
-            }catch(exa){}
-            var currentDate = moment().format('YYYY-MM-DD'); 
-            var nextDate = moment().add(6,'days').format('YYYY-MM-DD');
-            if (week=='2'){
-              currentDate = moment().add(7,'days').format('YYYY-MM-DD');
-              nextDate = moment().add(13,'days').format('YYYY-MM-DD');
-            }else if (week=='3'){
-              currentDate = moment().add(14,'days').format('YYYY-MM-DD');
-              nextDate = moment().add(20,'days').format('YYYY-MM-DD');
-            }else if (week=='4'){
-               currentDate = moment().add(21,'days').format('YYYY-MM-DD');
-               nextDate = moment().add(27,'days').format('YYYY-MM-DD');
-            }else if (week=='5'){
-               currentDate = moment().add(28,'days').format('YYYY-MM-DD');
-               nextDate = moment().add(34,'days').format('YYYY-MM-DD');
-            }else if (week=='6'){
-              currentDate = moment().add(35,'days').format('YYYY-MM-DD');
-              nextDate = moment().add(41,'days').format('YYYY-MM-DD');
-            }else if (week=='7'){
-              currentDate = moment().add(42,'days').format('YYYY-MM-DD');
-              nextDate = moment().add(48,'days').format('YYYY-MM-DD');
-            }else if (week=='8'){
-              currentDate = moment().add(49,'days').format('YYYY-MM-DD');
-              nextDate = moment().add(55,'days').format('YYYY-MM-DD');
-            }else if (week=='9'){
-              currentDate = moment().add(56,'days').format('YYYY-MM-DD');
-              nextDate = moment().add(59,'days').format('YYYY-MM-DD');
-            }
-
-            for(i = 0; i < len; i++){
-              if (i==0){
-                json.periodicsOperations[i].operationDate = moment(currentDate).format('YYYY-MM-DD');
-              }else if (i%2==0){
-                json.periodicsOperations[i].operationDate = moment(currentDate).add(2,'days').format('YYYY-MM-DD');
-              }else{
-                json.periodicsOperations[i].operationDate = moment(currentDate).add(3,'days').format('YYYY-MM-DD');
-              } 
-            }
-          }      
-        } catch(ex){
-          return res.status(500).json(ERR_WEEK01);
-        }
-        json.initialDate=currentDate;
-        json.finalDate=nextDate;
-        return res.json(json);
+      }else if (weekId == 'init'){
+          return res.json(ALL_CALENDAR);
       }
-      // return res.json(LISTA_PR);
+      return res.status(500).json(ERR_WEEK01);
     }else if (req.query.agileOperationType === 'FAST')
       if (tsec === 'null' || tsec == '123456')
         return res.json(LISTA_RP);

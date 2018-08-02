@@ -1,13 +1,12 @@
 {
   "periodicsOperations": [
     {
-      "id": "0036696002",
-      "shortname": "REGISTRO11",
-      "paymentAmount": {
-        "amount": 0.02,
+      "id": "0030606021",
+      "shortname": "abue",
+      "amount": {
+        "amount": 50,
         "currency": "MXN"
       },
-      "isOperable": false,
       "navigation": [
         {
           "pathUrl": "operacionesPeriodicasConsultaDetalle",
@@ -23,26 +22,25 @@
           "cellsNavigation": true
         }
       ],
-      "operationType": "T",
-      "operationDate": "2018-08-26",
-      "description": "Traspaso bancomer",
+      "operationType": "TA",
+      "operationDate": "2018-08-16",
+      "description": "Compra de tiempo aire",
       "detailId": 1,
       "agileType": "RECURRING"
     },
     {
-      "id": "0076656002",
-      "shortname": "REGISTRO11",
-      "paymentAmount": {
-        "amount": 0.02,
+      "id": "0000052002",
+      "shortname": "PERI NAY",
+      "amount": {
+        "amount": 100,
         "currency": "MXN"
       },
-      "isOperable": false,
       "navigation": [
         {
           "pathUrl": "operacionesPeriodicasConsultaDetalle",
           "id": "Detalle",
           "params": {
-            "idDetalle": "4"
+            "idDetalle": "11"
           },
           "cellsNavigation": false
         },
@@ -52,26 +50,25 @@
           "cellsNavigation": true
         }
       ],
-      "operationType": "T",
-      "operationDate": "2018-08-26",
-      "description": "Traspaso bancomer",
-      "detailId": 4,
+      "operationType": "R",
+      "operationDate": "2018-08-16",
+      "description": "Traspaso a otro banco",
+      "detailId": 11,
       "agileType": "RECURRING"
     },
     {
-      "id": "0096640002",
-      "shortname": "REGISTRO11",
-      "paymentAmount": {
-        "amount": 0.02,
+      "id": "0000052002",
+      "shortname": "Programada",
+      "amount": {
+        "amount": 100,
         "currency": "MXN"
       },
-      "isOperable": false,
       "navigation": [
         {
           "pathUrl": "operacionesPeriodicasConsultaDetalle",
           "id": "Detalle",
           "params": {
-            "idDetalle": "9"
+            "idDetalle": "11"
           },
           "cellsNavigation": false
         },
@@ -81,15 +78,127 @@
           "cellsNavigation": true
         }
       ],
-      "operationType": "T",
-      "operationDate": "2018-08-26",
-      "description": "Traspaso bancomer",
-      "detailId": 9,
+      "operationType": "R",
+      "operationDate": "2018-08-16",
+      "description": "Traspaso a otro banco",
+      "detailId": 11,
+      "agileType": "SCHEDULED"
+    },
+    {
+      "id": "0000052002",
+      "shortname": "FRANCIS L. JOHNSON",
+      "amount": {
+        "amount": 100,
+        "currency": "MXN"
+      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "11"
+          },
+          "cellsNavigation": false
+        },
+        {
+          "id": "Eliminar",
+          "params": {},
+          "cellsNavigation": true
+        }
+      ],
+      "operationType": "R",
+      "operationDate": "2018-08-16",
+      "description": "Traspaso a otro banco",
+      "detailId": 11,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0000052002",
+      "shortname": "MARINAO ESC. OXXO",
+      "amount": {
+        "amount": 100,
+        "currency": "MXN"
+      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "11"
+          },
+          "cellsNavigation": false
+        },
+        {
+          "id": "Eliminar",
+          "params": {},
+          "cellsNavigation": true
+        }
+      ],
+      "operationType": "R",
+      "operationDate": "2018-08-16",
+      "description": "Traspaso a otro banco",
+      "detailId": 11,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0000052002",
+      "shortname": "PRUEBA01",
+      "amount": {
+        "amount": 100,
+        "currency": "MXN"
+      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "11"
+          },
+          "cellsNavigation": false
+        },
+        {
+          "id": "Eliminar",
+          "params": {},
+          "cellsNavigation": true
+        }
+      ],
+      "operationType": "R",
+      "operationDate": "2018-08-16",
+      "description": "Traspaso a otro banco",
+      "detailId": 11,
+      "agileType": "RECURRING"
+    },
+    {
+      "id": "0000052002",
+      "shortname": "NANAYA SUSHI",
+      "amount": {
+        "amount": 100,
+        "currency": "MXN"
+      },
+      "navigation": [
+        {
+          "pathUrl": "operacionesPeriodicasConsultaDetalle",
+          "id": "Detalle",
+          "params": {
+            "idDetalle": "11"
+          },
+          "cellsNavigation": false
+        },
+        {
+          "id": "Eliminar",
+          "params": {},
+          "cellsNavigation": true
+        }
+      ],
+      "operationType": "R",
+      "operationDate": "2018-08-16",
+      "description": "Traspaso a otro banco",
+      "detailId": 11,
       "agileType": "RECURRING"
     }
   ],
-  "nextDate": "2018-08-27",
-  "previousDate": "2018-08-25",
+  "nextDate": "2018-08-17",
+  "previousDate": "2018-08-15",
   "navigation": [
     {
       "pathUrl": "operacionesPeriodicasAlta",
@@ -111,9 +220,8 @@
     "description": "Total para este día",
     "amount": {
       "currency": "MXN",
-      "amount": 0.06
+      "amount": 150
     }
   },
-  "currentWeek": "152230158153157156154149159154156151AB158AB168580914953",
-  "currentDate": "2018-07-30"
+  "currentDate": "2018-08-01"
 }
