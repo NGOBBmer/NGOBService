@@ -209,10 +209,11 @@ router.get('/V00/agileOperations', function(req, res, next) {
               //delete json.periodicsOperations[x];
               json.periodicsOperations.splice(ran, 1);
             }
-            
+            var ran = Math.random() * 150;
             json.nextDate = nextDate;
             json.previousDate = previousDate;
             json.currentDate=currentDate;
+            json.total.amount.amount=ran.toFixed(2);
             delete json.image;
           }
           return res.json(json);
