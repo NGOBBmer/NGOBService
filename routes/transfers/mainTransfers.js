@@ -27,6 +27,13 @@ var listSender_regla05 = require('../../mock/V00/transfers/listAccountTr/listSen
 
 var listReceiver_regla01 = require('../../mock/V00/transfers/listAccountTr/listReceiver_regla01.json');
 
+//listSender servicePayment
+var listSender_ch = require('../../mock/V00/transfers/listAccountServicePayment/listSender_ch.json');
+var listSender_chTc = require('../../mock/V00/transfers/listAccountServicePayment/listSender_chTc.json');
+var listSender_chUsd = require('../../mock/V00/transfers/listAccountServicePayment/listSender_chUsd.json');
+var listSender_all = require('../../mock/V00/transfers/listAccountServicePayment/listSender_all.json');
+var listSender_error = require('../../mock/V00/transfers/listAccountServicePayment/listSender_error.json');
+
 //CardInformation
 var cardInformation_01 = require('../../mock/V00/transfers/cardInfo/cardInformation_01.json');
 var cardInformation_02 = require('../../mock/V00/transfers/cardInfo/cardInformation_02.json');
@@ -262,7 +269,24 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
             }
             return res.json(listSender_regla04);
         }
-    }else{
+    }else if(req.query.operationType === 'SERVICEPAYMENT'){
+        if( tsec == 'null' || tsec == 'undefined' || tsec == ''){
+            if(req.query.productTypeValid=== '' || req.query.productTypeValid=== null){
+                return res.json(listSender_ch);
+            }else if(req.query.productTypeValid=== 'TC'){
+                return res.json(listSender_chTc);
+            }else if(req.query.productTypeValid=== 'USD'){
+                return res.json(listSender_chUsd);
+            }else if(req.query.productTypeValid=== 'TC,USD'){
+                return res.json(listSender_all);
+            }else{
+                return res.json(listSender_ch);
+            }
+        }else{
+            return res.json(listSender_ch);
+        }        
+    }
+    else{
         return res.json(listSender_regla01);
     }
     return res.status(400).json(listAccount_err);
