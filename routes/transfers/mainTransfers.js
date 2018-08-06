@@ -515,6 +515,10 @@ router.get('/V00/frequentOperations', function(req, res, next) {
                 return res.json(frequent_mobile_01);
             }else if(req.query.typeOpFrequent === 'SERVICEPAYMENT'){
                 return res.json(frequent_servicePayment);
+            }else if(req.query.typeOpFrequent === 'INTERNATIONAL'){
+                return res.json(freq_international);
+            }else if(req.query.typeOpFrequent === 'MOBILEMONEY'){
+                return res.json(freq_mobileMoney);
             }
         }
     }else if(tsec.includes("frequentOperations02")){
