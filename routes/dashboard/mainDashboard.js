@@ -269,15 +269,16 @@ router.get('/V00/campaigns', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (tsec == 'null' || tsec == undefined )
         return res.json(CAMPANIA01);
-    else if (tsec === '654321')
+    else if (tsec.includes("CAMPANIA02"))
         return res.json(CAMPANIA02);
-    else if (tsec === '123456')
+    else if (tsec.includes("CAMPANIA03"))
         return res.json(CAMPANIA03);
-    else if (tsec === '2345678')
+    else if (tsec.includes("CAMPANIA04"))
         return res.json(CAMPANIA04);
-    else if (tsec === '123654')
+    else if (tsec.includes("CAMPANIA_ERROR"))
         return res.status(406).json(CAMPANIA_error01);
-
+    else
+        return res.json(CAMPANIA01);
     return res.status(406).json(CAMPANIA_error);
   next();
 });
@@ -285,15 +286,18 @@ router.get('/V00/campaigns', function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/banners
 router.get('/V00/banners/', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  if (tsec === '123456')
+  if (tsec == 'null' || tsec == undefined ){
     return res.json(DATA_01);
-  else if (tsec === '1234567')
+  }else if (tsec.includes("Banners01"))
+    return res.json(DATA_01);
+  else if (tsec.includes("banner_02"))
     return res.json(DATA_02);
-  else if (tsec === '12345678')
+  else if (tsec.includes("banner03"))
     return res.json(DATA_03);
-  else
+  else if (tsec.includes("banners_error"))
     return res.status(406).json(NO_DATA);
-  
+  else
+    return res.json(DATA_03);
   next();
   });
 
