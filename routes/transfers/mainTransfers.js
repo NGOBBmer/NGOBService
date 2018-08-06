@@ -246,7 +246,7 @@ router.post('/V00/creditCardPayment/:creditCardId', function(req, res, next) {
   next();
 });
 
-// handler for query http://localhost:5000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
+// handler for query http://localhost:4000/transfers/V00/listSenderAccounts?operationType=PAY_CREDITCARD
 router.get('/V00/listSenderAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if(tsec === 'errorTransfer'){
@@ -282,6 +282,12 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
             }else{
                 return res.json(listSender_ch);
             }
+        }else  if( tsec == 'TC'){
+            return res.json(listSender_chTc);
+        }else  if( tsec == 'USD'){
+            return res.json(listSender_chUsd);
+        }else  if( tsec == 'ERROR'){
+            return res.status(406).json(listAccount_err);
         }else{
             return res.json(listSender_ch);
         }        
@@ -289,7 +295,7 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
     else{
         return res.json(listSender_regla01);
     }
-    return res.status(400).json(listAccount_err);
+    return res.status(406).json(listAccount_err);
   next();
 });
 
