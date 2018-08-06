@@ -1,0 +1,79 @@
+{
+  "listFrequentOperation": [
+    {
+      "id": "1J3QJBSY9P2HS67G3CG96WGXKJA2SVM5S912GJKB7QVXM7GCTAF69EVCPHPNJNX3YRQ7XP2V7NW5E",
+      "reference": "5521334765",
+      "shortName": "Pruebaaaaa",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {},
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "id": "TELC"
+                }
+              }
+            },
+            "email": "pep@pi.com",
+            "name": "PRUEBI8H1",
+            "productAlias": "Celular"
+          },
+          "typeProduct": {
+            "reasonPayment": "EM"
+          },
+          "referenceIndicator": 0
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "6",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "transferType": "MOBILEMONEY"
+    },
+    {
+      "id": "1J3QJBSY9P2HS67G3CG96WGXKHZRSGSKTGV2D7MDCJ2NG7JETBN69EVCPHPNJNX3YRQ7XP2V7NW5E",
+      "reference": "5548109883",
+      "shortName": "pI8H1",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {},
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "id": "TELC"
+                }
+              }
+            },
+            "email": "",
+            "name": "PRUEBADM",
+            "productAlias": "Celular"
+          },
+          "typeProduct": {
+            "reasonPayment": "EM"
+          },
+          "referenceIndicator": 0
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "6",
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "transferType": "MOBILEMONEY"
+    }
+  ],
+  "paginationKey": {
+    "nextPaginationKey": ""
+  }
+}

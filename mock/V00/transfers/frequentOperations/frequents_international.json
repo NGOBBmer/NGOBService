@@ -13,12 +13,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "fabricio.grace@starmedia.com",
             "name": "JAV",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -49,12 +51,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "ACAD",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -85,12 +89,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "CUENTA USA",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -121,12 +127,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "JONATHAN NEWMAN",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -157,12 +165,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "BERNARD SCHELL",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -193,12 +203,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "JONATHAN NEWMAN",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -229,12 +241,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "CUENTA PEN1",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -265,12 +279,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "JULIETA SANDOVAL",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -301,12 +317,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "LEONARDO SANCHEZ",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
@@ -337,12 +355,14 @@
             },
             "contract": {
               "product": {
-                "productExtendedData": {}
+                "productExtendedData": {
+                  "informationBcom": "12345678"
+                }
               }
             },
             "email": "",
             "name": "ABRASIL",
-            "productAlias": "null "
+            "productAlias": "OPI"
           },
           "typeProduct": {
             "reasonPayment": "OPI"
