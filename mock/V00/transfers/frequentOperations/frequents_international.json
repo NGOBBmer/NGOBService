@@ -1,0 +1,367 @@
+{
+  "listFrequentOperation": [
+    {
+      "id": "XF554JE07WCXMX9723MDNMKJ3V6Y3NN43PGH9P5WFRZN13YKK36ZJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "USD",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "fabricio.grace@starmedia.com",
+            "name": "JAV",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "122",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "JA"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "TPQ1GEGBH66XVDK7RFCE72BKP8G85CN5RBNZ01WCPCHW21KGTTEFJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "AVICAD",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "ACAD",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "76",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "AC"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "XF554JE07WCXMX9723MDNMKJ3V6Y3NN43PGH9P5WFRZN13YKK36ZJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "CTAUSD",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "CUENTA USA",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "42",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "CU"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "XF554JE07WCXMX9723MDNMKJ3V6Y3NN43PGH9P5WFRZN13YKK36ZJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "TRANSF_USA",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "JONATHAN NEWMAN",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "12",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "JN"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "R9PMAMMF53H6EEQTJ246Q17ABSVZ3AZ9MPMQXMF69XR6BKM2D4ZFJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "CUENTAEUR",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "BERNARD SCHELL",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "7",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BS"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "XF554JE07WCXMX9723MDNMKJ3V6Y3NN43PGH9P5WFRZN13YKK36ZJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "CUENTAUSA",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "JONATHAN NEWMAN",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "3",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "JN"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "VA38476SA5MGTZQA1WM2SYQM27GZ66YTS5HFX6QDDKDT8BM8DJNZJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "CUENTA PEN",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "CUENTA PEN1",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "CP"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "VA38476SA5MGTZQA1WM2SYQM27GZ66YTS5HFX6QDDKDT8BM8DJNZJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "OPI PEN",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "JULIETA SANDOVAL",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "JS"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "VA38476SA5MGTZQA1WM2SYQM27GZ66YTS5HFX6QDDKDT8BM8DJNZJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "CUENTA PEN",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "LEONARDO SANCHEZ",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "LS"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "4DG55GBNT8XKA8D8T5MHFKTX6360GDE2YXT3HDVKWBN818RDJ6MFJMVRGWPJSTGWVS034ZYG1ZJE0",
+      "shortName": "AVBRASI",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0BIC",
+              "name": ""
+            },
+            "contract": {
+              "product": {
+                "productExtendedData": {}
+              }
+            },
+            "email": "",
+            "name": "ABRASIL",
+            "productAlias": "null "
+          },
+          "typeProduct": {
+            "reasonPayment": "OPI"
+          },
+          "referenceIndicator": 5
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "AB"
+      },
+      "transferType": "INTERBANK"
+    }
+  ],
+  "paginationKey": {
+    "nextPaginationKey": ""
+  }
+}

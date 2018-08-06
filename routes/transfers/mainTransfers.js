@@ -104,7 +104,7 @@ var frequent_01_01 = require('../../mock/V00/transfers/frequentOperations/listFr
 var frequent_empty = require('../../mock/V00/transfers/frequentOperations/listFrequents_empty.json');
 var frequent_mobile_01 = require('../../mock/V00/transfers/frequentOperations/frequents_mobile_01.json');
 var frequent_mobile_02 = require('../../mock/V00/transfers/frequentOperations/frequent_mobile_02.json');
-
+var frequent_servicePayment = require('../../mock/V00/transfers/frequentOperations/frequent_servicePayment.json');
 
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
 
@@ -494,12 +494,18 @@ router.get('/V00/frequentOperations', function(req, res, next) {
             return res.json(json.listFrequentOperation[1].id);
         }else if(req.query.accountId.includes('TCMXP') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
             return res.json(frequent_02);
+        }else if(req.query.typeOpFrequent === 'SERVICEPAYMENT'){
+            return res.json(frequent_servicePayment);
+        }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
+            return res.json(frequent_mobile_01);
         }
     }else if(tsec.includes("frequentOperations01")){
         if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
             return res.json(frequent_01);
         }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
             return res.json(frequent_mobile_01);
+        }else if(req.query.typeOpFrequent === 'SERVICEPAYMENT'){
+            return res.json(frequent_servicePayment);
         }
     }else if(tsec.includes("frequentOperations02")){
         return res.json(frequent_03);
