@@ -1,0 +1,559 @@
+{
+  "data": {
+    "listMovements": [
+      {
+        "operationDate": "2018-03-16",
+        "reference": "74931618075970172000241",
+        "concept": "DEVOLUCION UBER TRIP OAUK",
+        "amount": {
+          "amount": "-3.59",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60516.35",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00020",
+        "hasRefund": true,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-03-13",
+        "reference": "74931618072970172000209",
+        "concept": "DEVOLUCION UBER TRIP 6QRP",
+        "amount": {
+          "amount": "-70.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60519.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00019",
+        "hasRefund": true,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-03-13",
+        "reference": "74931618072970172000193",
+        "concept": "DEVOLUCION PAYPAL CRUNCHY",
+        "amount": {
+          "amount": "-69.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60589.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00018",
+        "hasRefund": true,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-03-09",
+        "reference": "74931618068970172000812",
+        "concept": "DEVOLUCION UBER TRIP 7DQA",
+        "amount": {
+          "amount": "-9.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60658.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00017",
+        "hasRefund": true,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-03-09",
+        "reference": "74931618068970172000804",
+        "concept": "DEVOLUCION UBER TRIP 7DQA",
+        "amount": {
+          "amount": "-9.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60667.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00016",
+        "hasRefund": true,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-03-06",
+        "reference": "74931618065970172000382",
+        "concept": "DEVOLUCION UBER TRIP 7DQA",
+        "amount": {
+          "amount": "-9.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60676.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00015",
+        "hasRefund": true,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-02-12",
+        "reference": "74931618043970172456013",
+        "concept": "0040230020INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-10.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60685.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00014",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74518998016810479275173",
+        "concept": "CLIP MX*VUVULE",
+        "amount": {
+          "amount": "140.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60695.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "dbzhtU/twlQKkAplDTMv6Q==",
+          "card": "*5618",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00013",
+        "navigation": [
+          {
+            "cellsNavigation": true,
+            "id": "CLAR",
+            "description": "No reconozco esta operación"
+          }
+        ],
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74555468017941167143170",
+        "concept": "NANAYA SUSHI",
+        "amount": {
+          "amount": "675.4",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "60555.94",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "dbzhtU/twlQKkAplDTMv6Q==",
+          "card": "*5618",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00012",
+        "navigation": [
+          {
+            "cellsNavigation": false,
+            "id": "CLAR",
+            "description": "No reconozco esta operación",
+            "params": {
+              "opcion": "administrar"
+            },
+            "pathUrl": "aclaracionesAlta"
+          }
+        ],
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-17",
+        "reference": "74931618017970172340470",
+        "concept": "0050187038INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-1.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59880.54",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00011",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-17",
+        "reference": "74931618017970172655828",
+        "concept": "0096699100INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-0.03",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59881.54",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00010",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-17",
+        "reference": "74931618017970172640535",
+        "concept": "0002075037 INTERNET TRASP",
+        "amount": {
+          "amount": "-0.03",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59881.57",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00009",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-15",
+        "reference": "74555468016940108172331",
+        "concept": "OXXO LAGO BOLSENA I ME",
+        "amount": {
+          "amount": "200.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59881.6",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "dbzhtU/twlQKkAplDTMv6Q==",
+          "card": "*5618",
+          "participant": "Additional"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00008",
+        "navigation": [
+          {
+            "cellsNavigation": true,
+            "id": "CLAR",
+            "description": "No reconozco esta operación"
+          }
+        ],
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-14",
+        "reference": "74555468016966606173380",
+        "concept": "PAYPAL CRUNCHYROLL",
+        "amount": {
+          "amount": "69.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59681.6",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Cargo",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00007",
+        "navigation": [
+          {
+            "cellsNavigation": true,
+            "id": "CLAR",
+            "description": "No reconozco esta operación"
+          }
+        ],
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74931618016970172027743",
+        "concept": "0014087018INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-0.02",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59612.6",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00006",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74931618016970172627176",
+        "concept": "0033780043INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-0.02",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59612.62",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00005",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74931618016970172596448",
+        "concept": "0007996020INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-0.02",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59612.64",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00004",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74931618016970172585208",
+        "concept": "0030853019INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-0.04",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59612.66",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00003",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74931618016970172870087",
+        "concept": "0037795035INTERN.PAGO TDC",
+        "amount": {
+          "amount": "-9900.0",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "59612.7",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00002",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      },
+      {
+        "operationDate": "2018-01-16",
+        "reference": "74931618016970172609305",
+        "concept": "0040310036 INTERNET TRASP",
+        "amount": {
+          "amount": "-0.03",
+          "currency": "MXN"
+        },
+        "postedBalance": {
+          "amount": "69512.7",
+          "currency": "MXN"
+        },
+        "card": {
+          "idSubCard": "EwBeCZDx5HCFlGyOYTQBdQ==",
+          "card": "*7572",
+          "participant": "Cardholder"
+        },
+        "category": "G",
+        "type": "Abono",
+        "rewardsGenerated": "",
+        "rewardsconsumed": "",
+        "movementId": "MOVP00001",
+        "hasRefund": false,
+        "movementPending": false,
+        "deferred": false
+      }
+    ],
+    "paginationKey": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "listValidAccounts": [
+      {
+        "id": "CHMXP0000001",
+        "number": "0178963983",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 0,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      }
+    ],
+    "currentDate": "2017-10-11",
+    "cellsNavigation": true
+  }
+}

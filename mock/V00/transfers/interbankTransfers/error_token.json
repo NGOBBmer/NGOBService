@@ -1,0 +1,10 @@
+{
+	"error": {
+		"code": "CNE0041",
+		"message": "EL CODIGO DE SEGURIDAD CAPTURADO NO ES CORRECTO, VERIFICA E INTENTA NUEVAMENTE.",
+		"descripcion": "Se ha producido un error al consultar el servicio /transfers/V00/",
+		"version": "1",
+		"severity": "FATAL",
+		"httpStatus": "400"
+	}
+}

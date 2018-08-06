@@ -1,0 +1,169 @@
+[{
+    "id": "CHMXP0000001",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHMXP0000002",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "CHUSD0000001",
+    "typeProduct": "dolares",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequeraDolares"
+            }, {
+                "name": "idcuenta",
+                "value": "CHUSD0000001"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHUSD0000001"
+            }]
+        }
+    }, {
+        "nombre": "Compra/Venta de Dólares",
+        "pathUrl": "compraVentaDolares",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "CHUSD0000001"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}]

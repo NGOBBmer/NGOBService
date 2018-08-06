@@ -1,0 +1,44 @@
+{
+  "listFrequentOperation": [
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TX6NVCZB2ZZTQJ4JFGGRZ8KQSSJJE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "pruea",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "4053060007878897"
+                }
+              }
+            },
+            "email": "",
+            "name": "PP",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "TC"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PP"
+      },
+      "transferType": "INTERBANK"
+    }
+  ],
+  "paginationKey": {
+    "nextPaginationKey": ""
+  }
+}

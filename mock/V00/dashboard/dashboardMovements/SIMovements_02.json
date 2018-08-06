@@ -1,0 +1,44 @@
+{
+    "investmentFundMovementsList": [{
+        "operationDate": "2017-08-03",
+        "concept": "COMPRA EN LINEA",
+        "fund": "DCP+",
+        "serie": "B2",
+        "titles": "183",
+        "price": "10.891836",
+        "amount": "1993.2"
+    }, {
+        "operationDate": "2017-08-03",
+        "concept": "COMPRA EN LINEA",
+        "fund": "DCP+",
+        "serie": "B2",
+        "titles": "183",
+        "price": "10.891836",
+        "amount": "1993.2"
+    },{
+        "operationDate": "2017-08-03",
+        "concept": "COMPRA EN LINEA",
+        "fund": "DCP+",
+        "serie": "B2",
+        "titles": "188",
+        "price": "10.891836",
+        "amount": "3000.2"
+    },
+    {
+        "operationDate": "2017-08-02",
+        "concept": "COMPRA EN LINEA",
+        "fund": "DCP++",
+        "serie": "D2",
+        "titles": "1",
+        "price": "10.891836",
+        "amount": "1458.2"
+    },{
+        "operationDate": "03/07/2017",
+        "concept": "COMPRA EN LINEA",
+        "fund": "D+",
+        "serie": "BB8",
+        "titles": "83",
+        "price": "10.891836",
+        "amount": "332.2"
+    }]
+}

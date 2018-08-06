@@ -1,0 +1,65 @@
+{
+  "fastOperations": [
+    {
+      "id": "GCXAWTA1JE1YAY95S55GP9F6V87SC2M3AD1T64D3KA3YTQ0HZN4E32FA3PY9ZTRAYBGG5D16A0R7Y",
+      "shortname": "CLABE",
+      "paymentAccount": "55793",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "bank": {
+        "name": "SANTANDER",
+        "code": "0014"
+      },
+      "isOperable": true,
+      "beneficiary": {
+        "name": "Administradora Cumbres de Santa Fe"
+      },
+      "iconImage": {
+        "url": "/img/ngob/icons/rapidas/rapida_ob_40_x_40.png",
+        "base64": ""
+      },
+      "navigation": {
+        "pathUrl": "operacionRapidaDetalle",
+        "id": "GCXAWTA1JE1YAY95S55GP9F6V87SC2M3AD1T64D3KA3YTQ0HZN4E32FA3PY9ZTRAYBGG5D16A0R7Y",
+        "params": {
+          "id": "0",
+          "tipo": "ob"
+        },
+        "cellsNavigation": true
+      },
+      "operationType": "OB",
+      "agileType": "FAST"
+    },
+    {
+      "id": "Y52D4GFFM8ZYJX6V6W177HPEZ8N2BWMNMSJ340670X4SJ5P62CY0",
+      "shortname": "TercerosCH",
+      "paymentAccount": "37814",
+      "paymentAmount": {
+        "amount": 1.0,
+        "currency": "MXN"
+      },
+      "isOperable": true,
+      "beneficiary": {},
+      "iconImage": {
+        "url": "/img/ngob/icons/rapidas/rapida_tt_40_x_40.png",
+        "base64": ""
+      },
+      "navigation": {
+        "pathUrl": "operacionRapidaDetalle",
+        "id": "Y52D4GFFM8ZYJX6V6W177HPEZ8N2BWMNMSJ340670X4SJ5P62CY0",
+        "params": {
+          "id": "1",
+          "tipo": "tt"
+        },
+        "cellsNavigation": true
+      },
+      "operationType": "TT",
+      "agileType": "FAST"
+    }
+  ],
+  "image": {
+    "url": "/img/ngob/icons/rapidas/widget_cloud.png"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "listFrequentOperation": [
+    {
+      "id": "WK74M4JB5A6H10VF6AYZAYP10S2DDVMGBZGTCPN1B1NR24Y4FSH4B2MY9VGM9MY8BVEQQ55XY181Y",
+      "reference": "5556456456",
+      "shortName": "Frec3",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {},
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "cellphoneNumber": "PEGA"
+                }
+              }
+            },
+            "email": "liliana.ventura.contractor@bbva.com",
+            "name": "MOVISTAR"
+          },
+          "typeProduct": {
+            "reasonPayment": "TA"
+          },
+          "referenceIndicator": 0
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MO"
+      },
+      "transferType": "MOBILE_TOP_UP"
+    },
+    {
+      "id": "WK74M4JB5A6H10VF6AYZAYP10RWYE4PHTFQS6XN9X8R8JRSHR71MB2MY9VGM9MY8BVEQQ55XY181Y",
+      "reference": "5516955020",
+      "shortName": "mov",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {},
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "cellphoneNumber": "PEGA"
+                }
+              }
+            },
+            "email": "",
+            "name": "MOVISTAR"
+          },
+          "typeProduct": {
+            "reasonPayment": "TA"
+          },
+          "referenceIndicator": 0
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "MO"
+      },
+      "transferType": "MOBILE_TOP_UP"
+    },
+    {
+      "id": "WK74M4JB5A6H10VF6AYZAYP10V0BNG9ZF3MWDGFWRQRBC55B6CN4B2MY9VGM9MY8BVEQQ55XY181Y",
+      "reference": "5533919291",
+      "shortName": "micel",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {},
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "cellphoneNumber": "TELC"
+                }
+              }
+            },
+            "email": "liliana.ventura.contractor@bbva.com",
+            "name": "TELCEL"
+          },
+          "typeProduct": {
+            "reasonPayment": "TA"
+          },
+          "referenceIndicator": 0
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TE"
+      },
+      "transferType": "MOBILE_TOP_UP"
+    },
+    {
+      "id": "WK74M4JB5A6H10VF6AYZAYP10TZ81MJQPH4FAZWTQH1J7C8XSYFMB2MY9VGM9MY8BVEQQ55XY181Y",
+      "reference": "5527156011",
+      "shortName": "Pao",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {},
+            "contract": {
+              "product": {
+                "mobileAccount": {
+                  "cellphoneNumber": "TELC"
+                }
+              }
+            },
+            "email": "pao@gmail.com",
+            "name": "TELCEL"
+          },
+          "typeProduct": {
+            "reasonPayment": "TA"
+          },
+          "referenceIndicator": 0
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TE"
+      },
+      "transferType": "MOBILE_TOP_UP"
+    }
+  ],
+  "paginationKey": {
+    "nextPaginationKey": ""
+  }
+}

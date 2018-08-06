@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_CAM_001",
+    "message": "Cliente no cuenta con promociones oneclic",
+    "descripcion": "Se ha producido un error al consultar el servicio /Andrea/dashboard/V00/campaigns",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

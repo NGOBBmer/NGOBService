@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_000",
+    "message": "Servicio temporalmente no disponible",
+    "descripcion": "Se ha producido un error al consultar el servicio /Andrea/hire/v0/getCompaniesAmounts",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "409"
+  }
+}

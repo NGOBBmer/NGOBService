@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_ALIAS_001",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "Ocurrio un error al intentar cambiar el alias.",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

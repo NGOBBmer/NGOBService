@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_LC_002",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "No se encontro cardType=CREDIT_CARD en la peticion",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

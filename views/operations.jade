@@ -1,0 +1,50 @@
+extends layout
+
+block content
+  h1 Express Heroku API
+  p Welcome to Services for GlobalNet
+  a(href="./cards") ir a cards
+  a(href="./accounts") ir a cheques
+  a(href="./dashboard") ir a dashboard
+  a(href="./transfers") ir a transfers
+  h2 PosicionGlobal (dashboard)
+  ul
+    li
+      a(href="https://ngob-services.herokuapp.com/security/V00/getQR") getQR (POST)
+      span https://ngob-services.herokuapp.com/security/V00/getQR
+    li
+      a(href="https://ngob-services.herokuapp.com/operations/V00/agileOperations?agileOperationType=ALL") agileOperations - List
+      span https://ngob-services.herokuapp.com/operations/V00/agileOperations?agileOperationType=ALL
+      p agileOperationType=ALL devuelve r&aacute;pidas y peri&oacute;dicas
+      p agileOperationType=FAST devuelve solo r&aacute;pidas
+      p agileOperationType=ALL_RS&weekId=&date= devuelve solo peri&oacute;dicas y programadas
+    li
+      a(href="https://ngob-services.herokuapp.com/operations/V00/deleteAgileOperations/0001/?agileOperationType=RECURRING") deleteAgileOperations (DELETE)
+      span /operations/V00/deleteAgileOperations/0001/?agileOperationType=RECURRING
+    li
+      a(href="https://ngob-services.herokuapp.com/operations/V00/deleteAgileOperations/PR000001/?agileOperationType=FAST") deleteAgileOperations (DELETE)
+      span /operations/V00/deleteAgileOperations/0001/?agileOperationType=FAST
+    li
+      a(href="https://ngob-services.herokuapp.com/operations/V00/actionalAdvice") ActionalAdvice  (GET)
+      span https://ngob-services.herokuapp.com/operations/V00/actionalAdvice
+    li
+      a(href="https://ngob-services.herokuapp.com/operations/V00/suggestedOperations?suggestedOperationType=ALL") suggestedOperations - List (GET)
+      span https://ngob-services.herokuapp.com/operations/V00/suggestedOperations?suggestedOperationType=ALL
+      p suggestedOperationType=ALL devuelve todos los tipos de operaciones sugeridas
+      p suggestedOperationType=TT devuelve traspasos tipo cuentas terceros
+      p suggestedOperationType=TP devuelve traspasos tipo cuentas propias
+      p suggestedOperationType=TI devuelve traspasos tipo  interbancarios
+      p suggestedOperationType=TCI devuelve pagos de TDC Interbancaria
+      p suggestedOperationType=TCP devuelve pagos de  tarjeta de credito propia
+      p suggestedOperationType=PS devuelve pagos de servicios
+    li
+      a(href="https://ngob-services.herokuapp.com/operations/V00/deleteActionalAdvice?adviceId=59b95438dd22e771619fdb3c22") deleteActionalAdvice (DELETE)
+      span https://ngob-services.herokuapp.com/operations/V00/deleteActionalAdvice?adviceId={id}
+    li
+      a(href="https://ngob-services.herokuapp.com/operations/V00/getPDFDocuments") getPDFDocuments (POST)
+      span https://ngob-services.herokuapp.com/operations/V00/getPDFDocuments
+      p Body: {
+      p   "productId": "",
+      p   "businessFlow": "PG",
+      p   "operationType": "",
+      p   "type": "pdf"  }

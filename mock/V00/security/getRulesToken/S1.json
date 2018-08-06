@@ -1,0 +1,29 @@
+[
+  {
+    "typeValidation": "SOFTOKEN_QR_DATA",
+    "navigation": {
+      "cellsNavigation": true
+    },
+    "softokenQR": {
+      "dataQR": "2LX0O5OQ5-X3W%9GY4G38W5XROQOGZ/59X/$/Z5O9LRPOL/EO453OW-15-G3QWLZY0EZW%XGR8"
+    }
+  },
+  {
+    "typeValidation": "SOFTOKEN_QR_DATA",
+    "navigation": {
+      "cellsNavigation": true
+    },
+    "softokenQR": {
+      "dataQR": "2LX0O5OQ5-GZQWXMY8B3-W5XYOQOG0/3-%Q$4LQV8558QZI3O453OW015-G3QWLZY0EZW%XGR8"
+    }
+  },
+  {
+    "typeValidation": "SOFTOKEN_QR_DATA",
+    "navigation": {
+      "cellsNavigation": true
+    },
+    "softokenQR": {
+      "dataQR": "2LX0O5OQ5WGZQWXMY8B3-W5XYOXO-5/Q-1R1YI-RO-G385-/YOGZ8WX$Y$B3225X"
+    }
+  }
+]

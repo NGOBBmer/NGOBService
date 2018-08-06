@@ -1,0 +1,100 @@
+{
+  "data": {
+    "alias": "Mi Tarjeta",
+    "number": "*4910",
+    "cardId": "TCMXP0000001",
+    "cutOffDate": "",
+    "paymentMethod": {
+      "endDate": "2017-05-29 00:00:00:000000",
+      "monetaryPayments": null,
+      "paymentAmounts": [
+        {
+          "id": "PM",
+          "name": "minimumPayment",
+          "values": {
+            "amount": "10523.4"
+          }
+        },
+        {
+          "id": "PNI",
+          "name": "notInterestPayment",
+          "values": {
+            "amount": "3201.89"
+          }
+        }
+      ]
+    },
+    "availableBalance": {
+      "currentBalances": {
+        "amount": 2498.41,
+        "currency": "MXN"
+      },
+      "postedBalances": null,
+      "pendingBalances": null
+    },
+    "disposedBalance": {
+      "currentBalances": {
+        "amount": 4101.59,
+        "currency": "MXN"
+      },
+      "postedBalances": {
+        "amount": 45052.93,
+        "currency": "MXN"
+      },
+      "pendingBalances": {
+        "amount": 136.6,
+        "currency": "MXP"
+      }
+    },
+    "transitPayments": {
+      "amount": 0.0,
+      "currency": "MXP"
+    },
+    "transitCharges": {
+      "amount": 0.0,
+      "currency": "MXP"
+    },
+    "cashWithdraw": {
+      "amount": "7901.0",
+      "currency": "MXN"
+    },
+    "payments": {
+      "amount": -1109.34,
+      "currency": "MXP"
+    },
+    "charges": {
+      "amount": 158.0,
+      "currency": "MXP"
+    },
+    "positiveBalance": {
+      "amount": 0.0,
+      "currency": null
+    },
+    "images": {
+      "id": "IMG01",
+      "name": "IMAGEN",
+      "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477213&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+    },
+    "overDraft": {
+      "amount": 0.0,
+      "currency": "MXN"
+    },
+    "deferredPayment": "",
+    "amountDispute": "0.0",
+    "totalPoints": "54",
+    "grantedCredits": {
+      "amount": "46600.0",
+      "currency": "MXN"
+    },
+    "cardType": {
+      "id": "TARJETA INTERNACIONALTI",
+      "name": "TARJETA INTERNACIONAL"
+    },
+    "comisiones": "",
+    "currentDate": "",
+    "status": {
+      "id": "BLOCKED"
+    },
+    "cellsNavigation": true
+  }
+}

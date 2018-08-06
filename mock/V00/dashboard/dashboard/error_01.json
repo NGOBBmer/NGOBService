@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "WSGN002",
+    "message": "Servicio Temporalmente no disponible. Intente más tarde.",
+    "descripcion": "Se ha producido un error al consultar el servicio /Servicios/dashboard/V00/dashboard",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

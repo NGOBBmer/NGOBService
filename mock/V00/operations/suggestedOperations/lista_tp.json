@@ -1,0 +1,27 @@
+{
+  "suggestedOperations": [{
+    "id": "26763",
+    "shortname": "Transferencia a Cuentas Propias",
+    "paymentAccount": "1500007838",
+    "paymentAmount": {
+      "amount": "10.55"
+    },
+    "isOperable": true,
+    "chargeAccount": "1500001929",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "TP"
+      },
+      {
+        "name": "id",
+        "value": "26763"
+      }]
+    },
+    "operationType": "TP",
+    "bank": {
+      "name": "BBVA"
+    }
+  }]
+}

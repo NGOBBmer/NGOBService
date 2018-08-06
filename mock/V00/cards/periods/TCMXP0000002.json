@@ -1,0 +1,41 @@
+{
+  "data": {
+    "historicPeriods": [
+      {
+        "periodId": "PERIOD0007",
+        "periodDate": "2016-05-08"
+      },
+      {
+        "periodId": "PERIOD0008",
+        "periodDate": "2016-06-08"
+      }
+    ],
+    "periods": [
+      {
+        "periodId": "PERIOD0001",
+        "periodDate": "2016-08-08"
+      },
+      {
+        "periodId": "PERIOD0002",
+        "periodDate": "2016-09-08"
+      },
+      {
+        "periodId": "PERIOD0003",
+        "periodDate": "2016-10-08"
+      },
+      {
+        "periodId": "PERIOD0004",
+        "periodDate": "2016-11-08"
+      },
+      {
+        "periodId": "PERIOD0005",
+        "periodDate": "2016-12-08"
+      },
+      {
+        "periodId": "PERIOD0006",
+        "periodDate": "2016-04-08"
+      }
+    ]
+  },
+  "paginationKey": "1234567890"
+}

@@ -1,0 +1,27 @@
+{
+  "SPEI": "5.00",
+  "CECOBAN": "3.00",
+  "bankCatalog": [
+    {
+      "idBank": "0127",
+      "bankName": "AZTECA",
+      "cbe": true,
+      "cbeMD": true,
+      "cbeDS": false,
+      "tdd": true,
+      "tddMD": true,
+      "tddDS": true,
+      "tdc": true,
+      "tdcMD": true,
+      "tdcDS": true,
+      "ocr": true,
+      "ocrHipMD": false,
+      "ocrHipDS": true,
+      "ocrPerMD": true,
+      "ocrPerDS": false,
+      "ocrAutoMD": true,
+      "ocrAutoDS": true,
+      "sinApl": true
+    }
+  ]
+}

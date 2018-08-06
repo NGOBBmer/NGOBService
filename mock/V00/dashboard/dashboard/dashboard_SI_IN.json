@@ -1,0 +1,3632 @@
+{
+  "product": {
+    "checkAccount": [
+      {
+        "productId": "AHMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 502.82,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1500010987",
+          "alias": "jhgfdbvc",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "AHMXP0000001",
+              "tipoCuenta": "cuentaChequera"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": true,
+          "hasPocket": false,
+          "pathUrl": "spendingPockets",
+          "text": "Ir a Apartados"
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
+        "productId": "AHMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 245274035.66,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1500013684",
+          "alias": "",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "AHMXP0000002",
+              "tipoCuenta": "cuentaChequera"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
+        "productId": "AHMXP0000003",
+        "balance": {
+          "availableBalance": {
+            "amount": 1506922.58,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1500022292",
+          "alias": "Anacleto",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "AHMXP0000003",
+              "tipoCuenta": "cuentaChequera"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
+        "productId": "AHMXP0000004",
+        "balance": {
+          "availableBalance": {
+            "amount": 99511985.29,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2900129410",
+          "alias": "Oso2",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "AHMXP0000004",
+              "tipoCuenta": "cuentaChequera"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
+        "productId": "CHUSD0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 992587.92,
+            "currency": "",
+            "currencyId": "USD"
+          },
+          "pendingBalance": {
+            "amount": 0,
+            "currencyId": "USD"
+          }
+        },
+        "branch": {
+          "number": "0102372762",
+          "alias": "Chingona2",
+          "typeId": "CH",
+          "accountType": "cuentaChequeraDolares"
+        },
+        "region": {
+          "name": "MEXICO"
+        },
+        "description": "Cuenta en Dólares",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "CHUSD0000001",
+              "tipoCuenta": "cuentaChequeraDolares"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ],
+    "investmentsFund": [
+      {
+        "productId": "SIMXP0000001",
+        "branch": {
+          "number": "2034722256",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000002",
+        "branch": {
+          "number": "2034722418",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000003",
+        "branch": {
+          "number": "2034727649",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000004",
+        "branch": {
+          "number": "2034727657",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000005",
+        "branch": {
+          "number": "2034727665",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000006",
+        "branch": {
+          "number": "2034715586",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000007",
+        "branch": {
+          "number": "2034722175",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000008",
+        "branch": {
+          "number": "2034722299",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000009",
+        "branch": {
+          "number": "2034722329",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000010",
+        "branch": {
+          "number": "2034722345",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000011",
+        "branch": {
+          "number": "2034722876",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000012",
+        "branch": {
+          "number": "2034724003",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000013",
+        "branch": {
+          "number": "2034724127",
+          "alias": "XXSSS",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000014",
+        "branch": {
+          "number": "2034724143",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000015",
+        "branch": {
+          "number": "2034724259",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000016",
+        "branch": {
+          "number": "2034724275",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000017",
+        "branch": {
+          "number": "2034726359",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000018",
+        "branch": {
+          "number": "2034726367",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "SIMXP0000019",
+        "branch": {
+          "number": "2034727371",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ],
+    "investments": [
+      {
+        "productId": "INMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 65218,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369105204",
+          "alias": "daniel",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000001",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369110984",
+          "alias": "Juanita",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000002",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000003",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111654",
+          "alias": "Ruperta",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000003",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000004",
+        "balance": {
+          "availableBalance": {
+            "amount": 2200,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118586",
+          "alias": "Anacleta",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000004",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000005",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369119973",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000005",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000006",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121307",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000006",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000007",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121315",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000007",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000008",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121323",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000008",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000009",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121331",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000009",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000010",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121358",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000010",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000011",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121870",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000011",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000012",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369122567",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000012",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000013",
+        "balance": {
+          "availableBalance": {
+            "amount": 42000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102213",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000013",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000014",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102221",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000014",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000015",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102248",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000015",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000016",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102256",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000016",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000017",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102264",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000017",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000018",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102272",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000018",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000019",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102280",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000019",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000020",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102299",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000020",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000021",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102310",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000021",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000022",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369102329",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000022",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000023",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369103252",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000023",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000024",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369105212",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000024",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000025",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111018",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000025",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000026",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111026",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000026",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000027",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111247",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000027",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000028",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111298",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000028",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000029",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111336",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000029",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000030",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111689",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000030",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000031",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369111735",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000031",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000032",
+        "balance": {
+          "availableBalance": {
+            "amount": 2009,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118179",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000032",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000033",
+        "balance": {
+          "availableBalance": {
+            "amount": 2666,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118187",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000033",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000034",
+        "balance": {
+          "availableBalance": {
+            "amount": 2777,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118195",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000034",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000035",
+        "balance": {
+          "availableBalance": {
+            "amount": 2777,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118209",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000035",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000036",
+        "balance": {
+          "availableBalance": {
+            "amount": 2999,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118217",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000036",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000037",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118225",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000037",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000038",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118233",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000038",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000039",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118241",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000039",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000040",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118268",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000040",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000041",
+        "balance": {
+          "availableBalance": {
+            "amount": 2333,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118284",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000041",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000042",
+        "balance": {
+          "availableBalance": {
+            "amount": 3333,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118292",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000042",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000043",
+        "balance": {
+          "availableBalance": {
+            "amount": 3333,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118306",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000043",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000044",
+        "balance": {
+          "availableBalance": {
+            "amount": 2999,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118322",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000044",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000045",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118330",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000045",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000046",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118349",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000046",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000047",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118357",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000047",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000048",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118365",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000048",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000049",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118373",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000049",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000050",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118381",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000050",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000051",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118403",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000051",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000052",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118438",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000052",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000053",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118446",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000053",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000054",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118454",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000054",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000055",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118462",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000055",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000056",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118470",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000056",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000057",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118489",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000057",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000058",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118497",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000058",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000059",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118500",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000059",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000060",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118519",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000060",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000061",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118527",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000061",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000062",
+        "balance": {
+          "availableBalance": {
+            "amount": 3322,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118608",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000062",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000063",
+        "balance": {
+          "availableBalance": {
+            "amount": 2223,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369118616",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000063",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000064",
+        "balance": {
+          "availableBalance": {
+            "amount": 2000,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369119019",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000064",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000065",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120173",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000065",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000066",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120238",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000066",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000067",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120246",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000067",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000068",
+        "balance": {
+          "availableBalance": {
+            "amount": 2221,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120327",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000068",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000069",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120351",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000069",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000070",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120378",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000070",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000071",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120750",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000071",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000072",
+        "balance": {
+          "availableBalance": {
+            "amount": 7222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120785",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000072",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000073",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120823",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000073",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000074",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120874",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000074",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000075",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120882",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000075",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000076",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120904",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000076",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000077",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120912",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000077",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000078",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120939",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000078",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000079",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120947",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000079",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000080",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120955",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000080",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000081",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120971",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000081",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000082",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369120998",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000082",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000083",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121005",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000083",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000084",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121013",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000084",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000085",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121021",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000085",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000086",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121048",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000086",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000087",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121056",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000087",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000088",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121064",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000088",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000089",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121072",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000089",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000090",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121099",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000090",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000091",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121110",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000091",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000092",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121129",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000092",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000093",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369121137",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000093",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000094",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369122583",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000094",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000095",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369122648",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000095",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000096",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369122656",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000096",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      },
+      {
+        "productId": "INMXP0000097",
+        "balance": {
+          "availableBalance": {
+            "amount": 2222,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1369122680",
+          "alias": "",
+          "typeId": "IN",
+          "accountType": "inversionesMxp"
+        },
+        "description": "Pagaré Bancomer",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "INMXP0000097",
+              "tipoCuenta": "inversionesMxp"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
+    ],
+    "creditCard": [
+      {
+        "productId": "TCMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": -34535,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 626.67,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·69284",
+          "alias": "43210",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477213&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
+        "productId": "TCMXP0000002",
+        "balance": {
+          "availableBalance": {
+            "amount": 0,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          },
+          "cuttingBalance": {
+            "amount": 91008.74,
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "·03288",
+          "alias": "",
+          "typeId": "TC",
+          "accountType": "tarjetasCredito"
+        },
+        "minimumPayment": 0,
+        "description": "Tarjeta de Crédito",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CREDIT_CARD",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=TC&bin=477214&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      }
+    ],
+    "spendingPockets": [
+      {
+        "productId": "PKMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 3865,
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "1500010987",
+          "typeId": "PK",
+          "accountType": "apartados",
+          "relatedAccount": "PK00010987"
+        },
+        "description": "Apartado",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "spendingPockets",
+            "params": {},
+            "cellsNavigation": false
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": true
+        }
+      }
+    ]
+  },
+  "totalBalanceMxn": {
+    "balance": {
+      "amount": 346293446.35,
+      "currency": "MXP"
+    },
+    "description": "Total en pesos"
+  }
+}

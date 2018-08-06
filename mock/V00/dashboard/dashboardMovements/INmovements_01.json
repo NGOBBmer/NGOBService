@@ -1,0 +1,17 @@
+{
+    "investmentsMovementsList": [{
+        "date": "2017-08-09",
+        "concept": "0060245002ABONO POR INVER",
+        "charge": "",
+        "payment": "2000.0",
+        "balance": "2000.0",
+        "currency": "MXP"
+    }, {
+        "date": "2017-08-09",
+        "concept": "APERTURA DE CUE",
+        "charge": "0.0",
+        "payment": "",
+        "balance": "0.0",
+        "currency": "MXP"
+    }]
+}

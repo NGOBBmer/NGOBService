@@ -1,0 +1,32 @@
+[
+	{
+	  "typeValidation": "OCRA_DATA",
+	  "navigation": {
+	    "cellsNavigation": true
+	  },
+	  "ocraData": {
+	    "beneficiaryName": "MANUEL LOPEZ",
+	    "beneficiaryAccount": "1234567890"
+	  }
+	},
+		{
+	  "typeValidation": "OCRA_DATA",
+	  "navigation": {
+	    "cellsNavigation": true
+	  },
+	  "ocraData": {
+	    "beneficiaryName": "JUAN PEREZ",
+	    "beneficiaryAccount": "1111111111"
+	  }
+	},	
+	{
+	  "typeValidation": "OCRA_DATA",
+	  "navigation": {
+	    "cellsNavigation": true
+	  },
+	  "ocraData": {
+	    "beneficiaryName": "BANAMEX",
+	    "beneficiaryAccount": "01234567890"
+	  }
+	}
+]

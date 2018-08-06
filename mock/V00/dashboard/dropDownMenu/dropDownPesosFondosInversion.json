@@ -1,0 +1,3918 @@
+[{
+    "id": "AHMXP0000001",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "AHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "AHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "AHMXP0000002",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "AHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "AHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "AHMXP0000003",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "AHMXP0000003"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000003"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "AHMXP0000003"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000003"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "AHMXP0000004",
+    "typeProduct": "pesos",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": true,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+            }, {
+                "name": "idcuenta",
+                "value": "AHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Transferir",
+        "pathUrl": "traspasos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Pagar servicios",
+        "pathUrl": "serviciosMenuQuiero",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipo",
+                "value": "todos"
+            }, {
+                "name": "cuenta",
+                "value": "AHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Pagar Impuestos",
+        "pathUrl": "impuestos",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "cuenta",
+                "value": "AHMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Definir alias",
+        "pathUrl": "changeAlias",
+        "navigation": {
+            "cellsNavigation": false
+        }
+    }]
+}, {
+    "id": "SIMXP0000001",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034675533"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034675533"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2034675533"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "428"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000002",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034680103"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034680103"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2034680103"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "186"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000003",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034680103"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034680103"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B2"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2034680103"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B2"
+            }, {
+                "name": "Titulos",
+                "value": "183"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000004",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034684168"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034684168"
+            }, {
+                "name": "Fondo",
+                "value": ""
+            }, {
+                "name": "Serie",
+                "value": ""
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000005",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034688007"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034688007"
+            }, {
+                "name": "Fondo",
+                "value": ""
+            }, {
+                "name": "Serie",
+                "value": ""
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000006",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092470004"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "54"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000007",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092470004"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "BMER90"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "BMER90"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "898"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000008",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092470004"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }, {
+                "name": "Titulos",
+                "value": "314"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000009",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092470004"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "191"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000010",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092470004"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092470004"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "1915"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000011",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092479761"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092479761"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092479761"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "960"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000012",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092480735"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480735"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480735"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "744"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000013",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092480735"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480735"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480735"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "47"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000014",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092480735"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480735"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "E"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480735"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "E"
+            }, {
+                "name": "Titulos",
+                "value": "9"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000015",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2029986898"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986898"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986898"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "54"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000016",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2029986898"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986898"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986898"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "190"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000017",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2029986898"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986898"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986898"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "289"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000018",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2029986901"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986901"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986901"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "108"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000019",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2029986901"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986901"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986901"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "955"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000020",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2029986995"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986995"
+            }, {
+                "name": "Fondo",
+                "value": "BBVAE50"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986995"
+            }, {
+                "name": "Fondo",
+                "value": "BBVAE50"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }, {
+                "name": "Titulos",
+                "value": "2029"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000021",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2029986995"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986995"
+            }, {
+                "name": "Fondo",
+                "value": "BBVANDQ"
+            }, {
+                "name": "Serie",
+                "value": "P"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2029986995"
+            }, {
+                "name": "Fondo",
+                "value": "BBVANDQ"
+            }, {
+                "name": "Serie",
+                "value": "P"
+            }, {
+                "name": "Titulos",
+                "value": "80"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000022",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034683781"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034683781"
+            }, {
+                "name": "Fondo",
+                "value": ""
+            }, {
+                "name": "Serie",
+                "value": ""
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000023",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034683803"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034683803"
+            }, {
+                "name": "Fondo",
+                "value": ""
+            }, {
+                "name": "Serie",
+                "value": ""
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000024",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034684095"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034684095"
+            }, {
+                "name": "Fondo",
+                "value": ""
+            }, {
+                "name": "Serie",
+                "value": ""
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000025",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2034684125"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2034684125"
+            }, {
+                "name": "Fondo",
+                "value": ""
+            }, {
+                "name": "Serie",
+                "value": ""
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000026",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092469847"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "35"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000027",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092469847"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "BMER90"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "BMER90"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "691"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000028",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092469847"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "BMER30"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "BMER30"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "237"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000029",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092469847"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }, {
+                "name": "Titulos",
+                "value": "1266"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000030",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092469847"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "362"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000031",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092469847"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092469847"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "96"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000032",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092477998"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092477998"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092477998"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "40"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000033",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092477998"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092477998"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092477998"
+            }, {
+                "name": "Fondo",
+                "value": "DCP+"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "2447"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000034",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092480581"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480581"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480581"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "545"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000035",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092480581"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480581"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480581"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }, {
+                "name": "Titulos",
+                "value": "86"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000036",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092480581"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480581"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B4"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092480581"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B4"
+            }, {
+                "name": "Titulos",
+                "value": "94816"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000037",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092482428"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "BMERPZO"
+            }, {
+                "name": "Serie",
+                "value": "A"
+            }, {
+                "name": "Titulos",
+                "value": "43"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000038",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092482428"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "BMER90"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "BMER90"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "899"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000039",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092482428"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "DCP-1"
+            }, {
+                "name": "Serie",
+                "value": "B"
+            }, {
+                "name": "Titulos",
+                "value": "156"
+            }]
+        }
+    }]
+}, {
+    "id": "SIMXP0000040",
+    "typeProduct": "fonodoInversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "fondoInversiones"
+            }, {
+                "name": "idcuenta",
+                "value": "2092482428"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "compra"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "fondoInversionCompraVenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoOperacion",
+                "value": "venta"
+            }, {
+                "name": "NumContrato",
+                "value": "2092482428"
+            }, {
+                "name": "Fondo",
+                "value": "F+LIQ"
+            }, {
+                "name": "Serie",
+                "value": "B1"
+            }, {
+                "name": "Titulos",
+                "value": "190"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000001",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000001"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334686470"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334686470"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000002",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000002"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334686489"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334686489"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000003",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000003"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334690648"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334690648"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000004",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000004"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334691040"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334691040"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000005",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000005"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334693698"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334693698"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000006",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000006"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334693701"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001334693701"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000007",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000007"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061599"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061599"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000008",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000008"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061610"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061610"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000009",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000009"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061629"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061629"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000010",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000010"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061718"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368061718"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000011",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000011"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368068178"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368068178"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000012",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000012"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368074208"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368074208"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000013",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000013"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368074852"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368074852"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000014",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000014"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368078475"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368078475"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000015",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000015"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368078572"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368078572"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000016",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000016"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368078580"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00740010001368078580"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000017",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000017"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001329988963"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001329988963"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000018",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000018"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001329989013"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001329989013"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000019",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000019"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001329991964"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001329991964"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000020",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000020"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001334690397"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001334690397"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000021",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000021"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001334690869"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001334690869"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000022",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000022"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368061572"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368061572"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000023",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000023"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368061653"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368061653"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000024",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000024"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368068038"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368068038"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000025",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000025"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368068313"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368068313"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000026",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000026"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368068445"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368068445"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000027",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000027"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368071365"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368071365"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000028",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000028"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368071446"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368071446"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000029",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000029"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368072590"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368072590"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000030",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000030"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368072655"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368072655"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000031",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000031"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368074143"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368074143"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000032",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000032"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368074631"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368074631"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000033",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000033"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368074666"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368074666"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000034",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000034"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368075158"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368075158"
+            }]
+        }
+    }]
+}, {
+    "id": "INMXP0000035",
+    "typeProduct": "inversiones",
+    "menu": [{
+        "nombre": "Movimientos",
+        "pathUrl": "detalleCuenta",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "tipoCuenta",
+                "value": "inversionesMxp"
+            }, {
+                "name": "idcuenta",
+                "value": "INMXP0000035"
+            }]
+        }
+    }, {
+        "nombre": "Comprar",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "compra"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368075972"
+            }]
+        }
+    }, {
+        "nombre": "Vender",
+        "pathUrl": "inversionesPlazo",
+        "navigation": {
+            "cellsNavigation": false,
+            "params": [{
+                "name": "operacion",
+                "value": "venta"
+            }, {
+                "name": "cuenta",
+                "value": "00743616001368075972"
+            }]
+        }
+    }]
+}]

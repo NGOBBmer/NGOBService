@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_AS_004",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "No fue posible obtener EDC",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

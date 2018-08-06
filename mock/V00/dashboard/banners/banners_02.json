@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "campaignId": "0430bnm1702150001",
+      "event": "invasivasalir",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "/img/banners/240815CS53ZOOM.jpg"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "/img/banners/240815CS53.jpg"
+      }
+    },
+    {
+      "campaignId": "0430bnm1702280002",
+      "event": "click",
+      "modalImage": {
+        "type": "modalImage",
+        "url": "/img/banners/251015CI73ZOOM.jpg"
+      },
+      "notify": false,
+      "sliderImage": {
+        "type": "sliderImage",
+        "url": "/img/banners/240815CS53.jpg"
+      }
+    }
+  ]
+}

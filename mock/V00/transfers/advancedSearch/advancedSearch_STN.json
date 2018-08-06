@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_AS_001",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "409",
+    "message": "Servicio temporalmente no disponible",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

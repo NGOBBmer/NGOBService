@@ -1,0 +1,27 @@
+{
+  "SPEI": "5.00",
+  "CECOBAN": "3.00",
+  "bankCatalog": [
+    {
+      "idBank": "0167",
+      "bankName": "TESORERIA DE LA FEDERACION",
+      "cbe": true,
+      "cbeMD": false,
+      "cbeDS": true,
+      "tdd": true,
+      "tddMD": false,
+      "tddDS": true,
+      "tdc": false,
+      "tdcMD": false,
+      "tdcDS": false,
+      "ocr": true,
+      "ocrHipMD": false,
+      "ocrHipDS": true,
+      "ocrPerMD": false,
+      "ocrPerDS": true,
+      "ocrAutoMD": false,
+      "ocrAutoDS": true,
+      "sinApl": true
+    }
+  ]
+}

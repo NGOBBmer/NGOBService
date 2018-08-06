@@ -1,0 +1,42 @@
+{
+  "product": {
+    "checkAccount": [
+      {
+        "productId": "CHMXP0000001",
+        "balance": {
+          "availableBalance": {
+            "amount": 999999855,
+            "currency": "Pesos",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "0434694740",
+          "alias": "",
+          "typeId": "CH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": {
+              "idcuenta": "CHMXP0000001",
+              "tipoCuenta": "cuentaChequera"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      }
+    ]
+  }
+}

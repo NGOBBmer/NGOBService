@@ -1,0 +1,89 @@
+{ 
+	"data": {
+	  "listMovements": [
+	    {
+	      "amount": {
+	        "amount": "-250.00",
+	        "currency": "EUR"
+	      },
+	      "category": "D",
+	      "concept": "INTERNACIONAL",
+	      "movementPending": false,
+	      "operationDate": "2017-02-06",
+	      "postedBalance": {
+	        "amount": "981988.00",
+	        "currency": "EUR"
+	      },
+	      "reference": "0040025010",
+	      "type": "Cargo"
+	    },
+	    {
+	      "amount": {
+	        "amount": "-125.02",
+	        "currency": "EUR"
+	      },
+	      "category": "D",
+	      "concept": "COMPRA EUR",
+	      "movementPending": false,
+	      "operationDate": "2017-02-04",
+	      "postedBalance": {
+	        "amount": "981980.00",
+	        "currency": "EUR"
+	      },
+	      "reference": "0040025009",
+	      "type": "Abono"
+	    },
+	    {
+	      "amount": {
+	        "amount": "34.56",
+	        "currency": "EUR"
+	      },
+	      "category": "C",
+	      "concept": "DEPOSITO A CUENTA",
+	      "movementPending": false,
+	      "operationDate": "2017-02-03",
+	      "postedBalance": {
+	        "amount": "981800.00",
+	        "currency": "EUR"
+	      },
+	      "reference": "0040025008",
+	      "type": "Abono"
+	    },
+	    {
+	      "amount": {
+	        "amount": "100.00",
+	        "currency": "EUR"
+	      },
+	      "category": "D",
+	      "concept": "ABONO A CAPITAL",
+	      "movementPending": false,
+	      "operationDate": "2017-02-03",
+	      "postedBalance": {
+	        "amount": "981750.00",
+	        "currency": "EUR"
+	      },
+	      "reference": "0040025008",
+	      "type": "Abono"
+	    },
+	    {
+	      "amount": {
+	        "amount": "-58.00",
+	        "currency": "EUR"
+	      },
+	      "category": "D",
+	      "concept": "STARBUCKS",
+	      "movementPending": false,
+	      "operationDate": "2017-02-02",
+	      "postedBalance": {
+	        "amount": "981600.00",
+	        "currency": "EUR"
+	      },
+	      "reference": "0040025007",
+	      "type": "Cargo"
+	    }
+	  ],
+	  "paginationKey": "0123456789"
+	}
+}
+
+	  

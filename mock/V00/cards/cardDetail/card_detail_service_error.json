@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "",
+    "descripcion": "Se ha producido un error al consultar el servicio",
+    "httpStatus": "400",
+    "message": "Servicio no disponible.4 >= 4",
+    "severity": "FATAL",
+    "version": "1"
+  }
+}

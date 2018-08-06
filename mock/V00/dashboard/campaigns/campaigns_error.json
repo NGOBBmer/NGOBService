@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_CAM_000",
+    "message": "Error al consultar servicio campaigns",
+    "descripcion": "Se ha producido un error al consultar el servicio /Andrea/dashboard/V00/campaigns",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

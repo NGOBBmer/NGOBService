@@ -1,0 +1,168 @@
+{
+  "data": {
+    "listValidAccounts": [
+      {
+        "id": "AHMXP0000001",
+        "number": "10662",
+        "alias": "",
+        "accountType": "AH",
+        "currentBalance": {
+          "balance": 0,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "AHMXP0000002",
+        "number": "02098",
+        "alias": "",
+        "accountType": "AH",
+        "currentBalance": {
+          "balance": 12094.8,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "AHMXP0000003",
+        "number": "64080",
+        "alias": "",
+        "accountType": "AH",
+        "currentBalance": {
+          "balance": 11426.06,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "AHMXP0000004",
+        "number": "71277",
+        "alias": "",
+        "accountType": "AH",
+        "currentBalance": {
+          "balance": 999927291.65,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=AH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "CHMXP0000005",
+        "number": "46189",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 999842135.84,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "CHMXP0000006",
+        "number": "52928",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 1000000099,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "CHMXP0000007",
+        "number": "47541",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 999999856,
+          "currency": "MXP"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "CHUSD0000001",
+        "number": "62857",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 999999989,
+          "currency": "USD"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "CHUSD0000002",
+        "number": "66557",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 999999989,
+          "currency": "USD"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      },
+      {
+        "id": "CHUSD0000003",
+        "number": "92851",
+        "alias": "",
+        "accountType": "CH",
+        "currentBalance": {
+          "balance": 999999989,
+          "currency": "USD"
+        },
+        "images": {
+          "id": "IMG1",
+          "name": "IMAGEN",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        },
+        "transferType": "MYACCOUNTS"
+      }
+    ],
+    "currentDate": "2018-08-03",
+    "cellsNavigation": true
+  }
+}

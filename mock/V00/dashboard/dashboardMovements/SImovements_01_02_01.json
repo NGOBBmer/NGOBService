@@ -1,0 +1,128 @@
+{
+    "investmentFundMovementsList": [{ 
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "F+LIQ",
+            "serie": "B2",
+            "titles": "103",
+            "price": "10.891836",
+            "amount": "19223.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "DCP+",
+            "serie": "B2",
+            "titles": "183",
+            "price": "10.891836",
+            "amount": "12203.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "F+LIQ",
+            "serie": "B3",
+            "titles": "189",
+            "price": "10.891836",
+            "amount": "4000.2"
+        },
+        {
+            "operationDate": "02/08/2017",
+            "concept": "COMPRA EN LINEA",
+            "fund": "DC+",
+            "serie": "D2",
+            "titles": "55",
+            "price": "10.891836",
+            "amount": "1458.2"
+        }, {
+            "operationDate": "2017-07-03",
+            "concept": "COMPRA EN LINEA",
+            "fund": "LIQB",
+            "serie": "BB8",
+            "titles": "83",
+            "price": "12.891836",
+            "amount": "3932.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "G+",
+            "serie": "B4",
+            "titles": "183",
+            "price": "10.891836",
+            "amount": "12203.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "LOL",
+            "serie": "F9",
+            "titles": "189",
+            "price": "10.891836",
+            "amount": "4000.2"
+        },
+        {
+            "operationDate": "02/08/2017",
+            "concept": "COMPRA EN LINEA",
+            "fund": "ACDC",
+            "serie": "D2",
+            "titles": "55",
+            "price": "10.891836",
+            "amount": "1458.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "DCP+",
+            "serie": "B2",
+            "titles": "183",
+            "price": "10.891836",
+            "amount": "12203.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "F+LIQ",
+            "serie": "B3",
+            "titles": "189",
+            "price": "10.891836",
+            "amount": "4000.2"
+        },
+        {
+            "operationDate": "02/08/2017",
+            "concept": "COMPRA EN LINEA",
+            "fund": "DC+",
+            "serie": "D2",
+            "titles": "55",
+            "price": "10.891836",
+            "amount": "1458.2"
+        }, {
+            "operationDate": "2017-07-03",
+            "concept": "COMPRA EN LINEA",
+            "fund": "LIQB",
+            "serie": "BB8",
+            "titles": "83",
+            "price": "12.891836",
+            "amount": "3932.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "G+",
+            "serie": "B4",
+            "titles": "183",
+            "price": "10.891836",
+            "amount": "12203.2"
+        }, {
+            "operationDate": "2018-01-08",
+            "concept": "COMPRA EN LINEA",
+            "fund": "LOL",
+            "serie": "F9",
+            "titles": "189",
+            "price": "10.891836",
+            "amount": "4000.2"
+        },
+        { 
+            "operationDate": "02/08/2017",
+            "concept": "COMPRA EN LINEA",
+            "fund": "ACDC",
+            "serie": "D2",
+            "titles": "55",
+            "price": "10.891836",
+            "amount": "1458.2"
+        }
+    ]
+}

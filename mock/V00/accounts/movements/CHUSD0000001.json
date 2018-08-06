@@ -1,0 +1,113 @@
+{
+  "data": {
+    "listMovements": [
+      {
+        "operationDate": "2017-12-27",
+        "operationDateFormat": 1514354400000,
+        "concept": "PROCONSA",
+        "amount": {
+          "amount": "-2.8",
+          "currency": "MXP"
+        },
+        "type": "Cargo",
+        "movementPending": true
+      },
+      {
+        "operationDate": "2017-12-25",
+        "operationDateFormat": 1514354400000,
+        "concept": "AGUAS GRANDE",
+        "amount": {
+          "amount": "-13.22",
+          "currency": "USD"
+        },
+        "postedBalance": {
+          "amount": "1324343.00",
+          "currency": "USD"
+        },
+        "type": "Cargo",
+        "movementPending": false
+      },
+      {
+        "amount": {
+          "amount": "512.00",
+          "currency": "USD"
+        },
+        "category": "D",
+        "concept": "SORIANA",
+        "movementPending": false,
+        "operationDate": "2017-02-03",
+        "postedBalance": {
+          "amount": "981988.00",
+          "currency": "USD"
+        },
+        "reference": "0040025010",
+        "type": "Cargo"
+      },
+      {
+        "amount": {
+          "amount": "-125.00",
+          "currency": "USD"
+        },
+        "category": "D",
+        "concept": "SIMPLE LOL",
+        "movementPending": false,
+        "operationDate": "2017-02-04",
+        "postedBalance": {
+          "amount": "981980.00",
+          "currency": "USD"
+        },
+        "reference": "0040025009",
+        "type": "Cargo"
+      },
+      {
+        "amount": {
+          "amount": "534.00",
+          "currency": "USD"
+        },
+        "category": "C",
+        "concept": "DEPOSITO A CUENTA",
+        "movementPending": false,
+        "operationDate": "2017-02-03",
+        "postedBalance": {
+          "amount": "981800.00",
+          "currency": "USD"
+        },
+        "reference": "0040025008",
+        "type": "Abono"
+      },
+      {
+        "amount": {
+          "amount": "100.00",
+          "currency": "USD"
+        },
+        "category": "D",
+        "concept": "ABONO A CAPITAL",
+        "movementPending": false,
+        "operationDate": "2017-02-03",
+        "postedBalance": {
+          "amount": "981750.00",
+          "currency": "USD"
+        },
+        "reference": "0040025008",
+        "type": "Abono"
+      },
+      {
+        "amount": {
+          "amount": "-58.00",
+          "currency": "USD"
+        },
+        "category": "D",
+        "concept": "TIENDA ESTRELLA LOL",
+        "movementPending": false,
+        "operationDate": "2017-02-02",
+        "postedBalance": {
+          "amount": "981600.00",
+          "currency": "USD"
+        },
+        "reference": "0040025007",
+        "type": "Cargo"
+      }
+    ],
+    "paginationKey": "0123456789"
+  }
+}

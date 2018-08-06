@@ -1,0 +1,52 @@
+{
+  "suggestedOperations": [{
+    "id": "26761",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26761"
+      }]
+    },
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  },
+  {
+    "id": "26762",
+    "shortname": "Notificacion Pago de Servicios",
+    "paymentAccount": "00000000055585521104",
+    "paymentAmount": {
+      "amount": "25.30"
+    },
+    "isOperable": true,
+    "chargeAccount": "",
+    "navigation": {
+      "pathUrl": "realizarOperacionFrecuente",
+      "params": [{
+        "name": "operationType",
+        "value": "PDS"
+      },
+      {
+        "name": "id",
+        "value": "26762"
+      }]
+    },
+    "operationType": "PDS",
+    "bank": {
+      
+    }
+  }]
+}

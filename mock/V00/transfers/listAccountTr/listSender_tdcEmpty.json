@@ -1,0 +1,10 @@
+{
+	"error": {
+		"code": "DISP_PAG_TDC_0001",
+		"message": "No hay cuentas disponibles para esta funcionalidad",
+		"descripcion": "Se ha producido un error al consultar el servicio ",
+		"version": "1",
+		"severity": "FATAL",
+		"httpStatus": "400"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"sequences": [{
+		"paymentNumber": "01",
+		"aplicationDate": "2017-11-06"
+	},
+	{
+		"paymentNumber": "02",
+		"aplicationDate": "2017-11-13"
+	},
+	{
+		"paymentNumber": "03",
+		"aplicationDate": "2017-11-20"
+	}]
+}

@@ -1,0 +1,45 @@
+{
+  "product": {
+    "investments": [{
+      "productId": "CAUSD0000001",
+      "balance": {
+        "availableBalance": {
+          "amount": 19000,
+          "currency": "Dólares",
+          "currencyId": "USD"
+        }
+      },
+      "branch": {
+        "number": "1334686489",
+        "accountType": "inversionesMxp"
+      },
+      "description": "Inversión en Pesos",
+      "navigation": {
+        "cellsNavigation": true
+      }
+    },{
+      "productId": "CAUSD0000002",
+      "balance": {
+        "availableBalance": {
+          "amount": 17500,
+          "currency": "Dólares",
+          "currencyId": "USD"
+        }
+      },
+      "branch": {
+        "number": "1334686489",
+        "accountType": "inversionesMxp"
+      },
+      "description": "Inversión en Pesos",
+      "navigation": {
+        "cellsNavigation": true
+      }
+    }],
+    "totalBalance": {
+      "balance": {
+        "amount": 36500,
+        "currency": "USD"
+      }
+    }
+  }
+}
