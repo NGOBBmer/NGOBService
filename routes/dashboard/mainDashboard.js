@@ -363,17 +363,16 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
 router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
   var tsec = req.headers['tsec'];
   if(tsec === '' || tsec == 'null' || tsec == undefined){
-    return res.json(DATA_03);
-  }
-  if (tsec === '1234567890'){
-    return res.status(400).json(DropDown);
-  }else if(tsec === '567890'){
+    return res.json(DropDown_03);
+  }else if(tsec.includes("ERROR")){
+    return res.status(406).json(ERRORDropDown);
+  }else if(tsec.includes("DropDown")){
     return res.json(DropDown_06);
-  }else if (tsec === '456789012'){
+  }else if (tsec.includes("dropDown_fondos")){
     return res.json(DropDown_07);
-  }else if(tsec === '123456789' && req.query.page=="posicionGlobal"){
+  }else if(tsec.includes("PG") && req.query.page=="posicionGlobal"){
     return res.json(DropDown_ALL);
-  }else{
+  }else if(tsec.includes("dropDown_tc")){
     if(req.query.typeProduct=='tarjetasCredito'){
      return res.json(DropDown_04);
     }else{    
@@ -383,19 +382,12 @@ router.get('/V00/dashboard/dropDownMenu/', function(req, res, next) {
         if(req.query.typeProduct=='pesos'){
          return res.json(DropDown_02);
         }else{
-          if(req.query.typeProduct==""){
             return res.json(DropDown_01);
-          }else {
-            }if(req.query.typeProduct==""&& req.query.page==""){
-              return res.json(DropDown_03);
-          }else{
-            return res.status(406).json(ERRORDropDown);
-          }
         }
       }
     }
   }
-    
+    return res.json(DropDown_ALL);
   next();
   });
 
