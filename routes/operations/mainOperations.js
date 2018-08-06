@@ -224,6 +224,11 @@ router.get('/V00/agileOperations', function(req, res, next) {
       }else if (weekId == 'init'){
         var filePath = path.join(__dirname, ALL_CALENDAR);
         var json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        var obj = json.periodicOperation;
+        Object.getOwnPropertyNames(obj).forEach(function(val, idx, array) {
+            var ran = Math.floor((Math.random() * 12) + 1);
+            obj[val] = ran;
+          });
         json.initialDate = currentDate;
         json.finalDate = endDate;
 
