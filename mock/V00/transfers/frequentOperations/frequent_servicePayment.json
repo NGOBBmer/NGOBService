@@ -1,0 +1,97 @@
+{
+  "listFrequentOperation": [
+    {
+      "id": "FRPS000000",
+      "reference": "6520010205508024",
+      "shortName": "PalacioTes",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "EL PALACIO DE HIERRO,SA DE CV",
+                  "id": "0516221",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "6520010205508024"
+          }
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "EP"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "FRPS000001",
+      "reference": "01973761001947180707",
+      "shortName": "CFETest",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "CFE SUMINISTRADOR DE SERVICIOS BASI",
+                  "id": "0578869",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "01973761001947180707"
+          }
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "CS"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "FRPS000002",
+      "reference": "1000001871664501",
+      "shortName": "Liverpool",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "DISTRIBUIDORA LIVERPOOL SA DE",
+                  "id": "1207865",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "1000001871664501"
+          }
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "DL"
+      },
+      "operationType": "SERVICEPAYMENT"
+    }
+  ]
+}
