@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "id": "171192152156151148158AB138AB46483091878",
+      "agreement": {
+        "number": "0516203",
+        "accountType": "CV",
+        "referenceAccount": "EL PALACIO DE HIERRO,SA DE CV"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0516203",
+          "name": "EL PALACIO DE HIERRO,SA DE CV",
+          "comercialName": "",
+          "coverage": "Nacional",
+          "typeayment": "---"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "EP"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    },
+    {
+      "id": "170191150153148156149AB138AB352508085681",
+      "agreement": {
+        "number": "0516212",
+        "accountType": "CV",
+        "referenceAccount": "EL PALACIO DE HIERRO,SA DE CV"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0516212",
+          "name": "EL PALACIO DE HIERRO,SA DE CV",
+          "comercialName": "",
+          "coverage": "Nacional",
+          "typeayment": "---"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "EP"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    },
+    {
+      "id": "169192152154157148156AB138AB264690719231",
+      "agreement": {
+        "number": "0516221",
+        "accountType": "CV",
+        "referenceAccount": "EL PALACIO DE HIERRO"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0516221",
+          "name": "EL PALACIO DE HIERRO,SA DE CV",
+          "comercialName": "EL PALACIO DE HIERRO",
+          "coverage": "Nacional",
+          "typeayment": "PAGO TARJETA DE CREDITO PH"
+        }
+      },
+      "avatar": {
+        "image": "img/servicios/lph.gif",
+        "ini": "EP"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    }
+  ],
+  "search": "PALACIO DE HIERRO"
+}

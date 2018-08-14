@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "170191150153148156149AB138AB352508085681",
+      "agreement": {
+        "number": "0516212",
+        "accountType": "CV",
+        "referenceAccount": "EL PALACIO DE HIERRO,SA DE CV"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0516212",
+          "name": "EL PALACIO DE HIERRO,SA DE CV",
+          "comercialName": "",
+          "coverage": "Nacional",
+          "typeayment": "---"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "EP"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    }
+  ],
+  "search": "0516212"
+}

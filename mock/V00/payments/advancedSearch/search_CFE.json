@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "id": "173194157148149155153AB138AB68901745981",
+      "agreement": {
+        "number": "0039862",
+        "accountType": "CV",
+        "referenceAccount": "BANCOMER, CFE"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0039862",
+          "name": "BANCOMER, CFE",
+          "comercialName": "",
+          "coverage": "Nacional",
+          "typeayment": "---"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BC"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    },
+    {
+      "id": "168194150157155151157AB138AB182973866509",
+      "agreement": {
+        "number": "0040066",
+        "accountType": "CV",
+        "referenceAccount": "BANCOMER,SA CONVENIO CIE CFE"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0040066",
+          "name": "BANCOMER,SA CONVENIO CIE CFE",
+          "comercialName": "",
+          "coverage": "Nacional",
+          "typeayment": "---"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BC"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    },
+    {
+      "id": "173192151154148155150AB138AB66360711149",
+      "agreement": {
+        "number": "0080352",
+        "accountType": "CV",
+        "referenceAccount": "BANCOMER PAGO DE SERVICIOS CFE"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0080352",
+          "name": "BANCOMER PAGO DE SERVICIOS CFE",
+          "comercialName": "",
+          "coverage": "Nacional",
+          "typeayment": "---"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BP"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    },
+    {
+      "id": "169191155152149148150AB138AB257410125732",
+      "agreement": {
+        "number": "0120470",
+        "accountType": "CV",
+        "referenceAccount": "CFE (DIVISIÓN CENTRO SUR)"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0120470",
+          "name": "COMISION FEDERAL DE ELECTRICID",
+          "comercialName": "CFE (DIVISIÓN CENTRO SUR)",
+          "coverage": "Nacional",
+          "typeayment": "Pago de Luz"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "C("
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    },
+    {
+      "id": "170194152148156149150AB138AB384081161705",
+      "agreement": {
+        "number": "0578869",
+        "accountType": "CV",
+        "referenceAccount": "CFE, RECIBO NUEVO"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0578869",
+          "name": "BANCOMER LUZ/CFE",
+          "comercialName": "CFE, RECIBO NUEVO",
+          "coverage": "Nacional",
+          "typeayment": "PAGO DE LUZ"
+        }
+      },
+      "avatar": {
+        "image": "img/servicios/cfe.gif",
+        "ini": "CR"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    }
+  ],
+  "search": "CFE"
+}

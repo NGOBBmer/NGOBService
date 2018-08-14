@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "170194152148156149150AB138AB384081161705",
+      "agreement": {
+        "number": "0578869",
+        "accountType": "CV",
+        "referenceAccount": "CFE, RECIBO NUEVO"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0578869",
+          "name": "BANCOMER LUZ/CFE",
+          "comercialName": "CFE, RECIBO NUEVO",
+          "coverage": "Nacional",
+          "typeayment": "PAGO DE LUZ"
+        }
+      },
+      "avatar": {
+        "image": "img/servicios/cfe.gif",
+        "ini": "CR"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    }
+  ],
+  "search": "CFE"
+}

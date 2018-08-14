@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "169193156148151154149AB138AB278036034331",
+      "agreement": {
+        "number": "0074172",
+        "accountType": "CV",
+        "referenceAccount": "TELMEX PAGO SERVICIOS"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0074172",
+          "name": "TELMEX PAGO SERVICIOS",
+          "comercialName": "",
+          "coverage": "Nacional",
+          "typeayment": "---"
+        }
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TP"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    }
+  ],
+  "search": "0074172"
+}

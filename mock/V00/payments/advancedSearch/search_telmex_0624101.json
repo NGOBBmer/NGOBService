@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "171188151151150157158AB138AB423329958222",
+      "agreement": {
+        "number": "0624101",
+        "accountType": "CV",
+        "referenceAccount": "TELMEX CUENTA MAESTRA"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0624101",
+          "name": "TELEFONOS DE MEXICO",
+          "comercialName": "TELMEX CUENTA MAESTRA",
+          "coverage": "Nacional",
+          "typeayment": "Mensual"
+        }
+      },
+      "avatar": {
+        "image": "img/servicios/telmex_cm.gif",
+        "ini": "TC"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    }
+  ],
+  "search": "0624101"
+}

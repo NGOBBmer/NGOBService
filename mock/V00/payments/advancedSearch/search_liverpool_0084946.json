@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "169194156151153148156AB138AB288350741263",
+      "agreement": {
+        "number": "0084946",
+        "accountType": "CV",
+        "referenceAccount": "LIVERPOOL Y FABRICAS DE FRANCIA"
+      },
+      "transferType": "SERVICEPAYMENT",
+      "beneficiary": {
+        "company": {
+          "code": "0084946",
+          "name": "DISTRIBUIDORA LIVERPOOL,SA DE",
+          "comercialName": "LIVERPOOL Y FABRICAS DE FRANCIA",
+          "coverage": "Nacional",
+          "typeayment": "PAGO A CUENTA DE CREDITO"
+        }
+      },
+      "avatar": {
+        "image": "img/servicios/livtarjeta.jpg",
+        "ini": "LY"
+      },
+      "sendDetail": true,
+      "useSearcher": false
+    }
+  ],
+  "search": "0084946"
+}
