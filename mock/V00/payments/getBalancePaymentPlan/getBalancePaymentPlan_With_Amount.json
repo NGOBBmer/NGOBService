@@ -1,0 +1,9 @@
+{
+  "minimumAmount": {
+    "amount": 10.5
+  },
+  "totalPayment": {
+    "amount": 100.5
+  },
+  "activeAgreement": true
+}

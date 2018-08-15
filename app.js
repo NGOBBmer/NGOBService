@@ -15,6 +15,7 @@ var mainClarifications = require('./routes/clarifications/mainClarifications');
 var mainHire = require('./routes/hire/mainHire');
 var mainDashboard =  require('./routes/dashboard/mainDashboard');
 var advancedSearch = require('./routes/payments/advancedSearch/advancedSearch');
+var mainPayments = require('./routes/payments/mainPayments');
 
 var app = express();
 
@@ -48,6 +49,7 @@ app.use('/security', qrcronto);
 app.use('/operations', mainOperations);
 app.use('/dashboard', mainDashboard);
 app.use('/payments', advancedSearch);
+app.use('/payments', mainPayments);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
