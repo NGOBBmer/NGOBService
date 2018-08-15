@@ -500,12 +500,6 @@ router.get('/V00/frequentOperations', function(req, res, next) {
             } else if(req.query.accountId.includes('TCMXP') && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
                 return res.json(frequent_02);
             }
-        }else if(tsec.includes("3Freq")){
-            return res.json(frequent_01);
-        }else if(tsec.includes("5OpFreq")){
-            return res.json(frequent_05);
-        }else if(tsec.includes("6frequents")){
-            return res.json(frequent_06);
         }else if(req.query.typeOpFrequent === 'SERVICEPAYMENT'){
             return res.json(frequent_servicePayment);
         }else if(req.query.typeOpFrequent === 'MOBILE_TOP_UP'){
@@ -515,6 +509,12 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         }else if(req.query.typeOpFrequent === 'MOBILEMONEY'){
             return res.json(freq_mobileMoney);
         }
+    }else if(tsec.includes("3Freq")){
+        return res.json(frequent_01);
+    }else if(tsec.includes("5OpFreq")){
+        return res.json(frequent_05);
+    }else if(tsec.includes("6frequents")){
+        return res.json(frequent_06);
     }else if(tsec.includes("frequentOperations01")){
         if(req.query.accountId){
             if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
