@@ -352,7 +352,7 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
        return res.json(NO_MOVS);
     }else  if (tsec == undefined && req.query.$filter === 'productType==IN,idContract==INMXP0000003,period==2'){
        return res.json(dashMov_06);
-    }else  if (tsec == undefined && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,period==0'){
+    }else  if (tsec == "null" && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,period==0'){
        return res.json(dashMovUSD);
     }  
     else{
