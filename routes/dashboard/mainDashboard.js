@@ -157,7 +157,11 @@ router.get('/V00/dashboard', function(req, res, next) {
     if(( tsec == 'null' || tsec == 'undefined' || tsec == '') && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);
     }else if (tsec.includes("usdPagare")){
-                return res.json(dashboard_06_INALL);
+        if (filters[1]==='idContract==CAUSD0000001' && filters[2]==='currency==USD'){
+           return res.json(dashboard_05_IN);
+        }else{
+            return res.json(dashboard_06_INALL);
+        }
     }else if((tsec == '' || tsec == undefined || tsec == null) && filters[0] === 'productType==SI'){
         if(filters[1]==='idContract==SIMXP0000001'){
             return res.json(dashboard_02_SI);
