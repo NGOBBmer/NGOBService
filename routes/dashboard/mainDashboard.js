@@ -111,6 +111,10 @@ var userInfo_error = require('../../mock/V00/dashboard/userInfo/userInfo_error.j
 var OK = require('../../mock/V00/dashboard/validateOtp/otp_01.json');
 var NOK = require('../../mock/V00/dashboard/validateOtp/otp_error.json');
 
+// mytest
+var OK = require('../../mock/V00/dashboard/mytest/test_ok.json');
+var NOK = require('../../mock/V00/dashboard/mytest/test_no-ok.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -596,6 +600,21 @@ router.get('/V00/validateOtp', function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/tsec
 router.post('/V00/tsec', function(req, res, next) {
   return res.json({});
+  next();
+});
+
+// Mytest for query http://localhost:4000/dashboard/V00/mytest
+router.post('/V00/mytest', function(req, res, next) {
+  return res.json({});
+  next();
+});
+
+// Mytest for query http://localhost:4000/dashboard/V00/mytest?test=test
+router.get('/V00/mytest', function(req, res, next) {
+  if (req.query.test && req.query.test=="test"){
+    return res.json(OK);
+  }
+  return res.status(406).json(NOK);
   next();
 });
 
