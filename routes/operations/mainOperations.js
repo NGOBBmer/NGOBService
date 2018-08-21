@@ -59,6 +59,12 @@ var allowRec01 = require('../../mock/V00/operations/allowAgileOperations/allow_R
 var allowFastT = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_01.json');
 var allowFastI = require('../../mock/V00/operations/allowAgileOperations/allowFastOpe_02.json');
 
+//PAYMENT FREQUENT
+var frequent_paymente_error = require('../../mock/V00/operations/allowAgileOperations/frequentPaymente_Error.json');
+var frequent_paymente_success_allow = require('../../mock/V00/operations/allowAgileOperations/frequentPaymente_Allow.json');
+var frequent_paymente_success_notAllow = require('../../mock/V00/operations/allowAgileOperations/frequentPaymente_NotAllow.json');
+
+
 //deleteAgileOperations
 var OK = require('../../mock/V00/operations/deleteAgileOps/delete_01.json');
 var ERROR = require('../../mock/V00/operations/deleteAgileOps/delete_err.json');
@@ -132,6 +138,8 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
         return res.json(allowRecT);
       else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
         return res.json(allowRecI);
+	  else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'SERVICEPAYMENT')
+        return res.json(frequent_paymente_success_allow);
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'THIRD_PARTY')
         return res.json(allowFastT);
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'INTERBANK')
@@ -143,6 +151,8 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
         return res.json(allowRecT);
       else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'INTERBANK')
         return res.json(allowRecI);
+	  else if (req.query.agileOperationType === 'RECURRING' && req.query.transferType === 'SERVICEPAYMENT')
+        return res.json(frequent_paymente_success_allow);
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'THIRD_PARTY')
         return res.json(allowFastT);
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'INTERBANK')

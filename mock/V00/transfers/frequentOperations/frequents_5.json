@@ -1,0 +1,195 @@
+{
+  "listFrequentOperation": [{
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9TC0PK41ETCS080ESNZE65H49Z2R30JRZ7FFYWTD0013GQ5VKJYQ2",
+      "shortName": "PRESTAMOAU",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0030",
+              "name": "BAJIO"
+            },
+            "contract": {
+              "product": {
+                "mortgageCredit": {
+                  "idContract": "765432123456789098"
+                }
+              }
+            },
+            "email": "",
+            "name": "PRESTAMOAU",
+            "productAlias": "Crédito BAJIO"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9SE68RXAH62GDJYCZABTVG1S8C9RCNW46214EA3V8135VR43F441R",
+      "shortName": "PRESTAMOHI",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "autoLoan": {
+                  "loanNumber": "345678998765432123"
+                }
+              }
+            },
+            "email": "",
+            "name": "PRESTAMOHIPO",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Hip"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PR"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9T7ZTZ483FQ7KJ5N4W29EPT3WMDEKAHDCRFZPKZ0Z5CPEYM530590",
+      "shortName": "PERPROG",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0127",
+              "name": "AZTECA"
+            },
+            "contract": {
+              "product": {
+                "personalLoan": {
+                  "accountNumber": "111111234567898765"
+                }
+              }
+            },
+            "email": "",
+            "name": "PPERSONAL",
+            "productAlias": "Crédito AZTECA"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Per"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PP"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9RRZNS1V8MG8GMEPD5YFY1DRTFHEWD0G0QVGQ8X4VXCGBEQV29QM6",
+      "shortName": "Otro banco",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "mortgageCredit": {
+                  "idContract": "8811370024331195"
+                }
+              }
+            },
+            "email": "evherv@frfr.com",
+            "name": "PABLO PICAPIEDRA",
+            "productAlias": "Crédito BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "otroscreditos",
+            "subtypeReasonPayment": "Auto"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PP"
+      },
+      "transferType": "INTERBANK"
+    },
+    {
+      "id": "SSB5MHYZ7MR0MJ5QXDCXT3AY9STC009DH2FDNKMAV2T33GNEVTT2JE8KJPV9Q6MJT28BZZQRASCX6",
+      "shortName": "NombreI325",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationTransfer": {
+          "receiver": {
+            "bank": {
+              "id": "0002",
+              "name": "BANAMEX"
+            },
+            "contract": {
+              "product": {
+                "creditCard": {
+                  "cardNumber": "5456310600442694"
+                }
+              }
+            },
+            "email": "sncn25@gmail.com",
+            "name": "PRUEBA NOMBRE TRANSACCIONI325",
+            "productAlias": "Tarjeta BANAMEX"
+          },
+          "typeProduct": {
+            "reasonPayment": "tdc"
+          },
+          "referenceIndicator": 9
+        }
+      },
+      "extendedData": {
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "PN"
+      },
+      "transferType": "INTERBANK"
+    }
+  ],
+  "paginationKey": {
+    "nextPaginationKey": ""
+  }
+}

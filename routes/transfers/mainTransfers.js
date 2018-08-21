@@ -107,6 +107,10 @@ var frequent_mobile_02 = require('../../mock/V00/transfers/frequentOperations/fr
 var frequent_servicePayment = require('../../mock/V00/transfers/frequentOperations/frequent_servicePayment.json');
 var freq_international = require('../../mock/V00/transfers/frequentOperations/frequents_international.json');
 var freq_mobileMoney = require('../../mock/V00/transfers/frequentOperations/frequent_mobileMoney.json');
+var frequent_05 = require('../../mock/V00/transfers/frequentOperations/frequents_5.json');
+var frequent_06 = require('../../mock/V00/transfers/frequentOperations/frequents_6.json');
+
+
 
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
 
@@ -507,6 +511,12 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         }else if(req.query.typeOpFrequent === 'MOBILEMONEY'){
             return res.json(freq_mobileMoney);
         }
+    }else if(tsec.includes("3Freq")){
+        return res.json(frequent_01);
+    }else if(tsec.includes("5OpFreq")){
+        return res.json(frequent_05);
+    }else if(tsec.includes("6frequents")){
+        return res.json(frequent_06);
     }else if(tsec.includes("frequentOperations01")){
         if(req.query.accountId){
             if ((req.query.accountId.includes('AHMXP')|| req.query.accountId.includes('CHMXP')) && req.query.typeOpFrequent === '' && req.query.paginationKey === '' && req.query.numMovsFreq == ''){
