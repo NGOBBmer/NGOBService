@@ -158,7 +158,7 @@ router.get('/V00/allowAgileOperations', function(req, res, next) {
       else if (req.query.agileOperationType === 'FAST' && req.query.transferType === 'INTERBANK')
         return res.json(allowFastI);
       else
-        return res.status(400).json(frequent_paymente_error);
+        return res.status(400).json(errorAllow);
     }
     next();
 });
