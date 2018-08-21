@@ -110,6 +110,8 @@ var freq_mobileMoney = require('../../mock/V00/transfers/frequentOperations/freq
 var frequent_05 = require('../../mock/V00/transfers/frequentOperations/frequents_5.json');
 var frequent_06 = require('../../mock/V00/transfers/frequentOperations/frequents_6.json');
 
+
+
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
 
 //Search frequents
