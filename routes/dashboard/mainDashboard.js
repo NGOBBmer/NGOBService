@@ -111,6 +111,10 @@ var userInfo_error = require('../../mock/V00/dashboard/userInfo/userInfo_error.j
 var OK = require('../../mock/V00/dashboard/validateOtp/otp_01.json');
 var NOK = require('../../mock/V00/dashboard/validateOtp/otp_error.json');
 
+// mytest
+var OK = require('../../mock/V00/dashboard/mytest/test_ok.json');
+var NOK = require('../../mock/V00/dashboard/mytest/test_no-ok.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -156,6 +160,12 @@ router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if(( tsec == 'null' || tsec == 'undefined' || tsec == '') && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);
+    }else if (tsec.includes("usdPagare")){
+        if (filters[1]==='idContract==CAUSD0000001' && filters[2]==='currency==USD'){
+           return res.json(dashboard_05_IN);
+        }else{
+            return res.json(dashboard_06_INALL);
+        }
     }else if((tsec == '' || tsec == undefined || tsec == null) && filters[0] === 'productType==SI'){
         if(filters[1]==='idContract==SIMXP0000001'){
             return res.json(dashboard_02_SI);
@@ -350,7 +360,7 @@ router.get('/V00/dashboardMovements', function(req, res, next) {
        return res.json(NO_MOVS);
     }else  if (tsec == undefined && req.query.$filter === 'productType==IN,idContract==INMXP0000003,period==2'){
        return res.json(dashMov_06);
-    }else  if (tsec == undefined && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,period==0'){
+    }else  if (tsec.includes("usdPagare") && req.query.$filter === 'productType==IN,idContract==CAUSD0000001,period==0'){
        return res.json(dashMovUSD);
     }  
     else{
@@ -590,6 +600,21 @@ router.get('/V00/validateOtp', function(req, res, next) {
 // handler for query http://localhost:4000/dashboard/V00/tsec
 router.post('/V00/tsec', function(req, res, next) {
   return res.json({});
+  next();
+});
+
+// Mytest for query http://localhost:4000/dashboard/V00/mytest
+router.post('/V00/mytest', function(req, res, next) {
+  return res.json({});
+  next();
+});
+
+// Mytest for query http://localhost:4000/dashboard/V00/mytest?test=test
+router.get('/V00/mytest', function(req, res, next) {
+  if (req.query.test && req.query.test=="test"){
+    return res.json(OK);
+  }
+  return res.status(406).json(NOK);
   next();
 });
 

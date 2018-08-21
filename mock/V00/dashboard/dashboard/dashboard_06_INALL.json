@@ -156,6 +156,31 @@
           "hasPocket": false
         }
       }
+    ],
+    "investmentsFund": [
+      {
+        "productId": "SIUSD0000001",
+        "branch": {
+          "number": "2034722256",
+          "alias": "",
+          "typeId": "SI",
+          "accountType": "fondoInversiones"
+        },
+        "balance": {
+          "availableBalance": {
+            "amount": 100,
+            "currencyId": "USD"
+          }
+        },
+        "description": "Fondo de Inversión",
+        "navigation": {
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
     ]
   }
 }
