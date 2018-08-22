@@ -618,4 +618,49 @@ router.get('/V00/mytest', function(req, res, next) {
   next();
 });
 
+// handler for query http://localhost:3000/dashboard/V00/userInfo?filter=email
+router.get('/V00/userInfo2', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  var num = Math.floor(Math.random() * 10000);
+  var tsec2= "tsec"+num;
+
+  if(tsec==undefined || tsec===''){
+    res.setHeader("tsec", tsec2);
+    return res.json(userInfoS1);
+  } else if (tsec.includes("userInfoS1")){
+    res.setHeader("tsec", tsec2);
+    return res.json(userInfoS1);
+  } else if (tsec.includes("userInfoS2")){
+     res.setHeader("tsec", tsec2);
+    return res.json(userInfoS2);
+  } else if (tsec.includes("userInfoT1")){
+     res.setHeader("tsec", tsec2);
+    return res.json(userInfoT1);
+  } else if (tsec.includes("userInfoT3")){
+     res.setHeader("tsec", tsec2);
+    return res.json(userInfoT3);
+  } else if (tsec.includes("userInfoT6")){
+     res.setHeader("tsec", tsec2);
+    return res.json(userInfoT6);
+  } else if (tsec.includes("userInfoT7")){
+     res.setHeader("tsec", tsec2);
+    return res.json(userInfoT7);
+  } else if (tsec.includes("userInfoNoNominated")){
+     res.setHeader("tsec", tsec2);
+    return res.json(userInfo_user01);
+  } else if (tsec.includes("userInfoWithOutAlerts")){
+     res.setHeader("tsec", tsec2);
+     return res.json(userInfo_user02);
+  } else if (tsec.includes("userInfoWithOperations")){
+     res.setHeader("tsec", tsec2);
+     return res.json(userInfo_user03);
+  } else if (tsec.includes("userInfoError")){
+     res.setHeader("tsec", tsec2);
+     return res.json(userInfo_error);
+  } else {
+     res.setHeader("tsec", tsec2);
+    return res.json(userInfoS1);
+  }
+});
+
 module.exports = router;
