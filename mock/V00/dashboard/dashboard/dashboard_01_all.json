@@ -2,6 +2,40 @@
   "product": {
     "checkAccount": [
       {
+        "productId": "AHMXP0000001",
+        "branch": {
+          "number": "1402321858",
+          "alias": "",
+          "typeId": "AH",
+          "accountType": "cuentaChequera"
+        },
+        "description": "Cuenta en Pesos",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "detalleCuenta",
+            "params": [
+              {
+                "name": "tipoCuenta",
+                "value": "cuentaChequera"
+              },
+              {
+                "name": "idcuenta",
+                "value": "AHMXP0000001"
+              }
+            ]
+          },
+          "cellsNavigation": true
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        },
+        "image": {
+          "type": "CHECKACCOUNT",
+          "url": "https://openapi.bbva.com/ccds/covers?pg=CH&bin=415231&default_image=true&v=4&country=mx&app_id=com.bbva.ngob"
+        }
+      },
+      {
         "productId": "CHUSD0000001",
         "balance": {
           "availableBalance": {
