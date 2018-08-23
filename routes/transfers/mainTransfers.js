@@ -261,20 +261,6 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         }else if (req.query.operationType === 'INTERBANK'){
             return res.json(listSender_regla04);
         }
-    }else if (req.query.accountId !== undefined && req.query.accountId !== ''){
-         return res.json(listSender_regla02);
-    }else if (req.query.operationType !== undefined && req.query.operationType !== ''){
-        if (req.query.accountType === undefined || req.query.accountType === ''){
-            return res.status(400).json(listAccount_err);
-        }
-        if (req.query.operationType === 'THIRD_PARTY'){
-            return res.json(listSender_regla03);
-        }else if (req.query.operationType === 'INTERBANK'){
-            if (req.query.accountType === 'CB'){
-                return res.json(listSender_regla05);
-            }
-            return res.json(listSender_regla04);
-        }
     }else if(req.query.operationType === 'SERVICEPAYMENT'){
         if( tsec == 'null' || tsec == 'undefined' || tsec == ''){
             if(req.query.productTypeValid=== '' || req.query.productTypeValid=== null){
@@ -297,6 +283,20 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         }else{
             return res.json(listSender_ch);
         }        
+    }else if (req.query.accountId !== undefined && req.query.accountId !== ''){
+         return res.json(listSender_regla02);
+    }else if (req.query.operationType !== undefined && req.query.operationType !== ''){
+        if (req.query.accountType === undefined || req.query.accountType === ''){
+            return res.status(400).json(listAccount_err);
+        }
+        if (req.query.operationType === 'THIRD_PARTY'){
+            return res.json(listSender_regla03);
+        }else if (req.query.operationType === 'INTERBANK'){
+            if (req.query.accountType === 'CB'){
+                return res.json(listSender_regla05);
+            }
+            return res.json(listSender_regla04);
+        }
     }
     else{
         return res.json(listSender_regla01);
