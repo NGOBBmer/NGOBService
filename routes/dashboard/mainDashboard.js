@@ -167,11 +167,11 @@ router.get('/V00/dashboard', function(req, res, next) {
     }else if(tsec.includes("6_dashboard")){
         return res.json(dashboard_6_acc);
     }else if(tsec.includes("3_TT")){
-        return res.json(dashboard_6_acc);
+        return res.json(dashboard_3);
     }else if(tsec.includes("4_acc")){
-        return res.json(dashboard_6_acc);
+        return res.json(dashboard_4);
     }else if(tsec.includes("5_accounts")){
-        return res.json(dashboard_6_acc);
+        return res.json(dashboard_5);
     }else if (tsec.includes("usdPagare")){
         if (filters[1]==='idContract==CAUSD0000001' && filters[2]==='currency==USD'){
            return res.json(dashboard_05_IN);
