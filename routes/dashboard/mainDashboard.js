@@ -25,6 +25,7 @@ var dashboard_error_02 = require('../../mock/V00/dashboard/dashboard/error_01.js
 var dashboard_monoprod= require('../../mock/V00/dashboard/dashboard/dashboardMonoproducto.json');
 var dashboard_especial = require('../../mock/V00/dashboard/dashboard/dashboard_especial.json');
 var dashboard_all_nvo = require('../../mock/V00/dashboard/dashboard/dashboard_NVO_all.json');
+var dashboard_6_acc = require('../../mock/V00/dashboard/dashboard/dashboard_6acc.json');
 
 //balanceDashboard
 var balance_01 = require('../../mock/V00/dashboard/balanceDashboard/balanceDashboard.json');
@@ -160,6 +161,8 @@ router.get('/V00/dashboard', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if(( tsec == 'null' || tsec == 'undefined' || tsec == '') && filters[0] === 'productType==TT'){
         return res.json(dashboard_01);
+    }else if(tsec.includes("6_dashboard")){
+        return res.json(dashboard_6_acc);
     }else if (tsec.includes("usdPagare")){
         if (filters[1]==='idContract==CAUSD0000001' && filters[2]==='currency==USD'){
            return res.json(dashboard_05_IN);
