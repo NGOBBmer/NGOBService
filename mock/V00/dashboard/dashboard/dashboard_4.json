@@ -134,5 +134,12 @@
         }
       }
     ]
+  },
+  "totalBalanceCreditCard": {
+    "balance": {
+      "amount": 322697.73,
+      "currency": "MXP"
+    },
+    "description": "Total en tarjeta de crédito"
   }
 }
