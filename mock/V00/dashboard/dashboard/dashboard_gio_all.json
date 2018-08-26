@@ -397,6 +397,38 @@
         },
         "productId": "00740126429688106940"
       }
+    ],
+    "heritage": [
+      {
+        "productId": "PTMXP0000001",
+        "balance": {
+          "totalBalance": {
+            "currency": "",
+            "currencyId": "MXP"
+          }
+        },
+        "branch": {
+          "number": "2106064515",
+          "alias": "PT00746362002106064515",
+          "typeId": "PT",
+          "accountType": "patrimoniales"
+        },
+        "description": "Patrimonial",
+        "navigation": {
+          "pathNavigation": {
+            "pathUrl": "portafolioPatrimonialChart",
+            "params": {
+              "idContrato": "PTMXP0000001"
+            },
+            "cellsNavigation": false
+          },
+          "cellsNavigation": false
+        },
+        "assigned": {
+          "isNominated": false,
+          "hasPocket": false
+        }
+      }
     ]
   },
   "totalBalanceCreditos": {
