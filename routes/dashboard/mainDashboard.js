@@ -124,7 +124,7 @@ router.use(function(req, res, next) {
     var host = req.get('origin');
     res.setHeader('Access-Control-Allow-Origin', host||"*");
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec,otp');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec,otp,Tsec');
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
