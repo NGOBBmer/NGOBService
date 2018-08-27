@@ -3,6 +3,7 @@ var router = express.Router();
 
 var movements_AH01 = require('../../mock/V00/accounts/movements/AHMXP0000001.json');
 var movements_AH01_next= require('../../mock/V00/accounts/movements/AHMXP0000001_next.json');
+var movements_AH01_next2 = require('../../mock/V00/accounts/movements/AHMXP0000001_next2.json');
 var movements_AH01_filter= require('../../mock/V00/accounts/movements/AHMXP0000001_filter.json');
 var movements_CH01 = require('../../mock/V00/accounts/movements/CHUSD0000001.json');
 var movements_CH01_next= require('../../mock/V00/accounts/movements/CHUSD0000001_next.json');
@@ -81,9 +82,13 @@ router.get('/V00/accounts/movements/:id', function(req, res, next) {
     if (tsec === '2233445566'){
          return res.status(400).json(movements_err);
     }
-    if (req.params.id == 'AHMXP0000001'){
+    if (req.params.id == 'AHMXP0000001' || req.params.id == 'CHMXP0000001'){
         if (req.query.paginationKey) {
+          if (req.query.paginationKey === '1122334455'){
+            return res.json(movements_AH01_next2);
+          }else {
             return res.json(movements_AH01_next);
+          }
         }else if (req.query.period){
              return res.json(movements_AH01);
         }else if (req.query.initialDate && req.query.finalDate && req.query.amountMin && req.query.amountMax){
