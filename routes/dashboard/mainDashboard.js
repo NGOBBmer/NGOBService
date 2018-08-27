@@ -126,6 +126,8 @@ router.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,tsec,otp,Tsec');
     res.setHeader('Access-Control-Allow-Credentials', true);
+    res.append('Access-Control-Expose-Headers', 'Tsec');
+    res.append('Access-Control-Expose-Headers');
     next();
 });
 
@@ -636,8 +638,6 @@ router.get('/V00/userInfo2', function(req, res, next) {
   var num = Math.floor(Math.random() * 10000);
   var tsec2= "tsec"+num;
   //res.setHeader('Access-Control-Allow-Headers', 'Tsec');
-  //res.append('Access-Control-Expose-Headers', 'Tsec');
-  //res.append('Access-Control-Expose-Headers');
 
   if(tsec==undefined || tsec===''){
     res.setHeader("tsec", tsec2);
