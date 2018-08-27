@@ -60,6 +60,8 @@ var PPF_TCMXP0000005 = require('../../mock/V00/cards/promotions/PPF/PPF_TCMXP000
 var PPF_pagination = require('../../mock/V00/cards/promotions/PPF/PPF_pagination.json');
 var PR_NO_DATA = require('../../mock/V00/cards/promotions/vacio.json');
 var PR_ERROR = require('../../mock/V00/cards/promotions/promotions_error.json');
+var CPS_01 = require('../../mock/V00/cards/promotions/CPS/CPS_02.json');
+var CPS_02 = require('../../mock/V00/cards/promotions/CPS/CPS_02.json');
 
 //relatedCards
 var related_cards01 = require('../../mock/V00/cards/aditionals/aditionals_01.json');
@@ -310,43 +312,38 @@ router.get('/V00/cards/welcomeKit/:id', function(req, res, next) {
 // handler for /cards/TCMXP0000001/promotions?type=CPS&paginationKey=
 router.get('/V00/cards/:id/promotions', function(req, res, next) {
 if(req.params && req.params.id ){
-
-  if (req.query && req.query.type== 'CPS' && req.params.id=='TCMXP0000001' && req.query.paginationKey=='')  {
-    return res.json(PR_NO_DATA);
+  if (req.query && req.query.type== 'CPS'){
+    if (req.params.id=='TCMXP0000001' && req.query.paginationKey=='')  {
+      return res.json(CPS_01);
+    }else if (eq.params.id=='TCMXP0000002' && req.query.paginationKey=='')  {
+      return res.json(CPS_TCMXP0000002);
+    }else if (req.params.id=='TCMXP0000003' && req.query.paginationKey=='')  {
+      return res.json(CPS_TCMXP0000003);
+    }else if (req.params.id=='TCMXP0000004' && req.query.paginationKey=='')  {
+      return res.json(CPS_TCMXP0000004);
+    }else if (req.params.id=='TCMXP0000005')  {
+      return res.json(CPS_TCMXP0000005);
+    }else if (req.query.paginationKey=='10')  {
+      return res.json(CPS_02);
+    }else if (req.query.paginationKey=='+20')  {
+      return res.json(CPS_03);
+    }
+  }else  if (req.query && req.query.type== 'EFI'){
+    if (req.params.id=='TCMXP0000001' && req.query.paginationKey=='')  {
+      return res.json(EFI);
+    }else if (eq.params.id=='TCMXP0000002' && req.query.paginationKey=='')  {
+      return res.json(EFI_TCMXP0000002);
+    }else if (req.params.id=='TCMXP0000003' && req.query.paginationKey=='')  {
+      return res.json(EFI_TCMXP0000003);
+    }else if (req.params.id=='TCMXP0000004' && req.query.paginationKey=='')  {
+      return res.json(EFI_TCMXP0000004);
+    }else if (req.params.id=='TCMXP0000005')  {
+      return res.json(EFI_TCMXP0000005);
+    }else if (req.query.paginationKey=='3413541135ASDVCCEDASSDA')  {
+      return res.json(EFI_pagination);
+    }
   }
-  if (req.query && req.query.type== 'CPS' && req.params.id=='TCMXP0000002' && req.query.paginationKey=='')  {
-    return res.json(CPS_TCMXP0000002);
-  }
-  if (req.query && req.query.type== 'CPS' && req.params.id=='TCMXP0000003' && req.query.paginationKey=='')  {
-    return res.json(CPS_TCMXP0000003);
-  }
-  if (req.query && req.query.type== 'CPS' && req.params.id=='TCMXP0000004' && req.query.paginationKey=='')  {
-    return res.json(CPS_TCMXP0000004);
-  }
-   if (req.query && req.query.type== 'CPS' && req.params.id=='TCMXP0000005')  {
-    return res.json(CPS_TCMXP0000005);
-  }
-  if (req.query && req.query.type== 'CPS' && req.query.paginationKey=='3413541135ASDVCCEDASSDA')  {
-    return res.json(CPS_pagination);
-  }
-  if (req.query && req.query.type== 'EFI' && req.params.id=='TCMXP0000001' && req.query.paginationKey=='')  {
-    return res.json(EFI);
-  }
-  if (req.query && req.query.type== 'EFI' && req.params.id=='TCMXP0000002' && req.query.paginationKey=='')  {
-    return res.json(EFI_TCMXP0000002);
-  }
-  if (req.query && req.query.type== 'EFI' && req.params.id=='TCMXP0000003' && req.query.paginationKey=='')  {
-    return res.json(EFI_TCMXP0000003);
-  }
-  if (req.query && req.query.type== 'EFI' && req.params.id=='TCMXP0000004' && req.query.paginationKey=='')  {
-    return res.json(EFI_TCMXP0000004);
-  }
-  if (req.query && req.query.type== 'EFI' && req.params.id=='TCMXP0000005')  {
-    return res.json(EFI_TCMXP0000005);
-  }
-  if (req.query && req.query.type== 'EFI' && req.query.paginationKey=='3413541135ASDVCCEDASSDA')  {
-    return res.json(EFI_pagination);
-  }
+  
   if (req.query && req.query.type== 'PPF' && req.params.id=='TCMXP0000001' && req.query.paginationKey=='')  {
     return res.json(PPF);
   }
