@@ -62,6 +62,7 @@ var PR_NO_DATA = require('../../mock/V00/cards/promotions/vacio.json');
 var PR_ERROR = require('../../mock/V00/cards/promotions/promotions_error.json');
 var CPS_01 = require('../../mock/V00/cards/promotions/CPS/CPS_02.json');
 var CPS_02 = require('../../mock/V00/cards/promotions/CPS/CPS_02.json');
+var CPS_03 = require('../../mock/V00/cards/promotions/CPS/CPS_03.json');
 
 //relatedCards
 var related_cards01 = require('../../mock/V00/cards/aditionals/aditionals_01.json');
@@ -315,7 +316,7 @@ if(req.params && req.params.id ){
   if (req.query && req.query.type== 'CPS'){
     if (req.params.id=='TCMXP0000001' && req.query.paginationKey=='')  {
       return res.json(CPS_01);
-    }else if (eq.params.id=='TCMXP0000002' && req.query.paginationKey=='')  {
+    }else if (req.params.id=='TCMXP0000002' && req.query.paginationKey=='')  {
       return res.json(CPS_TCMXP0000002);
     }else if (req.params.id=='TCMXP0000003' && req.query.paginationKey=='')  {
       return res.json(CPS_TCMXP0000003);
@@ -325,7 +326,7 @@ if(req.params && req.params.id ){
       return res.json(CPS_TCMXP0000005);
     }else if (req.query.paginationKey=='10')  {
       return res.json(CPS_02);
-    }else if (req.query.paginationKey=='+20')  {
+    }else if (req.query.paginationKey=='20')  {
       return res.json(CPS_03);
     }
   }else  if (req.query && req.query.type== 'EFI'){
