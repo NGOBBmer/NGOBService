@@ -102,6 +102,7 @@ var createAgileOp01 = require('../../mock/V00/operations/createAgileOperations/c
 var createAgileOpErr_01 = require('../../mock/V00/operations/createAgileOperations/createAgileOpErr_01.json');
 var createAgileOpErr_02 = require('../../mock/V00/operations/createAgileOperations/createAgileOpErr_02.json');
 var getId_createAgileOp01 = require('../../mock/V00/operations/createAgileOperations/getId_createAgileOp_01.json');
+var createAgileOp_NoFrec = require('../../mock/V00/operations/createAgileOperations/createAgileOp_NoFrec.json');
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -354,6 +355,8 @@ router.post('/V00/createAgileOperations', function(req, res, next) {
   if (req.body.agileOperationType ==='REGISTER' || req.body.agileOperationType ==='REGISTER_FREQUENT'){
     if (otp === '00000000'){
        return res.status(400).json(createAgileOpErr_01);
+    }else if (otp === '11111111'){
+      return res.json(createAgileOp_NoFrec);
     }
     if (allowIdCAO.indexOf(req.body.operationId) == -1){
       return res.status(400).json(createAgileOpErr_02);
