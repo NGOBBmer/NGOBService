@@ -1,6 +1,7 @@
 {
   "data": {
     "operationId": "1234567890",
-    "message": "OPERACIÓN EXITOSA"
+    "message": "OPERACIÓN EXITOSA",
+    "folio": "11"
   }
 }
