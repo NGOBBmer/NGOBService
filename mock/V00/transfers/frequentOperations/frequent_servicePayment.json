@@ -1,9 +1,44 @@
 {
   "listFrequentOperation": [
     {
-      "id": "FRPS000000",
-      "reference": "6520010205508024",
-      "shortName": "PalacioTes",
+      "id": "ZTAJG6GA135PFWHTYBVG1J372NWS4A48HZS8NFJB9SDZ7YC4BCQ7TJ9F8PZERMR672XF6RJFR2QFP",
+      "reference": "55565101784",
+      "shortName": "testTelmex",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "TELEFONOS DE MEXICO,SA DE CV",
+                  "id": "0035241",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "55565101784"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "58",
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TD"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "BKE81DNH221T5AEQ233PJD1D1N0D20D71AZ1VEVGMB9189PHDC4CB8M2N61WGRG8EBGMD0NEQKHCT",
+      "reference": "347682901278351",
+      "shortName": "palacioCIE",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationPayment": {
@@ -18,11 +53,15 @@
                 }
               }
             },
-            "email": "6520010205508024"
+            "email": "null"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
           }
         }
       },
       "extendedData": {
+        "frequentOperationsCounter": "8",
         "reliableOperation": false
       },
       "avatar": {
@@ -32,9 +71,9 @@
       "operationType": "SERVICEPAYMENT"
     },
     {
-      "id": "FRPS000001",
-      "reference": "01973761001947180707",
-      "shortName": "CFETest",
+      "id": "TSFS1KA2FBKG6M1MND49ZBMGTZ0XHNTA4ZVKM1XTPKCWSXK6BV6NNJ3JC2G7H7RPW3AY3W2STPBSJ",
+      "reference": "111111111111",
+      "shortName": "izzi1",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationPayment": {
@@ -42,30 +81,34 @@
             "contract": {
               "product": {
                 "enterpriseAgreement": {
-                  "enterpriseName": "CFE SUMINISTRADOR DE SERVICIOS BASI",
-                  "id": "0578869",
+                  "enterpriseName": "IZZI",
+                  "id": "1294350",
                   "conceptRequires": false,
                   "referenceRequires": true
                 }
               }
             },
-            "email": "01973761001947180707"
+            "email": "111111111111"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
           }
         }
       },
       "extendedData": {
+        "frequentOperationsCounter": "4",
         "reliableOperation": false
       },
       "avatar": {
         "image": "",
-        "ini": "CS"
+        "ini": "IZ"
       },
       "operationType": "SERVICEPAYMENT"
     },
     {
-      "id": "FRPS000002",
-      "reference": "1000001871664501",
-      "shortName": "Liverpool",
+      "id": "ZTAJG6GA135PFWHTYBVG1J372M5CD27N16XQCQ6C2241852DJ0R7TJ9F8PZERMR672XF6RJFR2QFP",
+      "reference": "22216901645",
+      "shortName": "PRUEBA",
       "agileOperationType": "FREQUENT_OPERATION",
       "operation": {
         "agileOperationPayment": {
@@ -73,23 +116,342 @@
             "contract": {
               "product": {
                 "enterpriseAgreement": {
-                  "enterpriseName": "DISTRIBUIDORA LIVERPOOL SA DE",
-                  "id": "1207865",
+                  "enterpriseName": "TELEFONOS DE MEXICO,SA DE CV",
+                  "id": "0035241",
                   "conceptRequires": false,
                   "referenceRequires": true
                 }
               }
             },
-            "email": "1000001871664501"
+            "email": "22216901645"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
           }
         }
       },
       "extendedData": {
+        "frequentOperationsCounter": "1",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TD"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "7P86J176X10SDW2A42MM7ESET2215E92V7GZYA599E575N48W04ZTDC5REB1FQT9P8CB2N9P9ZZ58",
+      "reference": "652001023953101",
+      "shortName": "MI_FREC",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "BBVA BANCOMER SERVICIOS,SA F/2",
+                  "id": "000563287",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "em@gmial.com"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BB"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "7P86J176X10SDW2A42MM7ESET2215E92V7GZYA599E575N48W04RTNCB7VY7G2S7W04CW0E033WG8",
+      "reference": "652001023953102",
+      "shortName": "PRUEBA_POS",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "BBVA BANCOMER SERVICIOS,SA F/2",
+                  "id": "000563287",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": ""
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BB"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "7P86J176X10SDW2A42MM7ESET2215E92V7GZYA599E575N48W04HPEX18KZM5APEQTZMWN4G7RTH2",
+      "reference": "652001023953108",
+      "shortName": "FREC_MN",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "BBVA BANCOMER SERVICIOS,SA F/2",
+                  "id": "000563287",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "em@gmial.com"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "BB"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "PJYMMDZ1WMZK8Z3V6BCDW9T9K27J8Q3PRB9JNEE507TS9RFWTE7B4BANQSERMD77HCPW591QFY768",
+      "reference": "111111111111",
+      "shortName": "123456789",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "J M ROMO,SA",
+                  "id": "001294350",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "111111111111"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
         "reliableOperation": false
       },
       "avatar": {
         "image": "",
-        "ini": "DL"
+        "ini": "JM"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "PJYMMDZ1WMZK8Z3V6BCDW9T9K27J8Q3PRB9JNEE507TS9RFWTE7B8QK0ZQBX4QK34D4X1XY2KM0WM",
+      "reference": "111111111122",
+      "shortName": "IZZI1",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "IZZI",
+                  "id": "001294350",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": ""
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "IZ"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "PJYMMDZ1WMZK8Z3V6BCDW9T9K0TWZ4WQBWERM9A1SQ1CJSTTQNS2GZ9NS5QXJ43PNGZFKJ9JPRZA0",
+      "reference": "111111112222",
+      "shortName": "IZZI_P_PM",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "IZZI",
+                  "id": "001294350",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": ""
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "IZ"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "PJYMMDZ1WMZK8Z3V6BCDW9T9K20WWFXAG2GMVZD2QP2A5SJM81D2GZ9NS5QXJ43PNGZFKJ9JPRZA0",
+      "reference": "111111122222",
+      "shortName": "IZZI_P_PM",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "IZZI",
+                  "id": "001294350",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": ""
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "IZ"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "ZTAJG6GA135PFWHTYBVG1J372MDKAYHT3A81FBT1TQYXZS65NSM7TJ9F8PZERMR672XF6RJFR2QFP",
+      "reference": "55108395964",
+      "shortName": "telmexCIE",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "TELEFONOS DE MEXICO,SA DE CV",
+                  "id": "0035241",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "55108395964"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": false
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TD"
+      },
+      "operationType": "SERVICEPAYMENT"
+    },
+    {
+      "id": "ZTAJG6GA135PFWHTYBVG1J372PMA2WP19J2WYTTTC9S8CKJJ6M87TJ9F8PZERMR672XF6RJFR2QFP",
+      "reference": "55535503103",
+      "shortName": "PRUEBA",
+      "agileOperationType": "FREQUENT_OPERATION",
+      "operation": {
+        "agileOperationPayment": {
+          "receiver": {
+            "contract": {
+              "product": {
+                "enterpriseAgreement": {
+                  "enterpriseName": "TELEFONOS DE MEXICO,SA DE CV",
+                  "id": "0035241",
+                  "conceptRequires": false,
+                  "referenceRequires": true
+                }
+              }
+            },
+            "email": "55535503103"
+          },
+          "typeProduct": {
+            "reasonPayment": "CV"
+          }
+        }
+      },
+      "extendedData": {
+        "frequentOperationsCounter": "0",
+        "reliableOperation": true
+      },
+      "avatar": {
+        "image": "",
+        "ini": "TD"
       },
       "operationType": "SERVICEPAYMENT"
     }
