@@ -51,22 +51,18 @@ router.post('/V00/createAgileOperationsPayment', function(req, res, next) {
 	
 	var tsec = req.headers['tsec'];
 	
-	var accountId = req.body.accountId;	
-	var agreement = req.body.servicePayment.agreement;
-	var commercialName = req.body.servicePayment.commercialName;
-	var concept = req.body.servicePayment.concept;
-	var amount = req.body.servicePayment.paymentAmount.amount;
-	var currency = req.body.servicePayment.paymentAmount.currency;
-	var reference = req.body.servicePayment.reference;
-	var shortName = req.body.servicePayment.shortName;
-	var frequentId = req.body.frequentId;
-	console.log(frequentId);
+	var agileOperationType = req.body.agileOperationType;	
+	var shortName = req.body.shortName;
+	var operationId = req.body.operationId;	
+	var number = req.body.receiver.number;
+	var currency = req.body.receiver.name;
+	var reference = req.body.receiver.reference;;
   
 	if( tsec === 'null' || tsec === 'undefined' || tsec === ''){
 		return res.json(createAgileOperationsPayment_ErrorTSEC);
 	}
 	
-	if( frequentId === 'null' || frequentId === 'undefined' || frequentId === ''){
+	if( operationId === 'null' || operationId === 'undefined' || operationId === ''){
 		return res.json(createAgileOperationsPayment_Success);
 	}else{
 		return res.json(createAgileOperationsPayment_Error);		
