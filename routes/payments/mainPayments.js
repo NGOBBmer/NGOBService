@@ -14,6 +14,9 @@ var createAgileOperationsPayment_Error = require('../../mock/V00/payments/create
 var createAgileOperationsPayment_ErrorTSEC = require('../../mock/V00/payments/createAgileOperationsPayment/createAgileOperationsPayment_ErrorTSEC.json');
 var createAgileOperationsPayment_Success = require('../../mock/V00/payments/createAgileOperationsPayment/createAgileOperationsPayment_Success.json');
 
+var err_tsec_01 = require('../../mock/V00/genericError/error_invalid_tsec.json');
+var err_tsec_02 = require('../../mock/V00/genericError/error_without_tsec.json');
+
 /* GET users listing. */
 router.use(function(req, res, next) {
     var host = req.get('origin');
@@ -67,6 +70,21 @@ router.post('/V00/createAgileOperationsPayment', function(req, res, next) {
 	}else{
 		return res.json(createAgileOperationsPayment_Error);		
 	} 
+});
+
+// handler for query http://localhost:5000/payments/V00/createAgileOperationsPayment
+var CSP_01_OK = require('../../mock/V00/payments/createServicePayment/CSP_01.json');
+router.post('/V00/createServicePayment', function(req, res, next) {
+	
+	var tsec = req.headers['tsec'];
+	var otp = req.headers['otp'];
+
+	if (otp === undefined){
+		return res.status(400).json(err_tsec_01);
+	}else if (body.operationId==='11223344556677889900'){
+		return res.json(CSP_01_OK);
+	}
+	next();
 });
 
 module.exports = router;

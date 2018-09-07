@@ -1,0 +1,14 @@
+{
+  "operationDate": "2018-09-10",
+  "applicationDate": "2018-09-10",
+  "operationId": "1234567890",
+  "servicePayment": {
+    "commercialName": "TELMEX",
+    "reference": "97171381177",
+    "agreement": "0012345",
+    "paymentAmount": {
+      "amount": 0.02,
+      "currency": "MXN"
+    }
+  }
+}
