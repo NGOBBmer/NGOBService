@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR_TSEC_002",
+    "message": "Tsec inválido.",
+    "descripcion": "Se ha producido un error al consultar el servicio /payments/v0/getBalancePaymentPlan/123",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}
