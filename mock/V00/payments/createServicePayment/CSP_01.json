@@ -2,6 +2,7 @@
   "operationDate": "2018-09-10",
   "applicationDate": "2018-09-10",
   "operationId": "1234567890",
+  "operationChannelId": "112233",
   "servicePayment": {
     "commercialName": "TELMEX",
     "reference": "97171381177",
