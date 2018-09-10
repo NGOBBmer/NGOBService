@@ -47,7 +47,7 @@ router.get('/V00/getBalancePaymentPlan/', function(req, res, next) {
 
 
 // handler for query http://localhost:5000/payments/V00/createAgileOperationsPayment
-router.post('/V00/createAgileOperationsPayment', function(req, res, next) {
+router.post('/V00/createAgileOperations', function(req, res, next) {
 	
 	var tsec = req.headers['tsec'];
 	
