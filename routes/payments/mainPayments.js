@@ -82,7 +82,7 @@ router.post('/V00/createServicePayment', function(req, res, next) {
 
 	if (otp === undefined){
 		return res.status(400).json(err_otp_01);
-	}else if (body.operationId==='11223344556677889900'){
+	}else if (req.body.operationId==='11223344556677889900'){
 		return res.json(CSP_01_OK);
 	}
 	next();
