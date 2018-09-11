@@ -17,6 +17,7 @@ var createAgileOperationsPayment_Success = require('../../mock/V00/payments/crea
 var err_tsec_01 = require('../../mock/V00/genericError/error_invalid_tsec.json');
 var err_tsec_02 = require('../../mock/V00/genericError/error_without_tsec.json');
 var err_otp_01 = require('../../mock/V00/genericError/error_without_otp.json');
+var err_generic = require('../../mock/V00/genericError/error_generic.json');
 
 /* GET users listing. */
 router.use(function(req, res, next) {
@@ -83,10 +84,11 @@ router.post('/V00/createServicePayment', function(req, res, next) {
 
 	if (otp === undefined){
 		return res.status(400).json(err_otp_01);
-	}else if (req.body.operationId==='11223344556677889900'){
+	}else if (req.body.frequentId==='11223344556677889900'){
 		return res.json(CSP_01_OK);
 	}
-	next();
+	res.status(406).json(err_generic);
+	
 });
 
 module.exports = router;
