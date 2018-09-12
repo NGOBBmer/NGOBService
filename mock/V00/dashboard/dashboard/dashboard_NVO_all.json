@@ -1575,8 +1575,10 @@
           "cellsNavigation": true
         },
         "assigned": {
-          "isNominated": false,
-          "hasPocket": false
+          "isNominated": true,
+          "hasPocket": false,
+          "pathUrl": "spendingPockets?origen=PG&cuentaId=CHMXP0000001",
+          "text": "Ir a Apartados"
         },
         "image": {
           "type": "CHECKACCOUNT",
@@ -1611,8 +1613,10 @@
           "cellsNavigation": true
         },
         "assigned": {
-          "isNominated": false,
-          "hasPocket": false
+          "isNominated": true,
+          "hasPocket": false,
+          "pathUrl": "spendingPockets?origen=PG&cuentaId=CHMXP0000002",
+          "text": "Ir a Apartados"
         },
         "image": {
           "type": "CHECKACCOUNT",
