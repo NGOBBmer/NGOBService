@@ -20,6 +20,11 @@ var search_palacio_de_hierro_0516212 = require('../../../mock/V00/payments/advan
 var search_error = require('../../../mock/V00/payments/advancedSearch/search_error.json');
 var search_no_encontrado = require('../../../mock/V00/payments/advancedSearch/search_no_encontrado.json');
 
+var listAgreementsSponsors = require('../../../mock/V00/payments/listAgreements/istAgreementsSPONSORS.json');
+var listAgreementsError  = require('../../../mock/V00/payments/listAgreements/listAgreementError.json');
+var listAgreementsErrorTsec  = require('../../../mock/V00/payments/listAgreements/errorTsec.json');
+
+
 router.use(function(req, res, next) {
   var host = req.get('origin');
   res.setHeader('Access-Control-Allow-Origin', host||"*");
@@ -96,5 +101,20 @@ router.get('/V00/advancedSearch', function(req, res, next) {
   next();
 });
 
+//payments/V00/listAgreements?type=SPONSORS
+router.get('/V00/listAgreements', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  var type = req.query.type;
+
+
+  if(tsec!=null && tsec.includes("errorListAgreements")){
+    return res.status(400).json(search_error); 
+    
+  } else {
+    return res.json(listAgreementsSponsors);
+  }
+
+  next();
+});
 
 module.exports = router;
