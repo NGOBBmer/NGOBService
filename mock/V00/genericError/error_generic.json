@@ -1,8 +1,8 @@
 {
   "error": {
-    "code": "ERROR_001",
-    "message": "Servicio temporalmente no disponible",
-    "descripcion": "Se ha producido un error al consultar el servicio.",
+    "code": "ERR_OTP_001",
+    "message": "Servicio temporalmente no disponible.",
+    "descripcion": "Se ha producido un error al consultar el servicio /payments/v0/createServicePayment",
     "version": "1",
     "severity": "FATAL",
     "httpStatus": "400"
