@@ -1,0 +1,10 @@
+{
+    "error": {
+        "code": "ERR_DAT_001",
+        "message": "La informacion proporcionada es incorrecta",
+        "descripcion": "Se ha producido un error al consultar el servicio /payments/V00/createAgileOperations",
+        "version": "1",
+        "severity": "FATAL",
+        "httpStatus": "400"
+    }
+}

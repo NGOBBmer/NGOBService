@@ -12,6 +12,7 @@ var balancePaymentPlan_withoutAmount = require('../../mock/V00/payments/getBalan
 
 var createAgileOperationsPayment_Error = require('../../mock/V00/payments/createAgileOperationsPayment/createAgileOperationsPayment_Error.json');
 var createAgileOperationsPayment_ErrorTSEC = require('../../mock/V00/payments/createAgileOperationsPayment/createAgileOperationsPayment_ErrorTSEC.json');
+var createAgileOperationsPayment_ErrorOTP = require('../../mock/V00/payments/createAgileOperationsPayment/createAgileOperationsPayment_ErrorOTP.json');
 var createAgileOperationsPayment_Success = require('../../mock/V00/payments/createAgileOperationsPayment/createAgileOperationsPayment_Success.json');
 
 /* GET users listing. */
@@ -50,19 +51,24 @@ router.get('/V00/getBalancePaymentPlan/', function(req, res, next) {
 router.post('/V00/createAgileOperations', function(req, res, next) {
 	
 	var tsec = req.headers['tsec'];
+	var otp = req.headers['otp'];
 	
 	var agileOperationType = req.body.agileOperationType;	
 	var shortName = req.body.shortName;
 	var operationId = req.body.operationId;	
 	var number = req.body.receiver.number;
 	var currency = req.body.receiver.name;
-	var reference = req.body.receiver.reference;;
+	var reference = req.body.receiver.reference;
   
-	if( tsec === 'null' || tsec === 'undefined' || tsec === ''){
+	if( otp === 'null' || otp === undefined || otp === ''){
+		return res.json(createAgileOperationsPayment_ErrorOTP);
+	}
+  
+	if( tsec === 'null' || tsec === undefined || tsec === ''){
 		return res.json(createAgileOperationsPayment_ErrorTSEC);
 	}
 	
-	if( operationId === 'null' || operationId === 'undefined' || operationId === ''){
+	if( operationId === 'null' || operationId === undefined || operationId === ''){
 		return res.json(createAgileOperationsPayment_Success);
 	}else{
 		return res.json(createAgileOperationsPayment_Error);		
