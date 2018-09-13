@@ -118,11 +118,11 @@ var listAgreementsSponsors = require('../../mock/V00/payments/listAgreements/ist
 var listAgreementsError  = require('../../mock/V00/payments/listAgreements/listAgreementError.json');
 var listAgreementsErrorTsec  = require('../../mock/V00/payments/listAgreements/errorTsec.json');
 
-var agreementsOrderAmex  = require('../../mock/V00/payments/AgreementsOrder/amex.json');
-var agreementsOrderLiver = require('../../mock/V00/payments/AgreementsOrder/liverpool.json');
-var agreementsOrderTelmex= require('../../mock/V00/payments/AgreementsOrder/telmex.json');
-var agreementsOrderError = require('../../mock/V00/payments/AgreementsOrder/errorAgreementsOrder.json');
-var agreementsNoEncontrado = require('../../mock/V00/payments/AgreementsOrder/noEcontrado.json');
+var agreementsOrderAmex  = require('../../mock/V00/payments/agreementsOrder/amex.json');
+var agreementsOrderLiver = require('../../mock/V00/payments/agreementsOrder/liverpool.json');
+var agreementsOrderTelmex= require('../../mock/V00/payments/agreementsOrder/telmex.json');
+var agreementsOrderError = require('../../mock/V00/payments/agreementsOrder/errorAgreementsOrder.json');
+var agreementsNoEncontrado = require('../../mock/V00/payments/agreementsOrder/noEcontrado.json');
 
 // handler for query http://localhost:4000/payments/V00/advancedSearch?agreement=telemx
 /*
