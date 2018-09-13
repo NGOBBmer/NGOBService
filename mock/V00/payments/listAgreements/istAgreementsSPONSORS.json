@@ -4,7 +4,7 @@
             "id": "SP001",
             "orderName": "TELMEX",
             "image": {
-                "url": "/img/servicios/m_telmex.jpg"
+                "url": "img/servicios/m_telmex.jpg"
             },
             "navigation": {
                 "pathUrl": "conveniosGiro",
@@ -19,7 +19,7 @@
             "id": "SP002",
             "orderName": "AMEX",
             "image": {
-                "url": "/img/servicios/m_american.jpg"
+                "url": "img/servicios/m_american.jpg"
             },
             "navigation": {
                 "pathUrl": "conveniosGiro",
@@ -34,7 +34,7 @@
             "id": "SP003",
             "orderName": "CFE",
             "image": {
-                "url": "/img/servicios/m_cfe.jpg"
+                "url": "img/servicios/m_cfe.jpg"
             },
             "navigation": {
                 "pathUrl": "preRegConvenioNormalOK",
@@ -49,7 +49,7 @@
             "id": "SP004",
             "orderName": "Liverpool",
             "image": {
-                "url": "/img/servicios/m_liverpool.jpg"
+                "url": "img/servicios/m_liverpool.jpg"
             },
             "navigation": {
                 "pathUrl": "conveniosGiro",
@@ -64,7 +64,7 @@
             "id": "SP005",
             "orderName": "Palacio",
             "image": {
-                "url": "/img/servicios/m_palacio.jpg"
+                "url": "img/servicios/m_palacio.jpg"
             },
             "navigation": {
                 "pathUrl": "preRegConvenioNormalOK",

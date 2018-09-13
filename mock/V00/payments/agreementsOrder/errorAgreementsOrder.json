@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "ERR 0001",
+    "message": "No se encontro tsec en la peticion",
+    "descripcion": "Se ha producido un error al consultar el servicio /payments/V00/getAgreementsOrder",
+    "version": "1",
+    "severity": "FATAL",
+    "httpStatus": "400"
+  }
+}

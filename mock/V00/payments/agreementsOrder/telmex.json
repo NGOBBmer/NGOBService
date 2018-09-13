@@ -1,0 +1,77 @@
+{
+    "data": [
+        {
+            "id": "171187151156150149152AB138AB413821399278",
+            "agreement": {
+                "number": "0035241",
+                "accountType": "CV",
+                "referenceAccount": "TELMEX"
+            },
+            "transferType": "SERVICEPAYMENT",
+            "beneficiary": {
+                "company": {
+                    "code": "0035241",
+                    "name": "TELEFONOS DE MEXICO",
+                    "comercialName": "TELMEX",
+                    "coverage": "Nacional",
+                    "typeayment": "Mensual"
+                }
+            },
+            "avatar": {
+                "image": "img/servicios/telmex.gif",
+                "ini": "TE"
+            },
+            "sendDetail": true,
+            "useSearcher": false
+        },
+        {
+            "id": "168186148157155156152AB138AB100978393151",
+            "agreement": {
+                "number": "0624101",
+                "accountType": "CV",
+                "referenceAccount": "TELMEX CUENTA MAESTRA"
+            },
+            "transferType": "SERVICEPAYMENT",
+            "beneficiary": {
+                "company": {
+                    "code": "0624101",
+                    "name": "TELEFONOS DE MEXICO",
+                    "comercialName": "TELMEX CUENTA MAESTRA",
+                    "coverage": "Nacional",
+                    "typeayment": "Mensual"
+                }
+            },
+            "avatar": {
+                "image": "img/servicios/telmex_cm.gif",
+                "ini": "TC"
+            },
+            "sendDetail": true,
+            "useSearcher": false
+        },
+        {
+            "id": "170186153151156157157AB138AB305389859672",
+            "agreement": {
+                "number": "4322222",
+                "accountType": "CV",
+                "referenceAccount": "VENTURA"
+            },
+            "transferType": "SERVICEPAYMENT",
+            "beneficiary": {
+                "company": {
+                    "code": "4322222",
+                    "name": "ANGEL",
+                    "comercialName": "VENTURA",
+                    "coverage": "322 ALTOTONGA",
+                    "typeayment": "HOME"
+                }
+            },
+            "avatar": {
+                "image": "",
+                "ini": "VE"
+            },
+            "sendDetail": true,
+            "useSearcher": false
+        }
+    ],
+    "search": "8"
+}

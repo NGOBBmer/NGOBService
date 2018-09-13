@@ -24,6 +24,12 @@ var listAgreementsSponsors = require('../../../mock/V00/payments/listAgreements/
 var listAgreementsError  = require('../../../mock/V00/payments/listAgreements/listAgreementError.json');
 var listAgreementsErrorTsec  = require('../../../mock/V00/payments/listAgreements/errorTsec.json');
 
+var agreementsOrderAmex  = require('../../../mock/V00/payments/AgreementsOrder/amex.json');
+var agreementsOrderLiver = require('../../../mock/V00/payments/AgreementsOrder/liverpool.json');
+var agreementsOrderTelmex= require('../../../mock/V00/payments/AgreementsOrder/telmex.json');
+var agreementsOrderError = require('../../../mock/V00/payments/AgreementsOrder/errorAgreementsOrder.json');
+var agreementsNoEncontrado = require('../../../mock/V00/payments/AgreementsOrder/noEcontrado.json');
+
 
 router.use(function(req, res, next) {
   var host = req.get('origin');
@@ -116,5 +122,34 @@ router.get('/V00/listAgreements', function(req, res, next) {
 
   next();
 });
+
+//payments/V00/getAgreementsOrder?order=8
+router.get('/V00/getAgreementsOrder', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  var order = req.query.order;
+
+
+  if(tsec!=null && tsec.includes("errorAgreementsOrder")){
+    return res.status(400).json(agreementsOrderError); 
+    
+  } else {
+    if (order==12){
+      return res.json(agreementsOrderLiver);
+    
+    } else if (order==8){
+      return res.json(agreementsOrderTelmex);
+
+    } else if (order==7){
+      return res.json(agreementsOrderAmex);
+      
+    } else {
+       return res.json(agreementsNoEncontrado);
+    }
+  }
+
+  next();
+});
+
+
 
 module.exports = router;
