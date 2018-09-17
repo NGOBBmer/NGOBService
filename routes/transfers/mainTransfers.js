@@ -13,6 +13,7 @@ var listReceiver_tdc01 = require('../../mock/V00/transfers/listAccountTr/listRec
 var listReceiver_tdc02 = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdc02.json');
 var listReceiver_tdcError = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdcError.json');
 var listReceiver_empty = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdcEmpty.json');
+var listReceiver_empty2 = require('../../mock/V00/transfers/listAccountTr/listReceiver_tdcEmpty2.json');
 var listSender_tdcEmpty = require('../../mock/V00/transfers/listAccountTr/listSender_tdcEmpty.json');
 var listSender_tdc03 = require('../../mock/V00/transfers/listAccountTr/listSender_tdc03.json');
 var listSender_paco = require('../../mock/V00/transfers/listAccountTr/listSender_paco.json');
@@ -331,6 +332,8 @@ router.get('/V00/listReceiverAccounts', function(req, res, next) {
     var tsec = req.headers['tsec'];
     if (tsec.includes("listReceiver01")){
         return res.json(listReceiver_regla01);
+    }else if(tsec.includes("listReceiver2")){
+        return res.json(listReceiver_empty);
     }else{
         if(tsec.includes("receiver1Accounts")){
             return res.json(listReceiver_oneAcc);
