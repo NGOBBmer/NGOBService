@@ -1,0 +1,49 @@
+{
+  "message": [
+    "Una vez confirmado, iniciarás el proceso de reclamación"
+  ],
+  "cellsNavigation": true,
+  "params": {
+    "inId": "ylke0p7RvJ2vm1LcYeP4P+ysLUgzmZyV+eB5SifuOmXunUWWimzdotB0tu9FYBLF"
+  },
+  "options": [
+    {
+      "text": "Abono en línea",
+      "actions": [
+        {
+          "type": "normal",
+          "icon": "",
+          "action": "closeMovement",
+          "text": " cancelar ",
+          "actionType": "link"
+        },
+        {
+          "type": "normal",
+          "icon": "",
+          "action": "makeClarification",
+          "text": "confirmar ",
+          "actionType": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Levantar una aclaración",
+      "actions": [
+        {
+          "type": "normal",
+          "icon": "",
+          "action": "closeMovement",
+          "text": "cancelar ",
+          "actionType": "primary"
+        },
+        {
+          "type": "normal",
+          "icon": "",
+          "action": "closeMovement",
+          "text": "continuar ",
+          "actionType": "link"
+        }
+      ]
+    }
+  ]
+}
