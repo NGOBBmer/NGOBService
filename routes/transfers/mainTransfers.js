@@ -281,6 +281,8 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
             return res.json(listSender_chUsd);
         }else  if( tsec == 'ERROR'){
             return res.status(406).json(listAccount_err);
+        }else  if( tsec === undefined){
+            return res.status(403).json(listAccount_err);
         }else{
             return res.json(listSender_ch);
         }        
