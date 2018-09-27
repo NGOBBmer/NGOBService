@@ -263,7 +263,7 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
             return res.json(listSender_regla04);
         }
     }else if(req.query.operationType === 'SERVICEPAYMENT'){
-        if( tsec == 'null' || tsec == 'undefined' || tsec == ''){
+        if( tsec == 'null' || tsec == 'undefined'){
             if(req.query.productTypeValid=== '' || req.query.productTypeValid=== null){
                 return res.json(listSender_ch);
             }else if(req.query.productTypeValid=== 'TC'){
@@ -281,7 +281,7 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
             return res.json(listSender_chUsd);
         }else  if( tsec == 'ERROR'){
             return res.status(406).json(listAccount_err);
-        }else  if( tsec === undefined){
+        }else  if( tsec === undefined || tsec == ''){
             return res.status(403).json(listAccount_err);
         }else{
             return res.json(listSender_ch);
