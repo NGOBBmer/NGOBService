@@ -18,6 +18,7 @@ var listSender_tdcEmpty = require('../../mock/V00/transfers/listAccountTr/listSe
 var listSender_tdc03 = require('../../mock/V00/transfers/listAccountTr/listSender_tdc03.json');
 var listSender_paco = require('../../mock/V00/transfers/listAccountTr/listSender_paco.json');
 var listAccount_err = require('../../mock/V00/transfers/listAccountTr/listAccount_err.json');
+var err = require('../../mock/V00/transfers/listAccountTr/error.json');
 var listReceiver_oneAcc = require('../../mock/V00/transfers/listAccountTr/listReceiver_monoprod.json');
 
 var listSender_regla01 = require('../../mock/V00/transfers/listAccountTr/listSender_regla01.json');
@@ -282,7 +283,7 @@ router.get('/V00/listSenderAccounts', function(req, res, next) {
         }else  if( tsec == 'ERROR'){
             return res.status(406).json(listAccount_err);
         }else  if( tsec === undefined || tsec == ''){
-            return res.status(403).json(listAccount_err);
+            return res.status(403).json(err);
         }else{
             return res.json(listSender_ch);
         }        
