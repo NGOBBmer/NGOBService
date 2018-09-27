@@ -110,7 +110,7 @@ var freq_international = require('../../mock/V00/transfers/frequentOperations/fr
 var freq_mobileMoney = require('../../mock/V00/transfers/frequentOperations/frequent_mobileMoney.json');
 var frequent_05 = require('../../mock/V00/transfers/frequentOperations/frequents_5.json');
 var frequent_06 = require('../../mock/V00/transfers/frequentOperations/frequents_6.json');
-
+var frequentServEmpty = require('../../mock/V00/transfers/frequentOperations/frequentsEmpty.json');
 
 
 var frequent_error = require('../../mock/V00/transfers/frequentOperations/ERROR.json');
@@ -514,6 +514,8 @@ router.get('/V00/frequentOperations', function(req, res, next) {
         }else if(req.query.typeOpFrequent === 'MOBILEMONEY'){
             return res.json(freq_mobileMoney);
         }
+    }else if(tsec.includes("emptyServ")){
+        return res.json(frequentServEmpty);
     }else if(tsec.includes("3Freq")){
         return res.json(frequent_01);
     }else if(tsec.includes("5OpFreq")){
