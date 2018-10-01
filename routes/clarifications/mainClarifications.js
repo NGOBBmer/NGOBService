@@ -45,10 +45,8 @@ router.post('/v0/createRefund1/:cardid', function(req, res, next) {
   next();
 });
 
-router.post('/v0/createRefund/', function(req, res, next) {
+router.post('/v0/createRefund', function(req, res, next) {
   var tsec = req.headers['tsec'];
-  var sId = req.body.movementId.substring(0,4);
-
     if (tsec === 'null'){
       return res.json(refund01);
     }else if (tsec.includes("222NOK222")){
