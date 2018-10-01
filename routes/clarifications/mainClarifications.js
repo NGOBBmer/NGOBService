@@ -75,11 +75,11 @@ router.post('/v0/validateRefund/', function(req, res, next) {
       return res.json(validateRef);
     }else if (tsec.includes("222NOK222")){
       return res.status(409).json(refund02);
-    }else if (tsec === '333NOK333'){
+    }else if (tsec.includes("333NOK333")){
       return res.status(409).json(refund03);
-    }else if (tsec === '444NOK444'){
+    }else if (tsec.includes("444NOK444")){
       return res.status(409).json(refund04);
-    }else if (tsec === '555NOK555'){
+    }else if (tsec.includes("555NOK555")){
       return res.status(409).json(refund05);
     }else{
       return res.status(409).json(refunderr);
