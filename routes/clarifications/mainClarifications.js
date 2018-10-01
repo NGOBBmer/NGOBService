@@ -67,7 +67,7 @@ router.post('/v0/createRefund/', function(req, res, next) {
   next();
 });
 
-router.post('/v0/validateRefund/', function(req, res, next) {
+router.post('/v0/validateRefund/:cardid', function(req, res, next) {
   var tsec = req.headers['tsec'];
   var sId = req.body.movementId.substring(0,4);
 
