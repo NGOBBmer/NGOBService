@@ -23,7 +23,7 @@ router.get('/', function(req, res, next) {
 });
 
 // handler for query http://localhost:4000/clarifications/v0/createRefund/TCMXP000001
-router.post('/v0/createRefund/:cardid', function(req, res, next) {
+router.post('/v0/createRefund1/:cardid', function(req, res, next) {
   var tsec = req.headers['tsec'];
   var sId = req.body.movementId.substring(0,4);
 
@@ -45,7 +45,29 @@ router.post('/v0/createRefund/:cardid', function(req, res, next) {
   next();
 });
 
-router.post('/v0/validateRefund/:cardid', function(req, res, next) {
+router.post('/v0/createRefund/', function(req, res, next) {
+  var tsec = req.headers['tsec'];
+  var sId = req.body.movementId.substring(0,4);
+
+    if (tsec === 'null'){
+      return res.json(refund01);
+    }else if (tsec.includes("222NOK222")){
+      return res.status(409).json(refund02);
+    }else if (tsec.includes("333NOK333")){
+      return res.status(409).json(refund03);
+    }else if (tsec.includes("444NOK444")){
+      return res.status(409).json(refund04);
+    }else if (tsec.includes("555NOK555")){
+      return res.status(409).json(refund05);
+    }else{
+      return res.status(409).json(refunderr);
+    }
+     
+  
+  next();
+});
+
+router.post('/v0/validateRefund/', function(req, res, next) {
   var tsec = req.headers['tsec'];
   var sId = req.body.movementId.substring(0,4);
 
