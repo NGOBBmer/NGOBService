@@ -6,15 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 //Indexs
 var routes = require('./routes/index');
-var mainCards = require('./routes/cards/mainCards');
-var mainAccounts = require('./routes/accounts/mainAccounts');
-var mainOperations = require('./routes/operations/mainOperations');
-var qrcronto = require('./routes/security/qr');
-var mainTransfers = require('./routes/transfers/mainTransfers');
-var mainClarifications = require('./routes/clarifications/mainClarifications');
-var mainHire = require('./routes/hire/mainHire');
-var mainDashboard =  require('./routes/dashboard/mainDashboard');
-var mainPayments = require('./routes/payments/mainPayments');
 
 var app = express();
 
@@ -39,15 +30,6 @@ app.all('*', function(req, res, next) {
 });
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
-app.use('/cards', mainCards);
-app.use('/accounts', mainAccounts);
-app.use('/transfers', mainTransfers);
-app.use('/clarifications', mainClarifications);
-app.use('/hire', mainHire);
-app.use('/security', qrcronto);
-app.use('/operations', mainOperations);
-app.use('/dashboard', mainDashboard);
-app.use('/payments', mainPayments);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
